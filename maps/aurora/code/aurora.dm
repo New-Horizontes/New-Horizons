@@ -12,8 +12,8 @@
 
 	station_levels = list(2, 3, 4, 5, 6, 7)
 	admin_levels = list(1)
-	contact_levels = list(3, 4, 5, 6, 7)
-	player_levels = list(2, 3, 4, 5, 6, 7, 8)
+	contact_levels = list(3, 4, 5, 6, 7, 9)
+	player_levels = list(2, 3, 4, 5, 6, 7, 8, 9)
 	restricted_levels = list()
 	accessible_z_levels = list("2" = 60, "6" = 20, "7" = 20)
 	base_turf_by_z = list(
