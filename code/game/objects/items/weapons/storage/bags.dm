@@ -314,6 +314,13 @@
 	new /obj/item/coin/gold(src)
 	new /obj/item/coin/gold(src)
 
+/obj/item/storage/bag/money/casino/New()
+	..()
+	new /obj/item/coin/casino(src)
+	new /obj/item/coin/casino(src)
+	new /obj/item/coin/casino(src)
+	new /obj/item/coin/casino(src)
+
 // -----------------------------
 //           Book bag
 // -----------------------------

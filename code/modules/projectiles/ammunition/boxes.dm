@@ -499,3 +499,6 @@
 	ammo_type = /obj/item/ammo_casing/nuke
 	max_ammo = 2
 	multiple_sprites = 1
+
+/obj/item/ammo_magazine/boltaction/blank
+	ammo_type = /obj/item/ammo_casing/a762/blank

@@ -488,6 +488,15 @@
 	meltdose = 4
 	taste_description = "acid"
 
+/decl/reagent/acid/vodryanic
+	name = "Vodryanic"
+	description = "A deadly compound capable of dissolving unprotected organic tissue if exposed to high concentrations."
+	reagent_state = LIQUID
+	color = "#b0bf1a"
+	power = 10
+	meltdose = 4
+	taste_description = "acid"
+
 /decl/reagent/acid/stomach
 	name = "Stomach Acid"
 	taste_description = "coppery foulness"

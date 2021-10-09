@@ -377,3 +377,7 @@
 	projectile_type = /obj/item/projectile/bullet/recoilless_rifle/peac
 	reload_sound = 'sound/weapons/railgun_insert_emp.ogg'
 	max_stack = 1
+
+/obj/item/ammo_casing/a762/blank
+	desc = "A 7.62mm blank casing."
+	projectile_type = /obj/item/projectile/bullet/blank

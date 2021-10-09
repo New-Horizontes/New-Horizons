@@ -315,3 +315,6 @@
 	use_external_power = 1
 	recharge_time = 12
 	needspin = FALSE
+
+/obj/item/gun/projectile/shotgun/pump/rifle/blank
+	ammo_type = /obj/item/ammo_casing/a762/blank
