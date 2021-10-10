@@ -306,9 +306,9 @@
 /obj/vehicle/bike/casino
 	name = "retrofitted snowmobile"
 	desc = "A modified snowmobile. There is a coin slot on the panel."
-	icon_state = "snowmobile_on"
+	icon_state = "snow_on"
 
-	bike_icon = "snowmobile"
+	bike_icon = "snow"
 	land_speed = 3
 	protection_percent = 10
 	var/paid = FALSE
@@ -323,6 +323,7 @@
 		if(!paid)
 			paid = TRUE
 			to_chat(user, "<span class='notice'>Payment confirmed, enjoy two minutes of unlimited snowmobile use!</span>")
+			qdel(W)
 			addtimer(CALLBACK(src, .proc/rearm), 2 MINUTES)
 		return
 	..()
