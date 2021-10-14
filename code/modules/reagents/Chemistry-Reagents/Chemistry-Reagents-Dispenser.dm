@@ -493,9 +493,27 @@
 	description = "A deadly compound capable of dissolving unprotected organic tissue if exposed to high concentrations."
 	reagent_state = LIQUID
 	color = "#b0bf1a"
-	power = 10
+	power = 8
 	meltdose = 4
 	taste_description = "acid"
+	affects_dead = TRUE
+
+/decl/reagent/acid/vodryanic/affect_blood(var/mob/living/carbon/M, var/alien, var/removed, var/datum/reagents/holder)
+	..()
+	if(M.stat == DEAD)
+		if(M.getFireLoss() <= 200)
+			M.visible_message(SPAN_DANGER("[M] melts into a puddle of acid and remains!"))
+
+			if (istype(loc, /obj/item/holder))
+				var/obj/item/holder/H = M.loc
+				H.release_mob()
+
+			var/obj/effect/decal/cleanable/acid_remains/R = new /obj/effect/decal/cleanable/acid_remains(loc)
+
+			R.blood_DNA = list()
+			R.blood_DNA[M.dna.unique_enzymes] = M.dna.b_type
+
+			qdel(M)
 
 /decl/reagent/acid/stomach
 	name = "Stomach Acid"

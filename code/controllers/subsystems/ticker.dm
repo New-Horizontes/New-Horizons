@@ -51,8 +51,11 @@ var/datum/controller/subsystem/ticker/SSticker
 	var/obj/screen/cinematic = null
 
 	var/list/possible_lobby_tracks = list(
-		'sound/music/Gateway_to_Darkness.ogg'
-	)
+		'sound/music/space.ogg',
+		'sound/music/traitor.ogg',
+		'sound/music/title2.ogg',
+		'sound/music/clouds.s3m',
+		'sound/music/space_oddity.ogg')
 
 	var/lobby_ready = FALSE
 	var/is_revote = FALSE

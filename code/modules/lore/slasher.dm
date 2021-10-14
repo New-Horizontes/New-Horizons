@@ -1,9 +1,10 @@
-/obj/effect/decal/cleanable/crayon
+/obj/effect/decal/cleanable/bayonet
 	name = "bayonet hand sigil"
 	desc = "A sigil drawn in blood. It is a symbol used in rituals to summon the legendary Bayonet Hand."
 	icon = 'icons/obj/slasher.dmi'
+	icon_state = "bayonet_graffiti"
 	layer = 2.1
-	anchored = 1
+	anchored = TRUE
 
 /obj/item/clothing/gloves/bayonet
 	name = "bayonet gauntlet"
@@ -28,6 +29,8 @@
 	edge = TRUE
 	drop_sound = 'sound/items/drop/toolbox.ogg'
 	pickup_sound = 'sound/items/pickup/toolbox.ogg'
+	species_restricted = list(BODYTYPE_TAJARA)
+	unacidable = TRUE
 
 /obj/item/clothing/under/bayonet_hand
 	name = "old tajaran military uniform"
@@ -46,6 +49,8 @@
 	siemens_coefficient = 0
 	item_flags = THICKMATERIAL
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	species_restricted = list(BODYTYPE_TAJARA)
+	unacidable = TRUE
 
 /obj/item/clothing/under/bayonet_hand/verb/gas_cloud()
 	set name = "Gas Cloud "
@@ -53,12 +58,12 @@
 	set category = "Object"
 	set src in usr
 
-	var/datum/reagents/R = new/datum/reagents(40)
+	var/datum/reagents/R = new/datum/reagents(5)
 	R.my_atom = src
-	R.add_reagent(/decl/reagent/soporific,40)
-	var/datum/effect/effect/system/smoke_spread/chem/S = new /datum/effect/effect/system/smoke_spread/chem(/decl/reagent/soporific)
+	R.add_reagent(/decl/reagent/toxin/zombiepowder,5)
+	var/datum/effect/effect/system/smoke_spread/chem/S = new /datum/effect/effect/system/smoke_spread/chem(/decl/reagent/toxin/dextrotoxin)
 	S.show_log = 0
-	S.set_up(R, 20, 0, src, 40)
+	S.set_up(R, 5, 0, src, 5)
 	S.start()
 	qdel(R)
 
@@ -81,10 +86,13 @@
 	flash_protection = FLASH_PROTECTION_MAJOR
 	body_parts_covered = HEAD|FACE|EYES
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|BLOCKHAIR
+	species_restricted = list(BODYTYPE_TAJARA)
+	unacidable = TRUE
 
 /obj/structure/reagent_dispensers/chem_barrel
 	name = "chemical barrel"
 	desc = "A metal barrel containing some unknown chemical."
+	icon = 'icons/obj/slasher.dmi'
 	icon_state = "chem_barrel"
 	amount_per_transfer_from_this = 300
 	reagents_to_add = list(/decl/reagent/acid/vodryanic = 1000)
@@ -96,6 +104,8 @@
 	icon_state = "acid_thrower_tank"
 	item_state = "acid_thrower_tank"
 	contained_sprite = TRUE
+	unacidable = TRUE
+	reagents_to_add = list(/decl/reagent/acid/vodryanic = 500)
 
 /obj/item/watertank/acid_thrower/make_noz()
 	return new /obj/item/reagent_containers/spray/chemsprayer/mister/acid_thrower(src)
@@ -107,8 +117,7 @@
 	icon_state = "acid_thrower"
 	item_state = "acid_thrower"
 	contained_sprite = TRUE
-
-
+	unacidable = TRUE
 
 /obj/structure/casino/roulette
 	name = "roulette"
@@ -144,7 +153,7 @@
 
 /obj/structure/casino/roulette_chart
 	name = "roulette chart"
-	desc = "Roulette chart. Place your bets! "
+	desc = "Roulette chart. Place your bets!"
 	icon = 'icons/obj/casino.dmi'
 	icon_state = "roulette_l"
 	density = 1
@@ -156,3 +165,10 @@
 	if(user.unEquip(W, 0, src.loc))
 		user.make_item_drop_sound(W)
 		return 1
+
+/obj/effect/decal/cleanable/acid_remains
+	name = "corroded remains"
+	icon = 'icons/obj/slasher.dmi'
+	icon_state = "acid_puddle"
+	desc = "A mixture of mortal remains and acid."
+	anchored = TRUE
