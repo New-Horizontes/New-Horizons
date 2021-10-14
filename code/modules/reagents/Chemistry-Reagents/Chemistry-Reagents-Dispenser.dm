@@ -504,11 +504,11 @@
 		if(M.getFireLoss() <= 200)
 			M.visible_message(SPAN_DANGER("[M] melts into a puddle of acid and remains!"))
 
-			if (istype(loc, /obj/item/holder))
+			if (istype(M.loc, /obj/item/holder))
 				var/obj/item/holder/H = M.loc
 				H.release_mob()
 
-			var/obj/effect/decal/cleanable/acid_remains/R = new /obj/effect/decal/cleanable/acid_remains(loc)
+			var/obj/effect/decal/cleanable/acid_remains/R = new /obj/effect/decal/cleanable/acid_remains(M.loc)
 
 			R.blood_DNA = list()
 			R.blood_DNA[M.dna.unique_enzymes] = M.dna.b_type
