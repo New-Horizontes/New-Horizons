@@ -172,3 +172,12 @@
 	icon_state = "acid_puddle"
 	desc = "A mixture of mortal remains and acid."
 	anchored = TRUE
+
+/obj/item/photo/slasher
+	name = "marked photo"
+	desc = "A photography of four Tajara standing before a hanged Tajaran corpse. A red symbol was drawn over the picture."
+
+/obj/item/photo/slasher/show(mob/user as mob)
+	user << browse("<HTML><BODY></BODY><center><img src='markedphoto.png'></center><br/><br/></HTML>", "window=[name];size=401x195")
+	onclose(user, "[name]")
+	return
