@@ -186,3 +186,9 @@
 	name = "adhomian oven"
 	icon = 'icons/obj/slasher.dmi'
 	desc = "A traditional Adhomian oven."
+
+/obj/structure/reagent_dispensers/keg/khlibnyz
+	name = "khlibnyz barrel"
+	desc = "A wooden khlibnyz barrel."
+	icon_state = "woodkeg"
+	reagents_to_add = list(/decl/reagent/alcohol/khlibnyz = 1000)
