@@ -181,3 +181,8 @@
 	user << browse("<HTML><BODY></BODY><center><img src='markedphoto.png'></center><br/><br/></HTML>", "window=[name];size=401x195")
 	onclose(user, "[name]")
 	return
+
+/obj/machinery/appliance/cooker/oven/adhomai
+	name = "adhomian oven"
+	icon = 'icons/obj/slasher.dmi'
+	desc = "A traditional Adhomian oven."
