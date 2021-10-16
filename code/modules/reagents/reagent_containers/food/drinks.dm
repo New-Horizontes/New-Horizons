@@ -123,8 +123,8 @@ If you add a drink with no empty icon sprite, ensure it is flagged as NO_EMPTY_I
 	icon_state = "golden_cup"
 	item_state = "golden_cup" //nope :[
 	w_class = ITEMSIZE_NORMAL
-	force = 14
-	throwforce = 10
+//	force = 14
+//	throwforce = 10
 	amount_per_transfer_from_this = 20
 	possible_transfer_amounts = null
 	volume = 150
@@ -144,7 +144,7 @@ If you add a drink with no empty icon sprite, ensure it is flagged as NO_EMPTY_I
 	icon_state = "bronze_cup"
 	item_state = "bronze_cup" //nope :[
 
-/obj/item/reagent_containers/food/drinks/trophy/trophy
+/obj/item/reagent_containers/food/drinks/golden_cup/trophy
 	name = "pewter cup"
 	desc = "Everyone gets a trophy."
 	icon_state = "pewter_cup"

@@ -192,3 +192,23 @@
 	desc = "A wooden khlibnyz barrel."
 	icon_state = "woodkeg"
 	reagents_to_add = list(/decl/reagent/alcohol/khlibnyz = 1000)
+
+/obj/item/prrama
+	name = "p'rrama"
+	desc = "A traditional Adhomian plucked string instrument, with eight strings and four holes at its end."
+	icon = 'icons/obj/slasher.dmi'
+	icon_state = "prrama"
+	item_state = "prrama"
+	contained_sprite = TRUE
+	slot_flags = SLOT_BELT
+	w_class = ITEMSIZE_NORMAL
+	var/can_play = TRUE
+
+/obj/item/prrama/attack_self(mob/user)
+	if(!can_play)
+		return
+	if(ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(istajara(H))
+			playsound(H, 'sound/music/Kobyz.ogg', 80, 1)
+			can_play = FALSE
