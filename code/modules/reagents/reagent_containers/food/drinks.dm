@@ -118,17 +118,39 @@ If you add a drink with no empty icon sprite, ensure it is flagged as NO_EMPTY_I
 ////////////////////////////////////////////////////////////////////////////////
 
 /obj/item/reagent_containers/food/drinks/golden_cup
-	desc = "A golden cup"
+	desc = "You're winner!"
 	name = "golden cup"
 	icon_state = "golden_cup"
-	item_state = "" //nope :[
-	w_class = ITEMSIZE_LARGE
+	item_state = "golden_cup" //nope :[
+	w_class = ITEMSIZE_NORMAL
 	force = 14
 	throwforce = 10
 	amount_per_transfer_from_this = 20
 	possible_transfer_amounts = null
 	volume = 150
 	flags = CONDUCT | OPENCONTAINER
+
+/obj/item/reagent_containers/food/drinks/golden_cup/silver
+	desc = "Best loser!"
+	name = "silver cup"
+	volume = 100
+	icon_state = "silver_cup"
+	item_state = "silver_cup" //nope :[
+
+/obj/item/reagent_containers/food/drinks/golden_cup/bronze
+	desc = "At least you ranked!"
+	volume = 50
+	name = "bronze cup"
+	icon_state = "bronze_cup"
+	item_state = "bronze_cup" //nope :[
+
+/obj/item/reagent_containers/food/drinks/trophy/trophy
+	name = "pewter cup"
+	desc = "Everyone gets a trophy."
+	icon_state = "pewter_cup"
+	item_state = "pewter_cup" //nope :[
+	w_class = ITEMSIZE_SMALL
+	volume = 25
 
 ///////////////////////////////////////////////Drinks
 //Notes by Darem: Drinks are simply containers that start preloaded. Unlike condiments, the contents can be ingested directly
