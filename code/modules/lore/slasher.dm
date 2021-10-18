@@ -97,6 +97,11 @@
 	amount_per_transfer_from_this = 300
 	reagents_to_add = list(/decl/reagent/acid/vodryanic = 1000)
 
+/obj/structure/reagent_dispensers/chem_barrel/rad
+	icon_state = "rad_barrel"
+	amount_per_transfer_from_this = 300
+	reagents_to_add = list(/decl/reagent/uranium/waste = 1000)
+
 /obj/item/watertank/acid_thrower
 	name = "acid thrower tank"
 	desc = "A reinforced backpack tank linked to an acid thrower weapon."

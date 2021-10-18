@@ -166,6 +166,13 @@
 				new /obj/effect/decal/cleanable/greenglow(T)
 			return
 
+/decl/reagent/uranium/waste
+	name = "Nuclear Waste"
+	description = "Highly radioactive material created as the product of a nuclear reaction."
+
+/decl/reagent/uranium/waste/affect_blood(var/mob/living/carbon/M, var/alien, var/removed, var/datum/reagents/holder)
+	M.apply_effect(20 * removed, IRRADIATE, blocked = 0)
+
 /decl/reagent/platinum
 	name ="Platinum"
 	description = "Platinum is a naturally occuring silvery metalic element."
