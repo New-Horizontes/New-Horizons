@@ -494,12 +494,19 @@
 	reagent_state = LIQUID
 	color = "#b0bf1a"
 	power = 8
-	meltdose = 4
+	meltdose = 2
 	taste_description = "acid"
 	affects_dead = TRUE
 
 /decl/reagent/acid/vodryanic/affect_blood(var/mob/living/carbon/M, var/alien, var/removed, var/datum/reagents/holder)
 	..()
+	check_melt(M)
+
+/decl/reagent/acid/vodryanic/affect_touch(var/mob/living/carbon/M, var/alien, var/removed, var/datum/reagents/holder) // This is the most interesting
+	..()
+	check_melt(M)
+
+/decl/reagent/acid/vodryanic/proc/check_melt(var/mob/living/carbon/M)
 	if(M.stat == DEAD)
 		if(M.getFireLoss() <= 200)
 			M.visible_message(SPAN_DANGER("[M] melts into a puddle of acid and remains!"))
@@ -514,6 +521,7 @@
 			R.blood_DNA[M.dna.unique_enzymes] = M.dna.b_type
 
 			qdel(M)
+
 
 /decl/reagent/acid/stomach
 	name = "Stomach Acid"
