@@ -497,18 +497,21 @@
 	meltdose = 2
 	taste_description = "acid"
 	affects_dead = TRUE
+	unaffected_species = IS_MACHINE
 
 /decl/reagent/acid/vodryanic/affect_blood(var/mob/living/carbon/M, var/alien, var/removed, var/datum/reagents/holder)
-	..()
+	. = ..()
 	check_melt(M)
 
 /decl/reagent/acid/vodryanic/affect_touch(var/mob/living/carbon/M, var/alien, var/removed, var/datum/reagents/holder) // This is the most interesting
-	..()
+	. = ..()
 	check_melt(M)
 
 /decl/reagent/acid/vodryanic/proc/check_melt(var/mob/living/carbon/M)
+	if(prob(5))
+		M.visible_message(SPAN_DANGER("[M]'s flesh fizzles violently!"))
 	if(M.stat == DEAD)
-		if(M.getFireLoss() <= 200)
+		if(M.getFireLoss() >= 100)
 			M.visible_message(SPAN_DANGER("[M] melts into a puddle of acid and remains!"))
 
 			if (istype(M.loc, /obj/item/holder))
@@ -517,8 +520,7 @@
 
 			var/obj/effect/decal/cleanable/acid_remains/R = new /obj/effect/decal/cleanable/acid_remains(M.loc)
 
-			R.blood_DNA = list()
-			R.blood_DNA[M.dna.unique_enzymes] = M.dna.b_type
+			R.add_blood(M)
 
 			qdel(M)
 

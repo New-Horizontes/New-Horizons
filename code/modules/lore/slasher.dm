@@ -177,6 +177,43 @@
 	icon_state = "acid_puddle"
 	desc = "A mixture of mortal remains and acid."
 	anchored = TRUE
+	var/image/blood_overlay
+
+/obj/effect/decal/cleanable/acid_remains/add_blood(mob/living/carbon/human/M as mob)
+	if (!..())
+		return 0
+
+	//if we haven't made our blood_overlay already
+	if(!blood_overlay)
+		generate_blood_overlay()
+
+	//apply the blood-splatter overlay if it isn't already in there
+	if(!blood_DNA.len)
+		blood_overlay.color = blood_color
+		add_overlay(blood_overlay, TRUE)	// Priority overlay so we don't lose it somehow.
+
+	//if this blood isn't already in the list, add it
+	if(istype(M))
+		if(blood_DNA[M.dna.unique_enzymes])
+			return 0 //already bloodied with this blood. Cannot add more.
+		blood_DNA[M.dna.unique_enzymes] = M.dna.b_type
+	return 1 //we applied blood to the item
+
+/obj/effect/decal/cleanable/acid_remains/proc/generate_blood_overlay()
+	if(blood_overlay)
+		return
+
+	blood_overlay = SSicon_cache.bloody_cache[type]
+	if (blood_overlay)
+		blood_overlay = image(blood_overlay)	// Copy instead of getting a ref, we're going to mutate this.
+		return
+
+	var/icon/I = new /icon(icon, icon_state)
+	I.Blend(new /icon('icons/effects/blood.dmi', rgb(255,255,255)),ICON_ADD) //fills the icon_state with white (except where it's transparent)
+	I.Blend(new /icon('icons/effects/blood.dmi', "itemblood"),ICON_MULTIPLY) //adds blood and the remaining white areas become transparent
+
+	blood_overlay = image(I)
+	SSicon_cache.bloody_cache[type] = blood_overlay
 
 /obj/item/photo/slasher
 	name = "marked photo"
