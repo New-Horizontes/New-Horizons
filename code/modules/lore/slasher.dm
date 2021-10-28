@@ -69,7 +69,7 @@
 
 /obj/item/clothing/head/helmet/bayonet_hand
 	name = "old tajaran military helmet"
-	desc = "A old and dented helmet worn by a First Revolution Tajaran soldier. A chain mail mask is attached to it."
+	desc = "An old and dented helmet worn by a First Revolution Tajaran soldier. A chain mail mask is attached to it."
 	icon = 'icons/obj/slasher.dmi'
 	icon_state = "bayonet_hand_helmet"
 	item_state = "bayonet_hand_helmet"
