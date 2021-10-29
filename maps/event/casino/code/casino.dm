@@ -1,5 +1,5 @@
 /datum/map/event/casino
-	name = "Rooftop"
+	name = "Casino"
 	full_name = "Grand Romanovich Casino"
 	path = "event/casino"
 //	lobby_icons = list('icons/misc/titlescreens/mendell/mendell_city.dmi')
