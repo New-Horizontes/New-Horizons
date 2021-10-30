@@ -228,7 +228,8 @@ datum/track/New(var/title_name, var/audio)
 		new/datum/track("Posin'", 'sound/music/recordplayer/Posin.ogg'),
 		new/datum/track("Jazz Instrumental", 'sound/music/recordplayer/JazzInstrumental.ogg'),
 		new/datum/track("Le Swing", 'sound/music/recordplayer/LeSwing.ogg'),
-		new/datum/track("Cosmorot", 'sound/music/recordplayer/Cosmorot.ogg')
+		new/datum/track("Cosmorot", 'sound/music/recordplayer/Cosmorot.ogg'),
+		new/datum/track("Gateway to Dakrness", 'sound/music/Gateway_to_Darkness.ogg')
 	)
 
 /obj/machinery/media/jukebox/phonograph/update_icon()

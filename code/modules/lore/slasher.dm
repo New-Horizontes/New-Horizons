@@ -23,7 +23,7 @@
 	)
 	siemens_coefficient = 0
 	force = 5
-	punch_force = 70
+	punch_force = 35
 	clipped = TRUE
 	sharp = TRUE
 	edge = TRUE

@@ -2,7 +2,7 @@
 	name = "Casino"
 	full_name = "Grand Romanovich Casino"
 	path = "event/casino"
-//	lobby_icons = list('icons/misc/titlescreens/mendell/mendell_city.dmi')
+	lobby_icons = list('icons/misc/titlescreens/casino/ghostsofwar.dmi')
 	lobby_transitions = FALSE
 
 	allowed_jobs = list(/datum/job/visitor)
