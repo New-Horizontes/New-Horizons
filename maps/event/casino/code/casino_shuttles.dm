@@ -5,15 +5,20 @@
 	shuttle_area = /area/shuttle/casino
 	move_time = 50
 	dock_target = "Transit Shuttle"
-	landmark_transition = "nav_city_interim"
-	waypoint_offsite = "nav_city_start"
+	waypoint_station = "nav_casino_dock"
+	landmark_transition = "nav_casino_interim"
+	waypoint_offsite = "nav_casino_start"
 
 /obj/effect/shuttle_landmark/casino/start
 	name = "Casino Shuttle Base"
-	landmark_tag = "nav_city_start"
-	docking_controller = "city_station"
+	landmark_tag = "nav_casino_start"
+	docking_controller = "casino_station"
 	base_turf = /turf/unsimulated/floor/plating
 	base_area = /area/shuttle/casino
+
+/obj/effect/shuttle_landmark/casino/interim
+	name = "In Transit"
+	landmark_tag = "nav_casino_interim"
 
 /obj/effect/shuttle_landmark/casino/dock
 	name = "Casino Shuttle Dock"

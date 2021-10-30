@@ -24,5 +24,5 @@
 	use_overmap = FALSE
 
 	map_shuttles = list(
-		/datum/shuttle/autodock/ferry/city
+		/datum/shuttle/autodock/ferry/casino
 	)
