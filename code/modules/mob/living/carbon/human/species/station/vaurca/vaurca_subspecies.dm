@@ -61,6 +61,9 @@
 	break_cuffs = TRUE
 	mob_size = 30
 
+	age_max = 1000
+	economic_modifier = 3
+
 	speech_sounds = list('sound/voice/hiss1.ogg','sound/voice/hiss2.ogg','sound/voice/hiss3.ogg','sound/voice/hiss4.ogg')
 	speech_chance = 100
 
@@ -75,7 +78,8 @@
 	sprint_cost_factor = 0.80
 	stamina_recovery = 3
 
-	spawn_flags = IS_RESTRICTED
+	allowed_citizenships = list(CITIZENSHIP_ZORA, CITIZENSHIP_KLAX, CITIZENSHIP_CTHUR, CITIZENSHIP_IZWESKI, CITIZENSHIP_BIESEL, CITIZENSHIP_ERIDANI, CITIZENSHIP_JARGON)
+
 	flags = NO_SCAN | NO_SLIP | NO_ARTERIES | PHORON_IMMUNE
 
 	inherent_verbs = list(
@@ -239,5 +243,6 @@ Bulwarks are much larger and have significantly thicker carapaces than most Vaur
 		slot_r_ear_str   = list(                                     "[EAST]" = list("x" = 16, "y" = 0), "[SOUTH]" = list("x" = 9, "y" = 0),  "[WEST]" = list("x" = 0, "y" = 0)),
 		slot_belt_str    = list("[NORTH]" = list("x" = 9, "y" = 2),  "[EAST]" = list("x" = 10, "y" = 1), "[SOUTH]" = list("x" = 9, "y" = 2),  "[WEST]" = list("x" = 6, "y" = 1)),
 		slot_wear_id_str = list("[NORTH]" = list("x" = 0, "y" = 0),  "[EAST]" = list("x" = 12, "y" = 0), "[SOUTH]" = list("x" = 9, "y" = 0),  "[WEST]" = list("x" = 0, "y" = 0)),
+		slot_wrists_str  = list("[NORTH]" = list("x" = 15, "y" = 0), "[EAST]" = list("x" = 12, "y" = 0), "[SOUTH]" = list("x" = 4, "y" = 0),  "[WEST]" = list("x" = 9, "y" = 0)),
 		slot_shoes_str   = list("[NORTH]" = list("x" = 9, "y" = 0),  "[EAST]" = list("x" = 8, "y" = 0),  "[SOUTH]" = list("x" = 9, "y" = 0),  "[WEST]" = list("x" = 8, "y" = 0))
 	)
