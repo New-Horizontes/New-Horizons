@@ -1,9 +1,9 @@
 /datum/shuttle/autodock/ferry/casino
 	name = "Casino Shuttle"
 	location = 1
-	warmup_time = 10
+	warmup_time = 5
 	shuttle_area = /area/shuttle/casino
-	move_time = 50
+	move_time = 25
 	dock_target = "Transit Shuttle"
 	waypoint_station = "nav_casino_dock"
 	landmark_transition = "nav_casino_interim"
@@ -19,6 +19,8 @@
 /obj/effect/shuttle_landmark/casino/interim
 	name = "In Transit"
 	landmark_tag = "nav_casino_interim"
+	base_turf = /turf/unsimulated/floor/plating
+	base_area = /area/shuttle/casino
 
 /obj/effect/shuttle_landmark/casino/dock
 	name = "Casino Shuttle Dock"
