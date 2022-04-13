@@ -3068,6 +3068,7 @@
 #include "maps\aurora\code\aurora_shuttles.dm"
 #include "maps\aurora\code\aurora_unittest.dm"
 #include "maps\away\away_sites.dm"
+#include "maps\away\corporate_reconstruction_zone\diona_ship.dm"
 #include "maps\away\generic\derelict.dm"
 #include "maps\away\generic\space_bar.dm"
 #include "maps\away\generic\space_bar_ghostroles.dm"
