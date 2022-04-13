@@ -193,52 +193,56 @@
 /turf/simulated/floor/diona,
 /area/derelict)
 "bq" = (
-/obj/random/loot,
+/obj/effect/overmap/visitable/sector/diona_ship,
 /turf/simulated/floor/diona,
 /area/derelict)
 "br" = (
+/obj/random/loot,
+/turf/simulated/floor/diona,
+/area/derelict)
+"bs" = (
 /obj/structure/trash_pile,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/derelict)
-"bs" = (
+"bw" = (
 /obj/random/contraband,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/derelict)
-"bw" = (
-/obj/random/glowstick,
-/turf/simulated/floor/diona,
-/area/derelict)
 "bx" = (
-/obj/random/junk,
+/obj/random/glowstick,
 /turf/simulated/floor/diona,
 /area/derelict)
 "by" = (
+/obj/random/junk,
+/turf/simulated/floor/diona,
+/area/derelict)
+"bA" = (
 /obj/random/glowstick,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/derelict)
-"bA" = (
-/obj/structure/shuttle/engine/heater,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/derelict)
 "bE" = (
-/obj/machinery/atmospherics/unary/engine{
-	dir = 1
-	},
+/obj/structure/shuttle/engine/heater,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/derelict)
 "bF" = (
 /obj/machinery/atmospherics/unary/engine{
 	dir = 1
 	},
-/turf/simulated/floor/diona,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/derelict)
 "bG" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/diona,
+/area/derelict)
+"bH" = (
 /obj/random/glowstick,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/derelict)
-"bH" = (
+"bI" = (
 /obj/effect/shuttle_landmark/automatic,
 /turf/template_noop,
 /area/template_noop)
@@ -13867,8 +13871,8 @@ Da
 Da
 Da
 qw
-bA
 bE
+bF
 Da
 aa
 aa
@@ -14114,7 +14118,7 @@ Da
 Da
 Da
 Da
-bs
+bw
 Da
 qw
 Da
@@ -14124,8 +14128,8 @@ Da
 Da
 Da
 qw
-bA
 bE
+bF
 Da
 aa
 aa
@@ -14381,8 +14385,8 @@ sz
 Da
 Da
 qw
-bA
 bE
+bF
 Da
 aa
 aa
@@ -14638,8 +14642,8 @@ Da
 Da
 Da
 qw
-bA
 bE
+bF
 Da
 aa
 aa
@@ -14895,8 +14899,8 @@ Da
 Da
 Da
 qw
-bA
 bE
+bF
 Da
 aa
 aa
@@ -15152,8 +15156,8 @@ Da
 Da
 Da
 qw
-bA
 bE
+bF
 Da
 aa
 aa
@@ -15409,7 +15413,7 @@ Da
 Da
 Da
 qw
-bA
+bE
 uK
 uK
 uK
@@ -15655,7 +15659,7 @@ Da
 Da
 Da
 Da
-br
+bs
 Da
 Da
 qw
@@ -15666,8 +15670,8 @@ Da
 Da
 Da
 qw
-bA
-bF
+bE
+bG
 wX
 wX
 wX
@@ -15923,8 +15927,8 @@ Da
 Da
 Da
 qw
-bA
-bF
+bE
+bG
 wX
 wX
 wX
@@ -16180,15 +16184,15 @@ Da
 Da
 Da
 qw
-bA
-bF
+bE
+bG
 wX
 wX
 wX
 wX
 aY
 wX
-bq
+br
 wX
 wX
 wX
@@ -16437,11 +16441,11 @@ Da
 Da
 Da
 qw
-bA
 bE
+bF
 Da
 wX
-bq
+br
 wX
 wX
 wX
@@ -17221,7 +17225,7 @@ wX
 wX
 wX
 wX
-bq
+br
 wX
 wX
 wX
@@ -17460,7 +17464,7 @@ wX
 wX
 wX
 wX
-bq
+br
 wX
 wX
 wX
@@ -18235,9 +18239,9 @@ wX
 wX
 wX
 wX
-bx
+by
 wX
-bq
+br
 wX
 wX
 wX
@@ -18252,7 +18256,7 @@ wX
 wX
 wX
 wX
-bq
+br
 wX
 wX
 wX
@@ -18481,7 +18485,7 @@ uK
 uK
 uK
 wX
-bq
+br
 wX
 wX
 wX
@@ -19258,7 +19262,7 @@ sf
 wX
 wX
 wX
-bx
+by
 wX
 wX
 wX
@@ -19273,7 +19277,7 @@ wX
 wX
 wX
 wX
-bx
+by
 wX
 wX
 wX
@@ -21333,7 +21337,7 @@ wX
 wX
 wX
 wX
-bx
+by
 wX
 aY
 wX
@@ -22615,7 +22619,7 @@ sf
 wX
 wX
 wX
-bq
+br
 sf
 wX
 wX
@@ -22870,7 +22874,7 @@ wX
 wX
 wX
 wX
-bq
+br
 wX
 wX
 wX
@@ -26196,7 +26200,7 @@ uK
 uK
 uK
 wX
-bw
+bx
 Da
 Da
 Da
@@ -27485,7 +27489,7 @@ Da
 Da
 Da
 Da
-by
+bA
 wX
 uK
 uK
@@ -28011,7 +28015,7 @@ Da
 Da
 Da
 Da
-bG
+bH
 rV
 Da
 Da
@@ -29528,7 +29532,7 @@ wX
 wX
 wX
 wX
-wX
+bq
 sf
 wX
 wX
@@ -29827,7 +29831,7 @@ aa
 aa
 aa
 aa
-bH
+bI
 aa
 aa
 aa
@@ -31857,7 +31861,7 @@ sz
 Da
 Da
 Da
-br
+bs
 Da
 qw
 qB

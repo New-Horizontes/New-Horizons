@@ -2,8 +2,8 @@
 	name = "space derelict"
 	description = "An abandoned space structure."
 	suffix = "generic/derelict.dmm"
-	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH, SECTOR_CORP_ZONE)
-	spawn_weight = 1
+	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH)
+	spawn_weight = 0
 	spawn_cost = 2
 	id = "space_derelict"
 

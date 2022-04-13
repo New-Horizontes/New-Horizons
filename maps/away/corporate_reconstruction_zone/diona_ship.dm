@@ -1,10 +1,10 @@
 /datum/map_template/ruin/away_site/diona_ship
 	name = "derelict ship"
 	description = "An abandoned space ship."
-	suffix = "romanovich/diona_ship.dmm"
+	suffix = "corporate_reconstruction_zone/diona_ship.dmm"
 	sectors = list(SECTOR_CORP_ZONE)
 	spawn_weight = 5
-	spawn_cost = 3
+	spawn_cost = 1
 	id = "diona_ship"
 
 /decl/submap_archetype/diona_ship
