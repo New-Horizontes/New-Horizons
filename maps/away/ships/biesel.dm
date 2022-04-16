@@ -2,7 +2,7 @@
 	name = "TCFL Peacekeeper Ship"
 	description = "An auxiliary patrol ship operated by the Tau Ceti Foreign Legion. This one appears to be performing peacekeeper duties."
 	suffix = "ships/tcfl_peacekeeper_ship.dmm"
-	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH, SECTOR_CORP_ZONE)
+	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH)
 	spawn_weight = 1
 	spawn_cost = 1
 	id = "tcfl_peacekeeper_ship"

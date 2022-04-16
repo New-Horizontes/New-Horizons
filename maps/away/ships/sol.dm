@@ -2,7 +2,7 @@
 	name = "SFA Patrol Ship"
 	description = "An auxiliary naval ship belonging to the now all-but-defunct Southern Fleet Administration, a Solarian warlord state."
 	suffix = "ships/sfa_patrol_ship.dmm"
-	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH, SECTOR_CORP_ZONE)
+	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH)
 	spawn_weight = 1
 	spawn_cost = 1
 	id = "sfa_patrol_ship"

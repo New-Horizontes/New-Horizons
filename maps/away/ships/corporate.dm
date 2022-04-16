@@ -2,7 +2,7 @@
 	name = "Orion Express Ship"
 	description = "A light ship belonging to the Orion Express corporation."
 	suffix = "ships/orion_express_ship.dmm"
-	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH, SECTOR_CORP_ZONE)
+	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH)
 	spawn_weight = 1
 	spawn_cost = 1
 	id = "orion_express_ship"
@@ -130,7 +130,7 @@
 	name = "Einstein Engines Research Ship"
 	description = "A research ship belonging to Einstein Engines, the Stellar Corporate Conglomerate's main competitor."
 	suffix = "ships/ee_spy_ship.dmm"
-	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH, SECTOR_CORP_ZONE)
+	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH)
 	spawn_weight = 1
 	spawn_cost = 1
 	id = "ee_spy_ship"
