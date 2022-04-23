@@ -6,7 +6,7 @@
 	spawn_weight = 5
 	spawn_cost = 1
 	id = "diona_ship"
-	template_flag = TEMPLATE_FLAG_SPAWN_GUARANTEED
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /decl/submap_archetype/diona_ship
 	map = "derelict ship"
