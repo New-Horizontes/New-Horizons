@@ -2,7 +2,7 @@
 	name = "derelict ship"
 	description = "An abandoned space ship."
 	suffix = "corporate_reconstruction_zone/diona_ship.dmm"
-	sectors = list(SECTOR_CORP_ZONE)
+	sectors = list(SECTOR_ROMANOVICH, SECTOR_CORP_ZONE)
 	spawn_weight = 5
 	spawn_cost = 1
 	id = "diona_ship"
