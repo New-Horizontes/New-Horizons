@@ -102,7 +102,6 @@
 	name = "Orion Express Shuttle"
 	move_time = 90
 	shuttle_area = list(/area/shuttle/orion_express_shuttle)
-	dock_target = "orion_express_shuttle"
 	current_location = "nav_hangar_orion_express"
 	landmark_transition = "nav_transit_orion_express"
 	range = 1
@@ -230,9 +229,8 @@
 	name = "Einstein Engines Shuttle"
 	move_time = 90
 	shuttle_area = list(/area/shuttle/ee_shuttle)
-	dock_target = "ee_shuttle"
 	current_location = "nav_hangar_ee"
-	landmark_transition = "nav_transit_ee"
+	landmark_transition = "nav_transit_ee_shuttle"
 	range = 1
 	fuel_consumption = 2
 	logging_home_tag = "nav_hangar_ee"
