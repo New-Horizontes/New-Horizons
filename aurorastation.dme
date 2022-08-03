@@ -3143,6 +3143,8 @@
 #include "maps\event\code\event.dm"
 #include "maps\event\odin_departure\code\odin_departure_areas.dm"
 #include "maps\event\odin_departure\code\odin_depature.dm"
+#include "maps\event\odyssey_station\code\odyssey_station.dm"
+#include "maps\event\odyssey_station\code\odyssey_station_areas.dm"
 #include "maps\event\rooftop\code\rooftop.dm"
 #include "maps\event\rooftop\code\rooftop_areas.dm"
 #include "maps\event\rooftop\code\rooftop_shuttles.dm"
