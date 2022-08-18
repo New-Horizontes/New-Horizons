@@ -7,6 +7,7 @@
 	spawn_cost = 1
 	id = "sfa_patrol_ship"
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/sfa_shuttle)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /decl/submap_archetype/sfa_patrol_ship
 	map = "SFA Patrol Ship"
@@ -43,7 +44,7 @@
 	)
 
 /obj/effect/overmap/visitable/ship/sfa_patrol_ship/New()
-	designation = "[pick("Brigand", "Zheng Yi Sao", "Corruption", "Edward Teach", "Beauchamp's Revenge", "Blackguard", "Viking", "Despoiler", "Wayward Son", "Black Sheep", "Gluttony", "Pride", "Avarice", "Greed", "Envy", "Sloth", "Wrath", "We're The Good Ones", "Reformed", "Repentant", "Recidivist", "Just Following Orders", "Habitual Offender", "Felon", "Misdemeanor", "Conscientious Objector")]"
+	designation = "Caravaggio"
 	..()
 
 /obj/effect/shuttle_landmark/sfa_patrol_ship/nav1
