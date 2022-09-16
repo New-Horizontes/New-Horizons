@@ -874,10 +874,6 @@
 	icon_state = "tube1";
 	inserted_light = /obj/item/light/tube/colored/blue
 	},
-/obj/effect/ghostspawpoint{
-	identifier = "elyran_naval_infantry_officer";
-	name = "igs - elyra officer"
-	},
 /turf/simulated/floor/carpet,
 /area/ship/elyran_strike_craft)
 "iOh" = (
@@ -1097,10 +1093,6 @@
 /obj/machinery/computer/cryopod{
 	pixel_y = -33
 	},
-/obj/effect/ghostspawpoint{
-	identifier = "elyran_naval_infantry";
-	name = "igs - elyra infantry"
-	},
 /turf/simulated/floor/tiled,
 /area/ship/elyran_strike_craft)
 "lLN" = (
@@ -1248,10 +1240,6 @@
 /obj/item/bedsheet/black,
 /obj/effect/floor_decal/corner/beige{
 	dir = 10
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "elyran_naval_infantry";
-	name = "igs - elyra infantry"
 	},
 /turf/simulated/floor/tiled,
 /area/ship/elyran_strike_craft)
@@ -1800,10 +1788,6 @@
 	},
 /obj/structure/bed,
 /obj/item/bedsheet/black,
-/obj/effect/ghostspawpoint{
-	identifier = "elyran_naval_infantry";
-	name = "igs - elyra infantry"
-	},
 /turf/simulated/floor/tiled,
 /area/ship/elyran_strike_craft)
 "wrJ" = (
@@ -1960,6 +1944,15 @@
 /obj/structure/railing/mapped,
 /obj/machinery/iff_beacon/name_change,
 /turf/simulated/floor/airless,
+/area/ship/elyran_strike_craft)
+"xFQ" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 6
+	},
+/mob/living/simple_animal/corgi{
+	name = "elyra beacon"
+	},
+/turf/simulated/floor/tiled,
 /area/ship/elyran_strike_craft)
 "xGj" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -33456,7 +33449,7 @@ pcX
 vOv
 lgq
 atj
-auY
+xFQ
 auY
 atj
 acx

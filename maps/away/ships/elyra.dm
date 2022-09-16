@@ -7,6 +7,7 @@
 	spawn_cost = 1
 	id = "elyran_strike_craft"
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/elyran_shuttle)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /decl/submap_archetype/elyran_strike_craft
 	map = "Elyran Naval Strike Craft"

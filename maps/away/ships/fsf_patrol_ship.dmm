@@ -509,10 +509,6 @@
 "eeP" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/black,
-/obj/effect/ghostspawpoint{
-	identifier = "fsf_navy_officer";
-	name = "igs - fsf_navy_officer"
-	},
 /obj/structure/curtain/open/bed,
 /obj/effect/floor_decal/carpet/blue{
 	dir = 1
@@ -1611,10 +1607,6 @@
 /obj/structure/sign/poster{
 	pixel_x = 32
 	},
-/obj/effect/ghostspawpoint{
-	identifier = "fsf_navy_crewman";
-	name = "igs - fsf_navy_crewman"
-	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/fsf_patrol_ship)
 "msC" = (
@@ -1623,10 +1615,6 @@
 /obj/machinery/light{
 	icon_state = "tube1";
 	inserted_light = /obj/item/light/tube/colored/blue
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "fsf_navy_crewman";
-	name = "igs - fsf_navy_crewman"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/fsf_patrol_ship)
@@ -1768,10 +1756,6 @@
 "nVi" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/black,
-/obj/effect/ghostspawpoint{
-	identifier = "fsf_navy_crewman";
-	name = "igs - fsf_navy_crewman"
-	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/fsf_patrol_ship)
 "obG" = (
@@ -2226,6 +2210,12 @@
 	},
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor,
+/area/ship/fsf_patrol_ship)
+"tIs" = (
+/mob/living/simple_animal/corgi{
+	name = "fsf beacon"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/ship/fsf_patrol_ship)
 "tKM" = (
 /obj/machinery/light{
@@ -38063,7 +38053,7 @@ sSs
 sSs
 tKM
 yjk
-sSs
+tIs
 sSs
 qmh
 sSs
