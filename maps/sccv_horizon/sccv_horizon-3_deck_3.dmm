@@ -1329,6 +1329,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/horizon/crew_quarters/cryo/dormitories)
+"cy" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 10
+	},
+/obj/machinery/light,
+/obj/machinery/computer/ship/navigation{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/horizon/hallway/deck_three/primary/starboard)
 "cz" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -4614,12 +4624,14 @@
 /turf/simulated/floor/carpet/rubber,
 /area/tcommsat/entrance)
 "iv" = (
-/obj/structure/flora/pottedplant/random,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 6
 	},
 /obj/machinery/firealarm/east,
 /obj/machinery/light,
+/obj/machinery/computer/ship/navigation{
+	dir = 1
+	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/lounge)
 "iw" = (
@@ -5911,10 +5923,19 @@
 	},
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/corner/red/diagonal,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
-/obj/item/ammo_magazine/c45m,
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
 /turf/simulated/floor/tiled/dark,
 /area/crew_armory)
 "kK" = (
@@ -6161,6 +6182,7 @@
 	dir = 4;
 	pixel_x = 32
 	},
+/obj/structure/railing/mapped,
 /turf/simulated/floor,
 /area/maintenance/bridge)
 "lf" = (
@@ -12822,7 +12844,6 @@
 /turf/simulated/wall,
 /area/horizon/hallway/deck_three/primary/starboard)
 "xt" = (
-/obj/effect/floor_decal/corner/green/diagonal,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
@@ -12832,7 +12853,7 @@
 /obj/structure/bed/stool/chair{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/crew_quarters/fitness/hallway)
 "xu" = (
 /obj/effect/floor_decal/corner/blue/full{
@@ -13304,14 +13325,13 @@
 /turf/simulated/floor/tiled,
 /area/horizon/hallway/deck_three/primary/starboard/docks)
 "yl" = (
-/obj/effect/floor_decal/corner/blue/diagonal,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/crew_quarters/fitness/hallway)
 "ym" = (
 /obj/effect/floor_decal/corner/blue{
@@ -14418,12 +14438,14 @@
 /turf/simulated/floor/tiled/white,
 /area/horizon/crew_quarters/fitness/washroom)
 "Ap" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/flag/sol/right{
 	dir = 4;
 	pixel_x = 32
 	},
-/turf/simulated/floor,
+/obj/structure/ladder{
+	pixel_y = 10
+	},
+/turf/simulated/open,
 /area/maintenance/bridge)
 "Aq" = (
 /obj/structure/railing/mapped{
@@ -18926,7 +18948,7 @@
 	name = "Holodeck"
 	},
 /obj/machinery/door/firedoor,
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/full,
 /area/horizon/crew_quarters/fitness/hallway)
 "IN" = (
 /obj/structure/table/standard,
@@ -21208,13 +21230,19 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red/diagonal,
-/obj/item/gun/projectile/sec/lethal,
-/obj/item/gun/projectile/sec/lethal,
-/obj/item/gun/projectile/sec/lethal,
 /obj/item/clothing/accessory/holster/thigh,
 /obj/item/clothing/accessory/holster/thigh,
 /obj/item/clothing/accessory/holster/thigh,
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/item/clothing/accessory/holster/thigh,
+/obj/item/clothing/accessory/holster/thigh,
+/obj/item/clothing/accessory/holster/thigh,
+/obj/item/gun/projectile/leyon,
+/obj/item/gun/projectile/leyon,
+/obj/item/gun/projectile/leyon,
+/obj/item/gun/projectile/leyon,
+/obj/item/gun/projectile/leyon,
+/obj/item/gun/projectile/leyon,
 /turf/simulated/floor/tiled/dark,
 /area/crew_armory)
 "ML" = (
@@ -25523,7 +25551,7 @@
 /area/maintenance/aux_atmospherics/deck_3)
 "UD" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/crew_quarters/fitness/hallway)
 "UE" = (
 /obj/effect/shuttle_landmark/horizon/deckthree/fore,
@@ -27176,7 +27204,6 @@
 /turf/simulated/floor/tiled,
 /area/horizon/hallway/deck_three/primary/starboard/docks)
 "XE" = (
-/obj/effect/floor_decal/corner/blue/diagonal,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
@@ -27186,7 +27213,7 @@
 /obj/structure/bed/stool/chair{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/crew_quarters/fitness/hallway)
 "XF" = (
 /obj/machinery/porta_turret/stationary{
@@ -27877,14 +27904,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/horizon/crew_quarters/fitness/hallway)
 "YO" = (
-/obj/effect/floor_decal/corner/green/diagonal,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/crew_quarters/fitness/hallway)
 "YP" = (
 /obj/effect/decal/cleanable/cobweb2,
@@ -46064,7 +46090,7 @@ Gc
 Gc
 Gc
 fc
-Pp
+Wi
 gd
 Lc
 vP
@@ -47080,7 +47106,7 @@ eB
 OO
 OO
 OW
-Wi
+Pp
 XJ
 hZ
 wA
@@ -49697,7 +49723,7 @@ fv
 JS
 uk
 uk
-fG
+cy
 US
 Gk
 US
