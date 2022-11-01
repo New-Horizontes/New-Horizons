@@ -43,7 +43,7 @@
 /turf/unsimulated/floor/orchard/Initialize()
 	. = ..()
 	if (prob(20))
-		add_overlay("rocks[rand(0, 9)]", TRUE)
+		add_overlay("asteroid[rand(0, 9)]", TRUE)
 
 /turf/unsimulated/floor/orchard/sand
 	name = "solidified sand"
