@@ -2,10 +2,11 @@
 	name = "NSS Orchard MMS"
 	full_name = "Orchard Moon Mining Station"
 	path = "event/orchard_moon"
-	lobby_icons = list('icons/misc/titlescreens/orchard_moon/orchard_moon.dmi')
-	lobby_transitions = FALSE
+	lobby_icons = list('icons/misc/titlescreens/sccv_horizon/sccv_horizon.dmi', 'icons/misc/titlescreens/aurora/synthetics.dmi', 'icons/misc/titlescreens/aurora/tajara.dmi', 'icons/misc/titlescreens/aurora/Vaurca.dmi')
+	lobby_transitions = 25 SECONDS
 
-	allowed_jobs = list(/datum/job/visitor, /datum/job/passenger)
+
+	allowed_jobs = list(/datum/job/visitor)
 
 	station_levels = list(1)
 	admin_levels = list()
