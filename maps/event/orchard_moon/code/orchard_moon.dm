@@ -1,7 +1,7 @@
 /datum/map/event/orchard_moon
 	name = "NSS Orchard MMS"
 	full_name = "Orchard Moon Mining Station"
-	path = "event/orchard_moon"
+	path = "sccv_horizon"
 	lobby_icons = list('icons/misc/titlescreens/sccv_horizon/sccv_horizon.dmi', 'icons/misc/titlescreens/aurora/synthetics.dmi', 'icons/misc/titlescreens/aurora/tajara.dmi', 'icons/misc/titlescreens/aurora/Vaurca.dmi')
 	lobby_transitions = 25 SECONDS
 

@@ -1,7 +1,7 @@
 /datum/map/sccv_horizon
 	name = "SCCV Horizon"
 	full_name = "SCCV Horizon"
-	path = "sccv_horizon"
+	path = "no_config_access_be_like_bruh"
 
 	lobby_icons = list('icons/misc/titlescreens/sccv_horizon/sccv_horizon.dmi', 'icons/misc/titlescreens/aurora/synthetics.dmi', 'icons/misc/titlescreens/aurora/tajara.dmi', 'icons/misc/titlescreens/aurora/Vaurca.dmi')
 	lobby_transitions = 25 SECONDS
