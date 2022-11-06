@@ -3179,6 +3179,7 @@
 #include "maps\away\ships\biesel_ship_ghostroles.dm"
 #include "maps\away\ships\corporate.dm"
 #include "maps\away\ships\corporate_ship_ghostroles.dm"
+#include "maps\away\ships\deathbox.dm"
 #include "maps\away\ships\elyra.dm"
 #include "maps\away\ships\elyra_ship_ghostroles.dm"
 #include "maps\away\ships\sol.dm"
