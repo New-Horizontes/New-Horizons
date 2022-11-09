@@ -3175,6 +3175,7 @@
 #include "maps\away\away_site\taj_safehouse\tajara_safehouse.dm"
 #include "maps\away\away_site\taj_safehouse\tajara_safehouse_ghostroles.dm"
 #include "maps\away\away_site\wrecked_nt_ship\wrecked_nt_ship.dm"
+#include "maps\away\ships\deathbox.dm"
 #include "maps\away\ships\casino\casino.dm"
 #include "maps\away\ships\casino\casino_areas.dm"
 #include "maps\away\ships\einstein\ee_spy_ship.dm"
