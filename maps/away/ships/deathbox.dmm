@@ -314,7 +314,7 @@
 /obj/machinery/ship_weapon/grauwolf{
 	pixel_x = -32;
 	pixel_y = -192;
-	weapon_id = "Grauwolf Flak Battery"
+	weapon_id = "Sol Battlecruise Grauwolf Flak Battery"
 	},
 /turf/simulated/floor/reinforced,
 /area/ship/deathbox/one)
