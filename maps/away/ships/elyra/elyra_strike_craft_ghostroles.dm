@@ -1,5 +1,5 @@
 //elyran naval infantry
-
+/*
 /datum/ghostspawner/human/elyran_naval_infantry
 	short_name = "elyran_naval_infantry"
 	name = "Elyran Naval Infantryman"
@@ -88,3 +88,4 @@
 /obj/item/card/id/elyran_naval_infantry_craft
 	name = "elyran naval infantry craft id"
 	access = list(access_elyran_naval_infantry_ship, access_external_airlocks)
+*/

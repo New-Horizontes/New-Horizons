@@ -1,3 +1,4 @@
+/*
 /datum/ghostspawner/human/fsf_navy_crewman
 	short_name = "fsf_navy_crewman"
 	name = "FSF Navy Crewman"
@@ -90,3 +91,4 @@
 /obj/item/card/id/fsf_ship
 	name = "fsf patrol ship id"
 	access = list(access_sol_ships, access_external_airlocks)
+*/
