@@ -213,6 +213,10 @@
 
 /obj/item/reagent_containers/glass/beaker/cryoxadone/reagents_to_add = list(/decl/reagent/cryoxadone = 30)
 
+/obj/item/reagent_containers/glass/beaker/clonexadone/reagents_to_add = list(/decl/reagent/clonexadone = 30) 
+	name = "clonexadone beaker"
+	desc = "A beaker containing clonexadone. A life saving reagent that works better the colder a patient is."
+
 /obj/item/reagent_containers/glass/beaker/sulphuric/reagents_to_add = list(/decl/reagent/acid = 60)
 
 /obj/item/reagent_containers/glass/bucket
