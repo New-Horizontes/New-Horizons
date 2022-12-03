@@ -46,12 +46,14 @@
 	desc = "A really menacing-looking device. Obviously a bomb of some sort, with what looks to be phoron inside."
 	icon = 'icons/obj/machines/phoron_bomb.dmi'
 	icon_state = "mirv"
+	anchored = TRUE
+	density = TRUE
 	var/panel_opened = FALSE
 	var/datum/wires/phoron_bomb/wires
 
 /obj/machinery/phoron_bomb/Initialize(mapload, d, populate_components, is_internal)
 	. = ..()
-	wires = new
+	wires = new(src)
 
 /obj/machinery/phoron_bomb/examine(mob/user)
 	. = ..()
@@ -59,6 +61,12 @@
 		to_chat(user, "The front panel is screwed in.")
 	else
 		to_chat(user, "The front panel is open. Inside you can see a mess of machinery, wires, electrical components and so on, with the faint smell of phoron permeating through.")
+
+/obj/machinery/phoron_bomb/attack_hand(mob/user)
+	. = ..()
+	if(ishuman(user) && !use_check_and_message(user))
+		if(panel_opened)
+			wires.Interact(user)
 
 /obj/machinery/phoron_bomb/attackby(obj/item/W, mob/user)
 	if(use_check_and_message(user))
