@@ -56,3 +56,23 @@ var/const/NUCLEARBOMB_WIRE_SAFETY		= 4
 		if(NUCLEARBOMB_WIRE_LIGHT)
 			N.lighthack = !mended
 			N.update_icon()
+
+/datum/wires/phoron_bomb
+	holder_type = /obj/machinery/phoron_bomb
+	random = 1
+	wire_count = 16
+
+/datum/wires/phoron_bomb/UpdatePulsed(var/index)
+	var/obj/machinery/phoron_bomb/N = holder
+	switch(index)
+		if(3)
+			N.visible_message(SPAN_NOTICE("[N] makes an unsettling beep."))
+		if(6)
+			N.visible_message(SPAN_WARNING("[N] makes an odd, off-tune whine."))
+		if(9)
+			N.visible_message(SPAN_WARNING("[N] makes a concerning buzz."))
+
+/datum/wires/phoron_bomb/UpdateCut(var/index, var/mended)
+	var/obj/machinery/phoron_bomb/N = holder
+	if(IsAllCut())
+		N.visible_message(SPAN_NOTICE("[N] goes quiet..."))

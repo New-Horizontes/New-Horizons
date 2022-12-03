@@ -40,3 +40,32 @@
 
 /obj/structure/viewport/sol
 	icon_state = "viewport_sol"
+
+/obj/machinery/phoron_bomb
+	name = "vehicle-less multiple re-entry thermonuclear-phoron warhead cluster"
+	desc = "A really menacing-looking device. Obviously a bomb of some sort, with what looks to be phoron inside."
+	icon = 'icons/obj/machines/phoron_bomb.dmi'
+	icon_state = "mirv"
+	var/panel_opened = FALSE
+	var/datum/wires/phoron_bomb/wires
+
+/obj/machinery/phoron_bomb/Initialize(mapload, d, populate_components, is_internal)
+	. = ..()
+	wires = new
+
+/obj/machinery/phoron_bomb/examine(mob/user)
+	. = ..()
+	if(!panel_opened)
+		to_chat(user, "The front panel is screwed in.")
+	else
+		to_chat(user, "The front panel is open. Inside you can see a mess of machinery, wires, electrical components and so on, with the faint smell of phoron permeating through.")
+
+/obj/machinery/phoron_bomb/attackby(obj/item/W, mob/user)
+	if(use_check_and_message(user))
+		return
+	if(W.isscrewdriver())
+		user.visible_message(SPAN_NOTICE("[user] starts [panel_opened ? "screwing in" : "unscrewing"] the front panel..."), SPAN_NOTICE("You start [panel_opened ? "screwing in" : "unscrewing"] the front panel... The screws are using some \
+							 really special screw heads, but luckily you've brought a set just for this."))
+		if(do_after(user, 3 SECONDS))
+			user.visible_message(SPAN_NOTICE("[user] [panel_opened ? "screws in" : "unscrews"] the front panel."), SPAN_NOTICE("You [panel_opened ? "screw in" : "unscrew"] the front panel."))
+			panel_opened = !panel_opened
