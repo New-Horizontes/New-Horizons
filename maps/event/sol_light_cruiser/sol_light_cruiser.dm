@@ -1,106 +1,116 @@
-/datum/map_template/ruin/away_site/fsf_patrol_ship
-	name = "FSF Corvette"
-	description = "A small corvette manufactured for the Solarian Navy by Hephaestus, the Montevideo-class is an anti-piracy vessel through and through - with a shuttle bay that takes up a third of the ship and only a single weapon hardpoint located in one arm of the ship, the Montevideo is designed for long-term, self-sufficient operations in inhabited space against small-time pirate vessels that would be unable to overcome the ship's lackluster armaments. Generous automation and streamlined equipment allows it to function with a very small crew."
-	suffix = "ships/sol_merc/fsf_patrol_ship.dmm"
-	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH, SECTOR_CORP_ZONE, SECTOR_VALLEY_HALE)
+/datum/map_template/ruin/away_site/sfa_cruiser
+	name = "SFA Light Cruiser"
+	description = "big and very mean grrr."
+	suffix = "maps/event/sol_light_cruiser/sol_light_cruiser.dmm"
+	sectors = list(SECTOR_ROMANOVICH, SECTOR_TAU_CETI, SECTOR_CORP_ZONE, SECTOR_VALLEY_HALE, SECTOR_BADLANDS, SECTOR_NEW_ANKARA, SECTOR_AEMAQ, SECTOR_SRANDMARR, SECTOR_NRRAHRAHUL, SECTOR_GAKAL, SECTOR_UUEOAESA)
 	spawn_weight = 1
 	spawn_cost = 1
-	id = "fsf_patrol_ship"
-	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/fsf_shuttle)
-
-/decl/submap_archetype/fsf_patrol_ship
-	map = "FSF Corvette"
-	descriptor = "A small corvette manufactured for the Solarian Navy by Hephaestus, the Montevideo-class is an anti-piracy vessel through and through - with a shuttle bay that takes up a third of the ship and only a single weapon hardpoint located in one arm of the ship, the Montevideo is designed for long-term, self-sufficient operations in inhabited space against small-time pirate vessels that would be unable to overcome the ship's lackluster armaments. Generous automation and streamlined equipment allows it to function with a very small crew."
-
-//areas
-/area/ship/fsf_patrol_ship
-	name = "FSF Corvette"
-
-/area/shuttle/fsf_shuttle
-	name = "FSF Shuttle"
-	icon_state = "shuttle2"
+	id = "sfa_light_cruiser"
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 //ship stuff
 
 /obj/effect/overmap/visitable/ship/fsf_patrol_ship
-	name = "FSF Corvette"
-	class = "FSFV"
-	desc = "A small corvette manufactured for the Solarian Navy by Hephaestus, the Montevideo-class is an anti-piracy vessel through and through - with a shuttle bay that takes up a third of the ship and only a single weapon hardpoint located in one arm of the ship, the Montevideo is designed for long-term, self-sufficient operations in inhabited space against small-time pirate vessels that would be unable to overcome the ship's lackluster armaments. Generous automation and streamlined equipment allows it to function with a very small crew."
-	icon_state = "shuttle"
-	moving_state = "shuttle_moving"
+	name = "SFA Light Cruiser"
+	class = "SFAV"
+	desc = "A light cruiser. The Yincheng-class is a typical Solarian light or “patrol” cruiser intended for anti-piracy and convoy escort operations across the \
+	Middle and Outer Rings prior to the Collapse. Armed with only a limited number of energy turrets, the Yincheng draws most of its firepower from large missile batteries \
+	located on the sides of its hull. Intended from the start to operate for long distances without being resupplied, Yinchengs were often employed by admirals in the \
+	Middle and Outer Ring to lead squadrons of smaller vessels such as destroyers, frigates, and corvettes. Never intended to openly contest enemy fleets in spaceborne combat \
+	and only meant to stamp out pirates and other marauders, the Yincheng-class, while effective, has long struggled to attract talented Luna-educated officers, who often \
+	instead opt for service in larger Taipei-class heavy cruisers. This has long cursed the class with mediocre captains who are often more obsessed with their own prominence \
+	than the good of the Alliance. Ultimately, the Yincheng would tragically go on to become one of the most prominent ships in the arsenal of the warlords across the Wildlands \
+	due to its prominent position in the Middle and Outer Rings and the poor quality of its commanders \
+		\
+	This one has received some substantial field modifications such as the removal of its energy and missile emplacements, replaced with large coilguns."
+	icon_state = "ship_green"
+	moving_state = "ship_green_moving"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
-	vessel_mass = 5000
+	vessel_mass = 90000
 	fore_dir = SOUTH
-	vessel_size = SHIP_SIZE_SMALL
-	initial_restricted_waypoints = list(
-		"FSF Shuttle" = list("nav_hangar_fsf")
-	)
+	vessel_size = SHIP_SIZE_LARGE
 
 	initial_generic_waypoints = list(
-		"nav_fsf_patrol_ship_1",
-		"nav_fsf_patrol_ship_2"
+		"nav_sfa_light_cruiser_1",
+		"nav_sfa_light_cruiser_2",
+		"nav_sfa_light_cruiser_3",
+		"nav_sfa_light_cruiser_4",
+		"nav_sfa_light_cruiser_5",
+		"nav_sfa_light_cruiser_6",
+		"nav_sfa_light_cruiser_7",
+		"nav_sfa_light_cruiser_8",
+		"nav_sfa_light_cruiser_9",
+		"nav_sfa_light_cruiser_10",
+		"nav_sfa_light_cruiser_11",
 	)
 
 /obj/effect/overmap/visitable/ship/fsf_patrol_ship/New()
-	designation = "[pick("Varangian", "Swiss Guard", "Free Company", "Praetorian", "Gurkha", "Roland", "Whispering Death", "Gordon Ingram", "Jungle Work", "Habiru", "Francs-Tireurs", "Catalan", "Navarrese", "Breton", "Corsair", "Landsknecht", "Hessian")]"
+	designation = "[pick("A Frank Exchange of Views")]"
 	..()
 
-/obj/effect/shuttle_landmark/fsf_patrol_ship/nav1
-	name = "FSF Corvette - Port Side"
-	landmark_tag = "nav_fsf_patrol_ship_1"
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav1
+	name = "SFA Light Cruiser Gunnery Deck - Aft Thrusters Exterior"
+	landmark_tag = "nav_sfa_light_cruiser_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/fsf_patrol_ship/nav2
-	name = "FSF Corvette - Port Side"
-	landmark_tag = "nav_fsf_patrol_ship_2"
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav2
+	name = "SFA Light Cruiser Gunnery Deck - Starboard Engineering Exterior"
+	landmark_tag = "nav_sfa_light_cruiser_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/fsf_patrol_ship/transit
-	name = "In transit"
-	landmark_tag = "nav_transit_fsf_patrol_ship"
-	base_turf = /turf/space/transit/north
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav3
+	name = "SFA Light Cruiser Gunnery Deck - Port Engineering Exterior"
+	landmark_tag = "nav_sfa_light_cruiser_3"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
 
-//shuttle stuff
-/obj/effect/overmap/visitable/ship/landable/fsf_shuttle
-	name = "FSF Shuttle"
-	class = "FSFV"
-	designation = "Condottiere"
-	desc = "An inefficient design of ultra-light shuttle known as the Wisp-class. Its only redeeming features are the extreme cheapness of the design and the ease of finding replacement parts. Manufactured by Hephaestus."
-	shuttle = "FSF Shuttle"
-	max_speed = 1/(3 SECONDS)
-	burn_delay = 2 SECONDS
-	vessel_mass = 3000 //very inefficient pod
-	fore_dir = NORTH
-	vessel_size = SHIP_SIZE_TINY
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav4
+	name = "SFA Light Cruiser Gunnery Deck - Starboard Aft Hallway Exterior"
+	landmark_tag = "nav_sfa_light_cruiser_4"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
 
-/obj/machinery/computer/shuttle_control/explore/fsf_shuttle
-	name = "shuttle control console"
-	shuttle_tag = "FSF Shuttle"
-	req_access = list(access_sol_ships)
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav5
+	name = "SFA Light Cruiser Gunnery Deck - Port Intrepid Docking"
+	landmark_tag = "nav_sfa_light_cruiser_5"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
 
-/datum/shuttle/autodock/overmap/fsf_shuttle
-	name = "FSF Shuttle"
-	move_time = 90
-	shuttle_area = list(/area/shuttle/fsf_shuttle)
-	current_location = "nav_hangar_fsf"
-	landmark_transition = "nav_transit_fsf_shuttle"
-	range = 1
-	fuel_consumption = 2
-	logging_home_tag = "nav_hangar_fsf"
-	defer_initialisation = TRUE
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav6
+	name = "SFA Light Cruiser Gunnery Deck - Starboard Central Hall Exterior"
+	landmark_tag = "nav_sfa_light_cruiser_6"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
 
-/obj/effect/shuttle_landmark/fsf_shuttle/hangar
-	name = "FSF Shuttle Hangar"
-	landmark_tag = "nav_hangar_fsf"
-	docking_controller = "fsf_shuttle_dock"
-	base_area = /area/ship/fsf_patrol_ship
-	base_turf = /turf/simulated/floor/plating
-	movable_flags = MOVABLE_FLAG_EFFECTMOVE
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav7
+	name = "SFA Light Cruiser Gunnery Deck - Port Central Hall Exterior"
+	landmark_tag = "nav_sfa_light_cruiserp_7"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
 
-/obj/effect/shuttle_landmark/fsf_shuttle/transit
-	name = "In transit"
-	landmark_tag = "nav_transit_fsf_shuttle"
-	base_turf = /turf/space/transit/north
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav8
+	name = "SFA Light Cruiser Gunnery Deck - Starboard Fore Hall Exterior"
+	landmark_tag = "nav_sfa_light_cruiser_8"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav9
+	name = "SFA Light Cruiser Gunnery Deck - Port Fore Hall Exterior"
+	landmark_tag = "nav_sfa_light_cruiser_9"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav10
+	name = "SFA Light Cruiser Gunnery Deck - Starboard Coilgun"
+	landmark_tag = "nav_sfa_light_cruiser_10"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav11
+	name = "SFA Light Cruiser Gunnery Deck - Port Coilgun"
+	landmark_tag = "nav_sfa_light_cruiser_11"
+	base_turf = /turf/space/dynamic
+	base_area = /area/space

@@ -1,77 +1,161 @@
-/area/casino
-	icon = 'maps/away/ships/casino/casino_sprites.dmi'
+/area/light_cruiser
 	no_light_control = 1
 
-/area/casino/casino_mainfloor
-	name = "\improper Casino Hall"
-	icon_state = "main_area"
+/area/light_cruiser/starboard_thrusters
+	name = "Starboard - Propulsion"
+	icon_state = "blue-red2"
+	ambience = AMBIENCE_ENGINEERING
 
-/area/casino/casino_maintenance
-	name = "\improper Casino Maintenance"
-	icon_state = "maintenance"
+/area/light_cruiser/port_thrusters
+	name = "Port - Propulsion"
+	icon_state = "blue-red2"
+	ambience = AMBIENCE_ENGINEERING
 
-/area/casino/casino_bow
-	name = "\improper Casino Ship Bow"
-	icon_state = "bow"
+/area/light_cruiser/starboard_engineering
+	name = "Starboard - Engineering"
+	icon_state = "engineering"
+	ambience = AMBIENCE_ENGINEERING
 
-/area/casino/casino_crew_bunk
-	name = "\improper Casino Crew Bunk Room"
-	icon_state = "crew_bunk"
+/area/light_cruiser/port_engineering
+	name = "Port - Engineering"
+	icon_state = "Port Engineering"
+	ambience = AMBIENCE_ENGINEERING
 
-/area/casino/casino_crew_atmos
-	name = "\improper Casino Atmos room"
-	icon_state = "atmos"
+/area/light_cruiser/reactor
+	name = "Reactor"
+	icon_state = "engine_smes"
+	sound_env = SMALL_ENCLOSED
+	ambience = AMBIENCE_SINGULARITY
 
-/area/casino/casino_kitchen
-	name = "\improper Casino Kitchen"
-	icon_state = "kitchen"
+/area/light_cruiser/starboard_aft_hall
+	name = "Starboard - Aft Hallway"
+	icon_state = "hallC1"
+	sound_env = LARGE_ENCLOSED
 
-/area/casino/casino_crew_cantina
-	name = "\improper Casino Canteen"
-	icon_state = "crew_cantina"
+/area/light_cruiser/port_aft_hall
+	name = "Port - Aft Hallway"
+	sound_env = LARGE_ENCLOSED
+	icon_state = "hallC1"
 
-/area/casino/casino_security
-	name = "\improper Casino Security Wing"
-	icon_state = "sec"
+/area/light_cruiser/lifts_and_stairs
+	name = "Lifts & Stairs"
+	icon_state = "arrivals_dock"
+	sound_env = LARGE_ENCLOSED
 
-/area/casino/casino_hangar
-	name = "\improper Casino Hangar"
-	icon_state = "hangar"
+/area/light_cruiser/head
+	name = "Head"
+	icon_state = "washroom"
+	sound_env = SMALL_ENCLOSED
 
-/area/casino/casino_private1
-	name = "\improper Casino Private Room 1"
-	icon_state = "pr1"
+/area/light_cruiser/armoury
+	name = "Starboard - Armoury"
+	ambience = AMBIENCE_HIGHSEC
+	icon_state = "security"
 
-/area/casino/casino_private2
-	name = "\improper Casino Private room 1"
-	icon_state = "pr2"
+/area/light_cruiser/armoury
+	name = "Port - Medical"
+	icon_state = "medbay"
+	ambience = list('sound/ambience/signal.ogg')
 
-/area/casino/casino_private_vip
-	name = "\improper Casino VIP Private Room"
-	icon_state = "pr_vip"
+/area/light_cruiser/central_hall
+	name = "Central Hallway"
+	sound_env = LARGE_ENCLOSED
+	icon_state = "hallC2"
 
-/area/casino/casino_crew_bathroom
-	name = "\improper Casino Crew Bathroom"
-	icon_state = "crew_bathroom"
+/area/light_cruiser/strongroom //somebody set us up the bomb
+	name = "Strongroom"
+	ambience = AMBIENCE_HIGHSEC
+	icon_state = "nuke_storage"
 
-/area/casino/casino_patron_bathroom
-	name = "\improper Casino Patrons Bathroom"
-	icon_state = "patron_bathroom"
+/area/light_cruiser/cic_hall
+	name = "CIC Hallway"
+	sound_env = LARGE_ENCLOSED
+	icon_state = "hallC3"
 
-/area/casino/casino_bridge
-	name = "\improper Casino Bridge"
+/area/light_cruiser/port_abandoned_observation
+	name = "Port - Abandoned Observation Room"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "unknown"
+
+/area/light_cruiser/starboard_observation
+	name = "Starboard - Observation Room"
+	sound_env = SMALL_SOFTFLOOR
+	icon_state = "green"
+
+/area/light_cruiser/cic
+	name = "combat information center"
+	sound_env = MEDIUM_SOFTFLOOR
 	icon_state = "bridge"
 
-/area/casino/casino_storage
-	name = "\improper Casino Storage Room"
-	icon_state = "storage"
+/area/light_cruiser/starboard_maintenance_exit
+	name = "Starboard - Maintenance Exit"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "maintcentral"
 
-/area/casino/casino_solar_control
-	name = "\improper Casino Solar Controls"
-	icon_state = "solar_control"
+/area/light_cruiser/port_maintenance_exit
+	name = "Port - Maintenance Exit"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "maintcentral"
 
-/area/shuttle/casino_cutter
-	name = "\improper Casino Cutter"
-	icon = 'maps/away/ships/casino/casino_sprites.dmi'
-	icon_state = "shuttle"
-	requires_power = TRUE
+/area/light_cruiser/starboard_fore_hall_1
+	name = "Starboard - Fore Hallway"
+	sound_env = LARGE_ENCLOSED
+	icon_state = "hallS"
+
+/area/light_cruiser/starboard_fore_hall_2
+	name = "Starboard - Fore Hallway"
+	sound_env = LARGE_ENCLOSED
+	icon_state = "hallS"
+
+/area/light_cruiser/port_fore_hall_1
+	name = "Port - Fore Hallway"
+	sound_env = LARGE_ENCLOSED
+	icon_state = "hallP"
+
+/area/light_cruiser/port_fore_hall_2
+	name = "Port - Fore Hallway"
+	sound_env = LARGE_ENCLOSED
+	icon_state = "hallP"
+
+/area/light_cruiser/starboard_coilgun_ammo_1
+	name = "Starboard - Coilgun Ammunition"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "unknown"
+
+/area/light_cruiser/starboard_coilgun_ammo_2
+	name = "Starboard - Coilgun Ammunition"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "unknown"
+
+/area/light_cruiser/port_coilgun_ammo_1
+	name = "Port - Coilgun Ammunition"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "unknown"
+
+/area/light_cruiser/port_coilgun_ammo_2
+	name = "Port - Coilgun Ammunition"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "unknown"
+
+/area/light_cruiser/starboard_coilgun
+	name = "Starboard - Coilgun"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "dark"
+
+/area/light_cruiser/port_coilgun
+	name = "Port - Coilgun"
+	sound_env = SMALL_ENCLOSED
+	icon_state = "dark"
+
+/area/light_cruiser/starboard_exterior_armour
+	name = "Starboard - Armour"
+	icon_state = "unknown"
+
+/area/light_cruiser/port_exterior_armour
+	name = "Port - Armour"
+	icon_state = "unknown"
+
+/area/light_cruiser/exterior
+	name = "Cruiser Exterior"
+	icon_state = "unknown"
+	requires_power = FALSE
