@@ -504,6 +504,10 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/reactor)
+"aUV" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav11,
+/turf/template_noop,
+/area/space)
 "aVu" = (
 /obj/machinery/door/airlock/hatch{
 	req_one_access = list(203);
@@ -1422,6 +1426,10 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_1)
+"crf" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav3,
+/turf/template_noop,
+/area/space)
 "csn" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -1461,6 +1469,10 @@
 "cwv" = (
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
+"cww" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav10,
+/turf/template_noop,
+/area/space)
 "cxe" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -1517,6 +1529,10 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"cKd" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav6,
+/turf/template_noop,
+/area/space)
 "cKJ" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -2409,6 +2425,10 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/cic)
+"enM" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav1,
+/turf/template_noop,
+/area/space)
 "enS" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -3245,6 +3265,10 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"gim" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav4,
+/turf/template_noop,
+/area/space)
 "giV" = (
 /obj/structure/railing/mapped,
 /obj/structure/shuttle/engine/heater{
@@ -3641,6 +3665,10 @@
 /obj/item/storage/bag/inflatable,
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"hcL" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav5,
+/turf/template_noop,
+/area/space)
 "heK" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /obj/machinery/door/window,
@@ -5463,6 +5491,10 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
+"kUg" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav2,
+/turf/template_noop,
+/area/space)
 "kUr" = (
 /obj/machinery/light{
 	dir = 4
@@ -6392,6 +6424,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"njO" = (
+/obj/effect/overmap/visitable/ship/sfa_light_cruiser,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "nmz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
@@ -6668,6 +6704,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
+/area/space)
+"nUh" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav8,
+/turf/template_noop,
 /area/space)
 "nUt" = (
 /obj/structure/table/rack,
@@ -7900,6 +7940,10 @@
 /obj/machinery/cell_charger,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"qye" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav9,
+/turf/template_noop,
+/area/space)
 "qyi" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/dark/full,
@@ -9721,6 +9765,10 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_1)
+"uGi" = (
+/obj/effect/shuttle_landmark/sfa_light_cruiser/nav7,
+/turf/template_noop,
+/area/space)
 "uGK" = (
 /obj/machinery/door/airlock/glass_security{
 	name = "Armoury";
@@ -32713,7 +32761,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
+gim
 xRX
 xRX
 xRX
@@ -32986,7 +33034,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
+cKd
 xRX
 xRX
 xRX
@@ -33198,6 +33246,7 @@ xRX
 xRX
 xRX
 xRX
+kUg
 xRX
 xRX
 xRX
@@ -33269,8 +33318,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
+nUh
 xRX
 xRX
 xRX
@@ -34838,7 +34886,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
+cww
 xRX
 xRX
 xRX
@@ -40730,7 +40778,7 @@ rWq
 ivO
 kAg
 ivO
-vnu
+uWy
 sSs
 vnu
 tJs
@@ -42949,7 +42997,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
+enM
 xRX
 xRX
 xRX
@@ -43023,7 +43071,7 @@ ycs
 fSh
 wEB
 ayH
-gch
+njO
 gch
 naN
 lJw
@@ -45356,7 +45404,7 @@ tMt
 kBD
 bdy
 kBD
-len
+ujD
 bED
 len
 ueP
@@ -50952,6 +51000,7 @@ xRX
 xRX
 xRX
 xRX
+hcL
 xRX
 xRX
 xRX
@@ -51030,8 +51079,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
+aUV
 xRX
 xRX
 xRX
@@ -52006,7 +52054,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
+uGi
 xRX
 xRX
 xRX
@@ -52805,7 +52853,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
+qye
 xRX
 xRX
 xRX
@@ -52987,7 +53035,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
+crf
 xRX
 xRX
 xRX

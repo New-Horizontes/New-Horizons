@@ -10,7 +10,7 @@
 
 //ship stuff
 
-/obj/effect/overmap/visitable/ship/fsf_patrol_ship
+/obj/effect/overmap/visitable/ship/sfa_light_cruiser
 	name = "SFA Light Cruiser"
 	class = "SFAV"
 	desc = "A light cruiser. The Yincheng-class is a typical Solarian light or “patrol” cruiser intended for anti-piracy and convoy escort operations across the \
