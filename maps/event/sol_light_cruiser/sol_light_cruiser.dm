@@ -1,7 +1,8 @@
 /datum/map_template/ruin/away_site/sfa_light_cruiser
 	name = "SFA Light Cruiser"
 	description = "big, green and very mean grrr."
-	suffix = "event/sol_light_cruiser/sol_light_cruiser.dmm"
+	prefix = "maps/event/"
+	suffix = "sol_light_cruiser/sol_light_cruiser.dmm"
 	sectors = list(SECTOR_ROMANOVICH, SECTOR_TAU_CETI, SECTOR_CORP_ZONE, SECTOR_VALLEY_HALE, SECTOR_BADLANDS, SECTOR_NEW_ANKARA, SECTOR_AEMAQ, SECTOR_SRANDMARR, SECTOR_NRRAHRAHUL, SECTOR_GAKAL, SECTOR_UUEOAESA)
 	spawn_weight = 1
 	spawn_cost = 1
@@ -49,8 +50,8 @@
 		"nav_sfa_light_cruiser_11"
 	)
 
-/obj/effect/overmap/visitable/ship/fsf_patrol_ship/New()
-	designation = "[pick("A Frank Exchange of Views")]"
+/obj/effect/overmap/visitable/ship/sfa_light_cruiser/New()
+	designation = "[pick("A Frank Exchange of Views", "Ace of Spades")]"
 	..()
 
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav1

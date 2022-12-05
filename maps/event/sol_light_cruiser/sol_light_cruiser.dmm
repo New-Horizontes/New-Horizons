@@ -129,11 +129,11 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
 "agD" = (
+/obj/machinery/stargazer{
+	pixel_y = -47
+	},
 /obj/effect/floor_decal/spline/plain/cee{
 	dir = 1
-	},
-/obj/machinery/stargazer{
-	pixel_y = -40
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
@@ -477,7 +477,7 @@
 /area/light_cruiser/starboard_fore_hall_1)
 "aRb" = (
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/port_maintenance_exit)
 "aTV" = (
@@ -750,7 +750,6 @@
 /area/light_cruiser/port_engineering)
 "bqC" = (
 /obj/structure/table/rack,
-/obj/random/booze,
 /obj/item/tank/jetpack/carbondioxide,
 /turf/simulated/floor,
 /area/light_cruiser/port_maintenance_exit)
@@ -782,11 +781,11 @@
 	pixel_y = -7
 	},
 /obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/head/helmet/sol{
-	pixel_x = 5;
-	pixel_y = 2
+/obj/item/clothing/head/helmet/military{
+	pixel_x = 2;
+	pixel_y = 5
 	},
-/obj/item/clothing/glasses/sunglasses,
+/obj/item/clothing/glasses/sunglasses/sechud/tactical,
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
 	},
@@ -1084,7 +1083,6 @@
 	dir = 8
 	},
 /obj/machinery/light/colored/blue,
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -1647,9 +1645,6 @@
 	dir = 8
 	},
 /obj/structure/table/rack,
-/obj/item/stack/material/phoron/full{
-	pixel_y = -8
-	},
 /obj/item/stack/material/phoron/full,
 /obj/item/stack/material/phoron/full{
 	pixel_y = 8
@@ -1757,7 +1752,7 @@
 /area/light_cruiser/starboard_thrusters)
 "dfQ" = (
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/port_exterior_armour)
 "dgk" = (
@@ -1874,7 +1869,7 @@
 /area/light_cruiser/starboard_aft_hall)
 "drK" = (
 /obj/machinery/shipsensors{
-	pixel_y = 7
+	pixel_y = 1
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/cic)
@@ -1916,23 +1911,23 @@
 	},
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/head/helmet/sol{
-	pixel_x = 5;
-	pixel_y = 2
+/obj/item/clothing/head/helmet/military{
+	pixel_x = 2;
+	pixel_y = 5
 	},
-/obj/item/clothing/head/helmet/sol{
-	pixel_x = 5;
-	pixel_y = 2
+/obj/item/clothing/head/helmet/military{
+	pixel_x = 2;
+	pixel_y = 5
 	},
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/mask/gas/tactical{
-	pixel_x = -6;
-	pixel_y = -7
+/obj/item/clothing/glasses/sunglasses/sechud/tactical,
+/obj/item/clothing/glasses/sunglasses/sechud/tactical,
+/obj/item/clothing/mask/gas/half{
+	pixel_y = -5;
+	pixel_x = -4
 	},
-/obj/item/clothing/mask/gas/tactical{
-	pixel_x = -6;
-	pixel_y = -7
+/obj/item/clothing/mask/gas/half{
+	pixel_y = -5;
+	pixel_x = -4
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
@@ -1975,13 +1970,13 @@
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_aft_hall)
 "dxd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	icon_state = "door_locked";
-	id_tag = "cruiser_starboard_in"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 10
+	id_tag = "cruiser_port_in"
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_aft_hall)
@@ -2231,7 +2226,7 @@
 /area/light_cruiser/reactor)
 "dWe" = (
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/port_coilgun_ammo_2)
 "dWq" = (
@@ -2440,7 +2435,7 @@
 /area/light_cruiser/port_coilgun_ammo_1)
 "eof" = (
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/starboard_maintenance_exit)
 "euh" = (
@@ -3364,7 +3359,6 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -3800,7 +3794,7 @@
 /area/light_cruiser/port_fore_hall_1)
 "hAf" = (
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/port_coilgun)
 "hCy" = (
@@ -4426,7 +4420,7 @@
 /area/light_cruiser/port_engineering)
 "iQy" = (
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/starboard_exterior_armour)
 "iQA" = (
@@ -4826,6 +4820,9 @@
 "jyn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor,
 /area/light_cruiser/starboard_maintenance_exit)
 "jzK" = (
@@ -5084,7 +5081,7 @@
 	name = "starboard, fore hallway"
 	},
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/starboard_exterior_armour)
 "kbQ" = (
@@ -5155,7 +5152,6 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
@@ -5308,7 +5304,7 @@
 	name = "port, fore hallway"
 	},
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/port_exterior_armour)
 "ktX" = (
@@ -5394,6 +5390,7 @@
 /area/light_cruiser/starboard_observation)
 "kDD" = (
 /obj/structure/table/reinforced/steel,
+/obj/item/stack/barbed_wire/full,
 /obj/item/stack/barbed_wire/full,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
@@ -6269,7 +6266,6 @@
 /obj/machinery/light/colored/blue{
 	dir = 1
 	},
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -6424,10 +6420,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
-"njO" = (
-/obj/effect/overmap/visitable/ship/sfa_light_cruiser,
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/cic)
 "nmz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
@@ -6544,7 +6536,6 @@
 /area/light_cruiser/starboard_aft_hall)
 "nvO" = (
 /obj/structure/table/rack,
-/obj/random/coin,
 /obj/item/tank/jetpack/carbondioxide,
 /turf/simulated/floor,
 /area/light_cruiser/starboard_maintenance_exit)
@@ -6603,6 +6594,9 @@
 /area/space)
 "nJy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_2)
 "nKW" = (
@@ -6752,7 +6746,6 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -6822,13 +6815,13 @@
 /obj/structure/bed/handrail,
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	frequency = 1380;
-	id_tag = "cruiser_starboard";
+	id_tag = "cruiser_port";
 	layer = 3.3;
 	pixel_y = 28;
-	tag_airpump = "cruiser_starboard_pump";
-	tag_chamber_sensor = "cruiser_starboard_sensor";
-	tag_exterior_door = "cruiser_starboard_out";
-	tag_interior_door = "cruiser_starboard_in"
+	tag_airpump = "cruiser_port_pump";
+	tag_chamber_sensor = "cruiser_port_sensor";
+	tag_exterior_door = "cruiser_port_out";
+	tag_interior_door = "cruiser_port_in"
 	},
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
@@ -7077,7 +7070,7 @@
 /area/light_cruiser/armoury)
 "oDP" = (
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/starboard_coilgun_ammo_2)
 "oEd" = (
@@ -7447,7 +7440,7 @@
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	icon_state = "door_locked";
-	id_tag = "cruiser_port_in"
+	id_tag = "cruiser_starboard_in"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -7709,23 +7702,23 @@
 	},
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/head/helmet/sol{
-	pixel_x = 5;
-	pixel_y = 2
+/obj/item/clothing/head/helmet/military{
+	pixel_x = 2;
+	pixel_y = 5
 	},
-/obj/item/clothing/head/helmet/sol{
-	pixel_x = 5;
-	pixel_y = 2
+/obj/item/clothing/head/helmet/military{
+	pixel_x = 2;
+	pixel_y = 5
 	},
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/mask/gas/tactical{
-	pixel_x = -6;
-	pixel_y = -7
+/obj/item/clothing/glasses/sunglasses/sechud/tactical,
+/obj/item/clothing/glasses/sunglasses/sechud/tactical,
+/obj/item/clothing/mask/gas/half{
+	pixel_y = -5;
+	pixel_x = -4
 	},
-/obj/item/clothing/mask/gas/tactical{
-	pixel_x = -6;
-	pixel_y = -7
+/obj/item/clothing/mask/gas/half{
+	pixel_y = -5;
+	pixel_x = -4
 	},
 /obj/machinery/door/window/northleft{
 	dir = 2;
@@ -8050,6 +8043,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"qNP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/bed/stool/bar/padded/red,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_thrusters)
 "qPH" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 10
@@ -8875,11 +8875,11 @@
 	pixel_y = -7
 	},
 /obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/head/helmet/sol{
-	pixel_x = 5;
-	pixel_y = 2
+/obj/item/clothing/head/helmet/military{
+	pixel_x = 2;
+	pixel_y = 5
 	},
-/obj/item/clothing/glasses/sunglasses,
+/obj/item/clothing/glasses/sunglasses/sechud/tactical,
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
 	},
@@ -9264,6 +9264,10 @@
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/space)
+"twj" = (
+/obj/effect/overmap/visitable/ship/sfa_light_cruiser,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "twq" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -9306,7 +9310,7 @@
 /area/light_cruiser/starboard_engineering)
 "tAw" = (
 /turf/simulated/wall/shuttle/raider{
-	color = " #ff8c00"
+	color = "#ff8c00"
 	},
 /area/light_cruiser/starboard_coilgun)
 "tBB" = (
@@ -9616,6 +9620,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/strongroom)
+"utx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/bed/stool/bar/padded/red,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_thrusters)
 "utD" = (
 /obj/machinery/atmospherics/binary/passive_gate{
 	dir = 4
@@ -9893,7 +9904,6 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8;
 	level = 2
@@ -9955,23 +9965,23 @@
 	},
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/suit/armor/carrier/military,
-/obj/item/clothing/head/helmet/sol{
-	pixel_x = 5;
-	pixel_y = 2
+/obj/item/clothing/head/helmet/military{
+	pixel_x = 2;
+	pixel_y = 5
 	},
-/obj/item/clothing/head/helmet/sol{
-	pixel_x = 5;
-	pixel_y = 2
+/obj/item/clothing/head/helmet/military{
+	pixel_x = 2;
+	pixel_y = 5
 	},
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/mask/gas/tactical{
-	pixel_x = -6;
-	pixel_y = -7
+/obj/item/clothing/glasses/sunglasses/sechud/tactical,
+/obj/item/clothing/glasses/sunglasses/sechud/tactical,
+/obj/item/clothing/mask/gas/half{
+	pixel_y = -5;
+	pixel_x = -4
 	},
-/obj/item/clothing/mask/gas/tactical{
-	pixel_x = -6;
-	pixel_y = -7
+/obj/item/clothing/mask/gas/half{
+	pixel_y = -5;
+	pixel_x = -4
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
@@ -10712,6 +10722,9 @@
 /area/light_cruiser/starboard_engineering)
 "wNv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
 "wPk" = (
@@ -41217,7 +41230,7 @@ tPj
 tPj
 tPj
 gOm
-qHR
+utx
 pxC
 tPj
 eCf
@@ -43071,7 +43084,7 @@ ycs
 fSh
 wEB
 ayH
-njO
+twj
 gch
 naN
 lJw
@@ -44815,7 +44828,7 @@ cXS
 cXS
 cXS
 iAl
-rBz
+qNP
 dGZ
 cXS
 dZg
