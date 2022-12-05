@@ -1,12 +1,16 @@
-/datum/map_template/ruin/away_site/sfa_cruiser
+/datum/map_template/ruin/away_site/sfa_light_cruiser
 	name = "SFA Light Cruiser"
-	description = "big and very mean grrr."
-	suffix = "maps/event/sol_light_cruiser/sol_light_cruiser.dmm"
+	description = "big, green and very mean grrr."
+	suffix = "event/sol_light_cruiser/sol_light_cruiser.dmm"
 	sectors = list(SECTOR_ROMANOVICH, SECTOR_TAU_CETI, SECTOR_CORP_ZONE, SECTOR_VALLEY_HALE, SECTOR_BADLANDS, SECTOR_NEW_ANKARA, SECTOR_AEMAQ, SECTOR_SRANDMARR, SECTOR_NRRAHRAHUL, SECTOR_GAKAL, SECTOR_UUEOAESA)
 	spawn_weight = 1
 	spawn_cost = 1
 	id = "sfa_light_cruiser"
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
+
+/decl/submap_archetype/sfa_light_cruiser
+	map = "sfa light cruiser"
+	descriptor = "big, green and very mean grrr."
 
 //ship stuff
 
@@ -42,7 +46,7 @@
 		"nav_sfa_light_cruiser_8",
 		"nav_sfa_light_cruiser_9",
 		"nav_sfa_light_cruiser_10",
-		"nav_sfa_light_cruiser_11",
+		"nav_sfa_light_cruiser_11"
 	)
 
 /obj/effect/overmap/visitable/ship/fsf_patrol_ship/New()
