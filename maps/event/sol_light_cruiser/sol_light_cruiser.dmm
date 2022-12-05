@@ -3987,6 +3987,13 @@
 	},
 /turf/template_noop,
 /area/space)
+"hSz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/bed/stool/bar/padded/red,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_thrusters)
 "hTi" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -4157,6 +4164,13 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
+"ikS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/bed/stool/bar/padded/red,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_thrusters)
 "ikT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/visible/purple,
@@ -7260,6 +7274,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
+"pav" = (
+/obj/effect/overmap/visitable/ship/sfa_light_cruiser,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "pbB" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -8043,13 +8061,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
-"qNP" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/bed/stool/bar/padded/red,
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/port_thrusters)
 "qPH" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 10
@@ -9264,10 +9275,6 @@
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/space)
-"twj" = (
-/obj/effect/overmap/visitable/ship/sfa_light_cruiser,
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/cic)
 "twq" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -9620,13 +9627,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/strongroom)
-"utx" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/bed/stool/bar/padded/red,
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/starboard_thrusters)
 "utD" = (
 /obj/machinery/atmospherics/binary/passive_gate{
 	dir = 4
@@ -41230,7 +41230,7 @@ tPj
 tPj
 tPj
 gOm
-utx
+hSz
 pxC
 tPj
 eCf
@@ -43084,7 +43084,7 @@ ycs
 fSh
 wEB
 ayH
-twj
+pav
 gch
 naN
 lJw
@@ -44828,7 +44828,7 @@ cXS
 cXS
 cXS
 iAl
-qNP
+ikS
 dGZ
 cXS
 dZg
