@@ -1,6 +1,6 @@
 /datum/map_template/ruin/away_site/sfa_light_cruiser
 	name = "SFA Light Cruiser"
-	description = "big, green and very mean grrr."
+	description = "big, green and very, very mean grrr."
 	prefix = "maps/event/"
 	suffix = "sol_light_cruiser/sol_light_cruiser.dmm"
 	sectors = list(SECTOR_ROMANOVICH, SECTOR_TAU_CETI, SECTOR_CORP_ZONE, SECTOR_VALLEY_HALE, SECTOR_BADLANDS, SECTOR_NEW_ANKARA, SECTOR_AEMAQ, SECTOR_SRANDMARR, SECTOR_NRRAHRAHUL, SECTOR_GAKAL, SECTOR_UUEOAESA)
@@ -11,29 +11,27 @@
 
 /decl/submap_archetype/sfa_light_cruiser
 	map = "sfa light cruiser"
-	descriptor = "big, green and very mean grrr."
+	descriptor = "big, green and very, very mean grrr."
 
 //ship stuff
 
 /obj/effect/overmap/visitable/ship/sfa_light_cruiser
 	name = "SFA Light Cruiser"
 	class = "SFAV"
-	desc = "A light cruiser. The Yincheng-class is a typical Solarian light or “patrol” cruiser intended for anti-piracy and convoy escort operations across the \
+	desc = "The Yincheng-class is a typical Solarian light or “patrol” cruiser intended for anti-piracy and convoy escort operations across the \
 	Middle and Outer Rings prior to the Collapse. Armed with only a limited number of energy turrets, the Yincheng draws most of its firepower from large missile batteries \
-	located on the sides of its hull. Intended from the start to operate for long distances without being resupplied, Yinchengs were often employed by admirals in the \
+	located on the sides of its hull. Intended to operate for long distances without being resupplied, Yinchengs are often employed by admirals in the \
 	Middle and Outer Ring to lead squadrons of smaller vessels such as destroyers, frigates, and corvettes. Never intended to openly contest enemy fleets in spaceborne combat \
-	and only meant to stamp out pirates and other marauders, the Yincheng-class, while effective, has long struggled to attract talented Luna-educated officers, who often \
-	instead opt for service in larger Taipei-class heavy cruisers. This has long cursed the class with mediocre captains who are often more obsessed with their own prominence \
-	than the good of the Alliance. Ultimately, the Yincheng would tragically go on to become one of the most prominent ships in the arsenal of the warlords across the Wildlands \
-	due to its prominent position in the Middle and Outer Rings and the poor quality of its commanders \
+	and only meant to stamp out pirates and other marauders. The Yincheng would become one of the most prominent ships in the arsenal of the warlords across the Wildlands \
+	due to its prominent position in the Middle and Outer Rings. \
 		\
-	This one has received some substantial field modifications, making it pose only a fraction of the danger it usually would. These modifications include the removal of its energy \
+	This particular light cruiser has received some substantial field modifications which make it pose only a fraction of the danger it usually would. Most significant of which is the removal of its energy \
 	and missile emplacements, replaced with large coilguns. Much of the utility of the rest of the ship has been stripped away to accomodate the phoron-nuclear payload onboard the vessel."
 	icon_state = "ship_green"
 	moving_state = "ship_green_moving"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
-	vessel_mass = 150000
+	vessel_mass = 250000
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_LARGE
 

@@ -1,5 +1,6 @@
 /area/light_cruiser
 	no_light_control = 1
+	turf_initializer = new /datum/turf_initializer/maintenance() //SFA owned
 
 /area/light_cruiser/starboard_thrusters
 	name = "Starboard - Propulsion"
@@ -75,6 +76,7 @@
 /area/light_cruiser/port_abandoned_observation
 	name = "Port - Abandoned Observation Room"
 	sound_env = SMALL_ENCLOSED
+	ambience = AMBIENCE_MAINTENANCE
 	icon_state = "unknown"
 
 /area/light_cruiser/starboard_observation
@@ -90,10 +92,12 @@
 /area/light_cruiser/starboard_maintenance_exit
 	name = "Starboard - Maintenance Exit"
 	sound_env = SMALL_ENCLOSED
+	ambience = AMBIENCE_MAINTENANCE
 	icon_state = "maintcentral"
 
 /area/light_cruiser/port_maintenance_exit
 	name = "Port - Maintenance Exit"
+	ambience = AMBIENCE_MAINTENANCE
 	sound_env = SMALL_ENCLOSED
 	icon_state = "maintcentral"
 

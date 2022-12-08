@@ -797,7 +797,9 @@
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/head/helmet/military{
 	pixel_x = 2;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "sol military helmet";
+	desc = "A helmet in drab olive. Comes with a fancy military HUDglass."
 	},
 /obj/item/clothing/glasses/sunglasses/sechud/tactical,
 /obj/effect/floor_decal/corner/blue{
@@ -1936,11 +1938,15 @@
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/head/helmet/military{
 	pixel_x = 2;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "sol military helmet";
+	desc = "A helmet in drab olive. Comes with a fancy military HUDglass."
 	},
 /obj/item/clothing/head/helmet/military{
 	pixel_x = 2;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "sol military helmet";
+	desc = "A helmet in drab olive. Comes with a fancy military HUDglass."
 	},
 /obj/item/clothing/glasses/sunglasses/sechud/tactical,
 /obj/item/clothing/glasses/sunglasses/sechud/tactical,
@@ -2333,9 +2339,16 @@
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
 "edD" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space)
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_aft_hall)
 "efB" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -3055,9 +3068,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
 "fAp" = (
-/obj/item/stack/rods,
-/turf/simulated/floor/plating,
-/area/space)
+/obj/structure/foamedmetal,
+/turf/simulated/floor,
+/area/light_cruiser/port_exterior_armour)
 "fBl" = (
 /obj/machinery/light/colored/blue,
 /obj/structure/cable{
@@ -4195,6 +4208,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_aft_hall)
 "idw" = (
@@ -4753,10 +4767,6 @@
 "jhc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
-	},
-/obj/machinery/alarm{
-	pixel_y = 28;
-	req_one_access = list(203)
 	},
 /obj/machinery/light{
 	dir = 1
@@ -5382,6 +5392,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
 "ktp" = (
@@ -5958,6 +5971,13 @@
 /obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"lJI" = (
+/obj/machinery/light{
+	dir = 4;
+	pixel_x = -32
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/starboard_aft_hall)
 "lKP" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/mapped{
@@ -6021,10 +6041,6 @@
 "lXo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
-	},
-/obj/machinery/alarm{
-	pixel_y = 28;
-	req_one_access = list(203)
 	},
 /obj/machinery/light{
 	dir = 1
@@ -6208,6 +6224,22 @@
 /obj/effect/floor_decal/industrial/loading/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
+"moh" = (
+/obj/structure/bed/handrail{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	frequency = 1380;
+	id_tag = "cruiser_port_pump";
+	dir = 1
+	},
+/obj/machinery/access_button/airlock_exterior{
+	pixel_x = 9;
+	pixel_y = -21;
+	master_tag = "cruiser_port"
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/port_aft_hall)
 "mrg" = (
 /obj/structure/bed/handrail{
 	dir = 1
@@ -7710,6 +7742,10 @@
 /area/light_cruiser/port_coilgun_ammo_2)
 "pIz" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/alarm{
+	pixel_y = 28;
+	req_one_access = list(203)
+	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_abandoned_observation)
 "pIG" = (
@@ -7775,13 +7811,12 @@
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
 "pTt" = (
-/obj/effect/floor_decal/industrial/outline/medical,
-/obj/effect/floor_decal/corner_wide/lime/diagonal,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
+/obj/machinery/light{
+	dir = 8;
+	pixel_x = 33
 	},
-/turf/simulated/floor/tiled/white,
-/area/space)
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/port_aft_hall)
 "pTC" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
@@ -7840,11 +7875,15 @@
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/head/helmet/military{
 	pixel_x = 2;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "sol military helmet";
+	desc = "A helmet in drab olive. Comes with a fancy military HUDglass."
 	},
 /obj/item/clothing/head/helmet/military{
 	pixel_x = 2;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "sol military helmet";
+	desc = "A helmet in drab olive. Comes with a fancy military HUDglass."
 	},
 /obj/item/clothing/glasses/sunglasses/sechud/tactical,
 /obj/item/clothing/glasses/sunglasses/sechud/tactical,
@@ -8373,7 +8412,7 @@
 /area/light_cruiser/strongroom)
 "riW" = (
 /obj/structure/foamedmetal,
-/turf/simulated/floor/airless,
+/turf/simulated/floor,
 /area/light_cruiser/starboard_exterior_armour)
 "rjx" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -9020,7 +9059,9 @@
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/head/helmet/military{
 	pixel_x = 2;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "sol military helmet";
+	desc = "A helmet in drab olive. Comes with a fancy military HUDglass."
 	},
 /obj/item/clothing/glasses/sunglasses/sechud/tactical,
 /obj/effect/floor_decal/corner/blue{
@@ -9491,7 +9532,7 @@
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	icon_state = "door_locked";
-	id_tag = "cruiser_starboard_out"
+	id_tag = "cruiser_port_out"
 	},
 /obj/effect/landmark/entry_point/port{
 	name = "port, entry airlock"
@@ -10119,11 +10160,15 @@
 /obj/item/clothing/suit/armor/carrier/military,
 /obj/item/clothing/head/helmet/military{
 	pixel_x = 2;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "sol military helmet";
+	desc = "A helmet in drab olive. Comes with a fancy military HUDglass."
 	},
 /obj/item/clothing/head/helmet/military{
 	pixel_x = 2;
-	pixel_y = 5
+	pixel_y = 5;
+	name = "sol military helmet";
+	desc = "A helmet in drab olive. Comes with a fancy military HUDglass."
 	},
 /obj/item/clothing/glasses/sunglasses/sechud/tactical,
 /obj/item/clothing/glasses/sunglasses/sechud/tactical,
@@ -10442,9 +10487,16 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "vKq" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/space)
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_aft_hall)
 "vMq" = (
 /obj/machinery/power/terminal{
 	icon_state = "term"
@@ -10788,6 +10840,22 @@
 /obj/item/reagent_containers/hypospray/autoinjector/hyronalin,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/reactor)
+"wCY" = (
+/obj/structure/bed/handrail{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	frequency = 1380;
+	id_tag = "cruiser_starboard_pump";
+	dir = 1
+	},
+/obj/machinery/access_button/airlock_exterior{
+	pixel_x = -8;
+	pixel_y = -21;
+	master_tag = "cruiser_starboard"
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_aft_hall)
 "wDB" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/port_abandoned_observation)
@@ -10924,6 +10992,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_aft_hall)
 "wUk" = (
@@ -11192,6 +11261,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_aft_hall)
 "xxP" = (
@@ -37615,15 +37685,15 @@ xRX
 xRX
 xRX
 xRX
-qwc
-qwc
-qwc
-qwc
-qwc
-qwc
-qwc
-qwc
-qwc
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
 xRX
 xRX
 xRX
@@ -37858,7 +37928,7 @@ agi
 hZx
 lHW
 oPU
-dsG
+wCY
 hZx
 xRX
 xRX
@@ -37873,19 +37943,19 @@ xRX
 xRX
 xRX
 xRX
-edD
 xRX
 xRX
 xRX
-edD
 xRX
 xRX
-qwc
-qwc
-qwc
-qwc
-qwc
-qwc
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
 xRX
 xRX
 xRX
@@ -38140,7 +38210,7 @@ xRX
 xRX
 xRX
 xRX
-edD
+xRX
 xRX
 xRX
 xRX
@@ -38375,7 +38445,7 @@ dwB
 dsG
 hZx
 ebC
-ebC
+lJI
 ebC
 ebC
 ebC
@@ -38894,8 +38964,8 @@ ozF
 bYE
 ozF
 ozF
-ozF
 tUh
+ozF
 ozF
 bYE
 ozF
@@ -39147,7 +39217,7 @@ cii
 rku
 idv
 tXh
-idv
+vKq
 eAr
 gMt
 gMt
@@ -41741,7 +41811,7 @@ ciN
 uqE
 esF
 esF
-lFq
+esF
 bBt
 abo
 abo
@@ -45319,7 +45389,7 @@ mjK
 qwc
 jbX
 gyO
-pTt
+uWg
 mUu
 tQK
 uoN
@@ -46872,7 +46942,7 @@ iQA
 cwv
 uTO
 gcr
-bHq
+gcr
 sfU
 cbA
 hCy
@@ -46881,15 +46951,15 @@ ucL
 bGP
 gcr
 qDg
-peq
-peq
-peq
-peq
-peq
-peq
-peq
-peq
-peq
+fAp
+fAp
+fAp
+fAp
+fAp
+fAp
+fAp
+fAp
+fAp
 qDg
 qDg
 qDg
@@ -47138,15 +47208,15 @@ gmJ
 cqj
 rbn
 qDg
-peq
-peq
-peq
-peq
-peq
-peq
-peq
-peq
-peq
+fAp
+fAp
+fAp
+fAp
+fAp
+fAp
+fAp
+fAp
+fAp
 qDg
 qDg
 rtI
@@ -47371,7 +47441,7 @@ wwi
 jrf
 wRD
 yiM
-xxE
+edD
 jrf
 jwN
 jwN
@@ -47632,8 +47702,8 @@ agg
 gXd
 agg
 agg
-agg
 sIe
+agg
 agg
 gXd
 agg
@@ -48141,7 +48211,7 @@ cYK
 mrg
 eTH
 trH
-trH
+pTt
 trH
 trH
 trH
@@ -48420,7 +48490,7 @@ kYH
 xRX
 xRX
 xRX
-edD
+xRX
 xRX
 xRX
 xRX
@@ -48652,7 +48722,7 @@ vfp
 eTH
 jQs
 gsW
-mrg
+moh
 eTH
 xRX
 xRX
@@ -48667,19 +48737,19 @@ xRX
 xRX
 xRX
 xRX
-edD
 xRX
 xRX
 xRX
-edD
 xRX
 xRX
 xRX
-vKq
-qwc
-qwc
-qwc
-qwc
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
 xRX
 xRX
 xRX
@@ -48923,16 +48993,16 @@ xRX
 xRX
 xRX
 xRX
-qwc
-qwc
-qwc
-qwc
-qwc
-qwc
-qwc
-vKq
-fAp
-qwc
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
+xRX
 xRX
 xRX
 xRX
