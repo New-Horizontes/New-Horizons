@@ -5,6 +5,7 @@
 	icon = 'icons/obj/machines/ship_guns/sol_coilgun.dmi'
 	icon_state = "weapon_base"
 	projectile_type = /obj/item/projectile/ship_ammo/coilgun
+	max_ammo = 3
 
 	heavy_firing_sound = 'sound/weapons/railgun.ogg'
 	firing_effects = FIRING_EFFECT_FLAG_EXTREMELY_LOUD
@@ -24,16 +25,16 @@
 /obj/item/projectile/ship_ammo/coilgun
 	name = "high-power tungsten rod"
 	icon_state = "heavy"
-	damage = 10000
-	armor_penetration = 1000
+	damage = 500
+	armor_penetration = 500
+	penetrating = 1
 
 /obj/item/projectile/ship_ammo/coilgun/on_hit(atom/target, blocked, def_zone, is_landmark_hit)
 	. = ..()
 	if(ismob(target))
 		var/mob/M = target
 		M.visible_message(SPAN_DANGER("<font size=5>\The [src] blows [M]'s chest apart and punches straight through!</font>"))
-	if(isturf(target) || isobj(target))
-		explosion(target, 6, 8, 10)
+	explosion(target, 3, 4, 8)
 
 /obj/machinery/ammunition_loader/sol
 	icon_state = "ammo_loader_sol"
