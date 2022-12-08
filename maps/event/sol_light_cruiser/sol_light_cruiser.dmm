@@ -466,6 +466,10 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
+"aOY" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
+/area/space)
 "aQA" = (
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -534,7 +538,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_2)
@@ -681,7 +685,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_2)
@@ -1198,7 +1202,7 @@
 	},
 /obj/random/loot,
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_abandoned_observation)
@@ -1837,7 +1841,6 @@
 /turf/template_noop,
 /area/light_cruiser/starboard_coilgun_ammo_2)
 "dpn" = (
-/obj/structure/railing/mapped,
 /obj/machinery/door/window/northleft{
 	dir = 4
 	},
@@ -1847,6 +1850,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/window/borosilicate/reinforced,
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
 "dpN" = (
@@ -2283,6 +2287,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
 /area/light_cruiser/head)
@@ -2791,7 +2798,7 @@
 	req_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_aft_hall)
@@ -2870,6 +2877,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/head)
@@ -3475,7 +3485,7 @@
 	req_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_aft_hall)
@@ -3593,6 +3603,13 @@
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"gTg" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/light_cruiser/strongroom)
 "gUM" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/port_coilgun_ammo_1)
@@ -3770,6 +3787,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
+	},
+/obj/structure/cable/green{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/central_hall)
@@ -4707,8 +4727,20 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
+"jkv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/light_cruiser/head)
 "jkW" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -4840,8 +4872,8 @@
 /turf/simulated/floor,
 /area/light_cruiser/starboard_maintenance_exit)
 "jzK" = (
-/obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning,
+/obj/structure/window/borosilicate/reinforced,
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
 "jBg" = (
@@ -4952,7 +4984,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
@@ -5203,7 +5235,7 @@
 	},
 /obj/random/desktoy,
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
@@ -5344,7 +5376,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
 /area/space)
@@ -5831,7 +5863,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor,
@@ -6389,7 +6421,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
@@ -6583,6 +6615,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
+"nFh" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/plating,
+/area/space)
 "nGA" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/dark,
@@ -6765,6 +6801,22 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
+"oaf" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/light_cruiser/central_hall)
 "oam" = (
 /obj/machinery/alarm{
 	pixel_x = 28;
@@ -6807,7 +6859,7 @@
 	req_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_observation)
@@ -7125,7 +7177,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_1)
@@ -7499,7 +7551,7 @@
 /area/light_cruiser/starboard_thrusters)
 "pxL" = (
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /obj/machinery/power/apc/high{
 	dir = 1;
@@ -7990,6 +8042,12 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
+"qAE" = (
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled,
+/area/light_cruiser/lifts_and_stairs)
 "qCD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /turf/simulated/floor/tiled,
@@ -8229,7 +8287,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
@@ -8237,13 +8295,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
 /obj/structure/window/borosilicate/reinforced{
 	maxhealth = 200;
 	name = "super-reinforced borosilicate glass pane";
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
@@ -8675,6 +8733,12 @@
 /obj/structure/stairs/south,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
+"shw" = (
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/white,
+/area/light_cruiser/head)
 "shV" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -8769,12 +8833,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "2-4"
+/obj/machinery/phoron_bomb{
+	pixel_y = -5
 	},
 /obj/structure/cable{
-	icon_state = "1-8";
 	dir = 4
+	},
+/obj/structure/cable{
+	dir = 8
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
@@ -8799,7 +8865,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor,
 /area/light_cruiser/starboard_maintenance_exit)
@@ -9060,6 +9126,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_aft_hall)
+"sRF" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space)
 "sSs" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -9324,6 +9394,9 @@
 /obj/structure/railing/mapped,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/strongroom)
@@ -9625,6 +9698,9 @@
 	name = "strongroom blast door";
 	id = "sol_strongroom"
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/strongroom)
 "utD" = (
@@ -9722,13 +9798,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
 /obj/structure/window/borosilicate/reinforced{
 	maxhealth = 200;
 	name = "super-reinforced borosilicate glass pane";
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
@@ -10001,7 +10077,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_2)
 "uYY" = (
-/obj/structure/railing/mapped,
 /obj/machinery/door/window/northleft{
 	dir = 8
 	},
@@ -10012,6 +10087,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/window/borosilicate/reinforced,
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
 "uZR" = (
@@ -10079,6 +10155,20 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
+"vgX" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	is_critical = 1;
+	name = "north bump";
+	pixel_y = 24;
+	req_access = null;
+	req_one_access = list(203)
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/light_cruiser/head)
 "vhc" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -10095,7 +10185,7 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
-	dir = 1
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_1)
@@ -10621,11 +10711,11 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/strongroom)
@@ -10813,6 +10903,7 @@
 /area/light_cruiser/port_abandoned_observation)
 "xdz" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/purple,
+/obj/machinery/meter,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_thrusters)
 "xhy" = (
@@ -10821,6 +10912,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
@@ -11153,6 +11247,7 @@
 /area/light_cruiser/port_engineering)
 "xTB" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/purple,
+/obj/machinery/meter,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
 "xUB" = (
@@ -37408,15 +37503,15 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+qwc
+qwc
+qwc
+qwc
+qwc
+qwc
+qwc
+qwc
+qwc
 xRX
 xRX
 xRX
@@ -37666,19 +37761,19 @@ xRX
 xRX
 xRX
 xRX
+sRF
 xRX
 xRX
 xRX
+sRF
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+qwc
+qwc
+qwc
+qwc
+qwc
+qwc
 xRX
 xRX
 xRX
@@ -37933,7 +38028,7 @@ xRX
 xRX
 xRX
 xRX
-xRX
+sRF
 xRX
 xRX
 xRX
@@ -41251,9 +41346,9 @@ kNq
 qdC
 gZD
 ebC
-wqe
-uNC
-wqe
+vgX
+jkv
+shw
 uNC
 wqe
 fxG
@@ -41521,7 +41616,7 @@ lwQ
 fpY
 fxG
 cwv
-hxL
+oaf
 pmI
 uwM
 ewt
@@ -42032,7 +42127,7 @@ gpq
 uUZ
 gpq
 gpq
-gpq
+qAE
 iWu
 pxM
 bxk
@@ -43068,7 +43163,7 @@ cwv
 lZL
 sqq
 jzK
-fKP
+gTg
 fBl
 lZL
 eNX
@@ -48213,7 +48308,7 @@ kYH
 xRX
 xRX
 xRX
-xRX
+sRF
 xRX
 xRX
 xRX
@@ -48460,19 +48555,19 @@ xRX
 xRX
 xRX
 xRX
+sRF
 xRX
 xRX
 xRX
+sRF
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+aOY
+qwc
+qwc
+qwc
+qwc
 xRX
 xRX
 xRX
@@ -48716,16 +48811,16 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+qwc
+qwc
+qwc
+qwc
+qwc
+qwc
+qwc
+aOY
+nFh
+qwc
 xRX
 xRX
 xRX
