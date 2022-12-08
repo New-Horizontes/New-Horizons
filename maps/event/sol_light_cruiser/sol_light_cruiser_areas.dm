@@ -163,3 +163,11 @@
 	name = "Cruiser Exterior"
 	icon_state = "unknown"
 	requires_power = FALSE
+
+/area/light_cruiser/starboard_grauwolf
+	name = "Starboard - Grauwolf"
+	icon_state = "unknown"
+
+/area/light_cruiser/starboard_francisca
+	name = "Port - Francisca"
+	icon_state = "unknown"
