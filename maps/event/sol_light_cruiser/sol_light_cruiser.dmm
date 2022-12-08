@@ -408,6 +408,20 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_thrusters)
+"aFO" = (
+/obj/machinery/power/apc{
+	dir = 1;
+	is_critical = 1;
+	name = "north bump";
+	pixel_y = 24;
+	req_access = null;
+	req_one_access = list(203)
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/light_cruiser/head)
 "aHI" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -475,9 +489,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_1)
-"aQP" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_engineering)
 "aRb" = (
 /turf/simulated/wall/shuttle/raider{
 	color = "#ff8c00"
@@ -526,9 +537,6 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/light_cruiser/starboard_thrusters)
-"aVG" = (
-/turf/simulated/wall/r_wall,
 /area/light_cruiser/starboard_thrusters)
 "aWd" = (
 /obj/machinery/power/apc{
@@ -1228,9 +1236,8 @@
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/port_thrusters)
 "cdX" = (
-/obj/structure/foamedmetal,
-/turf/template_noop,
-/area/light_cruiser/starboard_exterior_armour)
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/armoury)
 "cfr" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -1569,9 +1576,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
-"cPI" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/armoury)
 "cRB" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -1770,6 +1774,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"dgL" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_coilgun)
 "dhp" = (
 /obj/machinery/computer/general_air_control/large_tank_control{
 	name = "Port Phoron Supply Control";
@@ -1886,6 +1893,13 @@
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
 /area/light_cruiser/port_coilgun_ammo_2)
+"dsj" = (
+/obj/structure/railing/mapped,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/light_cruiser/strongroom)
 "dsG" = (
 /obj/structure/bed/handrail{
 	dir = 1
@@ -2080,9 +2094,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/lifts_and_stairs)
-"dFG" = (
-/turf/simulated/wall,
-/area/light_cruiser/starboard_fore_hall_1)
 "dGn" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
@@ -2145,9 +2156,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
-"dJB" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_observation)
 "dJN" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -2163,6 +2171,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
+"dLD" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_engineering)
 "dLJ" = (
 /obj/machinery/door/airlock/glass_engineering{
 	name = "Engineering";
@@ -2321,6 +2332,10 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"edD" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space)
 "efB" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -2392,6 +2407,9 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
+"ejq" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_coilgun_ammo_2)
 "ekM" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
 	dir = 8
@@ -2456,6 +2474,9 @@
 	color = "#ff8c00"
 	},
 /area/light_cruiser/starboard_maintenance_exit)
+"esF" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/cic)
 "euh" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/light{
@@ -2869,9 +2890,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_aft_hall)
-"ffi" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/port_thrusters)
 "fgQ" = (
 /obj/effect/floor_decal/corner/orange/diagonal,
 /obj/structure/sign/securearea{
@@ -2918,6 +2936,15 @@
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/light_cruiser/port_engineering)
+"flm" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/light_cruiser/head)
 "fmj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/visible/purple,
@@ -3027,6 +3054,10 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
+"fAp" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/plating,
+/area/space)
 "fBl" = (
 /obj/machinery/light/colored/blue,
 /obj/structure/cable{
@@ -3035,11 +3066,6 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
-"fBR" = (
-/turf/simulated/wall/shuttle/raider{
-	color = "#ff8c00"
-	},
-/area/space)
 "fCF" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 5
@@ -3063,9 +3089,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/reactor)
-"fFx" = (
-/turf/simulated/wall,
-/area/light_cruiser/starboard_observation)
 "fGu" = (
 /obj/machinery/light{
 	dir = 1
@@ -3189,6 +3212,12 @@
 /obj/effect/floor_decal/spline/plain/cee,
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"fTR" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_coilgun)
 "fVv" = (
 /obj/machinery/atmospherics/unary/engine,
 /turf/simulated/floor/reinforced,
@@ -3261,28 +3290,15 @@
 "gch" = (
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
+"gcr" = (
+/turf/simulated/wall,
+/area/light_cruiser/port_abandoned_observation)
 "gcD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_abandoned_observation)
-"geg" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/plating,
-/area/light_cruiser/central_hall)
 "gej" = (
 /obj/structure/closet/walllocker/medical/secure{
 	name = "O- Blood Locker";
@@ -3308,6 +3324,9 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"ghc" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_aft_hall)
 "gim" = (
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav4,
 /turf/template_noop,
@@ -3328,9 +3347,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
-"gjS" = (
+"gjW" = (
 /turf/simulated/wall,
-/area/light_cruiser/port_aft_hall)
+/area/light_cruiser/port_fore_hall_1)
 "gkV" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -3596,12 +3615,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_aft_hall)
-"gOf" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_coilgun)
 "gOm" = (
 /obj/machinery/atmospherics/pipe/simple/visible/purple{
 	dir = 4
@@ -3612,9 +3625,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
-"gOp" = (
-/turf/simulated/wall,
-/area/light_cruiser/central_hall)
 "gOK" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -3653,10 +3663,6 @@
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
-"gSl" = (
-/obj/structure/barricade/metal,
-/turf/simulated/floor/plating,
-/area/light_cruiser/port_abandoned_observation)
 "gUM" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/port_coilgun_ammo_1)
@@ -3727,12 +3733,9 @@
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav5,
 /turf/template_noop,
 /area/space)
-"hdy" = (
+"hcQ" = (
 /turf/simulated/wall/r_wall,
-/area/light_cruiser/reactor)
-"heI" = (
-/turf/simulated/wall,
-/area/light_cruiser/port_maintenance_exit)
+/area/light_cruiser/port_coilgun_ammo_2)
 "heK" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /obj/machinery/door/window,
@@ -3830,12 +3833,6 @@
 	},
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/reactor)
-"hxj" = (
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/tiled,
-/area/light_cruiser/lifts_and_stairs)
 "hxL" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -3848,7 +3845,7 @@
 	dir = 1
 	},
 /obj/structure/cable/green{
-	icon_state = "2-8"
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/central_hall)
@@ -3906,6 +3903,9 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/tiled,
+/area/light_cruiser/starboard_observation)
+"hEb" = (
+/turf/simulated/wall,
 /area/light_cruiser/starboard_observation)
 "hEo" = (
 /obj/structure/window/reinforced{
@@ -4381,6 +4381,9 @@
 /obj/item/storage/bag/inflatable,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"iuz" = (
+/turf/simulated/wall,
+/area/light_cruiser/starboard_fore_hall_1)
 "ivO" = (
 /obj/machinery/light{
 	dir = 4;
@@ -4424,9 +4427,8 @@
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/strongroom)
 "iEb" = (
-/obj/structure/foamedmetal,
-/turf/template_noop,
-/area/light_cruiser/port_exterior_armour)
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_coilgun_ammo_1)
 "iGm" = (
 /obj/structure/window/reinforced,
 /obj/machinery/portable_atmospherics/powered/scrubber,
@@ -4554,9 +4556,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
-"iSh" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/port_fore_hall_2)
 "iSo" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 4
@@ -4598,10 +4597,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_aft_hall)
-"iVJ" = (
-/obj/structure/lattice,
-/turf/template_noop,
-/area/space)
 "iWu" = (
 /turf/simulated/wall,
 /area/light_cruiser/lifts_and_stairs)
@@ -4933,6 +4928,9 @@
 /obj/structure/window/borosilicate/reinforced,
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
+"jAc" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/central_hall)
 "jBg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/structure/cable/green{
@@ -4996,9 +4994,6 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_fore_hall_2)
-"jIS" = (
-/turf/simulated/wall,
-/area/light_cruiser/port_fore_hall_1)
 "jJk" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/plasteel{
@@ -5494,12 +5489,6 @@
 /obj/item/deck/cards,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_observation)
-"kCj" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/port_coilgun)
 "kDD" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/stack/barbed_wire/full,
@@ -5591,9 +5580,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_1)
-"kQf" = (
-/turf/simulated/wall,
-/area/space)
 "kQu" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -5631,9 +5617,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_observation)
-"kVs" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/port_coilgun_ammo_1)
 "kVQ" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -5658,6 +5641,9 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
+"lcV" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_thrusters)
 "lda" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -5751,6 +5737,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_aft_hall)
+"llV" = (
+/obj/structure/barricade/metal,
+/turf/simulated/floor/plating,
+/area/light_cruiser/port_abandoned_observation)
 "llZ" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -5872,12 +5862,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
-"lBn" = (
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/white,
-/area/light_cruiser/head)
 "lCm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/loot,
@@ -5946,6 +5930,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor,
 /area/light_cruiser/port_maintenance_exit)
+"lGo" = (
+/turf/simulated/wall,
+/area/light_cruiser/starboard_aft_hall)
 "lHW" = (
 /obj/structure/bed/handrail,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -5990,6 +5977,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
+"lLt" = (
+/turf/simulated/wall,
+/area/light_cruiser/port_aft_hall)
 "lPS" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -6201,9 +6191,6 @@
 	},
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/port_coilgun)
-"miK" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/port_coilgun_ammo_2)
 "mjK" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/plating,
@@ -6221,9 +6208,6 @@
 /obj/effect/floor_decal/industrial/loading/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
-"mrd" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_coilgun_ammo_2)
 "mrg" = (
 /obj/structure/bed/handrail{
 	dir = 1
@@ -6247,6 +6231,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
+"mtk" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_aft_hall)
 "muQ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/purple{
 	dir = 8
@@ -6290,9 +6277,9 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_2)
-"myP" = (
+"mza" = (
 /turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_coilgun)
+/area/light_cruiser/reactor)
 "mAV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6346,9 +6333,6 @@
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
-"mFK" = (
-/turf/simulated/wall,
-/area/light_cruiser/port_abandoned_observation)
 "mHl" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1
@@ -6515,13 +6499,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
-"mWH" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/cic)
-"mWP" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating,
-/area/space)
 "mYg" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/cyan,
 /turf/simulated/floor/tiled,
@@ -6551,20 +6528,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/reactor)
-"nca" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	is_critical = 1;
-	name = "north bump";
-	pixel_y = 24;
-	req_access = null;
-	req_one_access = list(203)
-	},
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/light_cruiser/head)
 "nct" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -7158,6 +7121,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"ovK" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_thrusters)
 "oyp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -7190,9 +7156,9 @@
 /obj/item/grenade/frag,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
-"oAI" = (
+"oAP" = (
 /turf/simulated/wall/r_wall,
-/area/light_cruiser/port_engineering)
+/area/light_cruiser/starboard_engineering)
 "oCl" = (
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/lifts_and_stairs)
@@ -7228,6 +7194,9 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
+"oDC" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_fore_hall_2)
 "oDP" = (
 /turf/simulated/wall/shuttle/raider{
 	color = "#ff8c00"
@@ -7566,13 +7535,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
-"pma" = (
-/obj/structure/railing/mapped,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/rubber,
-/area/light_cruiser/strongroom)
 "pmI" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
@@ -7589,9 +7551,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
-"poa" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/port_aft_hall)
 "pok" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -7647,9 +7606,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/lifts_and_stairs)
-"pxz" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/central_hall)
 "pxC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -7736,9 +7692,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_1)
-"pGI" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_aft_hall)
 "pHT" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -7844,6 +7797,9 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
+"pVa" = (
+/turf/simulated/wall/r_wall,
+/area/space)
 "pXv" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -8113,6 +8069,9 @@
 /obj/machinery/cell_charger,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"qxZ" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_exterior_armour)
 "qye" = (
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav9,
 /turf/template_noop,
@@ -8156,6 +8115,9 @@
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"qDg" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_exterior_armour)
 "qEg" = (
 /obj/machinery/atmospherics/unary/engine,
 /obj/structure/window/reinforced,
@@ -8197,9 +8159,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
-"qKn" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/port_exterior_armour)
 "qKr" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
@@ -8826,10 +8785,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_1)
-"sdc" = (
-/obj/item/stack/rods,
-/turf/simulated/floor/plating,
-/area/space)
 "sfU" = (
 /obj/structure/sign/flag/sol{
 	pixel_y = 32
@@ -8908,6 +8863,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"snS" = (
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled,
+/area/light_cruiser/lifts_and_stairs)
 "snX" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4;
@@ -8949,9 +8910,6 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
-"sve" = (
-/turf/simulated/wall/r_wall,
-/area/space)
 "svL" = (
 /obj/machinery/computer/ship/navigation,
 /obj/effect/floor_decal/corner/red{
@@ -9009,9 +8967,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_thrusters)
-"sze" = (
-/turf/simulated/wall,
-/area/light_cruiser/starboard_aft_hall)
 "szv" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/tiled/dark,
@@ -9333,6 +9288,11 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
+"thQ" = (
+/turf/simulated/wall/shuttle/raider{
+	color = "#ff8c00"
+	},
+/area/space)
 "thU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -9507,6 +9467,9 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/strongroom)
+"tBP" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_coilgun)
 "tJs" = (
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -9731,15 +9694,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_aft_hall)
-"ulH" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/white,
-/area/light_cruiser/head)
 "uoN" = (
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /obj/effect/floor_decal/industrial/warning{
@@ -10066,9 +10020,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
-"uLc" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/port_coilgun)
 "uLh" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -10111,6 +10062,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
+"uPu" = (
+/turf/simulated/wall,
+/area/space)
 "uSs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -10134,6 +10088,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
+"uTO" = (
+/turf/simulated/wall,
+/area/light_cruiser/central_hall)
 "uUZ" = (
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -10253,9 +10210,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/light_cruiser/head)
-"veU" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_coilgun_ammo_1)
 "vfe" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -10340,9 +10294,6 @@
 "vnu" = (
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_2)
-"vow" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_exterior_armour)
 "voK" = (
 /obj/structure/closet/firecloset,
 /obj/machinery/alarm{
@@ -10455,6 +10406,9 @@
 /obj/structure/bed/stool/bar/padded/red,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_observation)
+"vGK" = (
+/turf/simulated/wall,
+/area/light_cruiser/starboard_maintenance_exit)
 "vIt" = (
 /obj/machinery/air_sensor{
 	frequency = 1441;
@@ -10486,6 +10440,10 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
+/area/space)
+"vKq" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating,
 /area/space)
 "vMq" = (
 /obj/machinery/power/terminal{
@@ -10591,6 +10549,12 @@
 "vTA" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/starboard_observation)
+"vUj" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_coilgun)
 "vXN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -10641,6 +10605,9 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
+"waL" = (
+/turf/simulated/wall,
+/area/light_cruiser/port_maintenance_exit)
 "wdF" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
@@ -10720,6 +10687,9 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"wpf" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_fore_hall_2)
 "wpk" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -10818,7 +10788,7 @@
 /obj/item/reagent_containers/hypospray/autoinjector/hyronalin,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/reactor)
-"wDH" = (
+"wDB" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/port_abandoned_observation)
 "wEt" = (
@@ -10867,6 +10837,12 @@
 /obj/machinery/iff_beacon,
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/cic)
+"wHV" = (
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/white,
+/area/light_cruiser/head)
 "wID" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -11087,6 +11063,9 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
+"xlX" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_coilgun_ammo_1)
 "xml" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -11200,9 +11179,6 @@
 /obj/structure/ship_weapon_dummy,
 /turf/template_noop,
 /area/light_cruiser/port_coilgun)
-"xvX" = (
-/turf/simulated/wall,
-/area/light_cruiser/starboard_maintenance_exit)
 "xxb" = (
 /obj/structure/extinguisher_cabinet{
 	layer = 3.3;
@@ -11398,9 +11374,22 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
-"xXS" = (
-/turf/simulated/wall/r_wall,
-/area/light_cruiser/starboard_fore_hall_2)
+"xWO" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/light_cruiser/central_hall)
 "yaO" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty{
@@ -11408,6 +11397,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"yaR" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_observation)
 "ycc" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 10
@@ -37881,11 +37873,11 @@ xRX
 xRX
 xRX
 xRX
-iVJ
+edD
 xRX
 xRX
 xRX
-iVJ
+edD
 xRX
 xRX
 qwc
@@ -38148,7 +38140,7 @@ xRX
 xRX
 xRX
 xRX
-iVJ
+edD
 xRX
 xRX
 xRX
@@ -38371,12 +38363,12 @@ agi
 agi
 goI
 goI
-aQP
-aQP
+oAP
+oAP
 iiZ
 iiZ
 vwF
-aQP
+oAP
 ebC
 lHW
 dwB
@@ -38628,34 +38620,34 @@ agi
 bcf
 goI
 wMs
-aQP
-aQP
+oAP
+oAP
 iiZ
 fXG
-aQP
-aQP
+oAP
+oAP
 ebC
 prZ
 nvC
 oJU
 hZx
-pGI
-pGI
-pGI
-pGI
-pGI
-pGI
-pGI
-pGI
-pGI
-pGI
-pGI
-pGI
-pxz
-pxz
-pxz
-pxz
-dJB
+mtk
+mtk
+mtk
+mtk
+mtk
+mtk
+mtk
+mtk
+mtk
+mtk
+mtk
+mtk
+jAc
+jAc
+jAc
+jAc
+yaR
 vTA
 vTA
 sGk
@@ -38881,16 +38873,16 @@ kYH
 agi
 agi
 agi
-aQP
-aQP
+oAP
+oAP
 aab
 mfm
-aQP
-aQP
+oAP
+oAP
 aab
 eMT
-aQP
-aQP
+oAP
+oAP
 ukg
 fZh
 ozF
@@ -38911,8 +38903,8 @@ hMZ
 cwv
 cwv
 cwv
-gOp
-fFx
+uTO
+hEb
 vTA
 kUS
 bBM
@@ -39136,18 +39128,18 @@ kYH
 kYH
 tPj
 agi
-aQP
-aQP
-aQP
-aQP
+oAP
+oAP
+oAP
+oAP
 sgF
 qLB
-aQP
-aQP
+oAP
+oAP
 sgF
 bnn
-aQP
-aQP
+oAP
+oAP
 arS
 szv
 gOK
@@ -39168,8 +39160,8 @@ tXh
 krP
 sIC
 cwv
-gOp
-fFx
+uTO
+hEb
 sZV
 cjH
 vGb
@@ -39178,17 +39170,17 @@ vGb
 iqu
 thU
 eVB
-dJB
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
+yaR
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
 cze
 cze
 kYH
@@ -39392,19 +39384,19 @@ xRX
 ehr
 tPj
 tPj
-aQP
-aQP
+oAP
+oAP
 bSq
-aQP
-aQP
+oAP
+oAP
 bvN
 kyk
-aQP
-aQP
+oAP
+oAP
 mxz
 fRv
-aQP
-aQP
+oAP
+oAP
 kLb
 drv
 nvo
@@ -39425,8 +39417,8 @@ hMZ
 cwv
 krq
 cwv
-gOp
-fFx
+uTO
+hEb
 hDU
 oKq
 qed
@@ -39435,18 +39427,18 @@ qed
 cnD
 oyp
 iXj
-dJB
-cdX
-cdX
-cdX
-cdX
-cdX
-cdX
-cdX
-cdX
-cdX
-vow
-vow
+yaR
+riW
+riW
+riW
+riW
+riW
+riW
+riW
+riW
+riW
+qxZ
+qxZ
 cze
 cze
 cze
@@ -39648,8 +39640,8 @@ duZ
 bts
 tPj
 tPj
-aVG
-aQP
+lcV
+oAP
 axg
 wiY
 jKB
@@ -39660,72 +39652,72 @@ bBn
 ahU
 aBb
 mET
-aQP
-aQP
+oAP
+oAP
 vde
 drv
 koN
 ozF
-pGI
-pGI
-pGI
-pGI
+mtk
+mtk
+mtk
+mtk
 aqO
 xMe
 fVR
-pGI
-pGI
-pGI
-pGI
-pGI
-pGI
+mtk
+mtk
+mtk
+mtk
+mtk
+mtk
 cwv
 iQA
 cwv
-gOp
-fFx
-fFx
+uTO
+hEb
+hEb
 uid
 ode
 joa
 nah
 uvm
 xsb
-fFx
-dJB
-cdX
-cdX
-cdX
-cdX
-cdX
-cdX
-cdX
-cdX
-cdX
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
-vow
+hEb
+yaR
+riW
+riW
+riW
+riW
+riW
+riW
+riW
+riW
+riW
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
+qxZ
 cze
 iQy
 iQy
@@ -39905,7 +39897,7 @@ tPj
 nsQ
 tPj
 tPj
-aVG
+lcV
 cxe
 djq
 gjg
@@ -39917,39 +39909,39 @@ rQA
 oKP
 lCH
 ege
-aQP
-aQP
+oAP
+oAP
 kLb
 gNE
 nvo
 ozF
-pGI
+mtk
 ofx
 pKf
-cPI
-cPI
-cPI
-cPI
-cPI
+cdX
+cdX
+cdX
+cdX
+cdX
 tJx
 qLj
 oZJ
 oDp
-cPI
+cdX
 vmr
 iTi
 pNo
-gOp
-fFx
-fFx
-fFx
-fFx
-fFx
+uTO
+hEb
+hEb
+hEb
+hEb
+hEb
 sxZ
 vFQ
-fFx
-fFx
-dJB
+hEb
+hEb
+yaR
 hTI
 hTI
 hTI
@@ -39982,17 +39974,17 @@ riW
 riW
 riW
 riW
-vow
-vow
-vow
-vow
-mrd
+qxZ
+qxZ
+qxZ
+qxZ
+ejq
 dIh
-mrd
-mrd
-mrd
-mrd
-mrd
+ejq
+ejq
+ejq
+ejq
+ejq
 ayj
 cCt
 fri
@@ -40162,7 +40154,7 @@ ayB
 kIx
 dfE
 omr
-aVG
+lcV
 csn
 khv
 fZk
@@ -40174,13 +40166,13 @@ qxs
 eWe
 mKf
 bBn
-aQP
-aQP
+oAP
+oAP
 gAI
 nmz
 iQO
 ozF
-pGI
+mtk
 kDD
 xoH
 rXa
@@ -40192,7 +40184,7 @@ rXa
 rXa
 aqN
 oDp
-cPI
+cdX
 eXP
 cKJ
 cwv
@@ -40232,30 +40224,30 @@ dqZ
 dqZ
 dqZ
 dqZ
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-mrd
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+ejq
 kEp
 tYt
 tYt
 tYt
 tYt
-mrd
-myP
+ejq
+tBP
 oqs
 ayj
 ayj
 jed
-fBR
+thQ
 xRX
 xRX
 xRX
@@ -40419,7 +40411,7 @@ tPj
 xiV
 qHR
 pxC
-aVG
+lcV
 pIG
 tyy
 fZk
@@ -40431,13 +40423,13 @@ bBn
 siN
 mKf
 liy
-aQP
-aQP
-aQP
+oAP
+oAP
+oAP
 jhc
 iVr
 ozF
-pGI
+mtk
 oAk
 iDc
 bTY
@@ -40449,7 +40441,7 @@ rGO
 bTY
 wYf
 qcY
-cPI
+cdX
 cwv
 clV
 cjG
@@ -40500,18 +40492,18 @@ vnu
 icR
 vnu
 vnu
-mrd
+ejq
 mVP
 skz
 cLu
 pnm
 tYt
-mrd
-myP
-gOf
-myP
-myP
-myP
+ejq
+tBP
+fTR
+tBP
+tBP
+tBP
 tAw
 tAw
 ayj
@@ -40676,7 +40668,7 @@ iRD
 bbD
 qHR
 mMy
-aVG
+lcV
 uZR
 bGQ
 auP
@@ -40694,13 +40686,13 @@ dLJ
 pTC
 nvo
 ozF
-pGI
-cPI
-cPI
-cPI
-cPI
-cPI
-cPI
+mtk
+cdX
+cdX
+cdX
+cdX
+cdX
+cdX
 qbj
 tSa
 bTY
@@ -40757,20 +40749,20 @@ fsk
 ezN
 mOl
 vnu
-mrd
+ejq
 pvu
 qsI
 wNv
 pHT
 tYt
-mrd
-myP
+ejq
+tBP
 eiu
 oiV
 wPk
-myP
-myP
-myP
+tBP
+tBP
+tBP
 ayj
 ayj
 xRX
@@ -40951,13 +40943,13 @@ bBF
 pFJ
 nvo
 ozF
-sze
+lGo
 gpe
 dXz
 gpe
 dXz
 gpe
-cPI
+cdX
 uVi
 tSa
 bTY
@@ -40979,12 +40971,12 @@ mSC
 mSC
 mSC
 mSC
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
+esF
+esF
 vhK
 cDh
 rWq
@@ -41014,14 +41006,14 @@ vnu
 sSs
 jHc
 vnu
-mrd
-mrd
+ejq
+ejq
 pDM
-mrd
-mrd
-mrd
-mrd
-myP
+ejq
+ejq
+ejq
+ejq
+tBP
 bEs
 qyi
 iki
@@ -41190,7 +41182,7 @@ rVy
 teB
 qHR
 pid
-aVG
+lcV
 lzl
 bBn
 feM
@@ -41208,13 +41200,13 @@ xki
 xNb
 qEk
 ozF
-sze
+lGo
 vex
 dXz
 vex
 dXz
 vex
-cPI
+cdX
 dvG
 aOW
 reG
@@ -41235,16 +41227,16 @@ iTZ
 uqE
 uqE
 pYV
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
 voK
 rWq
 rWq
@@ -41252,22 +41244,22 @@ rWq
 euU
 rWq
 sZD
-dFG
-xvX
-xvX
+iuz
+vGK
+vGK
 qkv
-xvX
-xvX
-xvX
-veU
-veU
+vGK
+vGK
+vGK
+xlX
+xlX
 tse
-veU
-veU
-veU
-veU
-veU
-veU
+xlX
+xlX
+xlX
+xlX
+xlX
+xlX
 aWd
 uit
 vnu
@@ -41447,7 +41439,7 @@ tPj
 gOm
 hSz
 pxC
-aVG
+lcV
 eCf
 hEo
 ezx
@@ -41459,25 +41451,25 @@ hLR
 bBn
 amk
 jeF
-aQP
-aQP
-aQP
+oAP
+oAP
+oAP
 kNq
 qdC
 gZD
-sze
-nca
-ulH
-lBn
+lGo
+aFO
+flm
+wHV
 uNC
 wqe
-cPI
+cdX
 jGA
 alI
 snX
 uGU
 blH
-cPI
+cdX
 aHJ
 cKJ
 pFl
@@ -41491,32 +41483,32 @@ sOM
 iTZ
 uqE
 jce
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
 cqT
 rWq
 rWq
 euU
 rWq
-dFG
-xvX
-xvX
+iuz
+vGK
+vGK
 swR
 ymf
 jyn
 peM
-xvX
-veU
+vGK
+xlX
 scN
 gOP
 vCZ
@@ -41524,7 +41516,7 @@ twq
 pgu
 qPY
 iby
-veU
+xlX
 dWq
 bed
 aCw
@@ -41704,7 +41696,7 @@ ayB
 kIx
 uIx
 cxZ
-aVG
+lcV
 lrP
 mIR
 rwV
@@ -41716,27 +41708,27 @@ ool
 sMG
 wpk
 aYJ
-aQP
-aQP
+oAP
+oAP
 fVR
 ozF
 urU
 ozF
-sze
+lGo
 lqC
 hXN
 eaO
 gJV
 hGf
-cPI
+cdX
 vOZ
 pkj
 omG
 lwQ
 fpY
-cPI
+cdX
 cwv
-geg
+hxL
 pmI
 uwM
 ewt
@@ -41747,8 +41739,8 @@ uth
 kUQ
 ciN
 uqE
-mWH
-mWH
+esF
+esF
 lFq
 bBt
 abo
@@ -41758,22 +41750,22 @@ abo
 abo
 abo
 pOQ
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
 pGh
 dYF
 pGh
-dFG
-xvX
+iuz
+vGK
 vlH
 leM
 vXN
 cRW
 pXv
 nvO
-veU
+xlX
 awi
 wva
 gQL
@@ -41781,7 +41773,7 @@ gQL
 gQL
 gQL
 xqT
-veU
+xlX
 bgA
 vnu
 uWy
@@ -41792,7 +41784,7 @@ oam
 qiM
 sSs
 ycc
-myP
+tBP
 aaS
 imQ
 xnf
@@ -41961,8 +41953,8 @@ tPj
 nsQ
 tPj
 tPj
-aVG
-aQP
+lcV
+oAP
 wjM
 fRB
 oQY
@@ -41973,8 +41965,8 @@ nUt
 bBn
 dwj
 bBn
-aQP
-aQP
+oAP
+oAP
 iWu
 iWu
 rjK
@@ -42004,8 +41996,8 @@ lZL
 qAe
 tUj
 fPv
-mWH
-mWH
+esF
+esF
 bsV
 itG
 gch
@@ -42016,46 +42008,46 @@ gch
 gch
 mHE
 leL
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
 qtW
-mWH
-xvX
-xvX
-xvX
-xvX
+esF
+vGK
+vGK
+vGK
+vGK
 lhC
 lkj
 lkj
 lkj
-veU
-veU
+xlX
+xlX
 rDe
-veU
-veU
-veU
-veU
-veU
-veU
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-xXS
-myP
-myP
-myP
-myP
-myP
-myP
-myP
+xlX
+xlX
+xlX
+xlX
+xlX
+xlX
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+oDC
+tBP
+tBP
+tBP
+tBP
+tBP
+tBP
+tBP
 ayj
 ayj
 xRX
@@ -42218,19 +42210,19 @@ duZ
 fNa
 tPj
 tPj
-aVG
-aQP
-aQP
+lcV
+oAP
+oAP
 qku
-aQP
-aQP
-aQP
-aQP
-aQP
+oAP
+oAP
+oAP
+oAP
+oAP
 cTD
 mdc
 rnA
-aQP
+oAP
 cTX
 gpq
 gpq
@@ -42247,7 +42239,7 @@ gpq
 uUZ
 gpq
 gpq
-hxj
+snS
 iWu
 pxM
 bxk
@@ -42261,7 +42253,7 @@ lZL
 jhG
 iTZ
 uqE
-mWH
+esF
 cTO
 dAT
 gch
@@ -42276,9 +42268,9 @@ mHE
 abo
 abo
 rlZ
-mWH
+esF
 mHZ
-mWH
+esF
 lkj
 lkj
 lkj
@@ -42475,19 +42467,19 @@ xRX
 xRX
 tPj
 tPj
-aVG
-aQP
-aQP
+lcV
+oAP
+oAP
 qku
-aQP
-aQP
-aQP
-aQP
-aQP
-aQP
+oAP
+oAP
+oAP
+oAP
+oAP
+oAP
 mEc
-aQP
-aQP
+oAP
+oAP
 cTX
 gpq
 gpq
@@ -42518,7 +42510,7 @@ lZL
 jKe
 ciN
 uqE
-mWH
+esF
 kmr
 hoQ
 oiO
@@ -42535,7 +42527,7 @@ gch
 gch
 dIW
 jsu
-mWH
+esF
 lkj
 eof
 eof
@@ -42736,17 +42728,17 @@ tPj
 mMH
 mMH
 huz
-hdy
-hdy
-hdy
+mza
+mza
+mza
 ryY
 mMH
 wBq
 bzW
 hIJ
-hdy
-hdy
-hdy
+mza
+mza
+mza
 nVV
 pbB
 vcT
@@ -42775,7 +42767,7 @@ lZL
 cmS
 iTZ
 uqE
-mWH
+esF
 diC
 lYi
 efB
@@ -42790,9 +42782,9 @@ gch
 gch
 gch
 dGn
-mWH
+esF
 mHZ
-mWH
+esF
 lFq
 lFq
 kYH
@@ -43003,7 +42995,7 @@ bxR
 vTv
 eQg
 hVL
-hdy
+mza
 gpq
 uKp
 gpq
@@ -43046,10 +43038,10 @@ vEy
 gch
 kiN
 lDF
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
 lFq
 kYH
 kYH
@@ -43251,8 +43243,8 @@ xRX
 nsN
 lXE
 pqa
-hdy
-hdy
+mza
+mza
 aUn
 mMH
 aac
@@ -43260,7 +43252,7 @@ oqN
 wpV
 vMq
 nbw
-hdy
+mza
 ciL
 uKp
 gpq
@@ -43283,7 +43275,7 @@ cwv
 lZL
 sqq
 jzK
-pma
+dsj
 fBl
 lZL
 eNX
@@ -43303,10 +43295,10 @@ pav
 gch
 naN
 lJw
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
 gZp
 ehr
 xRX
@@ -43517,7 +43509,7 @@ iOh
 lPS
 eQg
 npK
-hdy
+mza
 gpq
 uKp
 gpq
@@ -43560,10 +43552,10 @@ ifo
 gch
 fHr
 vQI
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
 lFq
 cnw
 kYH
@@ -43764,17 +43756,17 @@ cXS
 mMH
 mMH
 huz
-hdy
-hdy
-hdy
+mza
+mza
+mza
 ewW
 mMH
 dVP
 bzW
 mEz
-hdy
-hdy
-hdy
+mza
+mza
+mza
 nVV
 pbB
 vcT
@@ -43803,7 +43795,7 @@ lZL
 cmS
 iTZ
 uqE
-mWH
+esF
 opz
 dAT
 vjg
@@ -43818,9 +43810,9 @@ gch
 gch
 gch
 cAL
-mWH
+esF
 mHZ
-mWH
+esF
 lFq
 lFq
 kYH
@@ -44017,19 +44009,19 @@ xRX
 xRX
 cXS
 cXS
-ffi
-oAI
-oAI
+ovK
+dLD
+dLD
 jea
-oAI
-oAI
-oAI
-oAI
-oAI
-oAI
+dLD
+dLD
+dLD
+dLD
+dLD
+dLD
 acR
-oAI
-oAI
+dLD
+dLD
 gpq
 sgP
 gpq
@@ -44060,7 +44052,7 @@ lZL
 uqE
 iTZ
 uqE
-mWH
+esF
 aKZ
 raV
 gch
@@ -44077,7 +44069,7 @@ gch
 gch
 dIW
 jsu
-mWH
+esF
 bNY
 aRb
 aRb
@@ -44274,19 +44266,19 @@ fVv
 ccV
 cXS
 cXS
-ffi
-oAI
-oAI
+ovK
+dLD
+dLD
 jea
-oAI
-oAI
-oAI
-oAI
-oAI
+dLD
+dLD
+dLD
+dLD
+dLD
 qIf
 uzm
 fjh
-oAI
+dLD
 gpq
 sgP
 gpq
@@ -44317,7 +44309,7 @@ lZL
 uqE
 iTZ
 uqE
-mWH
+esF
 fCF
 lYi
 gch
@@ -44332,9 +44324,9 @@ pFP
 oNU
 oNU
 dGn
-mWH
+esF
 mHZ
-mWH
+esF
 bNY
 bNY
 bNY
@@ -44531,8 +44523,8 @@ cXS
 eBA
 cXS
 cXS
-ffi
-oAI
+ovK
+dLD
 kAB
 cZz
 lCp
@@ -44543,8 +44535,8 @@ cZf
 gPu
 hQd
 gPu
-oAI
-oAI
+dLD
+dLD
 iWu
 iWu
 rjK
@@ -44574,8 +44566,8 @@ lZL
 qAe
 tUj
 fPv
-mWH
-mWH
+esF
+esF
 sCk
 iSo
 gch
@@ -44586,46 +44578,46 @@ gch
 gch
 pFP
 cpn
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
 qtW
-mWH
-heI
-heI
-heI
-heI
+esF
+waL
+waL
+waL
+waL
 ibA
 bNY
 bNY
 bNY
-kVs
-kVs
+iEb
+iEb
 vZi
-kVs
-kVs
-kVs
-kVs
-kVs
-kVs
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-uLc
-uLc
-uLc
-uLc
-uLc
-uLc
-uLc
+iEb
+iEb
+iEb
+iEb
+iEb
+iEb
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+dgL
+dgL
+dgL
+dgL
+dgL
+dgL
+dgL
 soC
 soC
 xRX
@@ -44788,7 +44780,7 @@ giV
 fdD
 hcm
 uef
-ffi
+ovK
 yaO
 bnQ
 iJI
@@ -44800,27 +44792,27 @@ dAu
 aCj
 qgw
 xml
-oAI
-oAI
+dLD
+dLD
 wvJ
 agg
 kev
 agg
-gjS
-kQf
-kQf
-kQf
-kQf
-kQf
-kQf
+lLt
+uPu
+uPu
+uPu
+uPu
+uPu
+uPu
 deF
 rWM
 xUB
 iMK
 gNk
-kQf
+uPu
 cwv
-hxL
+xWO
 iwt
 uHj
 cvU
@@ -44831,9 +44823,9 @@ uth
 kUQ
 bYf
 uqE
-mWH
-mWH
-mWH
+esF
+esF
+esF
 wdF
 oNU
 oNU
@@ -44842,22 +44834,22 @@ oNU
 oNU
 oNU
 chE
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
 bwg
 vRJ
 bwg
-jIS
-heI
+gjW
+waL
 pMo
 bwS
 sjw
 vCl
 mxr
 bqC
-kVs
+iEb
 fZx
 urg
 kbQ
@@ -44865,7 +44857,7 @@ kbQ
 kbQ
 kbQ
 cpw
-kVs
+iEb
 rgM
 len
 ujD
@@ -44876,7 +44868,7 @@ ujD
 vZh
 bED
 dAY
-uLc
+dgL
 lDa
 mOA
 cVc
@@ -45045,7 +45037,7 @@ cXS
 iAl
 ikS
 dGZ
-ffi
+ovK
 dZg
 uMM
 dON
@@ -45057,14 +45049,14 @@ iut
 gPu
 ykL
 bVV
-oAI
-oAI
-sve
+dLD
+dLD
+pVa
 eUS
 oQh
 coV
-gjS
-kQf
+lLt
+uPu
 kwi
 eOJ
 sZY
@@ -45089,32 +45081,32 @@ sOM
 iTZ
 uqE
 aYT
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
 nGA
 tMt
 tMt
 fsm
 tMt
-jIS
-heI
-heI
+gjW
+waL
+waL
 lGn
 jNI
 ahp
 qZw
-heI
-kVs
+waL
+iEb
 bQk
 jdT
 enS
@@ -45122,7 +45114,7 @@ mfZ
 uFv
 uLh
 llZ
-kVs
+iEb
 buw
 siZ
 mIA
@@ -45302,7 +45294,7 @@ muQ
 lxm
 rBz
 gYw
-ffi
+ovK
 hgG
 gPu
 uix
@@ -45320,8 +45312,8 @@ fKt
 tsA
 sPx
 agg
-gjS
-kQf
+lLt
+uPu
 rLj
 mjK
 qwc
@@ -45347,16 +45339,16 @@ iTZ
 uqE
 uqE
 pYV
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
+esF
 sZk
 tMt
 tMt
@@ -45364,22 +45356,22 @@ tMt
 fsm
 tMt
 qHM
-jIS
-jIS
-jIS
+gjW
+gjW
+gjW
 ipI
-jIS
-jIS
-jIS
-kVs
-kVs
+gjW
+gjW
+gjW
+iEb
+iEb
 yhA
-kVs
-kVs
-kVs
-kVs
-kVs
-kVs
+iEb
+iEb
+iEb
+iEb
+iEb
+iEb
 rio
 aMC
 len
@@ -45577,8 +45569,8 @@ sBI
 dzj
 ccL
 agg
-gjS
-kQf
+lLt
+uPu
 qsf
 xBE
 qwc
@@ -45605,12 +45597,12 @@ mSC
 mSC
 mSC
 mSC
-mWH
-mWH
-mWH
-mWH
-mWH
-mWH
+esF
+esF
+esF
+esF
+esF
+esF
 oIz
 vxZ
 tMt
@@ -45640,14 +45632,14 @@ len
 bED
 vRE
 len
-miK
-miK
+hcQ
+hcQ
 nMP
-miK
-miK
-miK
-miK
-uLc
+hcQ
+hcQ
+hcQ
+hcQ
+dgL
 ozu
 eMs
 bvF
@@ -45816,7 +45808,7 @@ pfZ
 eCF
 rBz
 dGZ
-ffi
+ovK
 euh
 wtL
 fmj
@@ -45834,12 +45826,12 @@ gwG
 oMD
 ccL
 agg
-gjS
-kQf
-kQf
-kQf
-kQf
-kQf
+lLt
+uPu
+uPu
+uPu
+uPu
+uPu
 qwc
 dcN
 mUu
@@ -45897,20 +45889,20 @@ nEv
 jOT
 yeI
 len
-miK
+hcQ
 eGx
 vwu
 nJy
 jcH
 jqv
-miK
-uLc
+hcQ
+dgL
 wKy
 wav
 qTV
-uLc
-uLc
-uLc
+dgL
+dgL
+dgL
 soC
 soC
 xRX
@@ -46073,7 +46065,7 @@ cXS
 syg
 rBz
 dGZ
-ffi
+ovK
 ykJ
 wot
 sGE
@@ -46085,13 +46077,13 @@ gPu
 vaz
 dgk
 rcw
-oAI
-oAI
-poa
+dLD
+dLD
+ghc
 lXo
 aZJ
 agg
-gjS
+lLt
 rxV
 vKo
 gej
@@ -46103,7 +46095,7 @@ mUu
 fcI
 uoN
 xlL
-kQf
+uPu
 cwv
 uEC
 cVd
@@ -46154,18 +46146,18 @@ len
 jkW
 len
 len
-miK
+hcQ
 beA
 pHZ
 kez
 mys
 jqv
-miK
-uLc
-kCj
-uLc
-uLc
-uLc
+hcQ
+dgL
+vUj
+dgL
+dgL
+dgL
 hAf
 hAf
 soC
@@ -46330,7 +46322,7 @@ giV
 fdD
 dCU
 oIr
-ffi
+ovK
 yix
 gQT
 sGE
@@ -46342,13 +46334,13 @@ msM
 rKf
 dgk
 gPu
-oAI
-oAI
+dLD
+dLD
 eZP
 dpN
 xHu
 agg
-gjS
+lLt
 qzS
 nCb
 qoq
@@ -46360,7 +46352,7 @@ nTG
 twx
 qeC
 lXV
-kQf
+uPu
 eXP
 cKJ
 cwv
@@ -46400,30 +46392,30 @@ ifJ
 ifJ
 ifJ
 ifJ
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-iSh
-miK
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+wpf
+hcQ
 fnb
 jqv
 jqv
 jqv
 jqv
-miK
-uLc
+hcQ
+dgL
 mhV
 soC
 soC
 lyr
-fBR
+thQ
 xRX
 xRX
 xRX
@@ -46587,7 +46579,7 @@ cXS
 eBA
 cXS
 cXS
-ffi
+ovK
 mDm
 xjO
 ubH
@@ -46599,38 +46591,38 @@ qzB
 qXn
 mYg
 rMB
-oAI
-oAI
+dLD
+dLD
 wLo
 utD
 ccL
 agg
-gjS
+lLt
 oey
 kUr
 nNn
-kQf
-kQf
-kQf
-kQf
+uPu
+uPu
+uPu
+uPu
 mgz
 sTR
 jMQ
 hHd
-kQf
+uPu
 vmr
 iTi
 pNo
-gOp
-mFK
-mFK
-mFK
-mFK
-mFK
+uTO
+gcr
+gcr
+gcr
+gcr
+gcr
 clB
 nOq
-mFK
-mFK
+gcr
+gcr
 hTI
 hTI
 hTI
@@ -46664,17 +46656,17 @@ peq
 peq
 peq
 peq
-qKn
-qKn
-qKn
-qKn
-miK
+qDg
+qDg
+qDg
+qDg
+hcQ
 bDq
-miK
-miK
-miK
-miK
-miK
+hcQ
+hcQ
+hcQ
+hcQ
+hcQ
 soC
 jwW
 iOg
@@ -46844,8 +46836,8 @@ fVv
 kLn
 cXS
 cXS
-ffi
-oAI
+ovK
+dLD
 heK
 vCa
 xJK
@@ -46856,30 +46848,30 @@ gPu
 xTp
 dYq
 bNj
-oAI
-oAI
+dLD
+dLD
 xGK
 xMz
 ccL
 agg
-gjS
-gjS
-gjS
-gjS
-gjS
+lLt
+lLt
+lLt
+lLt
+lLt
 cbj
 wvJ
-gjS
-gjS
-gjS
-gjS
-gjS
-gjS
+lLt
+lLt
+lLt
+lLt
+lLt
+lLt
 cwv
 iQA
 cwv
-gOp
-mFK
+uTO
+gcr
 bHq
 sfU
 cbA
@@ -46887,41 +46879,41 @@ hCy
 odF
 ucL
 bGP
-mFK
-qKn
-iEb
-iEb
-iEb
-iEb
-iEb
-iEb
-iEb
-iEb
-iEb
-qKn
-qKn
-qKn
-qKn
+gcr
+qDg
+peq
+peq
+peq
+peq
+peq
+peq
+peq
+peq
+peq
+qDg
+qDg
+qDg
+qDg
 urn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
 rtI
 dfQ
 dfQ
@@ -47102,19 +47094,19 @@ xRX
 ehr
 cXS
 cXS
-oAI
-oAI
+dLD
+dLD
 qqX
-oAI
-oAI
+dLD
+dLD
 mMI
 rRw
-oAI
-oAI
+dLD
+dLD
 dcm
 sKE
-oAI
-oAI
+dLD
+dLD
 wLo
 xMz
 ccL
@@ -47135,8 +47127,8 @@ dbv
 cwv
 krq
 cwv
-gOp
-mFK
+uTO
+gcr
 pIz
 qhi
 sTO
@@ -47145,18 +47137,18 @@ sTO
 gmJ
 cqj
 rbn
-qKn
-iEb
-iEb
-iEb
-iEb
-iEb
-iEb
-iEb
-iEb
-iEb
-qKn
-qKn
+qDg
+peq
+peq
+peq
+peq
+peq
+peq
+peq
+peq
+peq
+qDg
+qDg
 rtI
 vhZ
 vhZ
@@ -47360,18 +47352,18 @@ kYH
 kYH
 cXS
 vfp
-oAI
-oAI
-oAI
-oAI
+dLD
+dLD
+dLD
+dLD
 gAS
 fiD
-oAI
-oAI
+dLD
+dLD
 gAS
 rWz
-oAI
-oAI
+dLD
+dLD
 fQn
 dQr
 azO
@@ -47392,8 +47384,8 @@ yiM
 krP
 cfr
 cwv
-gOp
-mFK
+uTO
+gcr
 wya
 gcD
 ktX
@@ -47402,17 +47394,17 @@ vfW
 lCm
 adK
 xcW
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
-qKn
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
+qDg
 rtI
 rtI
 kYH
@@ -47619,16 +47611,16 @@ kYH
 vfp
 vfp
 vfp
-oAI
-oAI
+dLD
+dLD
 rdY
 bbi
-oAI
-oAI
+dLD
+dLD
 rdY
 egd
-oAI
-oAI
+dLD
+dLD
 jCm
 otX
 agg
@@ -47649,10 +47641,10 @@ roa
 cwv
 cwv
 cwv
-gOp
-mFK
+uTO
+gcr
 bHq
-gSl
+llV
 uLK
 sJE
 sJE
@@ -47880,34 +47872,34 @@ vfp
 rLZ
 nKW
 dPp
-oAI
-oAI
+dLD
+dLD
 loV
 fji
-oAI
-oAI
+dLD
+dLD
 trH
 dxd
 ajk
 tNC
 eTH
-poa
-poa
-poa
-poa
-poa
-poa
-poa
-poa
-poa
-poa
-poa
-poa
-pxz
-pxz
-pxz
-pxz
-wDH
+ghc
+ghc
+ghc
+ghc
+ghc
+ghc
+ghc
+ghc
+ghc
+ghc
+ghc
+ghc
+jAc
+jAc
+jAc
+jAc
+wDB
 bHq
 bHq
 bHq
@@ -48137,12 +48129,12 @@ vfp
 vfp
 nKW
 nKW
-oAI
-oAI
+dLD
+dLD
 loV
 loV
 vIt
-oAI
+dLD
 trH
 bdT
 cYK
@@ -48428,7 +48420,7 @@ kYH
 xRX
 xRX
 xRX
-iVJ
+edD
 xRX
 xRX
 xRX
@@ -48675,15 +48667,15 @@ xRX
 xRX
 xRX
 xRX
-iVJ
+edD
 xRX
 xRX
 xRX
-iVJ
+edD
 xRX
 xRX
 xRX
-mWP
+vKq
 qwc
 qwc
 qwc
@@ -48938,8 +48930,8 @@ qwc
 qwc
 qwc
 qwc
-mWP
-sdc
+vKq
+fAp
 qwc
 xRX
 xRX
