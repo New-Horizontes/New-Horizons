@@ -3,6 +3,7 @@
 #define SHIP_CALIBER_40MM "40mm"
 #define SHIP_CALIBER_90MM "90mm"
 #define SHIP_CALIBER_ZTA "zero-point warp beam"
+#define SHIP_CALIBER_178MM "178mm"
 #define SHIP_CALIBER_135MM "135mm"
 #define SHIP_CALIBER_COILGUN "tungsten rod"
 
