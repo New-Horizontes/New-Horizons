@@ -27,12 +27,13 @@
 	than the good of the Alliance. Ultimately, the Yincheng would tragically go on to become one of the most prominent ships in the arsenal of the warlords across the Wildlands \
 	due to its prominent position in the Middle and Outer Rings and the poor quality of its commanders \
 		\
-	This one has received some substantial field modifications such as the removal of its energy and missile emplacements, replaced with large coilguns."
+	This one has received some substantial field modifications, making it pose only a fraction of the danger it usually would. These modifications include the removal of its energy \
+	and missile emplacements, replaced with large coilguns. Much of the utility of the rest of the ship has been stripped away to accomodate the phoron-nuclear payload onboard the vessel."
 	icon_state = "ship_green"
 	moving_state = "ship_green_moving"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
-	vessel_mass = 90000
+	vessel_mass = 150000
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_LARGE
 
