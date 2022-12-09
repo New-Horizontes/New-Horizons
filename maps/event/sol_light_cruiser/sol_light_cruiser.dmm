@@ -359,6 +359,7 @@
 /area/light_cruiser/starboard_thrusters)
 "ayH" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/hologram/holopad/long_range,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
 "azb" = (
@@ -463,15 +464,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
 "aJl" = (
-/obj/machinery/ship_weapon/grauwolf{
-	pixel_y = -224;
-	weapon_id = "starboard_grauwolf"
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/wall/shuttle/raider,
-/area/light_cruiser/starboard_grauwolf)
+/obj/structure/inflatable,
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/port_abandoned_grauwolf)
 "aKZ" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1
@@ -1567,7 +1562,7 @@
 /area/light_cruiser/cic_hall)
 "cvz" = (
 /obj/structure/inflatable,
-/turf/simulated/floor/reinforced,
+/turf/simulated/floor/plating,
 /area/light_cruiser/port_abandoned_grauwolf)
 "cvF" = (
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
@@ -2197,11 +2192,14 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
 "dAA" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+/obj/structure/ship_weapon_dummy,
+/obj/machinery/ship_weapon/grauwolf{
+	pixel_y = -192;
+	weapon_id = "starboard_grauwolf";
+	pixel_x = -32
 	},
-/turf/template_noop,
-/area/space)
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "dAT" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 10
@@ -4129,7 +4127,7 @@
 	req_one_access = list(203)
 	},
 /obj/effect/landmark/entry_point/starboard{
-	name = "starboard, strongroom hallway"
+	name = "starboard, central strongroom hallway"
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_observation)
@@ -5310,7 +5308,7 @@
 /obj/structure/grille/broken,
 /obj/item/stack/rods,
 /obj/effect/landmark/entry_point/port{
-	name = "port, abandoned observation room"
+	name = "port, central strongroom hallway"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/light_cruiser/port_abandoned_observation)
@@ -6429,6 +6427,7 @@
 	dir = 10
 	},
 /obj/random/desktoy,
+/obj/item/modular_computer/handheld/pda,
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
 "lFq" = (
@@ -8267,7 +8266,7 @@
 /area/light_cruiser/starboard_fore_hall_1)
 "pqa" = (
 /obj/effect/landmark/entry_point/aft{
-	name = "aft, reactors"
+	name = "aft, central reactors"
 	},
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/reactor)
@@ -9055,10 +9054,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
-"qYL" = (
-/obj/structure/inflatable,
-/turf/simulated/floor/plating,
-/area/light_cruiser/port_abandoned_grauwolf)
 "qZw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -9247,6 +9242,8 @@
 	},
 /obj/structure/closet/crate,
 /obj/item/circuitboard/ship/helm,
+/obj/item/circuitboard/ship/engines,
+/obj/item/circuitboard/ship/sensors,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
 "roa" = (
@@ -39072,7 +39069,7 @@ xRX
 xRX
 xRX
 uRU
-aJl
+pKX
 gkd
 kON
 jrc
@@ -39330,7 +39327,7 @@ xRX
 kYH
 uRU
 pKX
-jrc
+dAA
 jrc
 jrc
 dBY
@@ -41331,7 +41328,7 @@ xRX
 xRX
 xRX
 xRX
-hjW
+mKP
 ayB
 kIx
 dfE
@@ -42101,7 +42098,7 @@ xRX
 xRX
 xRX
 xRX
-mKP
+hjW
 ayB
 xTB
 bBC
@@ -43914,7 +43911,7 @@ mza
 mza
 mza
 ryY
-mMH
+mza
 wBq
 bzW
 hIJ
@@ -44428,7 +44425,7 @@ pqa
 mza
 mza
 aUn
-mMH
+mza
 aac
 oqN
 wpV
@@ -44942,7 +44939,7 @@ mza
 mza
 mza
 ewW
-mMH
+mza
 dVP
 bzW
 mEz
@@ -46727,7 +46724,7 @@ xRX
 xRX
 xRX
 xRX
-qyx
+qEg
 giV
 xdz
 sCq
@@ -47499,7 +47496,7 @@ xRX
 xRX
 xRX
 xRX
-qEg
+qyx
 giV
 fdD
 dCU
@@ -49353,8 +49350,8 @@ xRX
 kYH
 xWs
 rTk
-qYL
-qYL
+cvz
+cvz
 osC
 xRX
 xRX
@@ -49610,8 +49607,8 @@ xRX
 kYH
 kYH
 rTk
-cvz
-cvz
+aJl
+aJl
 hHF
 xRX
 xRX
@@ -63443,7 +63440,7 @@ xRX
 xRX
 xRX
 xRX
-dAA
+xRX
 xRX
 xRX
 xRX
