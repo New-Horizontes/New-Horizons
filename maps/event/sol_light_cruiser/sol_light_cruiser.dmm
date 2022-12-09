@@ -465,7 +465,7 @@
 /area/light_cruiser/central_hall)
 "aJl" = (
 /obj/structure/inflatable,
-/turf/simulated/floor/reinforced,
+/turf/simulated/floor/plating,
 /area/light_cruiser/port_abandoned_grauwolf)
 "aKZ" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -1562,7 +1562,7 @@
 /area/light_cruiser/cic_hall)
 "cvz" = (
 /obj/structure/inflatable,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/reinforced,
 /area/light_cruiser/port_abandoned_grauwolf)
 "cvF" = (
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
@@ -2192,14 +2192,13 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
 "dAA" = (
-/obj/structure/ship_weapon_dummy,
-/obj/machinery/ship_weapon/grauwolf{
-	pixel_y = -192;
-	weapon_id = "starboard_grauwolf";
-	pixel_x = -32
+/obj/structure/railing/mapped,
+/obj/structure/shuttle/engine/heater{
+	dir = 1
 	},
-/turf/simulated/floor/reinforced,
-/area/light_cruiser/starboard_grauwolf)
+/obj/machinery/atmospherics/pipe/simple/visible/purple,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_thrusters)
 "dAT" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 10
@@ -3310,6 +3309,15 @@
 "fxG" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/armoury)
+"fzi" = (
+/obj/structure/ship_weapon_dummy,
+/obj/machinery/ship_weapon/grauwolf{
+	pixel_y = -192;
+	weapon_id = "Starboard_Grauwolf";
+	pixel_x = -32
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "fzq" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/dark,
@@ -4133,7 +4141,10 @@
 /area/light_cruiser/starboard_observation)
 "hjW" = (
 /obj/machinery/atmospherics/unary/engine,
-/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	name = "super-reinforced glass pane";
+	maxhealth = 100
+	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_thrusters)
 "hky" = (
@@ -6937,7 +6948,10 @@
 /area/light_cruiser/starboard_engineering)
 "mKP" = (
 /obj/machinery/atmospherics/unary/engine,
-/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	name = "super-reinforced glass pane";
+	maxhealth = 100
+	},
 /obj/effect/landmark/entry_point/aft{
 	name = "aft, starboard engines"
 	},
@@ -8872,9 +8886,9 @@
 /area/light_cruiser/port_abandoned_grauwolf)
 "qyx" = (
 /obj/machinery/atmospherics/unary/engine,
-/obj/structure/window/reinforced,
-/obj/effect/landmark/entry_point/aft{
-	name = "aft, port engines"
+/obj/structure/window/reinforced{
+	name = "super-reinforced glass pane";
+	maxhealth = 100
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_thrusters)
@@ -8910,7 +8924,13 @@
 /area/light_cruiser/port_exterior_armour)
 "qEg" = (
 /obj/machinery/atmospherics/unary/engine,
-/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	name = "super-reinforced glass pane";
+	maxhealth = 100
+	},
+/obj/effect/landmark/entry_point/aft{
+	name = "aft, port engines"
+	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_thrusters)
 "qEk" = (
@@ -11343,7 +11363,7 @@
 /area/light_cruiser/port_fore_hall_1)
 "vyJ" = (
 /obj/machinery/ammunition_loader/grauwolf{
-	weapon_id = "starboard_grauwolf";
+	weapon_id = "Starboard_Grauwolf";
 	pixel_x = -4
 	},
 /turf/simulated/floor/reinforced,
@@ -39327,7 +39347,7 @@ xRX
 kYH
 uRU
 pKX
-dAA
+fzi
 jrc
 jrc
 dBY
@@ -39805,7 +39825,7 @@ iiZ
 fXG
 oAP
 oAP
-ebC
+mtk
 prZ
 nvC
 oJU
@@ -45954,8 +45974,8 @@ xRX
 xRX
 xRX
 xRX
-qEg
-giV
+qyx
+dAA
 fdD
 hcm
 uef
@@ -46467,8 +46487,8 @@ xRX
 xRX
 xRX
 xRX
-qEg
-giV
+qyx
+dAA
 muQ
 fdD
 rBz
@@ -46724,8 +46744,8 @@ xRX
 xRX
 xRX
 xRX
-qEg
-giV
+qyx
+dAA
 xdz
 sCq
 aFm
@@ -46981,8 +47001,8 @@ xRX
 xRX
 xRX
 xRX
-qEg
-giV
+qyx
+dAA
 pfZ
 fdD
 rBz
@@ -47496,7 +47516,7 @@ xRX
 xRX
 xRX
 xRX
-qyx
+qEg
 giV
 fdD
 dCU
@@ -49057,7 +49077,7 @@ loV
 fji
 dLD
 dLD
-trH
+ghc
 dxd
 ajk
 tNC
@@ -49350,8 +49370,8 @@ xRX
 kYH
 xWs
 rTk
-cvz
-cvz
+aJl
+aJl
 osC
 xRX
 xRX
@@ -49607,8 +49627,8 @@ xRX
 kYH
 kYH
 rTk
-aJl
-aJl
+cvz
+cvz
 hHF
 xRX
 xRX
