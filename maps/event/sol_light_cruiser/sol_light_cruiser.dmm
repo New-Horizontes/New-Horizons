@@ -240,6 +240,22 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_2)
+"apX" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6;
+	icon_state = "corner_white"
+	},
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "aqN" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -269,6 +285,9 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/door/window/northleft{
 	dir = 2
+	},
+/obj/structure/sign/flag/sol/right{
+	pixel_y = 30
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_aft_hall)
@@ -303,7 +322,7 @@
 "awO" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "axe" = (
 /obj/effect/floor_decal/corner/red/full,
 /turf/simulated/floor/tiled,
@@ -434,6 +453,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/machinery/firealarm/east,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
 "aHJ" = (
@@ -442,6 +462,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
+"aJl" = (
+/obj/machinery/ship_weapon/grauwolf{
+	pixel_y = -224;
+	weapon_id = "starboard_grauwolf"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/starboard_grauwolf)
 "aKZ" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1
@@ -476,6 +506,14 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_fore_hall_2)
+"aML" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/sign/deathsposal{
+	name = "\improper SPENT MUNITIONS EJECTION CHUTE sign";
+	pixel_x = 32
+	},
+/turf/template_noop,
+/area/space)
 "aOW" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -630,15 +668,21 @@
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_engineering)
 "bbD" = (
-/obj/machinery/light{
-	dir = 4;
-	status = 2
+/obj/structure/bed/handrail{
+	dir = 1
 	},
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	frequency = 1380;
+	id_tag = "cruiser_port_pump";
+	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/cic)
+/obj/machinery/access_button/airlock_exterior{
+	pixel_x = 9;
+	pixel_y = -21;
+	master_tag = "cruiser_port"
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/port_aft_hall)
 "bcf" = (
 /obj/machinery/air_sensor{
 	frequency = 1441;
@@ -670,27 +714,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
-"bdH" = (
-/obj/structure/table/standard,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_x = -4;
-	pixel_y = 5;
-	name = "opened Mu Cephei Special Reserve"
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot{
-	pixel_x = 5
-	},
-/turf/simulated/floor/plating,
-/area/space)
 "bdT" = (
 /obj/structure/bed/handrail,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -743,6 +771,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/lifts_and_stairs)
+"bgw" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/mob/living/heavy_vehicle/premade/ripley/loader,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "bgA" = (
 /obj/structure/sign/flag/sol/right{
 	pixel_y = 30
@@ -837,7 +876,7 @@
 /area/light_cruiser/cic)
 "bsX" = (
 /obj/effect/landmark/entry_point/port{
-	name = "port, center hallway"
+	name = "port, CIC hallway"
 	},
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/port_exterior_armour)
@@ -851,8 +890,16 @@
 /obj/structure/sign/flag/sol{
 	pixel_y = -32
 	},
+/obj/effect/ghostspawpoint{
+	identifier = "sfa_navy_cruiser_crewman";
+	name = "igs - sfa_navy_crewman"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/lifts_and_stairs)
+"buk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/plating,
+/area/light_cruiser/medical)
 "buw" = (
 /obj/machinery/light{
 	dir = 1
@@ -1023,6 +1070,14 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/storage/firstaid/combat{
+	pixel_x = -9;
+	pixel_y = -5
+	},
+/obj/item/storage/firstaid/adv{
+	pixel_x = 6;
+	pixel_y = -5
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
 "bBC" = (
@@ -1134,7 +1189,7 @@
 /obj/machinery/atmospherics/unary/cryo_cell,
 /obj/effect/floor_decal/industrial/outline/medical,
 /turf/simulated/floor/tiled,
-/area/space)
+/area/light_cruiser/medical)
 "bNj" = (
 /obj/effect/floor_decal/corner/white/full{
 	dir = 4
@@ -1159,12 +1214,28 @@
 	pixel_x = 28;
 	req_one_access = list(203)
 	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/firealarm/north,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_1)
 "bSq" = (
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/tiled,
+/obj/structure/plasticflaps/airtight,
+/obj/machinery/door/airlock/hatch{
+	name = "Telecomms";
+	req_one_access = list(203)
+	},
+/turf/simulated/floor/tiled{
+	name = "cooled floor";
+	temperature = 278
+	},
 /area/light_cruiser/starboard_engineering)
+"bSK" = (
+/obj/item/material/shard,
+/obj/structure/inflatable,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "bTR" = (
 /obj/machinery/light{
 	dir = 4
@@ -1414,6 +1485,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
+"cnf" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_fore_hall_1)
 "cnw" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
@@ -1463,6 +1540,9 @@
 /area/light_cruiser/port_abandoned_observation)
 "cqT" = (
 /obj/structure/closet/emcloset,
+/obj/structure/sign/flag/sol{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_1)
 "crf" = (
@@ -1485,6 +1565,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
+"cvz" = (
+/obj/structure/inflatable,
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/port_abandoned_grauwolf)
 "cvF" = (
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /obj/structure/cable/green{
@@ -1493,7 +1577,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "cvU" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1512,6 +1596,23 @@
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav10,
 /turf/template_noop,
 /area/space)
+"cxd" = (
+/obj/random/junk,
+/obj/effect/floor_decal/corner/red{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/structure/cable/green{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "cxe" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -1609,7 +1710,8 @@
 	dir = 4;
 	name = "north bump";
 	pixel_x = 24;
-	req_access = list(203)
+	req_access = null;
+	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
@@ -1674,6 +1776,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
+"cVu" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6;
+	icon_state = "corner_white"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
+"cWh" = (
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_fore_hall_2)
 "cXS" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/port_thrusters)
@@ -1774,7 +1890,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "deF" = (
 /obj/structure/curtain/open/medical,
 /obj/structure/bed/roller,
@@ -1783,12 +1899,16 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
+/obj/structure/sign/flag/sol{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "dfE" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/machinery/firealarm/west,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
 "dfQ" = (
@@ -2036,6 +2156,12 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_aft_hall)
+"dyy" = (
+/obj/effect/landmark/entry_point/port{
+	name = "port, central hall"
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/central_hall)
 "dze" = (
 /obj/structure/table/standard,
 /obj/item/device/binoculars{
@@ -2092,10 +2218,15 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
+"dBY" = (
+/obj/structure/ship_weapon_dummy,
+/turf/simulated/floor/reinforced,
+/area/space)
 "dCU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/machinery/firealarm/east,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_thrusters)
 "dDU" = (
@@ -2204,6 +2335,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
+"dLl" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic_hall)
 "dLD" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/port_engineering)
@@ -2226,12 +2364,24 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/head)
+"dMP" = (
+/obj/machinery/mech_recharger,
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "dMV" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
+/obj/structure/bed/stool/chair/folding{
+	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/light_cruiser/medical)
 "dON" = (
 /obj/machinery/door/window{
 	dir = 4
@@ -2332,7 +2482,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "eaO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -2368,7 +2518,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/light,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_aft_hall)
 "efB" = (
@@ -2408,6 +2560,10 @@
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"egM" = (
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_aft_hall)
 "ehr" = (
 /obj/structure/lattice/catwalk,
 /obj/item/hullbeacon/red,
@@ -2439,6 +2595,9 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/sign/flag/sol{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
@@ -2496,14 +2655,13 @@
 /turf/template_noop,
 /area/space)
 "enS" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
+/obj/structure/lattice/catwalk,
+/obj/structure/sign/deathsposal{
+	name = "\improper SPENT MUNITIONS EJECTION CHUTE sign";
+	pixel_x = -32
 	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/light_cruiser/port_coilgun_ammo_1)
+/turf/template_noop,
+/area/space)
 "eof" = (
 /turf/simulated/wall/shuttle/raider{
 	color = "#ff8c00"
@@ -2635,21 +2793,24 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
 "eCF" = (
-/obj/structure/bed/handrail{
-	dir = 1
+/obj/structure/table/standard,
+/obj/machinery/light/small{
+	dir = 8
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	frequency = 1380;
-	id_tag = "cruiser_port_pump";
-	dir = 1
+/obj/item/reagent_containers/food/drinks/bottle/whiskey{
+	pixel_x = -4;
+	pixel_y = 5;
+	name = "opened Mu Cephei Special Reserve"
 	},
-/obj/machinery/access_button/airlock_exterior{
-	pixel_x = 9;
-	pixel_y = -21;
-	master_tag = "cruiser_port"
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot{
+	pixel_x = 5;
+	pixel_y = 6
 	},
-/turf/simulated/floor/reinforced,
-/area/light_cruiser/port_aft_hall)
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot{
+	pixel_x = 5
+	},
+/turf/simulated/floor/plating,
+/area/light_cruiser/medical)
 "eDc" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/glass/full,
@@ -2661,6 +2822,10 @@
 /area/light_cruiser/starboard_engineering)
 "eGx" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/firealarm/north,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_2)
 "eIF" = (
@@ -2724,7 +2889,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/light_cruiser/medical)
 "eOK" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -2767,6 +2932,13 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_fore_hall_1)
+"eRo" = (
+/obj/machinery/light{
+	dir = 8;
+	pixel_x = 33
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/port_aft_hall)
 "eTH" = (
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -2857,6 +3029,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
+"eXX" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/firealarm/north,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_fore_hall_1)
 "eYk" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -2903,7 +3082,7 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/light_cruiser/medical)
 "fdD" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/purple,
 /turf/simulated/floor/tiled/dark,
@@ -3057,6 +3236,38 @@
 	pixel_x = 4;
 	pixel_y = -6
 	},
+/obj/item/device/radio/headset/ship{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/device/radio/headset/ship{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/device/radio/headset/ship{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/device/radio/headset/ship{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/device/radio/headset/ship{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/device/radio/headset/ship{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/device/radio/headset/ship{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/device/radio/headset/ship{
+	pixel_x = -6;
+	pixel_y = 6
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
 "fri" = (
@@ -3092,6 +3303,12 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
+"fxu" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "fxG" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/armoury)
@@ -3100,11 +3317,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
 "fAp" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
+/obj/machinery/light{
+	dir = 8
 	},
 /obj/effect/floor_decal/corner/blue{
-	dir = 8
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
@@ -3199,6 +3416,16 @@
 	},
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/starboard_thrusters)
+"fOE" = (
+/obj/machinery/door/blast/regular{
+	name = "grauwolf blast door";
+	id = "grauwolf_port"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "fPv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -3221,6 +3448,9 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/door/window/northleft{
 	dir = 2
+	},
+/obj/structure/sign/flag/sol/left{
+	pixel_y = 30
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_aft_hall)
@@ -3364,7 +3594,7 @@
 	},
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "ggh" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 9
@@ -3373,6 +3603,8 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/item/clipboard,
+/obj/item/device/hand_labeler,
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
 "ghc" = (
@@ -3399,8 +3631,17 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
 "gjW" = (
-/turf/simulated/wall,
-/area/light_cruiser/port_fore_hall_1)
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/light_cruiser/medical)
+"gkd" = (
+/obj/effect/landmark/entry_point/starboard{
+	name = "starboard, grauwolf"
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/starboard_grauwolf)
 "gkV" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -3473,6 +3714,13 @@
 "gpq" = (
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
+"gqw" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/firealarm/north,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_fore_hall_1)
 "grr" = (
 /obj/machinery/light/colored/blue{
 	dir = 1
@@ -3513,13 +3761,18 @@
 	dir = 9
 	},
 /obj/structure/table/standard,
+/obj/machinery/photocopier/faxmachine{
+	anchored = 0;
+	department = "SCCV Horizon Bridge";
+	pixel_y = 4
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
 "gut" = (
 /obj/machinery/iv_drip,
 /obj/effect/floor_decal/industrial/outline/medical,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/light_cruiser/medical)
 "gwG" = (
 /obj/machinery/door/airlock/glass_engineering{
 	name = "Engineering";
@@ -3574,7 +3827,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/light_cruiser/medical)
 "gzt" = (
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -3587,6 +3840,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_fore_hall_1)
+"gzD" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/blue,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "gAI" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/power/apc/high{
@@ -3627,6 +3887,33 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"gJD" = (
+/obj/structure/sink/kitchen{
+	name = "water fountain";
+	pixel_y = 26;
+	desc = "A fountain used for getting water."
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic_hall)
+"gJQ" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/decal/fake_object{
+	density = 1;
+	desc = "A broken down mech, not even worth scrapping..";
+	icon = 'icons/mecha/mech_construction.dmi';
+	icon_state = "hermes7";
+	name = "destroyed mech";
+	pixel_y = 3
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "gJV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
@@ -3643,6 +3930,10 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/strongroom)
+"gKQ" = (
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_fore_hall_1)
 "gMt" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -3659,7 +3950,16 @@
 /obj/effect/floor_decal/industrial/outline/medical,
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
+"gNx" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/sign/flag/sol/right{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/central_hall)
 "gNE" = (
 /obj/machinery/atmospherics/binary/passive_gate{
 	dir = 8
@@ -3697,6 +3997,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_1)
 "gPu" = (
@@ -3707,6 +4010,7 @@
 /obj/item/ship_ammunition/coilgun,
 /obj/item/ship_ammunition/coilgun,
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/item/ship_ammunition/coilgun,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_1)
 "gQT" = (
@@ -3723,6 +4027,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_aft_hall)
+"gYo" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/tiled/white,
+/area/light_cruiser/medical)
 "gYw" = (
 /obj/machinery/power/apc/super/critical{
 	pixel_y = -24;
@@ -3818,7 +4129,7 @@
 	req_one_access = list(203)
 	},
 /obj/effect/landmark/entry_point/starboard{
-	name = "starboard, observation room"
+	name = "starboard, strongroom hallway"
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_observation)
@@ -3827,6 +4138,13 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_thrusters)
+"hky" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "hnn" = (
 /obj/machinery/vending/engivend{
 	req_access = null
@@ -3850,6 +4168,10 @@
 /obj/item/stack/material/glass/reinforced{
 	amount = 50
 	},
+/turf/simulated/floor/tiled,
+/area/light_cruiser/starboard_engineering)
+"hrh" = (
+/obj/machinery/firealarm/south,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
 "hrK" = (
@@ -3884,13 +4206,6 @@
 	},
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/reactor)
-"huG" = (
-/obj/machinery/light{
-	dir = 8;
-	pixel_x = 33
-	},
-/turf/simulated/wall/shuttle/raider,
-/area/light_cruiser/port_aft_hall)
 "hxL" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -3937,6 +4252,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/machinery/firealarm/west,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_abandoned_observation)
 "hDU" = (
@@ -4024,13 +4340,21 @@
 	},
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "hHl" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
+"hHF" = (
+/obj/machinery/door/blast/regular/open{
+	name = "damaged blastdoor";
+	desc = "A damaged blast door that appears to be stuck open. The machinery is burnt up."
+	},
+/obj/structure/inflatable,
+/turf/simulated/floor/plating,
+/area/light_cruiser/port_abandoned_grauwolf)
 "hIJ" = (
 /obj/machinery/shower{
 	dir = 4;
@@ -4119,9 +4443,7 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
 "hRX" = (
-/obj/structure/ship_weapon_dummy{
-	is_barrel = 1
-	},
+/obj/structure/ship_weapon_dummy/barrel,
 /turf/template_noop,
 /area/space)
 "hSz" = (
@@ -4211,6 +4533,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_1)
 "ibA" = (
@@ -4254,7 +4579,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/light,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_aft_hall)
 "idw" = (
@@ -4296,7 +4623,7 @@
 /obj/effect/map_effect/window_spawner/reinforced,
 /obj/structure/sign/greencross,
 /turf/space,
-/area/space)
+/area/light_cruiser/medical)
 "iki" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 8
@@ -4370,7 +4697,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/light_cruiser/port_fore_hall_1)
+/area/light_cruiser/port_maintenance_exit)
 "iqt" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -4407,6 +4734,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/item/tank/emergency_oxygen/double{
+	pixel_x = -4;
+	pixel_y = -3
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
 "iqu" = (
@@ -4442,8 +4773,14 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
 "iuz" = (
-/turf/simulated/wall,
-/area/light_cruiser/starboard_fore_hall_1)
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_aft_hall)
 "ivO" = (
 /obj/machinery/light{
 	dir = 4;
@@ -4512,7 +4849,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "iOg" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/wall/shuttle/raider,
@@ -4559,6 +4896,10 @@
 /area/light_cruiser/port_abandoned_observation)
 "iPj" = (
 /obj/machinery/light/small,
+/obj/effect/ghostspawpoint{
+	identifier = "sfa_cruiser_marine";
+	name = "igs - sfa_marine"
+	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/lifts_and_stairs)
 "iQt" = (
@@ -4715,13 +5056,22 @@
 	desc = "A beaker with a label at its front denoting what is ideally contained in it. Clonexadone is a reagent that works best on a patient put into a cryo cell, as it only works within a body that is very very cold. It heals all wounds effectively, including organ damage."
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/light_cruiser/medical)
 "jce" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
+"jch" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "jcG" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -4759,6 +5109,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_1)
@@ -4892,6 +5245,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/firealarm/east,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_observation)
 "joq" = (
@@ -4914,8 +5268,13 @@
 /obj/item/ship_ammunition/coilgun,
 /obj/item/ship_ammunition/coilgun,
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/item/ship_ammunition/coilgun,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_2)
+"jrc" = (
+/obj/structure/ship_weapon_dummy,
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "jrf" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -4993,7 +5352,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/light_cruiser/medical)
 "jBu" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 6
@@ -5017,8 +5376,20 @@
 /obj/machinery/door/window/northleft{
 	dir = 2
 	},
+/obj/structure/sign/flag/sol/right{
+	pixel_y = 30
+	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_aft_hall)
+"jEz" = (
+/obj/machinery/door/firedoor{
+	req_one_access = list(203)
+	},
+/obj/structure/sign/flag/sol/left{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/central_hall)
 "jGA" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4;
@@ -5143,7 +5514,7 @@
 	pixel_y = -4
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "jNI" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -5156,10 +5527,6 @@
 	},
 /turf/simulated/floor,
 /area/light_cruiser/port_maintenance_exit)
-"jOq" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor/plating,
-/area/space)
 "jOT" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -5174,6 +5541,10 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_fore_hall_2)
+"jPm" = (
+/obj/machinery/firealarm/south,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_aft_hall)
 "jQs" = (
 /obj/structure/bed/handrail,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -5225,6 +5596,10 @@
 /obj/structure/ship_weapon_dummy,
 /turf/template_noop,
 /area/space)
+"jWx" = (
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/tiled,
+/area/light_cruiser/lifts_and_stairs)
 "jXY" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -5250,6 +5625,7 @@
 /obj/item/ship_ammunition/coilgun,
 /obj/item/ship_ammunition/coilgun,
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/item/ship_ammunition/coilgun,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_1)
 "kdx" = (
@@ -5363,6 +5739,21 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
+"kmB" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_fore_hall_1)
 "kor" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -5421,6 +5812,10 @@
 	pixel_y = -25
 	},
 /obj/machinery/light,
+/obj/effect/ghostspawpoint{
+	identifier = "sfa_navy_cruiser_crewman";
+	name = "igs - sfa_navy_crewman"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/lifts_and_stairs)
 "krq" = (
@@ -5463,6 +5858,9 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/lifts_and_stairs)
+"ktv" = (
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/port_abandoned_grauwolf)
 "ktw" = (
 /obj/effect/landmark/entry_point/port{
 	name = "port, fore hallway"
@@ -5484,6 +5882,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_abandoned_observation)
+"kvE" = (
+/obj/machinery/light{
+	dir = 4;
+	status = 2
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "kwi" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -5497,7 +5905,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/light_cruiser/medical)
 "kyk" = (
 /obj/structure/window/borosilicate/reinforced{
 	maxhealth = 200;
@@ -5530,6 +5938,9 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
@@ -5625,6 +6036,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
+"kON" = (
+/obj/structure/ship_weapon_dummy,
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/starboard_grauwolf)
 "kPo" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 10
@@ -5663,7 +6078,7 @@
 /obj/machinery/iv_drip,
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "kUQ" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 5
@@ -5717,6 +6132,22 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"ldx" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_fore_hall_1)
 "len" = (
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_2)
@@ -5785,6 +6216,21 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
+"ljX" = (
+/obj/structure/table/rack,
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/obj/item/ship_ammunition/grauwolf_bundle,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_coilgun_ammo_1)
 "lkj" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/starboard_maintenance_exit)
@@ -5812,6 +6258,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_1)
 "loV" = (
@@ -5827,6 +6276,7 @@
 	pixel_x = 27
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/firealarm/north,
 /turf/simulated/floor/tiled/white,
 /area/light_cruiser/head)
 "lrP" = (
@@ -5872,6 +6322,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"lwL" = (
+/obj/machinery/firealarm/north,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic_hall)
 "lwP" = (
 /obj/effect/floor_decal/corner/orange/diagonal,
 /obj/structure/sign/securearea{
@@ -5892,17 +6346,20 @@
 /obj/item/ammo_magazine/c762/sol,
 /obj/item/ammo_magazine/c762/sol,
 /obj/item/ammo_magazine/c762/sol,
-/obj/item/ammo_magazine/c762/sol,
 /obj/item/gun/projectile/automatic/rifle/sol,
 /obj/item/gun/projectile/automatic/rifle/sol,
 /obj/item/gun/projectile/automatic/rifle/sol,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
 "lxm" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/machinery/portable_atmospherics/canister/oxygen/prechilled,
-/turf/simulated/floor/plating,
-/area/space)
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "lyr" = (
 /obj/effect/landmark/entry_point/port{
 	name = "port, coilgun"
@@ -6013,7 +6470,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/light_cruiser/medical)
 "lJw" = (
 /obj/machinery/computer/ship/helm{
 	dir = 1
@@ -6134,7 +6591,7 @@
 	},
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "lYi" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 6
@@ -6183,6 +6640,10 @@
 /obj/structure/sign/flag/sol{
 	pixel_y = 32
 	},
+/obj/effect/ghostspawpoint{
+	identifier = "sfa_navy_cruiser_crewman";
+	name = "igs - sfa_navy_crewman"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/lifts_and_stairs)
 "mfe" = (
@@ -6219,15 +6680,24 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_engineering)
+"mfu" = (
+/obj/structure/bed/stool/chair/office/bridge/generic{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/port_abandoned_grauwolf)
 "mfZ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_1)
@@ -6243,7 +6713,13 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
+"mhE" = (
+/obj/effect/landmark/entry_point/starboard{
+	name = "starboard, CIC hallway"
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/starboard_exterior_armour)
 "mhV" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -6253,7 +6729,13 @@
 "mjK" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/plating,
-/area/space)
+/area/light_cruiser/medical)
+"mka" = (
+/obj/effect/landmark/entry_point/starboard{
+	name = "starboard,central hall"
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/central_hall)
 "mkA" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 5
@@ -6293,6 +6775,9 @@
 "mtk" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/starboard_aft_hall)
+"mud" = (
+/turf/simulated/floor/plating,
+/area/light_cruiser/port_abandoned_grauwolf)
 "muQ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/purple{
 	dir = 8
@@ -6339,6 +6824,15 @@
 "mza" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/reactor)
+"mzg" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "mAV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6385,12 +6879,20 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/machinery/firealarm/east,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/reactor)
 "mET" = (
 /obj/effect/floor_decal/corner/white/full,
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled,
+/area/light_cruiser/starboard_engineering)
+"mGq" = (
+/obj/machinery/telecomms/allinone/ship,
+/turf/simulated/floor/tiled{
+	name = "cooled floor";
+	temperature = 278
+	},
 /area/light_cruiser/starboard_engineering)
 "mHl" = (
 /obj/effect/floor_decal/spline/fancy{
@@ -6411,6 +6913,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
+"mId" = (
+/obj/machinery/firealarm/south,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_aft_hall)
 "mIA" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -6512,11 +7018,8 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
 "mOE" = (
-/obj/effect/landmark/entry_point/starboard{
-	name = "starboard, center hallway"
-	},
 /turf/simulated/wall/shuttle/raider,
-/area/light_cruiser/starboard_exterior_armour)
+/area/light_cruiser/starboard_grauwolf)
 "mQL" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 10
@@ -6534,13 +7037,13 @@
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "mVx" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "mVP" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -6555,6 +7058,17 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_coilgun_ammo_2)
+"mVR" = (
+/obj/structure/table/rack,
+/obj/item/ship_ammunition/coilgun,
+/obj/item/ship_ammunition/coilgun,
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/item/ship_ammunition/coilgun,
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
@@ -6599,6 +7113,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"nij" = (
+/obj/structure/table/rack,
+/obj/item/ship_ammunition/coilgun,
+/obj/item/ship_ammunition/coilgun,
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/item/ship_ammunition/coilgun,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_coilgun_ammo_2)
 "nmz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
@@ -6637,6 +7162,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/reactor)
+"nru" = (
+/obj/machinery/light{
+	dir = 4;
+	pixel_x = -32
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/starboard_aft_hall)
 "nsD" = (
 /obj/machinery/door/airlock/glass_command{
 	req_one_access = list(203);
@@ -6669,6 +7201,24 @@
 	},
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/starboard_thrusters)
+"nti" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "north bump";
+	pixel_x = -24;
+	req_access = null;
+	req_one_access = list(203)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "nvo" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable/green{
@@ -6699,6 +7249,10 @@
 	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/effect/ghostspawpoint{
+	identifier = "sfa_navy_cruiser_crewman";
+	name = "igs - sfa_navy_crewman"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/lifts_and_stairs)
@@ -6731,7 +7285,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "nEc" = (
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -6751,6 +7305,9 @@
 /area/light_cruiser/port_fore_hall_2)
 "nGA" = (
 /obj/structure/closet/emcloset,
+/obj/structure/sign/flag/sol{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_1)
 "nHN" = (
@@ -6771,12 +7328,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "nJy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/light{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_2)
 "nKW" = (
@@ -6829,7 +7383,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "nNE" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
@@ -6856,17 +7410,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_abandoned_observation)
-"nQQ" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/starboard_aft_hall)
 "nQV" = (
 /obj/structure/railing/mapped,
 /obj/structure/sign/flag/sol{
@@ -6889,7 +7432,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "nUh" = (
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav8,
 /turf/template_noop,
@@ -6911,6 +7454,12 @@
 /obj/item/device/lightreplacer/advanced,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"nUG" = (
+/obj/structure/sign/flag/sol/left{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/central_hall)
 "nVd" = (
 /obj/structure/extinguisher_cabinet{
 	layer = 3.3;
@@ -6920,6 +7469,11 @@
 /area/light_cruiser/port_fore_hall_1)
 "nVV" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/sink/kitchen{
+	name = "water fountain";
+	pixel_y = 26;
+	desc = "A fountain used for getting water."
+	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
 "nXP" = (
@@ -6981,13 +7535,27 @@
 	dir = 4;
 	name = "north bump";
 	pixel_x = 24;
-	req_access = list(203)
+	req_access = null;
+	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_observation)
+"odi" = (
+/obj/structure/extinguisher_cabinet{
+	layer = 3.3;
+	pixel_y = 32
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "odF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/green{
@@ -7001,7 +7569,7 @@
 	},
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "oeQ" = (
 /obj/structure/bed/handrail,
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
@@ -7031,6 +7599,18 @@
 /obj/item/stack/liquidbags/full,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
+"ohg" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/disposal,
+/obj/structure/sign/deathsposal{
+	name = "\improper SPENT MUNITIONS EJECTION CHUTE sign";
+	pixel_x = -32
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "oiO" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -7109,6 +7689,30 @@
 /obj/item/gun/projectile/pistol/sol,
 /obj/item/gun/projectile/pistol/sol,
 /obj/item/gun/projectile/pistol/sol,
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/obj/item/clothing/accessory/holster/thigh{
+	pixel_x = 9;
+	pixel_y = -6
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
 "ool" = (
@@ -7174,6 +7778,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/central_hall)
+"osC" = (
+/obj/machinery/door/blast/regular{
+	name = "grauwolf blast door";
+	id = "grauwolf_port"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "otX" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/machinery/access_button{
@@ -7227,10 +7838,18 @@
 /obj/item/grenade/frag,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
+"oAm" = (
+/obj/structure/ship_weapon_dummy,
+/turf/space,
+/area/space)
 "oAP" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/starboard_engineering)
 "oCl" = (
+/obj/effect/ghostspawpoint{
+	identifier = "sfa_navy_ensign";
+	name = "igs - sfa_navy_ensign"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/lifts_and_stairs)
 "oDp" = (
@@ -7268,6 +7887,13 @@
 "oDC" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/starboard_fore_hall_2)
+"oDL" = (
+/obj/effect/ghostspawpoint{
+	identifier = "sfa_cruiser_marine";
+	name = "igs - sfa_marine"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/lifts_and_stairs)
 "oDP" = (
 /turf/simulated/wall/shuttle/raider{
 	color = "#ff8c00"
@@ -7341,8 +7967,8 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_observation)
 "oKJ" = (
-/obj/effect/floor_decal/corner/orange{
-	dir = 5
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
@@ -7432,7 +8058,8 @@
 	dir = 4;
 	name = "north bump";
 	pixel_x = 24;
-	req_access = list(203)
+	req_access = null;
+	req_one_access = list(203)
 	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
@@ -7498,7 +8125,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "peq" = (
 /obj/structure/foamedmetal,
 /turf/simulated/floor/airless,
@@ -7528,6 +8155,9 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_1)
 "pgL" = (
@@ -7593,6 +8223,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"pkQ" = (
+/obj/machinery/door/firedoor{
+	req_one_access = list(203)
+	},
+/obj/structure/sign/flag/sol/right{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/central_hall)
 "plN" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -7659,8 +8298,18 @@
 /obj/item/device/flashlight/heavy,
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"puX" = (
+/obj/effect/landmark/entry_point/port{
+	name = "port, abandoned Grauwolf"
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/port_abandoned_grauwolf)
 "pvu" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/firealarm/north,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
 "pvI" = (
@@ -7762,6 +8411,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_fore_hall_1)
+"pHN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/armoury)
 "pHT" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -7798,6 +8453,12 @@
 /obj/structure/closet/bombclosetsecurity,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
+"pKX" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/starboard_grauwolf)
 "pLN" = (
 /obj/structure/closet/walllocker/medical{
 	pixel_x = 32
@@ -7834,7 +8495,7 @@
 	icon_state = "intact"
 	},
 /turf/simulated/floor/tiled,
-/area/space)
+/area/light_cruiser/medical)
 "pSc" = (
 /obj/structure/railing/mapped,
 /obj/machinery/power/apc/super/critical{
@@ -7849,11 +8510,21 @@
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
 "pTt" = (
-/obj/structure/bed/stool/chair/folding{
-	dir = 4
+/obj/structure/bed/handrail{
+	dir = 1
 	},
-/turf/simulated/floor/plating,
-/area/space)
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	frequency = 1380;
+	id_tag = "cruiser_starboard_pump";
+	dir = 1
+	},
+/obj/machinery/access_button/airlock_exterior{
+	pixel_x = -8;
+	pixel_y = -21;
+	master_tag = "cruiser_starboard"
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_aft_hall)
 "pTC" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
@@ -7867,6 +8538,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/machinery/firealarm/west,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
 "pVa" = (
@@ -7939,6 +8611,26 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
+"qbq" = (
+/obj/machinery/door/airlock/glass_command{
+	req_one_access = list(203);
+	name = "Starboard Grauwolf"
+	},
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/machinery/door/firedoor{
+	req_one_access = list(203)
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "qbx" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -7953,6 +8645,10 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/light_cruiser/cic_hall)
+"qcp" = (
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/starboard_aft_hall)
 "qcY" = (
 /obj/structure/table/rack,
 /obj/structure/window/reinforced{
@@ -8012,7 +8708,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "qgw" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -8072,7 +8768,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "qqP" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -8095,7 +8791,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/light_cruiser/medical)
 "qsI" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -8132,12 +8828,14 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
 "qwc" = (
-/obj/machinery/light{
-	dir = 4;
-	pixel_x = -32
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
 	},
-/turf/simulated/wall/shuttle/raider,
-/area/light_cruiser/starboard_aft_hall)
+/obj/effect/floor_decal/corner/blue{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "qxq" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -8162,6 +8860,17 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
+"qyn" = (
+/obj/machinery/disposal,
+/obj/structure/sign/deathsposal{
+	name = "\improper SPENT MUNITIONS EJECTION CHUTE sign";
+	pixel_x = 32
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/port_abandoned_grauwolf)
 "qyx" = (
 /obj/machinery/atmospherics/unary/engine,
 /obj/structure/window/reinforced,
@@ -8185,7 +8894,7 @@
 /obj/machinery/optable,
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "qAe" = (
 /obj/structure/sign/securearea{
 	pixel_y = 32
@@ -8268,15 +8977,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
-"qOH" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
-	},
-/obj/effect/floor_decal/corner/blue{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/cic)
 "qPH" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 10
@@ -8287,6 +8987,9 @@
 "qPY" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_1)
@@ -8352,6 +9055,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"qYL" = (
+/obj/structure/inflatable,
+/turf/simulated/floor/plating,
+/area/light_cruiser/port_abandoned_grauwolf)
 "qZw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -8379,6 +9086,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_abandoned_observation)
+"rbP" = (
+/obj/machinery/computer/ship/navigation,
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "rcw" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled,
@@ -8534,6 +9245,8 @@
 	dir = 4;
 	icon_state = "warning"
 	},
+/obj/structure/closet/crate,
+/obj/item/circuitboard/ship/helm,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
 "roa" = (
@@ -8553,6 +9266,19 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"rpf" = (
+/obj/machinery/mech_recharger,
+/obj/effect/floor_decal/corner/red{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "rpI" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -8583,6 +9309,29 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
+"rqZ" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/westleft,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/corner/red{
+	dir = 6;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/structure/sign/flag/sol/right{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "rrx" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -8627,7 +9376,7 @@
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "ryY" = (
 /obj/structure/reagent_dispensers/coolanttank,
 /obj/item/reagent_containers/glass/bucket,
@@ -8709,19 +9458,26 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"rKr" = (
+/obj/structure/viewport,
+/obj/effect/landmark/entry_point/fore{
+	name = "fore, starboard grauwolf"
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "rLj" = (
 /obj/machinery/atmospherics/unary/freezer{
 	icon_state = "freezer"
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/light_cruiser/medical)
 "rLV" = (
 /obj/machinery/bodyscanner{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/light_cruiser/medical)
 "rLZ" = (
 /obj/machinery/air_sensor{
 	frequency = 1441;
@@ -8745,12 +9501,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
-"rPK" = (
-/obj/effect/floor_decal/corner/purple{
-	dir = 5
+"rNI" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/cic)
+/obj/effect/floor_decal/industrial/loading/yellow{
+	dir = 8;
+	pixel_x = -6
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "rQA" = (
 /obj/structure/table/standard,
 /obj/item/cell/super,
@@ -8786,6 +9546,12 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_engineering)
+"rTk" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/port_abandoned_grauwolf)
 "rVy" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/purple{
 	dir = 4
@@ -8818,12 +9584,20 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "rXa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/armoury)
+"rXm" = (
+/obj/machinery/light/small,
+/obj/effect/ghostspawpoint{
+	identifier = "sfa_navy_cruiser_crewman";
+	name = "igs - sfa_navy_crewman"
+	},
+/turf/simulated/floor/plating,
+/area/light_cruiser/lifts_and_stairs)
 "rXs" = (
 /obj/machinery/door/airlock/medical{
 	name = "Operating Theatre";
@@ -8836,7 +9610,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "rYb" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
@@ -8864,7 +9638,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "saz" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -8882,6 +9656,10 @@
 	pixel_x = -28;
 	req_one_access = list(203)
 	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/firealarm/north,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_1)
 "sfU" = (
@@ -8989,9 +9767,6 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
 "sqq" = (
-/obj/machinery/light/colored/blue{
-	dir = 1
-	},
 /obj/structure/sign/radiation{
 	pixel_y = 32
 	},
@@ -9007,8 +9782,15 @@
 /obj/structure/cable{
 	dir = 8
 	},
+/obj/machinery/light/colored/red{
+	dir = 1
+	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
+"srD" = (
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "svL" = (
 /obj/machinery/computer/ship/navigation,
 /obj/effect/floor_decal/corner/red{
@@ -9019,6 +9801,16 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
+"svU" = (
+/obj/machinery/door/blast/regular{
+	name = "grauwolf blast door";
+	id = "grauwolf_port"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "swR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc{
@@ -9185,12 +9977,36 @@
 "sHj" = (
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
+"sIb" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic_hall)
 "sIe" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_aft_hall)
+"sIp" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8;
+	icon_state = "map-scrubbers"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/light_cruiser/port_fore_hall_1)
 "sIC" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -9262,6 +10078,24 @@
 	},
 /turf/simulated/floor,
 /area/light_cruiser/starboard_maintenance_exit)
+"sOC" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6;
+	icon_state = "corner_white"
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "north bump";
+	pixel_x = 24;
+	req_access = null;
+	req_one_access = list(203)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "sOM" = (
 /obj/structure/sign/securearea{
 	pixel_y = 32
@@ -9336,7 +10170,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "sUZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/visible/purple{
@@ -9348,13 +10182,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
-"sYV" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
-	},
-/obj/effect/floor_decal/corner/blue,
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/cic)
 "sZk" = (
 /obj/structure/closet/firecloset,
 /obj/machinery/alarm{
@@ -9381,38 +10208,43 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/firedoor{
+	req_one_access = list(203)
+	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/light_cruiser/medical)
 "taE" = (
 /obj/structure/ship_weapon_dummy,
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_coilgun)
+"taP" = (
+/obj/random/junk,
+/obj/structure/inflatable,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "teB" = (
-/obj/structure/foamedmetal,
-/turf/simulated/floor,
-/area/light_cruiser/port_exterior_armour)
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "thQ" = (
-/obj/structure/bed/handrail{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	frequency = 1380;
-	id_tag = "cruiser_starboard_pump";
-	dir = 1
-	},
-/obj/machinery/access_button/airlock_exterior{
-	pixel_x = -8;
-	pixel_y = -21;
-	master_tag = "cruiser_starboard"
-	},
-/turf/simulated/floor/reinforced,
-/area/light_cruiser/starboard_aft_hall)
+/obj/machinery/atmospherics/portables_connector,
+/obj/machinery/portable_atmospherics/canister/oxygen/prechilled,
+/turf/simulated/floor/plating,
+/area/light_cruiser/medical)
 "thU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_observation)
+"tiu" = (
+/obj/structure/sign/flag/sol/right{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/central_hall)
 "tqm" = (
 /obj/structure/bed/stool/chair/office/bridge/generic,
 /obj/effect/floor_decal/corner/red{
@@ -9464,7 +10296,7 @@
 /area/light_cruiser/port_aft_hall)
 "tse" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "COILGUN AMMUNITION";
+	name = "COILGUN & GRAUWOLF AMMUNITION";
 	req_one_access = list(203)
 	},
 /obj/machinery/door/firedoor{
@@ -9474,6 +10306,9 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
@@ -9525,19 +10360,10 @@
 	},
 /obj/effect/floor_decal/corner_wide/paleblue/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "twq" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/dark/full,
-/area/light_cruiser/starboard_coilgun_ammo_1)
+/turf/simulated/wall/r_wall,
+/area/light_cruiser/starboard_grauwolf)
 "twx" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4;
@@ -9549,7 +10375,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/light_cruiser/medical)
 "txi" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable{
@@ -9584,6 +10410,10 @@
 "tBP" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/starboard_coilgun)
+"tHm" = (
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_fore_hall_1)
 "tJs" = (
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -9595,6 +10425,9 @@
 /area/light_cruiser/starboard_fore_hall_2)
 "tJt" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/sign/flag/sol/right{
+	pixel_y = 30
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
 "tJx" = (
@@ -9625,6 +10458,10 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_aft_hall)
+"tOr" = (
+/obj/machinery/firealarm/south,
+/turf/simulated/floor/tiled,
+/area/light_cruiser/port_engineering)
 "tPj" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/starboard_thrusters)
@@ -9643,7 +10480,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/light_cruiser/medical)
 "tSa" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -9670,6 +10507,20 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/simulated/floor/plating,
 /area/light_cruiser/cic_hall)
+"tVb" = (
+/obj/structure/viewport,
+/obj/effect/landmark/entry_point/fore{
+	name = "fore, abandoned port grauwolf"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/light_cruiser/port_abandoned_grauwolf)
+"tVZ" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/structure/inflatable,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "tXh" = (
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -9687,6 +10538,7 @@
 /obj/item/ship_ammunition/coilgun,
 /obj/item/ship_ammunition/coilgun,
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/item/ship_ammunition/coilgun,
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
 "uaF" = (
@@ -9701,7 +10553,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "ubH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -9808,6 +10660,9 @@
 /obj/machinery/door/window/northleft{
 	dir = 2
 	},
+/obj/structure/sign/flag/sol/left{
+	pixel_y = 30
+	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_aft_hall)
 "uoN" = (
@@ -9825,7 +10680,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "upa" = (
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /obj/structure/cable/green{
@@ -9835,7 +10690,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "uqE" = (
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
@@ -9962,6 +10817,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/strongroom)
+"uyo" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/structure/sign/flag/sol/left{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "uzm" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -9994,6 +10858,15 @@
 	},
 /turf/simulated/floor/bluegrid,
 /area/light_cruiser/strongroom)
+"uzH" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/sign/flag/sol/left{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/central_hall)
 "uzO" = (
 /obj/structure/extinguisher_cabinet{
 	layer = 3.3;
@@ -10036,6 +10909,9 @@
 	req_one_access = list(203)
 	},
 /obj/structure/cable/green,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_1)
 "uGi" = (
@@ -10135,10 +11011,13 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "uLh" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun_ammo_1)
@@ -10180,6 +11059,10 @@
 /area/light_cruiser/central_hall)
 "uPu" = (
 /turf/simulated/wall,
+/area/light_cruiser/medical)
+"uRU" = (
+/obj/structure/lattice/catwalk,
+/turf/space,
 /area/space)
 "uSs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -10263,7 +11146,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "uWy" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -10299,6 +11182,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"vcu" = (
+/obj/machinery/firealarm/west,
+/turf/simulated/floor/tiled,
+/area/light_cruiser/lifts_and_stairs)
 "vcT" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -10327,6 +11214,9 @@
 /obj/machinery/door/airlock{
 	id_tag = "central_stall_2";
 	name = "Stall"
+	},
+/obj/machinery/door/firedoor{
+	req_one_access = list(203)
 	},
 /turf/simulated/floor/tiled/white,
 /area/light_cruiser/head)
@@ -10454,6 +11344,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_fore_hall_1)
+"vyJ" = (
+/obj/machinery/ammunition_loader/grauwolf{
+	weapon_id = "starboard_grauwolf";
+	pixel_x = -4
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "vzH" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -10476,6 +11373,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor,
 /area/light_cruiser/port_maintenance_exit)
+"vCq" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -28;
+	req_one_access = list(203)
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "vCJ" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/starboard_coilgun_ammo_2)
@@ -10486,6 +11396,9 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_1)
 "vEy" = (
@@ -10494,6 +11407,25 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
+"vEO" = (
+/obj/machinery/door/airlock/glass_command{
+	req_one_access = list(203);
+	name = "Port Abandoned Grauwolf"
+	},
+/obj/machinery/door/firedoor{
+	req_one_access = list(203)
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "vFm" = (
 /obj/machinery/light,
 /obj/structure/cable/green{
@@ -10536,6 +11468,26 @@
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/light_cruiser/port_engineering)
+"vIy" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/structure/window/reinforced{
+	icon_state = "rwindow";
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/port_abandoned_grauwolf)
 "vJG" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -10560,16 +11512,24 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "vKq" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
+/obj/structure/foamedmetal,
+/turf/simulated/floor,
+/area/light_cruiser/port_exterior_armour)
+"vLf" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 6;
+	icon_state = "corner_white"
 	},
-/obj/effect/floor_decal/corner/blue{
-	dir = 4
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 28;
+	req_one_access = list(203)
 	},
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/cic)
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_grauwolf)
 "vMq" = (
 /obj/machinery/power/terminal{
 	icon_state = "term"
@@ -10674,6 +11634,13 @@
 "vTA" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/starboard_observation)
+"vUh" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/sign/flag/sol/left{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/central_hall)
 "vUj" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -10747,8 +11714,14 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/firealarm/north,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic)
+"wdI" = (
+/obj/structure/lattice/catwalk,
+/obj/item/hullbeacon/red,
+/turf/template_noop,
+/area/space)
 "wex" = (
 /obj/machinery/door/airlock/glass{
 	name = "Medical";
@@ -10764,7 +11737,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "wiY" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -10806,7 +11779,7 @@
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "wot" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -10883,6 +11856,7 @@
 	dir = 1
 	},
 /obj/structure/table/standard,
+/obj/item/folder/blue,
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
 "wya" = (
@@ -10916,6 +11890,22 @@
 "wDB" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/port_abandoned_observation)
+"wEq" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/structure/lattice/catwalk/indoor/grate,
+/obj/structure/cable/green{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/light_cruiser/starboard_fore_hall_1)
 "wEt" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -11011,6 +12001,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/sign/flag/sol{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_coilgun)
 "wLo" = (
@@ -11027,20 +12020,8 @@
 /area/light_cruiser/starboard_engineering)
 "wNv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/light{
-	dir = 4
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
-"wNF" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/cic)
 "wPk" = (
 /obj/machinery/mech_recharger,
 /obj/effect/floor_decal/corner/red{
@@ -11096,7 +12077,7 @@
 	req_one_access = list(203)
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "wYf" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -11123,9 +12104,19 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/cic_hall)
+"xaJ" = (
+/obj/machinery/firealarm/north,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/central_hall)
 "xcW" = (
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_abandoned_observation)
+"xdi" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "xdz" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/purple,
 /obj/machinery/meter,
@@ -11197,7 +12188,7 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "xlX" = (
 /turf/simulated/wall/r_wall,
 /area/light_cruiser/starboard_coilgun_ammo_1)
@@ -11218,6 +12209,12 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
+"xmE" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/port_abandoned_grauwolf)
 "xnf" = (
 /obj/structure/table/rack,
 /obj/structure/window/reinforced{
@@ -11327,9 +12324,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/light{
-	dir = 1
-	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_aft_hall)
 "xxP" = (
@@ -11354,13 +12349,28 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/starboard_engineering)
+"xAi" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/cic)
 "xBE" = (
 /obj/item/wrench,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/light_cruiser/medical)
+"xCr" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair/office/bridge/generic{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "xGK" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/closet/crate/bin{
@@ -11445,6 +12455,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_aft_hall)
+"xNL" = (
+/obj/effect/decal/fake_object{
+	name = "damaged console";
+	desc = "A broken down console. It's riddled with massive holes and scorch marks.";
+	icon_state = "computer";
+	icon = 'icons/obj/modular_console.dmi'
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/port_abandoned_grauwolf)
 "xQK" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/glass/full,
@@ -11490,7 +12509,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "xUV" = (
 /obj/machinery/door/airlock/glass_security{
 	name = "Armoury";
@@ -11501,6 +12520,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/armoury)
+"xVj" = (
+/obj/machinery/firealarm/east,
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_fore_hall_2)
+"xWs" = (
+/turf/simulated/wall/shuttle/raider,
+/area/light_cruiser/port_abandoned_grauwolf)
 "xWw" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
@@ -11528,6 +12554,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/central_hall)
+"xYa" = (
+/obj/structure/table/rack,
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/obj/item/ship_ammunition/grauwolf_bundle/ap,
+/turf/simulated/floor/tiled/dark/full,
+/area/light_cruiser/starboard_coilgun_ammo_1)
 "yaO" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/empty{
@@ -11600,11 +12641,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "yhw" = (
 /obj/effect/floor_decal/corner_wide/lime/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/space)
+/area/light_cruiser/medical)
 "yhA" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "COILGUN AMMUNITION";
@@ -11617,6 +12658,9 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
@@ -37770,10 +38814,10 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
+kYH
+aML
+kYH
+kYH
 xRX
 xRX
 xRX
@@ -37996,7 +39040,7 @@ agi
 hZx
 lHW
 oPU
-thQ
+pTt
 hZx
 xRX
 xRX
@@ -38006,7 +39050,7 @@ xRX
 xRX
 xRX
 xRX
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -38027,13 +39071,13 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+uRU
+aJl
+gkd
+kON
+jrc
+jVV
+jVV
 xRX
 xRX
 xRX
@@ -38283,14 +39327,14 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+kYH
+uRU
+pKX
+jrc
+jrc
+jrc
+dBY
+hRX
 xRX
 xRX
 xRX
@@ -38513,7 +39557,7 @@ dwB
 dsG
 hZx
 ebC
-qwc
+nru
 ebC
 ebC
 ebC
@@ -38525,7 +39569,7 @@ ebC
 ebC
 ebC
 fKj
-fKj
+mka
 fKj
 fKj
 vTA
@@ -38540,14 +39584,14 @@ kYH
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+kYH
+mOE
+pKX
+jrc
+jrc
+jrc
+oAm
+jVV
 xRX
 xRX
 xRX
@@ -38798,15 +39842,15 @@ kYH
 kYH
 kYH
 kYH
-kYH
-kYH
-kYH
-kYH
-kYH
-kYH
-kYH
-kYH
-kYH
+mOE
+ohg
+vyJ
+rbP
+rKr
+xRX
+xRX
+xRX
+xRX
 xRX
 xRX
 xRX
@@ -39031,7 +40075,7 @@ hMZ
 ozF
 bYE
 ozF
-ozF
+qcp
 tUh
 ozF
 ozF
@@ -39054,20 +40098,20 @@ vTA
 vTA
 cze
 cze
+mhE
+mOE
+xdi
+rNI
+xCr
+mOE
+mOE
 mOE
 cze
-cze
-cze
-cze
-cze
-cze
-cze
-cze
 kYH
 kYH
 xRX
 xRX
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -39084,7 +40128,7 @@ xRX
 xRX
 xRX
 xRX
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -39267,7 +40311,7 @@ kYH
 tPj
 agi
 oAP
-oAP
+mGq
 oAP
 oAP
 sgF
@@ -39283,9 +40327,9 @@ szv
 gOK
 cii
 rku
-idv
+iuz
 tXh
-nQQ
+idv
 eAr
 gMt
 gMt
@@ -39293,7 +40337,7 @@ gMt
 lkE
 gMt
 ydn
-idv
+iuz
 tXh
 krP
 sIC
@@ -39312,13 +40356,13 @@ yaR
 qxZ
 qxZ
 qxZ
-qxZ
-qxZ
-qxZ
-qxZ
-qxZ
-qxZ
-qxZ
+twq
+odi
+srD
+hky
+twq
+twq
+twq
 cze
 cze
 kYH
@@ -39519,7 +40563,7 @@ xRX
 xRX
 xRX
 xRX
-ehr
+wdI
 tPj
 tPj
 oAP
@@ -39569,13 +40613,13 @@ yaR
 riW
 riW
 riW
-riW
-riW
-riW
-riW
-riW
-riW
-qxZ
+twq
+uyo
+srD
+fxu
+jch
+bgw
+twq
 qxZ
 cze
 cze
@@ -39608,7 +40652,7 @@ kYH
 kYH
 kYH
 kYH
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -39826,13 +40870,13 @@ yaR
 riW
 riW
 riW
-riW
-riW
-riW
-riW
-riW
-riW
-qxZ
+twq
+rqZ
+vLf
+sOC
+apX
+dMP
+twq
 qxZ
 qxZ
 qxZ
@@ -40052,7 +41096,7 @@ oAP
 kLb
 gNE
 nvo
-ozF
+mId
 mtk
 ofx
 pKf
@@ -40083,13 +41127,13 @@ yaR
 hTI
 hTI
 hTI
-hTI
-dqZ
-dqZ
-dqZ
-dqZ
-dqZ
-dqZ
+twq
+twq
+twq
+twq
+qbq
+twq
+twq
 dqZ
 riW
 riW
@@ -40303,7 +41347,7 @@ bBn
 qxs
 eWe
 mKf
-bBn
+hrh
 oAP
 oAP
 gAI
@@ -40315,7 +41359,7 @@ kDD
 xoH
 rXa
 rXa
-rXa
+pHN
 uvx
 xJP
 rXa
@@ -40323,7 +41367,7 @@ rXa
 aqN
 oDp
 cdX
-eXP
+uzH
 cKJ
 cwv
 kOk
@@ -40344,7 +41388,7 @@ uqE
 aQA
 rWq
 pok
-rWq
+ldx
 rWq
 rWq
 dqZ
@@ -40580,7 +41624,7 @@ bTY
 wYf
 qcY
 cdX
-cwv
+tiu
 clV
 cjG
 hsd
@@ -40601,7 +41645,7 @@ bnP
 fbs
 wKf
 aig
-wYF
+wEq
 vJG
 rWq
 rWq
@@ -40617,7 +41661,7 @@ pok
 rWq
 rWq
 qTz
-rWq
+gKQ
 rWq
 bPo
 vnu
@@ -40628,7 +41672,7 @@ vnu
 tJs
 vnu
 icR
-vnu
+cWh
 vnu
 ejq
 mVP
@@ -40842,7 +41886,7 @@ cKJ
 cwv
 kOk
 uqE
-vlT
+sIb
 msW
 cuO
 uqE
@@ -40892,7 +41936,7 @@ pvu
 qsI
 wNv
 pHT
-tYt
+mVR
 ejq
 tBP
 eiu
@@ -41360,7 +42404,7 @@ lZL
 lZL
 lZL
 lZL
-uqE
+gJD
 iTZ
 uqE
 uqE
@@ -41382,7 +42426,7 @@ rWq
 euU
 rWq
 sZD
-iuz
+vGK
 vGK
 vGK
 qkv
@@ -41624,11 +42668,11 @@ jce
 esF
 esF
 esF
-vKq
+lxm
 abo
-wNF
+fAp
 abo
-sYV
+gzD
 esF
 esF
 esF
@@ -41638,7 +42682,7 @@ rWq
 rWq
 euU
 rWq
-iuz
+vGK
 vGK
 vGK
 swR
@@ -41650,7 +42694,7 @@ xlX
 scN
 gOP
 vCZ
-twq
+vCZ
 pgu
 qPY
 iby
@@ -41865,7 +42909,7 @@ omG
 lwQ
 fpY
 cdX
-cwv
+xaJ
 hxL
 pmI
 uwM
@@ -41882,9 +42926,9 @@ esF
 esF
 bBt
 itG
-gch
-gch
-gch
+gtf
+wUk
+qPH
 mHE
 abo
 pOQ
@@ -41892,10 +42936,10 @@ esF
 esF
 esF
 esF
-pGh
+gqw
 dYF
 pGh
-iuz
+vGK
 vGK
 vlH
 leM
@@ -41906,8 +42950,8 @@ nvO
 xlX
 awi
 wva
-gQL
-gQL
+xYa
+ljX
 gQL
 gQL
 xqT
@@ -42139,9 +43183,9 @@ esF
 bsV
 itG
 gch
-gtf
-wUk
-qPH
+wxE
+sHj
+pYi
 gch
 gch
 mHE
@@ -42376,10 +43420,10 @@ rgE
 gpq
 uUZ
 gpq
-gpq
+vcu
 snS
 iWu
-pxM
+jEz
 bxk
 pxM
 lZL
@@ -42396,9 +43440,9 @@ cTO
 dAT
 gch
 gch
-wxE
-sHj
-pYi
+hcF
+qUG
+qZy
 gch
 kiN
 ptt
@@ -42444,7 +43488,7 @@ ayj
 ayj
 ayj
 ayj
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -42653,13 +43697,13 @@ kmr
 hoQ
 oiO
 gch
-hcF
-qUG
-qZy
+oKJ
+gch
+gch
 gch
 mHl
 ebH
-oKJ
+teB
 gch
 gch
 gch
@@ -43138,13 +44182,13 @@ gpq
 uKp
 gpq
 lQO
-oCl
+oDL
 btO
 ctV
 iPj
 ctV
 mev
-oCl
+oDL
 lQO
 gpq
 ktp
@@ -43450,7 +44494,7 @@ xRX
 xRX
 xRX
 xRX
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -43462,7 +44506,7 @@ xRX
 xRX
 xRX
 xRX
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -43652,13 +44696,13 @@ gpq
 uKp
 gpq
 lQO
-oCl
+oDL
 btO
 ctV
-iPj
+rXm
 ctV
 mev
-oCl
+oDL
 lQO
 gpq
 xqf
@@ -44178,7 +45222,7 @@ chr
 ilf
 gpq
 iWu
-tJt
+vUh
 iTi
 pNo
 lZL
@@ -44187,7 +45231,7 @@ rkC
 fKP
 lcO
 lZL
-uqE
+lwL
 iTZ
 uqE
 esF
@@ -44195,13 +45239,13 @@ aKZ
 raV
 gch
 gch
-ggh
-wUk
-mQL
+oKJ
+gch
+gch
 gch
 mHl
 pgL
-rPK
+xAi
 gch
 gch
 gch
@@ -44426,7 +45470,7 @@ uUZ
 gpq
 fpl
 ewM
-gpq
+jWx
 fpl
 ehR
 oYI
@@ -44435,7 +45479,7 @@ gpq
 cZL
 gpq
 iWu
-pxM
+pkQ
 bxk
 pxM
 lZL
@@ -44452,9 +45496,9 @@ fCF
 lYi
 gch
 gch
-wxE
-sHj
-pYi
+ggh
+wUk
+mQL
 gch
 fHr
 xoY
@@ -44500,7 +45544,7 @@ soC
 soC
 soC
 soC
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -44709,9 +45753,9 @@ esF
 sCk
 iSo
 gch
-mkA
-qUG
-jBu
+wxE
+sHj
+pYi
 gch
 gch
 pFP
@@ -44937,9 +45981,9 @@ agg
 kev
 agg
 lLt
-pTt
-bdH
-pTt
+dMV
+eCF
+dMV
 uPu
 uPu
 uPu
@@ -44966,9 +46010,9 @@ esF
 esF
 wdF
 iSo
-gch
-gch
-gch
+mkA
+qUG
+jBu
 pFP
 oNU
 chE
@@ -44976,10 +46020,10 @@ esF
 esF
 esF
 esF
-bwg
+eXX
 vRJ
 bwg
-gjW
+waL
 waL
 pMo
 bwS
@@ -45195,7 +46239,7 @@ oQh
 coV
 lLt
 kwi
-dMV
+gjW
 eOJ
 sZY
 jBg
@@ -45222,11 +46266,11 @@ aYT
 esF
 esF
 esF
-qOH
+qwc
 oNU
-bbD
+kvE
 oNU
-fAp
+mzg
 esF
 esF
 esF
@@ -45236,7 +46280,7 @@ tMt
 tMt
 fsm
 tMt
-gjW
+waL
 waL
 waL
 lGn
@@ -45247,7 +46291,7 @@ waL
 iEb
 bQk
 jdT
-enS
+mfZ
 mfZ
 uFv
 uLh
@@ -45452,7 +46496,7 @@ sPx
 agg
 lLt
 rLj
-jOq
+buk
 mjK
 uPu
 jbX
@@ -45472,7 +46516,7 @@ lZL
 lZL
 lZL
 lZL
-uqE
+gJD
 iTZ
 uqE
 uqE
@@ -45494,13 +46538,13 @@ tMt
 fsm
 tMt
 qHM
-gjW
-gjW
-gjW
+waL
+waL
+waL
 ipI
-gjW
-gjW
-gjW
+waL
+waL
+waL
 iEb
 iEb
 yhA
@@ -45708,7 +46752,7 @@ dzj
 ccL
 agg
 lLt
-lxm
+thQ
 qsf
 xBE
 uPu
@@ -45982,7 +47026,7 @@ cKJ
 cwv
 kOk
 uqE
-vhc
+dLl
 vQa
 vzH
 uqE
@@ -46032,7 +47076,7 @@ eGx
 vwu
 nJy
 jcH
-jqv
+nij
 hcQ
 dgL
 wKy
@@ -46234,7 +47278,7 @@ fcI
 uoN
 xlL
 uPu
-cwv
+nUG
 uEC
 cVd
 bvG
@@ -46255,11 +47299,11 @@ bnP
 gzt
 gDb
 fXI
-nLK
+sIp
 hzG
 tMt
 tMt
-tMt
+cnf
 nVd
 tMt
 tMt
@@ -46271,7 +47315,7 @@ azb
 tMt
 tMt
 wJv
-tMt
+tHm
 tMt
 cjF
 len
@@ -46282,7 +47326,7 @@ len
 ueP
 len
 jkW
-len
+xVj
 len
 hcQ
 beA
@@ -46471,7 +47515,7 @@ gPu
 msM
 rKf
 dgk
-gPu
+tOr
 dLD
 dLD
 eZP
@@ -46484,14 +47528,14 @@ nCb
 qoq
 mVx
 rXs
-mVx
+gYo
 yeU
 nTG
 twx
 qeC
 lXV
 uPu
-eXP
+gNx
 cKJ
 cwv
 kOk
@@ -46512,7 +47556,7 @@ uqE
 rYx
 tMt
 azb
-tMt
+kmB
 tMt
 tMt
 ifJ
@@ -46734,7 +47778,7 @@ dLD
 wLo
 utD
 ccL
-agg
+jPm
 lLt
 oey
 kUr
@@ -46765,13 +47809,13 @@ hTI
 hTI
 hTI
 hTI
-hTI
-ifJ
-ifJ
-ifJ
-ifJ
-ifJ
-ifJ
+ktv
+ktv
+ktv
+ktv
+vEO
+ktv
+ktv
 ifJ
 peq
 peq
@@ -47019,16 +48063,16 @@ ucL
 bGP
 gcr
 qDg
-teB
-teB
-teB
-teB
-teB
-teB
-teB
-teB
-teB
-qDg
+vKq
+vKq
+vKq
+ktv
+vIy
+vCq
+nti
+cxd
+rpf
+ktv
 qDg
 qDg
 qDg
@@ -47229,7 +48273,7 @@ xRX
 xRX
 xRX
 xRX
-ehr
+wdI
 cXS
 cXS
 dLD
@@ -47276,16 +48320,16 @@ gmJ
 cqj
 rbn
 qDg
-teB
-teB
-teB
-teB
-teB
-teB
-teB
-teB
-teB
-qDg
+vKq
+vKq
+vKq
+ktv
+tVZ
+taP
+bSK
+cVu
+gJQ
+ktv
 qDg
 rtI
 vhZ
@@ -47318,7 +48362,7 @@ kYH
 kYH
 kYH
 kYH
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -47509,7 +48553,7 @@ wwi
 jrf
 wRD
 yiM
-xxE
+edD
 jrf
 jwN
 jwN
@@ -47517,7 +48561,7 @@ jwN
 jwN
 haX
 jrf
-edD
+xxE
 yiM
 krP
 cfr
@@ -47536,13 +48580,13 @@ qDg
 qDg
 qDg
 qDg
-qDg
-qDg
-qDg
-qDg
-qDg
-qDg
-qDg
+ktv
+fOE
+osC
+svU
+ktv
+ktv
+ktv
 rtI
 rtI
 kYH
@@ -47769,7 +48813,7 @@ dbv
 agg
 gXd
 agg
-agg
+egM
 sIe
 agg
 agg
@@ -47793,19 +48837,19 @@ rtI
 rtI
 rtI
 bsX
-rtI
-rtI
-rtI
-rtI
-rtI
-rtI
-rtI
+xWs
+xmE
+xmE
+mfu
+xWs
+xWs
+xWs
 rtI
 kYH
 kYH
 xRX
 xRX
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -47822,7 +48866,7 @@ xRX
 xRX
 xRX
 xRX
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -48050,15 +49094,15 @@ kYH
 kYH
 kYH
 kYH
-kYH
-kYH
-kYH
-kYH
-kYH
-kYH
-kYH
-kYH
-kYH
+xWs
+qyn
+mud
+xNL
+tVb
+xRX
+xRX
+xRX
+xRX
 xRX
 xRX
 xRX
@@ -48279,7 +49323,7 @@ cYK
 mrg
 eTH
 trH
-huG
+eRo
 trH
 trH
 trH
@@ -48291,7 +49335,7 @@ trH
 trH
 trH
 fKj
-fKj
+dyy
 fKj
 fKj
 bHq
@@ -48306,12 +49350,12 @@ kYH
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+kYH
+xWs
+rTk
+qYL
+qYL
+osC
 xRX
 xRX
 xRX
@@ -48563,12 +49607,12 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+kYH
+kYH
+rTk
+cvz
+cvz
+hHF
 xRX
 xRX
 xRX
@@ -48790,7 +49834,7 @@ vfp
 eTH
 jQs
 gsW
-eCF
+bbD
 eTH
 xRX
 xRX
@@ -48800,7 +49844,7 @@ xRX
 xRX
 xRX
 xRX
-ehr
+wdI
 xRX
 xRX
 xRX
@@ -48821,11 +49865,11 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
-xRX
+kYH
+rTk
+puX
+xWs
+xWs
 xRX
 xRX
 xRX
@@ -49078,10 +50122,10 @@ xRX
 xRX
 xRX
 xRX
-xRX
-xRX
-xRX
-xRX
+kYH
+enS
+kYH
+kYH
 xRX
 xRX
 xRX

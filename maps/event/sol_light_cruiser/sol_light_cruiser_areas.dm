@@ -53,7 +53,7 @@
 	ambience = AMBIENCE_HIGHSEC
 	icon_state = "security"
 
-/area/light_cruiser/armoury
+/area/light_cruiser/medical
 	name = "Port - Medical"
 	icon_state = "medbay"
 	ambience = list('sound/ambience/signal.ogg')
@@ -168,6 +168,6 @@
 	name = "Starboard - Grauwolf"
 	icon_state = "unknown"
 
-/area/light_cruiser/starboard_francisca
-	name = "Port - Francisca"
+/area/light_cruiser/port_abandoned_grauwolf
+	name = "Port - Abandoned Grauwolf"
 	icon_state = "unknown"
