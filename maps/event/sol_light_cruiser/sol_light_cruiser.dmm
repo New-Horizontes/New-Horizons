@@ -723,7 +723,7 @@
 /obj/structure/bed/handrail,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	frequency = 1380;
-	id_tag = "cruiser_starboard_pump"
+	id_tag = "cruiser_port_sensor"
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_aft_hall)
@@ -1752,9 +1752,14 @@
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
 "cTX" = (
-/obj/structure/stairs/north,
-/turf/simulated/floor/tiled,
-/area/light_cruiser/lifts_and_stairs)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_thrusters)
 "cVc" = (
 /obj/structure/table/rack,
 /obj/machinery/door/window/westleft{
@@ -1993,13 +1998,13 @@
 /area/light_cruiser/starboard_engineering)
 "dkt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/visible/purple,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold4w/visible/purple,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_thrusters)
 "doc" = (
@@ -3918,7 +3923,8 @@
 	icon = 'icons/mecha/mech_construction.dmi';
 	icon_state = "hermes7";
 	name = "destroyed mech";
-	pixel_y = 3
+	pixel_y = 3;
+	anchored = 0
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/port_abandoned_grauwolf)
@@ -4052,6 +4058,9 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/purple{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_thrusters)
@@ -4670,6 +4679,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/light_cruiser/lifts_and_stairs)
+"imh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/purple{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/light_cruiser/port_thrusters)
 "imQ" = (
 /obj/structure/extinguisher_cabinet{
 	layer = 3.3;
@@ -4963,11 +4981,15 @@
 /turf/simulated/floor/plating,
 /area/light_cruiser/starboard_aft_hall)
 "iRD" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/purple{
-	dir = 8
+/obj/effect/decal/fake_object{
+	name = "stairs";
+	desc = "Stairs leading to another floor. Not too useful if the gravity goes out.";
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "solid";
+	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
-/area/light_cruiser/starboard_thrusters)
+/turf/simulated/floor/tiled,
+/area/light_cruiser/lifts_and_stairs)
 "iSo" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 4
@@ -5038,7 +5060,7 @@
 "iZH" = (
 /obj/machinery/door/airlock/glass{
 	name = "Lifts & Stairs";
-	req_access = list(203)
+	req_one_access = list(203)
 	},
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -5571,7 +5593,6 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
 "jSm" = (
-/obj/machinery/atmospherics/pipe/simple/visible/purple,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -5579,6 +5600,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/manifold4w/visible/purple,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
 "jUy" = (
@@ -6791,9 +6813,7 @@
 /turf/simulated/floor/plating,
 /area/light_cruiser/port_abandoned_grauwolf)
 "muQ" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/purple{
-	dir = 8
-	},
+/obj/machinery/atmospherics/pipe/simple/visible/purple,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_thrusters)
 "mxr" = (
@@ -6976,6 +6996,9 @@
 	dir = 4
 	},
 /obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/visible/purple{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
 "mMH" = (
@@ -8153,11 +8176,14 @@
 /turf/simulated/floor,
 /area/light_cruiser/starboard_maintenance_exit)
 "pfZ" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/purple{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
-/area/light_cruiser/port_thrusters)
+/area/light_cruiser/starboard_thrusters)
 "pgu" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -8194,6 +8220,9 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/visible/purple{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
 "pkj" = (
@@ -9204,7 +9233,7 @@
 "rjK" = (
 /obj/machinery/door/airlock/glass{
 	name = "Lifts & Stairs";
-	req_access = list(203)
+	req_one_access = list(203)
 	},
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -9317,15 +9346,15 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun)
 "rpS" = (
-/obj/machinery/door/airlock/glass{
-	name = "Medical";
-	req_access = list(203)
-	},
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/glass{
+	name = "Lifts & Stairs";
+	req_one_access = list(203)
+	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
 "rqZ" = (
@@ -9418,7 +9447,7 @@
 "rCh" = (
 /obj/machinery/door/airlock/glass{
 	name = "Lifts & Stairs";
-	req_access = list(203)
+	req_one_access = list(203)
 	},
 /obj/machinery/door/firedoor{
 	req_one_access = list(203)
@@ -9576,9 +9605,7 @@
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/port_abandoned_grauwolf)
 "rVy" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/purple{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/simple/visible/purple,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
 "rVZ" = (
@@ -9696,7 +9723,12 @@
 /turf/space/dynamic,
 /area/light_cruiser/starboard_engineering)
 "sgP" = (
-/obj/structure/stairs/south,
+/obj/effect/decal/fake_object{
+	name = "stairs";
+	desc = "Stairs leading to another floor. Not too useful if the gravity goes out.";
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "solid"
+	},
 /turf/simulated/floor/tiled,
 /area/light_cruiser/lifts_and_stairs)
 "shV" = (
@@ -12145,7 +12177,7 @@
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_grauwolf)
 "xdz" = (
-/obj/machinery/atmospherics/pipe/manifold4w/visible/purple,
+/obj/machinery/atmospherics/pipe/simple/visible/purple,
 /obj/machinery/meter,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/port_thrusters)
@@ -12487,7 +12519,8 @@
 	name = "damaged console";
 	desc = "A broken down console. It's riddled with massive holes and scorch marks.";
 	icon_state = "computer";
-	icon = 'icons/obj/modular_console.dmi'
+	icon = 'icons/obj/modular_console.dmi';
+	density = 1
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/port_abandoned_grauwolf)
@@ -12523,7 +12556,7 @@
 /turf/simulated/floor/tiled,
 /area/light_cruiser/port_engineering)
 "xTB" = (
-/obj/machinery/atmospherics/pipe/manifold4w/visible/purple,
+/obj/machinery/atmospherics/pipe/simple/visible/purple,
 /obj/machinery/meter,
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/starboard_thrusters)
@@ -41873,9 +41906,9 @@ xRX
 xRX
 hjW
 ayB
-iRD
-kIx
-qHR
+rVy
+bBC
+pfZ
 mMy
 lcV
 uZR
@@ -42388,8 +42421,8 @@ xRX
 hjW
 ayB
 rVy
-kIx
-qHR
+bBC
+pfZ
 pid
 lcV
 lzl
@@ -43432,8 +43465,8 @@ cTD
 mdc
 rnA
 oAP
-cTX
 gpq
+iRD
 gpq
 lLe
 gpq
@@ -43689,8 +43722,8 @@ oAP
 mEc
 oAP
 oAP
-cTX
 gpq
+iRD
 gpq
 bfS
 chr
@@ -46500,8 +46533,8 @@ xRX
 qyx
 dAA
 muQ
-fdD
-rBz
+sCq
+cTX
 gYw
 ovK
 hgG
@@ -47013,10 +47046,10 @@ xRX
 xRX
 qyx
 dAA
-pfZ
-fdD
-rBz
-dGZ
+muQ
+sCq
+cTX
+imh
 ovK
 euh
 wtL

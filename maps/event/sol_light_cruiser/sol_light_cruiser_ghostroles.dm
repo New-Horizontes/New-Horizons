@@ -29,18 +29,18 @@
 	accessory = /obj/item/clothing/accessory/holster/thigh
 	accessory_contents = list(/obj/item/gun/projectile/pistol/sol = 1)
 
-	id = /obj/item/card/id/sfa_ship
+	id = /obj/item/card/id/sfa_ship_cruiser
 
 	l_ear = /obj/item/device/radio/headset/ship
 
 	backpack_contents = list(/obj/item/storage/box/survival = 1, /obj/item/melee/energy/sword/knife/sol = 1, /obj/item/ammo_magazine/mc9mm = 2,)
 
-/datum/outfit/admin/sfa_navy_crewman/get_id_access()
+/datum/outfit/admin/sfa_navy_cruiser_crewman/get_id_access()
 	return list(access_sol_ships, access_external_airlocks)
 
 /datum/ghostspawner/human/sfa_navy_ensign
 	short_name = "sfa_navy_ensign"
-	name = "SFA Navy Officer"
+	name = "SFA Navy Ensign"
 	desc = "Assist your superior officers in the Southern Fleet Administration light cruiser."
 	tags = list("External")
 	mob_name_prefix = "ENS. "
@@ -68,13 +68,14 @@
 	accessory = /obj/item/clothing/accessory/holster/thigh
 	accessory_contents = list(/obj/item/gun/projectile/pistol/sol = 1)
 
-	id = /obj/item/card/id/sfa_ship
+	id = /obj/item/card/id/sfa_ship_cruiser
 
 	l_ear = /obj/item/device/radio/headset/ship
 
 	backpack_contents = list(/obj/item/storage/box/survival = 1, /obj/item/melee/energy/sword/knife/sol = 1, /obj/item/ammo_magazine/mc9mm = 2)
 
-/datum/outfit/admin/sfa_navy_officer/get_id_access()
+
+/datum/outfit/admin/sfa_navy_ensign/get_id_access()
 	return list(access_sol_ships, access_external_airlocks)
 
 /datum/ghostspawner/human/sfa_cruiser_marine
@@ -105,13 +106,13 @@
 	gloves = /obj/item/clothing/gloves/swat/ert
 	back = /obj/item/storage/backpack/satchel
 	belt = /obj/item/storage/belt/military
-	head = /obj/item/clothing/head/helmet/space/void/sol/fsf
-	suit = /obj/item/clothing/suit/space/void/sol/fsf
+	head = /obj/item/clothing/head/helmet/space/void/sol/sfa
+	suit = /obj/item/clothing/suit/space/void/sol/sfa
 	suit_store = /obj/item/gun/projectile/automatic/rifle/sol
 	accessory = /obj/item/clothing/accessory/holster/thigh
 	accessory_contents = list(/obj/item/gun/projectile/pistol/sol = 1)
 
-	id = /obj/item/card/id/sfa_ship
+	id = /obj/item/card/id/sfa_ship_cruiser
 
 	l_ear = /obj/item/device/radio/headset/ship
 
@@ -124,11 +125,11 @@
 		/obj/item/grenade/frag = 1
     )
 
-/datum/outfit/admin/sfa_marine/get_id_access()
+/datum/outfit/admin/sfa_cruiser_marine/get_id_access()
 	return list(access_sol_ships, access_external_airlocks)
 
-//items
+//id
 
-/obj/item/card/id/sfa_ship
-	name = "sfa patrol ship id"
+/obj/item/card/id/sfa_ship_cruiser
+	name = "sfa ship id"
 	access = list(access_sol_ships, access_external_airlocks)
