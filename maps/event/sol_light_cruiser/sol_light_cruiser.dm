@@ -54,31 +54,31 @@
 	..()
 
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav1
-	name = "SFA Light Cruiser Gunnery Deck - Aft Thrusters Exterior"
+	name = "SFA Cruiser - Aft Thrusters Exterior"
 	landmark_tag = "nav_sfa_light_cruiser_1"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav2
-	name = "SFA Light Cruiser Gunnery Deck - Starboard Engineering Exterior"
+	name = "SFA Cruiser - Starboard Engineering Exterior"
 	landmark_tag = "nav_sfa_light_cruiser_2"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav3
-	name = "SFA Light Cruiser Gunnery Deck - Port Engineering Exterior"
+	name = "SFA Cruiser - Port Engineering Exterior"
 	landmark_tag = "nav_sfa_light_cruiser_3"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav4
-	name = "SFA Light Cruiser Gunnery Deck - Starboard Aft Hallway Exterior"
+	name = "SFA Cruiser - Starboard Aft Hallway Exterior"
 	landmark_tag = "nav_sfa_light_cruiser_4"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/sfa_light_cruiser/nav5
-	name = "SFA Light Cruiser Gunnery Deck - Port Intrepid Docking"
+	name = "SFA Cruiser - Port Intrepid Docking"
 	landmark_tag = "nav_sfa_light_cruiser_5"
 	base_turf = /turf/space/dynamic
 	base_area = /area/space

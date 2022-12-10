@@ -464,9 +464,14 @@
 /turf/simulated/floor/tiled/dark,
 /area/light_cruiser/central_hall)
 "aJl" = (
-/obj/structure/inflatable,
-/turf/simulated/floor/plating,
-/area/light_cruiser/port_abandoned_grauwolf)
+/obj/structure/ship_weapon_dummy,
+/obj/machinery/ship_weapon/grauwolf{
+	pixel_y = -192;
+	weapon_id = "Starboard_Grauwolf";
+	pixel_x = -32
+	},
+/turf/simulated/floor/reinforced,
+/area/light_cruiser/starboard_grauwolf)
 "aKZ" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1
@@ -1688,6 +1693,12 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/light_cruiser/starboard_coilgun_ammo_2)
+"cMI" = (
+/obj/structure/sign/deathsposal{
+	pixel_y = 32
+	},
+/turf/template_noop,
+/area/space)
 "cND" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -3309,15 +3320,6 @@
 "fxG" = (
 /turf/simulated/wall/shuttle/raider,
 /area/light_cruiser/armoury)
-"fzi" = (
-/obj/structure/ship_weapon_dummy,
-/obj/machinery/ship_weapon/grauwolf{
-	pixel_y = -192;
-	weapon_id = "Starboard_Grauwolf";
-	pixel_x = -32
-	},
-/turf/simulated/floor/reinforced,
-/area/light_cruiser/starboard_grauwolf)
 "fzq" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/dark,
@@ -9528,6 +9530,10 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/light_cruiser/starboard_grauwolf)
+"rNX" = (
+/obj/structure/inflatable,
+/turf/simulated/floor/plating,
+/area/light_cruiser/port_abandoned_grauwolf)
 "rQA" = (
 /obj/structure/table/standard,
 /obj/item/cell/super,
@@ -11603,6 +11609,10 @@
 	req_access = list(113);
 	req_one_access = null;
 	pixel_x = -6
+	},
+/obj/item/clothing/head/helmet/pilot{
+	pixel_x = -4;
+	pixel_y = 8
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/light_cruiser/cic)
@@ -39347,7 +39357,7 @@ xRX
 kYH
 uRU
 pKX
-fzi
+aJl
 jrc
 jrc
 dBY
@@ -41187,7 +41197,7 @@ ejq
 ayj
 cCt
 fri
-xRX
+cMI
 xRX
 xRX
 xRX
@@ -47869,7 +47879,7 @@ hcQ
 soC
 jwW
 iOg
-xRX
+cMI
 xRX
 xRX
 xRX
@@ -49370,8 +49380,8 @@ xRX
 kYH
 xWs
 rTk
-aJl
-aJl
+rNX
+rNX
 osC
 xRX
 xRX
