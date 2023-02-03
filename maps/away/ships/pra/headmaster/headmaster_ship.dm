@@ -7,6 +7,7 @@
 	spawn_weight = 1
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/headmaster_shuttle)
 	sectors = list(SECTOR_BADLANDS, SECTOR_SRANDMARR, SECTOR_NRRAHRAHUL)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /singleton/submap_archetype/headmaster_ship
 	map = "Headmaster Ship"
@@ -33,10 +34,7 @@
 	)
 
 /obj/effect/overmap/visitable/ship/headmaster_ship/New()
-	if (prob(50))
-		designation = "Hadii"
-	else
-		designation = "[pick("Al'mari Hadii", "Adhomai's Shield", "Loyal Comrade", "People's Guardian", "Visionary", "Great Future", "Fearless Pioneer", "Adhomian Dream")]"
+	designation = "Adhomian Star"
 	..()
 
 /obj/effect/shuttle_landmark/headmaster_ship

@@ -3214,6 +3214,7 @@
 #include "maps\away\away_site\unathi_pirate\unathi_pirate_izharshan.dm"
 #include "maps\away\away_site\unathi_pirate\unathi_pirate_izharshan_ghostroles.dm"
 #include "maps\away\away_site\wrecked_nt_ship\wrecked_nt_ship.dm"
+#include "maps\away\ships\deathbox.dm"
 #include "maps\away\ships\casino\casino.dm"
 #include "maps\away\ships\casino\casino_areas.dm"
 #include "maps\away\ships\coc_ranger\coc_ship.dm"
