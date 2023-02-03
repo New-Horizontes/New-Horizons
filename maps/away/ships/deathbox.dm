@@ -8,7 +8,7 @@
 	id = "deathbox"
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
-/decl/submap_archetype/deathbox
+/singleton/submap_archetype/deathbox
 	map = "Unmarked Ship"
 	descriptor = "An unmarked ship."
 
