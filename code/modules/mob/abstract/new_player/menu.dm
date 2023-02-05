@@ -85,6 +85,7 @@
 	. = ..()
 
 /obj/screen/new_player/title/proc/Update()
+	return
 	if(!istype(hud) || !isnewplayer(hud.mymob))
 		return
 	lobby_index += 1
@@ -104,13 +105,11 @@
 	..()
 
 /obj/screen/new_player/selection/MouseEntered(location, control, params)
-	var/matrix/M = matrix()
-	M.Scale(1.1, 1)
-	animate(src, color = color_rotation(30), transform = M, time = 3, easing = CUBIC_EASING)
+	add_overlay("menu_arrow")
 	return ..()
 
 /obj/screen/new_player/selection/MouseExited(location,control,params)
-	animate(src, color = null, transform = null, time = 3, easing = CUBIC_EASING)
+	cut_overlays()
 	return ..()
 
 /obj/screen/new_player/selection/join_game
