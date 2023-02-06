@@ -1,0 +1,43 @@
+/datum/map/event/adhomai
+	name = "Adhomai"
+	full_name = "Adhomai"
+	path = "event/adhomai"
+	lobby_icons = list('icons/misc/titlescreens/aurora/tajara.dmi')
+	lobby_transitions = FALSE
+
+	allowed_jobs = list(/datum/job/visitor)
+
+	station_levels = list(2)
+	admin_levels = list(1)
+	contact_levels = list(2)
+	player_levels = list(2)
+	accessible_z_levels = list(2)
+
+	station_name = "Adhomai"
+	station_short = "Adhomai"
+	dock_name = "People's Space Station"
+	boss_name = "Stellar Corporate Conglomerate"
+	boss_short = "SCC"
+	company_name = "Stellar Corporate Conglomerate"
+	company_short = "SCC"
+	station_type = "planet"
+
+	use_overmap = FALSE
+
+	base_turf_by_z = list(
+		"1" = /turf/space,
+		"2" = /turf/simulated/floor/exoplanet/mineral/adhomai
+	)
+
+	station_name = "SCCV Horizon"
+	station_short = "Horizon"
+	dock_name = "SCC Sector Liaison Post"
+	dock_short = "Sector Liaison Post"
+	boss_name = "Stellar Corporate Conglomerate"
+	boss_short = "SCC"
+	company_name = "Stellar Corporate Conglomerate"
+	company_short = "SCC"
+	station_type = "ship"
+
+	command_spawn_enabled = TRUE
+	command_spawn_message = "Welcome to Adhomai!"
