@@ -253,6 +253,15 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"bzg" = (
+/obj/effect/floor_decal/concrete/large{
+	dir = 4
+	},
+/obj/machinery/light/built,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
 "bBx" = (
 /obj/machinery/door/blast/shutters/open{
 	id = "palace_lockdown";
@@ -284,6 +293,17 @@
 	},
 /turf/simulated/floor/reinforced{
 	temperature = 268.15
+	},
+/area/palace_free)
+"bMr" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/machinery/light/built{
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
 	},
 /area/palace_free)
 "bON" = (
@@ -384,6 +404,7 @@
 /obj/effect/floor_decal/corner_wide/white/full{
 	dir = 4
 	},
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -724,6 +745,13 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"dKh" = (
+/obj/structure/cryofeed,
+/obj/machinery/light/built{
+	dir = 8
+	},
+/turf/simulated/floor/bluegrid,
+/area/palace_free)
 "dLH" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/machinery/porta_turret/ballistic,
@@ -739,6 +767,14 @@
 	},
 /turf/unsimulated/floor{
 	icon_state = "new_white"
+	},
+/area/palace_free)
+"dTW" = (
+/obj/machinery/light/built{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
 	},
 /area/palace_free)
 "dUV" = (
@@ -858,6 +894,17 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"eAL" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/machinery/light/built{
+	dir = 4
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
 "eBZ" = (
 /obj/effect/floor_decal/corner_wide/black/full{
 	dir = 6
@@ -868,6 +915,7 @@
 /obj/effect/floor_decal/corner_wide/white/full{
 	dir = 1
 	},
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -982,6 +1030,13 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/palace_free)
+"fbE" = (
+/obj/effect/floor_decal/concrete/large,
+/obj/machinery/light/built,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -1583,6 +1638,7 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/corner_wide/white/full,
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -1652,6 +1708,14 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"iph" = (
+/obj/machinery/light/built{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
 "iAy" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -1660,6 +1724,15 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
+"iJM" = (
+/obj/effect/floor_decal/corner_wide/red/full{
+	dir = 6
+	},
+/obj/effect/decal/fake_object/light_source,
+/turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -1779,6 +1852,13 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"jiJ" = (
+/obj/effect/floor_decal/concrete/large,
+/obj/machinery/light/built,
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
 "jiL" = (
 /obj/effect/floor_decal/plaque{
 	name = "Schlorrgo";
@@ -1835,6 +1915,17 @@
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /turf/unsimulated/floor{
 	icon_state = "new_white"
+	},
+/area/palace_free)
+"jvf" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/machinery/light/built{
+	dir = 8
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
 	},
 /area/palace_free)
 "jvP" = (
@@ -1941,6 +2032,15 @@
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
+/area/palace_free)
+"kgb" = (
+/obj/structure/cryofeed{
+	dir = 4
+	},
+/obj/machinery/light/built{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
 /area/palace_free)
 "khO" = (
 /obj/structure/closet/wardrobe,
@@ -2537,6 +2637,7 @@
 /obj/effect/floor_decal/corner_wide/white/full{
 	dir = 8
 	},
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -2925,6 +3026,9 @@
 /obj/structure/bed/stool/chair/sofa/red{
 	dir = 4
 	},
+/obj/machinery/light/small/built{
+	dir = 8
+	},
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
 	},
@@ -3225,6 +3329,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -3323,6 +3428,12 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/carpet/art{
+	temperature = 278.15
+	},
+/area/palace_free)
+"qph" = (
+/obj/machinery/light/built,
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -3641,6 +3752,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -3982,6 +4094,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4135,6 +4248,7 @@
 	dir = 8
 	},
 /obj/structure/railing/mapped,
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4377,6 +4491,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4453,6 +4568,15 @@
 "vqr" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
+"vri" = (
+/obj/effect/floor_decal/concrete/large{
+	dir = 4
+	},
+/obj/machinery/light/built,
+/turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -4877,6 +5001,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
+/obj/effect/decal/fake_object/light_source,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4892,6 +5017,12 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/palace_free)
+"xkd" = (
+/obj/machinery/light/built,
+/turf/simulated/floor/exoplanet/snow{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -15665,51 +15796,51 @@ omN
 omN
 cmQ
 dUV
+jvf
 uNr
 uNr
 uNr
 uNr
+jvf
 uNr
 uNr
 uNr
 uNr
+jvf
 uNr
 uNr
 uNr
 uNr
+jvf
 uNr
 uNr
 uNr
 uNr
+jvf
 uNr
 uNr
 uNr
 uNr
+jvf
 uNr
 uNr
 uNr
 uNr
+jvf
 uNr
 uNr
 uNr
 uNr
+jvf
 uNr
 uNr
 uNr
 uNr
+jvf
 uNr
 uNr
 uNr
-uNr
-uNr
-uNr
-uNr
-uNr
-uNr
-uNr
-uNr
-uNr
-uNr
+jvf
 ijs
 cmQ
 cmQ
@@ -15921,9 +16052,10 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 cua
+eAL
 wbs
 wbs
 wbs
@@ -15947,8 +16079,7 @@ wbs
 wbs
 wbs
 wbs
-wbs
-wbs
+eAL
 kIT
 omN
 omN
@@ -16180,7 +16311,7 @@ omN
 cmQ
 xUg
 omN
-oSt
+oxc
 cmQ
 tTp
 tTp
@@ -16206,7 +16337,7 @@ tTp
 tTp
 tTp
 cmQ
-xUg
+bMr
 omN
 omN
 omN
@@ -16224,7 +16355,7 @@ omN
 omN
 omN
 omN
-oSt
+oxc
 cmQ
 nOY
 bjF
@@ -16723,18 +16854,18 @@ fIv
 xUg
 omN
 omN
+ayh
+omN
+omN
+omN
+omN
+ayh
 omN
 omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+ayh
 omN
 omN
 cua
@@ -16949,7 +17080,7 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 oSt
 fIv
@@ -16979,22 +17110,22 @@ rfj
 fIv
 xUg
 omN
+tjy
+cmQ
+eCC
+omN
+omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
+tjy
+cmQ
+eCC
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-oSt
+oxc
 cmQ
 cmQ
 cmQ
@@ -17236,20 +17367,20 @@ rfj
 fIv
 xUg
 omN
+tjy
+cmQ
+eCC
+omN
+omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+tjy
+cmQ
+eCC
 omN
 oSt
 cmQ
@@ -17494,18 +17625,18 @@ fIv
 xUg
 omN
 omN
+pBR
+omN
+omN
+omN
+omN
+pBR
 omN
 omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+pBR
 omN
 omN
 oSt
@@ -18234,7 +18365,7 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 oSt
 fIv
@@ -18260,9 +18391,9 @@ rfj
 rfj
 rfj
 rfj
-rfj
+xkd
 cmQ
-aAs
+uEB
 wbs
 wbs
 wbs
@@ -18279,7 +18410,7 @@ omN
 omN
 omN
 omN
-oSt
+oxc
 cmQ
 yjQ
 wol
@@ -18527,13 +18658,13 @@ xUg
 omN
 omN
 omN
+ayh
 omN
 omN
 omN
 omN
 omN
-omN
-omN
+ayh
 omN
 omN
 oSt
@@ -18783,15 +18914,15 @@ aoa
 xUg
 omN
 omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
+tjy
+cmQ
+eCC
 omN
 oSt
 cmQ
@@ -19031,24 +19162,24 @@ rfj
 rfj
 rfj
 rfj
-rfj
+xkd
 cmQ
-dUV
+mPv
 ijs
 eCQ
 aoa
 xUg
 omN
 omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
+tjy
+cmQ
+eCC
 omN
 oSt
 cmQ
@@ -19298,16 +19429,16 @@ xUg
 omN
 omN
 omN
+pBR
 omN
 omN
 omN
 omN
 omN
+pBR
 omN
 omN
-omN
-omN
-oSt
+oxc
 cmQ
 trc
 wol
@@ -19519,7 +19650,7 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 oSt
 fIv
@@ -20335,7 +20466,7 @@ wbs
 wbs
 wbs
 hjd
-cqa
+vri
 cmQ
 xyI
 wol
@@ -20804,7 +20935,7 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 oSt
 fIv
@@ -21363,7 +21494,7 @@ uNr
 uNr
 uNr
 hjd
-ijs
+jiJ
 cmQ
 rBm
 wol
@@ -22089,7 +22220,7 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 oSt
 fIv
@@ -22382,13 +22513,13 @@ xUg
 omN
 omN
 omN
+ayh
 omN
 omN
 omN
 omN
 omN
-omN
-omN
+ayh
 omN
 omN
 oSt
@@ -22629,26 +22760,26 @@ rfj
 rfj
 rfj
 rfj
-rfj
+xkd
 cmQ
-aAs
+uEB
 cqa
 eCQ
 aoa
 xUg
 omN
 omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
+tjy
+cmQ
+eCC
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-oSt
+oxc
 cmQ
 rBm
 wol
@@ -22895,15 +23026,15 @@ aoa
 xUg
 omN
 omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
+tjy
+cmQ
+eCC
 omN
 oSt
 cmQ
@@ -23153,13 +23284,13 @@ xUg
 omN
 omN
 omN
+pBR
 omN
 omN
 omN
 omN
 omN
-omN
-omN
+pBR
 omN
 omN
 oSt
@@ -23374,7 +23505,7 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 oSt
 fIv
@@ -23400,9 +23531,9 @@ rfj
 rfj
 rfj
 rfj
-rfj
+xkd
 cmQ
-dUV
+mPv
 uNr
 uNr
 uNr
@@ -23676,7 +23807,7 @@ omN
 omN
 omN
 omN
-oSt
+oxc
 cmQ
 trc
 wol
@@ -24176,18 +24307,18 @@ fIv
 xUg
 omN
 omN
+ayh
+omN
+omN
+omN
+omN
+ayh
 omN
 omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+ayh
 omN
 omN
 oSt
@@ -24432,20 +24563,20 @@ rfj
 fIv
 xUg
 omN
+tjy
+cmQ
+eCC
+omN
+omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+tjy
+cmQ
+eCC
 omN
 oSt
 cmQ
@@ -24659,7 +24790,7 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 oSt
 fIv
@@ -24689,22 +24820,22 @@ rfj
 fIv
 xUg
 omN
+tjy
+cmQ
+eCC
+omN
+omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
+tjy
+cmQ
+eCC
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-oSt
+oxc
 cmQ
 yjQ
 wol
@@ -24947,18 +25078,18 @@ fIv
 xUg
 omN
 omN
+pBR
+omN
+omN
+omN
+omN
+pBR
 omN
 omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+pBR
 omN
 omN
 oSt
@@ -25732,7 +25863,7 @@ omN
 omN
 omN
 omN
-oSt
+oxc
 cmQ
 opq
 wol
@@ -25944,7 +26075,7 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
 oSt
 fIv
@@ -25975,18 +26106,18 @@ fIv
 xUg
 omN
 omN
+ayh
+omN
+omN
+omN
+omN
+ayh
 omN
 omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+ayh
 omN
 omN
 oSt
@@ -26231,20 +26362,20 @@ rfj
 fIv
 xUg
 omN
+tjy
+cmQ
+eCC
+omN
+omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+tjy
+cmQ
+eCC
 omN
 oSt
 cmQ
@@ -26488,20 +26619,20 @@ rfj
 fIv
 xUg
 omN
+tjy
+cmQ
+eCC
+omN
+omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+tjy
+cmQ
+eCC
 omN
 oSt
 cmQ
@@ -26746,21 +26877,21 @@ fIv
 xUg
 omN
 omN
+pBR
+omN
+omN
+omN
+omN
+pBR
 omN
 omN
 omN
 omN
 omN
+pBR
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-oSt
+oxc
 cmQ
 omN
 omN
@@ -27229,9 +27360,9 @@ omN
 omN
 omN
 cmQ
-xUg
+bMr
 omN
-oSt
+oxc
 cmQ
 fIv
 fIv
@@ -27257,7 +27388,7 @@ fIv
 fIv
 fIv
 cmQ
-xUg
+bMr
 omN
 omN
 omN
@@ -27489,6 +27620,7 @@ cmQ
 xUg
 omN
 sKR
+jvf
 uNr
 uNr
 uNr
@@ -27512,8 +27644,7 @@ uNr
 uNr
 uNr
 uNr
-uNr
-uNr
+jvf
 gBo
 omN
 omN
@@ -27744,51 +27875,51 @@ omN
 omN
 cmQ
 aAs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
+eAL
 wbs
 wbs
 wbs
-wbs
-wbs
-wbs
-wbs
-wbs
-wbs
-wbs
-wbs
-wbs
-wbs
-wbs
-cqa
+vri
 cmQ
 omN
 omN
@@ -32657,22 +32788,22 @@ omN
 cmQ
 mFr
 mFr
+dKh
+mFr
+mFr
+dKh
+mFr
+mFr
+dKh
 mFr
 mFr
 mFr
 mFr
+dKh
 mFr
 mFr
 mFr
-mFr
-mFr
-mFr
-mFr
-mFr
-mFr
-mFr
-mFr
-mFr
+dKh
 mFr
 nLy
 cmQ
@@ -33169,7 +33300,7 @@ omN
 omN
 omN
 cmQ
-sIV
+dTW
 sIV
 sIV
 sIV
@@ -33445,7 +33576,7 @@ sIV
 sIV
 sIV
 sIV
-sIV
+qph
 cmQ
 omN
 omN
@@ -33685,21 +33816,21 @@ omN
 cmQ
 ejk
 ejk
+kgb
+ejk
+ejk
+kgb
+ejk
+ejk
+kgb
 ejk
 ejk
 ejk
 ejk
-ejk
-ejk
-ejk
-ejk
-ejk
-ejk
-ejk
-ejk
+kgb
 xNv
 sIV
-sIV
+iph
 sIV
 sIV
 sIV
@@ -33959,7 +34090,7 @@ cmQ
 cmQ
 sIV
 sIV
-sIV
+qph
 cmQ
 omN
 omN
@@ -35758,7 +35889,7 @@ gaV
 oMk
 xtV
 ave
-ave
+iJM
 ave
 ave
 ave
@@ -35767,7 +35898,7 @@ wue
 ave
 ave
 ave
-ave
+iJM
 ave
 dYO
 gaV
@@ -37548,10 +37679,10 @@ ltj
 cmQ
 ecn
 iKZ
+kWA
 iKZ
 iKZ
-iKZ
-aXH
+fbE
 cmQ
 veH
 oMk
@@ -38062,16 +38193,16 @@ gVG
 cmQ
 agF
 iOW
+iAy
 iOW
 iOW
-iOW
-maq
+bzg
 cmQ
 gaV
 oMk
 xtV
 ave
-ave
+iJM
 ave
 ave
 ave
@@ -38080,7 +38211,7 @@ wue
 ave
 ave
 ave
-ave
+iJM
 ave
 dYO
 gaV
