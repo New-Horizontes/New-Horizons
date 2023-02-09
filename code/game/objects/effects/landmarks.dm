@@ -79,6 +79,14 @@
 			virtual_reality_spawn += loc
 			delete_me = 1
 			return
+		if("pra_vr")
+			pra_vr += loc
+			delete_me = 1
+			return
+		if("dpra_vr")
+			dpra_vr += loc
+			delete_me = 1
+			return
 
 	landmarks_list += src
 

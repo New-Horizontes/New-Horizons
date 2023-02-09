@@ -53,6 +53,8 @@ var/list/latejoin_merchant     = list()
 var/list/latejoin_living_quarters_lift     = list()
 var/list/kickoffsloc           = list()
 var/list/virtual_reality_spawn = list()
+var/list/pra_vr = list()
+var/list/dpra_vr = list()
 
 var/list/asteroid_spawn     = list() // Asteroid "Dungeons" spawn at these.
 var/list/tdome1             = list()

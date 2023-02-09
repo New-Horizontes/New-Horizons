@@ -272,3 +272,19 @@
 
 		mind_transfer(user, H)
 		to_chat(H, SPAN_NOTICE("You are now in control of a virtual reality body. Dying will return you to your original body."))
+
+/datum/controller/subsystem/virtualreality/proc/create_virtual_reality_avatar_pra(var/mob/living/carbon/human/user)
+	if(virtual_reality_spawn.len)
+		var/mob/living/carbon/human/virtual_reality/H = new /mob/living/carbon/human/virtual_reality(pick(pra_vr))
+
+		if(pro(50))
+		H.set_species(user.species.name, 1)
+
+		H.gender = user.gender
+		H.dna = user.dna.Clone()
+		H.real_name = user.real_name
+		H.UpdateAppearance()
+
+		H.preEquipOutfit(/datum/outfit/admin/virtual_reality, FALSE)
+		mind_transfer(user, H)
+		to_chat(H, SPAN_NOTICE("You are now in control of a virtual reality body. Dying will return you to your original body."))
