@@ -5,7 +5,7 @@
 	lobby_icons = list('icons/misc/titlescreens/aurora/tajara.dmi')
 	lobby_transitions = FALSE
 
-	allowed_jobs = list(/datum/job/visitor)
+//	allowed_jobs = list(/datum/job/visitor)
 
 	station_levels = list(2)
 	admin_levels = list(1)
@@ -29,15 +29,4 @@
 		"2" = /turf/simulated/floor/exoplanet/mineral/adhomai
 	)
 
-	station_name = "SCCV Horizon"
-	station_short = "Horizon"
-	dock_name = "SCC Sector Liaison Post"
-	dock_short = "Sector Liaison Post"
-	boss_name = "Stellar Corporate Conglomerate"
-	boss_short = "SCC"
-	company_name = "Stellar Corporate Conglomerate"
-	company_short = "SCC"
-	station_type = "ship"
-
-	command_spawn_enabled = TRUE
-	command_spawn_message = "Welcome to Adhomai!"
+	force_spawnpoint = TRUE

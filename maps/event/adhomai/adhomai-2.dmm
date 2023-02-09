@@ -386,6 +386,14 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"bTk" = (
+/obj/structure/bed/stool/chair/sofa/left/red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
 "bVu" = (
 /obj/machinery/computer/telecomms/monitor{
 	network = "tcommsat"
@@ -600,6 +608,15 @@
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/unsimulated/floor{
 	icon_state = "plating"
+	},
+/area/palace_free)
+"cFd" = (
+/obj/structure/bed/stool/chair/remote/human/pra{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
 	},
 /area/palace_free)
 "cFu" = (
@@ -880,9 +897,7 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Passenger"
-	},
+/obj/effect/landmark/force_spawnpoint,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -1065,6 +1080,14 @@
 /area/palace_free)
 "eHJ" = (
 /turf/simulated/floor/lino/grey{
+	temperature = 278.15
+	},
+/area/palace_free)
+"eIN" = (
+/obj/structure/bed/stool/chair/remote/human/ala/sniper{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -1746,6 +1769,21 @@
 /obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/palace_free)
+"hBI" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
+	},
+/obj/machinery/computer/arcade/battle,
+/turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/palace_free)
 "hCB" = (
 /obj/structure/flora/tree/adhomai,
 /turf/simulated/floor/exoplanet/snow{
@@ -1845,7 +1883,20 @@
 /obj/item/reagent_containers/food/drinks/drinkingglass,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/machinery/turretid/lethal{
+	req_access = list(209);
+	pixel_y = 32;
+	enabled = 0
+	},
 /turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/palace_free)
+"ioR" = (
+/obj/structure/bed/stool/chair/remote/human/pra/commissar{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -1855,6 +1906,14 @@
 	icon_state = "tube1";
 	inserted_light = /obj/item/light/tube/colored/blue;
 	must_start_working = 1
+	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
+"iyf" = (
+/obj/structure/bed/stool/chair/remote/human/pra/guard{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
@@ -2070,6 +2129,14 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
+"jmR" = (
+/obj/structure/bed/stool/chair/sofa/red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -2557,6 +2624,18 @@
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
+"lzD" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/structure/sign/painting_frame/hadii{
+	pixel_y = 32
+	},
+/obj/machinery/computer/arcade/orion_trail,
+/turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/palace_free)
 "lAE" = (
 /obj/machinery/computer/telecomms/server{
 	network = "tcommsat"
@@ -3023,8 +3102,9 @@
 /area/palace_free)
 "nCU" = (
 /obj/effect/floor_decal/concrete/large,
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Passenger"
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -3202,6 +3282,7 @@
 /obj/item/gun/projectile/automatic/rifle/adhomian,
 /obj/item/card/id/syndicate,
 /mob/living/carbon/human/tajaran,
+/obj/item/clothing/accessory/medal/pra_courage,
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
 "ouN" = (
@@ -3487,6 +3568,16 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"pvZ" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
 "pyA" = (
 /obj/structure/table/stone/marble,
 /turf/simulated/floor/lino/grey{
@@ -3719,9 +3810,7 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 8
 	},
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Passenger"
-	},
+/obj/effect/landmark/force_spawnpoint,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4210,6 +4299,21 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"shD" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
+"sjo" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/landmark/force_spawnpoint,
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
 "skC" = (
 /obj/structure/table/stone/marble,
 /obj/structure/window/reinforced,
@@ -4249,8 +4353,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Passenger"
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -4522,9 +4627,7 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
 	},
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Passenger"
-	},
+/obj/effect/landmark/force_spawnpoint,
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4579,6 +4682,14 @@
 	icon = ''
 	},
 /turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
+"tCg" = (
+/obj/structure/bed/stool/chair/remote/human/ala{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -4700,9 +4811,7 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
 	},
-/obj/effect/landmark/force_spawnpoint{
-	job_tag = "Passenger"
-	},
+/obj/effect/landmark/force_spawnpoint,
 /obj/machinery/light{
 	dir = 2;
 	icon_state = "tube1";
@@ -4746,6 +4855,14 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/reinforced{
 	temperature = 268.15
+	},
+/area/palace_free)
+"urh" = (
+/obj/structure/bed/stool/chair/remote/human/ala/commando{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
 	},
 /area/palace_free)
 "use" = (
@@ -4937,7 +5054,9 @@
 /turf/simulated/floor/tiled/white,
 /area/palace_free)
 "vqr" = (
-/obj/structure/window/reinforced,
+/obj/structure/bed/stool/chair/sofa/right/red{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
@@ -5030,6 +5149,7 @@
 	icon_state = "tube1";
 	must_start_working = 1
 	},
+/obj/item/clothing/accessory/medal/pra_courage,
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
 "vDi" = (
@@ -5097,6 +5217,14 @@
 /obj/item/reagent_containers/food/snacks/vegetable_rikazu,
 /obj/item/reagent_containers/food/snacks/vegetable_rikazu,
 /turf/simulated/floor/carpet/art{
+	temperature = 278.15
+	},
+/area/palace_free)
+"vPw" = (
+/obj/structure/bed/stool/chair/remote/human/pra{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -5541,6 +5669,15 @@
 	desc = "The main weapon of the Grand People's Army. A fearsome automatic rifle."
 	},
 /turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
+"xxn" = (
+/obj/structure/window/reinforced,
+/obj/structure/bed/stool/chair/remote/human/ala{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -18564,7 +18701,7 @@ omN
 omN
 oSt
 cmQ
-trc
+hBI
 wol
 wol
 jrA
@@ -18821,7 +18958,7 @@ omN
 omN
 oxc
 cmQ
-yjQ
+lzD
 wol
 wol
 jrA
@@ -19078,7 +19215,7 @@ omN
 omN
 oSt
 cmQ
-trc
+hBI
 wol
 wol
 jrA
@@ -33210,11 +33347,11 @@ mFr
 mFr
 dKh
 mFr
-mFr
-mFr
-dKh
-mFr
 nLy
+sIV
+pvZ
+sIV
+shD
 cmQ
 omN
 omN
@@ -33452,22 +33589,22 @@ omN
 omN
 omN
 cmQ
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
+ioR
+ioR
+iyf
+iyf
+iyf
+vPw
+vPw
+vPw
+vPw
+vPw
+vPw
+vPw
+vPw
+vPw
+vPw
+cFd
 sIV
 sIV
 sIV
@@ -33728,7 +33865,7 @@ sIV
 sIV
 sIV
 sIV
-sIV
+jmR
 cmQ
 omN
 omN
@@ -33966,26 +34103,26 @@ omN
 omN
 omN
 cmQ
+eIN
+eIN
+urh
+urh
+urh
+tCg
+tCg
+tCg
+tCg
+tCg
+tCg
+tCg
+tCg
+tCg
+tCg
+xxn
 sIV
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-sIV
-vqr
-sIV
-sIV
-sIV
-sIV
-qph
+bTk
 cmQ
 omN
 omN
@@ -34237,8 +34374,8 @@ ejk
 ejk
 ejk
 kgb
+ejk
 xNv
-sIV
 iph
 sIV
 sIV
@@ -41737,11 +41874,11 @@ hjd
 omN
 cmQ
 qtd
-sqP
-sqP
-sqP
-sqP
-sqP
+sjo
+sjo
+sjo
+sjo
+sjo
 sqP
 sqP
 sqP

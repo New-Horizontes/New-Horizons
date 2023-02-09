@@ -102,7 +102,7 @@
 
 	id = /obj/item/card/id
 
-/datum/outfit/admin/ala_base/get_id_access()
+/datum/outfit/admin/ala_base_vr/get_id_access()
 	return list(access_dpra)
 
 /datum/outfit/admin/ala_base_vr/sniper
@@ -128,7 +128,11 @@
 	accessory = /obj/item/clothing/accessory/storage/bandolier
 	accessory_contents = list(/obj/item/ammo_casing/shotgun = 5,
 							/obj/item/ammo_casing/shotgun/pellet = 5)
-	belt_contents = list(
+
+	back = /obj/item/gun/projectile/shotgun/pump/rifle
+	belt_contents = null
+
+	backpack_contents = list(
 		/obj/item/grenade/frag = 2,
 		/obj/item/material/knife/trench = 1,
 		/obj/item/gun/projectile/silenced = 1,

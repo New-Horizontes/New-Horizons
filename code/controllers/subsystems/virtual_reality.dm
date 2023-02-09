@@ -273,18 +273,50 @@
 		mind_transfer(user, H)
 		to_chat(H, SPAN_NOTICE("You are now in control of a virtual reality body. Dying will return you to your original body."))
 
-/datum/controller/subsystem/virtualreality/proc/create_virtual_reality_avatar_pra(var/mob/living/carbon/human/user)
+/datum/controller/subsystem/virtualreality/proc/create_virtual_reality_avatar_pra(var/mob/living/carbon/human/user, var/gear)
 	if(virtual_reality_spawn.len)
 		var/mob/living/carbon/human/virtual_reality/H = new /mob/living/carbon/human/virtual_reality(pick(pra_vr))
 
-		if(pro(50))
-		H.set_species(user.species.name, 1)
+		if(prob(25))
+			H.set_species(SPECIES_TAJARA, 1)
+			H.change_hair_color(72, 60, 50)
+			H.change_skin_color(72, 60, 50)
+
+		else
+			H.set_species(SPECIES_TAJARA_MSAI, 1)
+			H.change_hair_color(238, 223, 204)
+			H.change_skin_color(238, 223, 204)
 
 		H.gender = user.gender
-		H.dna = user.dna.Clone()
-		H.real_name = user.real_name
+		H.name = H.species.get_random_name(H.gender)
 		H.UpdateAppearance()
 
-		H.preEquipOutfit(/datum/outfit/admin/virtual_reality, FALSE)
+		H.preEquipOutfit(gear, FALSE)
+		H.equipOutfit(gear, FALSE)
+
+		mind_transfer(user, H)
+		to_chat(H, SPAN_NOTICE("You are now in control of a virtual reality body. Dying will return you to your original body."))
+
+
+/datum/controller/subsystem/virtualreality/proc/create_virtual_reality_avatar_ala(var/mob/living/carbon/human/user, var/gear)
+	if(virtual_reality_spawn.len)
+		var/mob/living/carbon/human/virtual_reality/H = new /mob/living/carbon/human/virtual_reality(pick(dpra_vr))
+
+		if(prob(25))
+			H.set_species(SPECIES_TAJARA_ZHAN, 1)
+			H.change_hair_color(30, 30, 30)
+			H.change_skin_color(30, 30, 30)
+
+		else
+			H.set_species(SPECIES_TAJARA_MSAI, 1)
+			H.change_hair_color(238, 223, 204)
+			H.change_skin_color(238, 223, 204)
+
+		H.gender = user.gender
+		H.name = H.species.get_random_name(H.gender)
+		H.UpdateAppearance()
+
+		H.preEquipOutfit(gear, FALSE)
+		H.equipOutfit(gear, FALSE)
 		mind_transfer(user, H)
 		to_chat(H, SPAN_NOTICE("You are now in control of a virtual reality body. Dying will return you to your original body."))
