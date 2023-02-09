@@ -22,8 +22,11 @@
 	dir = 8;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -66,8 +69,11 @@
 	},
 /area/palace_free)
 "ayh" = (
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -126,8 +132,11 @@
 /obj/structure/sign/flag/pra{
 	pixel_x = 32
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
@@ -148,9 +157,22 @@
 /mob/living/carbon/human/tajaran,
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
+"aTf" = (
+/obj/structure/silo,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
 "aUa" = (
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
@@ -237,8 +259,11 @@
 /area/palace_free)
 "bsj" = (
 /obj/structure/bed/stool/chair/wood,
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
@@ -257,7 +282,11 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
 	},
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
@@ -270,8 +299,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
@@ -299,10 +330,26 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
+"bOv" = (
+/obj/effect/floor_decal/concrete{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -346,6 +393,15 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/unsimulated/floor{
 	icon_state = "plating"
+	},
+/area/palace_free)
+"bXQ" = (
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
 	},
 /area/palace_free)
 "cdF" = (
@@ -404,7 +460,10 @@
 /obj/effect/floor_decal/corner_wide/white/full{
 	dir = 4
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -490,7 +549,10 @@
 /obj/item/storage/box/fancy/cigarettes/pra,
 /obj/item/storage/box/fancy/cigarettes/pra,
 /obj/item/storage/box/fancy/cigarettes/pra,
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
 	},
@@ -520,6 +582,17 @@
 	},
 /obj/item/rig/tesla,
 /turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
+"cDA" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
+/turf/simulated/floor/wood{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -747,8 +820,10 @@
 /area/palace_free)
 "dKh" = (
 /obj/structure/cryofeed,
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/bluegrid,
 /area/palace_free)
@@ -763,15 +838,19 @@
 /obj/machinery/optable,
 /obj/machinery/light{
 	dir = 1;
-	icon_state = "tube1"
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/unsimulated/floor{
 	icon_state = "new_white"
 	},
 /area/palace_free)
 "dTW" = (
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
@@ -879,8 +958,10 @@
 	dir = 4;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -898,8 +979,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -915,14 +999,20 @@
 /obj/effect/floor_decal/corner_wide/white/full{
 	dir = 1
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
 /area/palace_free)
 "eCC" = (
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -981,8 +1071,10 @@
 	dir = 1;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -1021,21 +1113,13 @@
 	temperature = 278.15
 	},
 /area/palace_free)
-"eYs" = (
-/obj/structure/sign/flag/pra/left{
-	pixel_y = 32
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1;
-	icon_state = "spline_fancy"
-	},
-/turf/simulated/floor/wood{
-	temperature = 278.15
-	},
-/area/palace_free)
 "fbE" = (
 /obj/effect/floor_decal/concrete/large,
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
@@ -1060,8 +1144,11 @@
 	dir = 8;
 	req_one_access = list(209)
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/lino/grey{
 	temperature = 278.15
@@ -1083,8 +1170,11 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
@@ -1145,8 +1235,11 @@
 /obj/structure/cryofeed{
 	dir = 4
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -1156,8 +1249,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
@@ -1299,7 +1395,11 @@
 /obj/structure/bed/stool/chair/wood{
 	dir = 1
 	},
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
 	},
@@ -1349,8 +1449,10 @@
 /obj/structure/sign/flag/pra/left{
 	pixel_y = -32
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -1594,17 +1696,25 @@
 /obj/item/clothing/suit/storage/toggle/labcoat,
 /obj/item/clothing/glasses/regular/circle,
 /mob/living/carbon/human/tajaran,
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
 "hoq" = (
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -1638,7 +1748,10 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/corner_wide/white/full,
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -1709,8 +1822,11 @@
 	},
 /area/palace_free)
 "iph" = (
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
@@ -1720,8 +1836,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
@@ -1731,7 +1850,10 @@
 /obj/effect/floor_decal/corner_wide/red/full{
 	dir = 6
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -1816,8 +1938,11 @@
 	},
 /area/palace_free)
 "iWt" = (
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -1838,15 +1963,22 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
 "jfZ" = (
 /obj/structure/table/stone/marble,
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/lino/grey{
 	temperature = 278.15
@@ -1854,7 +1986,11 @@
 /area/palace_free)
 "jiJ" = (
 /obj/effect/floor_decal/concrete/large,
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -1921,8 +2057,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -2037,8 +2175,11 @@
 /obj/structure/cryofeed{
 	dir = 4
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/bluegrid,
 /area/palace_free)
@@ -2046,8 +2187,11 @@
 /obj/structure/closet/wardrobe,
 /obj/item/clothing/under/rank/bartender,
 /obj/item/clothing/head/flatcap,
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/lino/grey,
 /area/palace_free)
@@ -2121,8 +2265,11 @@
 /obj/item/storage/box/fancy/cigarettes/cigar,
 /obj/item/storage/box/fancy/cigarettes/cigar,
 /obj/item/storage/box/fancy/cigarettes/cigar,
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -2132,8 +2279,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
@@ -2149,7 +2298,11 @@
 	},
 /area/palace_free)
 "kIs" = (
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
@@ -2195,11 +2348,16 @@
 	dir = 4;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -2214,12 +2372,25 @@
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
+"kSY" = (
+/obj/effect/floor_decal/concrete,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
 "kWA" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
@@ -2259,6 +2430,12 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"lpp" = (
+/obj/structure/silo,
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
 "lsV" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -2275,7 +2452,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
 "ltA" = (
@@ -2611,8 +2792,11 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 8
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -2637,7 +2821,10 @@
 /obj/effect/floor_decal/corner_wide/white/full{
 	dir = 8
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -2752,8 +2939,10 @@
 /obj/structure/sign/flag/pra/left{
 	pixel_y = 32
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -2830,8 +3019,10 @@
 	},
 /area/palace_free)
 "nRt" = (
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -2904,8 +3095,11 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -2970,7 +3164,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -3026,8 +3224,9 @@
 /obj/structure/bed/stool/chair/sofa/red{
 	dir = 4
 	},
-/obj/machinery/light/small/built{
-	dir = 8
+/obj/machinery/light/small{
+	dir = 8;
+	must_start_working = 1
 	},
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
@@ -3115,8 +3314,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
@@ -3134,8 +3336,11 @@
 	req_access = list(209);
 	pixel_y = 32
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -3169,7 +3374,10 @@
 /area/palace_free)
 "phK" = (
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
 	},
@@ -3270,8 +3478,10 @@
 	},
 /area/palace_free)
 "pBR" = (
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -3296,9 +3506,6 @@
 	},
 /area/palace_free)
 "pFT" = (
-/obj/structure/sign/flag/pra/left{
-	pixel_y = 32
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1;
 	icon_state = "spline_fancy"
@@ -3318,7 +3525,8 @@
 /obj/effect/floor_decal/corner/orange/diagonal,
 /obj/machinery/light{
 	dir = 2;
-	icon_state = "tube1"
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/palace_free)
@@ -3329,7 +3537,10 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -3432,22 +3643,18 @@
 	},
 /area/palace_free)
 "qph" = (
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
 "qqw" = (
-/obj/structure/sign/flag/pra/right{
-	pixel_y = 32
-	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1;
-	icon_state = "spline_fancy"
-	},
-/turf/simulated/floor/wood{
-	temperature = 278.15
-	},
+/obj/effect/map_effect/window_spawner/reinforced,
+/turf/simulated/floor,
 /area/palace_free)
 "qtd" = (
 /obj/effect/floor_decal/concrete/large{
@@ -3466,8 +3673,11 @@
 	dir = 1;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -3584,6 +3794,11 @@
 /obj/item/storage/box/fancy/cigarettes/pra,
 /obj/item/storage/box/fancy/cigarettes/pra,
 /obj/item/storage/box/fancy/cigarettes/pra,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
 	},
@@ -3593,10 +3808,26 @@
 	dir = 9
 	},
 /obj/structure/cryofeed,
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
+"qSs" = (
+/obj/effect/floor_decal/concrete{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
+	},
+/turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -3752,7 +3983,10 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -3841,8 +4075,10 @@
 	dir = 8;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -4094,14 +4330,31 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
+"tee" = (
+/obj/effect/floor_decal/corner_wide/red/full{
+	dir = 6
+	},
+/obj/effect/decal/fake_object/light_source{
+	icon_state = null;
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
 /area/palace_free)
 "teJ" = (
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
@@ -4117,7 +4370,11 @@
 	},
 /area/palace_free)
 "tjy" = (
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4146,8 +4403,11 @@
 /obj/item/reagent_containers/food/drinks/bottle/small/khlibnyz,
 /obj/item/reagent_containers/food/drinks/bottle/small/khlibnyz,
 /obj/item/reagent_containers/food/drinks/bottle/small/khlibnyz,
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/lino/grey{
 	temperature = 278.15
@@ -4158,8 +4418,11 @@
 	dir = 1;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -4170,8 +4433,11 @@
 	dir = 1
 	},
 /obj/structure/bed/stool/chair/padded/red,
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -4211,7 +4477,8 @@
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1";
-	pixel_x = 0
+	pixel_x = 0;
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/palace_free)
@@ -4248,7 +4515,10 @@
 	dir = 8
 	},
 /obj/structure/railing/mapped,
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4265,16 +4535,21 @@
 	id = "palace_lockdown";
 	dir = 2
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
 "tKs" = (
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
@@ -4360,6 +4635,11 @@
 /obj/effect/landmark/force_spawnpoint{
 	job_tag = "Passenger"
 	},
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4401,7 +4681,11 @@
 	},
 /area/palace_free)
 "use" = (
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
 	},
@@ -4410,7 +4694,8 @@
 /obj/machinery/optable,
 /obj/machinery/light{
 	dir = 2;
-	icon_state = "tube1"
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/unsimulated/floor{
 	icon_state = "new_white"
@@ -4430,8 +4715,10 @@
 	dir = 9
 	},
 /mob/living/carbon/human/tajaran,
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
@@ -4439,8 +4726,11 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -4491,7 +4781,10 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4508,16 +4801,22 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
 /area/palace_free)
 "uWK" = (
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -4550,8 +4849,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
@@ -4561,7 +4863,8 @@
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1";
-	pixel_x = 0
+	pixel_x = 0;
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/palace_free)
@@ -4575,7 +4878,11 @@
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
 	},
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -4607,8 +4914,11 @@
 	dir = 5;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -4625,8 +4935,11 @@
 "vBL" = (
 /obj/structure/table/stone/marble,
 /obj/item/storage/box/drinkingglasses,
-/obj/machinery/light/built{
-	dir = 1
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/lino/grey,
 /area/palace_free)
@@ -4644,8 +4957,10 @@
 /obj/item/gun/projectile/automatic/rifle/adhomian,
 /obj/item/card/id/syndicate,
 /mob/living/carbon/human/tajaran,
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
@@ -4792,7 +5107,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/concrete/square,
 /area/palace_free)
 "whU" = (
@@ -4847,8 +5166,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
@@ -4880,8 +5202,11 @@
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -4929,8 +5254,11 @@
 	dir = 4;
 	icon_state = "spline_fancy"
 	},
-/obj/machinery/light/built{
-	dir = 4
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
 	},
 /turf/simulated/floor/wood{
 	temperature = 278.15
@@ -5001,7 +5329,10 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/effect/decal/fake_object/light_source,
+/obj/effect/decal/fake_object/light_source{
+	icon_state = "";
+	icon = ''
+	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
@@ -5021,7 +5352,11 @@
 	},
 /area/palace_free)
 "xkd" = (
-/obj/machinery/light/built,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
 /turf/simulated/floor/exoplanet/snow{
 	temperature = 278.15
 	},
@@ -5171,8 +5506,10 @@
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
-/obj/machinery/light/built{
-	dir = 8
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -5261,9 +5598,6 @@
 	},
 /area/palace_free)
 "xYY" = (
-/obj/structure/sign/flag/pra/right{
-	pixel_y = 32
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1;
 	icon_state = "spline_fancy"
@@ -17926,7 +18260,7 @@ msL
 cmA
 wol
 wol
-jrA
+phK
 cmQ
 xUg
 omN
@@ -19700,7 +20034,7 @@ cmQ
 yjQ
 wol
 eDw
-phK
+cDA
 cmQ
 tKs
 cUQ
@@ -19725,7 +20059,7 @@ gLr
 gsG
 wol
 wol
-jrA
+phK
 cmQ
 xUg
 omN
@@ -20709,7 +21043,7 @@ fIv
 xUg
 oSt
 eCQ
-xTG
+qSs
 iKZ
 iKZ
 iKZ
@@ -20965,9 +21299,9 @@ rfj
 fIv
 xUg
 hjd
-eCQ
-sIV
-sIV
+bOv
+cmQ
+dTW
 sIV
 sIV
 sIV
@@ -21223,7 +21557,7 @@ fIv
 xUg
 oSt
 eCQ
-tys
+kSY
 iOW
 iOW
 iOW
@@ -21267,7 +21601,7 @@ gLr
 gsG
 wol
 wol
-jrA
+phK
 cmQ
 xUg
 omN
@@ -21499,7 +21833,7 @@ cmQ
 rBm
 wol
 wol
-phK
+cDA
 cmQ
 tKs
 cUQ
@@ -22809,7 +23143,7 @@ gLr
 gsG
 wol
 wol
-jrA
+phK
 cmQ
 kIs
 cmQ
@@ -23298,7 +23632,7 @@ cmQ
 trc
 wol
 wol
-phK
+cDA
 cmQ
 tKs
 cUQ
@@ -24608,7 +24942,7 @@ gLr
 gsG
 wol
 wol
-jrA
+phK
 cmQ
 xUg
 omN
@@ -25379,7 +25713,7 @@ gLr
 gsG
 wol
 wol
-jrA
+phK
 cmQ
 xUg
 omN
@@ -26150,7 +26484,7 @@ gLr
 gsG
 wol
 wol
-qMb
+cxh
 cmQ
 xUg
 omN
@@ -27692,7 +28026,7 @@ gLr
 gsG
 wol
 wol
-qMb
+cxh
 cmQ
 kIs
 cmQ
@@ -28206,7 +28540,7 @@ gLr
 gsG
 wol
 wol
-jrA
+phK
 cmQ
 xUg
 omN
@@ -28720,7 +29054,7 @@ gLr
 gsG
 wol
 wol
-cxh
+qMb
 cmQ
 xUg
 omN
@@ -30262,7 +30596,7 @@ gLr
 gsG
 wol
 wol
-cxh
+qMb
 cmQ
 xUg
 omN
@@ -34405,7 +34739,7 @@ omN
 dLH
 omN
 omN
-oSt
+oxc
 cmQ
 rfj
 rfj
@@ -34570,14 +34904,14 @@ omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+cmQ
+cmQ
+cmQ
+cmQ
+cmQ
+cmQ
+cmQ
+cmQ
 cmQ
 cmQ
 cmQ
@@ -34827,14 +35161,14 @@ omN
 omN
 omN
 omN
+cmQ
+bXQ
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
+bXQ
+bXQ
+bXQ
+bXQ
 cmQ
 imD
 rRf
@@ -35084,7 +35418,7 @@ omN
 omN
 omN
 omN
-omN
+cmQ
 omN
 omN
 omN
@@ -35341,16 +35675,16 @@ omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
 cmQ
-eYs
+omN
+omN
+omN
+omN
+bXQ
+omN
+omN
+qqw
+gsG
 jrA
 eOU
 vIA
@@ -35598,15 +35932,15 @@ omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
 cmQ
+omN
+omN
+omN
+omN
+aTf
+omN
+omN
+qqw
 xYY
 cUl
 eOU
@@ -35614,7 +35948,7 @@ vIA
 vIA
 auR
 gsG
-phK
+cDA
 cmQ
 cmQ
 cmQ
@@ -35855,7 +36189,7 @@ omN
 omN
 omN
 omN
-omN
+cmQ
 omN
 omN
 omN
@@ -35889,7 +36223,7 @@ gaV
 oMk
 xtV
 ave
-iJM
+tee
 ave
 ave
 ave
@@ -36112,15 +36446,15 @@ omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
 cmQ
+omN
+omN
+omN
+omN
+bXQ
+omN
+omN
+qqw
 pFT
 gyZ
 eOU
@@ -36128,7 +36462,7 @@ vIA
 vIA
 auR
 gsG
-phK
+cDA
 cmQ
 cmQ
 cmQ
@@ -36204,7 +36538,7 @@ omN
 dLH
 omN
 omN
-oSt
+oxc
 cmQ
 rfj
 rfj
@@ -36369,16 +36703,16 @@ omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
 cmQ
+omN
+omN
+omN
+omN
+bXQ
+omN
+omN
 qqw
+gsG
 jrA
 eOU
 xnj
@@ -36626,7 +36960,7 @@ omN
 omN
 omN
 omN
-omN
+cmQ
 omN
 omN
 omN
@@ -36883,14 +37217,14 @@ omN
 omN
 omN
 omN
+cmQ
+bXQ
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
+bXQ
+bXQ
+bXQ
+bXQ
 cmQ
 pCs
 hhH
@@ -37140,14 +37474,14 @@ omN
 omN
 omN
 omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
-omN
+cmQ
+cmQ
+cmQ
+cmQ
+cmQ
+cmQ
+cmQ
+cmQ
 cmQ
 cmQ
 cmQ
@@ -38003,7 +38337,7 @@ omN
 dLH
 omN
 omN
-oSt
+oxc
 cmQ
 rfj
 rfj
@@ -39802,7 +40136,7 @@ omN
 dLH
 omN
 omN
-oSt
+oxc
 cmQ
 rfj
 rfj
@@ -46950,7 +47284,7 @@ cmQ
 omN
 omN
 omN
-ayh
+omN
 omN
 tjy
 cmQ
@@ -47205,10 +47539,10 @@ rVj
 tjy
 cmQ
 cmQ
-cmQ
-cmQ
-cmQ
-cmQ
+qqw
+qqw
+qqw
+qqw
 cmQ
 cmQ
 cmQ
@@ -47461,13 +47795,13 @@ omN
 omN
 jlD
 cmQ
+bXQ
 omN
 omN
 omN
 omN
 omN
-omN
-omN
+bXQ
 cmQ
 yid
 omN
@@ -47720,9 +48054,9 @@ pWK
 cmQ
 omN
 omN
+bXQ
 omN
-omN
-omN
+bXQ
 omN
 omN
 cmQ
@@ -48232,13 +48566,13 @@ omN
 omN
 jlD
 cmQ
+bXQ
 omN
 omN
+lpp
 omN
 omN
-omN
-omN
-omN
+bXQ
 cmQ
 yid
 omN
@@ -48746,7 +49080,7 @@ omN
 nly
 tjy
 cmQ
-omN
+bXQ
 omN
 omN
 omN
@@ -49009,7 +49343,7 @@ omN
 omN
 omN
 omN
-omN
+bXQ
 cmQ
 yid
 omN
@@ -49262,9 +49596,9 @@ pWK
 cmQ
 omN
 omN
+bXQ
 omN
-omN
-omN
+bXQ
 omN
 omN
 cmQ
@@ -51316,13 +51650,13 @@ omN
 drn
 tjy
 cmQ
+bXQ
 omN
 omN
 omN
 omN
 omN
-omN
-omN
+bXQ
 cmQ
 eCC
 kjg
@@ -51834,7 +52168,7 @@ pBR
 omN
 cmQ
 cmQ
-omN
+bXQ
 omN
 omN
 cmQ

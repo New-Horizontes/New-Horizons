@@ -19,3 +19,13 @@
 	icon_state = "republican_guard_beret"
 	item_state = "republican_guard_beret"
 
+
+/obj/structure/silo
+	name = "silo"
+	desc = "An ominous structure."
+	icon = 'icons/obj/silo.dmi'
+	icon_state = "hidden"
+
+/obj/structure/silo/proc/open()
+	flick("reveal", src)
+	icon_state = "revealed"
