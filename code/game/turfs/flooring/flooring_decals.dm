@@ -780,3 +780,21 @@
 
 /obj/effect/floor_decal/concrete/gutter/corner
 	icon_state = "concrete_gutter_corner"
+
+/obj/effect/floor_decal/concrete/half_height
+	icon_state = "half-height"
+
+/obj/effect/floor_decal/concrete/quarter_height
+	icon_state = "quarter-height"
+
+/obj/effect/floor_decal/concrete/stairs_left
+	icon_state = "stairs_left"
+
+/obj/effect/floor_decal/concrete/stairs_center
+	icon_state = "stairs_center"
+
+/obj/effect/floor_decal/concrete/stairs_right
+	icon_state = "stairs_right"
+
+/obj/effect/floor_decal/concrete/stairs_single
+	icon_state = "stairs_single"

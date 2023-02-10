@@ -1673,6 +1673,20 @@
 /obj/machinery/chemical_dispenser/full,
 /turf/simulated/floor/tiled/white,
 /area/palace_free)
+"hbu" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
+/obj/effect/floor_decal/concrete/stairs_left,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
 "hbP" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4;
@@ -1907,6 +1921,19 @@
 	enabled = 0
 	},
 /turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/palace_free)
+"iof" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
+/obj/effect/floor_decal/concrete/half_height{
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
 	temperature = 278.15
 	},
 /area/palace_free)
@@ -2952,6 +2979,15 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"mQW" = (
+/obj/effect/floor_decal/concrete{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete/stairs_left,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
 "mVv" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -3004,6 +3040,19 @@
 /obj/machinery/telecomms/server/presets/service,
 /turf/unsimulated/floor{
 	icon_state = "plating"
+	},
+/area/palace_free)
+"nbS" = (
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	must_start_working = 1
+	},
+/obj/effect/floor_decal/concrete/half_height{
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
 	},
 /area/palace_free)
 "ngN" = (
@@ -3219,6 +3268,20 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"okm" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
+	},
+/obj/effect/floor_decal/concrete/half_height{
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
 "omN" = (
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -3302,6 +3365,14 @@
 /mob/living/carbon/human/tajaran,
 /obj/item/clothing/accessory/medal/pra_courage,
 /turf/simulated/floor/concrete/square,
+/area/palace_free)
+"ouE" = (
+/obj/effect/floor_decal/concrete/half_height{
+	dir = 1
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
 /area/palace_free)
 "ouN" = (
 /obj/effect/floor_decal/plaque{
@@ -3816,6 +3887,15 @@
 	icon_state = "tube1";
 	must_start_working = 1
 	},
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
+"qpK" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/stairs_right,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
@@ -4595,6 +4675,21 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"toi" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	inserted_light = /obj/item/light/tube/colored/blue;
+	must_start_working = 1
+	},
+/obj/effect/floor_decal/concrete/stairs_right,
+/turf/simulated/floor/tiled/dark/full{
+	temperature = 278.15
+	},
+/area/palace_free)
 "toT" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1;
@@ -4712,22 +4807,7 @@
 	},
 /area/palace_free)
 "tIR" = (
-/obj/machinery/door/blast/shutters/open{
-	id = "palace_lockdown";
-	dir = 2
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/machinery/door/blast/shutters/open{
-	id = "palace_lockdown";
-	dir = 2
-	},
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1";
-	must_start_working = 1
-	},
+/obj/effect/floor_decal/concrete/stairs_center,
 /turf/simulated/floor/tiled/dark/full{
 	temperature = 278.15
 	},
@@ -33408,16 +33488,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-omN
+ouE
 omN
 hjd
-omN
+ouE
 omN
 hjd
+ouE
 omN
+hjd
+ouE
 cmQ
 two
 dVj
@@ -33663,19 +33743,19 @@ iKZ
 iKZ
 iKZ
 iKZ
-tIR
+bBx
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
+mQW
 iKZ
-iKZ
-iKZ
-iKZ
-iKZ
-kWA
+hbu
 iKZ
 iKZ
 iKZ
@@ -33921,18 +34001,18 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
-sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -34178,18 +34258,18 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
-sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -34435,18 +34515,18 @@ iOW
 iOW
 iOW
 woV
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
+qpK
 iOW
-iOW
-iOW
-iOW
-iOW
-iAy
+toi
 iOW
 iOW
 iOW
@@ -34693,16 +34773,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-ayh
+ouE
 omN
 hjd
-omN
+okm
 omN
 hjd
-tjy
+ouE
+omN
+hjd
+nbS
 cmQ
 mPv
 uNr
@@ -34950,16 +35030,16 @@ omN
 omN
 cmQ
 ggv
-omN
+ouE
 omN
 tjy
 cmQ
 eCC
 omN
+ouE
 omN
 omN
-omN
-omN
+ouE
 cmQ
 wlZ
 omN
@@ -35207,16 +35287,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-pBR
+ouE
 omN
 hjd
-omN
+iof
 omN
 hjd
-tjy
+ouE
+omN
+hjd
+nbS
 cmQ
 uEB
 wbs
@@ -35463,16 +35543,16 @@ iKZ
 iKZ
 iKZ
 bBx
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
-iKZ
-iKZ
-iKZ
-iKZ
+mQW
 iKZ
 kWA
 iKZ
@@ -35720,16 +35800,16 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -35977,16 +36057,16 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -36234,16 +36314,16 @@ iOW
 iOW
 iOW
 woV
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
-iOW
-iOW
-iOW
-iOW
+qpK
 iOW
 iAy
 iOW
@@ -36492,16 +36572,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-ayh
+ouE
 omN
 hjd
-omN
+okm
 omN
 hjd
-tjy
+ouE
+omN
+hjd
+nbS
 cmQ
 mPv
 uNr
@@ -36749,16 +36829,16 @@ omN
 omN
 cmQ
 ggv
-omN
+ouE
 omN
 tjy
 cmQ
 eCC
 omN
+ouE
 omN
 omN
-omN
-omN
+ouE
 cmQ
 wlZ
 omN
@@ -37006,16 +37086,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-pBR
+ouE
 omN
 hjd
-omN
+iof
 omN
 hjd
-tjy
+ouE
+omN
+hjd
+nbS
 cmQ
 uEB
 wbs
@@ -37262,16 +37342,16 @@ iKZ
 iKZ
 iKZ
 bBx
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
-iKZ
-iKZ
-iKZ
-iKZ
+mQW
 iKZ
 kWA
 iKZ
@@ -37519,16 +37599,16 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -37776,16 +37856,16 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -38033,16 +38113,16 @@ iOW
 iOW
 iOW
 woV
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
-iOW
-iOW
-iOW
-iOW
+qpK
 iOW
 iAy
 iOW
@@ -38291,16 +38371,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-ayh
+ouE
 omN
 hjd
-omN
+okm
 omN
 hjd
-tjy
+ouE
+omN
+hjd
+nbS
 cmQ
 mPv
 uNr
@@ -38548,16 +38628,16 @@ omN
 omN
 cmQ
 ggv
-omN
+ouE
 omN
 tjy
 cmQ
 eCC
 omN
+ouE
 omN
 omN
-omN
-omN
+ouE
 cmQ
 wlZ
 omN
@@ -38805,16 +38885,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-pBR
+ouE
 omN
 hjd
-omN
+iof
 omN
 hjd
-tjy
+ouE
+omN
+hjd
+nbS
 cmQ
 uEB
 wbs
@@ -39061,16 +39141,16 @@ iKZ
 iKZ
 iKZ
 bBx
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
-iKZ
-iKZ
-iKZ
-iKZ
+mQW
 iKZ
 kWA
 iKZ
@@ -39318,16 +39398,16 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -39575,16 +39655,16 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -39832,16 +39912,16 @@ iOW
 iOW
 iOW
 woV
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
-iOW
-iOW
-iOW
-iOW
+qpK
 iOW
 iAy
 iOW
@@ -40090,16 +40170,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-ayh
+ouE
 omN
 hjd
-omN
+okm
 omN
 hjd
-tjy
+ouE
+omN
+hjd
+nbS
 cmQ
 mPv
 uNr
@@ -40347,16 +40427,16 @@ omN
 omN
 cmQ
 ggv
-omN
+ouE
 omN
 tjy
 cmQ
 eCC
 omN
+ouE
 omN
 omN
-omN
-omN
+ouE
 cmQ
 wlZ
 omN
@@ -40604,16 +40684,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-pBR
+ouE
 omN
 hjd
-omN
+iof
 omN
 hjd
-tjy
+ouE
+omN
+hjd
+nbS
 cmQ
 uEB
 wbs
@@ -40860,16 +40940,16 @@ iKZ
 iKZ
 iKZ
 bBx
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
+mQW
 iKZ
 iKZ
-iKZ
-iKZ
-iKZ
-iKZ
+mQW
 iKZ
 kWA
 iKZ
@@ -41117,16 +41197,16 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -41374,16 +41454,16 @@ sIV
 sIV
 sIV
 iTl
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
+tIR
 sIV
 sIV
-sIV
-sIV
-sIV
-sIV
+tIR
 sIV
 sIV
 sIV
@@ -41631,16 +41711,16 @@ iOW
 iOW
 iOW
 woV
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
+qpK
 iOW
 iOW
-iOW
-iOW
-iOW
-iOW
+qpK
 iOW
 iAy
 iOW
@@ -41889,16 +41969,16 @@ hjd
 tjy
 cmQ
 hjd
-omN
-omN
-hjd
-omN
+ouE
 omN
 hjd
-omN
+ouE
 omN
 hjd
+ouE
 omN
+hjd
+ouE
 cmQ
 qtd
 sjo
