@@ -1553,6 +1553,24 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"gAT" = (
+/obj/structure/railing/mapped{
+	layer = 3.5
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/mob/living/heavy_vehicle/premade/pra_egg,
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
 "gBo" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -4977,6 +4995,15 @@
 "uNr" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
+	},
+/turf/simulated/floor/concrete{
+	temperature = 278.15
+	},
+/area/palace_free)
+"uNT" = (
+/obj/effect/floor_decal/plaque{
+	name = "P'kus-3";
+	desc = "A highly advanced exosuit used by the Division Experimental Exosuit."
 	},
 /turf/simulated/floor/concrete{
 	temperature = 278.15
@@ -30302,7 +30329,7 @@ omN
 omN
 omN
 omN
-omN
+ayh
 omN
 omN
 omN
@@ -30558,9 +30585,9 @@ omN
 omN
 omN
 omN
-omN
-omN
-omN
+tjy
+cmQ
+eCC
 omN
 omN
 omN
@@ -30816,7 +30843,7 @@ omN
 omN
 omN
 omN
-omN
+pBR
 omN
 omN
 omN
@@ -44436,8 +44463,8 @@ omN
 omN
 omN
 omN
-ayh
 omN
+ayh
 omN
 omN
 omN
@@ -44692,10 +44719,10 @@ xUg
 omN
 omN
 omN
+omN
 tjy
 cmQ
 eCC
-omN
 omN
 omN
 omN
@@ -44950,8 +44977,8 @@ omN
 omN
 omN
 omN
-pBR
 omN
+pBR
 omN
 omN
 omN
@@ -46483,8 +46510,8 @@ eCQ
 sIV
 aoa
 omN
-omN
-qTZ
+vEC
+ljX
 prp
 cmQ
 kIs
@@ -50072,8 +50099,8 @@ omN
 omN
 cmQ
 eCC
-ljX
-vEC
+gAT
+uNT
 eCQ
 sIV
 aoa

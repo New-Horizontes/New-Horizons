@@ -142,80 +142,225 @@
 //tanks
 
 /mob/living/heavy_vehicle/premade/pra_tank
-	name = "combat exosuit"
-	desc = "A sleek, modern combat exosuit."
+	name = "Nav'twir MK.III light tank"
+	desc = "An early light tank model used by the People's Republic of Adhomai."
 	icon_state = "durand"
 
-	e_head = /obj/item/mech_component/sensors/combat
-	e_body = /obj/item/mech_component/chassis/combat
-	e_arms = /obj/item/mech_component/manipulators/combat
-	e_legs = /obj/item/mech_component/propulsion/combat
+	h_head = null
+	e_head = /obj/item/mech_component/sensors/combat/tank
+	e_body = /obj/item/mech_component/chassis/combat/tank
+	e_arms = /obj/item/mech_component/manipulators/combat/tank
+	e_legs = /obj/item/mech_component/propulsion/tracks/tank
+	e_color = "#78866b"
+
+	h_r_shoulder = /obj/item/mecha_equipment/mounted_system/combat/smg/tank
+	h_l_shoulder = /obj/item/mecha_equipment/mounted_system/combat/tank_cannon
+
+/obj/item/mech_component/manipulators/combat/tank
+	name = "tank cannon"
+	exosuit_desc_string = "a light tank cannon"
+	desc = "A ballistic cannon used by an Adhomian tank."
+	icon_state = "pra_cannon"
+
+/obj/item/mech_component/propulsion/tracks/tank
+	icon_state = "treads"
+
+/obj/item/mech_component/sensors/combat/tank
+	name = "tank turret"
+	gender = PLURAL
+	exosuit_desc_string = "tank turret"
+	desc = "The cockpit of an Adhomian tank."
+	icon_state = "pra_turret"
+
+/obj/item/mech_component/chassis/combat/tank
+	name = "tank hull"
+	hatch_descriptor = "canopy"
+	exosuit_desc_string = "an armored hull"
+	desc = "The hull of an adhomian tank."
+	icon_state = "pra_hull"
+	transparent_cabin = FALSE
+
+/mob/living/heavy_vehicle/premade/dpra_tank
+	name = "Yve'kha III light tank"
+	desc = "An light tank model used by the Adhomai Liberation Army."
+	icon_state = "durand"
+
+	h_head = null
+	e_head = /obj/item/mech_component/sensors/combat/tank/ala
+	e_body = /obj/item/mech_component/chassis/combat/tank/ala
+	e_arms = /obj/item/mech_component/manipulators/combat/tank/ala
+	e_legs = /obj/item/mech_component/propulsion/tracks/tank
 	e_color = COLOR_DARK_GUNMETAL
 
-	h_r_shoulder = /obj/item/mecha_equipment/mounted_system/combat/smg
-	h_l_shoulder = /obj/item/mecha_equipment/mounted_system/combat/smg
+	h_r_shoulder = /obj/item/mecha_equipment/mounted_system/combat/smg/tank
+	h_l_shoulder = /obj/item/mecha_equipment/mounted_system/combat/tank_cannon
 
-/obj/item/mech_component/manipulators/combat
-	name = "combat arms"
-	exosuit_desc_string = "flexible, advanced manipulators"
-	desc = "Extremely fast and responsive weapon mounts for combat mechas. These seem sturdy, but their short nature only permits access to shoulder-mounted weapons."
-	icon_state = "combat_arms"
-	melee_damage = 30
+/obj/item/mech_component/manipulators/combat/tank/ala
+	icon_state = "dpra_cannon"
+
+/obj/item/mech_component/sensors/combat/tank/ala
+	icon_state = "dpra_turret"
+
+/obj/item/mech_component/chassis/combat/tank/ala
+	icon_state = "dpra_hull"
+
+
+/mob/living/heavy_vehicle/premade/nka_tank
+	name = "Zhsram II light tank"
+	desc = "A pre-war light tank model used by the New Kingdom of Adhomai."
+	icon_state = "durand"
+
+	h_head = null
+	e_head = /obj/item/mech_component/sensors/combat/tank/nka
+	e_body = /obj/item/mech_component/chassis/combat/tank/nka
+	e_arms = /obj/item/mech_component/manipulators/combat/tank/nka
+	e_legs = /obj/item/mech_component/propulsion/tracks/tank
+	e_color = COLOR_TITANIUM
+
+	h_r_shoulder = /obj/item/mecha_equipment/mounted_system/combat/smg/tank
+	h_l_shoulder = /obj/item/mecha_equipment/mounted_system/combat/tank_cannon
+
+/obj/item/mech_component/manipulators/combat/tank/nka
+	icon_state = "nka_cannon"
+
+/obj/item/mech_component/sensors/combat/tank/nka
+	icon_state = "nka_turret"
+
+/obj/item/mech_component/chassis/combat/tank/nka
+	icon_state = "nka_hull"
+
+
+/obj/item/mecha_equipment/mounted_system/combat/smg/tank
+	icon_state = "tank_lmg"
+
+/obj/item/mecha_equipment/mounted_system/combat/tank_cannon
+	name = "tank cannon"
+	desc = "A tank cannon."
+	icon_state = "tank_canon"
+	holding_type = /obj/item/gun/energy/mountedcannon/tank
+
+/obj/item/gun/energy/mountedcannon/tank
+	projectile_type = /obj/item/projectile/bullet/tank
+
+/obj/item/projectile/bullet/tank
+	name = "warhead"
+	icon_state = "missile"
+	damage = 50
+	armor_penetration = 30
+	anti_materiel_potential = 4
+	embed = FALSE
+	penetrating = FALSE
+	var/heavy_impact_range = 1
+
+/obj/item/projectile/bullet/tank/on_impact(var/atom/A)
+	explosion(A, -1, 0, 2)
+	..()
+
+//egg
+
+/mob/living/heavy_vehicle/premade/pra_egg
+	name = "P'kus-3 exosuit"
+	desc = "An exosuit developed by the People's Republic of Adhomai for the Division Experimental Exosuit."
+	icon_state = "durand"
+
+	e_head = /obj/item/mech_component/sensors/pra_egg
+	e_body = /obj/item/mech_component/chassis/pra_egg
+	e_arms = /obj/item/mech_component/manipulators/pra_egg
+	e_legs = /obj/item/mech_component/propulsion/pra_egg
+	e_color = COLOR_STEEL
+	h_head = null
+//	h_r_hand = /obj/item/mecha_equipment/mounted_system/combat/smg/pra_egg
+
+/obj/item/mech_component/manipulators/pra_egg
+	name = "p'kus-3 arms"
+	exosuit_desc_string = "flexible arms"
+	desc = "Robotics arms designed to carry large weapons."
+	icon_state = "egg_arms"
+	melee_damage = 15
 	action_delay = 5
-	max_damage = 130
+	max_damage = 100
 	power_use = 5000
-	has_hardpoints = list(HARDPOINT_LEFT_SHOULDER, HARDPOINT_RIGHT_SHOULDER)
+	has_hardpoints = list(HARDPOINT_RIGHT_HAND, HARDPOINT_LEFT_HAND)
 
-/obj/item/mech_component/propulsion/combat
-	name = "combat legs"
-	exosuit_desc_string = "sleek hydraulic legs"
-	desc = "Complex armor provides excellent protective coverage over the internals of these combat-oriented legs."
-	icon_state = "combat_legs"
+/obj/item/mech_component/propulsion/pra_egg
+	name = "p'kus-3 legs"
+	exosuit_desc_string = "hydraulic legs"
+	desc = "Strong legs adapted for the Adhomian rought terrain."
+	icon_state = "egg_legs"
 	move_delay = 3
 	turn_delay = 3
 	max_damage = 100
 	power_use = 5000
-	trample_damage = 35
+	trample_damage = 20
 
-/obj/item/mech_component/sensors/combat
-	name = "combat sensors"
+/obj/item/mech_component/sensors/pra_egg
+	name = "p'kus-3 sensors"
 	gender = PLURAL
-	exosuit_desc_string = "high-resolution sensors"
-	desc = "A highly advanced cockpit with high-resolution thermal optics installed on its faces. Poorly armored with excellent situational awareness."
-	icon_state = "combat_head"
+	exosuit_desc_string = "weather-resistant sensors"
+	desc = "A round cockpit in the shape of an egg. Its sensors are adapted to the Adhomian winds and hail."
+	icon_state = "egg_head"
 	max_damage = 50
 	power_use = 50000
 	vision_flags = SEE_MOBS
 	see_invisible = SEE_INVISIBLE_NOLIGHTING
 
-/obj/item/mech_component/sensors/combat/prebuild()
+/obj/item/mech_component/sensors/pra_egg/prebuild()
 	..()
 	software = new(src)
 	software.installed_software = list(MECH_SOFTWARE_WEAPONS, MECH_SOFTWARE_UTILITY)
 
-/obj/item/mech_component/chassis/combat
-	name = "sealed exosuit chassis"
+/obj/item/mech_component/chassis/pra_egg
+	name = "p'kus-3 chassis"
 	hatch_descriptor = "canopy"
 	pilot_coverage = 100
-	exosuit_desc_string = "an armored chassis"
+	exosuit_desc_string = "a light armored chassis"
 	desc = "A lightweight composite frame keeps the armor of this chassis respectable, but the interior spacious."
-	icon_state = "combat_body"
-	max_damage = 200
+	icon_state = "egg_body"
+	max_damage = 150
 	power_use = 2500
-	transparent_cabin =  TRUE
 
-/obj/item/mech_component/chassis/combat/prebuild()
+/obj/item/mech_component/chassis/pra_egg/prebuild()
+	. = ..()
+	mech_armor = new /obj/item/robot_parts/robot_component/armor/mech(src)
+
+/obj/item/mecha_equipment/mounted_system/combat/smg/pra_egg
+	icon_state = "pra_egg_smg"
+	restricted_hardpoints = list(HARDPOINT_RIGHT_HAND)
+
+
+/mob/living/heavy_vehicle/premade/pra_egg/armored
+	desc = "An exosuit developed by the People's Republic of Adhomai for the Division Experimental Exosuit. This one is a heavily armored version."
+	icon_state = "durand"
+
+	e_head = /obj/item/mech_component/sensors/pra_egg/armored
+	e_body = /obj/item/mech_component/chassis/pra_egg/armored
+	e_arms = /obj/item/mech_component/manipulators/pra_egg/armored
+
+	h_r_hand = /obj/item/mecha_equipment/mounted_system/combat/smg/pra_egg
+
+/obj/item/mech_component/manipulators/pra_egg/armored
+	name = "armored p'kus-3 arms"
+	exosuit_desc_string = "armored flexible arms"
+	desc = "Armored robotics arms designed to carry large weapons."
+	icon_state = "strong_egg_arms"
+	melee_damage = 20
+	max_damage = 120
+
+/obj/item/mech_component/sensors/pra_egg/armored
+	name = "armored p'kus-3 sensors"
+	exosuit_desc_string = "weather-resistant armored sensors"
+	desc = "An armored cockpit in the shape of an egg. Its sensors are adapted to the Adhomian winds and hail."
+	icon_state = "strong_egg_head"
+	max_damage = 120
+
+/obj/item/mech_component/chassis/pra_egg/armored
+	name = "armor p'kus-3 chassis"
+	exosuit_desc_string = "an armored chassis"
+	desc = "A armored composite frame keeps the armor of this chassis respectable, but the interior spacious."
+	icon_state = "strong_egg_body"
+	max_damage = 150
+	power_use = 2500
+
+/obj/item/mech_component/chassis/pra_egg/armored/prebuild()
 	. = ..()
 	mech_armor = new /obj/item/robot_parts/robot_component/armor/mech/combat(src)
-
-/obj/item/mech_component/chassis/combat/Initialize()
-	pilot_positions = list(
-		list(
-			"[NORTH]" = list("x" = 8,  "y" = 8),
-			"[SOUTH]" = list("x" = 8,  "y" = 8),
-			"[EAST]"  = list("x" = 4,  "y" = 8),
-			"[WEST]"  = list("x" = 12, "y" = 8)
-		)
-	)
-
-	. = ..()

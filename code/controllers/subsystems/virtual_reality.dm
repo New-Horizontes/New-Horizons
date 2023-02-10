@@ -314,6 +314,7 @@
 
 		H.gender = user.gender
 		H.name = H.species.get_random_name(H.gender)
+		H.update_dna()
 		H.UpdateAppearance()
 
 		H.preEquipOutfit(gear, FALSE)
