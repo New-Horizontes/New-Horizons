@@ -111,3 +111,13 @@
 	melee_damage_upper = 5
 
 	butchering_products = list(/obj/item/stack/material/animalhide = 2)
+
+
+/mob/living/simple_animal/hostile/commanded/dog/adhomai
+	name = "cybernetic ha'rron"
+	desc = "A heavily augmented animal used by the intelligence service of the People's Republic of Adhomai."
+
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "cyhound"
+	icon_living = "cyhound"
+	icon_dead = "cyhound_dead"

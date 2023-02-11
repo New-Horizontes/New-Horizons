@@ -412,6 +412,13 @@
 	temperature = 278.15
 	},
 /area/palace_free)
+"cdg" = (
+/obj/effect/floor_decal/concrete{
+	dir = 6
+	},
+/mob/living/simple_animal/hostile/commanded/dog/adhomai,
+/turf/simulated/floor/concrete/square,
+/area/palace_free)
 "cdF" = (
 /obj/structure/table/stone/marble,
 /obj/structure/window/reinforced,
@@ -487,10 +494,11 @@
 "cqp" = (
 /obj/effect/decal/fake_object{
 	icon = 'icons/obj/cold_dawn.dmi';
-	icon_state = "piece";
+	icon_state = "cyhound";
 	name = "Cybernetic Ha'rron";
 	desc = "A heavily augmented adhomian animal";
-	layer = 3.2
+	layer = 3.2;
+	dir = 4
 	},
 /obj/structure/railing/mapped{
 	layer = 3.5
@@ -36786,7 +36794,7 @@ cmQ
 cmQ
 cmQ
 fwB
-sCb
+cdg
 aHt
 sCb
 hny

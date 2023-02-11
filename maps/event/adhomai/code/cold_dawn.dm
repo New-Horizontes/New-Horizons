@@ -364,3 +364,10 @@
 /obj/item/mech_component/chassis/pra_egg/armored/prebuild()
 	. = ..()
 	mech_armor = new /obj/item/robot_parts/robot_component/armor/mech/combat(src)
+
+/obj/item/badmoon_map
+	name = "adhomian map replica"
+	desc = "A replica of an old adhomian map."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "map"
+	w_class = ITEMSIZE_SMALL
