@@ -1681,6 +1681,12 @@
 /obj/machinery/chemical_dispenser/full,
 /turf/simulated/floor/tiled/white,
 /area/palace_free)
+"hba" = (
+/mob/living/bot/beer,
+/turf/simulated/floor/carpet/art{
+	temperature = 278.15
+	},
+/area/palace_free)
 "hbu" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -19081,7 +19087,7 @@ gLr
 gLr
 gLr
 gLr
-gLr
+hba
 gLr
 gLr
 gLr
@@ -19092,7 +19098,7 @@ tKs
 gLr
 gLr
 gLr
-gLr
+hba
 gLr
 gLr
 use
@@ -20895,7 +20901,7 @@ oke
 auR
 mju
 gLr
-gLr
+hba
 gLr
 gsG
 wol
@@ -21133,7 +21139,7 @@ xyI
 wol
 wol
 jrA
-gLr
+hba
 gLr
 cUQ
 eOU
@@ -23189,7 +23195,7 @@ trc
 wol
 wol
 jrA
-gLr
+hba
 gLr
 cUQ
 eOU
@@ -23979,7 +23985,7 @@ rhb
 auR
 mju
 gLr
-gLr
+hba
 gLr
 gsG
 wol
@@ -25515,7 +25521,7 @@ use
 cmQ
 tKs
 gLr
-gLr
+hba
 gLr
 gLr
 gLr
@@ -26549,7 +26555,7 @@ qbx
 xCc
 jrA
 gLr
-gLr
+hba
 gLr
 gsG
 wol
@@ -28082,7 +28088,7 @@ eHJ
 fMI
 sIa
 gLr
-gLr
+hba
 gLr
 gLr
 use
@@ -30918,7 +30924,7 @@ qbx
 xCc
 jrA
 gLr
-gLr
+hba
 gLr
 gsG
 wol

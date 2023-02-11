@@ -371,3 +371,72 @@
 	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "map"
 	w_class = ITEMSIZE_SMALL
+
+/mob/living/bot/beer
+	name = "alcohol serving bot"
+	desc = "A small bot full of alcohol."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "beerbot"
+
+/mob/living/bot/beer/attackby(var/obj/item/O, var/mob/user)
+	..()
+	if(!user.Adjacent(src)) return
+	var/obj/item/reagent_containers/RG = O
+	if (istype(RG) && RG.is_open_container())
+		if(RG.reagents.total_volume >= RG.volume)
+			to_chat(usr, SPAN_WARNING("\The [RG] is already full."))
+			return
+		RG.reagents.add_reagent(/singleton/reagent/alcohol/victorygin, min(RG.volume - RG.reagents.total_volume))
+		playsound(src.loc, 'sound/machines/reagent_dispense.ogg', 25, 1)
+
+/mob/living/bot/beer/think()
+	..()
+	if(prob(5))
+		var/moving_to = 0 // otherwise it always picks 4, fuck if I know.   Did I mention fuck BYOND
+		moving_to = pick(alldirs)
+		set_dir(moving_to)			//How about we turn them the direction they are moving, yay.
+		Move(get_step(src,moving_to))
+
+/mob/living/bot/beer/death()
+	..(null, "blows apart!")
+	var/T = get_turf(src)
+	new /obj/effect/gibspawner/robot(T)
+	spark(T, 1, alldirs)
+	qdel(src)
+
+/obj/structure/tank_dispenser
+	name = "tank dispenser"
+	desc = "A virtual reality capable of summoning a tank."
+	icon = 'icons/obj/glasscasebutton.dmi'
+	icon_state = "c1"
+	var/used = FALSE
+	var/tank_type = /mob/living/heavy_vehicle/premade/pra_tank
+
+/obj/structure/tank_dispenser/Initialize()
+	. = ..()
+	add_overlay("b41")
+
+/obj/structure/tank_dispenser/examine(mob/user)
+	. = ..()
+	if(used)
+		to_chat(user, SPAN_WARNING("\The [src] is not ready to dispense another tank."))
+	else
+		to_chat(user, SPAN_NOTICE("\The [src] is ready."))
+
+/obj/structure/tank_dispenser/attack_hand(mob/user as mob)
+	if(used)
+		return
+	spawn_tank()
+
+/obj/structure/tank_dispenser/proc/spawn_tank()
+	used = TRUE
+	new tank_type (get_turf(src))
+
+	addtimer(CALLBACK(src, PROC_REF(rearm)), 5 MINUTES)
+
+/obj/structure/tank_dispenser/proc/rearm()
+	used = FALSE
+
+/obj/structure/tank_dispenser/ala
+	tank_type = /mob/living/heavy_vehicle/premade/dpra_tank
+
