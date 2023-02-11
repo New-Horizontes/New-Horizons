@@ -241,6 +241,7 @@
 
 /obj/item/gun/energy/mountedcannon/tank
 	projectile_type = /obj/item/projectile/bullet/tank
+	max_shots = 1
 
 /obj/item/projectile/bullet/tank
 	name = "warhead"

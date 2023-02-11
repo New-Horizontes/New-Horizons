@@ -25889,6 +25889,10 @@
 /obj/structure/flora/pottedplant/random,
 /turf/simulated/floor/holofloor/beach/sand,
 /area/horizon/holodeck/source_dininghall)
+"ics" = (
+/obj/machinery/mech_recharger/hephaestus,
+/turf/unsimulated/floor,
+/area/cruise/virtual_reality)
 "ipe" = (
 /obj/structure/sign/vacuum{
 	pixel_x = -32
@@ -26034,6 +26038,12 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/centcom/ferry)
+"lYa" = (
+/obj/structure/barricade/plasteel/wired{
+	dir = 1
+	},
+/turf/unsimulated/floor/xmas,
+/area/cruise/virtual_reality)
 "maT" = (
 /turf/simulated/floor/holofloor/beach/sand{
 	icon_state = "desert2"
@@ -74907,7 +74917,7 @@ bnj
 bnj
 atJ
 bnj
-bnj
+lYa
 bnj
 bnj
 bnj
@@ -75164,7 +75174,7 @@ bnj
 bnj
 bnj
 bnj
-bnj
+lYa
 bnj
 bnj
 bnj
@@ -77490,7 +77500,7 @@ baX
 baX
 baX
 baX
-baX
+ics
 bDT
 aaa
 aaa
@@ -77747,7 +77757,7 @@ rRd
 baX
 baX
 baX
-baX
+ics
 bDT
 aaa
 aaa
@@ -78687,7 +78697,7 @@ pQd
 baX
 baX
 baX
-baX
+ics
 bDT
 bcd
 bcd
@@ -78944,7 +78954,7 @@ baX
 baX
 baX
 baX
-baX
+ics
 bDT
 bcd
 bcd
