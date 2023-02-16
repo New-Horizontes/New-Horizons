@@ -55,10 +55,10 @@
 		if(use_check_and_message(usr, USE_DISALLOW_SILICONS))
 			return
 		if(istype(buckled_to, /obj/vehicle/bike/monowheel/aerosled))
-			setClickCooldown(4)
+			setClickCooldown(8)
 			var/turf/T = get_turf(src)
 			visible_message("<span class='danger'>\The [buckled_to] opens fire!</span>")
-			var/obj/item/projectile/bullet/pistol/medium/LE = new (T)
+			var/obj/item/projectile/bullet/pistol/LE = new (T)
 			playsound(usr.loc, 'sound/weapons/gunshot/gunshot_pistol.ogg', 75, 1)
 			LE.launch_projectile(A, zone_sel? zone_sel.selecting : null, src)
 	. = ..()
