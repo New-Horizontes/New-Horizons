@@ -257,114 +257,37 @@
 	explosion(A, -1, 0, 2)
 	..()
 
-//egg
+//wheel tank
 
-/mob/living/heavy_vehicle/premade/pra_egg
-	name = "P'kus-3 exosuit"
-	desc = "An exosuit developed by the People's Republic of Adhomai for the Division Experimental Exosuit."
+/mob/living/heavy_vehicle/premade/wheel_tank
+	name = "wheel tank"
+	desc = "A single-track-wheeled light reconnaissance vehicle inspired by the Tajaran monowheels. It has room for a single driver who also controls its armament, a pair of machine guns."
 	icon_state = "durand"
 
-	e_head = /obj/item/mech_component/sensors/pra_egg
-	e_body = /obj/item/mech_component/chassis/pra_egg
-	e_arms = /obj/item/mech_component/manipulators/pra_egg
-	e_legs = /obj/item/mech_component/propulsion/pra_egg
-	e_color = COLOR_STEEL
 	h_head = null
-//	h_r_hand = /obj/item/mecha_equipment/mounted_system/combat/smg/pra_egg
+	e_head = /obj/item/mech_component/sensors/combat/tank/wheel
+	e_body = /obj/item/mech_component/chassis/combat/tank/wheel
+	e_arms = /obj/item/mech_component/manipulators/combat/tank/wheel
+	e_legs = /obj/item/mech_component/propulsion/tracks/tank/wheel
+	e_color = COLOR_TITANIUM
 
-/obj/item/mech_component/manipulators/pra_egg
-	name = "p'kus-3 arms"
-	exosuit_desc_string = "flexible arms"
-	desc = "Robotics arms designed to carry large weapons."
-	icon_state = "egg_arms"
-	melee_damage = 15
-	action_delay = 5
-	max_damage = 100
-	power_use = 5000
-	has_hardpoints = list(HARDPOINT_RIGHT_HAND, HARDPOINT_LEFT_HAND)
+	h_r_shoulder = /obj/item/mecha_equipment/mounted_system/combat/smg/tank/wheel
+	h_l_shoulder = /obj/item/mecha_equipment/mounted_system/combat/smg/tank/wheel
 
-/obj/item/mech_component/propulsion/pra_egg
-	name = "p'kus-3 legs"
-	exosuit_desc_string = "hydraulic legs"
-	desc = "Strong legs adapted for the Adhomian rought terrain."
-	icon_state = "egg_legs"
-	move_delay = 3
-	turn_delay = 3
-	max_damage = 100
-	power_use = 5000
-	trample_damage = 20
+/obj/item/mech_component/manipulators/combat/tank/wheel
+	icon_state = "wheeltank_arms"
 
-/obj/item/mech_component/sensors/pra_egg
-	name = "p'kus-3 sensors"
-	gender = PLURAL
-	exosuit_desc_string = "weather-resistant sensors"
-	desc = "A round cockpit in the shape of an egg. Its sensors are adapted to the Adhomian winds and hail."
-	icon_state = "egg_head"
-	max_damage = 50
-	power_use = 50000
-	vision_flags = SEE_MOBS
-	see_invisible = SEE_INVISIBLE_NOLIGHTING
+/obj/item/mech_component/sensors/combat/tank/wheel
+	icon_state = "wheeltank_head"
 
-/obj/item/mech_component/sensors/pra_egg/prebuild()
-	..()
-	software = new(src)
-	software.installed_software = list(MECH_SOFTWARE_WEAPONS, MECH_SOFTWARE_UTILITY)
+/obj/item/mech_component/chassis/combat/tank/wheel
+	icon_state = "wheeltank_chassis"
 
-/obj/item/mech_component/chassis/pra_egg
-	name = "p'kus-3 chassis"
-	hatch_descriptor = "canopy"
-	pilot_coverage = 100
-	exosuit_desc_string = "a light armored chassis"
-	desc = "A lightweight composite frame keeps the armor of this chassis respectable, but the interior spacious."
-	icon_state = "egg_body"
-	max_damage = 150
-	power_use = 2500
+/obj/item/mech_component/propulsion/tracks/tank/wheel
+	icon_state = "wheeltank_legs"
 
-/obj/item/mech_component/chassis/pra_egg/prebuild()
-	. = ..()
-	mech_armor = new /obj/item/robot_parts/robot_component/armor/mech(src)
-
-/obj/item/mecha_equipment/mounted_system/combat/smg/pra_egg
-	icon_state = "pra_egg_smg"
-	restricted_hardpoints = list(HARDPOINT_RIGHT_HAND)
-
-
-/mob/living/heavy_vehicle/premade/pra_egg/armored
-	desc = "An exosuit developed by the People's Republic of Adhomai for the Division Experimental Exosuit. This one is a heavily armored version."
-	icon_state = "durand"
-
-	e_head = /obj/item/mech_component/sensors/pra_egg/armored
-	e_body = /obj/item/mech_component/chassis/pra_egg/armored
-	e_arms = /obj/item/mech_component/manipulators/pra_egg/armored
-
-	h_r_hand = /obj/item/mecha_equipment/mounted_system/combat/smg/pra_egg
-
-/obj/item/mech_component/manipulators/pra_egg/armored
-	name = "armored p'kus-3 arms"
-	exosuit_desc_string = "armored flexible arms"
-	desc = "Armored robotics arms designed to carry large weapons."
-	icon_state = "strong_egg_arms"
-	melee_damage = 20
-	max_damage = 120
-
-/obj/item/mech_component/sensors/pra_egg/armored
-	name = "armored p'kus-3 sensors"
-	exosuit_desc_string = "weather-resistant armored sensors"
-	desc = "An armored cockpit in the shape of an egg. Its sensors are adapted to the Adhomian winds and hail."
-	icon_state = "strong_egg_head"
-	max_damage = 120
-
-/obj/item/mech_component/chassis/pra_egg/armored
-	name = "armor p'kus-3 chassis"
-	exosuit_desc_string = "an armored chassis"
-	desc = "A armored composite frame keeps the armor of this chassis respectable, but the interior spacious."
-	icon_state = "strong_egg_body"
-	max_damage = 150
-	power_use = 2500
-
-/obj/item/mech_component/chassis/pra_egg/armored/prebuild()
-	. = ..()
-	mech_armor = new /obj/item/robot_parts/robot_component/armor/mech/combat(src)
+/obj/item/mecha_equipment/mounted_system/combat/smg/tank/wheel
+	icon_state = "gunpod"
 
 /obj/item/badmoon_map
 	name = "adhomian map replica"
@@ -441,3 +364,11 @@
 /obj/structure/tank_dispenser/ala
 	tank_type = /mob/living/heavy_vehicle/premade/dpra_tank
 
+/obj/vehicle/bike/monowheel/aerosled
+	name = "armored aerosled"
+	desc = "A propeller-driven sled used for reconnaissance."
+	icon = 'icons/obj/aerosled.dmi'
+	icon_state = "aerosled_off"
+	bike_icon = "aerosled"
+	pixel_x = -16
+	mob_offset_y = 4

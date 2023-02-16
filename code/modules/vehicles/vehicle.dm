@@ -39,6 +39,7 @@
 	var/load_offset_x = 0		//pixel_x offset for item overlay
 	var/load_offset_y = 0		//pixel_y offset for item overlay
 	var/mob_offset_y = 0		//pixel_y offset for mob overlay
+	var/mob_offset_x = 0
 	var/flying = FALSE
 
 //-------------------------------------------
@@ -302,6 +303,7 @@
 		C.pixel_x += load_offset_x
 		if(ismob(C))
 			C.pixel_y += mob_offset_y
+			C.pixel_x += mob_offset_x
 		else
 			if(istype(C, /obj/structure/closet/crate))
 				C.pixel_y += load_offset_y
