@@ -24,7 +24,7 @@
 	var/obj/item/clothing/glasses/GS = glasses
 	if(istype(G) && G.Touch(A,src,1))
 		return
-	
+
 	else if(istype(GS) && GS.Look(A,src,1)) // for goggles
 		return
 
@@ -45,13 +45,22 @@
 /mob/living/carbon/human/RangedAttack(var/atom/A)
 	var/obj/item/clothing/gloves/GV = gloves
 	var/obj/item/clothing/glasses/GS = glasses
-	
+
 	if(istype(GS) && GS.Look(A,src,0)) // for goggles
 		return
-	
+
 	if(istype(GV) && GV.Touch(A,src,0)) // for magic gloves
 		return
-
+	if(buckled_to && a_intent == I_HURT)
+		if(use_check_and_message(usr, USE_DISALLOW_SILICONS))
+			return
+		if(istype(buckled_to, /obj/vehicle/bike/monowheel/aerosled))
+			setClickCooldown(4)
+			var/turf/T = get_turf(src)
+			visible_message("<span class='danger'>\The [buckled_to] opens fire!</span>")
+			var/obj/item/projectile/bullet/pistol/medium/LE = new (T)
+			playsound(usr.loc, 'sound/weapons/gunshot/gunshot_pistol.ogg', 75, 1)
+			LE.launch_projectile(A, zone_sel? zone_sel.selecting : null, src)
 	. = ..()
 
 /mob/living/RestrainedClickOn(var/atom/A)
