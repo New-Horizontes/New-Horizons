@@ -1,4 +1,3 @@
-/*
 /datum/ghostspawner/human/headmaster_kosmostrelki
 	short_name = "headmaster_kosmostrelki"
 	name = "Headmaster Ship Kosmostrelki"
@@ -96,4 +95,3 @@
 						/obj/item/storage/box/hadii_card = 1
 						)
 	l_hand = /obj/item/device/megaphone
-*/
