@@ -229,7 +229,6 @@
 /obj/item/mech_component/chassis/combat/tank/nka
 	icon_state = "nka_hull"
 
-
 /obj/item/mecha_equipment/mounted_system/combat/smg/tank
 	icon_state = "tank_lmg"
 
@@ -276,12 +275,15 @@
 
 /obj/item/mech_component/manipulators/combat/tank/wheel
 	icon_state = "wheeltank_arms"
+	max_damage = 90
 
 /obj/item/mech_component/sensors/combat/tank/wheel
 	icon_state = "wheeltank_head"
+	max_damage = 30
 
 /obj/item/mech_component/chassis/combat/tank/wheel
 	icon_state = "wheeltank_chassis"
+	max_damage = 120
 
 /obj/item/mech_component/propulsion/tracks/tank/wheel
 	icon_state = "wheeltank_legs"

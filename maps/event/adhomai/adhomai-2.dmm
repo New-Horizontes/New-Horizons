@@ -40,12 +40,38 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"baW" = (
+/obj/machinery/telecomms/processor/preset_one,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "bdH" = (
 /obj/structure/curtain/open/bed,
 /turf/simulated/floor/wood{
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"bhT" = (
+/obj/machinery/telecomms/server/presets/common,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"bpg" = (
+/obj/machinery/telecomms/server/presets/supply,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"bCF" = (
+/obj/machinery/computer/robotics{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "bNn" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/nka_manifesto,
@@ -205,6 +231,12 @@
 /obj/item/device/flashlight/lantern,
 /obj/item/device/flashlight/lantern,
 /obj/item/device/flashlight/lantern,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
 /turf/simulated/floor/wood{
 	temperature = 268.15
 	},
@@ -272,6 +304,12 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"dUd" = (
+/obj/machinery/telecomms/receiver/preset_right,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "dUw" = (
 /obj/item/clothing/under/tajaran/archeologist,
 /obj/item/clothing/suit/storage/tajaran/archeologist,
@@ -284,6 +322,13 @@
 /obj/item/flame/lighter/adhomai,
 /turf/simulated/floor/exoplanet/mineral/adhomai,
 /area/exoplanet/adhomai)
+"egh" = (
+/obj/machinery/computer/message_monitor,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "elc" = (
 /obj/structure/closet/cabinet,
 /turf/simulated/floor/wood{
@@ -300,6 +345,12 @@
 "eQU" = (
 /turf/simulated/wall/wood,
 /area/exoplanet/adhomai)
+"fbW" = (
+/obj/machinery/telecomms/processor/preset_two,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "fdJ" = (
 /obj/structure/closet/cabinet,
 /obj/item/reagent_containers/food/drinks/bottle/messa_mead,
@@ -392,6 +443,27 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"fXX" = (
+/obj/machinery/computer/telecomms/server{
+	network = "tcommsat"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"gis" = (
+/obj/machinery/telecomms/server/presets/unused,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"gqV" = (
+/obj/machinery/telecomms/bus/preset_three,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "gsQ" = (
 /obj/structure/bookcase,
 /turf/simulated/floor/wood{
@@ -412,6 +484,18 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"gEH" = (
+/obj/machinery/telecomms/server/presets/security,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"gFx" = (
+/obj/machinery/telecomms/server/presets/command,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "gIA" = (
 /obj/structure/table/rack,
 /obj/item/material/hatchet,
@@ -422,6 +506,12 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"gMD" = (
+/obj/machinery/blackbox_recorder,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "gRT" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -472,12 +562,24 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai)
+"imY" = (
+/obj/machinery/telecomms/processor/preset_three,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "ipN" = (
 /mob/living/carbon/human/tajaran,
 /turf/simulated/floor/wood{
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"iro" = (
+/obj/machinery/telecomms/bus/preset_two,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "iwK" = (
 /obj/structure/cult/tome{
 	desc = "A stone altar dedicated to Raskara. The blood is still fresh.";
@@ -486,6 +588,10 @@
 	},
 /obj/item/material/knife/raskariim,
 /obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
+/area/exoplanet/adhomai)
+"iTa" = (
+/obj/item/reagent_containers/powder_horn,
 /turf/simulated/floor/exoplanet/mineral/adhomai,
 /area/exoplanet/adhomai)
 "jfh" = (
@@ -523,6 +629,16 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai)
+"jls" = (
+/obj/item/clothing/accessory/tajaran/charm/raskariim,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
+/area/exoplanet/adhomai)
+"jmT" = (
+/obj/machinery/telecomms/allinone/ship/station_relay,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "jyx" = (
 /turf/simulated/floor/exoplanet/barren{
 	temperature = 268.15
@@ -624,6 +740,10 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai)
+"kSA" = (
+/obj/item/clothing/head/helmet/amohda,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
+/area/exoplanet/adhomai)
 "kXr" = (
 /obj/structure/table/glass,
 /obj/item/bodybag/cryobag,
@@ -715,6 +835,10 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"miR" = (
+/obj/item/material/sword/amohdan_sword,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
+/area/exoplanet/adhomai)
 "mjL" = (
 /mob/living/simple_animal/fatshouter,
 /turf/simulated/floor/exoplanet/snow{
@@ -743,6 +867,12 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"mFA" = (
+/obj/machinery/ntnet_relay,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "mIk" = (
 /obj/structure/railing/fence{
 	dir = 4
@@ -779,6 +909,13 @@
 /mob/living/heavy_vehicle/premade/nka_tank,
 /turf/simulated/floor/exoplanet/mineral/adhomai,
 /area/exoplanet/adhomai)
+"nyd" = (
+/obj/structure/bonfire/light_up,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 268.15;
+	light_range = 1
+	},
+/area/exoplanet/adhomai)
 "nyy" = (
 /obj/machinery/appliance/cooker/oven/adhomai,
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -792,6 +929,10 @@
 	temperature = 268.15;
 	light_range = 1
 	},
+/area/exoplanet/adhomai)
+"nEV" = (
+/obj/item/clothing/suit/armor/amohda,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
 /area/exoplanet/adhomai)
 "nFf" = (
 /obj/structure/table/wood,
@@ -824,6 +965,12 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai)
+"nLe" = (
+/obj/machinery/iff_beacon/horizon,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "nLk" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/carpet/art{
@@ -885,6 +1032,12 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai)
+"owE" = (
+/obj/machinery/telecomms/processor/preset_four,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "oFU" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -940,6 +1093,12 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 278.15
 	},
+/area/exoplanet/adhomai)
+"pjH" = (
+/obj/item/gun/projectile/musket,
+/obj/item/ammo_casing/musket,
+/obj/item/ammo_casing/musket,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
 /area/exoplanet/adhomai)
 "pmq" = (
 /obj/structure/closet/secure_closet/cabinet{
@@ -1045,6 +1204,21 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"qcq" = (
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"qiC" = (
+/obj/machinery/telecomms/server/presets/science,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"qtc" = (
+/obj/item/storage/box/dynamite,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
+/area/exoplanet/adhomai)
 "qtg" = (
 /turf/unsimulated/wall/fakepdoor,
 /area/exoplanet/adhomai)
@@ -1066,6 +1240,13 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"qyb" = (
+/obj/machinery/computer/telecomms/traffic,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "qAm" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/white{
@@ -1115,6 +1296,12 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"qZf" = (
+/obj/machinery/telecomms/hub/preset,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "rfj" = (
 /turf/unsimulated/mineral{
 	icon = 'icons/turf/smooth/icy_wall.dmi';
@@ -1150,6 +1337,21 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"rJS" = (
+/obj/machinery/telecomms/server/presets/service,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"rRA" = (
+/obj/machinery/computer/telecomms/monitor{
+	network = "tcommsat"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "rUj" = (
 /obj/structure/flora/bush/adhomai,
 /mob/living/simple_animal/hostile/harron,
@@ -1200,6 +1402,9 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai)
+"shP" = (
+/turf/unsimulated/wall/riveted,
+/area/palace_free)
 "six" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 4
@@ -1208,12 +1413,23 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"swY" = (
+/obj/structure/bed/stool/bar/padded/red,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 268.15;
+	light_range = 1
+	},
+/area/exoplanet/adhomai)
 "sCZ" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/bodybags,
 /turf/simulated/floor/wood{
 	temperature = 268.15
 	},
+/area/exoplanet/adhomai)
+"sJd" = (
+/obj/item/clothing/accessory/badge/nka_passport,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
 /area/exoplanet/adhomai)
 "sKY" = (
 /obj/item/gun/projectile/automatic/tommygun,
@@ -1240,9 +1456,9 @@
 /area/exoplanet/adhomai)
 "tcN" = (
 /obj/structure/table/standard,
-/obj/item/cell/high,
-/obj/item/cell/high,
-/obj/item/cell/high,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/exoplanet/barren{
 	temperature = 268.15
 	},
@@ -1287,6 +1503,12 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"tvY" = (
+/obj/machinery/telecomms/broadcaster/preset_right,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "twN" = (
 /obj/machinery/computer/cryopod{
 	pixel_y = 32
@@ -1351,6 +1573,16 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"uqO" = (
+/obj/item/storage/box/fancy/cigarettes/nka,
+/obj/item/storage/box/fancy/cigarettes/nka,
+/obj/item/storage/box/fancy/cigarettes/nka,
+/obj/item/storage/box/fancy/cigarettes/nka,
+/obj/structure/table/wood,
+/turf/simulated/floor/wood{
+	temperature = 268.15
+	},
+/area/exoplanet/adhomai)
 "uru" = (
 /obj/structure/bed/stool/chair/sofa/right/black{
 	dir = 1
@@ -1365,10 +1597,26 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai)
+"uGV" = (
+/obj/machinery/telecomms/server/presets/engineering,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"uHv" = (
+/obj/machinery/telecomms/bus/preset_one,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "uIs" = (
 /turf/simulated/wall/wood{
 	can_open = 1
 	},
+/area/exoplanet/adhomai)
+"uLJ" = (
+/obj/item/material/knife/raskariim,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
 /area/exoplanet/adhomai)
 "uNr" = (
 /obj/structure/flora/rock/adhomai,
@@ -1405,6 +1653,14 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"vss" = (
+/obj/item/modular_computer/console/preset/research{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "vHy" = (
 /obj/structure/sink/puddle,
 /turf/simulated/floor/exoplanet/snow{
@@ -1419,6 +1675,12 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai)
+"vTf" = (
+/obj/machinery/telecomms/message_server,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "vVA" = (
 /turf/simulated/floor/carpet/art{
 	temperature = 278.15
@@ -1471,6 +1733,16 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"wOW" = (
+/obj/machinery/telecomms/server/presets/medical,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
+"wUj" = (
+/obj/effect/decal/remains/xeno,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
+/area/exoplanet/adhomai)
 "wVo" = (
 /obj/structure/bed/stool/chair/sofa/black{
 	dir = 1
@@ -1487,6 +1759,12 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"xcD" = (
+/obj/structure/lattice/catwalk/indoor/grate,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "xhH" = (
 /obj/structure/railing/fence{
 	dir = 4
@@ -1504,6 +1782,15 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"xlk" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/weldpack,
+/obj/item/reagent_containers/weldpack,
+/obj/item/reagent_containers/weldpack,
+/turf/simulated/floor/exoplanet/barren{
+	temperature = 268.15
+	},
+/area/exoplanet/adhomai)
 "xrA" = (
 /obj/structure/table/wood,
 /obj/item/device/binoculars/spyglass,
@@ -1516,6 +1803,16 @@
 	temperature = 268.15
 	},
 /area/exoplanet/adhomai)
+"xsL" = (
+/obj/item/spirit_board/fluff/klavdiya_board,
+/turf/simulated/floor/exoplanet/mineral/adhomai,
+/area/exoplanet/adhomai)
+"xuQ" = (
+/obj/machinery/telecomms/bus/preset_four,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/palace_free)
 "xNd" = (
 /obj/structure/bed/stool/chair/sofa/left/beige{
 	dir = 1
@@ -9968,7 +10265,7 @@ eQU
 mCd
 mCd
 mCd
-mCd
+uqO
 eQU
 nhu
 oFU
@@ -11280,11 +11577,11 @@ uEB
 uEB
 uEB
 uEB
-gXP
 jyx
-gXP
 jyx
-gXP
+jyx
+jyx
+jyx
 uEB
 uEB
 uEB
@@ -11537,11 +11834,11 @@ uEB
 uEB
 uEB
 uEB
+gXP
 jyx
+gXP
 jyx
-jyx
-jyx
-jyx
+gXP
 uEB
 uEB
 uEB
@@ -11796,7 +12093,7 @@ uEB
 uEB
 jyx
 jyx
-kYC
+jyx
 jyx
 jyx
 uEB
@@ -12051,11 +12348,11 @@ uEB
 uEB
 uEB
 uEB
-gXP
 jyx
-gXP
 jyx
-gXP
+jyx
+jyx
+jyx
 uEB
 uEB
 uEB
@@ -12310,7 +12607,7 @@ sea
 jyx
 jyx
 jyx
-jyx
+kYC
 jyx
 jyx
 uEB
@@ -12567,7 +12864,7 @@ tcN
 jyx
 jyx
 jyx
-kYC
+jyx
 jyx
 jyx
 uEB
@@ -12820,7 +13117,7 @@ uEB
 uEB
 uEB
 uEB
-tcN
+xlk
 jyx
 gXP
 jyx
@@ -15863,7 +16160,7 @@ bOv
 bOv
 bOv
 bOv
-bOv
+qtc
 lzD
 lzD
 lzD
@@ -19380,10 +19677,10 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+pjH
+bOv
 lzD
 lzD
 lzD
@@ -19637,10 +19934,10 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
+iTa
 lzD
 lzD
 lzD
@@ -19894,9 +20191,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -20151,7 +20448,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -20408,7 +20705,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -20665,6 +20962,8 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -20702,10 +21001,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+jls
+bOv
 lzD
 lzD
 lzD
@@ -20923,6 +21220,7 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
 lzD
@@ -20957,12 +21255,11 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -21180,8 +21477,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -21214,11 +21511,11 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -21438,8 +21735,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -21471,11 +21768,11 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -21696,43 +21993,43 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
+bOv
+bOv
+lzD
+bOv
+bOv
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
 lzD
 lzD
 lzD
 bOv
 bOv
+bOv
 lzD
 bOv
 bOv
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
 lzD
 lzD
 lzD
@@ -21984,11 +22281,11 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -22241,8 +22538,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -22493,13 +22790,13 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -22751,13 +23048,13 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -23009,12 +23306,12 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -23271,8 +23568,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -23528,9 +23825,9 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
-lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -23785,9 +24082,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -24043,8 +24340,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -24300,8 +24597,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -24557,9 +24854,9 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
-lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -24814,9 +25111,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -24880,9 +25177,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+qtc
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -25072,8 +25369,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -25137,10 +25434,10 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+qtc
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -25329,7 +25626,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -25394,10 +25691,10 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+qtc
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -25488,7 +25785,7 @@ uEB
 uEB
 uEB
 uEB
-uEB
+lbs
 uEB
 uEB
 bOv
@@ -25651,10 +25948,10 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+qtc
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -25873,11 +26170,11 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -25908,9 +26205,9 @@ bOv
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+qtc
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -26129,32 +26426,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-bOv
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
 bOv
 bOv
-lzD
-lzD
 lzD
 lzD
 lzD
@@ -26168,6 +26441,30 @@ lzD
 lzD
 lzD
 lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+lzD
+bOv
+bOv
+lzD
+lzD
+lzD
+lzD
+lzD
+bOv
+bOv
+bOv
+bOv
+bOv
+lzD
+lzD
+lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -26385,9 +26682,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -26420,10 +26717,10 @@ bOv
 cmQ
 bOv
 bOv
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -26641,8 +26938,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -26898,7 +27195,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -27154,8 +27451,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -27409,9 +27706,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -27665,10 +27962,10 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+nEV
+wUj
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -27794,7 +28091,7 @@ uEB
 uEB
 uEB
 uEB
-uEB
+lbs
 uEB
 uEB
 uEB
@@ -27921,11 +28218,11 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+kSA
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -28056,7 +28353,7 @@ uEB
 uEB
 uEB
 uEB
-uEB
+lbs
 uEB
 uEB
 uEB
@@ -28179,10 +28476,10 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+miR
+bOv
 lzD
 lzD
 lzD
@@ -28720,7 +29017,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -28977,7 +29274,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -29234,7 +29531,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -29491,7 +29788,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -29748,8 +30045,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -30005,8 +30302,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -30262,9 +30559,9 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
-lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -30519,10 +30816,10 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -30776,11 +31073,11 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -31033,12 +31330,12 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -31290,13 +31587,13 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -31547,13 +31844,13 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
 lzD
 lzD
 lzD
-lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -31804,14 +32101,14 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -32061,14 +32358,14 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+xsL
+bOv
 lzD
 lzD
 lzD
@@ -32260,7 +32557,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -32323,9 +32620,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -32517,7 +32814,7 @@ lzD
 lzD
 lzD
 lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -32774,6 +33071,7 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
 lzD
@@ -32802,10 +33100,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 bOv
 bOv
@@ -33031,6 +33328,7 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
 lzD
@@ -33057,12 +33355,11 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
 lzD
 lzD
 bOv
@@ -33288,6 +33585,8 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -33312,10 +33611,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -33544,6 +33841,10 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -33566,12 +33867,8 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -33801,6 +34098,11 @@ lzD
 lzD
 lzD
 lzD
+bOv
+lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -33822,17 +34124,12 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
+bOv
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
 lzD
 lzD
 lzD
@@ -34058,6 +34355,12 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -34078,19 +34381,13 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -34317,6 +34614,10 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -34338,16 +34639,12 @@ lzD
 lzD
 lzD
 lzD
+bOv
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -34573,6 +34870,11 @@ lzD
 lzD
 lzD
 lzD
+bOv
+bOv
+bOv
+bOv
+sJd
 lzD
 lzD
 lzD
@@ -34597,14 +34899,9 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -34830,11 +35127,11 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -38587,10 +38884,10 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
 bOv
 bOv
+bOv
+htD
 bOv
 bOv
 bOv
@@ -38845,12 +39142,12 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
 bOv
 bOv
+pxx
 bOv
-lzD
+nnK
+bOv
 lzD
 lzD
 lzD
@@ -39102,12 +39399,12 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+htD
+bOv
+bOv
+bOv
 lzD
 lzD
 lzD
@@ -39359,12 +39656,12 @@ lzD
 lzD
 lzD
 lzD
-lzD
-lzD
-lzD
-lzD
-lzD
-lzD
+bOv
+bOv
+pxx
+bOv
+nnK
+bOv
 lzD
 lzD
 lzD
@@ -45700,7 +45997,7 @@ uEB
 uEB
 uEB
 uEB
-uEB
+swY
 uEB
 uEB
 uEB
@@ -45957,7 +46254,7 @@ uEB
 uEB
 uEB
 uEB
-uEB
+nyd
 uEB
 uEB
 uEB
@@ -46214,7 +46511,7 @@ uEB
 uEB
 uEB
 uEB
-uEB
+swY
 uEB
 uEB
 uEB
@@ -47116,7 +47413,7 @@ lzD
 lzD
 lzD
 bOv
-bOv
+uLJ
 bOv
 bOv
 bOv
@@ -63459,7 +63756,7 @@ uEB
 uEB
 uEB
 uEB
-uEB
+rfj
 rfj
 "}
 (242,1,1) = {"
@@ -63715,8 +64012,8 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
+rfj
+rfj
 rfj
 "}
 (243,1,1) = {"
@@ -63971,9 +64268,9 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
 rfj
 "}
 (244,1,1) = {"
@@ -64227,10 +64524,10 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
 rfj
 "}
 (245,1,1) = {"
@@ -64482,12 +64779,12 @@ uEB
 ouE
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
 rfj
 "}
 (246,1,1) = {"
@@ -64734,17 +65031,17 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
 rfj
 "}
 (247,1,1) = {"
@@ -64989,19 +65286,19 @@ qFS
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
 rfj
 "}
 (248,1,1) = {"
@@ -65245,20 +65542,20 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-odS
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+shP
+shP
+shP
+shP
+shP
+shP
+shP
+shP
+shP
+shP
+shP
 rfj
 "}
 (249,1,1) = {"
@@ -65501,21 +65798,21 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+shP
+imY
+gqV
+vTf
+bhT
+rJS
+gEH
+uGV
+gMD
+tvY
+shP
 rfj
 "}
 (250,1,1) = {"
@@ -65758,21 +66055,21 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+shP
+mFA
+dUd
+qZf
+baW
+uHv
+fbW
+iro
+qcq
+jmT
+shP
 rfj
 "}
 (251,1,1) = {"
@@ -66015,21 +66312,21 @@ uEB
 odS
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+shP
+owE
+xuQ
+gis
+gFx
+bpg
+wOW
+qiC
+qcq
+nLe
+shP
 rfj
 "}
 (252,1,1) = {"
@@ -66271,22 +66568,22 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+rfj
+shP
+xcD
+xcD
+xcD
+xcD
+xcD
+xcD
+xcD
+xcD
+xcD
+shP
 rfj
 "}
 (253,1,1) = {"
@@ -66527,23 +66824,23 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+shP
+xcD
+xcD
+xcD
+egh
+bCF
+qyb
+rRA
+fXX
+vss
+shP
 rfj
 "}
 (254,1,1) = {"
@@ -66783,24 +67080,24 @@ uEB
 uEB
 uEB
 uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
-uEB
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+rfj
+shP
+shP
+shP
+shP
+shP
+shP
+shP
+shP
+shP
+shP
+shP
 rfj
 "}
 (255,1,1) = {"

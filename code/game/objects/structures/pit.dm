@@ -122,7 +122,7 @@
 	name = "mound"
 	desc = "Some things are better left buried."
 	open = FALSE
-	var/landmine_prob = 25
+	var/landmine_prob = 100
 
 /obj/structure/pit/landmine/Initialize()
 	. = ..()
