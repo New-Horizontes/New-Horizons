@@ -374,3 +374,30 @@
 	bike_icon = "aerosled"
 	pixel_x = -16
 	mob_offset_y = 4
+
+/obj/item/gun/projectile/automatic/rifle/nka
+	name = "prototype assault rifle"
+	desc = "A rustic-looking rifle. It is made with unpainted metal and has little to no finishing."
+	icon = 'icons/obj/guns/nka_assault.dmi'
+	icon_state = "nka_ar"
+	item_state = "nka_ar"
+
+	can_bayonet = TRUE
+	knife_x_offset = 22
+	knife_y_offset = 13
+
+	origin_tech = list(TECH_COMBAT = 1, TECH_MATERIAL = 1)
+	fire_sound = 'sound/weapons/gunshot/gunshot_rifle.ogg'
+
+	is_wieldable = TRUE
+
+	can_bayonet = TRUE
+
+	jam_chance = 25
+	magazine_type = /obj/item/ammo_magazine/c762/nka
+	allowed_magazines = list(/obj/item/ammo_magazine/c762/nka)
+
+/obj/item/ammo_magazine/c762/nka
+	icon = 'icons/obj/guns/nka_assault.dmi'
+	icon_state = "nka_mag"
+	max_ammo = 15

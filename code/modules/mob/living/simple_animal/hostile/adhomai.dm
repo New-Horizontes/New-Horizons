@@ -14,7 +14,7 @@
 	speed = -2
 	maxHealth = 80
 	health = 80
-	mob_size = 10
+	mob_size = 4
 
 	pass_flags = PASSTABLE
 
@@ -54,7 +54,7 @@
 	maxHealth = 75
 	health = 75
 
-	mob_size = 5
+	mob_size = 4
 
 
 	melee_damage_lower = 15
