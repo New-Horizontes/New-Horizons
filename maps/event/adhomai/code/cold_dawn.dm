@@ -397,6 +397,15 @@
 	magazine_type = /obj/item/ammo_magazine/c762/nka
 	allowed_magazines = list(/obj/item/ammo_magazine/c762/nka)
 
+/obj/item/gun/projectile/automatic/rifle/nka/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "nka_ar"
+		item_state = "nka_ar"
+	else
+		icon_state = "nka_ar_nomag"
+		item_state = "nka_ar_nomag"
+
 /obj/item/ammo_magazine/c762/nka
 	icon = 'icons/obj/guns/nka_assault.dmi'
 	icon_state = "nka_mag"
