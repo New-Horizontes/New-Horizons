@@ -52,6 +52,9 @@
 	spark(src, 3, alldirs)
 	if(ishuman(L))
 		L.Weaken(2)
+	if(ismech(L))
+		var/mob/living/heavy_vehicle/M = L
+		M.apply_damage(50)
 	explosion(loc, 0, 2, 2, 3)
 	qdel(src)
 
@@ -71,6 +74,8 @@
 					"<span class='danger'>You hear a mechanical click!</span>"
 					)
 				trigger(L)
+		if (istype(AM, /obj/vehicle))
+			trigger()
 	..()
 
 /obj/item/landmine/attack_hand(mob/user as mob)
