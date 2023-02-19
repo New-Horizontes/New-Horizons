@@ -289,6 +289,7 @@
 /obj/item/device/gps,
 /obj/item/device/gps,
 /obj/item/device/gps,
+/obj/item/badmoon_map,
 /turf/simulated/floor/wood{
 	temperature = 268.15
 	},
@@ -437,14 +438,6 @@
 	temperature = 268.15
 	},
 /area/adhomai_archeology)
-"eVD" = (
-/obj/structure/chandelier{
-	pixel_x = -30
-	},
-/turf/simulated/floor/wood{
-	temperature = 268.15
-	},
-/area/exoplanet/adhomai)
 "eXl" = (
 /obj/item/clothing/accessory/dogtags/adhomai{
 	layer = 2.9;
@@ -2445,6 +2438,14 @@
 	temperature = 268.15
 	},
 /area/adhomai_archeology)
+"xLx" = (
+/obj/structure/chandelier{
+	pixel_x = -30
+	},
+/turf/simulated/floor/wood{
+	temperature = 268.15
+	},
+/area/exoplanet/adhomai)
 "xNd" = (
 /obj/structure/bed/stool/chair/sofa/left/beige{
 	dir = 1
@@ -11157,7 +11158,7 @@ sci
 eQU
 mCd
 mCd
-eVD
+xLx
 mCd
 cLw
 mCd
