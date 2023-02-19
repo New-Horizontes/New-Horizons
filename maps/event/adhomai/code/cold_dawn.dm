@@ -375,6 +375,13 @@
 	pixel_x = -16
 	mob_offset_y = 4
 
+/obj/vehicle/bike/monowheel/aerosled/check_destination(var/turf/destination)
+	var/static/list/types = typecacheof(list(/turf/space, /turf/simulated/floor/exoplanet/mineral/adhomai))
+	if(is_type_in_typecache(destination,types) || pulledby)
+		return TRUE
+	else
+		return FALSE
+
 /obj/item/gun/projectile/automatic/rifle/nka
 	name = "prototype assault rifle"
 	desc = "A rustic-looking rifle. It is made with unpainted metal and has little to no finishing."
