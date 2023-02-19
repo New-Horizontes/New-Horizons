@@ -417,3 +417,39 @@
 	icon = 'icons/obj/guns/nka_assault.dmi'
 	icon_state = "nka_mag"
 	max_ammo = 15
+
+/obj/structure/chandelier
+	name = "chandelier"
+	desc = "A fancy ornament with suspended lights."
+	light_color = COLOR_ORANGE
+	icon = 'icons/obj/chandelier.dmi'
+	icon_state = "chandelier"
+	anchored = TRUE
+	density = FALSE
+	light_wedge = LIGHT_OMNI
+	light_range = 4
+	light_power = 4
+	layer = ABOVE_ALL_MOB_LAYER
+	var/fallen = FALSE
+
+/obj/structure/chandelier/Crossed(AM as mob|obj, var/ignore_deployment = FALSE)
+	if(!fallen)
+		if(isliving(AM))
+			var/mob/living/L = AM
+			if(prob(5))
+				trigger(L)
+			else
+				visible_message("<span class='danger'>The [src] swings ominously.</span>")
+				flick("chandelier_fast", src)
+
+	..()
+
+/obj/structure/chandelier/proc/trigger(mob/living/L)
+	fallen = TRUE
+	spark(src, 3, alldirs)
+	if(ishuman(L))
+		L.Weaken(2)
+	flick("chandelier_fall", src)
+	visible_message(	"<span class='danger'>The [src] falls on top of \the [L]!</span>")
+	L.adjustBruteLoss(45)
+	icon_state = "chandelier_down"

@@ -437,6 +437,14 @@
 	temperature = 268.15
 	},
 /area/adhomai_archeology)
+"eVD" = (
+/obj/structure/chandelier{
+	pixel_x = -30
+	},
+/turf/simulated/floor/wood{
+	temperature = 268.15
+	},
+/area/exoplanet/adhomai)
 "eXl" = (
 /obj/item/clothing/accessory/dogtags/adhomai{
 	layer = 2.9;
@@ -11149,7 +11157,7 @@ sci
 eQU
 mCd
 mCd
-mCd
+eVD
 mCd
 cLw
 mCd
