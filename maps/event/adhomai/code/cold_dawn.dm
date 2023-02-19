@@ -453,3 +453,4 @@
 	visible_message(	"<span class='danger'>The [src] falls on top of \the [L]!</span>")
 	L.adjustBruteLoss(45)
 	icon_state = "chandelier_down"
+	density = TRUE
