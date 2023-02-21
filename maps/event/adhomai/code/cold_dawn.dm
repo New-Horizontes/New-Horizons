@@ -454,3 +454,7 @@
 	L.adjustBruteLoss(45)
 	icon_state = "chandelier_down"
 	density = TRUE
+
+/area/exoplanet/adhomai/north_pole
+	name = "Adhomian North Pole"
+	flags = null
