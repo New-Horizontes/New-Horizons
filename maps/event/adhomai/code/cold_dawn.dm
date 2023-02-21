@@ -458,3 +458,8 @@
 /area/exoplanet/adhomai/north_pole
 	name = "Adhomian North Pole"
 	flags = null
+
+/area/exoplanet/adhomai/shelter
+	name = "Adhomian North Pole"
+	icon_state = "purple"
+	flags = null
