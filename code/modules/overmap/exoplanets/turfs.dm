@@ -102,6 +102,10 @@
 	icon = 'icons/turf/snow.dmi'
 	icon_state = "ice"
 
+/turf/simulated/floor/exoplanet/ice/Initialize()
+	. = ..()
+	set_light(1, 1)
+
 /turf/simulated/floor/exoplanet/ice/update_icon()
 	return
 
