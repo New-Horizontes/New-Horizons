@@ -462,4 +462,4 @@
 /area/exoplanet/adhomai/shelter
 	name = "Adhomian North Pole"
 	icon_state = "purple"
-	flags = null
+	flags = RAD_SHIELDED

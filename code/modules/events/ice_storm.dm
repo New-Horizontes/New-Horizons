@@ -16,7 +16,7 @@
 
 /datum/event/ice_storm/tick()
 	if(activeFor == enterBelt)
-		to_world("<span class='danger'><font size = 3>The storm rages on! Anyone caught outside is engulfed by the ice!!</font></span>")
+		to_world("<span class='danger'><font size = 3>The storm rages on! Anyone caught outside is engulfed by the ice!</font></span>")
 		add_storm_icon()
 		radiate()
 
@@ -34,7 +34,7 @@
 			return
 		else
 			H.take_overall_damage(10,10)
-			to_chat(H, "<span class='warning'>You are caught in the storm! The hail flays your skin!!</span>")
+			to_chat(H, "<span class='warning'>You are caught in the storm! The hail flays your skin!</span>")
 
 /datum/event/ice_storm/end()
 	..()

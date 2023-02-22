@@ -82,7 +82,7 @@
 "bzS" = (
 /obj/structure/bonfire,
 /turf/simulated/floor/exoplanet/snow{
-	temperature = 243.15;
+	temperature = 233.15;
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
@@ -98,6 +98,9 @@
 /obj/effect/floor_decal/corner/purple/full{
 	dir = 4
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -107,6 +110,19 @@
 	name = "Armory"
 	},
 /turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"bQM" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/obj/item/reagent_containers/food/condiment/shaker/salt{
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/condiment/shaker/peppermill{
+	pixel_x = -5
+	},
+/turf/simulated/floor/tiled/white{
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
@@ -122,6 +138,30 @@
 /obj/structure/curtain/black,
 /turf/simulated/floor/wood{
 	temperature = 268.15
+	},
+/area/exoplanet/adhomai/shelter)
+"cmu" = (
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/structure/closet/secure_closet/cabinet{
+	name = "ammo locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
 "cuY" = (
@@ -161,7 +201,7 @@
 /area/exoplanet/adhomai/shelter)
 "cDD" = (
 /turf/simulated/floor/carpet/rubber{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "cPI" = (
@@ -180,6 +220,11 @@
 /obj/item/ammo_magazine/c38,
 /obj/item/ammo_magazine/c38,
 /obj/item/ammo_magazine/c38,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -206,6 +251,16 @@
 "dLM" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/rack,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -333,6 +388,16 @@
 	dir = 2;
 	icon_state = "tube1"
 	},
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
+/obj/item/clothing/accessory/temperature/volcano,
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -340,11 +405,29 @@
 "fsR" = (
 /obj/machinery/door/window/northright{
 	name = "dispensary";
-	req_access = null;
-	req_one_access = list(33,104)
+	req_access = null
 	},
 /obj/effect/floor_decal/corner/orange/diagonal,
 /turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"fvb" = (
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/structure/closet/secure_closet/cabinet{
+	name = "gun locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
@@ -362,7 +445,7 @@
 /area/exoplanet/adhomai/shelter)
 "fEh" = (
 /turf/simulated/floor/exoplanet/mineral/adhomai{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "fFK" = (
@@ -431,7 +514,7 @@
 /obj/item/ammo_magazine/d762,
 /obj/item/ammo_magazine/d762,
 /turf/simulated/floor/exoplanet/mineral/adhomai{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "gis" = (
@@ -487,7 +570,7 @@
 "gGR" = (
 /obj/structure/bonfire,
 /turf/simulated/floor/exoplanet/mineral/adhomai{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "gMD" = (
@@ -561,6 +644,9 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -575,7 +661,7 @@
 	density = 1
 	},
 /turf/simulated/floor/exoplanet/snow{
-	temperature = 243.15;
+	temperature = 233.15;
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
@@ -611,6 +697,10 @@
 /obj/item/gun/projectile/revolver/adhomian,
 /obj/item/gun/projectile/revolver/adhomian,
 /obj/item/gun/projectile/revolver/adhomian,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -665,6 +755,9 @@
 	dir = 2;
 	icon_state = "tube1"
 	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -672,7 +765,7 @@
 "jyV" = (
 /obj/structure/flora/rock/ice,
 /turf/simulated/floor/exoplanet/snow{
-	temperature = 243.15;
+	temperature = 233.15;
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
@@ -711,14 +804,14 @@
 "kmO" = (
 /obj/structure/curtain/black,
 /turf/simulated/floor/exoplanet/mineral/adhomai{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "kmQ" = (
 /obj/item/pickaxe,
 /obj/item/reagent_containers/food/drinks/bottle/messa_mead,
 /turf/simulated/floor/exoplanet/mineral/adhomai{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "kFQ" = (
@@ -731,14 +824,6 @@
 "kOq" = (
 /obj/structure/reagent_dispensers/keg/mead,
 /turf/simulated/floor/wood{
-	temperature = 278.15
-	},
-/area/exoplanet/adhomai/shelter)
-"liH" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
-/turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
@@ -765,7 +850,7 @@
 "lZF" = (
 /obj/structure/bed/stool/bar/padded/teal,
 /turf/simulated/floor/carpet/rubber{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "mdX" = (
@@ -895,7 +980,7 @@
 /obj/structure/table/wood,
 /obj/item/paper_bin,
 /turf/simulated/floor/carpet/rubber{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "omy" = (
@@ -973,7 +1058,9 @@
 	},
 /area/exoplanet/adhomai/shelter)
 "oyY" = (
-/turf/simulated/floor/exoplanet/ice/dark,
+/turf/simulated/floor/exoplanet/ice/dark{
+	temperature = 233.15
+	},
 /area/exoplanet/adhomai/north_pole)
 "oKa" = (
 /obj/effect/floor_decal/corner/purple{
@@ -1043,7 +1130,7 @@
 	pixel_x = 9
 	},
 /turf/simulated/floor/carpet/rubber{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "pHE" = (
@@ -1079,6 +1166,9 @@
 /area/exoplanet/adhomai/shelter)
 "pNR" = (
 /obj/effect/floor_decal/corner/purple/full,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -1275,7 +1365,7 @@
 /obj/structure/bed/padded,
 /obj/item/bedsheet/black,
 /turf/simulated/floor/carpet/rubber{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "shP" = (
@@ -1311,6 +1401,10 @@
 	req_access = list(3)
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -1364,7 +1458,7 @@
 	desc = "The massive skeleton of an adhomian Glacier Worm laying on the surface of the north pole."
 	},
 /turf/simulated/floor/exoplanet/snow{
-	temperature = 243.15;
+	temperature = 233.15;
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
@@ -1520,7 +1614,7 @@
 /obj/structure/closet/crate/miningcart,
 /obj/item/pickaxe,
 /turf/simulated/floor/carpet/rubber{
-	temperature = 243.15
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "wue" = (
@@ -1555,7 +1649,7 @@
 /area/palace_free)
 "wUj" = (
 /turf/simulated/floor/exoplanet/snow{
-	temperature = 243.15;
+	temperature = 233.15;
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
@@ -1590,7 +1684,7 @@
 	density = 1
 	},
 /turf/simulated/floor/exoplanet/snow{
-	temperature = 243.15;
+	temperature = 233.15;
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
@@ -2721,7 +2815,7 @@ fMr
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -2978,7 +3072,7 @@ pNR
 fMr
 nMp
 twN
-liH
+twN
 bdH
 qFG
 fMr
@@ -3235,7 +3329,7 @@ juY
 fMr
 vVg
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -3492,7 +3586,7 @@ hGl
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -3749,7 +3843,7 @@ hGl
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -4006,7 +4100,7 @@ juY
 fMr
 nMp
 twN
-liH
+twN
 bdH
 qFG
 fMr
@@ -4263,7 +4357,7 @@ hGl
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -4520,7 +4614,7 @@ hGl
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -4777,7 +4871,7 @@ juY
 fMr
 nMp
 twN
-liH
+twN
 bdH
 qFG
 fMr
@@ -5034,7 +5128,7 @@ hGl
 nBa
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -5291,7 +5385,7 @@ juY
 fMr
 nMp
 twN
-liH
+twN
 bdH
 qFG
 fMr
@@ -5548,7 +5642,7 @@ hGl
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -5805,7 +5899,7 @@ hGl
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -6062,7 +6156,7 @@ juY
 fMr
 nMp
 twN
-liH
+twN
 bdH
 qFG
 fMr
@@ -6319,7 +6413,7 @@ hGl
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -6576,7 +6670,7 @@ hGl
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -6833,7 +6927,7 @@ juY
 fMr
 twN
 twN
-liH
+twN
 bdH
 qFG
 fMr
@@ -7090,7 +7184,7 @@ bCW
 fMr
 nMp
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -7347,7 +7441,7 @@ fMr
 fMr
 twN
 twN
-liH
+twN
 bdH
 bcF
 fMr
@@ -11443,7 +11537,7 @@ woY
 rcm
 rcm
 rcm
-tVE
+bQM
 fFK
 uRG
 rED
@@ -11968,10 +12062,10 @@ twN
 twN
 twN
 fMr
-gci
+cmu
 twN
 twN
-xxF
+fvb
 fMr
 wUj
 wUj
