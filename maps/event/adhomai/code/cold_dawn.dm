@@ -496,7 +496,7 @@
 	icon_living = "[chosen_icon]-h"
 	anchored = TRUE
 	name = "rock"
-	des = "A rock."
+	desc = "A rock."
 	visible_message(SPAN_NOTICE("\The [src] burrows into the ground!"))
 
 /mob/living/simple_animal/ice_catcher/Move()

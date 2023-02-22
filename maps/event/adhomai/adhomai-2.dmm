@@ -204,6 +204,14 @@
 	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
+"cKC" = (
+/obj/machinery/door/airlock/centcom{
+	req_access = list(150)
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/exoplanet/adhomai/shelter)
 "cPI" = (
 /turf/simulated/mineral/adhomai,
 /area/exoplanet/adhomai/north_pole)
@@ -245,6 +253,12 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"duv" = (
+/mob/living/carbon/human,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/exoplanet/adhomai/shelter)
 "dxK" = (
 /turf/simulated/floor/tiled/ramp,
 /area/exoplanet/adhomai/shelter)
@@ -275,6 +289,36 @@
 /obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white{
 	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"dZr" = (
+/obj/structure/table/rack,
+/obj/item/clothing/under/rank/security/pmc/epmc/alt,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/device/radio/headset/syndicate,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/card/id/syndicate,
+/obj/item/storage/belt/military,
+/obj/item/handcuffs,
+/obj/item/handcuffs,
+/obj/item/melee/baton/stunrod,
+/obj/item/gun/projectile/sec/lethal,
+/obj/item/gun/energy/rifle,
+/obj/item/grenade/empgrenade,
+/obj/item/grenade/empgrenade,
+/obj/item/grenade/flashbang,
+/obj/item/grenade/flashbang,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/clothing/glasses/night,
+/obj/item/storage/backpack/rucksack,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/obj/item/storage/firstaid/regular,
+/turf/unsimulated/floor{
+	icon_state = "plating"
 	},
 /area/exoplanet/adhomai/shelter)
 "eew" = (
@@ -671,6 +715,12 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"iqL" = (
+/obj/vehicle/bike/snow,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/exoplanet/adhomai/shelter)
 "iro" = (
 /obj/machinery/telecomms/bus/preset_two,
 /turf/unsimulated/floor{
@@ -775,6 +825,14 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
+"jzD" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_y = -32
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/exoplanet/adhomai/shelter)
 "jCb" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/machinery/iv_drip,
@@ -827,10 +885,24 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"kIY" = (
+/turf/simulated/wall/r_wall,
+/area/exoplanet/adhomai/shelter)
 "kOq" = (
 /obj/structure/reagent_dispensers/keg/mead,
 /turf/simulated/floor/wood{
 	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"lnj" = (
+/mob/living/carbon/human,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating"
 	},
 /area/exoplanet/adhomai/shelter)
 "lvo" = (
@@ -1444,6 +1516,11 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"tgy" = (
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/exoplanet/adhomai/shelter)
 "ttG" = (
 /obj/machinery/optable,
 /obj/machinery/light{
@@ -1502,6 +1579,17 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
+"uAv" = (
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 32
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_y = -32
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/exoplanet/adhomai/shelter)
 "uGV" = (
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/unsimulated/floor{
@@ -1597,12 +1685,55 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"vUW" = (
+/obj/structure/table/rack,
+/obj/item/clothing/under/rank/security/pmc/epmc/alt,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/device/radio/headset/syndicate,
+/obj/item/clothing/accessory/holster/hip,
+/obj/item/card/id/syndicate,
+/obj/item/storage/belt/military,
+/obj/item/handcuffs,
+/obj/item/handcuffs,
+/obj/item/melee/baton/stunrod,
+/obj/item/gun/projectile/sec/lethal,
+/obj/item/gun/energy/rifle,
+/obj/item/grenade/empgrenade,
+/obj/item/grenade/empgrenade,
+/obj/item/grenade/flashbang,
+/obj/item/grenade/flashbang,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/clothing/glasses/night,
+/obj/item/storage/backpack/rucksack,
+/obj/item/storage/firstaid/regular,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/exoplanet/adhomai/shelter)
 "vVg" = (
 /obj/machinery/computer/cryopod{
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"vVm" = (
+/obj/machinery/acting/changer,
+/turf/unsimulated/floor{
+	icon_state = "plating"
+	},
+/area/exoplanet/adhomai/shelter)
+"vWy" = (
+/obj/vehicle/bike/snow,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating"
 	},
 /area/exoplanet/adhomai/shelter)
 "waE" = (
@@ -25313,10 +25444,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+vMt
+vMt
+vMt
+vMt
 wUj
 wUj
 wUj
@@ -25569,11 +25700,11 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+vMt
+vMt
+pwl
+ohs
+vMt
 wUj
 wUj
 wUj
@@ -25823,14 +25954,14 @@ wUj
 wUj
 wUj
 wUj
+bzS
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+bZd
+cDD
+cDD
+lZF
+vMt
 wUj
 wUj
 wUj
@@ -26078,16 +26209,16 @@ urs
 wUj
 wUj
 wUj
-jyV
 wUj
 wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+vMt
+vMt
+rXX
+wtP
+vMt
 wUj
 wUj
 wUj
@@ -26341,10 +26472,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+vMt
+vMt
+vMt
+vMt
 wUj
 wUj
 wUj
@@ -56768,10 +56899,10 @@ wUj
 wUj
 wUj
 wUj
-vMt
-vMt
-vMt
-vMt
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -57024,11 +57155,11 @@ wUj
 wUj
 wUj
 wUj
-vMt
-vMt
-pwl
-ohs
-vMt
+wUj
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -57278,14 +57409,14 @@ wUj
 wUj
 wUj
 wUj
-bzS
 wUj
 wUj
-bZd
-cDD
-cDD
-lZF
-vMt
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -57538,11 +57669,11 @@ wUj
 wUj
 wUj
 wUj
-vMt
-vMt
-rXX
-wtP
-vMt
+wUj
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -57796,10 +57927,10 @@ wUj
 wUj
 wUj
 wUj
-vMt
-vMt
-vMt
-vMt
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -62680,14 +62811,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+kIY
+kIY
+kIY
+kIY
+kIY
+kIY
+kIY
+kIY
 rfj
 "}
 (238,1,1) = {"
@@ -62937,14 +63068,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+kIY
+iqL
+tgy
+lnj
+tgy
+tgy
+vUW
+kIY
 rfj
 "}
 (239,1,1) = {"
@@ -63194,14 +63325,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+kIY
+vWy
+tgy
+vVm
+duv
+tgy
+dZr
+kIY
 rfj
 "}
 (240,1,1) = {"
@@ -63451,14 +63582,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+kIY
+iqL
+tgy
+duv
+tgy
+tgy
+vUW
+kIY
 rfj
 "}
 (241,1,1) = {"
@@ -63708,14 +63839,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+cKC
+tgy
+tgy
+tgy
+jzD
+kIY
+kIY
+kIY
 rfj
 "}
 (242,1,1) = {"
@@ -63965,12 +64096,12 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+kIY
+tgy
+tgy
+uAv
+kIY
+kIY
 rfj
 rfj
 rfj
@@ -64222,11 +64353,11 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+kIY
+kIY
+kIY
+kIY
+kIY
 rfj
 rfj
 rfj
