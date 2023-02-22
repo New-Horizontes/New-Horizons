@@ -16,12 +16,30 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"aUY" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/table/standard,
+/obj/item/reagent_containers/blood/OMinus{
+	pixel_x = -9;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/glass/bottle/peridaxon{
+	pixel_x = 6;
+	pixel_y = 9
+	},
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
 "baW" = (
 /obj/machinery/telecomms/processor/preset_one,
 /turf/unsimulated/floor{
 	icon_state = "plating"
 	},
 /area/palace_free)
+"bcu" = (
+/turf/simulated/wall/shuttle/raider,
+/area/exoplanet/adhomai/shelter)
 "bcF" = (
 /obj/structure/cryofeed{
 	dir = 1
@@ -50,6 +68,17 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"bxt" = (
+/obj/effect/landmark/force_spawnpoint,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "bzS" = (
 /obj/structure/bonfire,
 /turf/simulated/floor/exoplanet/snow{
@@ -73,6 +102,22 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"bQn" = (
+/obj/machinery/door/airlock/security{
+	name = "Armory"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"bUs" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "bZd" = (
 /obj/structure/curtain/black,
 /turf/simulated/floor/wood{
@@ -92,9 +137,6 @@
 /obj/item/pickaxe,
 /obj/item/pickaxe,
 /obj/item/pickaxe,
-/obj/item/pickaxe,
-/obj/item/pickaxe,
-/obj/item/pickaxe,
 /obj/item/clothing/mask/breath,
 /obj/item/clothing/mask/breath,
 /obj/item/clothing/mask/breath,
@@ -108,13 +150,11 @@
 /obj/item/device/flashlight/lantern,
 /obj/item/device/flashlight/lantern,
 /obj/item/device/flashlight/lantern,
-/obj/item/device/gps,
-/obj/item/device/gps,
-/obj/item/device/gps,
 /obj/item/device/gps,
 /obj/item/device/gps,
 /obj/item/device/gps,
 /obj/item/badmoon_map,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -127,14 +167,48 @@
 "cPI" = (
 /turf/simulated/mineral/adhomai,
 /area/exoplanet/adhomai/north_pole)
+"cYp" = (
+/obj/structure/closet/secure_closet/cabinet{
+	name = "ammo locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "cYt" = (
 /obj/structure/dispenser/oxygen,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"dhd" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/obj/item/material/kitchen/rollingpin,
+/obj/item/storage/box/clams,
+/turf/simulated/floor/tiled/white{
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
 "dxK" = (
 /turf/simulated/floor/tiled/ramp,
+/area/exoplanet/adhomai/shelter)
+"dLM" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
 /area/exoplanet/adhomai/shelter)
 "dUd" = (
 /obj/machinery/telecomms/receiver/preset_right,
@@ -142,6 +216,24 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"dYU" = (
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"eew" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/sink{
+	dir = 4;
+	icon_state = "sink";
+	pixel_x = 11;
+	pixel_y = 0
+	},
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
 "efL" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -158,6 +250,49 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"egF" = (
+/obj/structure/closet/secure_closet/cabinet{
+	name = "gun locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/gun/launcher/harpoon,
+/obj/item/gun/launcher/harpoon,
+/obj/item/gun/launcher/harpoon,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"eGa" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/gloves{
+	pixel_x = 11;
+	pixel_y = 12
+	},
+/obj/effect/floor_decal/corner/lime/diagonal,
+/obj/item/storage/box/masks{
+	pixel_x = 12
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -6;
+	pixel_y = 16
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"eSC" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "faj" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
@@ -172,13 +307,83 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"fgc" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/table/standard,
+/obj/item/storage/box/syringes,
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
+"fhY" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/machinery/appliance/cooker/stove,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"fqA" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"fsR" = (
+/obj/machinery/door/window/northright{
+	name = "dispensary";
+	req_access = null;
+	req_one_access = list(33,104)
+	},
+/obj/effect/floor_decal/corner/orange/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"fvW" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/obj/item/material/knife,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "fym" = (
-/obj/effect/map_effect/window_spawner/reinforced/firedoor,
+/obj/effect/map_effect/window_spawner/reinforced,
 /turf/simulated/floor,
 /area/exoplanet/adhomai/shelter)
 "fEh" = (
 /turf/simulated/floor/exoplanet/mineral/adhomai{
 	temperature = 243.15
+	},
+/area/exoplanet/adhomai/shelter)
+"fFK" = (
+/obj/structure/bed/stool/bar/padded/teal,
+/turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"fHn" = (
+/obj/structure/closet/secure_closet/cabinet{
+	name = "ammo locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/material/harpoon,
+/obj/item/material/harpoon,
+/obj/item/material/harpoon,
+/obj/item/material/harpoon,
+/obj/item/material/harpoon,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
 "fMr" = (
@@ -193,6 +398,42 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"fZY" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/fancy/tray,
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
+"gci" = (
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/item/ammo_magazine/boltaction,
+/obj/structure/closet/secure_closet/cabinet{
+	name = "ammo locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"gfh" = (
+/obj/structure/closet/crate/miningcart,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/d762,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 243.15
+	},
+/area/exoplanet/adhomai/shelter)
 "gis" = (
 /obj/machinery/telecomms/server/presets/unused,
 /turf/unsimulated/floor{
@@ -205,6 +446,32 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"gyN" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"gAu" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "gEH" = (
 /obj/machinery/telecomms/server/presets/security,
 /turf/unsimulated/floor{
@@ -217,6 +484,12 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"gGR" = (
+/obj/structure/bonfire,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 243.15
+	},
+/area/exoplanet/adhomai/shelter)
 "gMD" = (
 /obj/machinery/blackbox_recorder,
 /turf/unsimulated/floor{
@@ -228,6 +501,59 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"hbv" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"hbD" = (
+/obj/structure/closet/secure_closet/cabinet{
+	name = "ammo locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/ammo_casing/cannon,
+/obj/item/ammo_casing/cannon,
+/obj/item/ammo_casing/cannon,
+/obj/item/ammo_casing/cannon,
+/obj/item/ammo_casing/cannon/canister,
+/obj/item/ammo_casing/cannon/canister,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"huQ" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"hFE" = (
+/obj/machinery/chem_master{
+	dir = 4;
+	pixel_x = -2;
+	pixel_y = -3
+	},
+/obj/structure/window/reinforced/crescent{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/orange/diagonal,
+/turf/simulated/floor/tiled/white{
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
@@ -273,6 +599,47 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"iST" = (
+/obj/structure/closet/secure_closet/cabinet{
+	name = "gun locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/gun/projectile/revolver/adhomian,
+/obj/item/gun/projectile/revolver/adhomian,
+/obj/item/gun/projectile/revolver/adhomian,
+/obj/item/gun/projectile/revolver/adhomian,
+/obj/item/gun/projectile/revolver/adhomian,
+/obj/item/gun/projectile/revolver/adhomian,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"jgL" = (
+/obj/structure/bed/roller,
+/obj/effect/floor_decal/corner/lime/diagonal,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"jiB" = (
+/obj/structure/bed/stool/chair/office/light{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/orange/diagonal,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "jiS" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -290,6 +657,18 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"juY" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 10
+	},
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "jyV" = (
 /obj/structure/flora/rock/ice,
 /turf/simulated/floor/exoplanet/snow{
@@ -297,6 +676,13 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
+"jCb" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/machinery/iv_drip,
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
 "jDn" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
@@ -313,10 +699,38 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"kdo" = (
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"kmO" = (
+/obj/structure/curtain/black,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 243.15
+	},
+/area/exoplanet/adhomai/shelter)
+"kmQ" = (
+/obj/item/pickaxe,
+/obj/item/reagent_containers/food/drinks/bottle/messa_mead,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 243.15
+	},
+/area/exoplanet/adhomai/shelter)
 "kFQ" = (
 /obj/structure/plasticflaps/airtight,
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"kOq" = (
+/obj/structure/reagent_dispensers/keg/mead,
+/turf/simulated/floor/wood{
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
@@ -328,10 +742,95 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"lvo" = (
+/obj/effect/landmark/force_spawnpoint,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"lMn" = (
+/obj/machinery/body_scanconsole{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "lZF" = (
 /obj/structure/bed/stool/bar/padded/teal,
 /turf/simulated/floor/carpet/rubber{
 	temperature = 243.15
+	},
+/area/exoplanet/adhomai/shelter)
+"mdX" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/toxin{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/storage/firstaid/fire{
+	layer = 3.01
+	},
+/obj/effect/floor_decal/corner/lime/diagonal,
+/obj/item/storage/firstaid/toxin{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/storage/firstaid/fire{
+	layer = 3.01
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"mmA" = (
+/obj/structure/table/standard,
+/obj/machinery/vending/wallmed1{
+	pixel_x = 27;
+	req_access = null
+	},
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/item/reagent_containers/glass/bottle/bicaridine{
+	pixel_x = -8
+	},
+/obj/item/reagent_containers/glass/bottle/dermaline{
+	pixel_x = 9
+	},
+/obj/item/reagent_containers/glass/bottle/inaprovaline,
+/obj/item/reagent_containers/glass/bottle/thetamycin{
+	layer = 2.99;
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/glass/bottle/antitoxin{
+	layer = 2.99;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/glass/bottle/dexalin_plus{
+	pixel_x = 9;
+	pixel_y = -11
+	},
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
+"mqn" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
 "mCd" = (
@@ -340,12 +839,28 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"mFh" = (
+/obj/structure/bed/stool/bar/padded/teal,
+/turf/simulated/floor/lino/grey,
+/area/exoplanet/adhomai/shelter)
 "mFA" = (
 /obj/machinery/ntnet_relay,
 /turf/unsimulated/floor{
 	icon_state = "plating"
 	},
 /area/palace_free)
+"nig" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/obj/item/reagent_containers/food/condiment/sugar{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/condiment/enzyme,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "nBa" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/dark{
@@ -366,11 +881,78 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"nMp" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "ohs" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
 /turf/simulated/floor/carpet/rubber{
 	temperature = 243.15
+	},
+/area/exoplanet/adhomai/shelter)
+"omy" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/obj/machinery/appliance/mixer/cereal{
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"omP" = (
+/obj/structure/table/standard,
+/obj/structure/window/reinforced/crescent,
+/obj/effect/floor_decal/corner/orange/diagonal,
+/obj/machinery/door/window/eastright{
+	name = "dispensary";
+	req_access = null;
+	req_one_access = list(33,104)
+	},
+/obj/item/reagent_containers/dropper,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"oqQ" = (
+/obj/structure/table/standard,
+/obj/machinery/vending/wallmed1{
+	pixel_x = 27;
+	pixel_y = -1;
+	req_access = null
+	},
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/item/reagent_containers/glass/bottle/bicaridine{
+	pixel_x = -8
+	},
+/obj/item/reagent_containers/glass/bottle/dermaline{
+	pixel_x = 9
+	},
+/obj/item/reagent_containers/glass/bottle/inaprovaline,
+/obj/item/reagent_containers/glass/bottle/thetamycin{
+	layer = 2.99;
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/glass/bottle/antitoxin{
+	layer = 2.99;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/glass/bottle/dexalin_plus{
+	pixel_x = 9;
+	pixel_y = 18
+	},
+/turf/unsimulated/floor{
+	icon_state = "new_white"
 	},
 /area/exoplanet/adhomai/shelter)
 "owE" = (
@@ -379,11 +961,74 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"oxG" = (
+/obj/effect/landmark/force_spawnpoint,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "oyY" = (
 /turf/simulated/floor/exoplanet/ice/dark,
 /area/exoplanet/adhomai/north_pole)
+"oKa" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "oSJ" = (
 /obj/effect/floor_decal/spline/plain,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"pem" = (
+/obj/machinery/bodyscanner{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"pep" = (
+/obj/structure/closet/toolcloset/empty,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/badmoon_map,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -401,10 +1046,51 @@
 	temperature = 243.15
 	},
 /area/exoplanet/adhomai/shelter)
+"pHE" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/adv{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/storage/firstaid/regular{
+	layer = 3.01;
+	pixel_x = 6
+	},
+/obj/item/storage/firstaid/o2{
+	layer = 3.01;
+	pixel_x = -13
+	},
+/obj/effect/floor_decal/corner/lime/diagonal,
+/obj/item/storage/firstaid/adv{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/storage/firstaid/o2{
+	layer = 3.01;
+	pixel_x = -13
+	},
+/obj/item/storage/firstaid/regular{
+	layer = 3.01;
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "pNR" = (
 /obj/effect/floor_decal/corner/purple/full,
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"pXp" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/fancy/tray{
+	layer = 2.99
+	},
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/turf/unsimulated/floor{
+	icon_state = "new_white"
 	},
 /area/exoplanet/adhomai/shelter)
 "qcq" = (
@@ -418,6 +1104,25 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"qnM" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/table/standard,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -5;
+	pixel_y = 16
+	},
+/obj/item/storage/box/syringes,
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
+"qoB" = (
+/obj/machinery/iv_drip,
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "qyb" = (
 /obj/machinery/computer/telecomms/traffic,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -433,12 +1138,52 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"qFG" = (
+/obj/structure/cryofeed{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "qGm" = (
 /obj/structure/table/rack,
 /obj/item/clothing/suit/storage/hooded/wintercoat,
 /obj/item/clothing/suit/storage/hooded/wintercoat,
 /obj/item/clothing/suit/storage/hooded/wintercoat,
 /obj/item/clothing/suit/storage/hooded/wintercoat,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"qGD" = (
+/obj/structure/closet/walllocker/medical/secure{
+	name = "blood closet";
+	pixel_x = -29;
+	pixel_y = 30;
+	req_access = null
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"qKX" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -451,16 +1196,55 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"qSk" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/obj/item/storage/box/gloves{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/obj/machinery/reagentgrinder{
+	pixel_y = 7
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "qZf" = (
 /obj/machinery/telecomms/hub/preset,
 /turf/unsimulated/floor{
 	icon_state = "plating"
 	},
 /area/palace_free)
+"rcm" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "rfj" = (
 /turf/unsimulated/mineral{
 	icon = 'icons/turf/smooth/icy_wall.dmi';
 	icon_state = "rock"
+	},
+/area/exoplanet/adhomai/shelter)
+"rCW" = (
+/obj/machinery/optable,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
+"rED" = (
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/wood{
+	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
 "rJS" = (
@@ -478,6 +1262,15 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"rXz" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/machinery/door/airlock/silver{
+	name = "Kitchen"
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "rXX" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/black,
@@ -488,6 +1281,66 @@
 "shP" = (
 /turf/unsimulated/wall/riveted,
 /area/palace_free)
+"suP" = (
+/obj/structure/closet/secure_closet/cabinet{
+	name = "gun locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/gun/projectile/cannon,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"sFn" = (
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/item/clothing/accessory/storage/bayonet,
+/obj/structure/closet/secure_closet/cabinet{
+	name = "bayonet ocker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"sZx" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
+"tgl" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/obj/machinery/appliance/mixer/candy{
+	pixel_y = 12
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"ttG" = (
+/obj/machinery/optable,
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
 "tvU" = (
 /turf/simulated/mineral/adhomai,
 /area/exoplanet/adhomai/shelter)
@@ -515,6 +1368,20 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
+"tVE" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/stone/marble,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"tXH" = (
+/obj/effect/floor_decal/corner/lime/diagonal,
+/obj/structure/bed/stool/chair/padded/teal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "uGV" = (
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/unsimulated/floor{
@@ -527,9 +1394,36 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"uLa" = (
+/obj/structure/bed/roller,
+/obj/effect/floor_decal/corner/lime/diagonal,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"uRG" = (
+/turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "uVr" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 6
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"vdm" = (
+/obj/structure/table/rack,
+/obj/item/clothing/suit/storage/hooded/wintercoat,
+/obj/item/clothing/suit/storage/hooded/wintercoat,
+/obj/item/clothing/suit/storage/hooded/wintercoat,
+/obj/item/clothing/suit/storage/hooded/wintercoat,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
@@ -543,6 +1437,29 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"vyi" = (
+/obj/structure/table/standard,
+/obj/structure/window/reinforced/crescent{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/orange/diagonal,
+/obj/machinery/door/window/eastleft{
+	name = "dispensary";
+	req_access = null;
+	req_one_access = list(33,104)
+	},
+/obj/item/reagent_containers/glass/beaker/large,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"vHg" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "vMt" = (
 /turf/simulated/wall/cloth,
 /area/exoplanet/adhomai/shelter)
@@ -568,11 +1485,66 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"waE" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	icon_state = "sink_alt";
+	pixel_x = -18
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"wjd" = (
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor/wood{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"woY" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/machinery/appliance/cooker/oven,
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 30
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "wtP" = (
 /obj/structure/closet/crate/miningcart,
 /obj/item/pickaxe,
 /turf/simulated/floor/carpet/rubber{
 	temperature = 243.15
+	},
+/area/exoplanet/adhomai/shelter)
+"wue" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/table/standard,
+/obj/item/reagent_containers/blood/OMinus{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/glass/bottle/peridaxon{
+	pixel_x = 6
+	},
+/turf/unsimulated/floor{
+	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
+"wGG" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/wood{
+	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
 "wOW" = (
@@ -587,12 +1559,31 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
+"wUI" = (
+/obj/machinery/door/airlock/medical{
+	name = "Medbay"
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"xcj" = (
+/obj/effect/floor_decal/corner/orange/diagonal,
+/obj/machinery/chemical_dispenser/full,
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "xcD" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /turf/unsimulated/floor{
 	icon_state = "plating"
 	},
 /area/palace_free)
+"xmu" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/lino/grey,
+/area/exoplanet/adhomai/shelter)
 "xmE" = (
 /obj/effect/decal/fake_object{
 	icon = 'icons/obj/rail_way_gun.dmi';
@@ -603,17 +1594,69 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
+"xnx" = (
+/obj/effect/landmark/force_spawnpoint,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "xuQ" = (
 /obj/machinery/telecomms/bus/preset_four,
 /turf/unsimulated/floor{
 	icon_state = "plating"
 	},
 /area/palace_free)
+"xxF" = (
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/structure/closet/secure_closet/cabinet{
+	name = "gun locker";
+	req_access = list(3)
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "xUF" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"ycU" = (
+/obj/structure/table/standard,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/lino/grey,
+/area/exoplanet/adhomai/shelter)
+"ygN" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"yka" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/machinery/appliance/cooker/fryer{
+	pixel_y = 2
+	},
+/turf/simulated/floor/tiled/white{
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
@@ -1921,23 +2964,23 @@ wUj
 wUj
 fMr
 cuY
+hbv
+aSl
+aSl
+hbv
 aSl
 aSl
 aSl
+hbv
 aSl
-aSl
-aSl
-aSl
-aSl
-aSl
-aSl
+hbv
 pNR
 fMr
-twN
+nMp
 twN
 liH
 bdH
-bcF
+qFG
 fMr
 wUj
 wUj
@@ -2188,7 +3231,7 @@ mCd
 mCd
 mCd
 mCd
-hGl
+juY
 fMr
 vVg
 twN
@@ -2434,7 +3477,7 @@ wUj
 wUj
 wUj
 fMr
-kam
+oKa
 xUF
 twN
 oSJ
@@ -2715,7 +3758,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -2959,13 +4002,13 @@ mCd
 mCd
 mCd
 mCd
-hGl
+juY
 fMr
-twN
+nMp
 twN
 liH
 bdH
-bcF
+qFG
 fMr
 wUj
 wUj
@@ -3197,7 +4240,7 @@ tvU
 tvU
 tvU
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -3205,7 +4248,7 @@ wUj
 wUj
 wUj
 fMr
-kam
+oKa
 xUF
 twN
 oSJ
@@ -3461,7 +4504,7 @@ wUj
 wUj
 wUj
 wUj
-fMr
+fym
 kam
 jiS
 twN
@@ -3718,7 +4761,7 @@ wUj
 wUj
 wUj
 wUj
-fMr
+fym
 kam
 efL
 twN
@@ -3726,17 +4769,17 @@ oSJ
 twN
 mCd
 mCd
+oxG
+oxG
 mCd
 mCd
-mCd
-mCd
-hGl
+juY
 fMr
-twN
+nMp
 twN
 liH
 bdH
-bcF
+qFG
 fMr
 wUj
 wUj
@@ -3975,17 +5018,17 @@ wUj
 wUj
 wUj
 wUj
-fMr
+fym
 kam
 jiS
 twN
 anJ
 twN
 mCd
-mCd
-mCd
-mCd
-mCd
+lvo
+fMr
+fMr
+bxt
 mCd
 hGl
 nBa
@@ -4232,7 +5275,7 @@ wUj
 wUj
 wUj
 wUj
-fMr
+fym
 kam
 efL
 twN
@@ -4240,17 +5283,17 @@ oSJ
 twN
 mCd
 mCd
+xnx
+xnx
 mCd
 mCd
-mCd
-mCd
-hGl
+juY
 fMr
-twN
+nMp
 twN
 liH
 bdH
-bcF
+qFG
 fMr
 wUj
 wUj
@@ -4487,9 +5530,9 @@ wUj
 wUj
 wUj
 wUj
+jyV
 wUj
-wUj
-fMr
+fym
 kam
 jiS
 twN
@@ -4747,7 +5790,7 @@ wUj
 wUj
 wUj
 fMr
-kam
+oKa
 xUF
 twN
 oSJ
@@ -5015,13 +6058,13 @@ mCd
 mCd
 mCd
 mCd
-hGl
+juY
 fMr
-twN
+nMp
 twN
 liH
 bdH
-bcF
+qFG
 fMr
 wUj
 wUj
@@ -5403,7 +6446,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -5518,7 +6561,7 @@ wUj
 wUj
 wUj
 fMr
-kam
+oKa
 xUF
 twN
 oSJ
@@ -5659,9 +6702,9 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -5786,13 +6829,13 @@ mCd
 mCd
 mCd
 mCd
-hGl
+juY
 fMr
 twN
 twN
 liH
 bdH
-bcF
+qFG
 fMr
 wUj
 wUj
@@ -5915,13 +6958,13 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -6033,19 +7076,19 @@ wUj
 wUj
 fMr
 qzn
+gAu
 uVr
 uVr
+gAu
 uVr
+gAu
 uVr
+gAu
 uVr
-uVr
-uVr
-uVr
-uVr
-uVr
+gAu
 bCW
 fMr
-twN
+nMp
 twN
 liH
 bdH
@@ -6172,14 +7215,14 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -6285,9 +7328,9 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
+fMr
+fym
+fym
 fMr
 fMr
 fMr
@@ -6428,15 +7471,15 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
+fEh
 tvU
+fEh
+fEh
+fEh
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -6542,21 +7585,19 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fym
+mFh
+mFh
+mFh
+mFh
+uRG
+wjd
 fMr
 twN
 twN
+qKX
 twN
 twN
-twN
-fMr
-fMr
 fMr
 fMr
 fMr
@@ -6565,6 +7606,8 @@ fMr
 fMr
 fMr
 fMr
+fMr
+fMr
 wUj
 wUj
 wUj
@@ -6685,15 +7728,15 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
 tvU
 tvU
 tvU
+fEh
+fEh
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -6799,13 +7842,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fym
+xmu
+xmu
+xmu
+xmu
+uRG
+kOq
 fMr
 twN
 twN
@@ -6813,7 +7856,7 @@ twN
 twN
 twN
 fMr
-cYt
+vHg
 twN
 cvL
 fMr
@@ -6942,15 +7985,15 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -7054,25 +8097,25 @@ wUj
 wUj
 wUj
 wUj
+jyV
 wUj
-wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
 fMr
-twN
-twN
-twN
-twN
-twN
+ycU
+xmu
+xmu
+xmu
+uRG
+rED
 fMr
-cYt
+nMp
 twN
-cvL
+twN
+twN
+kdo
+fMr
+vHg
+twN
+pep
 fMr
 wUj
 wUj
@@ -7199,15 +8242,15 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -7313,13 +8356,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fym
+mFh
+mFh
+mFh
+mFh
+uRG
+uRG
 fMr
 twN
 twN
@@ -7327,7 +8370,7 @@ twN
 twN
 twN
 fMr
-twN
+vHg
 twN
 cvL
 fMr
@@ -7456,15 +8499,15 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
+fEh
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -7570,14 +8613,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
-twN
+fym
+mFh
+mFh
+mFh
+mFh
+uRG
+uRG
+nBa
 twN
 twN
 twN
@@ -7713,14 +8756,14 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -7827,13 +8870,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fMr
+xmu
+xmu
+xmu
+xmu
+uRG
+uRG
 fMr
 twN
 twN
@@ -7843,7 +8886,7 @@ twN
 fMr
 cYt
 twN
-cvL
+pep
 fMr
 wUj
 wUj
@@ -7970,15 +9013,15 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -8084,19 +9127,19 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
 fMr
+ycU
+xmu
+xmu
+xmu
+uRG
+rED
+fMr
+nMp
 twN
 twN
 twN
-twN
-twN
+kdo
 fMr
 cYt
 twN
@@ -8227,15 +9270,15 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -8341,13 +9384,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fym
+mFh
+mFh
+mFh
+mFh
+uRG
+uRG
 fMr
 twN
 twN
@@ -8485,14 +9528,14 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
 tvU
 tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -8598,13 +9641,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fym
+mFh
+mFh
+mFh
+mFh
+uRG
+uRG
 fMr
 twN
 twN
@@ -8614,7 +9657,7 @@ twN
 fMr
 cYt
 twN
-cvL
+fqA
 fMr
 wUj
 wUj
@@ -8749,11 +9792,11 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -8855,13 +9898,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fMr
+xmu
+xmu
+xmu
+xmu
+uRG
+uRG
 fMr
 twN
 twN
@@ -8871,7 +9914,7 @@ twN
 fMr
 cYt
 twN
-cvL
+dLM
 fMr
 wUj
 wUj
@@ -9008,9 +10051,9 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -9112,23 +10155,23 @@ wUj
 wUj
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
 fMr
-twN
-twN
-twN
-twN
-twN
+ycU
+xmu
+xmu
+xmu
+uRG
+rED
 fMr
-cYt
+nMp
 twN
-cvL
+twN
+twN
+kdo
+fMr
+fMr
+fMr
+fMr
 fMr
 wUj
 wUj
@@ -9264,11 +10307,11 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -9363,19 +10406,19 @@ tvU
 tvU
 tvU
 wUj
+jyV
 wUj
 wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fym
+mFh
+mFh
+mFh
+mFh
+uRG
+uRG
 fMr
 twN
 twN
@@ -9383,10 +10426,10 @@ twN
 twN
 twN
 fMr
-cYt
-twN
-cvL
-fMr
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -9521,14 +10564,14 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -9626,24 +10669,24 @@ wUj
 wUj
 wUj
 wUj
+fym
+uRG
+uRG
+uRG
+uRG
+uRG
+uRG
+fMr
+twN
+twN
+twN
+twN
+twN
+fMr
 wUj
-twN
-twN
-twN
-twN
-twN
-twN
-fMr
-twN
-twN
-twN
-twN
-twN
-fMr
-cYt
-twN
-cvL
-fMr
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -9778,15 +10821,15 @@ tvU
 tvU
 tvU
 tvU
+fEh
 tvU
 tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -9881,15 +10924,15 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fMr
+fMr
+fMr
+fMr
+tVE
+tVE
+uRG
+uRG
+uRG
 fMr
 twN
 twN
@@ -9897,10 +10940,10 @@ twN
 twN
 twN
 fMr
-cYt
-twN
-cvL
-fMr
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -10038,12 +11081,12 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -10138,15 +11181,15 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fMr
+nig
+waE
+rcm
+rcm
+tVE
+fFK
+uRG
+uRG
 fMr
 twN
 twN
@@ -10154,10 +11197,10 @@ twN
 twN
 twN
 fMr
-cYt
-twN
-cvL
-fMr
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -10295,12 +11338,12 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -10395,29 +11438,29 @@ wUj
 wUj
 wUj
 wUj
+fMr
+woY
+rcm
+rcm
+rcm
+tVE
+fFK
+uRG
+rED
+fMr
+nMp
+twN
+twN
+twN
+kdo
+fMr
+fMr
+fMr
+fMr
+fMr
+fMr
 wUj
 wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
-fMr
-twN
-twN
-twN
-twN
-twN
-fMr
-fMr
-fMr
-fMr
-fMr
-fMr
-fMr
-fMr
 wUj
 wUj
 wUj
@@ -10551,11 +11594,11 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -10652,28 +11695,26 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
-twN
+fMr
+yka
+rcm
+rcm
+rcm
+tVE
+fFK
+uRG
+uRG
+nBa
 twN
 twN
 twN
 twN
 twN
 fMr
+gci
 twN
 twN
-twN
-twN
-twN
-twN
+xxF
 fMr
 wUj
 wUj
@@ -10721,6 +11762,8 @@ wUj
 wUj
 wUj
 wUj
+wUj
+wUj
 tvU
 tvU
 tvU
@@ -10809,10 +11852,10 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -10909,15 +11952,15 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fMr
+fhY
+rcm
+rcm
+tVE
+fMr
+uRG
+uRG
+uRG
 fMr
 twN
 twN
@@ -10925,13 +11968,13 @@ twN
 twN
 twN
 fMr
+gci
 twN
 twN
-twN
-twN
-twN
-twN
+xxF
 fMr
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -11066,8 +12109,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -11166,15 +12209,15 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
+fMr
+rcm
+rcm
+rcm
+dhd
+fMr
+uRG
+uRG
+uRG
 fMr
 twN
 twN
@@ -11182,12 +12225,10 @@ twN
 twN
 twN
 fMr
+gci
 twN
 twN
-twN
-twN
-twN
-twN
+xxF
 fMr
 wUj
 wUj
@@ -11235,6 +12276,8 @@ wUj
 wUj
 wUj
 wUj
+wUj
+wUj
 tvU
 tvU
 tvU
@@ -11323,7 +12366,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -11423,28 +12466,26 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-twN
-twN
-twN
-twN
-twN
-twN
 fMr
-twN
-twN
-twN
-twN
-twN
+tgl
+rcm
+rcm
+rcm
+rXz
+uRG
+wGG
+wjd
 fMr
+nMp
 twN
 twN
 twN
+kdo
+fMr
+gci
 twN
 twN
-twN
+xxF
 fMr
 wUj
 wUj
@@ -11493,6 +12534,8 @@ wUj
 wUj
 wUj
 wUj
+wUj
+wUj
 tvU
 tvU
 tvU
@@ -11580,7 +12623,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -11680,28 +12723,26 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+omy
+qSk
+fvW
+fMr
+fMr
+fMr
+fMr
+fMr
 fMr
 twN
 twN
 twN
 twN
 twN
+bQn
 twN
 twN
 twN
-twN
-twN
-twN
-twN
+sFn
 fMr
 wUj
 wUj
@@ -11749,6 +12790,8 @@ wUj
 wUj
 wUj
 wUj
+wUj
+wUj
 tvU
 tvU
 tvU
@@ -11837,7 +12880,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -11937,28 +12980,26 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+fMr
+fMr
+fMr
+fMr
 wUj
 wUj
 wUj
 wUj
 fMr
+nMp
 twN
 twN
 twN
-twN
-twN
+kdo
 fMr
+fHn
 twN
 twN
-twN
-twN
-twN
-twN
+egF
 fMr
 wUj
 wUj
@@ -12005,6 +13046,8 @@ wUj
 wUj
 wUj
 wUj
+wUj
+wUj
 tvU
 tvU
 tvU
@@ -12094,7 +13137,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -12210,12 +13253,10 @@ twN
 twN
 twN
 fMr
+fHn
 twN
 twN
-twN
-twN
-twN
-twN
+egF
 fMr
 wUj
 wUj
@@ -12263,6 +13304,8 @@ wUj
 wUj
 wUj
 wUj
+wUj
+wUj
 tvU
 tvU
 tvU
@@ -12351,8 +13394,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -12467,13 +13510,13 @@ twN
 twN
 twN
 fMr
+cYp
 twN
 twN
-twN
-twN
-twN
-twN
+iST
 fMr
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -12607,8 +13650,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -12724,12 +13767,10 @@ twN
 twN
 twN
 fMr
+hbD
 twN
 twN
-twN
-twN
-twN
-twN
+suP
 fMr
 wUj
 wUj
@@ -12777,6 +13818,8 @@ wUj
 wUj
 wUj
 wUj
+wUj
+wUj
 tvU
 tvU
 tvU
@@ -12864,8 +13907,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -12975,18 +14018,16 @@ wUj
 wUj
 wUj
 fMr
+nMp
 twN
 twN
 twN
-twN
-twN
+kdo
 fMr
-twN
-twN
-twN
-twN
-twN
-twN
+fMr
+fMr
+fMr
+fMr
 fMr
 wUj
 wUj
@@ -13034,6 +14075,8 @@ wUj
 wUj
 wUj
 wUj
+wUj
+wUj
 tvU
 tvU
 tvU
@@ -13120,9 +14163,9 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -13238,14 +14281,14 @@ twN
 twN
 twN
 fMr
-fMr
-fMr
-fMr
-fMr
-fMr
-fMr
-fMr
-fMr
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
 wUj
 wUj
 wUj
@@ -13378,7 +14421,7 @@ tvU
 tvU
 fEh
 fEh
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -13636,8 +14679,8 @@ fEh
 fEh
 tvU
 fEh
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -13894,7 +14937,7 @@ fEh
 fEh
 tvU
 fEh
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -14017,12 +15060,12 @@ wUj
 wUj
 wUj
 fMr
-qGm
+vdm
 twN
 twN
 twN
 twN
-twN
+kdo
 fMr
 wUj
 wUj
@@ -14517,11 +15560,11 @@ wUj
 wUj
 wUj
 fMr
+nMp
 twN
 twN
 twN
-twN
-twN
+kdo
 fMr
 fMr
 fMr
@@ -14531,7 +15574,7 @@ fMr
 fMr
 fMr
 fMr
-qGm
+vdm
 twN
 twN
 twN
@@ -14781,6 +15824,11 @@ twN
 twN
 twN
 twN
+mqn
+twN
+twN
+twN
+mqn
 twN
 twN
 twN
@@ -14788,12 +15836,7 @@ twN
 twN
 twN
 twN
-twN
-twN
-twN
-twN
-twN
-twN
+kdo
 fMr
 wUj
 wUj
@@ -15552,6 +16595,11 @@ twN
 twN
 twN
 twN
+huQ
+twN
+twN
+twN
+huQ
 twN
 twN
 twN
@@ -15559,12 +16607,7 @@ twN
 twN
 twN
 twN
-twN
-twN
-twN
-twN
-twN
-twN
+kdo
 fMr
 wUj
 wUj
@@ -15805,6 +16848,8 @@ fMr
 fMr
 fMr
 fMr
+fym
+wUI
 fMr
 fMr
 fMr
@@ -15814,9 +16859,7 @@ fMr
 fMr
 fMr
 fMr
-fMr
-fMr
-qGm
+vdm
 twN
 twN
 twN
@@ -16059,14 +17102,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+bcu
+eSC
+ygN
+bUs
+hFE
+xcj
+fMr
 wUj
 wUj
 wUj
@@ -16079,7 +17122,7 @@ twN
 twN
 twN
 twN
-fMr
+kFQ
 wUj
 wUj
 wUj
@@ -16316,27 +17359,27 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+qoB
+qGD
+ygN
+bUs
+fsR
+jiB
+fMr
 wUj
 wUj
 wUj
 wUj
 wUj
 fMr
-qGm
+vdm
 twN
 twN
 twN
 twN
-twN
-kFQ
+kdo
+fMr
 wUj
 wUj
 wUj
@@ -16573,14 +17616,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+tXH
+dYU
+ygN
+bUs
+vyi
+omP
+fMr
 wUj
 wUj
 wUj
@@ -16830,14 +17873,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+eGa
+dYU
+ygN
+bUs
+dYU
+dYU
+fMr
 wUj
 wUj
 wUj
@@ -17087,14 +18130,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+mdX
+lMn
+ygN
+bUs
+uLa
+uLa
+fMr
 wUj
 wUj
 wUj
@@ -17344,14 +18387,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+pHE
+pem
+gyN
+bUs
+jgL
+uLa
+fMr
 wUj
 wUj
 wUj
@@ -17601,14 +18644,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+fMr
+fMr
+fMr
+wUI
+fMr
+fMr
+fMr
 wUj
 wUj
 wUj
@@ -17859,13 +18902,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+qnM
+sZx
+sZx
+sZx
+fgc
+fMr
 wUj
 wUj
 wUj
@@ -18116,13 +19159,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+aUY
+jCb
+sZx
+jCb
+wue
+fMr
 wUj
 wUj
 wUj
@@ -18373,13 +19416,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+rCW
+sZx
+sZx
+sZx
+ttG
+fMr
 wUj
 wUj
 wUj
@@ -18630,13 +19673,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+pXp
+oqQ
+eew
+mmA
+fZY
+fMr
 wUj
 wUj
 wUj
@@ -18887,13 +19930,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+fMr
+fMr
+fMr
+fMr
+fMr
+fMr
+fMr
 wUj
 wUj
 wUj
@@ -39780,8 +40823,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -40034,12 +41077,12 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -40291,12 +41334,12 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -40549,11 +41592,11 @@ tvU
 tvU
 tvU
 tvU
+fEh
 tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -40802,15 +41845,15 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
+fEh
 tvU
+fEh
+fEh
+fEh
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -41060,14 +42103,14 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+gGR
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -41317,13 +42360,13 @@ tvU
 tvU
 tvU
 tvU
+fEh
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -41574,13 +42617,13 @@ tvU
 tvU
 tvU
 tvU
+fEh
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -41831,11 +42874,11 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -42088,11 +43131,11 @@ tvU
 tvU
 tvU
 tvU
+fEh
+fEh
 tvU
 tvU
-tvU
-tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -43780,7 +44823,7 @@ wUj
 wUj
 wUj
 jyV
-jyV
+wUj
 wUj
 wUj
 wUj
@@ -46294,7 +47337,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -47231,7 +48274,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -47563,7 +48606,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -47989,7 +49032,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -48315,10 +49358,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+igb
+xmE
+xmE
+tTZ
 wUj
 wUj
 wUj
@@ -48392,7 +49435,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -48572,10 +49615,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -48829,10 +49872,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -49086,10 +50129,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -49343,10 +50386,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -49437,7 +50480,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -49600,10 +50643,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -49857,10 +50900,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -50114,10 +51157,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -50371,10 +51414,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -50628,10 +51671,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -50885,10 +51928,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -51142,10 +52185,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -51399,10 +52442,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -51656,10 +52699,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -51913,10 +52956,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -52170,10 +53213,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -52427,10 +53470,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -52684,10 +53727,10 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -52942,9 +53985,9 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
+xmE
+xmE
+xmE
 wUj
 wUj
 wUj
@@ -53018,7 +54061,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -57238,7 +58281,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -57627,7 +58670,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+jyV
 wUj
 wUj
 wUj
@@ -63412,9 +64455,9 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+tvU
 wUj
 wUj
 wUj
@@ -63668,8 +64711,8 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
+tvU
+tvU
 wUj
 wUj
 wUj
@@ -63924,13 +64967,13 @@ wUj
 wUj
 wUj
 wUj
+tvU
+tvU
+tvU
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+tvU
 wUj
 wUj
 wUj
@@ -64182,12 +65225,12 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+kmO
+tvU
+tvU
+tvU
 wUj
 wUj
 wUj
@@ -64438,13 +65481,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+tvU
+fEh
+fEh
+fEh
+tvU
 wUj
 wUj
 wUj
@@ -64696,12 +65739,12 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+fEh
+gGR
+fEh
+tvU
 wUj
 wUj
 wUj
@@ -64952,13 +65995,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+tvU
+kmQ
+fEh
+gfh
+tvU
 wUj
 wUj
 wUj
@@ -65209,14 +66252,14 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
 wUj
 wUj
 wUj
@@ -65466,13 +66509,13 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
 wUj
 wUj
 wUj
@@ -65725,11 +66768,11 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+tvU
+tvU
+tvU
+tvU
+tvU
 wUj
 wUj
 wUj
