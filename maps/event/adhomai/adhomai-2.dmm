@@ -747,6 +747,12 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"jqe" = (
+/mob/living/simple_animal/ice_catcher,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/shelter)
 "juY" = (
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
@@ -934,6 +940,12 @@
 	icon_state = "plating"
 	},
 /area/palace_free)
+"mHn" = (
+/mob/living/simple_animal/ice_catcher,
+/turf/simulated/floor/exoplanet/ice/dark{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/north_pole)
 "nig" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/table/stone/marble,
@@ -1382,6 +1394,13 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"sCB" = (
+/mob/living/simple_animal/ice_catcher,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 233.15;
+	light_range = 1
+	},
+/area/exoplanet/adhomai/north_pole)
 "sFn" = (
 /obj/item/clothing/accessory/storage/bayonet,
 /obj/item/clothing/accessory/storage/bayonet,
@@ -1476,6 +1495,13 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"urs" = (
+/obj/structure/flora/rock/adhomai,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 233.15;
+	light_range = 1
+	},
+/area/exoplanet/adhomai/north_pole)
 "uGV" = (
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/unsimulated/floor{
@@ -4287,7 +4313,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -5345,7 +5371,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -8987,7 +9013,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -9775,7 +9801,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -9958,7 +9984,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -13568,7 +13594,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -14058,7 +14084,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -15698,7 +15724,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -16621,7 +16647,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -17412,7 +17438,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -18965,7 +18991,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -20944,7 +20970,7 @@ fEh
 fEh
 fEh
 fEh
-fEh
+jqe
 fEh
 fEh
 fEh
@@ -21347,7 +21373,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -21381,7 +21407,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -21845,7 +21871,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -23373,7 +23399,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -25854,7 +25880,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -25968,44 +25994,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -26026,6 +26015,43 @@ tvU
 tvU
 tvU
 tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+wUj
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
+tvU
 wUj
 wUj
 wUj
@@ -26048,7 +26074,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -26897,7 +26923,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -27386,7 +27412,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -28216,7 +28242,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -28383,7 +28409,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -29654,7 +29680,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -29808,7 +29834,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -30626,7 +30652,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -31410,7 +31436,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -31551,7 +31577,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -32420,7 +32446,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -33308,7 +33334,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -34062,7 +34088,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -34490,7 +34516,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -34809,7 +34835,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -35192,7 +35218,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -36949,7 +36975,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -37191,7 +37217,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -37912,7 +37938,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -38738,7 +38764,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -40469,7 +40495,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -41581,7 +41607,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -41777,7 +41803,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -42075,7 +42101,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -43159,7 +43185,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -43608,7 +43634,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -43894,7 +43920,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -44300,7 +44326,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -44997,7 +45023,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -45415,7 +45441,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -45492,7 +45518,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -46190,7 +46216,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -47236,7 +47262,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -47269,7 +47295,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -48142,7 +48168,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -50050,7 +50076,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -50702,7 +50728,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -51422,7 +51448,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -54192,7 +54218,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+mHn
 oyY
 oyY
 oyY
@@ -54494,7 +54520,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -54822,7 +54848,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -55171,7 +55197,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -57309,7 +57335,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -58530,7 +58556,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -60539,7 +60565,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -60894,7 +60920,7 @@ oyY
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -61708,6 +61734,7 @@ oyY
 oyY
 oyY
 oyY
+mHn
 oyY
 oyY
 oyY
@@ -61745,7 +61772,6 @@ oyY
 oyY
 oyY
 oyY
-oyY
 wUj
 wUj
 wUj
@@ -61870,7 +61896,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -62111,7 +62137,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -64603,7 +64629,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj
@@ -64911,7 +64937,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+sCB
 wUj
 wUj
 wUj
@@ -66212,7 +66238,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+urs
 wUj
 wUj
 wUj

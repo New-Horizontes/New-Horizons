@@ -463,3 +463,73 @@
 	name = "Adhomian North Pole"
 	icon_state = "purple"
 	flags = RAD_SHIELDED
+
+/mob/living/simple_animal/ice_catcher
+	name = "ice catcher"
+	desc = "An animal often mistaken for a rock due its shell. Its main body is made up of large tentacles."
+	icon = 'icons/obj/cold_dawn_48.dmi'
+	icon_state = "catcher"
+	icon_living = "catcher"
+	icon_dead = "catcher_dead"
+	meat_type = /obj/item/reagent_containers/food/snacks/meat/adhomai
+	meat_amount = 10
+	organ_names = list("shell", "tentacles")
+	faction = "Adhomai"
+	maxHealth = 50
+	health = 50
+	mob_size = 15
+	pixel_x = -8
+	var/burrowed = FALSE
+	var/chosen_icon
+
+/mob/living/simple_animal/ice_catcher/Initialize()
+	. = ..()
+	chosen_icon = pick("catcher", "catcher1", "catcher2")
+	icon_state = chosen_icon
+	icon_living = chosen_icon
+	icon_dead = "[chosen_icon]_dead"
+	burrow()
+
+/mob/living/simple_animal/ice_catcher/proc/burrow()
+	burrowed = TRUE
+	icon_state = "[chosen_icon]-h"
+	icon_living = "[chosen_icon]-h"
+	anchored = TRUE
+	name = "rock"
+	des = "A rock."
+	visible_message(SPAN_NOTICE("\The [src] burrows into the ground!"))
+
+/mob/living/simple_animal/ice_catcher/Move()
+	if(burrowed)
+		return
+	else
+		..()
+
+/mob/living/simple_animal/ice_catcher/proc/unburrow()
+	burrowed = FALSE
+	icon_state = "[chosen_icon]"
+	icon_living = "[chosen_icon]"
+	anchored = FALSE
+	name = "ice catcher"
+	desc = "An animal often mistaken for a rock due its shell. Its main body is made up of large tentacles."
+	visible_message(SPAN_NOTICE("\The [src] emerges from the ground!"))
+
+/mob/living/simple_animal/ice_catcher/attack_hand(mob/living/carbon/human/M as mob)
+	if(burrowed && (stat != DEAD))
+		unburrow()
+	..()
+
+/mob/living/simple_animal/ice_catcher/attackby(obj/item/O, mob/user)
+	if(burrowed && (stat != DEAD))
+		unburrow()
+	..()
+
+/mob/living/simple_animal/ice_catcher/bullet_act(obj/item/projectile/P, def_zone)
+	if(burrowed && (stat != DEAD))
+		unburrow()
+	..()
+
+/mob/living/simple_animal/ice_catcher/death(gibbed)
+	..()
+	if(burrowed)
+		unburrow()
