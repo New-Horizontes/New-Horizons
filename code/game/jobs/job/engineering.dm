@@ -44,10 +44,10 @@
 
 	uniform = /obj/item/clothing/under/rank/chief_engineer
 	head = /obj/item/clothing/head/hardhat/white
-	belt = /obj/item/storage/belt/utility/ce
+//	belt = /obj/item/storage/belt/utility/ce
 	id = /obj/item/card/id/navy
 	shoes = /obj/item/clothing/shoes/workboots
-	r_pocket = /obj/item/device/t_scanner
+//	r_pocket = /obj/item/device/t_scanner
 
 	headset = /obj/item/device/radio/headset/heads/ce
 	bowman = /obj/item/device/radio/headset/heads/ce/alt
