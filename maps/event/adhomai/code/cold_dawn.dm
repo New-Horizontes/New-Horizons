@@ -479,6 +479,7 @@
 	health = 50
 	mob_size = 15
 	pixel_x = -8
+	blood_type = "#281C2D"
 	var/burrowed = FALSE
 	var/chosen_icon
 
@@ -562,6 +563,9 @@
 	maxHealth = 150
 	health = 150
 
+	melee_damage_lower = 15
+	melee_damage_upper = 15
+
 	mob_swap_flags = HUMAN|SIMPLE_ANIMAL|SLIME|MONKEY
 	mob_push_flags = ALLMOBS
 
@@ -575,6 +579,7 @@
 	attack_emote = "wiggles toward"
 	see_in_dark = 10
 	see_invisible = SEE_INVISIBLE_NOLIGHTING
+	blood_type = "#281C2D"
 
 /mob/living/simple_animal/scavenger
 	name = "scavenger"
@@ -592,7 +597,7 @@
 	mob_size = 3
 	speak_emote = list("chitters")
 	emote_hear = list("chitters")
-
+	blood_type = "#281C2D"
 
 /mob/living/simple_animal/hostile/plasmageist
 	name = "plasmageist"
@@ -629,6 +634,8 @@
 	tameable = FALSE
 	flying = TRUE
 
+	blood_overlay_icon = null
+
 /obj/item/projectile/beam/tesla/plasmageist/on_impact(atom/target)
 	. = ..()
 	if(isliving(target))
@@ -650,3 +657,6 @@
 	spark(T, 1, alldirs)
 	explosion(T, -1, 0, 2)
 	qdel(src)
+
+/mob/living/simple_animal/hostile/plasmageist/ex_act(severity)
+	return
