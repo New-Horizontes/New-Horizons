@@ -44,10 +44,10 @@
 
 	uniform = /obj/item/clothing/under/rank/chief_engineer
 	head = /obj/item/clothing/head/hardhat/white
-	belt = /obj/item/storage/belt/utility/ce
+//	belt = /obj/item/storage/belt/utility/ce
 	id = /obj/item/card/id/navy
 	shoes = null
-	r_pocket = /obj/item/device/t_scanner
+//	r_pocket = /obj/item/device/t_scanner
 
 	headset = /obj/item/device/radio/headset/heads/ce
 	bowman = /obj/item/device/radio/headset/heads/ce/alt
@@ -62,6 +62,10 @@
 	satchel = /obj/item/storage/backpack/satchel/ce
 	dufflebag = /obj/item/storage/backpack/duffel/ce
 	messengerbag = /obj/item/storage/backpack/messenger/ce
+
+	backpack_contents = list(
+		/obj/item/badmoon_map = 1
+	)
 
 /datum/outfit/job/chief_engineer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()

@@ -55,6 +55,10 @@
 		/obj/item/implant/mindshield
 	)
 
+	backpack_contents = list(
+		/obj/item/badmoon_map = 1
+	)
+
 	backpack = /obj/item/storage/backpack/hos
 	satchel = /obj/item/storage/backpack/satchel/hos
 	dufflebag = /obj/item/storage/backpack/duffel/hos
