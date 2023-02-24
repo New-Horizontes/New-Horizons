@@ -44,14 +44,10 @@
 
 	uniform = /obj/item/clothing/under/rank/chief_engineer
 	head = /obj/item/clothing/head/hardhat/white
-//	belt = /obj/item/storage/belt/utility/ce
+	belt = /obj/item/storage/belt/utility/ce
 	id = /obj/item/card/id/navy
-	shoes = /obj/item/clothing/shoes/workboots
-//	r_pocket = /obj/item/device/t_scanner
-
-	backpack_contents = list(
-		/obj/item/badmoon_map = 1
-	)
+	shoes = null
+	r_pocket = /obj/item/device/t_scanner
 
 	headset = /obj/item/device/radio/headset/heads/ce
 	bowman = /obj/item/device/radio/headset/heads/ce/alt
@@ -112,6 +108,7 @@
 	head = /obj/item/clothing/head/hardhat
 	belt = /obj/item/storage/belt/utility
 	id = /obj/item/card/id/silver
+	shoes = null
 	r_pocket = /obj/item/device/t_scanner
 
 	headset = /obj/item/device/radio/headset/headset_eng
@@ -177,6 +174,7 @@
 	uniform = /obj/item/clothing/under/rank/atmospheric_technician
 	belt = /obj/item/storage/belt/utility
 	id = /obj/item/card/id/silver
+	shoes = null
 
 	headset = /obj/item/device/radio/headset/headset_eng
 	bowman = /obj/item/device/radio/headset/headset_eng/alt
