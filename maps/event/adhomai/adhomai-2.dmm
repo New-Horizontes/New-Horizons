@@ -431,6 +431,13 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"eHM" = (
+/obj/structure/geyser,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 233.15;
+	light_range = 1
+	},
+/area/exoplanet/adhomai/north_pole)
 "eSC" = (
 /obj/machinery/sleeper{
 	dir = 4
@@ -1777,6 +1784,12 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
+"uub" = (
+/obj/structure/geyser,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/shelter)
 "uAv" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_x = 32
@@ -4704,7 +4717,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -9258,7 +9271,7 @@ fEh
 fEh
 fEh
 fEh
-fEh
+uub
 fEh
 fEh
 tvU
@@ -10977,7 +10990,7 @@ wUj
 wUj
 wUj
 fEh
-fEh
+uub
 fEh
 fEh
 fEh
@@ -14552,7 +14565,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -17293,7 +17306,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -20914,7 +20927,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 rfj
@@ -24178,7 +24191,7 @@ tvU
 tvU
 tvU
 tvU
-fEh
+uub
 tvU
 tvU
 wUj
@@ -24729,7 +24742,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -25534,7 +25547,7 @@ oyY
 oyY
 oyY
 wUj
-wUj
+eHM
 wUj
 oyY
 oyY
@@ -26614,7 +26627,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -27765,7 +27778,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -34132,7 +34145,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -35188,7 +35201,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -41773,7 +41786,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -41894,6 +41907,7 @@ wUj
 wUj
 wUj
 wUj
+eHM
 wUj
 wUj
 wUj
@@ -41910,8 +41924,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -43081,7 +43094,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -47888,7 +47901,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -47932,7 +47945,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -49847,7 +49860,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -60805,7 +60818,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -64200,7 +64213,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
@@ -65304,7 +65317,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+eHM
 wUj
 wUj
 wUj
