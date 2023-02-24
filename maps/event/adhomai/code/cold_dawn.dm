@@ -642,12 +642,12 @@
 		explosion(target, -1, 0, 2)
 
 /mob/living/simple_animal/hostile/plasmageist/attack_hand(mob/living/carbon/human/M as mob)
-	visible_message(SPAN_WARNING("\The [M] tries to touch \the [src]"))
+	visible_message(SPAN_WARNING("\The [M] tries to touch \the [src]!"))
 	tesla_zap(M, 5, 5000)
 
 /mob/living/simple_animal/hostile/plasmageist/attackby(obj/item/O, mob/user)
 	if(isliving(user))
-		visible_message(SPAN_WARNING("\The [user] tries to touch \the [src]"))
+		visible_message(SPAN_WARNING("\The [user] tries to touch \the [src]!"))
 		tesla_zap(user, 5, 5000)
 
 /mob/living/simple_animal/hostile/plasmageist/death(gibbed)
