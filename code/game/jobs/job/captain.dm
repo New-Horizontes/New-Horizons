@@ -52,7 +52,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	tablet = /obj/item/modular_computer/handheld/preset/command/captain
 
 	backpack_contents = list(
-		/obj/item/storage/box/ids = 1
+		/obj/item/badmoon_map = 1
 	)
 
 	implants = list(
@@ -138,7 +138,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	tablet = /obj/item/modular_computer/handheld/preset/command/xo
 
 	backpack_contents = list(
-		/obj/item/storage/box/ids = 1
+		/obj/item/badmoon_map = 1
 	)
 
 	messengerbag = /obj/item/storage/backpack/messenger/com

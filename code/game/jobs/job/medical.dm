@@ -45,7 +45,7 @@
 	suit_store = /obj/item/device/flashlight/pen
 	shoes = /obj/item/clothing/shoes/brown
 	id = /obj/item/card/id/navy
-	l_hand = /obj/item/storage/firstaid/adv
+//	l_hand = /obj/item/storage/firstaid/adv
 
 	headset = /obj/item/device/radio/headset/heads/cmo
 	bowman = /obj/item/device/radio/headset/heads/cmo/alt
@@ -60,6 +60,10 @@
 	satchel = /obj/item/storage/backpack/satchel/cmo
 	dufflebag = /obj/item/storage/backpack/duffel/cmo
 	messengerbag = /obj/item/storage/backpack/messenger/cmo
+
+	backpack_contents = list(
+		/obj/item/badmoon_map = 1
+	)
 
 /datum/job/doctor
 	title = "Physician"

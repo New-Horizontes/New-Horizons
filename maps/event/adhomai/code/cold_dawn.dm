@@ -533,3 +533,17 @@
 	..()
 	if(burrowed)
 		unburrow()
+
+/obj/item/clothing/under/tajaran/nka_uniform/sailor
+	name = "royal navy sailor uniform"
+	desc = "A military uniform used by the forces of the New Kingdom of Adhomai's navy."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "sailor"
+	item_state = "sailor"
+
+/obj/item/clothing/head/tajaran/nka_cap/sailor
+	name = "royal navy service cap"
+	desc = "A simple service cap worn by soldiers of the Royal Navy."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "sailorhat"
+	item_state = "sailorhat"

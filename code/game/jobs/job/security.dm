@@ -52,7 +52,7 @@
 	tablet = /obj/item/modular_computer/handheld/preset/security/hos
 
 	backpack_contents = list(
-		/obj/item/handcuffs = 1
+		/obj/item/badmoon_map = 1
 	)
 
 	implants = list(

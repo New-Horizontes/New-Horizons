@@ -446,6 +446,9 @@
 	dufflebag = /obj/item/storage/backpack/duffel/om
 	messengerbag = /obj/item/storage/backpack/messenger/om
 
+	backpack_contents = list(
+		/obj/item/badmoon_map = 1
+	)
 
 /datum/job/hangar_tech
 	title = "Hangar Technician"

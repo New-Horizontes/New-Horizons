@@ -49,6 +49,10 @@
 	shoes = /obj/item/clothing/shoes/workboots
 //	r_pocket = /obj/item/device/t_scanner
 
+	backpack_contents = list(
+		/obj/item/badmoon_map = 1
+	)
+
 	headset = /obj/item/device/radio/headset/heads/ce
 	bowman = /obj/item/device/radio/headset/heads/ce/alt
 	double_headset = /obj/item/device/radio/headset/alt/double/ce
