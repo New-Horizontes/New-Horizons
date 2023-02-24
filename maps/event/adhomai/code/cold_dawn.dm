@@ -547,3 +547,107 @@
 	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "sailorhat"
 	item_state = "sailorhat"
+
+/mob/living/simple_animal/hostile/wriggler
+	name = "wriggler"
+	desc = "A large arctic predator.Its body is a white flesh sphere from which several tentacles emerge."
+	icon = 'icons/obj/cold_dawn_48.dmi'
+	icon_state = "wriggler"
+	icon_living = "wriggler"
+	icon_dead = "wriggler_dead"
+	meat_type = /obj/item/reagent_containers/food/snacks/meat/adhomai
+	meat_amount = 5
+	organ_names = list("body", "tentacles")
+	faction = "Adhomai"
+	maxHealth = 150
+	health = 150
+
+	mob_swap_flags = HUMAN|SIMPLE_ANIMAL|SLIME|MONKEY
+	mob_push_flags = ALLMOBS
+
+	attacktext = "strangles"
+	attack_sound = 'sound/effects/noosed.ogg'
+
+	speed = 1
+	mob_size = 10
+	environment_smash = 2
+
+	attack_emote = "wiggles toward"
+	see_in_dark = 10
+	see_invisible = SEE_INVISIBLE_NOLIGHTING
+
+/mob/living/simple_animal/scavenger
+	name = "scavenger"
+	desc = "Segmented, keratinous creatures that feed on the Hma'trra Zivr carcasses found on the pole's surface."
+	icon = 'icons/obj/cold_dawn_48.dmi'
+	icon_state = "scavenger"
+	icon_living = "scavenger"
+	icon_dead = "scavenger_dead"
+	meat_type = /obj/item/reagent_containers/food/snacks/meat/adhomai
+	meat_amount = 1
+	organ_names = list("thorax", "legs", "head")
+	faction = "Adhomai"
+	maxHealth = 20
+	health = 20
+	mob_size = 3
+	pixel_x = -8
+	speak_emote = list("chitters")
+	emote_hear = list("chitters")
+
+
+/mob/living/simple_animal/hostile/plasmageist
+	name = "plasmageist"
+	desc = "A luminescent, lightning balls frequently spotted floating over the Adhomian North Pole. "
+	icon = 'icons/obj/cold_dawn_48.dmi'
+	icon_state = "plasmageist"
+	icon_living = "plasmageist"
+	icon_dead = "plasmageist_dead"
+	organ_names = list("body")
+	faction = "Adhomai"
+	maxHealth = 50
+	health = 50
+
+	melee_damage_lower = 5
+	melee_damage_upper = 5
+	attacktext = "shocked"
+	attack_sound = 'sound/magic/LightningShock.ogg'
+
+	speed = 1
+	mob_size = 10
+
+	attack_emote = "hums at"
+	see_in_dark = 10
+	see_invisible = SEE_INVISIBLE_NOLIGHTING
+
+	smart_ranged = TRUE
+
+	ranged = TRUE
+	projectiletype = /obj/item/projectile/beam/tesla/plasmageist
+	projectilesound = 'sound/magic/LightningShock.ogg'
+
+	pass_flags = PASSTABLE|PASSRAILING
+
+	tameable = FALSE
+	flying = TRUE
+
+/obj/item/projectile/beam/tesla/plasmageist/on_impact(atom/target)
+	. = ..()
+	if(isliving(target))
+		explosion(target, -1, 0, 2)
+
+/mob/living/simple_animal/hostile/plasmageist/attack_hand(mob/living/carbon/human/M as mob)
+	. = ..()
+	tesla_zap(M, 5, 5000)
+
+/mob/living/simple_animal/hostile/plasmageist/attackby(obj/item/O, mob/user)
+	. = ..()
+	if(isliving(user))
+		tesla_zap(user, 5, 5000)
+
+/mob/living/simple_animal/hostile/plasmageist/death(gibbed)
+	..()
+	..(null, "disintegrates!")
+	var/T = get_turf(src)
+	spark(T, 1, alldirs)
+	explosion(T, -1, 0, 2)
+	qdel(src)
