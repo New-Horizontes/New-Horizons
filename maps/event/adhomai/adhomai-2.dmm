@@ -45,10 +45,6 @@
 	pixel_x = -9;
 	pixel_y = 6
 	},
-/obj/item/reagent_containers/glass/bottle/peridaxon{
-	pixel_x = 6;
-	pixel_y = 9
-	},
 /turf/unsimulated/floor{
 	icon_state = "new_white"
 	},
@@ -534,6 +530,8 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/table/stone/marble,
 /obj/item/material/knife,
+/obj/item/material/hatchet/butch,
+/obj/item/material/hatchet/butch,
 /turf/simulated/floor/tiled/white{
 	temperature = 278.15
 	},
@@ -1118,12 +1116,6 @@
 	req_access = null
 	},
 /obj/effect/floor_decal/corner/paleblue/diagonal,
-/obj/item/reagent_containers/glass/bottle/bicaridine{
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/glass/bottle/dermaline{
-	pixel_x = 9
-	},
 /obj/item/reagent_containers/glass/bottle/inaprovaline,
 /obj/item/reagent_containers/glass/bottle/thetamycin{
 	layer = 2.99;
@@ -1133,10 +1125,6 @@
 /obj/item/reagent_containers/glass/bottle/antitoxin{
 	layer = 2.99;
 	pixel_y = 7
-	},
-/obj/item/reagent_containers/glass/bottle/dexalin_plus{
-	pixel_x = 9;
-	pixel_y = -11
 	},
 /turf/unsimulated/floor{
 	icon_state = "new_white"
@@ -1263,12 +1251,6 @@
 	req_access = null
 	},
 /obj/effect/floor_decal/corner/paleblue/diagonal,
-/obj/item/reagent_containers/glass/bottle/bicaridine{
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/glass/bottle/dermaline{
-	pixel_x = 9
-	},
 /obj/item/reagent_containers/glass/bottle/inaprovaline,
 /obj/item/reagent_containers/glass/bottle/thetamycin{
 	layer = 2.99;
@@ -1278,10 +1260,6 @@
 /obj/item/reagent_containers/glass/bottle/antitoxin{
 	layer = 2.99;
 	pixel_y = 7
-	},
-/obj/item/reagent_containers/glass/bottle/dexalin_plus{
-	pixel_x = 9;
-	pixel_y = 18
 	},
 /turf/unsimulated/floor{
 	icon_state = "new_white"
@@ -2020,9 +1998,6 @@
 /obj/item/reagent_containers/blood/OMinus{
 	pixel_x = -8;
 	pixel_y = 1
-	},
-/obj/item/reagent_containers/glass/bottle/peridaxon{
-	pixel_x = 6
 	},
 /turf/unsimulated/floor{
 	icon_state = "new_white"

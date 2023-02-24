@@ -463,6 +463,7 @@
 	name = "Adhomian North Pole"
 	icon_state = "purple"
 	flags = RAD_SHIELDED
+	requires_power = FALSE
 
 /mob/living/simple_animal/ice_catcher
 	name = "ice catcher"
