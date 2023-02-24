@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"age" = (
+/mob/living/simple_animal/hostile/wriggler,
+/turf/simulated/floor/wood{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/shelter)
 "anJ" = (
 /obj/effect/floor_decal/spline/plain,
 /obj/effect/landmark{
@@ -150,6 +156,12 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"bXO" = (
+/mob/living/simple_animal/hostile/plasmageist,
+/turf/simulated/floor/exoplanet/ice/dark{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/north_pole)
 "bZd" = (
 /obj/structure/curtain/black,
 /turf/simulated/floor/wood{
@@ -696,6 +708,12 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"hks" = (
+/mob/living/simple_animal/hostile/wriggler,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/shelter)
 "hoN" = (
 /obj/structure/bed/stool/bar/padded/red,
 /turf/simulated/floor/tiled/dark{
@@ -1022,6 +1040,13 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"lFs" = (
+/mob/living/simple_animal/scavenger,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 233.15;
+	light_range = 1
+	},
+/area/exoplanet/adhomai/north_pole)
 "lMn" = (
 /obj/machinery/body_scanconsole{
 	dir = 4
@@ -1140,6 +1165,13 @@
 /mob/living/simple_animal/ice_catcher,
 /turf/simulated/floor/exoplanet/ice/dark{
 	temperature = 233.15
+	},
+/area/exoplanet/adhomai/north_pole)
+"mJW" = (
+/mob/living/simple_animal/hostile/plasmageist,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 233.15;
+	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
 "nig" = (
@@ -1327,6 +1359,13 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"pvs" = (
+/mob/living/simple_animal/hostile/wriggler,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 233.15;
+	light_range = 1
+	},
+/area/exoplanet/adhomai/north_pole)
 "pwl" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/messa_mead{
@@ -1642,6 +1681,12 @@
 	icon_state = "new_white"
 	},
 /area/exoplanet/adhomai/shelter)
+"tfC" = (
+/mob/living/simple_animal/hostile/plasmageist,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/shelter)
 "tgl" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/table/stone/marble,
@@ -1841,6 +1886,12 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"vSs" = (
+/mob/living/simple_animal/scavenger,
+/turf/simulated/floor/exoplanet/ice/dark{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/north_pole)
 "vTf" = (
 /obj/machinery/telecomms/message_server,
 /turf/unsimulated/floor{
@@ -2091,6 +2142,12 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"yiT" = (
+/mob/living/simple_animal/hostile/wriggler,
+/turf/simulated/floor/exoplanet/ice/dark{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/north_pole)
 "yka" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/appliance/cooker/fryer{
@@ -2885,7 +2942,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -4235,7 +4292,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -6770,7 +6827,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -7571,7 +7628,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+mJW
 wUj
 wUj
 wUj
@@ -8592,7 +8649,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -10334,7 +10391,7 @@ tvU
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -10705,7 +10762,7 @@ tvU
 fEh
 fEh
 fEh
-fEh
+tfC
 fEh
 tvU
 tvU
@@ -11132,7 +11189,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -12037,7 +12094,7 @@ tvU
 fEh
 fEh
 fEh
-fEh
+hks
 fEh
 tvU
 tvU
@@ -12345,7 +12402,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -12930,7 +12987,7 @@ fMr
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -14484,7 +14541,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -15420,7 +15477,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+mJW
 wUj
 wUj
 wUj
@@ -15703,7 +15760,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -17017,7 +17074,7 @@ tvU
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -17311,7 +17368,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -18344,6 +18401,7 @@ wUj
 wUj
 wUj
 wUj
+lFs
 wUj
 wUj
 wUj
@@ -18354,8 +18412,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
+mJW
 wUj
 wUj
 wUj
@@ -18700,7 +18757,7 @@ tvU
 tvU
 tvU
 tvU
-fEh
+hks
 fEh
 tvU
 tvU
@@ -18849,7 +18906,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -23653,7 +23710,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -25183,7 +25240,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -25215,7 +25272,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -26791,7 +26848,7 @@ xmE
 xmE
 xmE
 xmE
-wUj
+lFs
 wUj
 wUj
 oyY
@@ -29315,7 +29372,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -29522,6 +29579,7 @@ wUj
 wUj
 wUj
 wUj
+lFs
 wUj
 wUj
 wUj
@@ -29546,8 +29604,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -30538,7 +30595,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -31371,7 +31428,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -31470,7 +31527,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+mJW
 wUj
 wUj
 wUj
@@ -31958,7 +32015,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+mJW
 wUj
 wUj
 wUj
@@ -34700,7 +34757,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+bXO
 oyY
 oyY
 oyY
@@ -34908,7 +34965,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -35189,7 +35246,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -35633,7 +35690,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -39280,7 +39337,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -39324,7 +39381,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -40145,7 +40202,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -40284,7 +40341,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -41132,7 +41189,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -41662,7 +41719,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -44936,7 +44993,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -45284,7 +45341,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -47756,7 +47813,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -47802,7 +47859,7 @@ oyY
 oyY
 vMM
 vMM
-pEO
+age
 pEO
 vMM
 vMM
@@ -47923,6 +47980,7 @@ wUj
 wUj
 wUj
 wUj
+lFs
 wUj
 wUj
 wUj
@@ -47994,8 +48052,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -49351,7 +49408,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -49578,7 +49635,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -49848,7 +49905,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -50853,7 +50910,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -52034,7 +52091,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -52741,7 +52798,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+vSs
 oyY
 oyY
 oyY
@@ -53302,7 +53359,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -53637,7 +53694,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -53750,7 +53807,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -54760,7 +54817,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -56086,7 +56143,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -57089,7 +57146,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -58045,7 +58102,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -59095,7 +59152,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -60915,7 +60972,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -61442,7 +61499,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -62410,7 +62467,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -62548,7 +62605,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 oyY
 oyY
@@ -62794,7 +62851,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+vSs
 oyY
 oyY
 oyY
@@ -63027,6 +63084,56 @@ oyY
 oyY
 oyY
 oyY
+vSs
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+wUj
+wUj
+oyY
+oyY
+wUj
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
+oyY
 oyY
 oyY
 oyY
@@ -63041,54 +63148,6 @@ oyY
 oyY
 wUj
 wUj
-oyY
-oyY
-wUj
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
-oyY
 wUj
 wUj
 wUj
@@ -63101,9 +63160,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
-wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -64304,7 +64361,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
@@ -64420,7 +64477,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+lFs
 wUj
 wUj
 wUj
@@ -66139,7 +66196,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+bXO
 oyY
 oyY
 oyY
@@ -66183,7 +66240,7 @@ tvU
 tvU
 fEh
 gGR
-fEh
+tfC
 tvU
 wUj
 wUj

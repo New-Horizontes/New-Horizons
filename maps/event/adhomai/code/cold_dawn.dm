@@ -551,7 +551,7 @@
 /mob/living/simple_animal/hostile/wriggler
 	name = "wriggler"
 	desc = "A large arctic predator.Its body is a white flesh sphere from which several tentacles emerge."
-	icon = 'icons/obj/cold_dawn_48.dmi'
+	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "wriggler"
 	icon_living = "wriggler"
 	icon_dead = "wriggler_dead"
@@ -579,7 +579,7 @@
 /mob/living/simple_animal/scavenger
 	name = "scavenger"
 	desc = "Segmented, keratinous creatures that feed on the Hma'trra Zivr carcasses found on the pole's surface."
-	icon = 'icons/obj/cold_dawn_48.dmi'
+	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "scavenger"
 	icon_living = "scavenger"
 	icon_dead = "scavenger_dead"
@@ -590,7 +590,6 @@
 	maxHealth = 20
 	health = 20
 	mob_size = 3
-	pixel_x = -8
 	speak_emote = list("chitters")
 	emote_hear = list("chitters")
 
@@ -598,7 +597,7 @@
 /mob/living/simple_animal/hostile/plasmageist
 	name = "plasmageist"
 	desc = "A luminescent, lightning balls frequently spotted floating over the Adhomian North Pole. "
-	icon = 'icons/obj/cold_dawn_48.dmi'
+	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "plasmageist"
 	icon_living = "plasmageist"
 	icon_dead = "plasmageist_dead"
