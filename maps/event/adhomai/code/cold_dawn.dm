@@ -560,8 +560,8 @@
 	meat_amount = 5
 	organ_names = list("body", "tentacles")
 	faction = "Adhomai"
-	maxHealth = 150
-	health = 150
+	maxHealth = 100
+	health = 100
 
 	melee_damage_lower = 15
 	melee_damage_upper = 15
@@ -569,7 +569,7 @@
 	mob_swap_flags = HUMAN|SIMPLE_ANIMAL|SLIME|MONKEY
 	mob_push_flags = ALLMOBS
 
-	attacktext = "strangles"
+	attacktext = "strangled"
 	attack_sound = 'sound/effects/noosed.ogg'
 
 	speed = 1
@@ -601,7 +601,7 @@
 
 /mob/living/simple_animal/hostile/plasmageist
 	name = "plasmageist"
-	desc = "A luminescent, lightning balls frequently spotted floating over the Adhomian North Pole. "
+	desc = "A luminescent, lightning balls frequently spotted floating over the Adhomian North Pole."
 	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "plasmageist"
 	icon_living = "plasmageist"
@@ -642,12 +642,12 @@
 		explosion(target, -1, 0, 2)
 
 /mob/living/simple_animal/hostile/plasmageist/attack_hand(mob/living/carbon/human/M as mob)
-	. = ..()
+	visible_message(SPAN_WARNING("\The [M] tries to touch \the [src]"))
 	tesla_zap(M, 5, 5000)
 
 /mob/living/simple_animal/hostile/plasmageist/attackby(obj/item/O, mob/user)
-	. = ..()
 	if(isliving(user))
+		visible_message(SPAN_WARNING("\The [user] tries to touch \the [src]"))
 		tesla_zap(user, 5, 5000)
 
 /mob/living/simple_animal/hostile/plasmageist/death(gibbed)
