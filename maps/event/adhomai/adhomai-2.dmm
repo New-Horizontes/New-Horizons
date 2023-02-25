@@ -15,7 +15,7 @@
 	},
 /area/exoplanet/adhomai/shelter)
 "aQd" = (
-/mob/living/carbon/human,
+/mob/living/carbon/human/tajaran,
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
 	},
@@ -47,6 +47,16 @@
 	},
 /turf/unsimulated/floor{
 	icon_state = "new_white"
+	},
+/area/exoplanet/adhomai/shelter)
+"aXS" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 5
+	},
+/obj/structure/table/standard,
+/obj/item/pen/black,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
 "baW" = (
@@ -1007,6 +1017,16 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"kxr" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 5
+	},
+/obj/structure/table/standard,
+/obj/item/paper_bin,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "kFQ" = (
 /obj/structure/plasticflaps/airtight,
 /obj/machinery/door/airlock/hatch,
@@ -1486,6 +1506,16 @@
 	temperature = 278.15
 	},
 /area/exoplanet/adhomai/shelter)
+"qGv" = (
+/obj/structure/table/wood,
+/obj/item/gun/projectile/musket,
+/obj/item/ammo_casing/musket,
+/obj/item/ammo_casing/musket,
+/obj/item/reagent_containers/powder_horn,
+/turf/simulated/floor/wood{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/shelter)
 "qGD" = (
 /obj/structure/closet/walllocker/medical/secure{
 	name = "blood closet";
@@ -1666,6 +1696,12 @@
 	icon_state = "new_white"
 	},
 /area/exoplanet/adhomai/shelter)
+"taD" = (
+/obj/item/material/sword/amohdan_sword,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 233.15
+	},
+/area/exoplanet/adhomai/shelter)
 "tfC" = (
 /mob/living/simple_animal/hostile/plasmageist,
 /turf/simulated/floor/exoplanet/mineral/adhomai{
@@ -1741,6 +1777,20 @@
 	light_range = 1
 	},
 /area/exoplanet/adhomai/north_pole)
+"tUh" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/structure/table/standard,
+/obj/machinery/photocopier/faxmachine,
+/turf/simulated/floor/tiled/dark{
+	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
 "tVE" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/table/stone/marble,
@@ -2031,6 +2081,29 @@
 	},
 /turf/simulated/floor/tiled/white{
 	temperature = 278.15
+	},
+/area/exoplanet/adhomai/shelter)
+"wXf" = (
+/obj/structure/closet/crate/miningcart,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/gold,
+/obj/item/coin/diamond,
+/obj/item/coin/diamond,
+/obj/item/coin/diamond,
+/obj/item/coin/diamond,
+/obj/item/coin/diamond,
+/obj/item/coin/diamond,
+/obj/item/coin/diamond,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 233.15
 	},
 /area/exoplanet/adhomai/shelter)
 "xcj" = (
@@ -4860,8 +4933,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+wXf
 tvU
 tvU
 tvU
@@ -5116,9 +5189,9 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
+taD
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -5296,6 +5369,7 @@ wUj
 wUj
 wUj
 wUj
+pvs
 wUj
 wUj
 wUj
@@ -5313,7 +5387,6 @@ wUj
 wUj
 wUj
 wUj
-wUj
 tvU
 tvU
 tvU
@@ -5373,9 +5446,9 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+hks
 tvU
 tvU
 tvU
@@ -5631,7 +5704,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -5888,7 +5961,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -6145,7 +6218,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -6402,7 +6475,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -6659,8 +6732,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -6789,7 +6862,7 @@ wUj
 wUj
 wUj
 fMr
-kam
+kxr
 xUF
 twN
 twN
@@ -6917,7 +6990,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -7046,7 +7119,7 @@ wUj
 wUj
 wUj
 fMr
-oKa
+tUh
 xUF
 twN
 oSJ
@@ -7174,7 +7247,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -7303,7 +7376,7 @@ wUj
 wUj
 wUj
 fMr
-kam
+aXS
 qNz
 nKS
 jDn
@@ -7431,8 +7504,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -7689,7 +7762,7 @@ tvU
 tvU
 tvU
 tvU
-tvU
+fEh
 tvU
 tvU
 tvU
@@ -7946,8 +8019,8 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
+fEh
+fEh
 tvU
 tvU
 tvU
@@ -8204,13 +8277,13 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
+fEh
 tvU
 tvU
 fEh
@@ -8467,9 +8540,9 @@ tvU
 tvU
 tvU
 tvU
-tvU
-tvU
-tvU
+fEh
+fEh
+fEh
 fEh
 fEh
 tvU
@@ -9157,7 +9230,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -9167,7 +9240,7 @@ wUj
 wUj
 wUj
 tvU
-wUj
+pvs
 tvU
 tvU
 tvU
@@ -11771,7 +11844,7 @@ tvU
 tvU
 fEh
 fEh
-fEh
+hks
 tvU
 tvU
 tvU
@@ -12259,7 +12332,7 @@ fEh
 fEh
 fEh
 fEh
-fEh
+hks
 fEh
 fEh
 fEh
@@ -15624,7 +15697,7 @@ tvU
 tvU
 tvU
 tvU
-wUj
+pvs
 wUj
 tvU
 tvU
@@ -22002,7 +22075,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 tvU
@@ -27870,7 +27943,7 @@ wUj
 wUj
 oyY
 oyY
-oyY
+yiT
 wUj
 wUj
 wUj
@@ -32333,7 +32406,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -39239,7 +39312,7 @@ tvU
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -43106,7 +43179,7 @@ fEh
 tvU
 fEh
 fEh
-fEh
+hks
 fEh
 fEh
 tvU
@@ -47235,7 +47308,7 @@ wUj
 wUj
 wUj
 wUj
-wUj
+pvs
 wUj
 wUj
 wUj
@@ -48617,7 +48690,7 @@ oyY
 oyY
 oyY
 vMM
-vIC
+qGv
 pEO
 pEO
 pEO
@@ -59577,7 +59650,7 @@ oyY
 oyY
 oyY
 oyY
-oyY
+yiT
 oyY
 oyY
 oyY
