@@ -1,7 +1,7 @@
 /datum/event/ice_storm
-	var/const/enterBelt		= 45
-	var/const/radIntervall 	= 5	// 20 ticks
-	var/const/leaveBelt		= 145
+	var/const/enterBelt		= 20
+	var/const/radIntervall 	= 3	// 20 ticks
+	var/const/leaveBelt		= 100
 	var/const/revokeAccess	= 200
 	startWhen				= 2
 	announceWhen			= 1
