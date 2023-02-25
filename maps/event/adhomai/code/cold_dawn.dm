@@ -478,7 +478,7 @@
 	faction = "Adhomai"
 	maxHealth = 50
 	health = 50
-	mob_size = 15
+	mob_size = 3
 	pixel_x = -8
 	blood_type = "#281C2D"
 	var/burrowed = FALSE
@@ -574,7 +574,7 @@
 	attack_sound = 'sound/effects/noosed.ogg'
 
 	speed = 1
-	mob_size = 10
+	mob_size = 3
 	environment_smash = 2
 
 	attack_emote = "wiggles toward"
@@ -618,7 +618,7 @@
 	attack_sound = 'sound/magic/LightningShock.ogg'
 
 	speed = 1
-	mob_size = 10
+	mob_size = 3
 
 	attack_emote = "hums at"
 	see_in_dark = 10
