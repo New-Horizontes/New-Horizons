@@ -457,7 +457,7 @@
 
 /area/exoplanet/adhomai/north_pole
 	name = "Adhomian North Pole"
-	flags = null
+	flags = HIDE_FROM_HOLOMAP
 
 /area/exoplanet/adhomai/shelter
 	name = "Adhomian North Pole"

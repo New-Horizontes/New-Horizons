@@ -1,8 +1,8 @@
 /datum/event/ice_storm
 	var/const/enterBelt		= 45
-	var/const/radIntervall 	= 2
+	var/const/radIntervall 	= 5	// 20 ticks
 	var/const/leaveBelt		= 145
-	var/const/revokeAccess	= 150
+	var/const/revokeAccess	= 200
 	startWhen				= 2
 	announceWhen			= 1
 	endWhen					= revokeAccess
@@ -28,13 +28,17 @@
 		radiate()
 
 /datum/event/ice_storm/proc/radiate()
+	to_world("<span class='danger'><font size = 3>aeeee.</font></span>")
 	for(var/mob/living/carbon/human/H in human_mob_list)
-		var/area/A = get_area(H)
-		if(A.flags & RAD_SHIELDED)
-			return
-		else
-			H.take_overall_damage(10,10)
-			to_chat(H, "<span class='warning'>You are caught in the storm! The hail flays your skin!</span>")
+		H.do_ice_storm()
+
+/mob/living/carbon/human/proc/do_ice_storm()
+	var/area/A = get_area(src)
+	if(A.flags & RAD_SHIELDED)
+		return
+	else
+		take_overall_damage(10,10)
+		to_chat(src, "<span class='warning'>You are caught in the storm! The hail flays your skin!</span>")
 
 /datum/event/ice_storm/end()
 	..()
