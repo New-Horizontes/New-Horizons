@@ -38,6 +38,7 @@
 	else
 		take_overall_damage(10,10)
 		to_chat(src, "<span class='warning'>You are caught in the storm! The hail flays your skin!</span>")
+		bodytemperature -= 30
 
 /datum/event/ice_storm/end()
 	..()
