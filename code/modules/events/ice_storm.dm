@@ -28,7 +28,6 @@
 		radiate()
 
 /datum/event/ice_storm/proc/radiate()
-	to_world("<span class='danger'><font size = 3>aeeee.</font></span>")
 	for(var/mob/living/carbon/human/H in human_mob_list)
 		H.do_ice_storm()
 
