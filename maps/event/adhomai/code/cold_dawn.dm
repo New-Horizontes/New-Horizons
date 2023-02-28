@@ -701,10 +701,22 @@
 /obj/structure/railing/ropes
 	name = "rope fence"
 	icon = 'icons/obj/cold_dawn.dmi'
-	icon_state = "planks"
+	icon_state = "rope-railing"
 	color = null
 	anchored = TRUE
 
-/obj/structure/railing/fence/Initialize()
+/obj/structure/railing/ropes/Initialize()
 	. = ..()
 	color = null
+
+/obj/structure/railing/ropes/update_icon()
+	return
+
+/area/da_boat
+	name = "Minharrzka’s Heart"
+	icon_state = "bluenew"
+	requires_power = FALSE
+	dynamic_lighting = TRUE
+	no_light_control = FALSE
+	base_turf = /turf/simulated/floor/exoplanet/mineral/adhomai
+	flags = RAD_SHIELDED
