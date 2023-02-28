@@ -692,3 +692,19 @@
 	L.bodytemperature += steam_temperature
 	if(steam_temperature >= 100)
 		L.apply_damage(70, DAMAGE_BURN)
+
+/obj/structure/lattice/catwalk/indoor/grate/pier
+	name = "pier"
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "planks"
+
+/obj/structure/railing/ropes
+	name = "rope fence"
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "planks"
+	color = null
+	anchored = TRUE
+
+/obj/structure/railing/fence/Initialize()
+	. = ..()
+	color = null
