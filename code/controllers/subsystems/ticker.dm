@@ -51,7 +51,7 @@ var/datum/controller/subsystem/ticker/SSticker
 	var/obj/screen/cinematic = null
 
 	var/list/possible_lobby_tracks = list(
-		'sound/music/pole.ogg'
+		'sound/music/tranquilite.ogg'
 	)
 
 	var/lobby_ready = FALSE

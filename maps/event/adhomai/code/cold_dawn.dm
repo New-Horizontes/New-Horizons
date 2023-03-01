@@ -713,10 +713,25 @@
 	return
 
 /area/da_boat
-	name = "Minharrzka’s Heart"
+	name = "Minharrzka Heart"
 	icon_state = "bluenew"
 	requires_power = FALSE
 	dynamic_lighting = TRUE
 	no_light_control = FALSE
 	base_turf = /turf/simulated/floor/exoplanet/mineral/adhomai
 	flags = RAD_SHIELDED
+
+/area/da_boat/bar
+	name = "The Zhan Pit Bar"
+	icon_state = "maint_bar"
+
+/obj/machinery/media/jukebox/phonograph/bar
+	tracks = list(
+		new/datum/track("Call of the Stars", 'sound/music/resurrection.ogg'),
+		new/datum/track("March of the Progress", 'sound/music/NTorchestra.ogg'),
+		new/datum/track("A Warm Morning", 'sound/music/winterspell.ogg'),
+		new/datum/track("Winds from Beyond Adhomai", 'sound/music/pole.ogg'),
+		new/datum/track("A Night in Crevus", 'sound/music/tranquilite.ogg'),
+		new/datum/track("Adhomaykh", 'sound/music/siberiade.ogg')
+	)
+	anchored = TRUE
