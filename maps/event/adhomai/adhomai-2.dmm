@@ -263,6 +263,11 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"cAt" = (
+/turf/simulated/abyss{
+	temperature = 278.15
+	},
+/area/da_boat/bar)
 "cCX" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(150)
@@ -288,6 +293,14 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"cOF" = (
+/obj/structure/railing/fence{
+	dir = 8
+	},
+/turf/simulated/abyss{
+	temperature = 278.15
+	},
+/area/da_boat/bar)
 "cPn" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -946,6 +959,12 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"jbk" = (
+/obj/structure/railing/fence,
+/turf/simulated/abyss{
+	temperature = 278.15
+	},
+/area/da_boat/bar)
 "jcW" = (
 /obj/machinery/light{
 	dir = 1;
@@ -1192,6 +1211,17 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"lzz" = (
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/obj/structure/railing/fence{
+	dir = 4
+	},
+/turf/simulated/abyss{
+	temperature = 278.15
+	},
+/area/da_boat/bar)
 "lAF" = (
 /obj/structure/bed/stool/chair/sofa/black{
 	dir = 1
@@ -1213,8 +1243,11 @@
 	},
 /area/da_boat)
 "lQW" = (
-/obj/machinery/floor_light/dance,
-/turf/simulated/floor/wood{
+/obj/structure/railing/fence,
+/obj/structure/railing/fence{
+	dir = 8
+	},
+/turf/simulated/abyss{
 	temperature = 278.15
 	},
 /area/da_boat/bar)
@@ -1477,6 +1510,14 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"ppS" = (
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/turf/simulated/abyss{
+	temperature = 278.15
+	},
+/area/da_boat/bar)
 "psg" = (
 /obj/machinery/light{
 	dir = 8;
@@ -1555,8 +1596,11 @@
 	},
 /area/da_boat)
 "pMe" = (
-/turf/unsimulated/wall/away/blueriver,
-/area/space)
+/obj/structure/trash_pile,
+/turf/simulated/floor/concrete/square{
+	temperature = 278.15
+	},
+/area/da_boat)
 "pYf" = (
 /turf/simulated/floor/concrete/square{
 	temperature = 278.15
@@ -1602,6 +1646,12 @@
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp/lava/red,
 /turf/simulated/floor/carpet/art{
+	temperature = 278.15
+	},
+/area/da_boat)
+"qxZ" = (
+/obj/random/junk,
+/turf/simulated/floor/concrete/square{
 	temperature = 278.15
 	},
 /area/da_boat)
@@ -1904,6 +1954,14 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"tKA" = (
+/obj/structure/railing/fence{
+	dir = 4
+	},
+/turf/simulated/abyss{
+	temperature = 278.15
+	},
+/area/da_boat/bar)
 "tOw" = (
 /obj/structure/bed/stool/chair/sofa/brown{
 	dir = 1
@@ -2044,6 +2102,17 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"vJS" = (
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/obj/structure/railing/fence{
+	dir = 8
+	},
+/turf/simulated/abyss{
+	temperature = 278.15
+	},
+/area/da_boat/bar)
 "vMK" = (
 /obj/structure/bed/stool/chair/sofa/black{
 	dir = 4
@@ -2201,6 +2270,15 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"wWD" = (
+/obj/structure/railing/fence,
+/obj/structure/railing/fence{
+	dir = 4
+	},
+/turf/simulated/abyss{
+	temperature = 278.15
+	},
+/area/da_boat/bar)
 "xaU" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9;
@@ -17432,8 +17510,8 @@ bcN
 bcN
 bcN
 hkN
-lQW
-lQW
+vJS
+cOF
 lQW
 aDT
 nnU
@@ -17689,9 +17767,9 @@ bcN
 day
 kmZ
 aDT
-lQW
-lQW
-lQW
+ppS
+cAt
+jbk
 aDT
 aDT
 cgB
@@ -17946,9 +18024,9 @@ bcN
 day
 kmZ
 aDT
-lQW
-lQW
-lQW
+lzz
+tKA
+wWD
 aDT
 tHY
 sre
@@ -20007,14 +20085,14 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 jif
@@ -20264,11 +20342,11 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
 jDW
 jDW
 jDW
@@ -20521,11 +20599,11 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
 jDW
 nBK
 pYf
@@ -20778,11 +20856,11 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 pYf
@@ -21035,11 +21113,11 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 pYf
@@ -21292,11 +21370,11 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
 jDW
 jDW
 jDW
@@ -21775,31 +21853,31 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 jif
@@ -22032,31 +22110,31 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 jif
@@ -22289,31 +22367,31 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 jif
@@ -22546,28 +22624,28 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 jDW
 jDW
@@ -22803,28 +22881,28 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 pYf
@@ -22840,7 +22918,7 @@ jDW
 jDW
 jDW
 jDW
-jDW
+pYf
 jDW
 jDW
 jDW
@@ -23060,28 +23138,28 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pxY
 pYf
@@ -23091,19 +23169,19 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+jDW
+pYf
+jDW
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 jif
@@ -23317,28 +23395,28 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 pYf
@@ -23348,19 +23426,19 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+jDW
+jDW
+pYf
+jDW
+jDW
+jDW
+jDW
+jDW
+huM
 jDW
 pYf
 jif
@@ -23605,19 +23683,19 @@ jif
 jif
 pYf
 jDW
+huM
+huM
+huM
+huM
+jDW
 pMe
+pYf
+pYf
+pYf
+qxZ
 pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+jDW
+jDW
 jDW
 pYf
 jif
@@ -23862,19 +23940,19 @@ jif
 jif
 pYf
 jDW
+huM
+huM
+huM
+huM
+jDW
+qxZ
 pMe
+qxZ
+pYf
 pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+pYf
+qxZ
+jDW
 jDW
 pYf
 jif
@@ -24119,19 +24197,19 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+jDW
+jDW
+jDW
+jDW
+jDW
+jDW
+jDW
+jDW
+jDW
 jDW
 pYf
 jif
@@ -24376,19 +24454,19 @@ jif
 jif
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 jif
@@ -24633,19 +24711,19 @@ pYf
 pYf
 pYf
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 jif
@@ -24661,9 +24739,9 @@ jif
 pYf
 jDW
 huM
-pMe
-pMe
-pMe
+huM
+huM
+huM
 huM
 huM
 huM
@@ -24890,19 +24968,19 @@ jDW
 jDW
 jDW
 jDW
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
-pMe
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
+huM
 jDW
 pYf
 jif

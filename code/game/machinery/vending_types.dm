@@ -1256,7 +1256,7 @@
 	light_color = COLOR_BABY_BLUE
 
 /obj/machinery/vending/casino
-	name = "grand romanovich vending machine"
+	name = "casino vending machine"
 	desc = "A vending machine commonly found in Crevus' casinos."
 	icon_state = "casinovend"
 	product_slogans = "The House always wins!;Spends your chips right here!;Let Go and Begin Again..."
@@ -1281,6 +1281,7 @@
 		/obj/item/reagent_containers/food/snacks/adhomian_can = 5,
 		/obj/item/reagent_containers/food/snacks/clam = 5,
 		/obj/item/reagent_containers/food/snacks/tajaran_bread = 5,
+		/obj/item/mollusc/clam/rasval = 5,
 		/obj/item/toy/plushie/farwa = 2,
 		/obj/item/reagent_containers/food/snacks/monkeycube/wrapped/farwacube = 2,
 		/obj/item/razor = 2,
@@ -1306,7 +1307,10 @@
 		/obj/item/gun/energy/lasertag/red = 2,
 		/obj/item/clothing/suit/armor/riot/laser_tag = 2,
 		/obj/item/gun/energy/lasertag/blue = 2,
-		/obj/item/clothing/suit/armor/riot/laser_tag/blue = 2
+		/obj/item/clothing/suit/armor/riot/laser_tag/blue = 2,
+		/obj/item/storage/pill_bottle/happy = 3,
+		/obj/item/reagent_containers/inhaler/space_drugs = 3,
+		/obj/item/reagent_containers/inhaler/raskara_dust = 3
 		)
 	prices = list(
 		/obj/item/coin/casino = 500

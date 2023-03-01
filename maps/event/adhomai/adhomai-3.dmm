@@ -24,7 +24,7 @@
 /area/da_boat)
 "apU" = (
 /obj/structure/blocker/steel/fence{
-	dir = 1
+	dir = 8
 	},
 /turf/simulated/floor/concrete/square{
 	temperature = 278.15
@@ -975,10 +975,13 @@
 	},
 /area/da_boat)
 "iYN" = (
-/obj/structure/blocker/steel/fence{
-	dir = 1
-	},
-/turf/simulated/floor/concrete/square{
+/obj/random/backpack,
+/obj/random/backpack,
+/obj/random/lavalamp,
+/obj/random/mre,
+/obj/random/plushie,
+/obj/random/plushie,
+/turf/simulated/floor/wood{
 	temperature = 278.15
 	},
 /area/da_boat)
@@ -1114,6 +1117,16 @@
 /area/da_boat)
 "kiB" = (
 /turf/simulated/floor/tiled{
+	temperature = 278.15
+	},
+/area/da_boat)
+"kko" = (
+/obj/random/desktoy,
+/obj/random/desktoy,
+/obj/random/booze,
+/obj/random/booze,
+/obj/random/booze,
+/turf/simulated/floor/wood{
 	temperature = 278.15
 	},
 /area/da_boat)
@@ -22224,7 +22237,7 @@ aZB
 aZB
 aZB
 aZB
-iYN
+dnq
 lrp
 uXo
 kiB
@@ -22481,7 +22494,7 @@ aZB
 soR
 aZB
 aZB
-iYN
+dnq
 lrp
 uXo
 jui
@@ -22738,7 +22751,7 @@ aqy
 aqy
 aqy
 aZB
-iYN
+dnq
 lrp
 uXo
 kiB
@@ -24082,9 +24095,9 @@ aqy
 aqy
 aqy
 aqy
+kko
 dWb
-dWb
-dWb
+iYN
 aqy
 hsN
 hsN

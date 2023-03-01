@@ -84,7 +84,7 @@
 		return 1
 
 /obj/item/coin/casino
-	name = "grand romanovich casino chip"
+	name = "casino chip"
 	icon = 'icons/obj/casino.dmi'
 	icon_state = "casino_coin"
 
