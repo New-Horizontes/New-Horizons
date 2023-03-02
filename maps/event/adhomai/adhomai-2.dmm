@@ -1149,6 +1149,9 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"kFX" = (
+/turf/simulated/mineral/adhomai,
+/area/da_boat)
 "kKa" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5;
@@ -20618,11 +20621,11 @@ sZx
 sZx
 sZx
 huM
-qVy
-qVy
-qVy
-qVy
-qVy
+kFX
+kFX
+kFX
+kFX
+kFX
 huM
 jDW
 pYf
@@ -20875,11 +20878,11 @@ sZx
 sZx
 sZx
 huM
-qVy
+kFX
 nFW
 wst
 wst
-qVy
+kFX
 huM
 jDW
 pYf
@@ -21132,11 +21135,11 @@ sZx
 sZx
 sZx
 huM
-qVy
+kFX
 wst
 wst
 wst
-qVy
+kFX
 huM
 jDW
 pYf
@@ -21389,11 +21392,11 @@ sZx
 sZx
 sZx
 huM
-qVy
+kFX
 oFO
 wst
 wst
-qVy
+kFX
 huM
 jDW
 pYf
@@ -21646,11 +21649,11 @@ sZx
 sZx
 sZx
 huM
-qVy
+kFX
 wst
 wst
 wst
-qVy
+kFX
 huM
 jDW
 pYf
@@ -21903,11 +21906,11 @@ sZx
 sZx
 sZx
 huM
-qVy
-qVy
-qVy
+kFX
 wst
-qVy
+wst
+wst
+kFX
 huM
 jDW
 pYf
@@ -22160,11 +22163,11 @@ sZx
 sZx
 sZx
 huM
-huM
-huM
-qVy
+kFX
+kFX
+kFX
 wst
-qVy
+kFX
 huM
 jDW
 pYf
@@ -22416,12 +22419,12 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
 huM
-qVy
+huM
+huM
+kFX
 wst
-qVy
+kFX
 jDW
 jDW
 pYf
@@ -22676,7 +22679,7 @@ sZx
 sZx
 sZx
 huM
-qVy
+kFX
 wst
 wst
 wst
@@ -22933,9 +22936,9 @@ sZx
 sZx
 sZx
 huM
-qVy
-qVy
-qVy
+kFX
+kFX
+kFX
 jDW
 jDW
 pYf
