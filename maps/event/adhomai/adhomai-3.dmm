@@ -576,6 +576,16 @@
 	temperature = 278.15
 	},
 /area/da_boat/bar)
+"fyQ" = (
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/steel{
+	temperature = 278.15
+	},
+/area/da_boat)
 "fBP" = (
 /obj/structure/railing/fence{
 	dir = 8
@@ -2423,6 +2433,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/art,
+/area/da_boat)
+"usE" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/steel{
+	temperature = 278.15
+	},
 /area/da_boat)
 "utN" = (
 /obj/item/reagent_containers/glass/rag,
@@ -21714,8 +21730,8 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
+svv
+svv
 svv
 svv
 svv
@@ -21971,9 +21987,9 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
 svv
+aqy
+aqy
 aqy
 aqy
 aqy
@@ -22228,9 +22244,9 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
 svv
+aqy
+evN
 aqy
 cGt
 aZB
@@ -22486,9 +22502,9 @@ sZx
 svv
 svv
 svv
-svv
-svv
 aqy
+aZB
+ovR
 aZB
 aZB
 soR
@@ -23574,7 +23590,7 @@ fcr
 fcr
 fcr
 fcr
-axJ
+fyQ
 aqy
 svv
 sZx
@@ -23831,7 +23847,7 @@ fcr
 fcr
 fcr
 fcr
-fcr
+usE
 aqy
 svv
 svv
