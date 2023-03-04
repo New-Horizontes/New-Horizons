@@ -1848,6 +1848,14 @@
 	temperature = 283.15
 	},
 /area/da_boat)
+"rLM" = (
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/turf/simulated/floor/concrete/square{
+	temperature = 283.15
+	},
+/area/da_boat)
 "rXr" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -17616,11 +17624,11 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+huM
+huM
+huM
+huM
+huM
 sZx
 sZx
 sZx
@@ -17873,11 +17881,11 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+huM
+jDW
+jDW
+jDW
+huM
 sZx
 sZx
 sZx
@@ -18130,11 +18138,11 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+huM
+jDW
+pxY
+jDW
+huM
 sZx
 sZx
 sZx
@@ -18388,9 +18396,9 @@ huM
 huM
 huM
 huM
-huM
-huM
-huM
+jDW
+pYf
+jDW
 huM
 huM
 huM
@@ -18646,7 +18654,7 @@ jDW
 jDW
 jDW
 jDW
-jDW
+rLM
 jDW
 jDW
 jDW

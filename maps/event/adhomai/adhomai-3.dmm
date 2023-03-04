@@ -303,6 +303,13 @@
 	temperature = 278.15
 	},
 /area/da_boat)
+"cDM" = (
+/obj/item/device/binoculars,
+/obj/structure/closet/crate,
+/turf/simulated/floor/wood{
+	temperature = 283.15
+	},
+/area/da_boat)
 "cEt" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10;
@@ -679,6 +686,15 @@
 /area/da_boat)
 "gkn" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
+/turf/simulated/floor/wood{
+	temperature = 283.15
+	},
+/area/da_boat)
+"gll" = (
+/obj/machinery/door/airlock{
+	locked = 1;
+	id_tag = "secret"
+	},
 /turf/simulated/floor/wood{
 	temperature = 283.15
 	},
@@ -1355,6 +1371,12 @@
 "lOY" = (
 /turf/simulated/floor/carpet/rubber{
 	temperature = 278.15
+	},
+/area/da_boat)
+"lQy" = (
+/obj/structure/bed/stool/bar/padded/brown,
+/turf/simulated/floor/wood{
+	temperature = 283.15
 	},
 /area/da_boat)
 "lZh" = (
@@ -2176,6 +2198,16 @@
 	temperature = 283.15
 	},
 /area/da_boat)
+"rZv" = (
+/obj/machinery/button/remote/airlock{
+	id = "secret";
+	specialfunctions = 4;
+	pixel_x = -25
+	},
+/turf/simulated/floor/wood{
+	temperature = 283.15
+	},
+/area/da_boat)
 "sgz" = (
 /obj/item/ammo_casing/pistol/used,
 /turf/simulated/floor/wood{
@@ -2274,6 +2306,13 @@
 	icon_state = "lamp_on";
 	layer = 3.1
 	},
+/turf/simulated/floor/wood{
+	temperature = 283.15
+	},
+/area/da_boat)
+"sJx" = (
+/obj/item/gun/projectile/sec/lethal,
+/obj/structure/closet/crate/weapon,
 /turf/simulated/floor/wood{
 	temperature = 283.15
 	},
@@ -2550,6 +2589,12 @@
 	temperature = 283.15
 	},
 /area/da_boat)
+"viJ" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/simulated/floor/wood{
+	temperature = 283.15
+	},
+/area/da_boat)
 "vkN" = (
 /obj/machinery/telecomms/bus/preset_two,
 /turf/unsimulated/floor{
@@ -2680,6 +2725,14 @@
 	temperature = 283.15
 	},
 /area/da_boat/bar)
+"wzZ" = (
+/obj/structure/table/standard,
+/obj/item/paper_bin,
+/obj/item/pen/black,
+/turf/simulated/floor/wood{
+	temperature = 283.15
+	},
+/area/da_boat)
 "wAm" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/decal/fake_object{
@@ -17976,12 +18029,12 @@ lrp
 uXo
 aqy
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+svv
+svv
+svv
+svv
+svv
+svv
 sZx
 sZx
 sZx
@@ -18232,13 +18285,13 @@ kiB
 lrp
 uXo
 aqy
+fTi
+fTi
+fTi
+fTi
+fTi
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -18489,13 +18542,13 @@ kiB
 lrp
 uXo
 aqy
+fTi
+sJx
+dWb
+dWb
+dNM
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -18745,14 +18798,14 @@ kiB
 kiB
 lrp
 uXo
-aqy
+fTi
+fTi
+cDM
+dWb
+dWb
+dWb
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -19002,14 +19055,14 @@ kiB
 kiB
 lrp
 uXo
-aqy
+gll
+rZv
+dWb
+dWb
+dWb
+dWb
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -19259,14 +19312,14 @@ kiB
 kiB
 lrp
 uXo
-aqy
+fTi
+fTi
+dWb
+dWb
+ljy
+fTi
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -19517,13 +19570,13 @@ kiB
 lrp
 uXo
 aqy
+fTi
+dWb
+dWb
+dWb
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+svv
 sZx
 sZx
 sZx
@@ -19774,12 +19827,12 @@ kiB
 lrp
 uXo
 aqy
+fTi
+lQy
+dWb
+dWb
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -20031,12 +20084,12 @@ kiB
 lrp
 uXo
 aqy
+fTi
+wzZ
+viJ
+fTi
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -20288,12 +20341,12 @@ kiB
 lrp
 uXo
 aqy
+fTi
+fTi
+fTi
+fTi
 svv
-sZx
-sZx
-sZx
-sZx
-sZx
+svv
 sZx
 sZx
 sZx
@@ -20546,10 +20599,10 @@ lrp
 uXo
 aqy
 svv
-sZx
-sZx
-sZx
-sZx
+svv
+svv
+svv
+svv
 sZx
 sZx
 sZx
