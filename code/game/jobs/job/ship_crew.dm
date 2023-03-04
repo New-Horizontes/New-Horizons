@@ -38,7 +38,7 @@
 	spawn_positions = -1
 	supervisors = "any authority figure"
 	selection_color = "#949494"
-	economic_modifier = 1
+	economic_modifier = 10
 	access = list()
 	minimal_access = list()
 	outfit = /datum/outfit/job/visitor
