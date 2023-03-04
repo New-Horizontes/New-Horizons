@@ -5,7 +5,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ayK" = (
@@ -13,12 +13,12 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "aDT" = (
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "aSk" = (
@@ -43,7 +43,7 @@
 	id_tag = "r2"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "aYA" = (
@@ -57,12 +57,12 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bby" = (
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bco" = (
@@ -73,7 +73,7 @@
 	},
 /obj/machinery/computer/slot_machine,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bcN" = (
@@ -90,7 +90,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bfi" = (
@@ -103,7 +103,9 @@
 /obj/structure/barricade/wooden{
 	dir = 1
 	},
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "bmL" = (
 /obj/structure/table/stone/marble,
@@ -111,7 +113,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/nmshaan_liquor,
 /obj/item/reagent_containers/food/drinks/bottle/nmshaan_liquor,
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "boj" = (
@@ -123,7 +125,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bpz" = (
@@ -140,7 +142,7 @@
 	},
 /obj/machinery/computer/slot_machine,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bsq" = (
@@ -157,7 +159,7 @@
 	desc = "A statue of the Ma'ta'ke deity of luck and bravery."
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "btJ" = (
@@ -167,7 +169,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bFG" = (
@@ -180,13 +182,13 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bLN" = (
 /obj/machinery/vending/casino,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bPU" = (
@@ -198,7 +200,7 @@
 	pixel_x = -32
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bTA" = (
@@ -207,7 +209,7 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "bTR" = (
@@ -249,12 +251,12 @@
 	},
 /obj/item/device/flashlight/lamp/lava/purple,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "clN" = (
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "czl" = (
@@ -266,12 +268,12 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "cAt" = (
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "cCX" = (
@@ -296,7 +298,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "cOF" = (
@@ -304,7 +306,7 @@
 	dir = 8
 	},
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "cPn" = (
@@ -320,7 +322,7 @@
 	desc = "A statue of the Ma'ta'ke deity of luck and bravery."
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "cQj" = (
@@ -330,7 +332,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "cSF" = (
@@ -355,7 +357,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "cXo" = (
@@ -370,7 +372,7 @@
 /obj/machinery/computer/slot_machine,
 /obj/structure/table/wood,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "dfx" = (
@@ -392,7 +394,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "dzP" = (
@@ -401,7 +403,7 @@
 	req_one_access = list(150)
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "dJl" = (
@@ -411,7 +413,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "dRQ" = (
@@ -436,7 +438,7 @@
 /obj/structure/railing/fence,
 /obj/structure/stairs/west,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "dXo" = (
@@ -456,7 +458,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "eoS" = (
@@ -467,7 +469,7 @@
 "erM" = (
 /obj/item/holder/schlorrgo/baby,
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "esW" = (
@@ -478,7 +480,7 @@
 	},
 /obj/item/paper_bin,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ezF" = (
@@ -489,13 +491,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "eFQ" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "eJx" = (
@@ -512,7 +514,7 @@
 	desc = "A statue of the Ma'ta'ke deity of luck and bravery."
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "eLd" = (
@@ -524,7 +526,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ePp" = (
@@ -540,7 +542,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ePX" = (
@@ -584,7 +586,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "feR" = (
@@ -599,7 +601,7 @@
 	pixel_y = -3
 	},
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "fgH" = (
@@ -607,7 +609,7 @@
 	pixel_y = 16
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "fhH" = (
@@ -616,7 +618,7 @@
 	},
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "fli" = (
@@ -625,21 +627,21 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "fvC" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/chemical_dispenser/bar_alc/full,
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "fwk" = (
 /obj/structure/bed/stool/chair/sofa/brown,
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "fyh" = (
@@ -653,7 +655,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "fyk" = (
@@ -680,7 +682,7 @@
 	},
 /obj/structure/bed/stool/padded,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "glT" = (
@@ -692,7 +694,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "gpI" = (
@@ -705,7 +707,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "gIy" = (
@@ -714,7 +716,7 @@
 	},
 /obj/structure/simple_door/wood,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "gJR" = (
@@ -731,7 +733,7 @@
 	desc = "A statue of the Ma'ta'ke deity of luck and bravery."
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "gRD" = (
@@ -762,7 +764,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hfD" = (
@@ -774,14 +776,14 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hio" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/fancy/cigarettes/cigar,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hiI" = (
@@ -790,7 +792,7 @@
 	},
 /obj/item/material/caltrops,
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hiZ" = (
@@ -798,7 +800,7 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/item/storage/pill_bottle/dice/tajara,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hkg" = (
@@ -810,7 +812,7 @@
 	pixel_x = -32
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hkN" = (
@@ -818,7 +820,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "hmr" = (
@@ -827,7 +829,7 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "huM" = (
@@ -841,7 +843,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hwG" = (
@@ -850,13 +852,13 @@
 	req_one_access = list(150)
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hAY" = (
 /obj/machinery/door/airlock/centcom,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hRU" = (
@@ -867,7 +869,7 @@
 /obj/structure/table/wood,
 /obj/item/material/ashtray/bronze,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "hXb" = (
@@ -888,7 +890,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/messa_mead,
 /obj/item/reagent_containers/food/drinks/bottle/messa_mead,
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "icd" = (
@@ -902,7 +904,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ifX" = (
@@ -917,13 +919,13 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "iiO" = (
 /obj/structure/simple_door/iron,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "irw" = (
@@ -944,7 +946,7 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "iET" = (
@@ -975,7 +977,7 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "iLp" = (
@@ -989,7 +991,7 @@
 "jbk" = (
 /obj/structure/railing/fence,
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "jcW" = (
@@ -999,7 +1001,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "jfg" = (
@@ -1021,7 +1023,7 @@
 /area/da_boat)
 "jif" = (
 /turf/simulated/floor/beach/water/ocean{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "jjY" = (
@@ -1034,14 +1036,14 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "jxx" = (
 /obj/structure/table/wood/gamblingtable,
 /obj/item/deck/cards,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "jDW" = (
@@ -1058,7 +1060,12 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
+	},
+/area/da_boat)
+"jUt" = (
+/turf/simulated/floor/tiled/dark{
+	temperature = 283.15
 	},
 /area/da_boat)
 "jWm" = (
@@ -1075,7 +1082,7 @@
 "kdk" = (
 /obj/item/clothing/shoes/tajara/footwraps,
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "keh" = (
@@ -1084,7 +1091,7 @@
 	req_one_access = list(150)
 	},
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "kel" = (
@@ -1094,7 +1101,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "klR" = (
@@ -1105,13 +1112,13 @@
 "kmZ" = (
 /obj/structure/bed/stool/bar/padded/red,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "kqH" = (
 /obj/structure/stairs/north,
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "krA" = (
@@ -1121,7 +1128,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "kta" = (
@@ -1130,7 +1137,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ktT" = (
@@ -1140,13 +1147,13 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "kCi" = (
 /obj/machinery/vending/dinnerware,
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "kFX" = (
@@ -1159,13 +1166,13 @@
 	},
 /obj/machinery/vending/casino,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "kKu" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "kKK" = (
@@ -1174,7 +1181,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "kUl" = (
@@ -1192,7 +1199,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "lem" = (
@@ -1209,6 +1216,11 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/tiled/dark{
 	temperature = 278.15
+	},
+/area/da_boat)
+"lfG" = (
+/turf/simulated/floor/marble/dark{
+	temperature = 283.15
 	},
 /area/da_boat)
 "lgh" = (
@@ -1233,7 +1245,7 @@
 	pixel_x = 25
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ltV" = (
@@ -1244,7 +1256,7 @@
 	pixel_x = 5
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "lzz" = (
@@ -1255,7 +1267,7 @@
 	dir = 4
 	},
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "lAF" = (
@@ -1263,7 +1275,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "lIr" = (
@@ -1275,7 +1287,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "lQW" = (
@@ -1284,7 +1296,7 @@
 	dir = 8
 	},
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "lSC" = (
@@ -1309,13 +1321,13 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "mgV" = (
 /obj/structure/table/stone/marble,
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "mpd" = (
@@ -1323,7 +1335,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "mwZ" = (
@@ -1334,7 +1346,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "nau" = (
@@ -1383,7 +1395,7 @@
 /obj/structure/table/wood,
 /obj/item/material/ashtray/bronze,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "nhy" = (
@@ -1391,7 +1403,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "nja" = (
@@ -1400,7 +1412,7 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "nlm" = (
@@ -1415,7 +1427,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "nwq" = (
@@ -1436,13 +1448,15 @@
 "nBK" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "nFW" = (
 /obj/structure/pit/closed,
 /obj/effect/decal/remains/xeno,
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "nPh" = (
 /turf/simulated/floor/tiled/freezer{
@@ -1456,7 +1470,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "nWp" = (
@@ -1464,7 +1478,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "nYi" = (
@@ -1486,13 +1500,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "obs" = (
 /obj/item/device/flashlight/lamp/lava/cyan,
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "obW" = (
@@ -1502,7 +1516,7 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "omX" = (
@@ -1523,7 +1537,7 @@
 	},
 /obj/machinery/computer/slot_machine,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "oyZ" = (
@@ -1531,12 +1545,14 @@
 	req_access = null
 	},
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "oFO" = (
 /obj/item/shovel,
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "poz" = (
 /obj/structure/closet/cabinet,
@@ -1566,7 +1582,7 @@
 	dir = 1
 	},
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "psg" = (
@@ -1576,7 +1592,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "psY" = (
@@ -1623,7 +1639,7 @@
 	},
 /obj/structure/bed/stool/padded,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "pxY" = (
@@ -1631,37 +1647,37 @@
 	pixel_y = 16
 	},
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "pCf" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "pGp" = (
 /obj/structure/railing/fence,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "pMe" = (
 /obj/structure/trash_pile,
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "pYf" = (
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "pYT" = (
 /obj/structure/bed/stool/padded,
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "pZi" = (
@@ -1676,34 +1692,34 @@
 /obj/structure/table/stone/marble,
 /obj/machinery/chemical_dispenser/bar_soft/full,
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "qob" = (
 /obj/structure/table/wood/gamblingtable,
 /obj/item/storage/pill_bottle/dice/tajara,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "qre" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/machinery/light/small,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "qxq" = (
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lamp/lava/red,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "qxZ" = (
 /obj/random/junk,
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "qCK" = (
@@ -1715,12 +1731,14 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "qId" = (
 /obj/effect/decal/remains/xeno,
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "qIY" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1732,7 +1750,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "qVy" = (
@@ -1748,7 +1766,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "rfY" = (
@@ -1785,7 +1803,7 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "rqK" = (
@@ -1794,7 +1812,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "rur" = (
@@ -1804,13 +1822,13 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "rwH" = (
 /obj/structure/table/wood/gamblingtable,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "rzt" = (
@@ -1819,7 +1837,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "rDK" = (
@@ -1827,7 +1845,7 @@
 /obj/structure/table/wood,
 /obj/machinery/media/jukebox/phonograph/bar,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "rXr" = (
@@ -1835,7 +1853,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "sfs" = (
@@ -1854,7 +1872,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "skZ" = (
@@ -1871,7 +1889,7 @@
 	desc = "A statue of the Ma'ta'ke deity of luck and bravery."
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "spX" = (
@@ -1881,7 +1899,7 @@
 	},
 /obj/machinery/vending/casino,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "sre" = (
@@ -1889,7 +1907,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "stZ" = (
@@ -1898,18 +1916,18 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "svY" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "sBm" = (
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "sEU" = (
@@ -1919,7 +1937,7 @@
 	},
 /obj/structure/casino/roulette,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "sOO" = (
@@ -1927,7 +1945,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "sPp" = (
@@ -1947,16 +1965,20 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "tmK" = (
 /obj/structure/barricade/wooden,
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "tpB" = (
 /obj/item/reagent_containers/food/snacks/meat/adhomai,
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "tvM" = (
 /obj/structure/table/wood/gamblingtable,
@@ -1966,7 +1988,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "tDX" = (
@@ -1989,7 +2011,7 @@
 	},
 /obj/structure/stairs/east,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "tHY" = (
@@ -1997,7 +2019,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "tKk" = (
@@ -2011,7 +2033,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "tKA" = (
@@ -2019,7 +2041,7 @@
 	dir = 4
 	},
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "tOw" = (
@@ -2032,14 +2054,14 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "tYv" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/bed/stool/padded,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ukA" = (
@@ -2068,7 +2090,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "uoU" = (
@@ -2078,7 +2100,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "uql" = (
@@ -2087,7 +2109,7 @@
 	},
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "uvb" = (
@@ -2096,7 +2118,7 @@
 	},
 /obj/structure/stairs/west,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "uDN" = (
@@ -2114,7 +2136,7 @@
 	icon_state = "spline_fancy_corner"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "uYR" = (
@@ -2129,7 +2151,7 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "vsK" = (
@@ -2138,7 +2160,7 @@
 	},
 /obj/structure/bed/stool/chair/padded/brown,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "vvq" = (
@@ -2146,19 +2168,21 @@
 /obj/item/clothing/under/rank/bartender,
 /obj/item/clothing/head/flatcap,
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "vEK" = (
 /obj/structure/table/wood,
 /obj/item/material/ashtray/bronze,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "vFI" = (
 /obj/structure/simple_door/iron,
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "vJS" = (
 /obj/structure/railing/fence{
@@ -2168,7 +2192,7 @@
 	dir = 8
 	},
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "vMK" = (
@@ -2176,7 +2200,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "vML" = (
@@ -2188,7 +2212,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "vNK" = (
@@ -2213,7 +2237,7 @@
 	pixel_x = -5
 	},
 /turf/simulated/floor/concrete/square{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "vTH" = (
@@ -2221,7 +2245,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "vXa" = (
@@ -2232,7 +2256,7 @@
 /obj/structure/bed/stool/chair/sofa/brown,
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "wbl" = (
@@ -2243,7 +2267,7 @@
 /obj/structure/bed/stool/chair/sofa/left/brown,
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "wdP" = (
@@ -2259,7 +2283,7 @@
 /obj/structure/table/stone/marble,
 /obj/item/storage/box/drinkingglasses,
 /turf/simulated/floor/lino/grey{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "wkG" = (
@@ -2271,7 +2295,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "wpN" = (
@@ -2281,11 +2305,13 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "wst" = (
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "wyI" = (
 /obj/machinery/light{
@@ -2294,7 +2320,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "wzn" = (
@@ -2328,13 +2354,13 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "wVD" = (
 /obj/structure/simple_door/wood,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "wWD" = (
@@ -2343,7 +2369,7 @@
 	dir = 4
 	},
 /turf/simulated/abyss{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "xaU" = (
@@ -2353,7 +2379,7 @@
 	},
 /obj/machinery/vending/casino,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "xck" = (
@@ -2367,7 +2393,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "xcZ" = (
@@ -2377,19 +2403,21 @@
 	},
 /obj/structure/casino/roulette_chart,
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "xgo" = (
 /obj/structure/table/wood/gamblingtable,
 /obj/item/deck/tarot/adhomai,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat/bar)
 "xhB" = (
 /mob/living/simple_animal/hostile/harron,
-/turf/simulated/floor/exoplanet/mineral/adhomai,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 283.15
+	},
 /area/da_boat)
 "xiH" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -2397,7 +2425,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "xlg" = (
@@ -2407,7 +2435,7 @@
 	},
 /obj/machinery/vending/casino,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "xoU" = (
@@ -2477,7 +2505,7 @@
 	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/carpet/art{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "xWN" = (
@@ -2494,7 +2522,7 @@
 	desc = "A statue of the Ma'ta'ke deity of luck and bravery."
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "ycZ" = (
@@ -2509,7 +2537,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 "yiL" = (
@@ -2551,7 +2579,7 @@
 /obj/structure/railing/fence,
 /obj/structure/stairs/east,
 /turf/simulated/floor/wood{
-	temperature = 278.15
+	temperature = 283.15
 	},
 /area/da_boat)
 
@@ -33034,7 +33062,7 @@ klR
 klR
 wdP
 ePX
-maM
+lfG
 wgg
 wdP
 wdP
@@ -35604,7 +35632,7 @@ eoS
 eoS
 wdP
 bpz
-eoS
+jUt
 iET
 yjS
 wdP
