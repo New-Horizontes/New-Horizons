@@ -735,3 +735,27 @@
 		new/datum/track("Adhomaykh", 'sound/music/siberiade.ogg')
 	)
 	anchored = TRUE
+
+/turf/simulated/floor/exoplanet/cold_dawn_cave
+	name = "cavern floor"
+	base_icon = 'icons/turf/basalt.dmi'
+	icon_state = "basalt0"
+	base_icon_state = "basalt"
+	smooth = SMOOTH_FALSE
+	canSmoothWith = null
+
+/turf/simulated/floor/exoplanet/cold_dawn_cave/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
+	underlay_appearance.icon = icon
+	underlay_appearance.icon_state = "basalt"
+	if (prob(20))
+		underlay_appearance.icon_state += "[rand(0,12)]"
+	return TRUE
+
+/turf/simulated/floor/exoplanet/cold_dawn_cave/Initialize(mapload)
+	if (prob(20))
+		var/variant = rand(0,12)
+		icon_state = "basalt[variant]"
+	temperature = T0C-10
+
+/turf/simulated/mineral/adhomai/cold_dawn_cave
+	mined_turf = /turf/simulated/floor/exoplanet/cold_dawn_cave

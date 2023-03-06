@@ -102,10 +102,6 @@
 	icon = 'icons/turf/snow.dmi'
 	icon_state = "ice"
 
-/turf/simulated/floor/exoplanet/ice/Initialize()
-	. = ..()
-	set_light(1, 1)
-
 /turf/simulated/floor/exoplanet/ice/update_icon()
 	return
 
@@ -119,11 +115,6 @@
 	icon_state = "snow"
 	dirt_color = "#e3e7e8"
 	footstep_sound = /singleton/sound_category/snow_footstep
-
-/turf/simulated/floor/exoplanet/snow/Initialize()
-	. = ..()
-	icon_state = pick("snow[rand(1,2)]","snow0")
-	set_light(1, 1)
 
 /turf/simulated/floor/exoplanet/snow/fire_act(datum/gas_mixture/air, exposed_temperature, exposed_volume)
 	melt()
