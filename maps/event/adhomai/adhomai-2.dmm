@@ -148,12 +148,6 @@
 /obj/structure/treasure_pile,
 /turf/simulated/floor/exoplanet/castle/large,
 /area/da_boat/mountains/caverns)
-"oHy" = (
-/obj/structure/mirror/raskara{
-	pixel_y = 32
-	},
-/turf/simulated/floor/exoplanet/castle/raskara,
-/area/da_boat/mountains/caverns)
 "pcB" = (
 /obj/item/device/flashlight/lantern,
 /turf/simulated/floor/exoplanet/cold_dawn_cave,
@@ -5894,7 +5888,7 @@ wZW
 sRc
 kZR
 wZW
-oHy
+bKg
 kZR
 uHQ
 kZR

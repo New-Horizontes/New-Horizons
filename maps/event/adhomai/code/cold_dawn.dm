@@ -820,8 +820,8 @@
 	icon_state = "goblet"
 	w_class = ITEMSIZE_NORMAL
 
-/obj/structure/mirror/raskara
-	name = "dark mirror"
+/obj/structure/raskara
+	name = "black mirror"
 	desc = "A mirror made from dark glass. Your reflection stares back at you."
 	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "blackmirror"

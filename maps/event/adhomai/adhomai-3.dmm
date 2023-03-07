@@ -709,6 +709,14 @@
 	icon_state = "plating"
 	},
 /area/da_boat/mountains)
+"fBO" = (
+/obj/structure/table/wood,
+/obj/item/device/flashlight/lantern,
+/obj/item/material/hatchet/lumber,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "fDS" = (
 /obj/machinery/computer/message_monitor,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -1868,6 +1876,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"qAF" = (
+/obj/item/material/hatchet/lumber,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "qCw" = (
 /obj/structure/table/wood,
 /obj/item/device/flashlight/lantern,
@@ -2588,6 +2602,13 @@
 "xBo" = (
 /obj/item/bedsheet/grey,
 /obj/structure/bed/padded,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"xNq" = (
+/obj/structure/table/wood,
+/obj/item/material/hatchet/lumber,
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
@@ -11239,8 +11260,8 @@ cry
 cry
 cry
 cry
-cry
-cry
+rmo
+rmo
 cry
 cry
 cry
@@ -11494,11 +11515,11 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -11750,12 +11771,12 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -12006,13 +12027,13 @@ cry
 cry
 cry
 cry
+rmo
+rmo
+rmo
 cry
 cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
 cry
 cry
 cry
@@ -12262,14 +12283,14 @@ cry
 cry
 cry
 cry
+rmo
+rmo
+rmo
+rmo
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -12516,17 +12537,17 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -12773,17 +12794,17 @@ cry
 cry
 cry
 cry
+rmo
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 sUj
@@ -13030,17 +13051,17 @@ cry
 cry
 cry
 cry
+rmo
+rmo
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -13287,17 +13308,17 @@ cry
 cry
 cry
 cry
+rmo
+rmo
+rmo
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -13544,17 +13565,17 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -13803,14 +13824,14 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -14064,10 +14085,10 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
+rmo
+rmo
+rmo
+rmo
 cry
 cry
 cry
@@ -37930,7 +37951,7 @@ dBS
 dBS
 dBS
 sIc
-twV
+xNq
 sIc
 pQo
 cry
@@ -38523,7 +38544,7 @@ cry
 cry
 cry
 cry
-cry
+qAF
 cry
 cry
 cry
@@ -38692,7 +38713,7 @@ pQo
 dBS
 dBS
 dBS
-qCw
+fBO
 pQo
 cry
 cry
