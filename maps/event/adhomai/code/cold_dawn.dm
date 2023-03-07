@@ -783,3 +783,137 @@
 	name = "Caverns"
 	ambience = AMBIENCE_OTHERWORLDLY
 	base_turf = /turf/simulated/floor/exoplanet/cold_dawn_cave
+
+/obj/item/treasure
+	name = "silver mortar"
+	desc = "A mortar made of solid silver."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "silvermortar"
+	w_class = ITEMSIZE_NORMAL
+	drop_sound = 'sound/items/drop/ring.ogg'
+	pickup_sound = 'sound/items/pickup/ring.ogg'
+
+/obj/item/treasure/alembic
+	name = "gilded alembic"
+	desc = "An alchemical still covered in gold."
+	icon_state = "goldalembic"
+
+/obj/item/treasure/figurine
+	name = "gold figurine"
+	desc = "A figurine made from pure gold. It is oddly familiar..."
+	icon_state = "gold_schlorrgo"
+
+/obj/item/treasure/bowl
+	name = "silver bowl"
+	desc = "An ancient adhomian bowl made of fine silver."
+	icon_state = "bowl"
+
+/obj/item/treasure/plate
+	name = "silver plate"
+	desc = "An ancient adhomian plate made of gold and silver."
+	icon_state = "platter"
+
+/obj/item/reagent_containers/glass/goblet
+	name = "silver goblet"
+	desc = "A fancy goblet made of pure silver."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "goblet"
+	w_class = ITEMSIZE_NORMAL
+
+/obj/structure/mirror/raskara
+	name = "dark mirror"
+	desc = "A mirror made from dark glass. Your reflection stares back at you."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "blackmirror"
+
+/obj/item/storage/box/fancy/cold_dawn
+	name = "jewel box"
+	desc = "A fancy box adorned by precious adhomian gems."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "jewelbox"
+	use_sound = 'sound/items/drop/glass.ogg'
+	drop_sound = 'sound/items/drop/toolbox.ogg'
+	pickup_sound = 'sound/items/pickup/toolbox.ogg'
+	storage_slots = 6
+	can_hold = list(/obj/item/clothing/ring,)
+	starts_with = list(/obj/item/clothing/ring/material/gold = 2, /obj/item/clothing/ring/material/silver = 2, /obj/item/coin/gold = 2)
+	chewable = FALSE
+	opened = FALSE
+	closable = TRUE
+
+/obj/item/storage/box/fancy/cold_dawn/update_icon()
+	. = ..()
+	if(opened)
+		icon_state = "jewelbox"
+	else
+		icon_state = "jewelbox-open"
+
+/obj/item/treasure/urn
+	name = "small urn"
+	desc = "A small adhomian urn."
+	icon_state = "urn-small"
+	var/broken = FALSE
+
+/obj/item/treasure/urn/update_icon()
+	if(broken)
+		icon_state = "urn-small-broken"
+	else
+		icon_state = "urn-small"
+
+/obj/item/treasure/urn/proc/damage()
+	if(broken)
+		return
+	visible_message(SPAN_WARNING("\The [src] breaks!"))
+	playsound(src, /singleton/sound_category/glass_break_sound, 70, 1)
+	broken = TRUE
+	update_icon()
+
+/obj/item/treasure/urn/attackby(obj/item/W, mob/user)
+	if(broken)
+		return
+	user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
+	user.do_attack_animation(src)
+	if(W.force <= 5)
+		visible_message(SPAN_WARNING("\The [W] bounces off \the [src]!"))
+		return
+	visible_message(SPAN_WARNING("\The [user] strikes \the [src] with \the [W]!"))
+	damage()
+
+/obj/item/treasure/urn/ex_act(severity)
+	damage()
+
+/obj/item/treasure/urn/bullet_act(var/obj/item/projectile/Proj)
+	if(toppled)
+		return
+	if(!Proj)
+		return
+	if(!Proj.damage)
+		return
+	damage()
+
+/obj/item/treasure/urn/attack_hand(var/mob/user)
+	if (user.a_intent == I_HURT)
+		if(broken)
+			return
+		visible_message(SPAN_WARNING("\The [user] kicks \the [src]!"))
+		damage()
+	else
+		..()
+
+/obj/item/treasure/urn/throw_impact(atom/hit_atom, var/speed)
+	..()
+
+	if(!broken)
+		damage()
+
+/obj/item/treasure/urn/large
+	name = "large urn"
+	desc = "A large adhomian urn."
+	icon_state = "urn-large"
+	w_class = ITEMSIZE_LARGE
+
+/obj/item/treasure/urn/large/update_icon()
+	if(broken)
+		icon_state = "urn-large-broken"
+	else
+		icon_state = "urn-large"

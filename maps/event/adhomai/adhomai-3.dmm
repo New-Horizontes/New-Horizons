@@ -13,6 +13,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"ags" = (
+/mob/living/simple_animal/hostile/retaliate/rafama/male,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "akR" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/gloves,
@@ -503,6 +509,13 @@
 /turf/unsimulated/mineral{
 	icon = 'icons/turf/smooth/icy_wall.dmi';
 	icon_state = "rock"
+	},
+/area/da_boat/mountains)
+"eel" = (
+/obj/structure/flora/tree/adhomai,
+/mob/living/simple_animal/hostile/wind_devil,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
 	},
 /area/da_boat/mountains)
 "eem" = (
@@ -1822,6 +1835,13 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"qqA" = (
+/obj/structure/flora/tree/adhomai,
+/mob/living/simple_animal/hostile/retaliate/rafama/male,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "qxF" = (
 /obj/machinery/telecomms/bus/preset_three,
 /turf/unsimulated/floor{
@@ -2272,6 +2292,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"vrK" = (
+/mob/living/simple_animal/hostile/wind_devil,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "vtP" = (
 /obj/machinery/telecomms/processor/preset_three,
 /turf/unsimulated/floor{
@@ -2513,6 +2539,13 @@
 /obj/item/reagent_containers/food/drinks/waterbottle,
 /obj/item/reagent_containers/food/drinks/waterbottle,
 /turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"xoV" = (
+/obj/structure/flora/grass/adhomai,
+/mob/living/simple_animal/hostile/retaliate/rafama/male,
+/turf/simulated/floor/exoplanet/snow{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -3805,7 +3838,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -4567,7 +4600,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -5050,7 +5083,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -5316,7 +5349,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -5887,7 +5920,7 @@ cry
 cry
 jgJ
 sUj
-cry
+vrK
 aSk
 cry
 cry
@@ -6126,7 +6159,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 jgJ
 cry
 cry
@@ -8106,7 +8139,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -8194,7 +8227,7 @@ cry
 cry
 cry
 cry
-jgJ
+qqA
 cry
 cry
 cry
@@ -8685,7 +8718,7 @@ cry
 cry
 cry
 cry
-jgJ
+eel
 cry
 cry
 jgJ
@@ -8723,7 +8756,7 @@ jgJ
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -9929,7 +9962,7 @@ cry
 cry
 cry
 cry
-aSk
+xoV
 cry
 cry
 cry
@@ -10202,7 +10235,7 @@ cry
 jgJ
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -10450,7 +10483,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 aSk
 cry
 cry
@@ -10744,7 +10777,7 @@ jgJ
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -12315,7 +12348,7 @@ cry
 jgJ
 cry
 cry
-cry
+ags
 cry
 jgJ
 cry
@@ -13811,7 +13844,7 @@ cry
 cry
 cry
 jgJ
-cry
+ags
 cry
 cry
 cry
@@ -14316,7 +14349,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -15644,7 +15677,7 @@ cry
 cry
 jgJ
 cry
-cry
+ags
 cry
 cry
 cry
@@ -15920,7 +15953,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 aSk
 cry
 cry
@@ -16857,7 +16890,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -17474,7 +17507,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -18246,8 +18279,8 @@ cry
 cry
 cry
 jgJ
-cry
-cry
+ags
+ags
 cry
 cry
 cry
@@ -18733,7 +18766,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -19461,7 +19494,7 @@ cry
 cry
 jgJ
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -19517,7 +19550,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -21335,7 +21368,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 sUj
 cry
 cry
@@ -21549,7 +21582,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -22864,7 +22897,7 @@ jgJ
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -23121,7 +23154,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -23325,7 +23358,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -24601,7 +24634,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 sUj
 cry
 aSk
@@ -26661,7 +26694,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -27222,7 +27255,7 @@ cry
 cry
 jgJ
 cry
-cry
+ags
 cry
 cry
 cry
@@ -27943,7 +27976,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 jgJ
 cry
 cry
@@ -28272,7 +28305,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -40560,7 +40593,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -41040,7 +41073,7 @@ cry
 jgJ
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -42823,7 +42856,7 @@ sUj
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -42876,7 +42909,7 @@ jgJ
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -42893,7 +42926,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 jgJ
 cry
@@ -43907,7 +43940,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -44388,7 +44421,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -46505,7 +46538,7 @@ cry
 cry
 jgJ
 cry
-jgJ
+eel
 cry
 cry
 cry
@@ -46765,7 +46798,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -47986,7 +48019,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 jgJ
 cry
 cry
@@ -48549,7 +48582,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -49054,7 +49087,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -49778,7 +49811,7 @@ cry
 cry
 cry
 cry
-jgJ
+qqA
 cry
 cry
 cry
@@ -50336,7 +50369,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -52419,7 +52452,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -52615,7 +52648,7 @@ cry
 cry
 cry
 cry
-jgJ
+qqA
 cry
 cry
 cry
@@ -52642,7 +52675,7 @@ cry
 cry
 sUj
 cry
-cry
+ags
 cry
 cry
 jgJ
@@ -53156,7 +53189,7 @@ cry
 cry
 cry
 aSk
-cry
+ags
 cry
 cry
 cry
@@ -53882,7 +53915,7 @@ cry
 jgJ
 cry
 cry
-cry
+ags
 jgJ
 cry
 cry
@@ -53928,20 +53961,7 @@ cry
 cry
 cry
 cry
-cry
-cry
-jgJ
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+ags
 cry
 jgJ
 cry
@@ -53949,13 +53969,6 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-jgJ
 cry
 cry
 cry
@@ -53971,6 +53984,26 @@ cry
 cry
 cry
 cry
+cry
+cry
+cry
+cry
+jgJ
+cry
+cry
+cry
+cry
+cry
+cry
+cry
+jgJ
+cry
+cry
+cry
+cry
+cry
+cry
+vrK
 cry
 jgJ
 cry
@@ -54186,8 +54219,8 @@ cry
 cry
 cry
 cry
-cry
-cry
+ags
+ags
 cry
 cry
 cry
@@ -54405,7 +54438,7 @@ cry
 jgJ
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -54452,7 +54485,7 @@ cry
 cry
 cry
 jgJ
-cry
+ags
 cry
 cry
 cry
@@ -54689,7 +54722,7 @@ cry
 cry
 aSk
 cry
-cry
+ags
 cry
 cry
 cry
@@ -56225,7 +56258,7 @@ cry
 cry
 cry
 cry
-cry
+ags
 cry
 cry
 cry
@@ -56716,7 +56749,7 @@ cry
 cry
 jgJ
 cry
-cry
+ags
 cry
 cry
 cry
@@ -60109,7 +60142,7 @@ cry
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -61924,13 +61957,13 @@ cry
 jgJ
 cry
 cry
+vrK
 cry
 cry
 cry
 cry
 cry
-cry
-cry
+vrK
 jgJ
 cry
 cry
@@ -62118,7 +62151,7 @@ jgJ
 cry
 cry
 cry
-cry
+vrK
 cry
 cry
 cry
@@ -67286,7 +67319,7 @@ cry
 cry
 jgJ
 cry
-cry
+vrK
 cry
 cry
 cry
