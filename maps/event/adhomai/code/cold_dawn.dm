@@ -1,3 +1,4 @@
+
 /area/palace_free
 	name = "Palace of the Free Tajara"
 	icon_state = "bluenew"
@@ -738,18 +739,9 @@
 
 /turf/simulated/floor/exoplanet/cold_dawn_cave
 	name = "cavern floor"
-	base_icon = 'icons/turf/basalt.dmi'
+	icon = 'icons/turf/basalt.dmi'
 	icon_state = "basalt0"
-	base_icon_state = "basalt"
-	smooth = SMOOTH_FALSE
-	canSmoothWith = null
-
-/turf/simulated/floor/exoplanet/cold_dawn_cave/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
-	underlay_appearance.icon = icon
-	underlay_appearance.icon_state = "basalt"
-	if (prob(20))
-		underlay_appearance.icon_state += "[rand(0,12)]"
-	return TRUE
+	dirt_color = "#2F2F2F"
 
 /turf/simulated/floor/exoplanet/cold_dawn_cave/Initialize(mapload)
 	if (prob(20))
@@ -757,5 +749,37 @@
 		icon_state = "basalt[variant]"
 	temperature = T0C-10
 
-/turf/simulated/mineral/adhomai/cold_dawn_cave
+/turf/simulated/mineral/cold_dawn_cave
 	mined_turf = /turf/simulated/floor/exoplanet/cold_dawn_cave
+
+/material/stone/castle_wall
+	name = MATERIAL_CASTLE
+	icon_colour = "#6D6C74"
+
+/turf/simulated/wall/castle/Initialize(mapload)
+	canSmoothWith = list(src.type)
+	. = ..(mapload, MATERIAL_CASTLE)
+	canSmoothWith = list(src.type)
+
+/turf/simulated/floor/exoplanet/castle
+	name = "adhomian masonry floor"
+	base_icon = 'icons/obj/cold_dawn.dmi'
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "stonebrick"
+	smooth = SMOOTH_FALSE
+	canSmoothWith = null
+
+/turf/simulated/floor/exoplanet/castle/large
+	icon_state = "stonebricklarge"
+
+/turf/simulated/floor/exoplanet/castle/raskara
+	icon_state = "raskara-slab"
+
+/area/da_boat/mountains
+	name = "Din'akk Mountains"
+	ambience = list('sound/effects/wind/tundra0.ogg', 'sound/effects/wind/tundra1.ogg', 'sound/effects/wind/tundra2.ogg', 'sound/effects/wind/spooky0.ogg', 'sound/effects/wind/spooky1.ogg')
+
+/area/da_boat/mountains/caverns
+	name = "Caverns"
+	ambience = AMBIENCE_OTHERWORLDLY
+	base_turf = /turf/simulated/floor/exoplanet/cold_dawn_cave

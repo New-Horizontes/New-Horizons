@@ -15541,6 +15541,12 @@
 /obj/effect/floor_decal/corner/grey/diagonal{
 	dir = 4
 	},
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/tdome/tdome2)
 "aQN" = (
@@ -22946,6 +22952,21 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/distress_prep)
+"bxD" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/clothing/under/tajaran/dpra/alt,
+/obj/item/clothing/under/tajaran/dpra/alt,
+/obj/item/clothing/under/tajaran/dpra/alt,
+/obj/item/clothing/under/tajaran/dpra/alt,
+/obj/item/clothing/under/tajaran/dpra/alt,
+/obj/item/clothing/under/tajaran/dpra/alt,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "bxY" = (
 /turf/unsimulated/wall/fakepdoor{
 	name = "Blast door"
@@ -25643,6 +25664,17 @@
 "cWp" = (
 /turf/simulated/floor/holofloor/tiled/ramp,
 /area/horizon/holodeck/source_chapel)
+"dcp" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/effect/decal/fake_object/light_source/invisible,
+/mob/living/carbon/human/tajaran,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "drw" = (
 /turf/simulated/floor/holofloor/tiled/ramp{
 	dir = 8
@@ -25729,6 +25761,20 @@
 	icon_state = "desert0"
 	},
 /area/horizon/holodeck/source_desert)
+"eCr" = (
+/obj/machinery/acting/changer,
+/turf/simulated/floor,
+/area/tdome)
+"eJm" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/machinery/acting/changer,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "eTB" = (
 /obj/structure/window/reinforced/holowindow,
 /obj/structure/table/wood,
@@ -25766,6 +25812,10 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/horizon/holodeck/source_theatre)
+"fjn" = (
+/mob/living/carbon/human/tajaran,
+/turf/simulated/floor,
+/area/tdome)
 "fll" = (
 /obj/structure/table/rack/holorack,
 /obj/item/gun/projectile/heavysniper,
@@ -25791,10 +25841,25 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_emptycourt)
+"fRs" = (
+/obj/item/clothing/head/beret/tajaran/dpra/alt,
+/obj/item/clothing/head/beret/tajaran/dpra/alt,
+/obj/item/clothing/head/beret/tajaran/dpra/alt,
+/obj/item/clothing/head/beret/tajaran/dpra/alt,
+/turf/simulated/floor,
+/area/tdome)
 "fWR" = (
 /obj/effect/floor_decal/corner/white/diagonal,
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_thunderdomecourt)
+"gck" = (
+/obj/item/clothing/accessory/holster/hip/brown,
+/obj/item/clothing/accessory/holster/hip/brown,
+/obj/item/clothing/accessory/holster/hip/brown,
+/obj/item/clothing/accessory/holster/hip/brown,
+/obj/item/clothing/accessory/holster/hip/brown,
+/turf/simulated/floor,
+/area/tdome)
 "gkn" = (
 /obj/structure/dueling_table/no_collide/above_layer{
 	icon_state = "top_right"
@@ -25839,6 +25904,16 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/horizon/holodeck/source_courtroom)
+"hbh" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/structure/bonfire/light_up,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "hcy" = (
 /obj/structure/shuttle_part/ccia{
 	icon_state = "2,0"
@@ -25870,6 +25945,12 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/horizon/holodeck/source_courtroom)
+"hmL" = (
+/obj/item/clothing/under/tajaran/ala/black,
+/obj/item/clothing/under/tajaran/ala/black,
+/obj/item/clothing/under/tajaran/ala/black,
+/turf/simulated/floor,
+/area/tdome)
 "hIG" = (
 /obj/structure/window/reinforced/holowindow{
 	dir = 4
@@ -25889,6 +25970,16 @@
 /obj/structure/flora/pottedplant/random,
 /turf/simulated/floor/holofloor/beach/sand,
 /area/horizon/holodeck/source_dininghall)
+"hZe" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/mob/living/carbon/human/tajaran,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "ics" = (
 /obj/machinery/mech_recharger/hephaestus,
 /turf/unsimulated/floor,
@@ -25920,6 +26011,13 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_battlemonsters)
+"joB" = (
+/obj/item/gun/projectile/silenced,
+/obj/item/gun/projectile/silenced,
+/obj/item/gun/projectile/silenced,
+/obj/item/gun/projectile/silenced,
+/turf/simulated/floor,
+/area/tdome)
 "jqV" = (
 /obj/structure/shuttle_part/ccia{
 	icon_state = "5,0";
@@ -25932,6 +26030,23 @@
 	icon_state = "desert"
 	},
 /area/horizon/holodeck/source_beach)
+"jBf" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/clothing/under/tajaran/dpra,
+/obj/item/clothing/under/tajaran/dpra,
+/obj/item/clothing/under/tajaran/dpra,
+/obj/item/clothing/under/tajaran/dpra,
+/obj/item/clothing/under/tajaran/dpra,
+/obj/item/clothing/under/tajaran/dpra,
+/obj/item/clothing/under/tajaran/dpra,
+/obj/item/clothing/under/tajaran/dpra,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "kcw" = (
 /obj/structure/holostool,
 /obj/effect/floor_decal/carpet,
@@ -25952,6 +26067,13 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_battlemonsters)
+"kpz" = (
+/obj/item/clothing/head/beret/tajaran/dpra,
+/obj/item/clothing/head/beret/tajaran/dpra,
+/obj/item/clothing/head/beret/tajaran/dpra,
+/obj/item/clothing/head/beret/tajaran/dpra,
+/turf/simulated/floor,
+/area/tdome)
 "kqd" = (
 /obj/item/chess_piece,
 /turf/simulated/floor/marble,
@@ -26000,6 +26122,20 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_battlemonsters)
+"lie" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/melee/hammer,
+/obj/item/melee/hammer,
+/obj/item/melee/hammer,
+/obj/item/melee/hammer,
+/obj/item/melee/hammer,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "lnQ" = (
 /obj/effect/step_trigger/thrower/shuttle/southeast,
 /turf/template_noop,
@@ -26058,6 +26194,14 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/horizon/holodeck/source_battlemonsters)
+"ngr" = (
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/turf/simulated/floor,
+/area/tdome)
 "nrU" = (
 /turf/unsimulated/mineral{
 	icon = 'icons/turf/smooth/icy_wall.dmi';
@@ -26075,6 +26219,12 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/shuttle/transport1)
+"ofH" = (
+/obj/item/clothing/head/tajaran/ala_wraps,
+/obj/item/clothing/head/tajaran/ala_wraps,
+/obj/item/clothing/head/tajaran/ala_wraps,
+/turf/simulated/floor,
+/area/tdome)
 "olV" = (
 /obj/structure/bed/stool/chair/holochair{
 	dir = 1
@@ -26177,6 +26327,16 @@
 /obj/effect/shuttle_landmark/mining/transit,
 /turf/space/transit/north,
 /area/template_noop)
+"qbd" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/material/twohanded/fireaxe,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "qlw" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/holofloor/grass/alt,
@@ -26195,6 +26355,11 @@
 	},
 /turf/simulated/floor/holofloor/grass/alt,
 /area/horizon/holodeck/source_wildlife)
+"qIY" = (
+/obj/item/clothing/head/tajaran/ala_officer,
+/obj/item/clothing/under/tajaran/ala/black/officer,
+/turf/simulated/floor,
+/area/tdome)
 "reg" = (
 /obj/effect/step_trigger/teleporter/random{
 	affect_ghosts = 1;
@@ -26241,6 +26406,12 @@
 "rDD" = (
 /turf/simulated/floor/exoplanet/ice,
 /area/cruise/virtual_reality)
+"rOs" = (
+/obj/item/clothing/under/tajaran/ala,
+/obj/item/clothing/under/tajaran/ala,
+/obj/item/clothing/under/tajaran/ala,
+/turf/simulated/floor,
+/area/tdome)
 "rRd" = (
 /obj/structure/tank_dispenser/ala{
 	pixel_y = 32
@@ -26256,6 +26427,14 @@
 /obj/structure/window/reinforced/holowindow/disappearing,
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_thunderdomecourt)
+"tiz" = (
+/obj/item/ammo_magazine/c762/dpra,
+/obj/item/ammo_magazine/c762/dpra,
+/obj/item/ammo_magazine/c762/dpra,
+/obj/item/ammo_magazine/c762/dpra,
+/obj/item/ammo_magazine/c762/dpra,
+/turf/simulated/floor,
+/area/tdome)
 "tnF" = (
 /obj/structure/shuttle_part/ccia{
 	icon_state = "0,1"
@@ -26286,6 +26465,22 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/shuttle/transport1)
+"tHj" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/device/flashlight/flare/torch,
+/obj/item/device/flashlight/flare/torch,
+/obj/item/device/flashlight/flare/torch,
+/obj/item/device/flashlight/flare/torch,
+/obj/item/device/flashlight/flare/torch,
+/obj/item/device/flashlight/flare/torch,
+/obj/item/device/flashlight/flare/torch,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "tIz" = (
 /obj/structure/flora/grass/brown,
 /turf/simulated/floor/holofloor/snow,
@@ -26297,17 +26492,75 @@
 	},
 /turf/unsimulated/floor/plating,
 /area/shuttle/transport1)
+"tSi" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/clothing/under/tajaran,
+/obj/item/clothing/under/tajaran,
+/obj/item/clothing/under/tajaran,
+/obj/item/clothing/under/tajaran,
+/obj/item/clothing/under/tajaran,
+/obj/item/clothing/under/tajaran,
+/obj/item/clothing/under/tajaran,
+/obj/item/clothing/under/tajaran,
+/obj/item/clothing/under/tajaran,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
+"uFn" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/material/twohanded/pike/pitchfork,
+/obj/item/material/twohanded/pike/pitchfork,
+/obj/item/material/twohanded/pike/pitchfork,
+/obj/item/material/twohanded/pike/pitchfork,
+/obj/item/material/twohanded/pike/pitchfork,
+/obj/item/material/twohanded/pike/pitchfork,
+/obj/item/material/twohanded/pike/pitchfork,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "uTf" = (
 /obj/effect/landmark{
 	name = "pra_vr"
 	},
 /turf/unsimulated/floor,
 /area/cruise/virtual_reality)
+"vhs" = (
+/obj/effect/landmark{
+	name = "tdome2"
+	},
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/item/clothing/head/tajaran/fur,
+/obj/item/clothing/head/tajaran/fur,
+/obj/item/clothing/head/tajaran/fur,
+/obj/item/clothing/head/tajaran/fur,
+/obj/item/clothing/head/tajaran/fur,
+/obj/item/clothing/head/tajaran/fur,
+/obj/item/clothing/head/tajaran/fur,
+/obj/item/clothing/head/tajaran/fur,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/tdome/tdome2)
 "vta" = (
 /obj/effect/step_trigger/thrower/shuttle/south,
 /obj/effect/step_trigger/thrower/shuttle/south,
 /turf/space/transit/east,
 /area/template_noop)
+"vug" = (
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/turf/simulated/floor,
+/area/tdome)
 "vEO" = (
 /obj/structure/shuttle_part/ccia{
 	icon_state = "12,2"
@@ -26329,6 +26582,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/transport1)
+"wbi" = (
+/obj/item/gun/projectile/automatic/rifle/dpra,
+/obj/item/gun/projectile/automatic/rifle/dpra,
+/obj/item/gun/projectile/automatic/rifle/dpra,
+/obj/item/gun/projectile/automatic/rifle/dpra,
+/turf/simulated/floor,
+/area/tdome)
 "wfb" = (
 /obj/structure/table/rack/holorack,
 /obj/item/gun/projectile/recoilless_rifle,
@@ -26389,6 +26649,14 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/horizon/holodeck/source_courtroom)
+"xML" = (
+/obj/item/clothing/shoes/tajara/combat,
+/obj/item/clothing/shoes/tajara/combat,
+/obj/item/clothing/shoes/tajara/combat,
+/obj/item/clothing/shoes/tajara/combat,
+/obj/item/clothing/shoes/tajara/combat,
+/turf/simulated/floor,
+/area/tdome)
 "xRX" = (
 /turf/simulated/floor/holofloor/tiled,
 /area/horizon/holodeck/source_basketball)
@@ -38721,12 +38989,12 @@ aMC
 aOI
 aPf
 aPy
-aPV
-aPW
-aPV
-aPW
-aPW
-aPV
+dcp
+hZe
+dcp
+hZe
+hZe
+dcp
 aRC
 aRP
 aOI
@@ -38978,12 +39246,12 @@ aBR
 aOI
 aPg
 aPy
-aPW
+tSi
 aQq
 aPW
 aPW
 aQq
-aPW
+hZe
 aRC
 aRQ
 aOI
@@ -39235,12 +39503,12 @@ aBR
 aOI
 aPf
 aPy
-aPW
+jBf
 aPV
 aQM
-aPW
+eJm
 aPV
-aPW
+uFn
 aRC
 aRP
 aOI
@@ -39492,12 +39760,12 @@ aBR
 aOI
 aPg
 aPy
-aPW
+bxD
 aQq
-aPW
-aPW
+vhs
+tHj
 aQq
-aPW
+lie
 aRC
 aRQ
 aOI
@@ -39751,9 +40019,9 @@ aPf
 aPy
 aPV
 aPW
-aPW
+hbh
 aPV
-aPW
+qbd
 aPV
 aRC
 aRP
@@ -41291,11 +41559,11 @@ aOj
 aNT
 aPh
 aPA
-aPA
-aPA
-aPA
-aPA
-aPA
+vug
+tiz
+wbi
+joB
+ngr
 aPA
 aPA
 aRR
@@ -41551,7 +41819,7 @@ aPA
 aPY
 aPA
 aPA
-aPA
+gck
 aPA
 aPY
 aPA
@@ -41806,7 +42074,7 @@ aNB
 aPh
 aPA
 aPA
-aPA
+fjn
 aQN
 aQN
 aPA
@@ -42063,10 +42331,10 @@ aNB
 aPh
 aPA
 aPA
-aPA
+fjn
 aQO
 aRa
-aPA
+xML
 aPA
 aPA
 aRR
@@ -42319,11 +42587,11 @@ aNB
 aNB
 aPh
 aPA
-aPA
-aPA
+eCr
+fjn
 aQN
 aQN
-aPA
+fRs
 aPA
 aPA
 aRS
@@ -42577,10 +42845,10 @@ aNS
 aPh
 aPA
 aPY
+fjn
 aPA
-aPA
-aPA
-aPA
+qIY
+kpz
 aPY
 aPA
 aRR
@@ -42836,7 +43104,7 @@ aPA
 aPA
 aPA
 aPA
-aPA
+ofH
 aPA
 aPA
 aPA
@@ -43093,8 +43361,8 @@ aPA
 aPA
 aPA
 aPY
-aPA
-aPA
+rOs
+hmL
 aPA
 aPA
 aRR
