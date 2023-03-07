@@ -10,7 +10,9 @@
 "acx" = (
 /obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
 /obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
 /obj/item/ammo_magazine/a556/carbine/polymer,
 /obj/item/ammo_magazine/a556/carbine/polymer,
 /obj/item/ammo_magazine/a556/carbine/polymer,
@@ -794,7 +796,9 @@
 	},
 /area/da_boat/mountains)
 "fPN" = (
-/obj/machinery/door/airlock/glass_mining,
+/obj/machinery/door/airlock/glass_mining{
+	req_access = list(19)
+	},
 /turf/simulated/floor/shuttle/dark_red,
 /area/da_boat/mountains)
 "fQR" = (
@@ -909,7 +913,9 @@
 /area/da_boat/mountains)
 "gwm" = (
 /obj/item/gun/projectile/automatic/rifle/jingya,
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
 /obj/item/ammo_magazine/a556/carbine/polymer,
 /obj/item/ammo_magazine/a556/carbine/polymer,
 /obj/effect/floor_decal/industrial/outline/security,
@@ -1198,7 +1204,8 @@
 /area/da_boat/mountains)
 "jaP" = (
 /obj/structure/closet/secure_closet/guncabinet{
-	name = "armor cabinet"
+	name = "armor cabinet";
+	req_access = list(19)
 	},
 /obj/item/clothing/suit/armor/carrier/officer,
 /obj/item/clothing/suit/armor/carrier/officer,
@@ -1762,7 +1769,9 @@
 	},
 /area/da_boat/mountains)
 "nDP" = (
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
 /obj/item/gun/energy/gun,
 /obj/item/gun/energy/gun,
 /obj/effect/floor_decal/industrial/outline/security,
@@ -1817,7 +1826,9 @@
 	},
 /area/da_boat/mountains)
 "oeZ" = (
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
 /obj/item/gun/projectile/leyon,
 /obj/item/gun/projectile/leyon,
 /obj/item/gun/projectile/leyon,
@@ -1943,6 +1954,8 @@
 /obj/item/device/gps,
 /obj/item/device/gps,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/accessory/holster/utility/machete,
+/obj/item/clothing/accessory/holster/utility/machete,
 /turf/simulated/floor/shuttle/dark_red,
 /area/da_boat/mountains)
 "pfF" = (
@@ -2859,7 +2872,9 @@
 	},
 /area/da_boat/mountains)
 "xpO" = (
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
 /obj/item/gun/energy/rifle/laser/noctiluca,
 /obj/item/gun/energy/rifle/laser/noctiluca,
 /obj/item/gun/energy/rifle/laser/noctiluca,
@@ -2895,7 +2910,9 @@
 /area/da_boat/mountains)
 "xDa" = (
 /obj/item/gun/projectile/peac,
-/obj/structure/closet/secure_closet/guncabinet,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(19)
+	},
 /obj/item/ammo_casing/peac,
 /obj/item/ammo_casing/peac,
 /obj/effect/floor_decal/industrial/outline/security,
@@ -16056,7 +16073,7 @@ cry
 jgJ
 cry
 cry
-cry
+jgJ
 sPG
 "}
 (52,1,1) = {"
@@ -19911,7 +19928,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 sPG
 "}
 (67,1,1) = {"
@@ -22223,7 +22240,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 sPG
 "}
@@ -25559,7 +25576,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 cry
 cry
@@ -26845,7 +26862,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 cry
 cry
@@ -27620,7 +27637,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 sPG
 "}
@@ -30447,7 +30464,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 sPG
 "}
@@ -31474,7 +31491,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 cry
 sPG
@@ -33528,7 +33545,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 cry
 cry
@@ -34301,7 +34318,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 cry
 sPG
@@ -35840,7 +35857,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 cry
 cry
