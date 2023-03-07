@@ -1075,3 +1075,31 @@
 
 /obj/structure/table/rack/fancy_table/right
 	icon_state = "right"
+
+/obj/structure/spike_trap
+	name = "holes"
+	desc = "Multiples hole in the ground."
+	icon = 'icons/obj/spike_trap.dmi'
+	icon_state = "retracted"
+	var/triggered = FALSE
+	mouse_opacity = FALSE
+	layer = BELOW_OBJ_LAYER
+
+/obj/structure/spike_trap/Crossed(AM as mob|obj, var/ignore_deployment = FALSE)
+	if(!triggered)
+		if(ishuman(AM))
+			var/mob/living/carbon/human/L = AM
+			trigger(L)
+
+	..()
+
+/obj/structure/spike_trap/proc/trigger(var/mob/living/carbon/human/L)
+	triggered = TRUE
+	L.Weaken(3)
+	visible_message(SPAN_DANGER("Spikes emerge from the ground!"))
+	flick("extend", src)
+	L.adjustBruteLoss(45)
+	mouse_opacity = TRUE
+	name = "spike trap"
+	desc = "A trap with multiple spikes emerging from the ground."
+	icon_state = "static"

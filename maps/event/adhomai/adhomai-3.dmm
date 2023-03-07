@@ -7,6 +7,17 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"acx" = (
+/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
+/obj/item/gun/projectile/automatic/rifle/carbine/civcarbine,
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/shuttle/dark_red,
+/area/da_boat/mountains)
 "adS" = (
 /obj/structure/bed/stool/chair/sofa/left/black,
 /turf/simulated/floor/wood{
@@ -287,7 +298,26 @@
 /obj/machinery/sleeper{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
 /turf/simulated/floor/tiled/white{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"cCt" = (
+/obj/item/material/twohanded/chainsaw/fueled,
+/obj/structure/closet/toolcloset/empty,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"cCH" = (
+/obj/structure/simple_door/iron,
+/obj/structure/spike_trap,
+/turf/simulated/floor/exoplanet/castle{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -308,6 +338,10 @@
 "cPK" = (
 /obj/machinery/body_scanconsole{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
@@ -775,6 +809,15 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"fTc" = (
+/obj/structure/table/wood,
+/obj/item/material/hatchet/lumber,
+/obj/item/material/hatchet/lumber,
+/obj/item/material/hatchet/lumber,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "fVd" = (
 /obj/structure/railing/fence{
 	dir = 4
@@ -791,6 +834,14 @@
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"fXu" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/shuttle/black,
 /area/da_boat/mountains)
 "ghA" = (
 /obj/structure/mirror{
@@ -813,9 +864,18 @@
 	pixel_x = -3;
 	pixel_y = 4
 	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"giz" = (
+/obj/effect/decal/fake_object/light_source/invisible,
+/turf/simulated/floor/shuttle/dark_blue,
 /area/da_boat/mountains)
 "gln" = (
 /obj/structure/railing/fence{
@@ -846,6 +906,19 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"gwm" = (
+/obj/item/gun/projectile/automatic/rifle/jingya,
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/item/ammo_magazine/a556/carbine/polymer,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/shuttle/dark_red,
+/area/da_boat/mountains)
+"gwQ" = (
+/obj/structure/dispenser/oxygen,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/shuttle/dark_red,
 /area/da_boat/mountains)
 "gJP" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -894,6 +967,14 @@
 	temperature = 268.15
 	},
 /area/da_boat/mountains)
+"gUU" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/shuttle/black,
+/area/da_boat/mountains)
 "hav" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/table/wood,
@@ -932,6 +1013,10 @@
 "hcr" = (
 /obj/machinery/computer/cryopod{
 	pixel_y = -32
+	},
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/da_boat/mountains)
@@ -1022,7 +1107,9 @@
 	},
 /area/da_boat/mountains)
 "hVu" = (
-/obj/machinery/door/airlock/glass_command,
+/obj/machinery/door/airlock/glass_command{
+	req_access = list(19)
+	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/da_boat/mountains)
 "ibP" = (
@@ -1108,6 +1195,33 @@
 	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/shuttle/dark_blue,
+/area/da_boat/mountains)
+"jaP" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	name = "armor cabinet"
+	},
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/suit/armor/carrier/officer,
+/obj/item/clothing/accessory/arm_guard,
+/obj/item/clothing/accessory/arm_guard,
+/obj/item/clothing/accessory/arm_guard,
+/obj/item/clothing/accessory/arm_guard,
+/obj/item/clothing/accessory/arm_guard,
+/obj/item/clothing/accessory/leg_guard,
+/obj/item/clothing/accessory/leg_guard,
+/obj/item/clothing/accessory/leg_guard,
+/obj/item/clothing/accessory/leg_guard,
+/obj/item/clothing/accessory/leg_guard,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/item/clothing/head/helmet/security,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/shuttle/dark_red,
 /area/da_boat/mountains)
 "jeO" = (
 /turf/simulated/floor/shuttle/black,
@@ -1219,6 +1333,11 @@
 "ktk" = (
 /turf/simulated/wall/shuttle/scc/cardinal,
 /area/da_boat/mountains)
+"kwS" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/shuttle/dark_red,
+/area/da_boat/mountains)
 "kQY" = (
 /obj/item/reagent_containers/glass/bucket/wood,
 /turf/simulated/floor/wood{
@@ -1264,6 +1383,24 @@
 /turf/simulated/floor/exoplanet/barren{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"lfM" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/shuttle/dark_blue,
 /area/da_boat/mountains)
 "ljj" = (
 /turf/simulated/floor/shuttle/dark_red,
@@ -1341,12 +1478,26 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"lGq" = (
+/obj/structure/table/rack,
+/obj/item/hoist_kit,
+/obj/item/hoist_kit,
+/obj/item/hoist_kit,
+/turf/simulated/floor/shuttle/dark_red,
+/area/da_boat/mountains)
 "lJh" = (
 /obj/structure/window/basic,
 /obj/structure/curtain/black,
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"lMV" = (
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/shuttle/dark_blue,
 /area/da_boat/mountains)
 "lTn" = (
 /obj/structure/table/wood,
@@ -1610,6 +1761,13 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"nDP" = (
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/gun/energy/gun,
+/obj/item/gun/energy/gun,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/shuttle/dark_red,
+/area/da_boat/mountains)
 "nEv" = (
 /obj/structure/railing/fence{
 	dir = 8
@@ -1617,6 +1775,13 @@
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"nKF" = (
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/shuttle/black,
 /area/da_boat/mountains)
 "nPO" = (
 /obj/structure/bed/stool/chair/sofa/right/black{
@@ -1651,6 +1816,21 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"oeZ" = (
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/gun/projectile/leyon,
+/obj/item/gun/projectile/leyon,
+/obj/item/gun/projectile/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/item/ammo_magazine/mc10mm/leyon,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/shuttle/dark_red,
+/area/da_boat/mountains)
 "osY" = (
 /obj/structure/railing/fence,
 /obj/structure/table/wood,
@@ -1675,6 +1855,14 @@
 /turf/simulated/floor/lino/grey{
 	temperature = 268.15
 	},
+/area/da_boat/mountains)
+"oCD" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/shuttle/dark_blue,
 /area/da_boat/mountains)
 "oJH" = (
 /turf/simulated/floor/lino/grey{
@@ -1714,12 +1902,48 @@
 	icon_state = "plating"
 	},
 /area/da_boat/mountains)
+"oYj" = (
+/obj/item/ladder_mobile,
+/obj/item/ladder_mobile,
+/obj/item/ladder_mobile,
+/obj/item/ladder_mobile,
+/obj/structure/table/rack,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/shuttle/dark_red,
+/area/da_boat/mountains)
 "pcz" = (
 /obj/structure/table/wood,
 /obj/item/material/ashtray/plastic,
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"pdv" = (
+/obj/structure/closet/toolcloset/empty,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/shuttle/dark_red,
 /area/da_boat/mountains)
 "pfF" = (
 /turf/simulated/floor/lino/grey{
@@ -1800,6 +2024,24 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"pJC" = (
+/obj/structure/bed/stool/chair/shuttle{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/landmark/force_spawnpoint,
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/da_boat/mountains)
 "pNi" = (
 /obj/structure/railing/fence{
 	dir = 1
@@ -1859,6 +2101,13 @@
 /obj/structure/flora/tree/adhomai,
 /mob/living/simple_animal/hostile/retaliate/rafama/male,
 /turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"qrB" = (
+/obj/structure/closet/crate/miningcart,
+/obj/item/stack/material/wood/log/full,
+/turf/simulated/floor/wood{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -1949,6 +2198,14 @@
 /turf/simulated/floor/exoplanet/ice{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"rnD" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1";
+	pixel_x = 0
+	},
+/turf/simulated/floor/shuttle/dark_blue,
 /area/da_boat/mountains)
 "rtH" = (
 /obj/structure/bed/padded,
@@ -2099,6 +2356,14 @@
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"sNI" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/shuttle/black,
 /area/da_boat/mountains)
 "sPG" = (
 /turf/unsimulated/mineral{
@@ -2263,6 +2528,14 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"uQR" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/shuttle/dark_blue,
+/area/da_boat/mountains)
 "uZy" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 26
@@ -2289,6 +2562,12 @@
 /obj/structure/table/wood,
 /obj/item/flame/lighter/adhomai,
 /turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"vit" = (
+/obj/item/hoist_kit,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -2579,6 +2858,14 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"xpO" = (
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/gun/energy/rifle/laser/noctiluca,
+/obj/item/gun/energy/rifle/laser/noctiluca,
+/obj/item/gun/energy/rifle/laser/noctiluca,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/shuttle/dark_red,
+/area/da_boat/mountains)
 "xrE" = (
 /obj/item/modular_computer/console/preset/research{
 	dir = 1
@@ -2605,6 +2892,14 @@
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
+/area/da_boat/mountains)
+"xDa" = (
+/obj/item/gun/projectile/peac,
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/ammo_casing/peac,
+/obj/item/ammo_casing/peac,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/shuttle/dark_red,
 /area/da_boat/mountains)
 "xNq" = (
 /obj/structure/table/wood,
@@ -5481,7 +5776,7 @@ wKz
 wKz
 krv
 krv
-krv
+vit
 sPG
 "}
 (12,1,1) = {"
@@ -8615,7 +8910,7 @@ cry
 ccZ
 lyb
 cWI
-jOR
+lMV
 lyb
 lyb
 lYx
@@ -8887,8 +9182,8 @@ lyb
 fqn
 fqn
 fqn
-fqn
-fqn
+lyb
+lyb
 fqn
 fqn
 fqn
@@ -9144,20 +9439,20 @@ jaO
 jaO
 jaO
 jaO
+pJC
+pJC
 jaO
 jaO
 jaO
-jaO
-jaO
-jaO
+pJC
 jOR
-jOR
+oCD
 jOR
 ktk
 jeO
+fXu
 jeO
-jeO
-jeO
+nKF
 lyb
 cry
 cry
@@ -9396,7 +9691,7 @@ qmg
 qmg
 xOt
 lyb
-jOR
+uQR
 jOR
 jOR
 jOR
@@ -9666,9 +9961,9 @@ vwZ
 vwZ
 jOR
 jOR
-jOR
+lMV
 lyb
-jeO
+sNI
 jeO
 jeO
 jeO
@@ -10167,7 +10462,7 @@ lyb
 iBL
 lyb
 ktk
-jOR
+uQR
 jOR
 jOR
 jOR
@@ -10418,22 +10713,22 @@ jOR
 qKj
 jOR
 jOR
+rnD
+jOR
+oCD
 jOR
 jOR
 jOR
 jOR
 jOR
-jOR
-jOR
-jOR
-jOR
+giz
 jOR
 jOR
 jOR
 sDw
 jOR
 jOR
-jOR
+giz
 jOR
 jOR
 jOR
@@ -10681,7 +10976,7 @@ lyb
 fqn
 fqn
 ktk
-jOR
+uQR
 jOR
 jOR
 jOR
@@ -10928,15 +11223,15 @@ cry
 ccZ
 lyb
 cWI
-jOR
+lMV
 lyb
+pdv
+pdv
+pdv
 ljj
-ljj
-ljj
-ljj
-ljj
-ljj
-ljj
+kwS
+gwQ
+gwQ
 lyb
 soC
 jOR
@@ -11208,9 +11503,9 @@ jaO
 jaO
 jOR
 jOR
-jOR
+lMV
 lyb
-jeO
+sNI
 jeO
 jeO
 jeO
@@ -11444,15 +11739,15 @@ lyb
 cWI
 jOR
 lyb
+oYj
 ljj
 ljj
 ljj
 ljj
 ljj
-ljj
-ljj
+lGq
 lyb
-jOR
+uQR
 jOR
 jOR
 jOR
@@ -11714,20 +12009,20 @@ vwZ
 vwZ
 vwZ
 vwZ
+lfM
+lfM
 vwZ
 vwZ
 vwZ
-vwZ
-vwZ
-vwZ
+lfM
 jOR
-jOR
+rnD
 jOR
 ktk
 jeO
+gUU
 jeO
-jeO
-jeO
+nKF
 lyb
 cry
 cry
@@ -11956,23 +12251,23 @@ cry
 ccZ
 lyb
 cWI
-jOR
+lMV
 lyb
-ljj
-ljj
-ljj
-ljj
-ljj
-ljj
-ljj
+jaP
+nDP
+xDa
+gwm
+oeZ
+acx
+xpO
 lyb
 lyb
 lyb
 fqn
 fqn
 fqn
-fqn
-fqn
+lyb
+lyb
 fqn
 fqn
 fqn
@@ -27723,11 +28018,11 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
+pQo
+pQo
+pQo
+pQo
+pQo
 cry
 cry
 cry
@@ -27980,11 +28275,11 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
+pQo
+qrB
+dBS
+dBS
+pQo
 cry
 cry
 cry
@@ -28237,11 +28532,11 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
+pQo
+qrB
+dBS
+dBS
+jfr
 cry
 cry
 cry
@@ -28494,11 +28789,11 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
+pQo
+qrB
+dBS
+dBS
+pQo
 cry
 cry
 cry
@@ -28749,13 +29044,13 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+pQo
+pQo
+dBS
+dBS
+dBS
+pQo
 cry
 cry
 cry
@@ -29006,13 +29301,13 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+cCt
+dBS
+dBS
+dBS
+fTc
+pQo
 cry
 cry
 cry
@@ -29263,13 +29558,13 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+dBS
+dBS
+dBS
+dBS
+qCw
+pQo
 cry
 cry
 cry
@@ -29520,13 +29815,13 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
 cry
 cry
 cry
@@ -55375,7 +55670,7 @@ luU
 luU
 luU
 luU
-luU
+cCH
 luU
 luU
 luU
@@ -57242,7 +57537,7 @@ cry
 cry
 cry
 cry
-jgJ
+cry
 cry
 cry
 cry
@@ -58718,7 +59013,7 @@ bGx
 bGx
 bGx
 bGx
-luU
+pZw
 bGx
 bGx
 wKz
@@ -59545,7 +59840,7 @@ cry
 cry
 cry
 cry
-jgJ
+cry
 cry
 cry
 cry
@@ -60332,7 +60627,7 @@ cry
 cry
 cry
 cry
-jgJ
+cry
 cry
 cry
 cry
@@ -60835,7 +61130,7 @@ cry
 cry
 cry
 cry
-sUj
+cry
 cry
 cry
 cry
@@ -61339,7 +61634,7 @@ cry
 cry
 cry
 cry
-jgJ
+cry
 cry
 cry
 cry
@@ -62380,7 +62675,7 @@ cry
 cry
 cry
 cry
-aSk
+cry
 cry
 cry
 cry
@@ -63159,7 +63454,7 @@ cry
 cry
 cry
 cry
-jgJ
+cry
 cry
 cry
 cry
@@ -63397,7 +63692,7 @@ cry
 cry
 cry
 cry
-jgJ
+cry
 cry
 cry
 cry
@@ -64698,7 +64993,7 @@ cry
 cry
 cry
 cry
-sUj
+cry
 cry
 cry
 cry
@@ -64935,7 +65230,7 @@ cry
 cry
 cry
 cry
-sUj
+cry
 cry
 cry
 cry
@@ -65199,7 +65494,7 @@ cry
 cry
 cry
 cry
-sUj
+cry
 cry
 cry
 cry
@@ -67254,7 +67549,7 @@ cry
 cry
 cry
 cry
-aSk
+cry
 cry
 cry
 cry
