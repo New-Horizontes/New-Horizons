@@ -838,7 +838,7 @@
 	can_hold = list(/obj/item/clothing/ring,)
 	starts_with = list(/obj/item/clothing/ring/material/gold = 2, /obj/item/clothing/ring/material/silver = 2, /obj/item/coin/gold = 2)
 	chewable = FALSE
-	opened = TRUE
+	opened = FALSE
 	closable = TRUE
 
 /obj/item/storage/box/fancy/cold_dawn/update_icon()

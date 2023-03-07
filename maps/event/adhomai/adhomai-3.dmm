@@ -511,6 +511,12 @@
 	icon_state = "rock"
 	},
 /area/da_boat/mountains)
+"ebr" = (
+/obj/structure/table/rack/fancy_table/center,
+/turf/simulated/floor/exoplanet/castle{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "eel" = (
 /obj/structure/flora/tree/adhomai,
 /mob/living/simple_animal/hostile/wind_devil,
@@ -659,7 +665,7 @@
 	},
 /area/da_boat/mountains)
 "flE" = (
-/obj/structure/table/wood,
+/obj/structure/table/rack/fancy_table/left,
 /turf/simulated/floor/exoplanet/castle{
 	temperature = 263.15
 	},
@@ -1780,6 +1786,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"pHp" = (
+/obj/structure/table/rack/fancy_table,
+/turf/simulated/floor/exoplanet/castle{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "pNi" = (
 /obj/structure/railing/fence{
 	dir = 1
@@ -2459,6 +2471,10 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"wAz" = (
+/obj/structure/plasticflaps/airtight,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/da_boat/mountains)
 "wBc" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 8
@@ -2560,6 +2576,12 @@
 "xvE" = (
 /obj/structure/bed/stool/chair/wood,
 /turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"xBm" = (
+/obj/structure/table/rack/fancy_table/right,
+/turf/simulated/floor/exoplanet/castle{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -8850,9 +8872,9 @@ fqn
 fqn
 fqn
 lyb
-jOR
+wAz
 lyb
-jOR
+wAz
 ktk
 lyb
 lyb
@@ -11934,9 +11956,9 @@ fqn
 fqn
 fqn
 lyb
-jOR
+wAz
 lyb
-jOR
+wAz
 ktk
 lyb
 lyb
@@ -25752,13 +25774,13 @@ wKz
 wKz
 wKz
 wKz
-wKz
-wKz
-wKz
-wKz
-wKz
-wKz
-wKz
+cry
+cry
+cry
+cry
+cry
+cry
+cry
 cry
 cry
 cry
@@ -26009,13 +26031,13 @@ wKz
 wKz
 wKz
 wKz
+cry
 wKz
 wKz
 wKz
 wKz
 wKz
-wKz
-wKz
+cry
 cry
 cry
 cry
@@ -26263,16 +26285,16 @@ sPG
 wKz
 wKz
 wKz
+fSk
+fSk
+cry
+cry
 wKz
 wKz
 wKz
 wKz
 wKz
-wKz
-wKz
-wKz
-wKz
-wKz
+cry
 cry
 cry
 cry
@@ -26519,10 +26541,10 @@ sPG
 sPG
 wKz
 wKz
-wKz
-wKz
-wKz
-wKz
+fSk
+fSk
+fSk
+fSk
 wKz
 wKz
 wKz
@@ -26775,11 +26797,11 @@ sPG
 (95,1,1) = {"
 sPG
 wKz
-wKz
-wKz
-wKz
-wKz
-wKz
+fSk
+fSk
+fSk
+fSk
+fSk
 wKz
 wKz
 wKz
@@ -27033,10 +27055,10 @@ sPG
 sPG
 wKz
 wKz
-wKz
-wKz
-wKz
-wKz
+fSk
+fSk
+fSk
+fSk
 wKz
 wKz
 wKz
@@ -27289,11 +27311,11 @@ sPG
 (97,1,1) = {"
 sPG
 wKz
-wKz
-wKz
-wKz
-wKz
-wKz
+fSk
+fSk
+fSk
+fSk
+fSk
 wKz
 wKz
 wKz
@@ -27546,10 +27568,10 @@ sPG
 (98,1,1) = {"
 sPG
 wKz
-wKz
-wKz
-wKz
-wKz
+fSk
+fSk
+fSk
+fSk
 wKz
 wKz
 wKz
@@ -27805,9 +27827,9 @@ sPG
 wKz
 wKz
 wKz
-wKz
-wKz
-wKz
+fSk
+fSk
+fSk
 wKz
 wKz
 wKz
@@ -28061,9 +28083,9 @@ sPG
 sPG
 wKz
 wKz
-wKz
-wKz
-wKz
+fSk
+fSk
+fSk
 wKz
 wKz
 wKz
@@ -54273,13 +54295,13 @@ sPG
 "}
 (202,1,1) = {"
 sPG
+sPG
 bGx
 bGx
 bGx
 bGx
 bGx
 bGx
-wKz
 wKz
 wKz
 wKz
@@ -54530,13 +54552,13 @@ sPG
 "}
 (203,1,1) = {"
 sPG
+sPG
 bGx
 luU
 luU
 luU
 luU
 bGx
-wKz
 wKz
 wKz
 wKz
@@ -54787,12 +54809,12 @@ sPG
 "}
 (204,1,1) = {"
 sPG
+sPG
 bGx
 luU
 luU
 luU
 luU
-bGx
 bGx
 bGx
 bGx
@@ -55044,13 +55066,13 @@ sPG
 "}
 (205,1,1) = {"
 sPG
+sPG
 bGx
 luU
 fSk
 fSk
 luU
 pZw
-luU
 luU
 luU
 luU
@@ -55301,13 +55323,13 @@ sPG
 "}
 (206,1,1) = {"
 sPG
+sPG
 bGx
 luU
 luU
 oVd
 luU
 bGx
-luU
 luU
 luU
 luU
@@ -55326,7 +55348,7 @@ wKz
 wKz
 wKz
 bGx
-luU
+pHp
 luU
 luU
 luU
@@ -55558,13 +55580,13 @@ sPG
 "}
 (207,1,1) = {"
 sPG
+sPG
 bGx
 luU
 fSk
 fSk
 luU
 pZw
-luU
 luU
 luU
 luU
@@ -55815,12 +55837,12 @@ sPG
 "}
 (208,1,1) = {"
 sPG
+sPG
 bGx
 luU
 luU
 luU
 luU
-bGx
 bGx
 bGx
 bGx
@@ -56072,13 +56094,13 @@ sPG
 "}
 (209,1,1) = {"
 sPG
+sPG
 bGx
 tNE
 luU
 luU
 luU
 bGx
-wKz
 wKz
 wKz
 wKz
@@ -56329,13 +56351,13 @@ sPG
 "}
 (210,1,1) = {"
 sPG
+sPG
 bGx
 bGx
 bGx
 bGx
 bGx
 bGx
-wKz
 wKz
 wKz
 wKz
@@ -57874,7 +57896,7 @@ sPG
 wKz
 wKz
 bGx
-flE
+ebr
 luU
 luU
 luU
@@ -58131,7 +58153,7 @@ sPG
 wKz
 wKz
 bGx
-luU
+ebr
 luU
 luU
 dze
@@ -58388,7 +58410,7 @@ sPG
 wKz
 wKz
 bGx
-luU
+ebr
 luU
 luU
 luU
@@ -58645,7 +58667,7 @@ sPG
 wKz
 wKz
 bGx
-luU
+xBm
 luU
 luU
 luU
@@ -59712,7 +59734,7 @@ luU
 luU
 luU
 luU
-luU
+pHp
 bGx
 wKz
 wKz
