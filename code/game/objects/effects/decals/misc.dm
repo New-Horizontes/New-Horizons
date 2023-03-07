@@ -26,9 +26,8 @@
 	layer = 3
 
 /obj/effect/decal/fake_object/Initialize(mapload)
-	..()
-	appearance_flags &= ~TILE_BOUND //NOT BOUND BY ANY LIMITS
-	return INITIALIZE_HINT_LATELOAD
+	.=..()
+	appearance_flags &= ~TILE_BOUND
 
 /obj/effect/decal/fake_object/light_source
 	name = "light source"
