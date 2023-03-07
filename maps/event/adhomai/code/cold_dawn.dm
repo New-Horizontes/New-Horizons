@@ -838,15 +838,15 @@
 	can_hold = list(/obj/item/clothing/ring,)
 	starts_with = list(/obj/item/clothing/ring/material/gold = 2, /obj/item/clothing/ring/material/silver = 2, /obj/item/coin/gold = 2)
 	chewable = FALSE
-	opened = FALSE
+	opened = TRUE
 	closable = TRUE
 
 /obj/item/storage/box/fancy/cold_dawn/update_icon()
 	. = ..()
 	if(opened)
-		icon_state = "jewelbox"
-	else
 		icon_state = "jewelbox-open"
+	else
+		icon_state = "jewelbox"
 
 /obj/item/treasure/urn
 	name = "small urn"
@@ -883,7 +883,7 @@
 	damage()
 
 /obj/item/treasure/urn/bullet_act(var/obj/item/projectile/Proj)
-	if(toppled)
+	if(broken)
 		return
 	if(!Proj)
 		return
@@ -917,3 +917,161 @@
 		icon_state = "urn-large-broken"
 	else
 		icon_state = "urn-large"
+
+/obj/structure/treasure_pile
+	name = "treasure pile"
+	desc = "A pile of treasures."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "gold1"
+	anchored = TRUE
+	var/small_pile = FALSE
+
+/obj/structure/treasure_pile/attack_hand(mob/user)
+	//Human mob
+	if(ishuman(user))
+		var/mob/living/carbon/human/H = user
+		H.visible_message("<b>[user]</b> starts searching through \the [src]...", SPAN_NOTICE("You start searching through \the [src]..."))
+		//Do the searching
+		if(do_after(user, rand(4 SECONDS, 6 SECONDS)))
+			var/obj/item/I = give_item()
+			H.put_in_hands(I)
+			to_chat(H, SPAN_NOTICE("You found \a [I]!"))
+	else
+		return ..()
+
+/obj/structure/treasure_pile/proc/give_item()
+	var/treasure
+
+	if(small_pile)
+		treasure = /obj/item/coin/gold
+	else
+		treasure = pick (/obj/item/coin/gold, /obj/item/clothing/ring/material/silver, /obj/item/clothing/ring/material/gold, /obj/item/storage/box/fancy/cold_dawn, /obj/item/treasure/urn, /obj/item/treasure, /obj/item/treasure/figurine, /obj/item/treasure/bowl, /obj/item/treasure/plate, /obj/item/reagent_containers/glass/goblet)
+
+	var/obj/item/I = new treasure()
+	return I
+
+/obj/item/clothing/head/helmet/cold_dawn
+	name = "ancient adhomian helmet"
+	desc = "A helmeted used by ancient Tajaran warriors."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "helm"
+	item_state = "helm"
+	contained_sprite = TRUE
+	armor = list(
+		melee = ARMOR_MELEE_MAJOR,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BOMB_MINOR
+	)
+	has_storage = FALSE
+
+/obj/item/clothing/suit/armor/cold_dawn
+	name = "ancient adhomian armor"
+	desc = "A suit of armor used by ancient Tajaran warriors."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "armor"
+	item_state = "armor"
+	contained_sprite = TRUE
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+	flags_inv = HIDEJUMPSUIT
+	armor = list(
+		melee = ARMOR_MELEE_MAJOR,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BOMB_MINOR
+	)
+	siemens_coefficient = 0.35
+
+/obj/structure/closet/sarcophagus
+	name = "sarcophagus"
+	desc = "An adhomian sarcophagus made of stone."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "sarcophagus-base"
+	store_structure = TRUE
+	dense_when_open = TRUE
+	open_sound = 'sound/effects/stonedoor_openclose.ogg'
+	close_sound = 'sound/effects/stonedoor_openclose.ogg'
+	layer = 2.98
+	var/lid_icon = "lid-messa"
+	var/trapped = FALSE
+	var/triggered = FALSE
+
+/obj/structure/closet/sarcophagus/update_icon()
+	if(!opened)
+		layer = OBJ_LAYER
+		add_overlay(lid_icon)
+
+	else
+		layer = BELOW_OBJ_LAYER
+		cut_overlays()
+
+/obj/structure/closet/sarcophagus/animate_door(var/closing = FALSE)
+	return
+
+/obj/structure/closet/sarcophagus/attack_hand(mob/user as mob)
+	..()
+	if(ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(trapped && !triggered)
+			do_trap_effect(H)
+
+/obj/structure/closet/sarcophagus/proc/do_trap_effect(var/mob/living/carbon/human/H)
+	if(triggered)
+		return
+
+	var/trap = pick ("shotgun", "fire", "shock", "mob")
+
+	switch(trap)
+		if("shotgun")
+			var/turf/T = get_turf(src)
+			var/obj/item/projectile/bullet/pellet/shotgun/LE = new (T)
+			playsound(usr.loc, 'sound/weapons/gunshot/gunshot_shotgun2.ogg', 75, 1)
+			LE.launch_projectile(H)
+			new /obj/item/gun/projectile/shotgun/improvised(get_turf(src))
+
+		if("fire")
+			visible_message(SPAN_DANGER("Flames engulf \the [H]!"))
+			H.adjustFireLoss(30)
+			H.IgniteMob(5)
+
+		if("shock")
+			visible_message(SPAN_DANGER("\The [src] crackles with energy!"))
+			H.electrocute_act(20,src, 1)
+			spark(src, 3, alldirs)
+
+		if("mob")
+			visible_message(SPAN_DANGER("A creature flies from \the [src]!"))
+			new /mob/living/simple_animal/hostile/wind_devil(get_turf(src))
+
+	triggered = TRUE
+
+/obj/structure/closet/sarcophagus/mummy
+	lid_icon = "lid-raskara"
+
+/obj/structure/closet/sarcophagus/mummy/fill()
+	new /obj/structure/mummy(src)
+
+/obj/structure/mummy
+	name = "adhomian mummy"
+	desc = "The preserved body of a long dead adhomian monarch."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "mummy"
+	anchored = FALSE
+
+/obj/structure/table/rack/fancy_table
+	name = "stone slab"
+	desc = "A large stone slab."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "standalone"
+	table_mat = MATERIAL_CASTLE
+
+/obj/structure/table/rack/fancy_table/center
+	icon_state = "center"
+
+/obj/structure/table/rack/fancy_table/left
+	icon_state = "left"
+
+/obj/structure/table/rack/fancy_table/right
+	icon_state = "right"
