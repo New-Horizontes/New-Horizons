@@ -482,6 +482,12 @@
 	},
 /turf/simulated/floor/exoplanet/castle/large,
 /area/da_boat/mountains/caverns)
+"ycS" = (
+/obj/structure/stone_slab{
+	pixel_x = -16
+	},
+/turf/simulated/floor/exoplanet/castle/large,
+/area/da_boat/mountains/caverns)
 
 (1,1,1) = {"
 sNi
@@ -6091,7 +6097,7 @@ wZW
 sRc
 kZR
 kZR
-kZR
+ycS
 kZR
 uHQ
 kZR

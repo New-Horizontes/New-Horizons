@@ -1147,3 +1147,11 @@
 	name = "evacuation shuttle control console"
 	req_access = list(access_merchant)
 	shuttle_tag = "SCC Evac Shuttle"
+
+/obj/structure/stone_slab
+	name = "adhomian calendar stone"
+	desc = "A large sone slab with some ancient text on it."
+	icon = 'icons/obj/stone_slab.dmi'
+	icon_state = "slab"
+	pixel_x = -16
+	opacity = TRUE
