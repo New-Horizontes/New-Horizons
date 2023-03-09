@@ -31,3 +31,7 @@
 	)
 
 	force_spawnpoint = TRUE
+
+	map_shuttles = list(
+		/datum/shuttle/autodock/ferry/scc_evac
+	)

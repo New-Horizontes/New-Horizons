@@ -6,7 +6,6 @@
 	spawn_weight = 1
 	spawn_cost = 1
 	id = "deathbox"
-	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /singleton/submap_archetype/deathbox
 	map = "Unmarked Ship"

@@ -802,6 +802,7 @@
 	name = "gold figurine"
 	desc = "A figurine made from pure gold. It is oddly familiar..."
 	icon_state = "gold_schlorrgo"
+	w_class = ITEMSIZE_LARGE
 
 /obj/item/treasure/bowl
 	name = "silver bowl"
@@ -812,6 +813,7 @@
 	name = "silver plate"
 	desc = "An ancient adhomian plate made of gold and silver."
 	icon_state = "platter"
+	w_class = ITEMSIZE_LARGE
 
 /obj/item/reagent_containers/glass/goblet
 	name = "silver goblet"
@@ -840,6 +842,7 @@
 	chewable = FALSE
 	opened = FALSE
 	closable = TRUE
+	w_class = ITEMSIZE_LARGE
 
 /obj/item/storage/box/fancy/cold_dawn/update_icon()
 	. = ..()
@@ -957,6 +960,7 @@
 	icon_state = "helm"
 	item_state = "helm"
 	contained_sprite = TRUE
+	w_class = ITEMSIZE_LARGE
 	armor = list(
 		melee = ARMOR_MELEE_MAJOR,
 		bullet = ARMOR_BALLISTIC_PISTOL,
@@ -972,6 +976,7 @@
 	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "armor"
 	item_state = "armor"
+	w_class = ITEMSIZE_LARGE
 	contained_sprite = TRUE
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	flags_inv = HIDEJUMPSUIT
@@ -1103,3 +1108,42 @@
 	name = "spike trap"
 	desc = "A trap with multiple spikes emerging from the ground."
 	icon_state = "static"
+
+/area/shuttle/scc_evac
+	name = "SCC Evacuation Shuttle"
+
+//shuttle
+
+/datum/shuttle/autodock/ferry/scc_evac
+	name = "SCC Evac Shuttle"
+	location = 1
+	warmup_time = 10
+	shuttle_area = /area/shuttle/scc_evac
+	move_time = 20
+	dock_target = "scc_evac"
+	waypoint_station = "nav_scc_evac_dock"
+	landmark_transition = "nav_scc_evac_interim"
+	waypoint_offsite = "nav_scc_evac_start"
+
+/obj/effect/shuttle_landmark/scc_evac/start
+	name = "SCC Evac Landing"
+	landmark_tag = "nav_scc_evac_start"
+	docking_controller = "scc_evac_station"
+	base_turf = /turf/simulated/floor/exoplanet/snow
+	base_area = /area/da_boat/mountains
+
+/obj/effect/shuttle_landmark/scc_evac/interim
+	name = "In Transit"
+	landmark_tag = "nav_scc_evac_interim"
+	base_turf = /turf/space/transit/bluespace/west
+
+/obj/effect/shuttle_landmark/scc_evac/dock
+	name = "SCC Evac Shuttle Dock"
+	landmark_tag = "nav_scc_evac_dock"
+	docking_controller = "scc_evac_shuttle_dock"
+	landmark_flags = SLANDMARK_FLAG_AUTOSET
+
+/obj/machinery/computer/shuttle_control/scc_evac
+	name = "evacuation shuttle control console"
+	req_access = list(access_merchant)
+	shuttle_tag = "SCC Evac Shuttle"

@@ -19,7 +19,7 @@
 /obj/item/ammo_magazine/a556/carbine/polymer,
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "adS" = (
 /obj/structure/bed/stool/chair/sofa/left/black,
 /turf/simulated/floor/wood{
@@ -43,7 +43,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "anf" = (
 /obj/machinery/computer/telecomms/monitor{
 	network = "tcommsat"
@@ -238,7 +238,7 @@
 /turf/simulated/floor/plating{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "cey" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/tajaran,
@@ -308,7 +308,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "cCt" = (
 /obj/item/material/twohanded/chainsaw/fueled,
 /obj/structure/closet/toolcloset/empty,
@@ -348,7 +348,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "cRz" = (
 /obj/structure/simple_door/wood{
 	name = "room three";
@@ -387,7 +387,7 @@
 	dir = 2
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "cYR" = (
 /obj/structure/table/wood,
 /obj/machinery/chemical_dispenser/bar_alc/full{
@@ -524,7 +524,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "dYB" = (
 /obj/structure/table/standard,
 /obj/item/roller,
@@ -537,7 +537,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "dZn" = (
 /obj/effect/landmark/map_data{
 	height = 2
@@ -664,7 +664,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "eYx" = (
 /obj/structure/simple_door/wood{
 	layer = 3.1
@@ -718,7 +718,7 @@
 /obj/structure/window/shuttle/scc_space_ship,
 /obj/structure/grille,
 /turf/simulated/floor/plating,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "fub" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/storage/tajaran/hunting,
@@ -800,7 +800,7 @@
 	req_access = list(19)
 	},
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "fQR" = (
 /obj/machinery/appliance/cooker/fryer,
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -846,7 +846,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/shuttle/black,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "ghA" = (
 /obj/structure/mirror{
 	pixel_x = -28;
@@ -876,11 +876,11 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "giz" = (
 /obj/effect/decal/fake_object/light_source/invisible,
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "gln" = (
 /obj/structure/railing/fence{
 	dir = 8
@@ -910,7 +910,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "gwm" = (
 /obj/item/gun/projectile/automatic/rifle/jingya,
 /obj/structure/closet/secure_closet/guncabinet{
@@ -920,12 +920,12 @@
 /obj/item/ammo_magazine/a556/carbine/polymer,
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "gwQ" = (
 /obj/structure/dispenser/oxygen,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "gJP" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/sink/kitchen{
@@ -980,7 +980,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/shuttle/black,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "hav" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/table/wood,
@@ -1025,7 +1025,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "hhg" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -1117,7 +1117,7 @@
 	req_access = list(19)
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "ibP" = (
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/unsimulated/floor{
@@ -1159,7 +1159,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "iIt" = (
 /obj/machinery/chem_heater,
 /obj/effect/floor_decal/spline/plain{
@@ -1201,7 +1201,7 @@
 	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "jaP" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "armor cabinet";
@@ -1229,10 +1229,10 @@
 /obj/item/clothing/head/helmet/security,
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "jeO" = (
 /turf/simulated/floor/shuttle/black,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "jfr" = (
 /obj/structure/simple_door/wood,
 /turf/simulated/floor/wood{
@@ -1253,6 +1253,13 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"jrb" = (
+/obj/structure/table/standard,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "jKh" = (
 /obj/structure/railing/fence{
 	dir = 1
@@ -1267,7 +1274,7 @@
 /area/da_boat/mountains)
 "jOR" = (
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "jPj" = (
 /obj/structure/railing/fence{
 	dir = 4
@@ -1295,6 +1302,14 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"jVI" = (
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/obj/structure/table/standard,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "jZG" = (
 /obj/structure/railing/fence{
 	dir = 8
@@ -1332,6 +1347,10 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"kpe" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "krv" = (
 /turf/simulated/floor/exoplanet/mineral/adhomai{
 	temperature = 263.15
@@ -1339,12 +1358,12 @@
 /area/da_boat/mountains)
 "ktk" = (
 /turf/simulated/wall/shuttle/scc/cardinal,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "kwS" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "kQY" = (
 /obj/item/reagent_containers/glass/bucket/wood,
 /turf/simulated/floor/wood{
@@ -1364,7 +1383,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "laK" = (
 /obj/machinery/telecomms/server/presets/science,
 /turf/unsimulated/floor{
@@ -1408,10 +1427,16 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
+"lgk" = (
+/obj/item/modular_computer/console/preset/command/captain{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "ljj" = (
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "lmS" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 1
@@ -1456,7 +1481,7 @@
 /area/da_boat/mountains)
 "lyb" = (
 /turf/simulated/wall/shuttle/scc,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "lyW" = (
 /obj/structure/table/wood,
 /obj/item/clothing/accessory/storage/bayonet,
@@ -1484,14 +1509,14 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "lGq" = (
 /obj/structure/table/rack,
 /obj/item/hoist_kit,
 /obj/item/hoist_kit,
 /obj/item/hoist_kit,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "lJh" = (
 /obj/structure/window/basic,
 /obj/structure/curtain/black,
@@ -1505,7 +1530,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "lTn" = (
 /obj/structure/table/wood,
 /obj/item/pocketwatch/adhomai,
@@ -1523,7 +1548,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "mbZ" = (
 /obj/structure/railing/fence,
 /obj/structure/railing/fence{
@@ -1595,6 +1620,10 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"muA" = (
+/obj/effect/shuttle_landmark/scc_evac/start,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/shuttle/scc_evac)
 "mvA" = (
 /obj/machinery/iff_beacon/horizon,
 /turf/unsimulated/floor{
@@ -1776,7 +1805,7 @@
 /obj/item/gun/energy/gun,
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "nEv" = (
 /obj/structure/railing/fence{
 	dir = 8
@@ -1790,8 +1819,12 @@
 	dir = 2;
 	icon_state = "tube1"
 	},
+/obj/structure/table/standard,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
 /turf/simulated/floor/shuttle/black,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "nPO" = (
 /obj/structure/bed/stool/chair/sofa/right/black{
 	dir = 4
@@ -1818,7 +1851,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "odb" = (
 /obj/structure/table/stone/marble,
 /turf/simulated/floor/wood{
@@ -1841,7 +1874,7 @@
 /obj/item/ammo_magazine/mc10mm/leyon,
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "osY" = (
 /obj/structure/railing/fence,
 /obj/structure/table/wood,
@@ -1850,6 +1883,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"osZ" = (
+/obj/item/modular_computer/console/preset/command/hop{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "ouR" = (
 /obj/structure/bed/stool/chair/padded/black,
 /turf/simulated/floor/wood{
@@ -1874,7 +1913,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "oJH" = (
 /turf/simulated/floor/lino/grey{
 	temperature = 268.15
@@ -1924,7 +1963,7 @@
 	icon_state = "tube1"
 	},
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "pcz" = (
 /obj/structure/table/wood,
 /obj/item/material/ashtray/plastic,
@@ -1957,7 +1996,7 @@
 /obj/item/clothing/accessory/holster/utility/machete,
 /obj/item/clothing/accessory/holster/utility/machete,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "pfF" = (
 /turf/simulated/floor/lino/grey{
 	temperature = 263.15
@@ -1976,7 +2015,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "pmC" = (
 /obj/machinery/washing_machine,
 /obj/effect/decal/cleanable/cobweb,
@@ -2054,7 +2093,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "pNi" = (
 /obj/structure/railing/fence{
 	dir = 1
@@ -2099,6 +2138,10 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"pQM" = (
+/obj/structure/bed/stool/chair/office/bridge,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "pZw" = (
 /obj/structure/simple_door/iron,
 /turf/simulated/floor/exoplanet/castle{
@@ -2109,7 +2152,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "qqA" = (
 /obj/structure/flora/tree/adhomai,
 /mob/living/simple_animal/hostile/retaliate/rafama/male,
@@ -2138,6 +2181,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"qAe" = (
+/obj/item/modular_computer/console/preset/civilian{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "qAF" = (
 /obj/item/material/hatchet/lumber,
 /turf/simulated/floor/exoplanet/snow{
@@ -2166,7 +2215,7 @@
 "qKj" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "qVo" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -2219,7 +2268,7 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "rtH" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -2334,7 +2383,7 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "srY" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/item/clothing/shoes/tajara/footwraps,
@@ -2348,7 +2397,7 @@
 	name = "Observer-Start"
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "sHf" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/item/clothing/under/tajaran,
@@ -2377,7 +2426,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/shuttle/black,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "sPG" = (
 /turf/unsimulated/mineral{
 	icon = 'icons/turf/smooth/icy_wall.dmi';
@@ -2498,7 +2547,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "tXF" = (
 /obj/structure/railing/fence,
 /obj/machinery/portable_atmospherics/hydroponics/soil,
@@ -2527,7 +2576,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "und" = (
 /obj/machinery/telecomms/allinone/ship/station_relay,
 /turf/unsimulated/floor{
@@ -2541,6 +2590,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"uIR" = (
+/obj/machinery/computer/shuttle_control/scc_evac{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "uQR" = (
 /obj/machinery/light{
 	dir = 1;
@@ -2548,7 +2603,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "uZy" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 26
@@ -2609,7 +2664,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "vrK" = (
 /mob/living/simple_animal/hostile/wind_devil,
 /turf/simulated/floor/exoplanet/snow{
@@ -2641,7 +2696,7 @@
 	name = "JoinLateCryo"
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "vHg" = (
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket/wood,
@@ -2780,7 +2835,7 @@
 "wAz" = (
 /obj/structure/plasticflaps/airtight,
 /turf/simulated/floor/shuttle/dark_blue,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "wBc" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 8
@@ -2880,7 +2935,7 @@
 /obj/item/gun/energy/rifle/laser/noctiluca,
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "xrE" = (
 /obj/item/modular_computer/console/preset/research{
 	dir = 1
@@ -2917,7 +2972,7 @@
 /obj/item/ammo_casing/peac,
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "xNq" = (
 /obj/structure/table/wood,
 /obj/item/material/hatchet/lumber,
@@ -2941,7 +2996,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 "xYI" = (
 /obj/machinery/telecomms/server/presets/command,
 /turf/unsimulated/floor{
@@ -2967,7 +3022,7 @@
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
-/area/da_boat/mountains)
+/area/shuttle/scc_evac)
 
 (1,1,1) = {"
 sPG
@@ -9726,7 +9781,7 @@ lyb
 jeO
 jeO
 jeO
-jeO
+jrb
 fqn
 cry
 cry
@@ -9982,8 +10037,8 @@ lMV
 lyb
 sNI
 jeO
-jeO
-jeO
+pQM
+qAe
 fqn
 cry
 cry
@@ -10239,8 +10294,8 @@ jOR
 lyb
 jeO
 jeO
-jeO
-jeO
+pQM
+qAe
 fqn
 cry
 cry
@@ -10496,8 +10551,8 @@ jOR
 lyb
 jeO
 jeO
-jeO
-jeO
+pQM
+lgk
 fqn
 cry
 cry
@@ -10741,7 +10796,7 @@ jOR
 giz
 jOR
 jOR
-jOR
+muA
 sDw
 jOR
 jOR
@@ -10753,8 +10808,8 @@ jOR
 hVu
 jeO
 jeO
-jeO
-jeO
+pQM
+uIR
 fqn
 cry
 cry
@@ -11010,8 +11065,8 @@ jOR
 lyb
 jeO
 jeO
-jeO
-jeO
+pQM
+osZ
 fqn
 cry
 cry
@@ -11267,8 +11322,8 @@ jOR
 lyb
 jeO
 jeO
-jeO
-jeO
+pQM
+qAe
 fqn
 cry
 cry
@@ -11524,8 +11579,8 @@ lMV
 lyb
 sNI
 jeO
-jeO
-jeO
+pQM
+qAe
 fqn
 cry
 cry
@@ -11782,7 +11837,7 @@ lyb
 jeO
 jeO
 jeO
-jeO
+kpe
 fqn
 cry
 cry
@@ -12039,7 +12094,7 @@ ktk
 jeO
 gUU
 jeO
-nKF
+jVI
 lyb
 cry
 cry
