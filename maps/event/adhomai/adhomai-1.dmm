@@ -465,6 +465,10 @@
 "abJ" = (
 /turf/unsimulated/floor/plating,
 /area/centcom/specops)
+"abL" = (
+/obj/effect/shuttle_landmark/scc_evac/dock,
+/turf/template_noop,
+/area/template_noop)
 "abU" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -603,6 +607,14 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/control)
+"acP" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1337;
+	id_tag = "scc_evac_station";
+	pixel_y = -28
+	},
+/turf/unsimulated/floor/plating,
+/area/centcom/ferry)
 "ada" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Bureau Supervisor's Office";
@@ -1090,33 +1102,6 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/unsimulated/floor/plating,
 /area/centcom/bar)
-"aeN" = (
-/obj/effect/step_trigger/teleporter/random{
-	affect_ghosts = 1;
-	name = "escapeshuttle_leave";
-	teleport_x = 25;
-	teleport_x_offset = 245;
-	teleport_y = 25;
-	teleport_y_offset = 245;
-	teleport_z = 6;
-	teleport_z_offset = 6
-	},
-/obj/effect/step_trigger/teleporter/random{
-	affect_ghosts = 1;
-	name = "escapeshuttle_leave";
-	teleport_x = 25;
-	teleport_x_offset = 245;
-	teleport_y = 25;
-	teleport_y_offset = 245;
-	teleport_z = 6;
-	teleport_z_offset = 6
-	},
-/turf/template_noop,
-/area/template_noop)
-"aeR" = (
-/obj/effect/shuttle_landmark/scc_evac/dock,
-/turf/template_noop,
-/area/template_noop)
 "aeV" = (
 /obj/machinery/papershredder,
 /turf/unsimulated/floor{
@@ -1192,6 +1177,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/bar)
+"afk" = (
+/obj/effect/shuttle_landmark/scc_evac/interim,
+/turf/space,
+/area/template_noop)
 "afm" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/reagent_containers/food/drinks/bottle/cognac{
@@ -2225,10 +2214,6 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/bar)
-"aja" = (
-/obj/effect/shuttle_landmark/scc_evac/interim,
-/turf/space,
-/area/template_noop)
 "ajb" = (
 /turf/unsimulated/floor{
 	icon_state = "dark2"
@@ -2676,6 +2661,29 @@
 /obj/structure/computerframe,
 /turf/simulated/floor/tiled/dark,
 /area/centcom/bar)
+"akG" = (
+/obj/effect/step_trigger/teleporter/random{
+	affect_ghosts = 1;
+	name = "escapeshuttle_leave";
+	teleport_x = 25;
+	teleport_x_offset = 245;
+	teleport_y = 25;
+	teleport_y_offset = 245;
+	teleport_z = 6;
+	teleport_z_offset = 6
+	},
+/obj/effect/step_trigger/teleporter/random{
+	affect_ghosts = 1;
+	name = "escapeshuttle_leave";
+	teleport_x = 25;
+	teleport_x_offset = 245;
+	teleport_y = 25;
+	teleport_y_offset = 245;
+	teleport_z = 6;
+	teleport_z_offset = 6
+	},
+/turf/template_noop,
+/area/template_noop)
 "akQ" = (
 /obj/machinery/newscaster{
 	pixel_x = 5;
@@ -32685,7 +32693,7 @@ aKe
 aKG
 aJs
 aJs
-aJs
+acP
 aJs
 aJs
 aJs
@@ -55153,7 +55161,7 @@ reg
 reg
 reg
 reg
-aja
+afk
 reg
 reg
 reg
@@ -68532,7 +68540,7 @@ aae
 aae
 aae
 aae
-aeN
+akG
 aae
 aaa
 aaa
@@ -70316,7 +70324,7 @@ aaa
 aaa
 aaa
 aaa
-aeR
+abL
 aaa
 aaa
 aaa
@@ -72359,7 +72367,7 @@ aaa
 aaa
 aaa
 aaa
-aeN
+akG
 aae
 aae
 aae
@@ -72367,7 +72375,7 @@ aae
 aae
 aae
 aae
-aeN
+akG
 aaa
 aaa
 aaa
@@ -74408,7 +74416,7 @@ aaa
 aaa
 aaa
 aaa
-aeN
+akG
 aae
 aae
 aae

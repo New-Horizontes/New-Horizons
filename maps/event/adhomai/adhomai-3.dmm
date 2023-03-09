@@ -61,15 +61,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"aBK" = (
-/obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1337;
-	id_tag = "scc_evac";
-	pixel_y = 24;
-	tag_door = "scc_shuttle_hatch"
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "aGV" = (
 /obj/structure/curtain/black,
 /turf/simulated/floor/wood{
@@ -122,6 +113,17 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"biJ" = (
+/obj/machinery/light{
+	dir = 2;
+	icon_state = "tube1"
+	},
+/obj/structure/table/standard,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "bjj" = (
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	req_access = null
@@ -146,12 +148,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"bol" = (
-/obj/item/modular_computer/console/preset/command/hop{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "boE" = (
 /obj/structure/closet/cabinet,
 /obj/item/storage/box/shotgunshells,
@@ -229,6 +225,22 @@
 "bGx" = (
 /turf/simulated/wall/castle,
 /area/da_boat/mountains)
+"bOr" = (
+/obj/machinery/button/remote/blast_door{
+	id = "ssc_shuttle";
+	name = "blast door";
+	pixel_y = 25;
+	req_access = null
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
+"bPA" = (
+/obj/structure/pit/closed,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "bSG" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -236,6 +248,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"bTm" = (
+/obj/machinery/computer/shuttle_control/scc_evac{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "bVZ" = (
 /obj/structure/railing/fence,
 /obj/structure/railing/fence{
@@ -457,6 +475,15 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"dvs" = (
+/obj/structure/window/shuttle/scc_space_ship,
+/obj/structure/grille,
+/obj/machinery/door/blast/regular/open{
+	id = "ssc_shuttle";
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/shuttle/scc_evac)
 "dwe" = (
 /obj/structure/bed/stool/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -521,12 +548,6 @@
 	temperature = 268.15
 	},
 /area/da_boat/mountains)
-"dKG" = (
-/obj/item/modular_computer/console/preset/command/captain{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "dLV" = (
 /obj/structure/table/standard,
 /obj/item/reagent_containers/spray/cleaner,
@@ -574,10 +595,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"ecx" = (
-/obj/structure/bed/stool/chair/office/bridge,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "eel" = (
 /obj/structure/flora/tree/adhomai,
 /mob/living/simple_animal/hostile/wind_devil,
@@ -609,6 +626,23 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"eoT" = (
+/obj/item/modular_computer/console/preset/command/hop{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
+"erC" = (
+/obj/structure/pit/closed,
+/obj/effect/decal/remains{
+	name = "tajaran remains";
+	desc = "A pile of Tajaran bones.";
+	icon_state = "remainstajara"
+	},
+/turf/simulated/floor/exoplanet/snow{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -743,8 +777,7 @@
 /obj/structure/window/shuttle/scc_space_ship,
 /obj/structure/grille,
 /obj/machinery/door/blast/regular/open{
-	id = "ssc_shuttle";
-	dir = 4
+	id = "ssc_shuttle"
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/scc_evac)
@@ -1095,6 +1128,13 @@
 	temperature = 268.15
 	},
 /area/da_boat/mountains)
+"huK" = (
+/obj/structure/closet/crate/miningcart,
+/obj/item/hammer,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "hBM" = (
 /obj/structure/railing/fence,
 /obj/structure/railing/fence{
@@ -1259,18 +1299,8 @@
 /obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
-"jdv" = (
-/obj/machinery/light{
-	dir = 2;
-	icon_state = "tube1"
-	},
-/obj/structure/table/standard,
-/obj/item/device/megaphone/command,
-/obj/item/device/megaphone/command,
-/obj/item/device/megaphone/command,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "jeO" = (
+/obj/structure/bed/stool/chair/office/bridge,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "jfr" = (
@@ -1285,10 +1315,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"jlX" = (
-/obj/effect/shuttle_landmark/scc_evac/start,
-/turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc_evac)
 "jnz" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/tajaran,
@@ -1453,13 +1479,6 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
-"lhz" = (
-/obj/structure/table/standard,
-/obj/item/device/megaphone/command,
-/obj/item/device/megaphone/command,
-/obj/item/device/megaphone/command,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "ljj" = (
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
@@ -1602,6 +1621,15 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"mlH" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1337;
+	id_tag = "scc_evac";
+	pixel_y = 24;
+	tag_door = "scc_shuttle_hatch"
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "mpo" = (
 /obj/structure/table/wood,
 /obj/item/material/twohanded/pike/pitchfork,
@@ -1632,6 +1660,13 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"mra" = (
+/obj/structure/table/standard,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/obj/item/device/megaphone/command,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "msu" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/explorer_ration,
@@ -1658,6 +1693,10 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"mwV" = (
+/obj/effect/shuttle_landmark/scc_evac/start,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/shuttle/scc_evac)
 "mAb" = (
 /obj/structure/simple_door/wood{
 	name = "room two";
@@ -1811,15 +1850,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"nBs" = (
-/obj/machinery/button/remote/blast_door{
-	id = "ssc_shuttle";
-	name = "blast door";
-	pixel_y = 25;
-	req_access = null
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "nCZ" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -1928,6 +1958,10 @@
 	temperature = 268.15
 	},
 /area/da_boat/mountains)
+"oCj" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "oCD" = (
 /obj/machinery/light{
 	dir = 8;
@@ -1935,12 +1969,6 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/shuttle/dark_blue,
-/area/shuttle/scc_evac)
-"oGf" = (
-/obj/machinery/computer/shuttle_control/scc_evac{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "oJH" = (
 /turf/simulated/floor/lino/grey{
@@ -2085,10 +2113,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"pqN" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "puM" = (
 /obj/structure/reagent_dispensers/cookingoil,
 /turf/simulated/floor/tiled/freezer{
@@ -2185,6 +2209,16 @@
 /obj/structure/flora/tree/adhomai,
 /mob/living/simple_animal/hostile/retaliate/rafama/male,
 /turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"qrx" = (
+/obj/effect/decal/remains{
+	name = "tajaran remains";
+	desc = "A pile of Tajaran bones.";
+	icon_state = "remainstajara"
+	},
+/turf/simulated/floor/exoplanet/mineral/adhomai{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -2490,6 +2524,11 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"tbi" = (
+/obj/structure/window/shuttle/scc_space_ship,
+/obj/structure/grille,
+/turf/simulated/floor/plating,
+/area/shuttle/scc_evac)
 "tds" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/shoes/tajara/workboots,
@@ -2525,6 +2564,20 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"tzI" = (
+/obj/structure/cult/talisman{
+	name = "bloody altar"
+	},
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"tEb" = (
+/obj/item/modular_computer/console/preset/civilian{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "tGy" = (
 /obj/machinery/telecomms/receiver/preset_right,
 /turf/unsimulated/floor{
@@ -2552,6 +2605,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"tOY" = (
+/obj/item/modular_computer/console/preset/command/captain{
+	dir = 1
+	},
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "tRi" = (
 /obj/structure/railing/fence,
 /turf/simulated/floor/wood{
@@ -2605,6 +2664,12 @@
 	icon_state = "plating"
 	},
 /area/da_boat/mountains)
+"uCT" = (
+/obj/item/shovel,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "uGz" = (
 /obj/structure/bed/stool/chair/sofa/right/brown,
 /obj/effect/decal/cleanable/cobweb,
@@ -2628,17 +2693,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"vav" = (
-/obj/structure/window/shuttle/scc_space_ship,
-/obj/structure/grille,
-/obj/machinery/door/blast/regular/open{
-	id = "ssc_shuttle"
-	},
-/obj/machinery/door/blast/regular/open{
-	id = "ssc_shuttle"
-	},
-/turf/simulated/floor/plating,
-/area/shuttle/scc_evac)
 "vaP" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 4
@@ -2724,6 +2778,17 @@
 	},
 /turf/simulated/floor/shuttle/dark_blue,
 /area/shuttle/scc_evac)
+"vCR" = (
+/obj/structure/window/shuttle/scc_space_ship,
+/obj/structure/grille,
+/obj/machinery/door/blast/regular/open{
+	id = "ssc_shuttle"
+	},
+/obj/machinery/door/blast/regular/open{
+	id = "ssc_shuttle"
+	},
+/turf/simulated/floor/plating,
+/area/shuttle/scc_evac)
 "vHg" = (
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket/wood,
@@ -2755,6 +2820,9 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"vPO" = (
+/turf/simulated/floor/shuttle/black,
+/area/shuttle/scc_evac)
 "vQx" = (
 /obj/machinery/telecomms/server/presets/supply,
 /turf/unsimulated/floor{
@@ -2767,6 +2835,7 @@
 /obj/item/pickaxe,
 /obj/item/pickaxe,
 /obj/item/pickaxe,
+/obj/item/shovel,
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
@@ -2775,6 +2844,12 @@
 /obj/machinery/telecomms/broadcaster/preset_right,
 /turf/unsimulated/floor{
 	icon_state = "plating"
+	},
+/area/da_boat/mountains)
+"wet" = (
+/mob/living/simple_animal/hostile/wind_devil,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 263.15
 	},
 /area/da_boat/mountains)
 "wfU" = (
@@ -2790,11 +2865,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"wrx" = (
-/obj/structure/window/shuttle/scc_space_ship,
-/obj/structure/grille,
-/turf/simulated/floor/plating,
-/area/shuttle/scc_evac)
 "wrF" = (
 /obj/machinery/telecomms/server/presets/security,
 /turf/unsimulated/floor{
@@ -3040,14 +3110,13 @@
 	temperature = 263.15
 	},
 /area/shuttle/scc_evac)
-"xWK" = (
-/obj/structure/window/shuttle/scc_space_ship,
-/obj/structure/grille,
-/obj/machinery/door/blast/regular/open{
-	id = "ssc_shuttle"
+"xYk" = (
+/obj/structure/pit/closed,
+/obj/effect/decal/remains/human,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
 	},
-/turf/simulated/floor/plating,
-/area/shuttle/scc_evac)
+/area/da_boat/mountains)
 "xYI" = (
 /obj/machinery/telecomms/server/presets/command,
 /turf/unsimulated/floor{
@@ -3060,12 +3129,6 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
-"yhb" = (
-/obj/item/modular_computer/console/preset/civilian{
-	dir = 1
-	},
-/turf/simulated/floor/shuttle/black,
-/area/shuttle/scc_evac)
 "yiz" = (
 /obj/machinery/ntnet_relay,
 /turf/unsimulated/floor{
@@ -3364,214 +3427,214 @@ wKz
 wKz
 wKz
 wKz
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-jgJ
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
 wKz
 wKz
 wKz
@@ -3812,7 +3875,7 @@ cry
 cry
 cry
 cry
-jgJ
+cry
 cry
 cry
 cry
@@ -4874,7 +4937,7 @@ wKz
 wKz
 wKz
 wKz
-krv
+qrx
 krv
 krv
 krv
@@ -5124,7 +5187,7 @@ wKz
 krv
 krv
 krv
-krv
+wet
 krv
 krv
 krv
@@ -5890,7 +5953,7 @@ wKz
 wKz
 wKz
 krv
-krv
+wet
 krv
 wKz
 krv
@@ -7961,7 +8024,7 @@ cry
 jgJ
 cry
 cry
-jgJ
+cry
 sPG
 "}
 (20,1,1) = {"
@@ -9308,14 +9371,14 @@ kZx
 lyb
 lyb
 lyb
-xWK
-xWK
-xWK
+fqn
+fqn
+fqn
 lyb
 lyb
-xWK
-xWK
-xWK
+fqn
+fqn
+fqn
 lyb
 wAz
 lyb
@@ -9578,10 +9641,10 @@ jOR
 oCD
 jOR
 ktk
-jeO
+vPO
 fXu
-jeO
-jdv
+vPO
+biJ
 lyb
 cry
 cry
@@ -9835,11 +9898,11 @@ jOR
 jOR
 jOR
 lyb
-jeO
-jeO
-jeO
-lhz
-fqn
+vPO
+vPO
+vPO
+mra
+dvs
 cry
 cry
 cry
@@ -10093,10 +10156,10 @@ jOR
 lMV
 lyb
 sNI
+vPO
 jeO
-ecx
-yhb
-fqn
+tEb
+dvs
 cry
 cry
 cry
@@ -10349,11 +10412,11 @@ jOR
 jOR
 jOR
 lyb
-nBs
+bOr
+vPO
 jeO
-ecx
-yhb
-fqn
+tEb
+dvs
 cry
 cry
 cry
@@ -10585,8 +10648,8 @@ jOR
 lyb
 lyb
 lyb
-wrx
-wrx
+tbi
+tbi
 lyb
 iBL
 lyb
@@ -10606,11 +10669,11 @@ jOR
 jOR
 jOR
 lyb
+vPO
+vPO
 jeO
-jeO
-ecx
-dKG
-fqn
+tOY
+dvs
 cry
 cry
 cry
@@ -10853,7 +10916,7 @@ jOR
 giz
 jOR
 jOR
-jlX
+mwV
 sDw
 jOR
 jOR
@@ -10863,11 +10926,11 @@ jOR
 jOR
 jOR
 hVu
+vPO
+vPO
 jeO
-jeO
-ecx
-oGf
-fqn
+bTm
+dvs
 cry
 cry
 cry
@@ -11097,13 +11160,13 @@ lyb
 cWI
 jOR
 lyb
-wrx
-wrx
+tbi
+tbi
 lyb
 fPN
 lyb
-wrx
-wrx
+tbi
+tbi
 ktk
 uQR
 jOR
@@ -11120,11 +11183,11 @@ jOR
 jOR
 jOR
 lyb
+vPO
+vPO
 jeO
-jeO
-ecx
-bol
-fqn
+eoT
+dvs
 cry
 cry
 cry
@@ -11377,11 +11440,11 @@ jOR
 jOR
 jOR
 lyb
+vPO
+vPO
 jeO
-jeO
-ecx
-yhb
-fqn
+tEb
+dvs
 cry
 cry
 cry
@@ -11635,10 +11698,10 @@ jOR
 lMV
 lyb
 sNI
+vPO
 jeO
-ecx
-yhb
-fqn
+tEb
+dvs
 cry
 cry
 cry
@@ -11891,11 +11954,11 @@ jOR
 jOR
 jOR
 lyb
-aBK
-jeO
-jeO
-pqN
-fqn
+mlH
+vPO
+vPO
+oCj
+dvs
 cry
 cry
 cry
@@ -12148,9 +12211,9 @@ jOR
 rnD
 jOR
 ktk
-jeO
+vPO
 gUU
-jeO
+vPO
 nKF
 lyb
 cry
@@ -12392,14 +12455,14 @@ xpO
 lyb
 lyb
 lyb
-xWK
-xWK
-xWK
+fqn
+fqn
+fqn
 lyb
 lyb
-xWK
-xWK
-vav
+fqn
+fqn
+vCR
 lyb
 wAz
 lyb
@@ -25294,11 +25357,11 @@ cry
 cry
 cry
 cry
+erC
 cry
+xYk
 cry
-cry
-cry
-cry
+xYk
 cry
 cry
 cry
@@ -25808,11 +25871,11 @@ cry
 cry
 cry
 cry
+erC
 cry
+erC
 cry
-cry
-cry
-cry
+erC
 cry
 cry
 cry
@@ -26322,11 +26385,11 @@ cry
 cry
 cry
 cry
+erC
 cry
+bPA
 cry
-cry
-cry
-cry
+erC
 cry
 cry
 cry
@@ -26836,11 +26899,11 @@ cry
 cry
 cry
 cry
+erC
 cry
+erC
 cry
-cry
-cry
-cry
+erC
 cry
 cry
 cry
@@ -34776,7 +34839,7 @@ cry
 bny
 cry
 pQo
-dBS
+uCT
 dBS
 dBS
 dBS
@@ -39917,7 +39980,7 @@ pQo
 pQo
 pQo
 pQo
-dBS
+huK
 dBS
 pQo
 cry
@@ -40687,10 +40750,10 @@ pQo
 dBS
 dBS
 dBS
+jfr
 dBS
 dBS
-dBS
-pQo
+jfr
 bny
 bny
 cry
@@ -47612,8 +47675,8 @@ cry
 cry
 cry
 cry
-luU
-luU
+bny
+bny
 cry
 cry
 cry
@@ -47869,8 +47932,8 @@ cry
 cry
 cry
 cry
-luU
-luU
+bny
+bny
 cry
 cry
 cry
@@ -48126,8 +48189,8 @@ cry
 cry
 cry
 cry
-luU
-luU
+bny
+bny
 cry
 cry
 cry
@@ -48383,8 +48446,8 @@ cry
 cry
 cry
 cry
-luU
-luU
+bny
+bny
 cry
 cry
 cry
@@ -48641,7 +48704,7 @@ cry
 cry
 cry
 luU
-luU
+bny
 cry
 cry
 cry
@@ -48898,7 +48961,7 @@ cry
 cry
 cry
 luU
-luU
+bny
 cry
 cry
 cry
@@ -60084,7 +60147,7 @@ cry
 cry
 cry
 cry
-cry
+tzI
 cry
 cry
 sZx

@@ -23,6 +23,18 @@
 "bKg" = (
 /turf/simulated/floor/exoplanet/castle/raskara,
 /area/da_boat/mountains/caverns)
+"cPd" = (
+/obj/structure/closet/sarcophagus{
+	trapped = 1
+	},
+/obj/effect/decal/remains{
+	name = "tajaran remains";
+	desc = "A pile of Tajaran bones.";
+	icon_state = "remainstajara"
+	},
+/obj/item/gun/projectile/pistol/adhomai,
+/turf/simulated/floor/exoplanet/castle/large,
+/area/da_boat/mountains/caverns)
 "diL" = (
 /obj/structure/table/rack/fancy_table,
 /obj/item/clothing/accessory/tajaran/charm/raskariim,
@@ -36,6 +48,11 @@
 	trapped = 1
 	},
 /obj/item/material/knife/trench,
+/obj/effect/decal/remains{
+	name = "tajaran remains";
+	desc = "A pile of Tajaran bones.";
+	icon_state = "remainstajara"
+	},
 /turf/simulated/floor/exoplanet/castle/large,
 /area/da_boat/mountains/caverns)
 "eED" = (
@@ -57,6 +74,11 @@
 "fNp" = (
 /obj/item/clothing/accessory/tajaran/charm/raskariim,
 /turf/simulated/floor/exoplanet/cold_dawn_cave,
+/area/da_boat/mountains/caverns)
+"gkT" = (
+/obj/structure/spike_trap,
+/obj/structure/simple_door/iron,
+/turf/simulated/floor/exoplanet/castle/large,
 /area/da_boat/mountains/caverns)
 "gwP" = (
 /obj/structure/simple_door/iron,
@@ -86,10 +108,8 @@
 /turf/simulated/floor/exoplanet/cold_dawn_cave,
 /area/da_boat/mountains/caverns)
 "hHa" = (
-/obj/structure/closet/sarcophagus{
-	trapped = 1
-	},
-/turf/simulated/floor/exoplanet/castle/large,
+/obj/item/treasure/urn/large,
+/turf/simulated/floor/exoplanet/cold_dawn_cave,
 /area/da_boat/mountains/caverns)
 "hNo" = (
 /obj/item/book/manual/pra_manifesto,
@@ -154,6 +174,12 @@
 	},
 /turf/simulated/floor/exoplanet/castle/large,
 /area/da_boat/mountains/caverns)
+"kuQ" = (
+/obj/structure/closet/sarcophagus{
+	lid_icon = "lid-raskara-plain"
+	},
+/turf/simulated/floor/exoplanet/castle/large,
+/area/da_boat/mountains/caverns)
 "kzV" = (
 /obj/structure/treasure_pile{
 	icon_state = "gold5";
@@ -195,6 +221,16 @@
 	},
 /turf/simulated/floor/exoplanet/cold_dawn_cave,
 /area/da_boat/mountains/caverns)
+"mlx" = (
+/obj/structure/closet/sarcophagus,
+/obj/effect/decal/remains{
+	name = "tajaran remains";
+	desc = "A pile of Tajaran bones.";
+	icon_state = "remainstajara"
+	},
+/obj/item/stack/material/gold/full,
+/turf/simulated/floor/exoplanet/castle/large,
+/area/da_boat/mountains/caverns)
 "mxq" = (
 /obj/structure/bonfire/light_up,
 /turf/simulated/floor/exoplanet/cold_dawn_cave,
@@ -233,6 +269,15 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains/caverns)
+"nVQ" = (
+/obj/structure/spike_trap,
+/obj/effect/decal/remains{
+	name = "tajaran remains";
+	desc = "A pile of Tajaran bones.";
+	icon_state = "remainstajara"
+	},
+/turf/simulated/floor/exoplanet/castle/large,
+/area/da_boat/mountains/caverns)
 "oCo" = (
 /obj/structure/treasure_pile,
 /turf/simulated/floor/exoplanet/castle/large,
@@ -252,6 +297,17 @@
 "pQj" = (
 /obj/structure/spike_trap,
 /turf/simulated/floor/exoplanet/cold_dawn_cave,
+/area/da_boat/mountains/caverns)
+"pZm" = (
+/obj/structure/closet/sarcophagus{
+	lid_icon = "lid-raskara-plain"
+	},
+/obj/effect/decal/remains{
+	name = "tajaran remains";
+	desc = "A pile of Tajaran bones.";
+	icon_state = "remainstajara"
+	},
+/turf/simulated/floor/exoplanet/castle/large,
 /area/da_boat/mountains/caverns)
 "qia" = (
 /obj/structure/table/rack/fancy_table/left,
@@ -277,6 +333,7 @@
 /area/da_boat/mountains/caverns)
 "qNV" = (
 /obj/structure/table/rack/fancy_table,
+/obj/item/stack/material/diamond/full,
 /turf/simulated/floor/exoplanet/castle/large,
 /area/da_boat/mountains/caverns)
 "rRO" = (
@@ -315,6 +372,10 @@
 /area/da_boat/mountains/caverns)
 "tVf" = (
 /turf/simulated/floor/exoplanet/cold_dawn_cave,
+/area/da_boat/mountains/caverns)
+"unE" = (
+/obj/item/flame/candle/waxcandles,
+/turf/simulated/floor/exoplanet/castle/large,
 /area/da_boat/mountains/caverns)
 "uuz" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -2729,7 +2790,7 @@ kZR
 kZR
 kZR
 kZR
-iyn
+gwP
 mBD
 mBD
 mBD
@@ -3454,7 +3515,7 @@ sZx
 sZx
 sZx
 sZx
-kZR
+sZx
 sZx
 sZx
 sZx
@@ -4982,11 +5043,11 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+wZW
+wZW
+wZW
+wZW
+wZW
 wZW
 kZR
 kZR
@@ -5237,13 +5298,13 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+wZW
+wZW
+wZW
+pZm
+wZW
+pZm
+wZW
 wZW
 kZR
 kZR
@@ -5494,14 +5555,14 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 wZW
+pZm
+bKg
+kZR
+kZR
+kZR
+kZR
+bKg
 kZR
 kZR
 kZR
@@ -5751,14 +5812,14 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 wZW
+wZW
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
 kZR
 kZR
 kZR
@@ -6008,14 +6069,14 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 wZW
+pZm
+kZR
+kZR
+bKg
+kZR
+kZR
+bKg
 kZR
 kZR
 kZR
@@ -6056,7 +6117,7 @@ kZR
 kZR
 kZR
 kZR
-vyd
+kZR
 kZR
 kZR
 kZR
@@ -6139,7 +6200,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -6259,13 +6320,6 @@ sZx
 tVf
 tVf
 tVf
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -6273,6 +6327,13 @@ sZx
 sZx
 sZx
 wZW
+wZW
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
 kZR
 kZR
 kZR
@@ -6280,7 +6341,7 @@ poO
 kZR
 kZR
 kZR
-kZR
+poO
 kZR
 poO
 wZW
@@ -6396,8 +6457,8 @@ sZx
 sZx
 sZx
 tVf
-sZx
-sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -6516,13 +6577,6 @@ sZx
 tVf
 tVf
 tVf
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -6530,6 +6584,13 @@ sZx
 sZx
 sZx
 wZW
+pZm
+bKg
+kZR
+kZR
+kZR
+kZR
+bKg
 kZR
 kZR
 kZR
@@ -6654,7 +6715,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -6779,13 +6840,13 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+wZW
+wZW
+wZW
+pZm
+wZW
+pZm
+wZW
 wZW
 kZR
 kZR
@@ -6912,7 +6973,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -7038,11 +7099,11 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+wZW
+wZW
+wZW
+wZW
+wZW
 wZW
 kZR
 kZR
@@ -7170,7 +7231,7 @@ sZx
 sZx
 tVf
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -7943,7 +8004,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -8202,7 +8263,7 @@ sZx
 sZx
 tVf
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -8460,7 +8521,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -9093,7 +9154,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -11425,7 +11486,7 @@ sZx
 tVf
 tVf
 tVf
-sZx
+tVf
 tVf
 tVf
 sZx
@@ -11675,15 +11736,15 @@ tVf
 tVf
 sZx
 sZx
+tVf
+tVf
+tVf
+tVf
+tVf
 sZx
-tVf
-tVf
-tVf
-tVf
 sZx
 sZx
-sZx
-tVf
+hHa
 tVf
 sZx
 sZx
@@ -13997,7 +14058,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 tVf
 sZx
 sZx
@@ -15757,7 +15818,7 @@ sZx
 sZx
 sZx
 sZx
-tVf
+gPs
 tVf
 tVf
 sZx
@@ -23811,7 +23872,7 @@ sNi
 "}
 (92,1,1) = {"
 sNi
-tVf
+sZx
 tVf
 sZx
 sZx
@@ -24068,7 +24129,7 @@ sNi
 "}
 (93,1,1) = {"
 sNi
-tVf
+sZx
 tVf
 tVf
 tVf
@@ -24325,22 +24386,8 @@ sNi
 "}
 (94,1,1) = {"
 sNi
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+tVf
 tVf
 tVf
 tVf
@@ -24355,76 +24402,21 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
 tVf
+tVf
+tVf
+tVf
+tVf
+tVf
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
 sZx
 sZx
 sZx
@@ -24494,10 +24486,79 @@ sZx
 sZx
 sZx
 tVf
-tVf
-tVf
-tVf
 sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+sZx
+tVf
+tVf
+tVf
+tVf
+tVf
 tVf
 tVf
 tVf
@@ -24582,7 +24643,7 @@ sNi
 "}
 (95,1,1) = {"
 sNi
-tVf
+sZx
 tVf
 tVf
 tVf
@@ -24839,7 +24900,7 @@ sNi
 "}
 (96,1,1) = {"
 sNi
-tVf
+sZx
 tVf
 tVf
 tVf
@@ -25096,7 +25157,7 @@ sNi
 "}
 (97,1,1) = {"
 sNi
-tVf
+sZx
 tVf
 tVf
 tVf
@@ -25610,7 +25671,7 @@ sNi
 "}
 (99,1,1) = {"
 sNi
-tVf
+sZx
 tVf
 tVf
 tVf
@@ -25867,7 +25928,7 @@ sNi
 "}
 (100,1,1) = {"
 sNi
-tVf
+sZx
 tVf
 tVf
 tVf
@@ -26124,7 +26185,7 @@ sNi
 "}
 (101,1,1) = {"
 sNi
-tVf
+sZx
 sZx
 sZx
 sZx
@@ -26381,7 +26442,7 @@ sNi
 "}
 (102,1,1) = {"
 sNi
-tVf
+sZx
 tVf
 tVf
 tVf
@@ -29896,10 +29957,10 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
+tVf
+tVf
+tVf
+tVf
 tVf
 tVf
 tVf
@@ -30147,14 +30208,14 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+tVf
+tVf
+tVf
+tVf
+tVf
+tVf
+tVf
+tVf
 sZx
 sZx
 tVf
@@ -30404,7 +30465,7 @@ sZx
 sZx
 sZx
 sZx
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -30546,7 +30607,7 @@ hta
 tVf
 tVf
 tVf
-tVf
+gPs
 sZx
 sZx
 sZx
@@ -30661,7 +30722,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -31108,11 +31169,9 @@ sZx
 sZx
 sZx
 tVf
+nVQ
 kZR
 kZR
-kZR
-sZx
-sZx
 sZx
 sZx
 sZx
@@ -31176,6 +31235,8 @@ sZx
 sZx
 sZx
 tVf
+tVf
+sZx
 sZx
 sZx
 sZx
@@ -31366,7 +31427,7 @@ sZx
 sZx
 sZx
 kZR
-vyd
+kZR
 ezv
 sZx
 sZx
@@ -31430,9 +31491,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -31687,9 +31748,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -31944,9 +32005,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -32201,9 +32262,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -32458,9 +32519,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -32596,6 +32657,7 @@ jqf
 jqf
 jqf
 jqf
+unE
 jqf
 jqf
 jqf
@@ -32603,7 +32665,6 @@ jqf
 jqf
 jqf
 jqf
-jqf
 sZx
 sZx
 sZx
@@ -32691,8 +32752,6 @@ sZx
 sZx
 sZx
 sZx
-jqf
-jqf
 jqf
 jqf
 jqf
@@ -32718,6 +32777,8 @@ jqf
 jqf
 jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -32852,15 +32913,15 @@ jqf
 jqf
 jqf
 jqf
+kZR
+kuQ
+kZR
 jqf
 jqf
 jqf
 jqf
 jqf
 jqf
-jqf
-jqf
-jqf
 sZx
 sZx
 sZx
@@ -32948,8 +33009,6 @@ sZx
 sZx
 sZx
 sZx
-jqf
-jqf
 jqf
 jqf
 jqf
@@ -32975,6 +33034,8 @@ jqf
 jqf
 jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -33110,6 +33171,7 @@ jqf
 jqf
 jqf
 jqf
+kZR
 jqf
 jqf
 jqf
@@ -33117,7 +33179,6 @@ jqf
 jqf
 jqf
 jqf
-jqf
 sZx
 sZx
 sZx
@@ -33193,8 +33254,6 @@ sZx
 sZx
 sZx
 sZx
-jqf
-jqf
 jqf
 jqf
 jqf
@@ -33232,6 +33291,8 @@ jqf
 jqf
 jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -33486,9 +33547,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -33743,9 +33804,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -34000,9 +34061,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -34257,9 +34318,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 eED
+jqf
+jqf
 jqf
 jqf
 jqf
@@ -34514,9 +34575,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 tVf
+sZx
+sZx
 sZx
 sZx
 sZx
@@ -34771,9 +34832,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 tVf
+sZx
+sZx
 sZx
 sZx
 sZx
@@ -35028,9 +35089,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 tVf
+sZx
+sZx
 sZx
 sZx
 sZx
@@ -35285,9 +35346,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 tVf
+sZx
+sZx
 sZx
 sZx
 sZx
@@ -35542,9 +35603,9 @@ jqf
 jqf
 jqf
 jqf
-jqf
-jqf
 tVf
+sZx
+sZx
 sZx
 sZx
 sZx
@@ -40527,11 +40588,11 @@ sZx
 sZx
 sZx
 sZx
-tVf
-tVf
-tVf
+kZR
+kZR
+kZR
 sZx
-tVf
+gkT
 sZx
 sZx
 sZx
@@ -40784,13 +40845,13 @@ sZx
 sZx
 sZx
 sZx
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
 sZx
 sZx
 sZx
@@ -41041,13 +41102,13 @@ sZx
 sZx
 sZx
 sZx
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
 sZx
 sZx
 sZx
@@ -41297,14 +41358,14 @@ sZx
 sZx
 sZx
 sZx
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
+cPd
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
 sZx
 sZx
 sZx
@@ -41556,12 +41617,12 @@ sZx
 sZx
 sZx
 sZx
-tVf
-tVf
-tVf
-tVf
-tVf
-tVf
+kZR
+kZR
+kZR
+kZR
+kZR
+kZR
 sZx
 sZx
 sZx
@@ -41816,8 +41877,8 @@ sZx
 sZx
 sZx
 sZx
-tVf
-tVf
+mlx
+kZR
 sZx
 sZx
 sZx
@@ -42393,7 +42454,7 @@ sZx
 sZx
 sZx
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -45952,7 +46013,7 @@ sZx
 sZx
 sZx
 sZx
-sZx
+tVf
 tVf
 tVf
 tVf
@@ -46177,6 +46238,8 @@ sZx
 sZx
 sZx
 sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -46206,10 +46269,8 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
+tVf
+tVf
 tVf
 tVf
 tVf
@@ -46434,6 +46495,9 @@ sZx
 sZx
 sZx
 sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -46462,11 +46526,8 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+tVf
+tVf
 tVf
 tVf
 tVf
@@ -46691,7 +46752,7 @@ sZx
 sZx
 sZx
 sZx
-sZx
+tVf
 tVf
 tVf
 tVf
@@ -46948,7 +47009,7 @@ sZx
 sZx
 sZx
 sZx
-sZx
+tVf
 tVf
 tVf
 tVf
@@ -47466,11 +47527,11 @@ sZx
 tVf
 tVf
 tVf
+tVf
+tVf
 sZx
 sZx
-sZx
-sZx
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -47492,10 +47553,10 @@ sZx
 sZx
 sZx
 sZx
-sZx
 tVf
-sZx
-sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -47723,11 +47784,11 @@ sZx
 tVf
 tVf
 tVf
+tVf
+tVf
 sZx
-sZx
-sZx
-sZx
-sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -47980,11 +48041,11 @@ sZx
 tVf
 tVf
 tVf
+tVf
 sZx
 sZx
-sZx
-sZx
-sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -48239,9 +48300,9 @@ tVf
 tVf
 sZx
 sZx
-sZx
-sZx
-sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -48496,9 +48557,9 @@ tVf
 tVf
 sZx
 sZx
-sZx
-sZx
-sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -48752,9 +48813,9 @@ tVf
 tVf
 tVf
 sZx
-sZx
-sZx
-sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -49009,9 +49070,9 @@ tVf
 tVf
 tVf
 sZx
-sZx
-sZx
-sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -49265,9 +49326,9 @@ sZx
 tVf
 tVf
 tVf
-sZx
-sZx
-sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -49522,8 +49583,8 @@ sZx
 tVf
 tVf
 tVf
-sZx
-sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -49779,8 +49840,8 @@ sZx
 tVf
 tVf
 tVf
-sZx
-sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -50817,7 +50878,7 @@ sZx
 sZx
 sZx
 sZx
-hHa
+yct
 kZR
 kZR
 sZx
@@ -51905,7 +51966,7 @@ sZx
 sZx
 sZx
 sZx
-tVf
+gPs
 tVf
 tVf
 tVf
@@ -52884,8 +52945,8 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -53142,7 +53203,7 @@ tVf
 tVf
 tVf
 tVf
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -59540,7 +59601,7 @@ sZx
 sZx
 sZx
 sZx
-sZx
+tVf
 sZx
 tVf
 tVf
@@ -59797,12 +59858,12 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
 tVf
 tVf
 tVf
-sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -60053,14 +60114,14 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
 tVf
 tVf
 tVf
-sZx
-sZx
+tVf
+tVf
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -60310,14 +60371,14 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
+tVf
 sZx
 tVf
 tVf
 tVf
-sZx
-sZx
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -60566,14 +60627,14 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
 tVf
 tVf
 tVf
-sZx
+tVf
+tVf
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -60823,14 +60884,14 @@ sZx
 sZx
 sZx
 sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
-sZx
+tVf
+tVf
+tVf
+tVf
+tVf
+tVf
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -61082,9 +61143,9 @@ sZx
 sZx
 sZx
 sZx
+tVf
 sZx
-sZx
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -61341,7 +61402,7 @@ sZx
 sZx
 sZx
 sZx
-sZx
+tVf
 sZx
 sZx
 sZx
@@ -61929,8 +61990,8 @@ tVf
 tVf
 tVf
 tVf
-sZx
-sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -62186,8 +62247,8 @@ tVf
 tVf
 tVf
 tVf
-sZx
-sZx
+tVf
+tVf
 sZx
 sZx
 sZx
@@ -62940,7 +63001,7 @@ tVf
 tVf
 tVf
 tVf
-tVf
+gPs
 sZx
 sZx
 sZx

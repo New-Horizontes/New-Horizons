@@ -36942,6 +36942,14 @@
 /obj/effect/floor_decal/carpet,
 /turf/simulated/floor/holofloor/carpet,
 /area/horizon/holodeck/source_courtroom)
+"oDO" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	frequency = 1337;
+	id_tag = "scc_evac_station";
+	pixel_y = -28
+	},
+/turf/unsimulated/floor/plating,
+/area/centcom/ferry)
 "oIf" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4
@@ -45234,7 +45242,7 @@ aIx
 aIS
 aKd
 aKG
-aJs
+oDO
 aJs
 aJs
 aJs
