@@ -129,6 +129,7 @@
 	if(prob(landmine_prob))
 		new /obj/item/landmine(src)
 	close()
+	icon_state = "landmine_hidden"
 
 /obj/structure/pit/landmine/hidden
 	invisibility = INVISIBILITY_OBSERVER
