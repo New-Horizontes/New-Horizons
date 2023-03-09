@@ -565,29 +565,6 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/control)
-"acy" = (
-/obj/effect/step_trigger/teleporter/random{
-	affect_ghosts = 1;
-	name = "escapeshuttle_leave";
-	teleport_x = 25;
-	teleport_x_offset = 245;
-	teleport_y = 25;
-	teleport_y_offset = 245;
-	teleport_z = 6;
-	teleport_z_offset = 6
-	},
-/obj/effect/step_trigger/teleporter/random{
-	affect_ghosts = 1;
-	name = "escapeshuttle_leave";
-	teleport_x = 25;
-	teleport_x_offset = 245;
-	teleport_y = 25;
-	teleport_y_offset = 245;
-	teleport_z = 6;
-	teleport_z_offset = 6
-	},
-/turf/template_noop,
-/area/template_noop)
 "acG" = (
 /obj/effect/floor_decal/corner/grey/full,
 /obj/structure/bed/stool/chair/padded/black{
@@ -1113,6 +1090,33 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/unsimulated/floor/plating,
 /area/centcom/bar)
+"aeN" = (
+/obj/effect/step_trigger/teleporter/random{
+	affect_ghosts = 1;
+	name = "escapeshuttle_leave";
+	teleport_x = 25;
+	teleport_x_offset = 245;
+	teleport_y = 25;
+	teleport_y_offset = 245;
+	teleport_z = 6;
+	teleport_z_offset = 6
+	},
+/obj/effect/step_trigger/teleporter/random{
+	affect_ghosts = 1;
+	name = "escapeshuttle_leave";
+	teleport_x = 25;
+	teleport_x_offset = 245;
+	teleport_y = 25;
+	teleport_y_offset = 245;
+	teleport_z = 6;
+	teleport_z_offset = 6
+	},
+/turf/template_noop,
+/area/template_noop)
+"aeR" = (
+/obj/effect/shuttle_landmark/scc_evac/dock,
+/turf/template_noop,
+/area/template_noop)
 "aeV" = (
 /obj/machinery/papershredder,
 /turf/unsimulated/floor{
@@ -2221,6 +2225,10 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/bar)
+"aja" = (
+/obj/effect/shuttle_landmark/scc_evac/interim,
+/turf/space,
+/area/template_noop)
 "ajb" = (
 /turf/unsimulated/floor{
 	icon_state = "dark2"
@@ -2668,10 +2676,6 @@
 /obj/structure/computerframe,
 /turf/simulated/floor/tiled/dark,
 /area/centcom/bar)
-"akJ" = (
-/obj/effect/shuttle_landmark/scc_evac/interim,
-/turf/space,
-/area/template_noop)
 "akQ" = (
 /obj/machinery/newscaster{
 	pixel_x = 5;
@@ -2792,10 +2796,6 @@
 	icon_state = "panelscorched"
 	},
 /area/centcom/bar)
-"alr" = (
-/obj/effect/shuttle_landmark/scc_evac/dock,
-/turf/template_noop,
-/area/template_noop)
 "als" = (
 /obj/machinery/porta_turret/crescent,
 /obj/effect/floor_decal/industrial/warning/full,
@@ -55153,7 +55153,7 @@ reg
 reg
 reg
 reg
-akJ
+aja
 reg
 reg
 reg
@@ -68532,7 +68532,7 @@ aae
 aae
 aae
 aae
-acy
+aeN
 aae
 aaa
 aaa
@@ -70316,7 +70316,7 @@ aaa
 aaa
 aaa
 aaa
-alr
+aeR
 aaa
 aaa
 aaa
@@ -72359,7 +72359,7 @@ aaa
 aaa
 aaa
 aaa
-acy
+aeN
 aae
 aae
 aae
@@ -72367,7 +72367,7 @@ aae
 aae
 aae
 aae
-acy
+aeN
 aaa
 aaa
 aaa
@@ -74408,7 +74408,7 @@ aaa
 aaa
 aaa
 aaa
-acy
+aeN
 aae
 aae
 aae
