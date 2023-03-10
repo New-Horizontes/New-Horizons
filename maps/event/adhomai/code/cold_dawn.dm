@@ -1155,3 +1155,65 @@
 	icon_state = "slab"
 	pixel_x = -16
 	opacity = TRUE
+
+
+/mob/living/simple_animal/snow_strider
+	name = "snow strider"
+	desc = "An animal hunted and farmed by the Tajara for its meat and fur."
+	icon = 'icons/obj/cold_dawn_48x48.dmi'
+	icon_state = "snow_strider"
+	icon_living = "snow_strider"
+	icon_dead = "snow_strider_dead"
+	turns_per_move = 3
+	speak_emote = list("chuffs")
+	emote_hear = list("growls")
+	emote_see = list("shakes its head", "stamps a foot", "glares around")
+	a_intent = I_HURT
+	stop_automated_movement_when_pulled = 0
+	mob_size = 12
+	meat_type = /obj/item/reagent_containers/food/snacks/meat/adhomai
+	organ_names = list("head", "chest", "right fore leg", "left fore leg", "right rear leg", "left rear leg")
+
+	maxHealth = 50
+	health = 50
+
+	butchering_products = list(/obj/item/stack/material/animalhide = 5)
+	meat_amount = 8
+	faction = "Adhomai"
+	pixel_x = -8
+
+
+/mob/living/simple_animal/climber
+	name = "snow strider"
+	desc = "A rideable beast of burden, large enough for one adult rider only but perfectly adapted for the rough terrain on Adhomai."
+	icon = 'icons/obj/cold_dawn_48x48.dmi'
+	icon_state = "climber"
+	icon_living = "climber"
+	icon_dead = "climber_dead"
+	turns_per_move = 3
+	speak_emote = list("chuffs")
+	emote_hear = list("growls")
+	emote_see = list("shakes its head", "stamps a foot", "glares around")
+	a_intent = I_HURT
+	stop_automated_movement_when_pulled = 0
+	mob_size = 12
+	meat_type = /obj/item/reagent_containers/food/snacks/meat/adhomai
+	organ_names = list("head", "chest", "right fore leg", "left fore leg", "right rear leg", "left rear leg")
+
+	maxHealth = 100
+	health = 100
+
+	butchering_products = list(/obj/item/stack/material/animalhide = 5)
+	meat_amount = 4
+	faction = "Adhomai"
+	pixel_x = -8
+
+
+
+/obj/item/normal
+	name = "saddle"
+	desc = "A structure used to ride animals."
+	icon = 'icons/obj/cold_dawn.dmi'
+	icon_state = "saddle"
+	w_class = ITEMSIZE_NORMAL
+
