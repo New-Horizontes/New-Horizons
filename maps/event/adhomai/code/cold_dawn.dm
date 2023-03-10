@@ -980,7 +980,7 @@
 	pixel_x = -8
 
 /mob/living/simple_animal/climber/attackby(obj/item/O, mob/user)
-	if(istype(O, /obj/item/saddle))
+	if(istype(O, /obj/item/saddle) && stat != DEAD)
 		to_chat(user, SPAN_NOTICE("You place \the [O] on \the [src]."))
 		user.drop_from_inventory(O)
 		O.forceMove(get_turf(src))
@@ -1019,6 +1019,7 @@
 /obj/vehicle/bike/climber/setup_vehicle()
 	..()
 	on = TRUE
+	set_light(0)
 
 /obj/vehicle/bike/climber/CtrlClick(var/mob/user)
 	return
