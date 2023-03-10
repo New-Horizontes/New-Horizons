@@ -485,7 +485,9 @@
 	},
 /area/da_boat/mountains)
 "deU" = (
-/turf/simulated/floor/carpet/art{
+/obj/structure/table/rack/fancy_table,
+/obj/item/coin/silver,
+/turf/simulated/floor/exoplanet/castle{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -2409,7 +2411,7 @@
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
 /obj/item/bedsheet/black,
-/turf/simulated/floor/carpet/art{
+/turf/simulated/floor/wood{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -7070,7 +7072,7 @@ cry
 cry
 cry
 cry
-krv
+wKz
 krv
 wKz
 wKz
@@ -13578,7 +13580,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 cry
 cry
@@ -34665,8 +34667,8 @@ cry
 cry
 pQo
 dBS
-deU
-deU
+dBS
+dBS
 dBS
 pQo
 cry
@@ -54171,8 +54173,8 @@ wKz
 wKz
 wKz
 wKz
-wKz
-wKz
+bGx
+bGx
 cry
 cry
 cry
@@ -55713,8 +55715,8 @@ wKz
 wKz
 wKz
 wKz
-wKz
-cry
+bGx
+bGx
 cry
 cry
 cry
@@ -55950,7 +55952,7 @@ wKz
 wKz
 wKz
 bGx
-pHp
+deU
 luU
 luU
 luU
@@ -66961,8 +66963,8 @@ cry
 cry
 cry
 cry
-cry
-cry
+sPG
+sPG
 sPG
 sPG
 sPG
@@ -67218,8 +67220,8 @@ sZx
 cry
 cry
 cry
-cry
-cry
+sPG
+qHp
 qHp
 qHp
 qHp

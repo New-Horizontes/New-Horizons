@@ -720,7 +720,7 @@
 	if(small_pile)
 		treasure = /obj/item/coin/gold
 	else
-		treasure = pick (/obj/item/coin/gold, /obj/item/clothing/ring/material/silver, /obj/item/clothing/ring/material/gold, /obj/item/storage/box/fancy/cold_dawn, /obj/item/treasure/urn, /obj/item/treasure, /obj/item/treasure/figurine, /obj/item/treasure/bowl, /obj/item/treasure/plate, /obj/item/reagent_containers/glass/goblet)
+		treasure = pick (/obj/item/coin/gold, /obj/item/clothing/ring/material/silver, /obj/item/clothing/ring/material/gold, /obj/item/storage/box/fancy/cold_dawn, /obj/item/treasure/urn, /obj/item/treasure, /obj/item/treasure/figurine, /obj/item/treasure/bowl, /obj/item/treasure/plate, /obj/item/reagent_containers/glass/goblet, /obj/item/stack/material/silver, /obj/item/stack/material/gold, /obj/item/stack/material/diamond)
 
 	var/obj/item/I = new treasure()
 	return I
@@ -751,7 +751,6 @@
 	w_class = ITEMSIZE_LARGE
 	contained_sprite = TRUE
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
-	flags_inv = HIDEJUMPSUIT
 	armor = list(
 		melee = ARMOR_MELEE_MAJOR,
 		bullet = ARMOR_BALLISTIC_PISTOL,
@@ -1049,3 +1048,11 @@
 		return TRUE
 	else
 		return FALSE
+
+/material/plasteel/meteoric
+	name = MATERIAL_METEORIC
+	icon_colour = "#817E79"
+
+/obj/item/material/sword/amohdan_sword/legendary
+	name = "meteoric iron amohdan sword"
+	default_material = MATERIAL_METEORIC
