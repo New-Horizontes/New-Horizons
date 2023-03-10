@@ -20,6 +20,12 @@
 	if(is_type_in_typecache(forbidden_types))
 		return TRUE
 
+	else if(istype(AM, /obj/vehicle))
+		var/obj/vehicle/V = AM
+		V.unload()
+		V.visible_message(SPAN_DANGER("\The [V] falls into \the [src]."))
+		qdel(V)
+
 	else if(istype(AM, /mob/living))
 		var/mob/living/L = AM
 		if(locate(/obj/structure/lattice, src))	// Should be safe to walk upon.
