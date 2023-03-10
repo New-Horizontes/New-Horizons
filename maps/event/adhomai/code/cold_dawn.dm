@@ -466,234 +466,6 @@
 	flags = RAD_SHIELDED
 	requires_power = FALSE
 
-/mob/living/simple_animal/ice_catcher
-	name = "ice catcher"
-	desc = "An animal often mistaken for a rock due its shell. Its main body is made up of large tentacles."
-	icon = 'icons/obj/cold_dawn_48.dmi'
-	icon_state = "catcher"
-	icon_living = "catcher"
-	icon_dead = "catcher_dead"
-	meat_type = /obj/item/reagent_containers/food/snacks/meat/adhomai
-	meat_amount = 10
-	organ_names = list("shell", "tentacles")
-	faction = "Adhomai"
-	maxHealth = 50
-	health = 50
-	mob_size = 3
-	pixel_x = -8
-	blood_type = "#281C2D"
-	var/burrowed = FALSE
-	var/chosen_icon
-
-/mob/living/simple_animal/ice_catcher/Initialize()
-	. = ..()
-	chosen_icon = pick("catcher", "catcher1", "catcher2")
-	icon_state = chosen_icon
-	icon_living = chosen_icon
-	icon_dead = "[chosen_icon]_dead"
-	burrow()
-
-/mob/living/simple_animal/ice_catcher/proc/burrow()
-	burrowed = TRUE
-	icon_state = "[chosen_icon]-h"
-	icon_living = "[chosen_icon]-h"
-	anchored = TRUE
-	name = "rock"
-	desc = "A rock."
-	visible_message(SPAN_NOTICE("\The [src] burrows into the ground!"))
-
-/mob/living/simple_animal/ice_catcher/Move()
-	if(burrowed)
-		return
-	else
-		..()
-
-/mob/living/simple_animal/ice_catcher/proc/unburrow()
-	burrowed = FALSE
-	icon_state = "[chosen_icon]"
-	icon_living = "[chosen_icon]"
-	anchored = FALSE
-	name = "ice catcher"
-	desc = "An animal often mistaken for a rock due its shell. Its main body is made up of large tentacles."
-	visible_message(SPAN_NOTICE("\The [src] emerges from the ground!"))
-
-/mob/living/simple_animal/ice_catcher/attack_hand(mob/living/carbon/human/M as mob)
-	if(burrowed && (stat != DEAD))
-		unburrow()
-	..()
-
-/mob/living/simple_animal/ice_catcher/attackby(obj/item/O, mob/user)
-	if(burrowed && (stat != DEAD))
-		unburrow()
-	..()
-
-/mob/living/simple_animal/ice_catcher/bullet_act(obj/item/projectile/P, def_zone)
-	if(burrowed && (stat != DEAD))
-		unburrow()
-	..()
-
-/mob/living/simple_animal/ice_catcher/death(gibbed)
-	..()
-	if(burrowed)
-		unburrow()
-
-/obj/item/clothing/under/tajaran/nka_uniform/sailor
-	name = "royal navy sailor uniform"
-	desc = "A military uniform used by the forces of the New Kingdom of Adhomai's navy."
-	icon = 'icons/obj/cold_dawn.dmi'
-	icon_state = "sailor"
-	item_state = "sailor"
-
-/obj/item/clothing/head/tajaran/nka_cap/sailor
-	name = "royal navy service cap"
-	desc = "A simple service cap worn by soldiers of the Royal Navy."
-	icon = 'icons/obj/cold_dawn.dmi'
-	icon_state = "sailorhat"
-	item_state = "sailorhat"
-
-/mob/living/simple_animal/hostile/wriggler
-	name = "wriggler"
-	desc = "A large arctic predator.Its body is a white flesh sphere from which several tentacles emerge."
-	icon = 'icons/obj/cold_dawn.dmi'
-	icon_state = "wriggler"
-	icon_living = "wriggler"
-	icon_dead = "wriggler_dead"
-	meat_type = /obj/item/reagent_containers/food/snacks/meat/adhomai
-	meat_amount = 5
-	organ_names = list("body", "tentacles")
-	faction = "Adhomai"
-	maxHealth = 100
-	health = 100
-
-	melee_damage_lower = 15
-	melee_damage_upper = 15
-
-	mob_swap_flags = HUMAN|SIMPLE_ANIMAL|SLIME|MONKEY
-	mob_push_flags = ALLMOBS
-
-	attacktext = "strangled"
-	attack_sound = 'sound/effects/noosed.ogg'
-
-	speed = 1
-	mob_size = 3
-	environment_smash = 2
-
-	attack_emote = "wiggles toward"
-	see_in_dark = 10
-	see_invisible = SEE_INVISIBLE_NOLIGHTING
-	blood_type = "#281C2D"
-
-/mob/living/simple_animal/scavenger
-	name = "scavenger"
-	desc = "Segmented, keratinous creatures that feed on the Hma'trra Zivr carcasses found on the pole's surface."
-	icon = 'icons/obj/cold_dawn.dmi'
-	icon_state = "scavenger"
-	icon_living = "scavenger"
-	icon_dead = "scavenger_dead"
-	meat_type = /obj/item/reagent_containers/food/snacks/meat/adhomai
-	meat_amount = 1
-	organ_names = list("thorax", "legs", "head")
-	faction = "Adhomai"
-	maxHealth = 20
-	health = 20
-	mob_size = 3
-	speak_emote = list("chitters")
-	emote_hear = list("chitters")
-	blood_type = "#281C2D"
-
-/mob/living/simple_animal/hostile/plasmageist
-	name = "plasmageist"
-	desc = "A luminescent, lightning balls frequently spotted floating over the Adhomian North Pole."
-	icon = 'icons/obj/cold_dawn.dmi'
-	icon_state = "plasmageist"
-	icon_living = "plasmageist"
-	icon_dead = "plasmageist_dead"
-	organ_names = list("body")
-	faction = "Adhomai"
-	maxHealth = 50
-	health = 50
-
-	melee_damage_lower = 5
-	melee_damage_upper = 5
-	attacktext = "shocked"
-	attack_sound = 'sound/magic/LightningShock.ogg'
-
-	speed = 1
-	mob_size = 3
-
-	attack_emote = "hums at"
-	see_in_dark = 10
-	see_invisible = SEE_INVISIBLE_NOLIGHTING
-
-	smart_ranged = TRUE
-
-	ranged = TRUE
-	projectiletype = /obj/item/projectile/beam/tesla/plasmageist
-	projectilesound = 'sound/magic/LightningShock.ogg'
-
-	pass_flags = PASSTABLE|PASSRAILING
-
-	tameable = FALSE
-	flying = TRUE
-
-	blood_overlay_icon = null
-
-/obj/item/projectile/beam/tesla/plasmageist/on_impact(atom/target)
-	. = ..()
-	if(isliving(target))
-		explosion(target, -1, 0, 2)
-
-/mob/living/simple_animal/hostile/plasmageist/attack_hand(mob/living/carbon/human/M as mob)
-	M.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
-	visible_message(SPAN_WARNING("\The [M] tries to touch \the [src]!"))
-	tesla_zap(M, 5, 5000)
-
-/mob/living/simple_animal/hostile/plasmageist/attackby(obj/item/O, mob/user)
-	user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
-	if(isliving(user))
-		visible_message(SPAN_WARNING("\The [user] tries to touch \the [src]!"))
-		tesla_zap(user, 5, 5000)
-
-/mob/living/simple_animal/hostile/plasmageist/death(gibbed)
-	..()
-	..(null, "disintegrates!")
-	var/T = get_turf(src)
-	spark(T, 1, alldirs)
-	explosion(T, -1, 0, 2)
-	qdel(src)
-
-/mob/living/simple_animal/hostile/plasmageist/ex_act(severity)
-	return
-
-/obj/structure/geyser
-	name = "arctic geyser"
-	desc = "A mound fuming with hot steam."
-	icon = 'icons/obj/cold_dawn_96.dmi'
-	icon_state = "geyser_dormant"
-	density = FALSE
-	pixel_x = -32
-
-/obj/structure/geyser/Initialize()
-	. = ..()
-	if(prob(50))
-		icon_state = "geyser_plume"
-
-/obj/structure/geyser/Crossed(AM as mob|obj, var/ignore_deployment = FALSE)
-	if(ishuman(AM))
-		var/mob/living/carbon/human/L = AM
-		if(prob(50))
-			trigger(L)
-
-	..()
-
-/obj/structure/geyser/proc/trigger(mob/living/carbon/human/L)
-	visible_message(SPAN_WARNING("The [src] spews a cloud of steam!"))
-	flick("geyser_fire", src)
-	var/steam_temperature = pick(10,50,100,500)
-	L.bodytemperature += steam_temperature
-	if(steam_temperature >= 100)
-		L.apply_damage(70, DAMAGE_BURN)
-
 /obj/structure/lattice/catwalk/indoor/grate/pier
 	name = "pier"
 	icon = 'icons/obj/cold_dawn.dmi'
@@ -1160,7 +932,7 @@
 /mob/living/simple_animal/snow_strider
 	name = "snow strider"
 	desc = "An animal hunted and farmed by the Tajara for its meat and fur."
-	icon = 'icons/obj/cold_dawn_48x48.dmi'
+	icon = 'icons/obj/cold_dawn_48.dmi'
 	icon_state = "snow_strider"
 	icon_living = "snow_strider"
 	icon_dead = "snow_strider_dead"
@@ -1186,7 +958,7 @@
 /mob/living/simple_animal/climber
 	name = "snow strider"
 	desc = "A rideable beast of burden, large enough for one adult rider only but perfectly adapted for the rough terrain on Adhomai."
-	icon = 'icons/obj/cold_dawn_48x48.dmi'
+	icon = 'icons/obj/cold_dawn_48.dmi'
 	icon_state = "climber"
 	icon_living = "climber"
 	icon_dead = "climber_dead"
@@ -1208,12 +980,72 @@
 	faction = "Adhomai"
 	pixel_x = -8
 
+/mob/living/simple_animal/climber/attackby(obj/item/O, mob/user)
+	if(istype(O, /obj/item/saddle))
+		to_chat(user, SPAN_NOTICE("You place \the [O] on \the [src]."))
+		user.drop_from_inventory(O)
+		O.forceMove(get_turf(src))
+		qdel(O)
+		new /obj/vehicle/bike/climber(get_turf(src))
+		qdel(src)
+	else
+		..()
 
-
-/obj/item/normal
+/obj/item/saddle
 	name = "saddle"
 	desc = "A structure used to ride animals."
 	icon = 'icons/obj/cold_dawn.dmi'
 	icon_state = "saddle"
 	w_class = ITEMSIZE_NORMAL
 
+
+/obj/vehicle/bike/climber
+	name = "climber"
+	desc = "A rideable beast of burden, large enough for one adult rider only but perfectly adapted for the rough terrain on Adhomai. This one has a saddle mounted on it."
+	icon = 'icons/obj/cold_dawn_48.dmi'
+	icon_state = "climber_s"
+	bike_icon = "climber_s"
+	pixel_x = -8
+	mob_offset_y = 8
+	kickstand = FALSE
+	on = TRUE
+	land_speed = 2
+	space_speed = 0
+
+	health = 100
+
+	can_hover = FALSE
+	organic = TRUE
+
+/obj/vehicle/bike/climber/setup_vehicle()
+	..()
+	on = TRUE
+
+/obj/vehicle/bike/climber/CtrlClick(var/mob/user)
+	return
+
+/obj/vehicle/bike/climber/toggle_engine(var/mob/user)
+	return
+
+/obj/vehicle/bike/climber/kickstand(var/mob/user)
+	return
+
+/obj/vehicle/bike/climber/explode()
+	if(istype(load, /mob/living))
+		var/mob/living/M = load
+		M.apply_effects(5, 5)
+
+	unload()
+	var/mob/living/simple_animal/climber/M = new (get_turf(src))
+	M.icon_state = "climber_s_on"
+	M.icon_living = "climber_s_on"
+	M.icon_dead = "climber_s_dead"
+	M.death()
+	qdel(src)
+
+/obj/vehicle/bike/climber/check_destination(var/turf/destination)
+	var/static/list/types = typecacheof(list(/turf/space))
+	if(is_type_in_typecache(destination,types) || pulledby)
+		return TRUE
+	else
+		return FALSE

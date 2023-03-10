@@ -271,6 +271,18 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"bYt" = (
+/mob/living/simple_animal/snow_strider,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"cbQ" = (
+/obj/item/flame/candle/waxcandles,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "ccZ" = (
 /obj/machinery/atmospherics/unary/engine,
 /turf/simulated/floor/plating{
@@ -369,6 +381,15 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"cGj" = (
+/obj/item/reagent_containers/glass/bucket/wood{
+	pixel_y = -5;
+	pixel_x = -8
+	},
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "cNE" = (
 /obj/machinery/telecomms/hub/preset,
 /turf/unsimulated/floor{
@@ -450,6 +471,19 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"deb" = (
+/obj/structure/railing/fence{
+	layer = 2.98
+	},
+/obj/structure/railing/fence{
+	dir = 1;
+	layer = 2.98
+	},
+/obj/structure/simple_door/wood,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "deU" = (
 /turf/simulated/floor/carpet/art{
 	temperature = 263.15
@@ -458,6 +492,12 @@
 "dgw" = (
 /obj/item/material/shard,
 /turf/simulated/floor/exoplanet/castle{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"dnf" = (
+/obj/vehicle/bike/climber,
+/turf/simulated/floor/exoplanet/snow{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -597,6 +637,16 @@
 "ebr" = (
 /obj/structure/table/rack/fancy_table/center,
 /turf/simulated/floor/exoplanet/castle{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"ebu" = (
+/obj/structure/railing/fence,
+/obj/structure/railing/fence{
+	dir = 1
+	},
+/mob/living/simple_animal/climber,
+/turf/simulated/floor/wood{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -825,6 +875,25 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/unsimulated/floor{
 	icon_state = "plating"
+	},
+/area/da_boat/mountains)
+"fEi" = (
+/obj/structure/table/wood,
+/obj/item/saddle,
+/obj/item/saddle,
+/obj/item/saddle,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"fHM" = (
+/obj/structure/table/wood,
+/obj/item/saddle,
+/obj/item/saddle,
+/obj/item/saddle,
+/obj/item/reagent_containers/glass/bucket/wood,
+/turf/simulated/floor/wood{
+	temperature = 263.15
 	},
 /area/da_boat/mountains)
 "fMb" = (
@@ -2827,6 +2896,14 @@
 "vOc" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/mug,
+/turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"vOT" = (
+/obj/structure/simple_door/wood{
+	layer = 3.1
+	},
 /turf/simulated/floor/wood{
 	temperature = 263.15
 	},
@@ -7901,7 +7978,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -10502,7 +10579,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -11515,7 +11592,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -13096,7 +13173,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -15342,7 +15419,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -17071,7 +17148,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -17682,7 +17759,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -18912,7 +18989,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -19401,7 +19478,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -23743,7 +23820,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -27607,7 +27684,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -28413,19 +28490,19 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
 cry
 cry
 bny
@@ -28670,19 +28747,19 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+fHM
+ebu
+dBS
+ebu
+dBS
+ebu
+dBS
+ebu
+dBS
+ebu
+fEi
+pQo
 cry
 cry
 bny
@@ -28927,19 +29004,19 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-sUj
-cry
-cry
-cry
+pQo
+dBS
+deb
+dBS
+deb
+dBS
+deb
+dBS
+deb
+dBS
+deb
+dBS
+pQo
 cry
 cry
 bny
@@ -29184,19 +29261,19 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+pQo
 cry
 cry
 bny
@@ -29441,21 +29518,21 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+vOT
+bny
+bny
 bny
 cry
 cry
@@ -29698,19 +29775,19 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+dBS
+pQo
 cry
 cry
 bny
@@ -29955,20 +30032,20 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+dBS
+deb
+dBS
+deb
+dBS
+deb
+dBS
+deb
+dBS
+deb
+cbQ
+pQo
+dnf
 cry
 bny
 cry
@@ -30212,20 +30289,20 @@ aSk
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+fEi
+ebu
+dBS
+ebu
+dBS
+ebu
+dBS
+ebu
+dBS
+ebu
+fEi
+pQo
+cGj
 cry
 bny
 cry
@@ -30469,19 +30546,19 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
+pQo
 cry
 cry
 bny
@@ -32161,7 +32238,7 @@ jgJ
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -36264,7 +36341,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -40372,7 +40449,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 jgJ
 cry
 cry
@@ -41441,7 +41518,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -44516,7 +44593,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -45191,7 +45268,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -48283,7 +48360,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -48968,7 +49045,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -49407,7 +49484,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -50884,7 +50961,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -51324,7 +51401,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -51370,7 +51447,7 @@ cry
 cry
 fxh
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -54730,7 +54807,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 jgJ
 cry
 cry
@@ -55057,7 +55134,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -57488,7 +57565,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -58803,7 +58880,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -60122,7 +60199,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 jgJ
 cry
 cry
@@ -61940,7 +62017,7 @@ cry
 cry
 jgJ
 cry
-cry
+bYt
 sUj
 cry
 cry
@@ -62682,7 +62759,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry
@@ -63412,7 +63489,7 @@ cry
 cry
 cry
 cry
-cry
+bYt
 cry
 cry
 cry

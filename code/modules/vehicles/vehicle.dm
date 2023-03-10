@@ -16,6 +16,7 @@
 	buckle_movable = 1
 	buckle_lying = 0
 
+	var/organic = FALSE
 	var/buckling_sound = 'sound/effects/metal_close.ogg'
 
 	var/attack_log = null
@@ -86,17 +87,17 @@
 /obj/vehicle/attackby(obj/item/W as obj, mob/user as mob)
 	if(istype(W, /obj/item/device/hand_labeler))
 		return
-	if(W.isscrewdriver())
+	if(W.isscrewdriver() && !organic)
 		if(!locked)
 			open = !open
 			update_icon()
 			to_chat(user, "<span class='notice'>Maintenance panel is now [open ? "opened" : "closed"].</span>")
-	else if(W.iscrowbar() && cell && open)
+	else if(W.iscrowbar() && cell && open && !organic)
 		remove_cell(user)
 
-	else if(istype(W, /obj/item/cell) && !cell && open)
+	else if(istype(W, /obj/item/cell) && !cell && open && !organic)
 		insert_cell(W, user)
-	else if(W.iswelder())
+	else if(W.iswelder()  && !organic)
 		var/obj/item/weldingtool/T = W
 		if(T.welding)
 			if(health < maxhealth)
@@ -150,6 +151,8 @@
 	return
 
 /obj/vehicle/emp_act(severity)
+	if(organic)
+		return
 	var/was_on = on
 	stat |= EMPED
 	var/obj/effect/overlay/pulse2 = new /obj/effect/overlay(src.loc)
