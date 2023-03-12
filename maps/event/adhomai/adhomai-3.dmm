@@ -934,9 +934,7 @@
 	},
 /area/da_boat/mountains)
 "fPN" = (
-/obj/machinery/door/airlock/glass_mining{
-	req_access = list(19)
-	},
+/obj/machinery/door/airlock/glass_mining,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
 "fQR" = (
@@ -1014,6 +1012,16 @@
 /obj/item/stack/nanopaste,
 /obj/item/stack/nanopaste,
 /obj/item/stack/nanopaste,
+/obj/item/storage/firstaid/adv,
+/obj/item/storage/firstaid/adv,
+/obj/item/storage/firstaid/regular{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/storage/firstaid/regular{
+	pixel_x = 5;
+	pixel_y = 5
+	},
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
@@ -1675,6 +1683,16 @@
 	pixel_x = 5;
 	pixel_y = 5
 	},
+/obj/item/storage/firstaid/fire{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/storage/firstaid/fire{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/o2,
 /turf/simulated/floor/tiled/white{
 	temperature = 263.15
 	},
@@ -1966,6 +1984,7 @@
 	icon_state = "tube1"
 	},
 /obj/structure/table/standard,
+/obj/machinery/photocopier/faxmachine,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "nPO" = (
@@ -2045,6 +2064,8 @@
 /area/da_boat/mountains)
 "oCj" = (
 /obj/structure/table/standard,
+/obj/item/paper_bin,
+/obj/item/pen/black,
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
 "oCD" = (
@@ -2640,6 +2661,12 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"tvy" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/exoplanet/mineral/adhomai{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "twV" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/wood{
@@ -3096,6 +3123,12 @@
 	temperature = 268.15
 	},
 /area/da_boat/mountains)
+"wNP" = (
+/obj/item/handcuffs,
+/turf/simulated/floor/exoplanet/snow{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
 "wPi" = (
 /obj/machinery/telecomms/server/presets/service,
 /turf/unsimulated/floor{
@@ -3139,7 +3172,6 @@
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(19)
 	},
-/obj/item/gun/energy/rifle/laser/noctiluca,
 /obj/item/gun/energy/rifle/laser/noctiluca,
 /obj/item/gun/energy/rifle/laser/noctiluca,
 /obj/effect/floor_decal/industrial/outline/security,
@@ -3222,6 +3254,17 @@
 "yaR" = (
 /obj/machinery/floodlight,
 /turf/simulated/floor/wood{
+	temperature = 263.15
+	},
+/area/da_boat/mountains)
+"yix" = (
+/obj/effect/decal/remains{
+	name = "tajaran remains";
+	desc = "A pile of Tajaran bones.";
+	icon_state = "remainstajara"
+	},
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/exoplanet/snow{
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
@@ -8203,7 +8246,7 @@ cry
 cry
 cry
 cry
-cry
+aSk
 cry
 cry
 cry
@@ -10003,7 +10046,7 @@ cry
 cry
 cry
 cry
-cry
+jgJ
 cry
 cry
 cry
@@ -10263,7 +10306,7 @@ cry
 cry
 cry
 cry
-cry
+aSk
 cry
 cry
 cry
@@ -11804,7 +11847,7 @@ cry
 cry
 cry
 cry
-cry
+aSk
 cry
 cry
 cry
@@ -12571,7 +12614,7 @@ lyb
 lyb
 cry
 cry
-cry
+jgJ
 cry
 cry
 cry
@@ -64917,7 +64960,7 @@ cry
 cry
 cry
 cry
-cry
+wKz
 sPG
 "}
 (241,1,1) = {"
@@ -65171,10 +65214,10 @@ jgJ
 cry
 cry
 cry
-cry
-cry
-cry
-cry
+wKz
+wKz
+wKz
+wKz
 sPG
 "}
 (242,1,1) = {"
@@ -65426,12 +65469,12 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
+wKz
+wKz
+wKz
+krv
+krv
+wKz
 sPG
 "}
 (243,1,1) = {"
@@ -65683,12 +65726,12 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
+wKz
+krv
+qrx
+krv
+qrx
+wKz
 sPG
 "}
 (244,1,1) = {"
@@ -65931,21 +65974,21 @@ cry
 cry
 jgJ
 cry
+wNP
 cry
 cry
 cry
-cry
-cry
-jgJ
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+krv
+krv
+tvy
+fSk
+wKz
 sPG
 "}
 (245,1,1) = {"
@@ -66188,21 +66231,21 @@ jgJ
 cry
 cry
 cry
+yix
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+qrx
+krv
+krv
+krv
+tvy
+krv
+krv
+krv
+krv
+krv
+wKz
 sPG
 "}
 (246,1,1) = {"
@@ -66449,17 +66492,17 @@ cry
 jgJ
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+wKz
+wKz
+krv
+qrx
+krv
+krv
+qrx
+krv
+krv
+krv
+wKz
 sPG
 "}
 (247,1,1) = {"
@@ -66707,16 +66750,16 @@ cry
 cry
 cry
 cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
-cry
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
+wKz
 sPG
 "}
 (248,1,1) = {"
