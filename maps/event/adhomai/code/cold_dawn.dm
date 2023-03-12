@@ -918,6 +918,12 @@
 	name = "evacuation shuttle control console"
 	req_access = list(access_merchant)
 	shuttle_tag = "SCC Evac Shuttle"
+	var/locked = FALSE
+
+/obj/machinery/computer/shuttle_control/scc_evac/attack_hand(mob/user)
+	if(locked)
+		return
+	..()
 
 /obj/structure/stone_slab
 	name = "adhomian calendar stone"
