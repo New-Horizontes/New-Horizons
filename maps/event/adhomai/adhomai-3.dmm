@@ -61,6 +61,10 @@
 	temperature = 263.15
 	},
 /area/da_boat/mountains)
+"aqp" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/shuttle/dark_blue,
+/area/shuttle/scc_evac)
 "aGV" = (
 /obj/structure/curtain/black,
 /turf/simulated/floor/wood{
@@ -2154,6 +2158,10 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/clothing/accessory/holster/utility/machete,
 /obj/item/clothing/accessory/holster/utility/machete,
+/obj/item/tank/emergency_oxygen/double,
+/obj/item/tank/emergency_oxygen/double,
+/obj/item/tank/emergency_oxygen/double,
+/obj/item/tank/emergency_oxygen/double,
 /turf/simulated/floor/shuttle/dark_red,
 /area/shuttle/scc_evac)
 "pfF" = (
@@ -10536,7 +10544,7 @@ qmg
 qmg
 nYA
 lyb
-soC
+aqp
 jOR
 jOR
 jOR
