@@ -56,7 +56,7 @@
 	starlight_range = 4
 	sector_lobby_art = list('icons/misc/titlescreens/lore/cold_dawn.dmi')
 	sector_lobby_transitions = 0
-	sector_welcome_message = 'sound/AI/adhomai_welcome.ogg'
+	sector_welcome_message = 'sound/effects/static.ogg'
 	sector_hud_menu = 'icons/misc/hudmenu/tajara_hud.dmi'
 	sector_hud_menu_sound = 'sound/effects/tajara_menu_click.ogg'
 	sector_hud_arrow = "menu_arrow"
