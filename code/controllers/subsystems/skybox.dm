@@ -29,7 +29,7 @@ var/datum/controller/subsystem/skybox/SSskybox
 		space.icon_state = "white"
 		space.overlays += dust
 		space_appearance_cache[i + 1] = space.appearance
-		background_color = SSatlas.current_sector.starlight_color
+//		background_color = SSatlas.current_sector.starlight_color
 
 /datum/controller/subsystem/skybox/New()
 	NEW_SS_GLOBAL(SSskybox)
