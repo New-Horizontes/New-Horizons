@@ -259,7 +259,9 @@
 /area/da_boat/mountains)
 "bTm" = (
 /obj/machinery/computer/shuttle_control/scc_evac{
-	dir = 1
+	dir = 1;
+	req_access = list(19);
+	locked = 1
 	},
 /turf/simulated/floor/shuttle/black,
 /area/shuttle/scc_evac)
