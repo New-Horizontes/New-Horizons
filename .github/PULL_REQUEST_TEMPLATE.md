@@ -1,12 +1,34 @@
-* Please describe the intent of your changes in a clear fashion.
-* Please make sure that, in the case of mapping changes, you include images of these changes in the PR's description.
-* Please make sure to mark your PR as wip or review required by making a comment with !wip or !review required
-* If you include sprites/sounds/... (assets) that you have not created yourself specify the license and original author below.
-  * Ensure that you also credit them in the appropriate location / changelog as specified in the contributor guidelines
+<!-- Write **BELOW** The Headers and **ABOVE** The comments else it may not be viewable. -->
+<!-- You can view Contributing.MD for a detailed description of the pull request process. -->
 
-### Asset Licenses
-The following assets that **have not** been created by myself are included in this PR:
+## About The Pull Request
 
-| Path | Original Author | License |
-| --- | --- | --- |
-| icons/example.dmi | ExamplePerson (Example Station) | CC0 |
+<!-- Describe The Pull Request. Please be sure every change is documented or this can delay review and even discourage maintainers from merging your PR! -->
+
+## Why It's Good For The Game
+
+<!-- Argue for the merits of your changes and how they benefit the game, especially if they are controversial and/or far reaching. If you can't actually explain WHY what you are doing will improve the game, then it probably isn't good for the game in the first place. -->
+
+## Changelog
+
+<!-- If your PR modifies aspects of the game that can be concretely observed by players or admins you should add a changelog. If your change does NOT meet this description, remove this section. -->
+
+:cl:
+add: Added new mechanics or gameplay changes
+add: Added more things
+del: Removed old things
+qol: made something easier to use
+balance: rebalanced something
+fix: fixed a few things
+sound: added/modified/removed audio or sound effects
+image: added/modified/removed some icons or images
+spellcheck: fixed a few typos
+code: changed some code
+refactor: refactored some code
+config: changed some config setting
+admin: messed with admin stuff
+server: something server ops should know
+/:cl:
+
+<!-- Both :cl:'s are required for the changelog to work! You can put your name to the right of the first :cl: if you want to overwrite your GitHub username as author ingame. -->
+<!-- You can use multiple of the same prefix (they're only used for the icon ingame) and delete the unneeded ones. Despite some of the tags, changelogs should generally represent how a player might be affected by the changes rather than a summary of the PR's contents. -->

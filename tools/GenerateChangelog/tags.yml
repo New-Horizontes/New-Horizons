@@ -1,0 +1,29 @@
+tags:
+    fix: fix
+    qol: qol
+    sound: sound
+    add: add
+    del: del
+    image: image
+    spellcheck: spellcheck
+    balance: balance
+    code: code
+    admin: admin
+    refactor: refactor
+    config: config
+    server: server
+
+defaults:
+    fix: fixed a few things
+    qol: made something easier to use
+    sound: added/modified/removed audio or sound effects
+    add: added more things
+    del: removed old things
+    image: added/modified/removed some icons or images
+    spellcheck: fixed a few typos
+    balance: rebalanced something
+    admin: messed with admin stuff
+    refactor: refactored some code
+    code: changed some code
+    server: something server ops should know
+    config: changed some config setting
