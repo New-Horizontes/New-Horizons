@@ -1,65 +1,47 @@
 /singleton/reagent/inaprovaline
-	description = "Inaprovaline is a chemical that narrows blood vessels, raises blood pressure, and helps the blood pump more efficiently. Commonly used to stabilize patients."
+	description = "Inaprovaline is a chemical that narrows blood vessels, raises blood pressure, and helps blood pump more efficiently. Commonly used to stabilize patients. It acts as a cardiostimulant, which stabilises myocardial contractility, working towards maintaining a steady pulse and blood pressure. Inaprovaline also acts as a weak analgesic"
 
 /singleton/reagent/bicaridine
-	description = "Bicaridine is an analgesic medication and can be used to treat blunt trauma. Lasts twice as long when inhaled, however it is generally twice as weak."
+	description = "Bicaridine is a complex medication which specifically targets damaged tissues and damaged blood vessels by encouraging the rate at which the damaged tissues are regenerated. Overdosing bicaridine allows the drug to take effect on damaged muscular tissues of arteries"
 
 /singleton/reagent/kelotane
-	description = "Kelotane is a drug used to treat burns."
+	description = "Kelotane is a complex medication commonly used to treat burn injuries. It specifically targets tissues which have been lost to severe burning by encouraging the rate at which these damaged tissues are regenerated"
 
 /singleton/reagent/dexalin
-	description = "Dexalin is used in the treatment of oxygen deprivation. The medication is twice as powerful and lasts twice as long when inhaled."
-
-/singleton/reagent/dexalin/plus
-	description = "Dexalin Plus is used in the treatment of oxygen deprivation. It is highly effective, and is twice as powerful and lasts twice as long when inhaled."
+	description = "Dexalin if a complex medicine commonly used in the treatment of oxygen deprivation. It is a complex oxygen therapeutic and is available over the counter. The chemical utilizes carbon nanostructures which cling to oxygen and, in pathological conditions where tissues are hypoxic, will oxygenate these regions. Dexalin is twice as efficient, lasting longer and acting more effectively, when inhaled"
 
 /singleton/reagent/tricordrazine
-	description = "Tricordrazine is a highly potent stimulant, originally derived from cordrazine. Can be used to treat a wide range of injuries, however it does not work when inhaled. Has different healing properties depending on the chemical's temperature."
-
-/singleton/reagent/cryoxadone
-	description = "A chemical mixture with almost magical healing powers. Its main limitation is that the targets body temperature must be under 170K for it to metabolise correctly."
-
-/singleton/reagent/clonexadone
-	description = "A liquid compound similar to that used in the cloning process. Can be used to 'finish' the cloning process when used in conjunction with a cryo tube. Its main limitation is that the targets body temperature must be under 170K for it to metabolise correctly."
+	description = "Tricordrazine is an old, though still useful, medication that can be used to treat a wide range of injuries, though at a slower rate than any specialized chemical. The drug increases the rate at which tissues regenerate and has different regenerative properties depending on the patient´s body temperature. Does not work when inhaled."
 
 /singleton/reagent/perconol
 	name = "Paracetamol"
-	description = "Most probably know this as Tylenol, but this chemical is a mild, simple painkiller. Does not work when inhaled."
+	description = "Paracetamol is one of the most common over-the-counter painkillers that is available commercially. A massive advancement upon old Tylenol, while keeping its classic branding, Paracetamol is a fully modern NSAID Medication which is highly effective at treating minor-mild pain, inflammation and high fevers, and is easily available to treat minor illnesses and mild pain. Not effective when inhaled."
 
 /singleton/reagent/mortaphenyl
 	name = "Tramadol"
-	description = "Tramadol is a very effective painkiller designed for victims of heavy physical trauma. Does not work when inhaled."
+	description = "Tramadol is a highly effective painkiller, commonly utilized for victims of heavy physical trauma. An advanced synthetic opioid medication, it is highly effective at treating mild-severe pain as a result of severe physical injury. Not effective when inhaled."
 
 /singleton/reagent/oxycomorphine
 	name = "Oxycodone"
-	description = "Oxycodone is incredibly potent and very addictive painkiller. Do not mix with alcohol. Does not work when inhaled."
+	description = "Oxycodone is an extremely effectively heavy-duty painkiller, usually reserved for the worst of cases. A highly advanced synthetic opioid medication which is extremely effective at treating severe-agonising pain as a result of injuries usually incompatible with life. The drug is highly addictive and sense-numbing. Not effective when Inhaled"
 
 /singleton/reagent/synaptizine
-	description = "Synaptizine is used to treat a robust array of conditions, such as drowsyness, paralysis, weakness, LSD overdose, hallucinations, and pain. Moderately poisonous, and should only be used as a last resort."
+	description = "Synaptizine is an advanced medication used to treat a wide array of conditions, such as drowsyness, paralysis, weakness, LSD overdose, hallucinations, and pain. Moderately poisonous, and should only be used as a last resort. A synaptic stimulant and nootropic which improves synaptic transmission and keeps one alert, giving it many clinical uses in the treatment of paralysis, weakness, narcolepsy and hallucinations. Synaptizine is difficult to metabolise and is hard on the liver."
 
 /singleton/reagent/alkysine
-	description = "Alkysine is a drug used to lessen the damage to neurological tissue after a catastrophic injury. Can heal brain tissue."
-
-/singleton/reagent/peridaxon
-	description = "Used to encourage recovery of internal organs and nervous systems. Medicate cautiously."
+	description = "Alkysine is a complex drug which can be utilized to lessen the damage to neurological functions, and regenerate injure brain tissue. It is a complex drug which increases cerebral circulation, ensuring the brain does not become hypoxic and increasing the rate at which neurological function returns after a catastrophic injury."
 
 /singleton/reagent/ryetalyn
-	description = "Ryetalyn can cure all genetic abnomalities via a catalytic process."
+	description = "Ryetalyn is a novel, highly advanced, broad-spectrum medication, developed by Dominian scientists, which has varying clinical uses in treating genetic abnormalities including certain cancers and autoimmune conditions."
 
 /singleton/reagent/hyperzine
-	description = "Hyperzine is a highly effective, long lasting, muscle stimulant. Lasts twice as long when inhaled."
+	description = "Hyperzine is a complex cardio-synaptic stimulant drug, effectively a muscle stimulant, designed to increase the performance of the body. Downsides include violent muscle spasms and tremors. Twice as effective when inhaled."
 
 /singleton/reagent/ethylredoxrazine
-	description = "A powerful oxidizer that reacts with ethanol."
-
-/singleton/reagent/hyronalin
-	description = "Hyronalin is a medicinal drug used to counter the effect of radiation poisoning."
+	description = "Ethylredoxrazine is a powerful medication that neutralizes most of the effects of alcohol. A powerful oxidizer that reacts to ethanol in the bloodstream, reducing the burden on the liver to complete this task. Ethylredoxrazine also blocks the reuptake of neurotransmitters responsible for symptoms of alcohol intoxication."
 
 /singleton/reagent/arithrazine
-	description = "Arithrazine is an unstable medication used for the most extreme cases of radiation poisoning."
-
-/singleton/reagent/thetamycin
-	description = "A theta-lactam antibiotic, effective against wound and organ bacterial infections."
+	description = "Arithrazine is a recent and highly unstable improvement of Hyronalin that is reserved for extreme cases of radiation poisoning. It rapidly destroys any ionised cells, though this often leads to collateral cell damage, resulting in contusions across affected parts of the body."
 
 /singleton/reagent/asinodryl
 	name = "Ondansetron"
@@ -67,17 +49,17 @@
 
 /singleton/reagent/antidexafen
 	name = "Cough Syrup"
-	description = "A chemical that is used as a cough suppressant in low doses, and in higher doses it can be recreationally (ab)used."
+	description = "A complex antitussive medication available OTC which is very effective at suppressing cough reflexes. The medication also acts as a very weak analgesic medication, leading to it being a very cheap recreational drug or precursor to other recreational drugs."
 
 /singleton/reagent/cetahydramine
 	name = "Diphenhydramine"
-	description = "A common antihistamine medication, also known as Benadryl. Known for causing drowsiness in larger doses."
+	description = "Diphenhydramine is a common antihistamine medication thus making it effective at suppressing allergies and sneezing. Diphenhydramine can cause drowsiness in larger doses, making it an effective sleep aid often used to treat insomnia. A fifth-generation antihistamine that has kept one of its more classic brandings and made older antihistamine medication obsolete, it is commonly available over the counter and sometime branded as Cetahydramine."
 
 /singleton/reagent/sterilizine
-	description = "Sterilizes wounds in preparation for surgery and thoroughly removes blood."
+	description = "Sterilizine is a chemical product which can thoroughly disinfect wound sites and any biohazardous waste. Commonly utilized in preparation for surgery or to remove blood stains"
 
 /singleton/reagent/leporazine
-	description = "Leporazine can be use to stabilize an individual's body temperature."
+	description = "Leporazine is a complex medication which improves thermal homeostasis, stabilising and regulating the body's core temperature. Leporazine often results in hyperventilation which should be monitored."
 
 /singleton/reagent/cataleptinol
 	name = "Mannitol"
@@ -85,63 +67,40 @@
 
 /singleton/reagent/fluvectionem
 	name = "Calomel"
-	description = "A highly toxic medicine that quickly purges most chemicals from the bloodstream. Overdose causes bloodloss and more toxin buildup, however works twice as fast."
+	description = "Calomel is a complex anti-toxin medication that is capable of purging the bloodstream of most reagents. The drug is capable of neutralising the most difficult of compounds and acts very fast when overdosed on, however it purges blood cells as well and results in benign waste products that can be damaging to the liver, increasing toxin buildup."
 
 /singleton/reagent/pulmodeiectionem
-	description = "A powdery chemical that damages the mucus lining in the the main broncus and the trachea, allowing particles to easily escape the lungs. Only works when inhaled. May cause long term damage to the lungs, and oxygen deprevation."
+	description = "Pulmodeiectionem is a complex anti-toxin medication that is capable of purging the lungs of toxic reagents by damaging the mucous lining of the bronchi and trachea, allowing particulate to be coughed out of the lungs. Pulmodeiectionem works only when inhaled and can cause long-term damage to the lungs."
 
 /singleton/reagent/pneumalin
-	description = "A chemical that, when inhaled, restores tearing and bruising of the lungs. Overdosing can lower a patient's pulse to dangerous levels."
+	description = "Pneumalin is a powerful, lung-focused organ-regenerative medication that increases the rate at which lung tissues are regenerated. Pneumalin only works when inhaled, and overdosing can lead to severe bradycardia, lowering the patients pulse to dangerous levels."
 
 /singleton/reagent/rezadone
-	description = "A powder with almost magical properties, this substance can effectively treat genetic damage in humanoids, though excessive consumption has side effects."
+	description = "Rezadone is an extremely expensive, ground-breaking miracle drug that is widely used to treat genetic damage. The compound is capable of treating all kinds of physical damage, disfiguration, as well as genetic damage. Excessive consumption of rezadone can lead to severe disorientation and other side effects."
 
 /singleton/reagent/verunol
-	name = "Ipecac"
-	description = "A simple emetic, Induces vomiting in the patient, emptying stomach contents"
+	name = "Verunol Syrup"
+	description = "A complex emetic medication that causes the patient to vomit due to gastric irritation and the stimulation of the chemoreceptor trigger zone."
 
 /singleton/reagent/adipemcina
-	description = "Adipemcina is a heart medication used for treating high blood pressure, heart failure, and diabetes. Causes vomiting and liver damage when overdosed."
+	description = "Adipemcina is a complex, heart-focused organ-regenerative medication that increases the rate at which cells differentiate into myocardial cells. Often used to treat heart failure. Adipemcina overdoses result in severe liver damage and vomiting."
 
 /singleton/reagent/pacifier
-	description = "A mind altering chemical compound capable of suppressing violent tendencies."
+	description = "Paxazide, commonly called Pax, is an expensive and ethically questionable, psychoactive drug used to pacify people, suppressing regions of the brain responsible for anger and violence. Paxazide can be addictive due to its tranquilising effects, though withdrawal symptoms are scarce. It is, according to rumours, commonly shipped to Visegrad"
 
 /singleton/reagent/rmt
-	description = "A chemical rampantly used by those seeking to remedy the effects of prolonged zero-gravity adaptations."
+	description = "RMT Supplement is a bioengineered, fast-acting growth factor that specifically helps recover bone and muscle mass caused by prolonged zero-gravity adaptations. It can also be used to treat chronic muscle weakness."
 
 /* MENTAL */
 
-/singleton/reagent/mental/corophenidate
-	name = "Methylphenidate"
-	description = "Methylphenidate is an ADHD treatment drug that treats basic distractions such as phobias and hallucinations at moderate doses. Withdrawl effects are rare. Side effects are rare, and include hallucinations."
-
-/singleton/reagent/mental/neurostabin
-	name = "Fluvoxamine"
-	description = "Fluvoxamine is safe and effective at treating basic phobias, as well as schizophrenia and muscle weakness at higher doses. Withdrawl effects are rare. Side effects are rare, and include hallucinations."
-
 /singleton/reagent/mental/parvosil
-	name = "Sertraline"
-	description = "Sertraline is cheap, safe, and effective at treating basic phobias, however it does not last as long as other drugs of it's class. Withdrawl effects are uncommon. Side effects are rare."
+	description = "A new generation, psychoactive drug used in the treatment of anxiety disorders such as phobias and social anxiety. It has far fewer side effects than previous generations of psychoactive drugs. Withdrawal symptoms include hallucinations and heightened anxiety. Cheap yet safe, side effects are rare."
 
 /singleton/reagent/mental/minaphobin
-	name = "Escitalopram"
-	description = "Escitalopram is expensive, safe and very effective at treating basic phobias as well as advanced phobias like monophobia. A common side effect is drowsiness, and a rare side effect is hallucinations. Withdrawl effects are uncommon."
+	description = "A new generation, psychoactive drug used in the treatment of anxiety disorders such as phobias, with a wider range compared to other treatments, and social anxiety. It has far fewer side effects than previous generations of psychoactive drugs. Withdrawal symptoms include hallucinations and heightened anxiety. An expensive medication with uncommon side effects"
 
 /singleton/reagent/mental/emoxanyl
-	name = "Duloxetine"
-	description = "Duloxetine is effective at treating basic phobias and concussions. A rare side effect is hallucinations. Withdrawl effects are common."
-
-/singleton/reagent/mental/orastabin
-	name = "Venlafaxine"
-	description = "Venlafaxine is effective at treating basic phobias, monophobia, and stuttering. Side effects are uncommon and include hallucinations. Withdrawl effects are common."
-
-/singleton/reagent/mental/neurapan
-	name = "Risperidone"
-	description = "Risperidone is a potent antipsychotic medication used to treat schizophrenia, stuttering, speech impediment, monophobia, hallucinations, tourettes, and muscle spasms. Side effects are common and include pacifism. Withdrawl symptoms are dangerous and almost always occur."
-
-/singleton/reagent/mental/nerospectan
-	name = "Olanzapine"
-	description = "Olanzapine is a high-strength, expensive antipsychotic medication used to treat schizophrenia, stuttering, speech impediment, monophobia, hallucinations, tourettes, and muscle spasms. Side effects are common and include pacifism. The medication metabolizes quickly, and withdrawl is dangerous."
+	description = "A novel antioxidant medication which increases cerebral circulation and is used to treat basic phobias, anxiety, depression, concussion, and epilepsy. It has fewer side effects than many other forms of psychoactive drugs. Withdrawal symptoms are frequent and unsafe, and include hallucinations and heightened anxiety."
 
 /singleton/reagent/mental/truthserum
-	description = "This highly illegal, expensive, military strength truth serum is a must have for secret corporate interrogations. Do not ingest."
+	description = "Truth Serum, a refined variant of Paxazide, is an expensive and very unethical psychoactive drug capable of inhibiting defensive measures and reasoning in regards to communication, resulting in those under the effects of the drug to be very open to telling the truth. This highly illegal, and expensive, military strength truth serum is a must have for secret corporate interrogations, try not to ingest it."
