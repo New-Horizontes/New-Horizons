@@ -225,7 +225,7 @@
 		to_chat(src, SPAN_WARNING("You don't have enough chemicals!"))
 		return
 
-	var/list/choices = list("Inaprovaline" = /singleton/reagent/inaprovaline, "Bicaridine" = /singleton/reagent/bicaridine, "Kelotane" = /singleton/reagent/kelotane, "Dylovene" = /singleton/reagent/dylovene, "Hyperzine" = /singleton/reagent/hyperzine, "Peridaxon" = /singleton/reagent/peridaxon, "Mortaphenyl" = /singleton/reagent/mortaphenyl, "Neurapan" = /singleton/reagent/mental/neurapan)
+	var/list/choices = list("Inaprovaline" = /singleton/reagent/inaprovaline, "Bicaridine" = /singleton/reagent/bicaridine, "Kelotane" = /singleton/reagent/kelotane, "Dylovene" = /singleton/reagent/dylovene, "Hyperzine" = /singleton/reagent/hyperzine, "Peridaxon" = /singleton/reagent/peridaxon, "Tramadol" = /singleton/reagent/mortaphenyl, "Fluvoxamine" = /singleton/reagent/mental/neurapan) // NEW HORIZONS EDIT CHANGE - Chemical renames
 	var/chem = tgui_input_list(src, "Select a chemical to secrete.", "Chemicals", choices)
 
 	if(!chem || chemicals < 20 || !host || controlling || !src || stat) //Sanity check.
