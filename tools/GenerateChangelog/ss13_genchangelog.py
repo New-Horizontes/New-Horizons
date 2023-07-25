@@ -51,25 +51,20 @@ args = opt.parse_args()
 all_changelog_entries = {}
 
 validPrefixes = [
-    'bugfix',
-    'wip',
-    'tweak',
-    'soundadd',
-    'sounddel',
-    'rscdel',
-    'rscadd',
-    'imageadd',
-    'imagedel',
-    'maptweak',
+    'fix',
+    'qol',
+    'sound',
+    'add',
+    'del',
+    'image',
     'spellcheck',
-    'experiment',
     'balance',
+    'code',
     'admin',
-    'backend',
-    'security',
-    'refactor'
+    'refactor',
+    'config',
+    'server',
 ]
-
 
 def dictToTuples(inp):
     return [(k, v) for k, v in inp.items()]
