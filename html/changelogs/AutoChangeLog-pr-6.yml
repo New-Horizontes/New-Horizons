@@ -1,0 +1,5 @@
+author: INKVD
+delete-after: true
+changes:
+  - refactor: Refactored several chemical' flavor back to their real life / older
+      counterparts.
