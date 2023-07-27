@@ -1,6 +1,6 @@
 /obj/item/clothing/accessory/badge/press
 	name = "corporate press pass"
-	desc = "A corporate reporter's pass, emblazoned with the SCC logo."
+	desc = "A corporate reporter's pass, emblazoned with a corporate logo."
 	badge_string = "Corporate Reporter"
 
 //.Holobadges.
@@ -44,7 +44,7 @@
 	item_state = "passcard_sol"
 
 /obj/item/clothing/accessory/badge/passcard/sol/pluto
-	desc_extended = "Plutonian passcards, in addition to the features of their cousins in the greater Interstellar Protectorate, include details such as Charon Shipping internship reviews and delivery time records, available for viewing by personnel \
+	desc_extended = "Plutonian passcards, in addition to the features of their cousins in the greater Interstellar Protectorate, include details such as Corporate employment status and delivery time records, available for viewing by personnel \
 	with the appropriate scanning measures."
 
 /obj/item/clothing/accessory/badge/passcard/sol/jupiter
