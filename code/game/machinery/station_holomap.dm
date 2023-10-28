@@ -16,7 +16,7 @@
 	var/light_power_on = 1
 	var/light_range_on = 2
 
-	layer = 3.25	// Above windows.
+	layer = WINDOW_PANE_LAYER + 0.1
 
 	var/mob/watching_mob = null
 	var/image/small_station_map = null
@@ -198,6 +198,7 @@
 	active_power_usage = 0
 
 /obj/machinery/station_map/mobile/Initialize()
+	SHOULD_CALL_PARENT(FALSE)
 	init_map()
 
 	initialized = TRUE

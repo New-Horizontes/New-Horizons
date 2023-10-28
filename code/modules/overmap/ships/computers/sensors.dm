@@ -11,7 +11,7 @@
 	var/contact_details = null
 	var/contact_name = null
 
-	var/working_sound = 'sound/machines/sensors/ping.ogg'
+	var/working_sound = 'sound/machines/sensors/sensorloop.ogg'
 	var/datum/sound_token/sound_token
 	var/sound_id
 
@@ -21,10 +21,22 @@
 /obj/machinery/computer/ship/sensors/cockpit
 	density = 0
 	icon = 'icons/obj/cockpit_console.dmi'
+	working_sound = 'sound/machines/sensors/ping.ogg'
 	icon_state = "left_wide"
 	icon_screen = "sensors"
 	icon_keyboard = null
 	circuit = null
+
+/obj/machinery/computer/ship/sensors/terminal
+	name = "sensors terminal"
+	icon = 'icons/obj/machinery/modular_terminal.dmi'
+	icon_screen = "teleport"
+	icon_keyboard = "teleport_key"
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
+
 
 /obj/machinery/computer/ship/sensors/Destroy()
 	QDEL_NULL(sound_token)
