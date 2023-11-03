@@ -1,0 +1,314 @@
+/obj/effect/overmap/visitable/ship/sccv_horizon
+	class = "UNPV"
+	designation = "Horizon"
+	desc = "A line without compare, the Expeditionary Enterprise-Class Cruiser-series were the pioneers of early human exploration, until their inevitable retirement as technology progressed. The UNSV Horizon was one such vessel that faced retirement at a decommissioning yard, before being brought back and retrofit into service by The Protectorate. Designed to be an entirely self-sufficient general-purpose surveying ship and to carry multiple replacement crews simultaneously, this Monitor-Type Frigate has been retrofit with both a military-grade bluespace drive and a more modern warp drive to replace its ancient mode, as well as two different engines. Defying typical frigate dimensions, the Horizon is home to a sizable residential deck below the operations deck of the ship, where the crew is housed. It also features weapon hardpoints in its prominent wing nacelles. This one's transponder identifies it, obviously, as the UNPV Horizon."
+	icon_state = "venator"
+	moving_state = "venator_moving"
+	colors = list("#cfd4ff", "#78adf8")
+	fore_dir = SOUTH
+	vessel_mass = 70000
+	burn_delay = 2 SECONDS
+	base = TRUE
+
+	scanimage = "horizon.png"
+	designer = "United Nations Interstellar Colonization Effort, Vickers Shipwright Dock - Jupiter Orbital"
+	volume = "97 meters length, 161 meters beam/width, 48 meters vertical height"
+	drive = "First-Gen Warp Capable, Hybrid Phoron Bluespace Drive"
+	propulsion = "Superheated Composite Gas Thrust"
+	weapons = "Two extruding naval ballistic weapon mounts, unidentifiable spinal artillery mount"
+	sizeclass = "Protectorate Monitor-Class Frigate"
+	shiptype = "Retrofit exploration and survey vessel"
+
+	initial_restricted_waypoints = list(
+		"Spark" = list("nav_hangar_mining"), 	//can't have random shuttles popping inside the ship
+		"Intrepid" = list("nav_hangar_intrepid"),
+		"Canary" = list("nav_hangar_canary")
+	)
+
+	initial_generic_waypoints = list(
+		"nav_hangar_horizon_1",
+		"nav_hangar_horizon_2",
+		"nav_dock_horizon_1",
+		"nav_dock_horizon_2",
+		"nav_dock_horizon_3",
+		"nav_dock_horizon_4",
+		"deck_one_fore_of_horizon",
+		"deck_one_starboard_side",
+		"deck_one_port_side",
+		"deck_one_aft_of_horizon",
+		"deck_one_near_starboard_propulsion",
+		"deck_one_near_port_propulsion",
+		"deck_two_fore_of_horizon",
+		"deck_two_starboard_fore",
+		"deck_two_port_fore",
+		"deck_two_aft_of_horizon",
+		"deck_two_port_aft",
+		"deck_two_starboard_aft",
+		"deck_three_fore_of_horizon",
+		"deck_three_fore_starboard_of_horizon",
+		"deck_three_port_fore_of_horizon",
+		"deck_three_aft_of_horizon",
+		"deck_three_port_aft_of_horizon"
+	)
+
+	tracked_dock_tags = list(
+		"nav_hangar_mining",
+		"nav_hangar_intrepid",
+		"nav_hangar_canary",
+		"nav_cargo_shuttle_dock",
+		"nav_hangar_horizon_1",
+		"nav_burglar_hangar",
+		"nav_hangar_horizon_2",
+		"nav_distress_blue",
+		"nav_merchant_dock",
+		"nav_ccia_dock",
+		"nav_merc_dock",
+		"nav_dock_horizon_1",
+		"nav_legion_green",
+		"nav_dock_horizon_4",
+		"nav_ert_dock"
+	)
+
+/obj/effect/overmap/visitable/ship/sccv_horizon/get_skybox_representation()
+	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "horizon")
+	skybox_image.pixel_x = rand(0,64)
+	skybox_image.pixel_y = rand(128,256)
+	return skybox_image
+
+/obj/effect/overmap/visitable/ship/landable/intrepid
+	name = "Intrepid"
+	class = "UNIES"
+	designation = "Intrepid"
+	desc = "A standard-sized exploration shuttle manufactured by Hephaestus, the Pathfinder-class is commonly used across human space. Featuring well-rounded facilities and equipment, the Pathfinder is excellent, albeit pricey, platform. This one's transponder identifies it as the UNIES Intrepid."
+	shuttle = "Intrepid"
+	icon_state = "intrepid"
+	moving_state = "intrepid_moving"
+	colors = list("#cfd4ff", "#78adf8")
+	max_speed = 1/(2 SECONDS)
+	burn_delay = 1 SECONDS
+	vessel_mass = 5000
+	fore_dir = SOUTH
+	vessel_size = SHIP_SIZE_SMALL
+	scanimage = "intrepid.png"
+	designer = "Hephaestus Industries"
+	volume = "21 meters length, 16 meters beam/width, 6 meters vertical height"
+	sizeclass = "Pathfinder Exploration Shuttle"
+	shiptype = "Field expeditions and private research uses"
+
+/obj/effect/overmap/visitable/ship/landable/intrepid/get_skybox_representation()
+	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "intrepid")
+	skybox_image.pixel_x = rand(0,64)
+	skybox_image.pixel_y = rand(128,256)
+	return skybox_image
+
+/obj/machinery/computer/shuttle_control/explore/intrepid
+	name = "\improper Intrepid control console"
+	shuttle_tag = "Intrepid"
+	req_access = list(access_intrepid)
+	density = 0
+	icon = 'icons/obj/cockpit_console.dmi'
+	icon_state = "right"
+	icon_screen = "blue"
+	icon_keyboard = null
+	circuit = null
+
+/obj/effect/overmap/visitable/ship/landable/mining_shuttle
+	name = "Spark"
+	class = "UNLS"
+	designation = "Spark"
+	desc = "A common, modestly-sized short-range shuttle manufactured by Hephaestus. Most frequently used as a mining platform, the Pickaxe-class is entirely reliant on a reasonably-sized mothership for anything but short-term functionality. This one's transponder identifies it as belonging to the United Nations Interstellar Protectorate."
+	shuttle = "Spark"
+	icon_state = "spark"
+	moving_state = "spark_moving"
+	colors = list("#cfd4ff", "#78adf8")
+	scanimage = "spark.png"
+	designer = "Hephaestus Industries"
+	volume = "11 meters length, 9 meters beam/width, 4 meters vertical height"
+	sizeclass = "Pickaxe-Class Mining Shuttle"
+	shiptype = "Logistics - Field survey and specialized prospecting"
+	max_speed = 1/(3 SECONDS)
+	burn_delay = 2 SECONDS
+	vessel_mass = 3000 //very inefficient pod
+	fore_dir = SOUTH
+	vessel_size = SHIP_SIZE_TINY
+
+/obj/effect/overmap/visitable/ship/landable/mining_shuttle/get_skybox_representation()
+	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "spark")
+	skybox_image.pixel_x = rand(0,64)
+	skybox_image.pixel_y = rand(128,256)
+	return skybox_image
+
+/obj/machinery/computer/shuttle_control/explore/mining_shuttle
+	name = "\improper Spark control console"
+	shuttle_tag = "Spark"
+	req_access = list(access_mining)
+	density = 0
+	icon = 'icons/obj/cockpit_console.dmi'
+	icon_state = "right"
+	icon_screen = "blue"
+	icon_keyboard = null
+	circuit = null
+
+/obj/effect/overmap/visitable/ship/landable/canary
+	name = "Canary"
+	class = "UNPV"
+	designation = "Canary"
+	desc = "A high-speed scouting craft akin to a less-maneuverable aerospace fighter. The Jester-type was originally an interceptor platform commissioned and produced to populate the hangars of Protectorate carriers, but it has also found private corporate use. While now outdated, the solid design has found much appeal in long-term voyages due to minimal maintenance and compact size. This one has obvious thruster upgrades from similar obsolete counterparts."
+	shuttle = "Canary"
+	icon_state = "canary"
+	moving_state = "canary_moving"
+	colors = list("#cfd4ff", "#78adf8")
+	scanimage = "canary.png"
+	designer = "Hephaestus Industries, NanoTrasen"
+	volume = "14 meters length, 7 meters beam/width, 5 meters vertical height"
+	weapons = "Extruding fore-mounted low-caliber ballistic rotary armament"
+	sizeclass = "Jester-type Scout Skiff"
+	shiptype = "Exploratory survey and scouting, high-speed target interception"
+	max_speed = 2/(1 SECONDS)
+	burn_delay = 1 SECONDS
+	vessel_mass = 2500
+	fore_dir = SOUTH
+	vessel_size = SHIP_SIZE_TINY
+
+/obj/effect/overmap/visitable/ship/landable/canary/get_skybox_representation()
+	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "canary")
+	skybox_image.pixel_x = rand(0,64)
+	skybox_image.pixel_y = rand(128,256)
+	return skybox_image
+
+/obj/machinery/computer/shuttle_control/explore/canary
+	name = "\improper Canary control console"
+	shuttle_tag = "Canary"
+	req_access = list(access_intrepid)
+	density = 0
+	icon = 'icons/obj/cockpit_console.dmi'
+	icon_state = "right"
+	icon_screen = "blue"
+	icon_keyboard = null
+	circuit = null
+
+/obj/effect/shuttle_landmark/horizon/nav1
+	name = "First Deck Port Hangar Bay 1a"
+	landmark_tag = "nav_hangar_horizon_1"
+	base_turf = /turf/simulated/floor/plating
+	base_area = /area/hangar/auxiliary
+
+/obj/effect/shuttle_landmark/horizon/nav2
+	name = "First Deck Port Hangar Bay 2a"
+	landmark_tag = "nav_hangar_horizon_2"
+	base_turf = /turf/simulated/floor/plating
+	base_area = /area/hangar/auxiliary
+
+//external landmarks for overmap ships
+/obj/effect/shuttle_landmark/horizon/dock1
+	name = "Third Deck Starboard Dock 2"
+	landmark_tag = "nav_dock_horizon_1"
+	docking_controller = "dock_horizon_1_airlock"
+	base_turf = /turf/simulated/floor/reinforced/airless
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/horizon/dock2 //shares a spot with the TCFL ERT shuttle, but having multiple use cases is fine, ERTs are adminspawned only as well
+	name = "Third Deck Starboard Dock 2"
+	landmark_tag = "nav_dock_horizon_2"
+	base_turf = /turf/simulated/floor/reinforced/airless
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/horizon/dock3
+	name = "Third Deck Starboard Dock 3"
+	landmark_tag = "nav_dock_horizon_3"
+	docking_controller = "dock_horizon_3_airlock"
+	base_turf = /turf/simulated/floor/reinforced/airless
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/horizon/dock4
+	name = "Third Deck Port Dock 2"
+	landmark_tag = "nav_dock_horizon_4"
+	docking_controller = "dock_horizon_4_airlock"
+	base_turf = /turf/simulated/floor/reinforced/airless
+	base_area = /area/space
+
+//Deck one landmarks that overmap shuttles can go to
+/obj/effect/shuttle_landmark/horizon/deckone
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/horizon/deckone/fore
+	name = "Deck One, Fore of Horizon"
+	landmark_tag = "deck_one_fore_of_horizon"
+
+/obj/effect/shuttle_landmark/horizon/deckone/port
+	name = "Deck One, Port of Horizon"
+	landmark_tag = "deck_one_port_side"
+
+/obj/effect/shuttle_landmark/horizon/deckone/starboard
+	name = "Deck One, Starboard of Horizon"
+	landmark_tag = "deck_one_starboard_side"
+
+/obj/effect/shuttle_landmark/horizon/deckone/aft
+	name = "Deck One, Aft of Horizon"
+	landmark_tag = "deck_one_aft_of_horizon"
+
+/obj/effect/shuttle_landmark/horizon/deckone/port_propulsion
+	name = "Deck One, Near Port Propulsion"
+	landmark_tag = "deck_one_near_port_propulsion"
+
+/obj/effect/shuttle_landmark/horizon/deckone/starboard_propulsion
+	name = "Deck One, Near Starboard Propulsion"
+	landmark_tag = "deck_one_near_starboard_propulsion"
+
+
+////Deck two landmarks that overmap shuttles can go to
+/obj/effect/shuttle_landmark/horizon/decktwo
+	base_turf = /turf/space
+	base_area = /area/space
+
+/obj/effect/shuttle_landmark/horizon/decktwo/fore
+	name = "Deck Two, Fore of Horizon"
+	landmark_tag = "deck_two_fore_of_horizon"
+
+/obj/effect/shuttle_landmark/horizon/decktwo/starboard_fore
+	name = "Deck Two, Starboard Fore of Horizon"
+	landmark_tag = "deck_two_starboard_fore"
+
+/obj/effect/shuttle_landmark/horizon/decktwo/port_fore
+	name = "Deck Two, Port Fore of Horizon"
+	landmark_tag = "deck_two_port_fore"
+
+/obj/effect/shuttle_landmark/horizon/decktwo/aft
+	name = "Deck Two, Aft of Horizon"
+	landmark_tag = "deck_two_aft_of_horizon"
+
+/obj/effect/shuttle_landmark/horizon/decktwo/starboard_aft
+	name = "Deck One, Starboard Aft of horizon"
+	landmark_tag = "deck_two_starboard_aft"
+
+/obj/effect/shuttle_landmark/horizon/decktwo/port_aft
+	name = "Deck One, Port Aft of Horizon"
+	landmark_tag = "deck_two_port_aft"
+
+
+////Deck three landmarks that overmap shuttles can go to
+/obj/effect/shuttle_landmark/horizon/deckthree
+	base_turf = /turf/space
+	base_area = /area/space
+
+//This is in front of the bridge, which I think deserves particular notice here
+/obj/effect/shuttle_landmark/horizon/deckthree/fore
+	name = "Deck Three, Fore of Horizon"
+	landmark_tag = "deck_three_fore_of_horizon"
+
+/obj/effect/shuttle_landmark/horizon/deckthree/starboardfore
+	name = "Deck Three, Starboard Fore of Horizon"
+	landmark_tag = "deck_three_fore_starboard_of_horizon"
+
+/obj/effect/shuttle_landmark/horizon/deckthree/portfore
+	name = "Deck Three, Fore Port of Horizon"
+	landmark_tag = "deck_three_port_fore_of_horizon"
+
+/obj/effect/shuttle_landmark/horizon/deckthree/portaft
+	name = "Deck Three, Aft Port of Horizon"
+	landmark_tag = "deck_three_port_aft_of_horizon"
+
+/obj/effect/shuttle_landmark/horizon/deckthree/aft
+	name = "Deck Three, Aft of Horizon"
+	landmark_tag = "deck_three_aft_of_horizon"

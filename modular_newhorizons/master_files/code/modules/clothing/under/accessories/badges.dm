@@ -39,7 +39,7 @@
 	desc_extended = "A passcard is a modern evolution of the state-issued identification card, with all the functionality of a driver's license, birth certificate, passport, or other document, \
 	updated as necessary or able by a central government. The concept was pioneered in the early days of the United Nations, and continues in most human stellar nations to this day, owing to the availability \
 	and price of consumer plastics and self-powered microholograms."
-	icon = 'modular_newhorizons/master_files/icons/clothing/accessories/passcards.dmi
+	icon = 'modular_newhorizons/master_files/icons/clothing/accessories/passcards.dmi'
 	icon_state = "passcard_sol"
 	item_state = "passcard_sol"
 
@@ -111,6 +111,6 @@
 /obj/item/clothing/accessory/badge/passport/sol
 	name = "Protectorate passport"
 	desc = "A passport issued to a citizen of the United Nations Interstellar Protectorate, or simply The Protectorate. Often considered an outdated document for passage abroad, but it comes in handy as many colonies still use these documents, either neglecting a passcard or requesting both."
-	icon = 'modular_newhorizons/master_files/icons/clothing/accessories/passcards.dmi
+	icon = 'modular_newhorizons/master_files/icons/clothing/accessories/passcards.dmi'
 	icon_state = "passport_sol"
 	item_state = "passport_sol"

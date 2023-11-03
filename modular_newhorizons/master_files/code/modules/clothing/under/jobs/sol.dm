@@ -57,7 +57,7 @@
 
 /obj/item/clothing/under/rank/sol/army/grey //grey army fatigues
 	name = "grey protectorate army fatigues"
-	desc = "A set of grey military fatigues issued to the soldiers of the Protectorate Army, you can tell it's an army uniform because its often shown on enlistment posters.
+	desc = "A set of grey military fatigues issued to the soldiers of the Protectorate Army, you can tell it's an army uniform because its often shown on enlistment posters."
 
 /obj/item/clothing/under/rank/sol/army/service // army enlisted service uniform
 	name = "protectorate army service uniform"
