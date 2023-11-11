@@ -30,7 +30,7 @@
 	brute_mod = 1.2
 	fall_mod = 0.5
 
-	grab_mod = 1.25 // Fur easy to cling onto
+	grab_mod = 0.75 // Fur easy to cling onto
 
 	age_min = 21
 	age_max = 110
@@ -137,3 +137,6 @@
 		return
 	var/obj/item/clothing/shoes/sandal/S = new /obj/item/clothing/shoes/sandal(H)
 	H.equip_to_slot_or_del(S,slot_shoes)
+
+/datum/species/get_species_record_sex(var/mob/living/carbon/human/H)
+	return H.pronouns

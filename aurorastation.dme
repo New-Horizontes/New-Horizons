@@ -3695,7 +3695,6 @@
 #include "maps\sccv_horizon\code\sccv_horizon_unittest.dm"
 #include "maps\templates\distress\distress_equipment.dm"
 #include "maps\templates\orbital\orbital_templates.dm"
-#include "modular_newhorizons\master_files\code\_defines\species_languages.dm"
 #include "modular_newhorizons\master_files\code\game\objects\items\weapons\storage\pill_bottle.dm"
 #include "modular_newhorizons\master_files\code\modules\mob\language\station.dm"
 #include "modular_newhorizons\master_files\code\modules\mob\living\carbon\human\species\station\tajara\tajara.dm"
@@ -3705,4 +3704,5 @@
 #include "modular_newhorizons\master_files\code\modules\reagents\Chemistry-Reagents\Chemistry-Recipes.dm"
 #include "modular_newhorizons\master_files\code\modules\reagents\reagent_containers\pill.dm"
 #include "modular_newhorizons\master_files\code\modules\reagents\reagent_containers\syringes.dm"
+#include "modular_newhorizons\modules\offworlder-taj\code\tajaran_subspecies.dm"
 // END_INCLUDE
