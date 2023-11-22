@@ -9,9 +9,16 @@
 
 /singleton/origin_item/origin/unathi_pirate
 	name = "Unathi Spaceborn"
-	desc = "Spaceborn Unathi have no common group holding them all together to work as one,, and instead tend to be organized into small fleets of ships, or solitary vessels and stations. They tend towards ambition and passion, acting impulsively towards what they desire."
+	desc = "Spaceborn Unathi have no common group holding them all together to work as one, and instead tend to be organized into small fleets of ships, or solitary vessels and stations. They tend towards ambition and passion, acting impulsively towards what they desire."
 	//important_information = "Outside of the Hegemony, records should say they have some kind of visa instead of citizenship."
 	possible_accents = list(ACCENT_TRAD_PEASANT, ACCENT_HEARTLAND_PEASANT, ACCENT_TRAD_NOBLE, ACCENT_TZA_PEASANT, ACCENT_TZA_NOBLE, ACCENT_SOUTHLANDS_NOBLE, ACCENT_SOUTHLANDS_PEASANT, ACCENT_TORN, ACCENT_ZAZ_LOW, ACCENT_ZAZ_HIGH, ACCENT_BROKEN_PEASANT, ACCENT_BROKEN_NOBLE, ACCENT_WASTELAND, ACCENT_UNATHI_SPACER, ACCENT_HAZANA)
+	possible_citizenships = list(CITIZENSHIP_IZWESKI, CITIZENSHIP_BIESEL, CITIZENSHIP_COALITION)
+	possible_religions = list(RELIGION_THAKH, RELIGION_SKAKH, RELIGION_AUTAKH, RELIGION_OTHER, RELIGION_NONE)
+
+/singleton/origin_item/origin/ouerea
+	name = "Zakkeran Unathi"
+	desc = "Even if the planet of Zakkera is primarily the home of the Sassurite tribes, over the ages both the Tech-Princes of Yzali and the God-Kings of Moghes have fought for a grip on the planet, and established their own colonies upon its surface. You may very well be a resident of such a Zakkeran City, or any other sort that did not hail from the Forest or Mountain tribes."
+	possible_accents = list(ACCENT_BROKEN_PEASANT, ACCENT_ZAZ_HIGH, ACCENT_TZA_PEASANT, ACCENT_TZA_NOBLE)
 	possible_citizenships = list(CITIZENSHIP_IZWESKI, CITIZENSHIP_BIESEL, CITIZENSHIP_COALITION)
 	possible_religions = list(RELIGION_THAKH, RELIGION_SKAKH, RELIGION_AUTAKH, RELIGION_OTHER, RELIGION_NONE)
 

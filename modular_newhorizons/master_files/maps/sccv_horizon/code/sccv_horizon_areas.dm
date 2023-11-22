@@ -577,7 +577,7 @@
 	name = "Horizon - Holodeck - Chessboard"
 
 /area/horizon/holodeck/source_adhomai
-	name = "Horizon - Holodeck - Adhomian Campfire"
+	name = "Horizon - Holodeck - Azunal Campfire"
 
 /area/horizon/holodeck/source_beach
 	name = "Horizon - Holodeck - Silversunner Coast"

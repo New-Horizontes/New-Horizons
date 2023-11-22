@@ -34,6 +34,6 @@
 
 /obj/item/clothing/head/vaurca_breeder/hegemony
 	name = "hegemony representative shroud"
-	desc = "Large shroud used by K'lax Izweski Hegemony representatives."
+	desc = "Large shroud used by K'lax Unathi Hegemony representatives."
 	item_state = "hive_rep_shroud_hegemony"
 	icon_state = "hive_rep_shroud_hegemony"

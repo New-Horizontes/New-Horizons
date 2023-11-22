@@ -1,7 +1,7 @@
 /datum/citizenship/izweski
 	name = CITIZENSHIP_IZWESKI
-	description = "The Hegemony is the tenuous alliance of the three major planets of Bomus. Underneath the Hegemon, who rules from orbit of the homeworld of Moghes, there are colony worlds ruled by Overlords. \
-	Under Overlords land on planets are divided between Lords, with the rest of the feudal hierarchy being beneath them. The Clan system is deeply entrenched in Unathi society, \
+	description = "The Hegemony is the tenuous alliance of the three major planets of Bomus. Underneath the Hegemon, who rules from orbit of the homeworld of Moghes, there are colony worlds ruled by Overlords, who in turn answer to the Hegemon but above all, to their sponsor, be it an Ensi or Tech-Prince. \
+	Under Overlords land on planets are divided between Lords, with the rest of the feudal hierarchy being beneath them, and commonly organized in the image of Moghes or Yzali society. The Clan system is deeply entrenched in Unathi society, \
 	with everything else revolving around it. It forms a major part of their code of honor, which stresses the importance of martial abilities and loyalty to the Clan. Despite an \
 	apocalyptic solar flare that nearly plunged the species into ruin, the Unathi have rebounded and are currently working on making the Hegemony a galactic power."
 	consular_outfit = /datum/outfit/job/representative/consular/izweski

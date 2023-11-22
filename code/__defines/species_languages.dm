@@ -44,10 +44,10 @@
 #define LANGUAGE_SOL_COMMON "Sol Common"
 #define LANGUAGE_ELYRAN_STANDARD "Elyran Standard"
 #define LANGUAGE_UNATHI "Sinta'unathi"
-#define LANGUAGE_SIIK_MAAS "Siik'maas"
+#define LANGUAGE_SIIK_MAAS "Yapudi" //New Horizons Edit
 #define LANGUAGE_SIIK_TAJR "Siik'tajr"
-#define LANGUAGE_SIGN_TAJARA "Nal'rasan"
-#define LANGUAGE_YA_SSA "Ya'ssa"
+#define LANGUAGE_SIGN_TAJARA "Oponi" //New Horizons Edit
+#define LANGUAGE_YA_SSA "Ornadi" //New Horizons Edit
 #define LANGUAGE_DELVAHII "Delvahhi"
 #define LANGUAGE_SKRELLIAN "Nral'Malic"
 #define LANGUAGE_ROOTSONG "Rootsong"

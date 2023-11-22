@@ -105,7 +105,7 @@
 		"Swimming Pool"      = "pool",
 		"Sauna"      = "sauna",
 		"Bursa Tundra"       = "snowfield",
-		"Adhomian Campfire"  = "adhomai",
+		"Azunal Campfire"  = "adhomai",
 		"Moghresian Jungle"  = "moghes",
 		"Callistean Theatre" = "theatre",
 		"Meeting Hall"       = "meetinghall",

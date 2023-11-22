@@ -1,6 +1,6 @@
 /datum/map_template/ruin/away_site/ssmd_corvette
-	name = "SSMD Corvette"
-	description = "A long-range reconnaissance corvette design in use by the Solarian Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Alliance's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
+	name = "UNIP Corvette"
+	description = "A long-range reconnaissance corvette design in use by the Protectorate Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Protectorate's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
 	In spite of its small size, the Uhlan has relatively generous crew facilities and it is well-armed relative to its size and role, all made possible by extensive automation."
 	suffixes = list("ships/sol_ssmd/ssmd_ship.dmm")
 	sectors = list(SECTOR_BADLANDS)
@@ -10,8 +10,8 @@
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/ssmd_shuttle)
 
 /singleton/submap_archetype/ssmd_corvette
-	map = "SSMD Corvette"
-	descriptor = "A long-range reconnaissance corvette design in use by the Solarian Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Alliance's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
+	map = "UNIP Corvette"
+	descriptor = "A long-range reconnaissance corvette design in use by the Protectorate Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Protectorates's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
 	In spite of its small size, the Uhlan has relatively generous crew facilities and it is well-armed relative to its size and role, all made possible by extensive automation."
 
 //areas
@@ -86,15 +86,15 @@
 //ship stuff
 
 /obj/effect/overmap/visitable/ship/ssmd_corvette
-	name = "SSMD Corvette"
-	class = "SSMDV"
-	desc = "A long-range reconnaissance corvette design in use by the Solarian Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Alliance's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
+	name = "UNPS Corvette"
+	class = "UNPS"
+	desc = "A long-range reconnaissance corvette design in use by the Protectorate Navy, the Uhlan-class is a relatively costly and somewhat uncommon ship to be seen in the Protectorate's fleets, and is typically reserved for more elite (or at least better equipped and trained) units. Designed to operate alone or as part of a small task force with minimal support in unfriendly space, it is most commonly seen assigned to probing, surveillance, harassment, and strike operations. \
 	In spite of its small size, the Uhlan has relatively generous crew facilities and it is well-armed relative to its size and role, all made possible by extensive automation."
 	icon_state = "corvette"
 	moving_state = "corvette_moving"
 	colors = list("#9dc04c", "#52c24c")
 	scanimage = "corvette.png"
-	designer = "Solarian Navy"
+	designer = "United Nations Interstellar Protectorate - Specialist Navy Design"
 	volume = "41 meters length, 43 meters beam/width, 19 meters vertical height"
 	drive = "Low-Speed Warp Acceleration FTL Drive"
 	weapons = "Dual extruding fore caliber ballistic armament, fore obscured flight craft bay"
@@ -106,7 +106,7 @@
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_SMALL
 	initial_restricted_waypoints = list(
-		"SSMD Shuttle" = list("nav_hangar_ssmd")
+		"UNPS Shuttle" = list("nav_hangar_ssmd")
 	)
 
 	initial_generic_waypoints = list(
@@ -117,7 +117,7 @@
 	invisible_until_ghostrole_spawn = TRUE
 
 /obj/effect/overmap/visitable/ship/ssmd_corvette/New()
-	designation = "[pick("Asparuh", "Magyar", "Hussar", "Black Army", "Hunyadi", "Piast", "Hussite", "Tepes", "Komondor", "Turul", "Vistula", "Sikorski", "Mihai", "Blue Army", "Strzyga", "Leszy", "Danube", "Sokoly", "Patriotism", "Duty", "Loyalty", "Florian Geyer", "Pilsudski", "Chopin", "Levski", "Valkyrie", "Tresckow", "Olbricht", "Dubcek", "Kossuth", "Nagy", "Clausewitz", "Poniatowski", "Orzel", "Turul", "Skanderbeg", "Ordog", "Perun", "Poroniec", "Klobuk", "Cavalryman", "Szalai's Own", "Upior", "Szalai's Pride", "Kuvasz", "Fellegvar", "Nowa Bratislawa", "Zbior", "Stadter", "Homesteader", "Premyslid", "Bohemia", "Discipline", "Cavalryman", "Order", "Law", "Tenacity", "Diligence", "Valiant", "Konik", "Victory", "Triumph", "Vanguard", "Jager", "Grenadier", "Honor Guard", "Visegrad", "Nil", "Warsaw", "Budapest", "Prague", "Sofia", "Bucharest", "Home Army", "Kasimir", "Veles", "Blyskawica", "Kubus")]"
+	designation = "[pick("Asparuh", "Magyar", "Hussar", "Black Army", "Hunyadi", "Piast", "Hussite", "Tepes", "Komondor", "Turul", "Vistula", "Sikorski", "Mihai", "Blue Army", "Strzyga", "Leszy", "Danube", "Sokoly", "Peacekeeper", "Duty", "Loyalty", "Florian Geyer", "Pilsudski", "Chopin", "Levski", "Valkyrie", "Tresckow", "Olbricht", "Dubcek", "Kossuth", "Nagy", "Clausewitz", "Poniatowski", "Orzel", "Turul", "Skanderbeg", "Ordog", "Perun", "Poroniec", "Klobuk", "Cavalryman", "Reinforcements Delayed", "Upior", "Earth's Pride", "Kuvasz", "Fellegvar", "Nowa Bratislawa", "Zbior", "Stadter", "Homesteader", "Premyslid", "Bohemia", "Discipline", "Cavalryman", "Order", "Law", "Tenacity", "Diligence", "Valiant", "Konik", "Victory", "Triumph", "Vanguard", "Jager", "Grenadier", "Honor Guard", "Visegrad", "Nil", "Warsaw", "Budapest", "Prague", "Sofia", "Bucharest", "Home Army", "Kasimir", "Veles", "Blyskawica", "Kubus")]"
 	..()
 
 /obj/effect/overmap/visitable/ship/ssmd_corvette/get_skybox_representation()
@@ -145,11 +145,11 @@
 
 //shuttle stuff
 /obj/effect/overmap/visitable/ship/landable/ssmd_shuttle
-	name = "SSMD Shuttle"
-	class = "SSMDV"
+	name = "UNPS Shuttle"
+	class = "UNPS"
 	designation = "Vizsla"
-	desc = "A modestly sized shuttle design used by the Solarian armed forces, the Destrier is well-armored but somewhat slow, and was explicitly designed to be as survivable as possible for operations during combat. Notably features a fast-deployment exosuit catapult."
-	shuttle = "SSMD Shuttle"
+	desc = "A modestly sized shuttle design used by the Protectorate armed forces, the Destrier is well-armored but somewhat slow, and was explicitly designed to be as survivable as possible for operations during combat. Notably features a fast-deployment exosuit catapult."
+	shuttle = "UNPS Shuttle"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
 	colors = list("#9dc04c", "#52c24c")
@@ -165,7 +165,7 @@
 	req_access = list(access_sol_ships)
 
 /datum/shuttle/autodock/overmap/ssmd_shuttle
-	name = "SSMD Shuttle"
+	name = "UNPS Shuttle"
 	move_time = 90
 	shuttle_area = list(/area/shuttle/ssmd_shuttle)
 	current_location = "nav_hangar_ssmd"
@@ -176,7 +176,7 @@
 	defer_initialisation = TRUE
 
 /obj/effect/shuttle_landmark/ssmd_shuttle/hangar
-	name = "SSMD Shuttle Hangar"
+	name = "UNPS Shuttle Hangar"
 	landmark_tag = "nav_hangar_ssmd"
 	docking_controller = "ssmd_shuttle_dock"
 	base_area = /area/ship/ssmd_corvette

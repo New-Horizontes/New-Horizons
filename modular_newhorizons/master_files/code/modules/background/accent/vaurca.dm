@@ -10,7 +10,7 @@
 /datum/accent/klax
     name = ACCENT_KLAX
     description = "K'laxane is the modern day dialect of the K'lax Hive. Primitive modulators manage to capture a similarity to the \
-    peasantry of the Izweski Hegemony on Moghes - however, they do not fully replicate it, retaining a more drawn out and dreamy tone. To other Vaurcae, this is \
+    peasantry of the Unathi Hegemony in Bomus - however, they do not fully replicate it, retaining a more drawn out and dreamy tone. To other Vaurcae, this is \
     a more subservient manner of speaking, akin to how Bound tend to draw out their thoughts - a common trait instilled in most vassal hives as a brand. Their \
     vocal augments stereotypically have difficulty, typically when producing sounds related to the letter 's', instead substituting with a harsh buzzing in the \
     throat - the K'lax experience less of this - no Unathi would be content listening to a Vaurca buzz incessantly when trying to hiss a sentence in the \

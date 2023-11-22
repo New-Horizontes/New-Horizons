@@ -55,7 +55,7 @@
 	item_state = "pmc_officer"
 
 /obj/item/clothing/under/rank/security/pmc/pmcsec
-	name = "OSS security uniform"
+	name = "OSS-C security uniform"
 	icon_state = "pmc"
 	item_state = "pmc"
 
@@ -64,8 +64,8 @@
 	item_state = "pmc_alt"
 
 /obj/item/clothing/under/rank/security/pmc/epmc // Note: Item Icon placeholder
-	name = "OSS-C security uniform"
-	desc_extended = "For Contractors operating under the OSS."
+	name = "OSS security uniform"
+	desc_extended = "The latest design for staff working for The Office of Special Services."
 	icon_state = "epmc"
 	item_state = "epmc"
 

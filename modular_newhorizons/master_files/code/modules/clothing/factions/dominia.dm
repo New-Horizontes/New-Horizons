@@ -1,6 +1,6 @@
 /obj/item/clothing/mask/breath/lyodsuit
-	name = "lyodsuit mask"
-	desc = "A simple mask that forms a part of the Dominian lyodsuit. Rather cozy, if you're warm-blooded. It has a port to connect air tanks to."
+	name = "novasuit mask"
+	desc = "A simple mask that forms a part of the Dominian Novasuit. Rather cozy, if you're warm-blooded. It has a port to connect air tanks to."
 	icon = 'icons/clothing/masks/lyodsuit.dmi'
 	icon_state = "dom_thermal_mask"
 	item_state = "dom_thermal_mask"
@@ -25,7 +25,7 @@
 	user.visible_message("<b>[user]</b> pulls \the [src] down to cover their face.", SPAN_NOTICE("You pull \the [src] down to cover your face."), range = 3)
 
 /obj/item/clothing/gloves/lyodsuit
-	name = "lyodsuit gloves"
+	name = "novasuit gloves"
 	desc = "A pair of thermal gloves, guaranteed to keep hands toasty."
 	icon = 'icons/clothing/gloves/lyodsuit.dmi'
 	icon_state = "dom_thermal_gloves"
@@ -33,7 +33,7 @@
 	contained_sprite = TRUE
 
 /obj/item/clothing/shoes/lyodsuit
-	name = "lyodsuit boots"
+	name = "novasuit boots"
 	desc = "A pair of thermal boots, guaranteed to prevent cold feet."
 	icon = 'icons/clothing/shoes/lyodsuit.dmi'
 	icon_state = "dom_thermal_boots"
@@ -76,91 +76,91 @@
 	return base
 
 /obj/item/clothing/accessory/poncho/dominia_cape/strelitz
-	name = "house strelitz cape"
-	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Strelitz."
+	name = "house macgregor cape"
+	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House MacGregor."
 	icon_state = "strelitz_cape"
 	item_state = "strelitz_cape"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/strelitz/white
-	name = "white house strelitz cape"
+	name = "white house macgregor cape"
 	icon_state = "strelitz_capew"
 	item_state = "strelitz_capew"
 	cape_backing_state = "capew_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/strelitz/zavod
-	name = "zavodskoi house strelitz cape"
+	name = "zavodskoi house macgregor cape"
 	icon_state = "strelitz_capez"
 	item_state = "strelitz_capez"
 	cape_backing_state = "capez_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/volvalaad
-	name = "house volvalaad cape"
-	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Volvalaad."
+	name = "house orlov cape"
+	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Orlov."
 	icon_state = "volvalaad_cape"
 	item_state = "volvalaad_cape"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/volvalaad/white
-	name = "white house volvalaad cape"
+	name = "white house orlov cape"
 	icon_state = "volvalaad_capew"
 	item_state = "volvalaad_capew"
 	cape_backing_state = "capew_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/volvalaad/zavod
-	name = "zavodskoi house volvalaad cape"
+	name = "zavodskoi house orlov cape"
 	icon_state = "volvalaad_capez"
 	item_state = "volvalaad_capez"
 	cape_backing_state = "capez_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/kazhkz
-	name = "house kazhkz cape"
-	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Kazhkz."
+	name = "house rodrigo cape"
+	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Rodrigo."
 	icon_state = "kazhkz_cape"
 	item_state = "kazhkz_cape"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/kazhkz/white
-	name = "white house kazhkz cape"
+	name = "white house rodrigo cape"
 	icon_state = "kazhkz_capew"
 	item_state = "kazhkz_capew"
 	cape_backing_state = "capew_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/kazhkz/zavod
-	name = "zavodskoi house kazhkz cape"
+	name = "zavodskoi house rodrigo cape"
 	icon_state = "kazhkz_capez"
 	item_state = "kazhkz_capez"
 	cape_backing_state = "capez_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/caladius
-	name = "house caladius cape"
-	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Caladius."
+	name = "house marchand cape"
+	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Marchand."
 	icon_state = "caladius_cape"
 	item_state = "caladius_cape"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/caladius/white
-	name = "white house caladius cape"
+	name = "white house marchand cape"
 	icon_state = "caladius_capew"
 	item_state = "caladius_capew"
 	cape_backing_state = "capew_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/caladius/zavod
-	name = "zavodskoi house caladius cape"
+	name = "zavodskoi house marchand cape"
 	icon_state = "caladius_capez"
 	item_state = "caladius_capez"
 	cape_backing_state = "capez_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/zhao
-	name = "house zhao cape"
-	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Zhao."
+	name = "house stahl-wright cape"
+	desc = "This is a cape in the style of Dominian nobility. This one is in the colours of House Stahl-Wright."
 	icon_state = "zhao_cape"
 	item_state = "zhao_cape"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/zhao/white
-	name = "white house zhao cape"
+	name = "white house stahl-wright cape"
 	icon_state = "zhao_capew"
 	item_state = "zhao_capew"
 	cape_backing_state = "capew_backing"
 
 /obj/item/clothing/accessory/poncho/dominia_cape/zhao/zavod
-	name = "zavodskoi house zhao cape"
+	name = "zavodskoi house stahl-wright cape"
 	icon_state = "zhao_capez"
 	item_state = "zhao_capez"
 	cape_backing_state = "capez_backing"
@@ -172,6 +172,13 @@
 	desc_extended = "Imperial Army half-tents have, since prior to the War of Moroz, been designed to be worn as protection against the elements. Many armsmen carry on this trend in order to maintain their Imperial Army roots, and some go as far to drape these half-tents over their voidsuits."
 	icon_state = "armsman_mantle"
 	item_state = "armsman_mantle"
+
+/obj/item/clothing/accessory/poncho/dominia_cape/hospital
+	name = "tribunalist medical cape"
+	desc = "A white-and-green cape in the style of the Dominian clergy. Worn by those medical workers affiliated with the Cassian Holy Tribunal or House Orlov."
+	cape_backing_state = ""
+	icon_state = "dominian_cape_hospital"
+	item_state = "dominian_cape_hospital"
 
 /obj/item/clothing/suit/storage/dominia
 	name = "dominian great coat"
@@ -207,7 +214,7 @@
 	name = "dominian consular's greatcoat"
 	desc = "A Dominian greatcoat issued to members of His Majesty's Diplomatic Service, designed in the typical Dominian fashion."
 	desc_extended = "His Majesty's Diplomatic Service - as with much of the Empire tends to be dominated by the great houses, though \
-	the Service also employs many commoners - as long as they can pass the rigorous examinations required to become a full member."
+	the Service also employs many commoners - as long as they can pass the rigorous examinations required to become a full member. Its administration and service mandate is under the purview of House Marchand."
 	icon_state = "dominia_consular_greatcoat"
 	item_state = "dominia_consular_greatcoat"
 
@@ -215,7 +222,7 @@
 	name = "dominian consular's coat"
 	desc = "A Dominian coat issued to members of His Majesty's Diplomatic Service, designed in the typical Dominian fashion."
 	desc_extended = "His Majesty's Diplomatic Service - as with much of the Empire tends to be dominated by the great houses, though \
-	the Service also employs many commoners - as long as they can pass the rigorous examinations required to become a full member."
+	the Service also employs many commoners - as long as they can pass the rigorous examinations required to become a full member. Its administration and service mandate is under the purview of House Marchand."
 	icon_state = "dominia_consular_coat"
 	item_state = "dominia_consular_coat"
 
@@ -223,19 +230,18 @@
 	contained_sprite = TRUE
 
 /obj/item/clothing/suit/storage/toggle/dominia/bomber
-	name = "fisanduhian bomber jacket"
-	desc = "A bomber jacket based off of styles created by Fisanduhian refugees. The double-breasted design works well for insulating \
+	name = "Cassian bomber jacket"
+	desc = "A bomber jacket based off of styles created by Cassian colonists. The double-breasted design works well for insulating \
 	heat, or concealing a small pistol."
-	desc_extended = "Fisanduhian fashion remains as rugged and steadfast as its people, as well as very distinctive from the usual Morozi fashions \
-	sourced from Moroz proper. Bomber jackets such as these were also frequently seen worn by members of the Fisanduh Freedom Front and came \
-	to be seen as an enduring symbol of their struggle for liberty."
+	desc_extended = "Classical Cassian fashion remains as rugged and steadfast as the original colonists of the planet, as well as very distinctive from the usual more modern Cassian fashions \
+	sourced from across the Empire. Bomber jackets such as these were also frequently utilized by the original colonists of the planet to endure the harsh winters, and are now commonly worn by members of the Imperial army and navy as off-duty clothing."
 	icon = 'icons/clothing/suits/coats/dominia_bomber.dmi'
 	icon_state = "dominia_bomber"
 	item_state = "dominia_bomber"
 
 /obj/item/clothing/suit/storage/toggle/dominia/bomber/long
-	name = "long fisanduhian bomber jacket"
-	desc = "A long bomber jacket based off of styles created by Fisanduhian refugees. The double-breasted design works well for insulating \
+	name = "long cassian bomber jacket"
+	desc = "A long bomber jacket based off of styles created by Cassian colonists. The double-breasted design works well for insulating \
 	heat, or concealing a small pistol."
 	icon_state = "dominia_bomber_long"
 	item_state = "dominia_bomber_long"
@@ -259,23 +265,23 @@
 		initial_icon_override = icon_state
 
 /obj/item/clothing/under/dominia/imperial_suit/strelitz
-	name = "house strelitz suit"
+	name = "house macgregor suit"
 	house = "strelitz"
 
 /obj/item/clothing/under/dominia/imperial_suit/volvalaad
-	name = "house volvalaad suit"
+	name = "house orlov suit"
 	house = "volvalaad"
 
 /obj/item/clothing/under/dominia/imperial_suit/kazhkz
-	name = "house kazhkz suit"
+	name = "house rogrido suit"
 	house = "kazhkz"
 
 /obj/item/clothing/under/dominia/imperial_suit/caladius
-	name = "house caladius suit"
+	name = "house marchand suit"
 	house = "caladius"
 
 /obj/item/clothing/under/dominia/imperial_suit/zhao
-	name = "house zhao suit"
+	name = "house stahl-wright suit"
 	house = "zhao"
 
 /obj/item/clothing/under/dominia/imperial_suit/black
@@ -283,28 +289,28 @@
 	item_state = "suit_imperial_black"
 
 /obj/item/clothing/under/dominia/sweater
-	name = "fisanduhian sweater"
-	desc = "This is a sweater of Fisanduhian style. Practical and utilitarian."
-	desc_extended = "Fisanduhian fashion remains as rugged and steadfast as its people, as well as very distinctive from the usual Morozi fashions \
-	sourced from Moroz proper. Sweaters such as this were a common sight in the region of Fisanduh, being comfortable to wear and very useful \
-	in the cold mountainous environment they lived in. It tends to be seen as something rather basic and droll by Imperials when compared \
-	to their more extravagant and colorful attire, but this suits the Confederates just fine."
+	name = "classic cassian sweater"
+	desc = "This is a sweater of Classic Cassian style. Practical and utilitarian."
+	desc_extended = "Classic Cassian fashion remains as rugged and steadfast as its the original colonists, as well as very distinctive from the usual modern Cassian fashions \
+	sourced from across the Empire. Sweaters such as this were a common sight in the first colonies on Cassia, being comfortable to wear and very useful \
+	in the cold environment they lived in. It tends to be seen as something rather basic and droll by most when compared \
+	to their more extravagant and colorful attires, but this suits anyone just fine."
 	icon = 'icons/clothing/under/uniforms/dominia_sweater.dmi'
 	icon_state = "dom_sweater"
 	item_state = "dom_sweater"
 
 /obj/item/clothing/under/dominia/lyodsuit
-	name = "lyodsuit"
-	desc = "An imitation Lyodsuit from Dominia. It's lightweight, and high has quality fabric that makes it extremely comfortable to wear."
-	desc_extended = "This Lyodsuit was created in Dominia. It is fashionable amongst the middle and lower classes of Dominia."
+	name = "novasuit"
+	desc = "An imitation Novasuit from Dominia. It's lightweight, and high has quality fabric that makes it extremely comfortable to wear."
+	desc_extended = "This Lyodsuit was created in Novoyakutsk. It is fashionable amongst the middle and lower classes of Dominia."
 	icon = 'icons/clothing/under/uniforms/lyodsuit.dmi'
 	icon_state = "dom_thermal"
 	item_state = "dom_thermal"
 	contained_sprite = TRUE
 
 /obj/item/clothing/under/dominia/lyodsuit/hoodie
-	name = "hoodied lyodsuit"
-	desc = "An imitation Lyodsuit from Dominia. It's lightweight, and high has quality fabric that makes it extremely comfortable to wear. This one has a hood mask attached."
+	name = "hoodied novasuit"
+	desc = "An imitation Novasuit from Dominia. It's lightweight, and high has quality fabric that makes it extremely comfortable to wear. This one has a hood mask attached."
 	icon = 'icons/clothing/under/uniforms/lyodsuit_hoodie.dmi'
 	icon_state = "dom_thermal_hoodie"
 	item_state = "dom_thermal_hoodie"
@@ -418,23 +424,23 @@
 		item_state += "b"
 
 /obj/item/clothing/under/dominia/dress/noble/strelitz
-	name = "strelitz noble dress"
+	name = "macgregor noble dress"
 	house = "strelitz"
 
 /obj/item/clothing/under/dominia/dress/noble/volvalaad
-	name = "volvalaad noble dress"
+	name = "orlov noble dress"
 	house = "volvalaad"
 
 /obj/item/clothing/under/dominia/dress/noble/kazhkz
-	name = "kazhkz noble dress"
+	name = "rogrido noble dress"
 	house = "kazhkz"
 
 /obj/item/clothing/under/dominia/dress/noble/caladius
-	name = "caladius noble dress"
+	name = "marchand noble dress"
 	house = "caladius"
 
 /obj/item/clothing/under/dominia/dress/noble/zhao
-	name = "zhao noble dress"
+	name = "stahl-wright noble dress"
 	house = "zhao"
 
 /obj/item/clothing/under/dominia/dress/noble/black
@@ -442,23 +448,23 @@
 	black = TRUE
 
 /obj/item/clothing/under/dominia/dress/noble/black/strelitz
-	name = "black strelitz noble dress"
+	name = "black macgregor noble dress"
 	house = "strelitz"
 
 /obj/item/clothing/under/dominia/dress/noble/black/volvalaad
-	name = "black volvalaad noble dress"
+	name = "black orlov noble dress"
 	house = "volvalaad"
 
 /obj/item/clothing/under/dominia/dress/noble/black/kazhkz
-	name = "black kazhkz noble dress"
+	name = "black rogrido noble dress"
 	house = "kazhkz"
 
 /obj/item/clothing/under/dominia/dress/noble/black/caladius
-	name = "black caladius noble dress"
+	name = "black marchand noble dress"
 	house = "caladius"
 
 /obj/item/clothing/under/dominia/dress/noble/black/zhao
-	name = "black zhao noble dress"
+	name = "black stahl-wright noble dress"
 	house = "zhao"
 
 /obj/item/clothing/accessory/poncho/dominia/red/surcoat
@@ -533,7 +539,7 @@
 	name = "tribunalist consular's cape"
 	desc = "A truly majestic gold and red cape worn by members of the clergy affiliated with His Majesty's Diplomatic Service."
 	desc_extended = "His Majesty's Diplomatic Service - as with much of the Empire tends to be dominated by the great houses, though the Service also \
-	employs may commoners - as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service."
+	employs may commoners - as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service. Its administration and service mandate is under the purview of House Marchand"
 	icon = 'icons/clothing/suits/capes/dominia_consular_cape.dmi'
 	icon_state = "dominia_cape_consular"
 	item_state = "dominia_cape_consular"
@@ -546,7 +552,7 @@
 	name = "dominian consular officer's uniform"
 	desc = "The traditional red-black-gold uniform of a member of His Majesty's Diplomatic Service."
 	desc_extended = "His Majesty's Diplomatic Service - as with much of the Empire tends to be dominated by the great houses, though the Service also employs many \
-	commoners - as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service."
+	commoners - as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service. Its administration and service mandate is under the purview of House Marchand"
 	icon = 'icons/clothing/under/uniforms/dominia_consular.dmi'
 	icon_state = "dominia_consular"
 	item_state = "dominia_consular"
@@ -560,7 +566,7 @@
 
 /obj/item/clothing/under/dominia/initiate
 	name = "tribunal initiate's robe"
-	desc = "A simple white robe with red trim and a red sash to fasten it. It's commonly worn by initiates of the Moroz Holy Tribunal."
+	desc = "A simple white robe with red trim and a red sash to fasten it. It's commonly worn by initiates of the Cassian Holy Tribunal."
 	desc_extended = "While the most obvious purpose of an initiate's red-and-white robe is to show that the hopeful clergy member is pure in mind and body, \
 	the stark whites of the robe also show when an initiate has neglected their appearance. The white robes must be constantly maintained and washed in order to \
 	maintain their pristine appearance, lest an initiate be found neglectful."
@@ -571,8 +577,8 @@
 
 /obj/item/clothing/under/dominia/priest
 	name = "tribunalist's robe"
-	desc = "A high-quality robe woven in black fabric with a golden trim with a red sash to fasten it. It's commonly worn by priests of the Moroz Holy Tribunal."
-	desc_extended = "The black and gold robes of Imperial priests and priestesses have been deliberately designed by House Caladius to resemble the coats commonly \
+	desc = "A high-quality robe woven in black fabric with a golden trim with a red sash to fasten it. It's commonly worn by priests of the Cassian Holy Tribunal."
+	desc_extended = "The black and gold robes of Imperial priests and priestesses have been deliberately designed by House Rodrigo to resemble the coats commonly \
 	worn by Dominian nobility, in order to demonstrate the importance of Dominia's priestly classes. Each robe is tailor-made to fit an initiate upon their \
 	successful ascension to full member of the clergy, and they are expected to care for their robes throughout their lives. The loss of one's robe is \
 	considered a major embarrassment both for the individual and their church."
@@ -585,7 +591,7 @@
 	name = "tribunalist consular's uniform"
 	desc = "The traditional red-black-gold uniform of a priestly member of His Majesty's Diplomatic Service."
 	desc_extended = "His Majesty's Diplomatic Service - as with much of the Empire tends to be dominated by the great houses, though the Service also employs many commoners \
-	- as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service."
+	- as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service. Its administration and service mandate is under the purview of House Marchand"
 	icon = 'icons/clothing/under/uniforms/dominia_consular_priest.dmi'
 	icon_state = "dominia_consular_priest"
 	item_state = "dominia_consular_priest"
@@ -595,7 +601,7 @@
 	name = "dominian consular officer's dress cap"
 	desc = "A quite fashionable cap issued to the members of His Majesty's Diplomatic Service."
 	desc_extended = "His Majesty's Diplomatic Service - as with much of the Empire tends to be dominated by the great houses, though the Service also employs many \
-    commoners - as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service."
+	commoners - as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service. Its administration and service mandate is under the purview of House Marchand"
 	icon = 'icons/clothing/head/dominia_consular_cap.dmi'
 	icon_state = "dominia_consular_cap"
 	item_state = "dominia_consular_cap"
@@ -603,25 +609,25 @@
 
 /obj/item/clothing/head/beret/dominia
 	name = "tribunal initiate's beret"
-	desc = "A simple red beret with a golden badge marking its wearer as an initiate of the Moroz Holy Tribunal."
-	desc_extended = "While initiates dress humbly in white and red clothing, this does not mean that House Caladius - the primary source of the Holy Tribunal's \
-	funding - spares any expenses funding them, and these berets are made of luxurious velvet."
+	desc = "A simple red beret with a golden badge marking its wearer as an initiate of the Cassian Holy Tribunal."
+	desc_extended = "While initiates dress humbly in white and red clothing, this does not mean that House Rodrigo - the primary source of the Holy Tribunal's \
+	funding and power - spares any expenses funding them, and these berets are made of luxurious velvet."
 	icon = 'icons/clothing/head/dominia_beret.dmi'
 	icon_state = "dominia_beret"
 	item_state = "dominia_beret"
 
 /obj/item/clothing/head/beret/dominia/medical
 	name = "tribunalist medical beret"
-	desc = "A white-and-green beret bearing the sigil of the Moroz Holy Tribunal on its front. Worn by those medical workers affiliated with the Moroz Holy Tribunal."
-	desc_extended = "Unlike the black and gold clothing of their priestly counterparts, the medical staff of the Moroz Holy Tribunal's temples are generally clad in white and green due to typically not being full members of the clergy. Occasionally, if a doctor is dedicated enough, they will be granted the right to wear the beret of a full Tribunal priest. This beret features an emblem of the eye made of green and white cloth."
+	desc = "A white-and-green beret bearing the sigil of the Cassian Holy Tribunal on its front. Worn by those medical workers affiliated with the Cassian Holy Tribunal or House Orlov."
+	desc_extended = "Unlike the black and gold clothing of their priestly counterparts, the medical staff of the Cassian Holy Tribunal's temples are generally clad in white and green due to typically not being full members of the clergy, but instead under the service of House Orlov. Occasionally, if a doctor is dedicated enough, they will be granted the right to wear the beret of a full Tribunal priest. This beret features an emblem of the eye made of green and white cloth."
 	icon = 'icons/clothing/head/dominia_beret_hospital.dmi'
 	icon_state = "dominia_beret_hospital"
 	item_state = "dominia_beret_hospital"
 
 /obj/item/clothing/head/beret/dominia/priest
 	name = "tribunalist's beret"
-	desc = "A black beret bearing the sigil of the Moroz Holy Tribunal on its front. Worn by full members of the Tribunal's clergy."
-	desc_extended = "With their black and gold clothing designed to resemble that of their noble counterparts, the full clergy of the Moroz Holy Tribunal \
+	desc = "A black beret bearing the sigil of the Cassian Holy Tribunal on its front. Worn by full members of the Tribunal's clergy."
+	desc_extended = "With their black and gold clothing designed to resemble that of their noble counterparts, the full clergy of the Cassian Holy Tribunal \
 	are a sight to behold both inside and outside of the Empire of Dominia. This beret features an emblem luxuriously and painstakingly crafted out of real gold."
 	icon = 'icons/clothing/head/dominia_beret_priest.dmi'
 	icon_state = "dominia_beret_priest"
@@ -629,8 +635,8 @@
 
 /obj/item/clothing/head/beret/dominia/priest/red
 	name = "tribunalist's beret"
-	desc = "A red beret bearing the sigil of the Moroz Holy Tribunal on its front. Worn by full members of the Tribunal's clergy."
-	desc_extended = "With their red and gold clothing designed to resemble that of their noble counterparts, the full clergy of the Moroz Holy Tribunal \
+	desc = "A red beret bearing the sigil of the Cassian Holy Tribunal on its front. Worn by full members of the Tribunal's clergy."
+	desc_extended = "With their red and gold clothing designed to resemble that of their noble counterparts, the full clergy of the Cassian Holy Tribunal \
 	are a sight to behold both inside and outside of the Empire of Dominia. This beret features an emblem luxuriously and painstakingly crafted out of real gold."
 	icon = 'icons/clothing/head/dominia_beret_priest.dmi'
 	icon_state = "dominia_beret_priest_red"
@@ -640,37 +646,68 @@
 	name = "tribunalist's beret"
 	desc = "A beret in gold and red worn by members of the clergy affiliated with His Majesty's Diplomatic Service."
 	desc_extended = "His Majesty's Diplomatic Service - as with much of the Empire tends to be dominated by the great houses, though the Service also employs may commoners - \
-	as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service."
+	as long as they can pass the rigorous examinations required to become a full member of the Diplomatic Service. Its administration and service mandate is under the purview of House Marchand"
 	icon = 'icons/clothing/head/dominia_beret_consular.dmi'
 	icon_state = "dominia_beret_consular_priest"
 	item_state = "dominia_beret_consular_priest"
 
 /obj/item/clothing/accessory/dominia
 	name = "tribunal necklace"
-	desc = "An amulet depicting 'The Eye', a prominent symbol of the Moroz Holy Tribunal worn by its clergy and layfolk alike."
-	desc_extended = "One of the most prominent symbols of the Moroz Holy Tribunal is 'The Eye', with the square representing the four corners of the universe and the central 'eye' being the \
-	Tribunal that watches all. Necklaces and amulets made from this symbol often have the eye being able to rotate. Although there is no official stance, others argue that necklaces should be made \
-	from bare metal to represent how the Tribunal sees the unvarnished truth, while others insist that they must be made from gold to glorify the religion."
+	desc = "An amulet depicting 'The Eye', a prominent symbol of the Cassian Holy Tribunal worn by its clergy and layfolk alike."
+	desc_extended = "One of the most prominent symbols of the Cassian Holy Tribunal is 'The Eye', with the square representing the four corners of the universe and the central 'eye' being the \
+	ever-watching gaze of The Founder, that watches all. Necklaces and amulets made from this symbol often have the eye being able to rotate. Although there is no official stance, others argue that necklaces should be made \
+	from bare metal to represent how the Tribunal sees the unvarnished truth, while others insist that they must be made from gold to honor the origins of the tribunal."
 	icon = 'icons/clothing/accessories/dominia_amulet.dmi'
 	item_state = "dominia_amulet"
 	icon_state = "dominia_amulet"
 	contained_sprite = TRUE
 
+/obj/item/clothing/accessory/dominia/lyodii
+	name = "lyodic tribunal necklace"
+	desc = "An amulet depicting the three animal aspects of Lyodic Tribunalism upon a bone plate. \
+			A prominent symbol of the Lyodic take on the religion, worn by both its shamans and followers."
+	desc_extended = ""
+	icon = 'icons/clothing/accessories/lyodii_amulet.dmi'
+	icon_state = "lyodii_amulet"
+	item_state = "lyodii_amulet"
+
+/obj/item/clothing/accessory/dominia/tic
+	name = "tribunal investigator card"
+	desc = "A gold-gilded card given to those who are active investigators within the Tribunal Investigations Constabulary, otherwise known as TIC. \
+			In essence the religion police of the Tribunal, these investigators are found through the entirety of the Empire of Dominia."
+	icon = 'icons/clothing/accessories/tic_cards.dmi'
+	icon_state = "tic_card"
+	item_state = "tic_card"
+
+/obj/item/clothing/accessory/dominia/tic/retired
+	name = "retired tribunal investigator card"
+	desc = "A silver-gilded card given to those who have since retired from the Tribunal Investigations Constabulary, otherwise known as TIC. \
+			This card holds a sleek grey coloration strip, denoting the owner as having been a standard investigator."
+	icon_state = "tic_card_ret"
+	item_state = "tic_card_ret"
+
+/obj/item/clothing/accessory/dominia/tic/retired/caladius
+	name = "retired tribunal investigator card"
+	desc = "A silver-gilded card given to those who have since retired from the Tribunal Investigations Constabulary, otherwise known as TIC. \
+			This card holds a color strip of House Rodrigo, denoting the owner as a priest of the Tribunal."
+	icon_state = "tic_card_ret_alt"
+	item_state = "tic_card_ret_alt"
+
 /obj/item/clothing/head/ushanka/dominia
-	name = "fisanduhian ushanka"
-	desc = "A warm fur hat with ear flaps that can be raised and tied to be out of the way. This one has a large Fisanduhian flag on the front."
-	desc_extended = "Fisanduhian fashion remains as rugged and steadfast as its people, as well as very distinctive from the usual Morozi fashions \
-	sourced from Moroz proper. Ushankas such as these are still a common sight in the semi-autonomous region of Fisanduh, flag and all. Much to \
-	the ire of Moroz's Imperials."
+	name = "Union ushanka"
+	desc = "A warm fur hat with ear flaps that can be raised and tied to be out of the way. This one has a large UPP flag on the front."
+	desc_extended = "Union fashion remains as rugged and steadfast as its people, as well as very distinctive from the usual Xanu fashions \
+	sourced from New Xanadu proper. Ushankas such as these are still a common sight across Union space, flag and all. Much to \
+	the ire of certain groups."
 	icon_state = "fishushanka"
 	item_state = "fishushanka"
 
 /obj/item/clothing/under/dominia/dress/fancy
-	name = "Morozi dress"
+	name = "Cassian dress"
 	desc = "Feminine commoner's fashion from the Empire of Dominia."
 	desc_extended = "Dresses such as this one are a common sight in the more developed colonies of the Empire of Dominia, and their origins can be traced back to \
-	the fashion houses of Nova Luxembourg. While both sleeved and sleeveless variants exist, the sleeved one is far more common \
-	due to the often frigid temperatures of Moroz."
+	the fashion houses of Starport. While both sleeved and sleeveless variants exist, the sleeved one is far more common \
+	due to the often frigid temperatures of Cassia."
 	icon = 'icons/clothing/under/uniforms/dominia_dresses.dmi'
 	icon_state = "dress_imperial"
 	item_state = "dress_imperial"
@@ -688,22 +725,22 @@
 		update_clothing_icon()
 
 /obj/item/clothing/under/dominia/dress/fancy/zhao
-	name = "house zhao Morozi dress"
+	name = "house stahl-wright Cassian dress"
 	house = "zhao"
 
 /obj/item/clothing/under/dominia/dress/fancy/volvalaad
-	name = "house volvalaad Morozi dress"
+	name = "house orlov Cassian dress"
 	house = "volvalaad"
 /obj/item/clothing/under/dominia/dress/fancy/strelitz
-	name = "house strelitz Morozi dress"
+	name = "house macgregor Cassian dress"
 	house = "strelitz"
 
 /obj/item/clothing/under/dominia/dress/fancy/caladius
-	name = "house caladius Morozi dress"
+	name = "house marchand Cassian dress"
 	house = "caladius"
 
 /obj/item/clothing/under/dominia/dress/fancy/kazhkz
-	name = "house kazhkz Morozi dress"
+	name = "house rodrigo Cassian dress"
 	house = "kazhkz"
 
 /obj/item/clothing/under/dominia/fleet
@@ -711,7 +748,7 @@
 	desc = "The uniform of an enlisted sailor of the Imperial Fleet."
 	desc_extended = "The kerchief of a Fleet voidsman varies from battlefleet to battlefleet, \
 		and its color indicates where the rating originated from. This particular uniform comes from the elite 1st battlefleet, \
-		which is under the command of Grand Admiral Huiling Zhao herself."
+		which is under the command of Grand Admiral Boudica MacGregor herself."
 	icon = 'icons/clothing/under/uniforms/dominia_fleet.dmi'
 	icon_state = "voidsman"
 	item_state = "voidsman"
@@ -720,7 +757,7 @@
 /obj/item/clothing/under/dominia/fleet/officer
 	name = "fleet officer uniform"
 	desc = "An Imperial Fleet uniform belonging to an Ensign - a junior officer generally in command of a small ship."
-	desc_extended = "The junior officers ranks of the Imperial Fleet are often as high as most Ma'zals rise, \
+	desc_extended = "The junior officers ranks of the Imperial Fleet are often as high as most average commoners rise, \
 		and are often looked down upon by their higher-ranking and typically noble superiors."
 	icon_state = "officer"
 	item_state = "officer"
@@ -750,7 +787,7 @@
 
 /obj/item/clothing/head/dominia/fleet/officer
 	name = "fleet officer peaked cap"
-	desc = "A junior officer's peaked cap. The Grand Admiral's initials - HZ - are stamped on its badge."
+	desc = "A junior officer's peaked cap. The Grand Admiral's initials - BMacG - are stamped on its badge."
 	desc_extended = "The peaked cap of the Imperial Fleet is one of its most enduring symbols. \
 		Noble officers will generally wear an additional badge on the cap indicating their house of origin."
 	icon_state = "officercap"

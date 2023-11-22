@@ -18,7 +18,7 @@
 /singleton/origin_item/origin/sol_wildborn
 	name = "Wildborn"
 	desc = "Dionae who were originally considered wild Dionae before being uplifted and integrated somewhere in Protectorate space or one of the megacorporations active within its borders."
-	important_information = "Dionae integrated by the Protectorate are often convinced into a contract for a set period of time that requires them to stay employed in some form within Alliance territory, commonly with a Megacorporation."
+	important_information = "Dionae integrated by the Protectorate are often convinced into a contract for a set period of time that requires them to stay employed in some form within Protectorate territory, commonly with a Megacorporation or the Protectorate itself."
 	possible_accents = list(ACCENT_ROOTSONG, ACCENT_VOIDSONG, ACCENT_IRONSONG)
 	possible_citizenships = list(CITIZENSHIP_SOL, CITIZENSHIP_BIESEL, CITIZENSHIP_NRALAKK, CITIZENSHIP_EUM, CITIZENSHIP_COALITION)
 	possible_religions = list(RELIGION_ETERNAL, RELIGION_OTHER, RELIGION_NONE)

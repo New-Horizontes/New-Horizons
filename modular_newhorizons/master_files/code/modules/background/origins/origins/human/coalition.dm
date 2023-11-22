@@ -37,6 +37,14 @@
 	possible_citizenships = CITIZENSHIPS_COALITION
 	possible_religions = list(RELIGION_NONE, RELIGION_STOLITISM, RELIGION_CHRISTIANITY, RELIGION_ISLAM, RELIGION_BUDDHISM, RELIGION_TAOISM, RELIGION_JUDAISM, RELIGION_OTHER)
 
+/singleton/origin_item/origin/galatea
+	name = "Federal Technocracy of Galatea"
+	desc = "The Federal Technology of Galatea is an unusual human society in the Free Systems, which prizes academic knowledge and progress above almost all other things. It is originally descended from a Protectorate scientific expedition which was sent to the current Weeping Stars to terraform the Yggdrasil System, and retains a focus on expert guidance. To have a political voice in the Federation, one must have some form of degree, and Galatean academicia is infamously rigorous. The non-degreed population of Galatea is kept in line \
+	through an extensive system of welfare, propaganda, and state surveillance known as the Welfare-Propaganda State. Dissent is rare and confidence in the government is high across the Technocracy. Galatea is widely known for its biotechnology; most of its citizens have some form of biological augmentations, with those lacking them viewed as social oddities. The Federation consists of four member-planets: Galatea, Tsukuyomi, Svarog, and Empyrean."
+	possible_accents = list(ACCENT_GALATEA, ACCENT_TSUKUYOMI, ACCENT_EMPYREAN, ACCENT_SVAROG)
+	possible_citizenships = CITIZENSHIPS_COALITION
+	possible_religions = RELIGIONS_COALITION
+
 /singleton/origin_item/origin/coa_spacer
 	name = "Coalition Offworlders"
 	desc = "The offworlders of the Coalition of Independent Systems are an odd mix of nomadic or semi-nomadic peoples that do not call any planet home, and instead opt to live in spaceborne fleets. The most notable offworlder group in the Coalition are the Migratory Fleet and the Techno-Conglomerate, though many more are present in the Coalition's borders."
@@ -92,3 +100,11 @@
 	possible_accents = list(ACCENT_COC, ACCENT_NCF, ACCENT_FISANDUH)
 	possible_citizenships = list(CITIZENSHIP_COALITION, CITIZENSHIP_BIESEL)
 	possible_religions = RELIGIONS_COALITION
+
+/singleton/origin_item/origin/orepit
+	name = "Orepit"
+	desc = "Orepit is a rarity, even in the Free Systems, as a colony dominated by the cult of the Trinary Perfection. The human population of Orepit includes the Native Orepitters, who descend from Hephaestus employees following the abandoned mining mission on the planet, as well as immigrants and pilgrims of the Trinary religion."
+	important_information = "All humans from Orepit are vetted Trinary faithful, and their behaviour should reflect that."
+	possible_accents = list(ACCENT_OREPIT, ACCENT_PROVIDENCE)
+	possible_citizenships = list(CITIZENSHIP_NONE, CITIZENSHIP_COALITION)
+	possible_religions =  list(RELIGION_TRINARY)

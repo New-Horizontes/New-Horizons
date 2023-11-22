@@ -5,7 +5,7 @@ The Office of Special Services is the United Nations own intelligence, clandesti
 Most of their exact details and operations arent known, aside from what has been redacted and edited for public view, the most famous of which is their Psionic Talent Assessment Program.
 This includes the contractor branch of The Department, acting as an umbrella employer for all independent or foreign contractors not hired by any of the corporations operating on the New Horizon, usually stylized as OSS-C.
 	</p>"}
-	departments = {"Medical<br>Security<br>Research<br>Command"}
+	departments = {"Medical<br>Security<br>Research<br>Command<br>Command Support"}
 	title_suffix = "OSS"
 
 	allowed_role_types = PMC_ROLES
@@ -46,6 +46,7 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 		"First Responder" = /datum/outfit/job/med_tech/pmc,
 		"Medical Intern" = /datum/outfit/job/intern_med/pmc,
 		"Corporate Liaison" = /datum/outfit/job/representative/pmc
+		"Bridge Crew" = /datum/outfit/job/bridge_crew/pmc
 	)
 
 /datum/outfit/job/officer/pmc
@@ -185,3 +186,17 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
 	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
 	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/bridge_crew/pmc
+	name = "Bridge Crew - OSS"
+
+	head = /obj/item/clothing/head/caphat/bridge_crew
+	uniform = /obj/item/clothing/under/rank/bridge_crew
+	shoes = /obj/item/clothing/shoes/laceup
+	id = /obj/item/card/id/pmc
+
+	headset = /obj/item/device/radio/headset/headset_com
+	bowman = /obj/item/device/radio/headset/headset_com/alt
+	double_headset = /obj/item/device/radio/headset/alt/double/command
+	wrist_radio = /obj/item/device/radio/headset/wrist/command
+	messengerbag = /obj/item/storage/backpack/messenger/com

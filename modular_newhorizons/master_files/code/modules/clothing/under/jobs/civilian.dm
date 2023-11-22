@@ -183,7 +183,7 @@
 
 /obj/item/clothing/under/rank/bridge_crew
 	name = "bridge crew's jumpsuit"
-	desc = "The uniform worn by the UNIP's bridge crew."
+	desc = "The uniform worn by the UNIP's bridge crew, be it a contractor or otherwise."
 	icon = 'icons/obj/item/clothing/department_uniforms/command.dmi'
 	icon_state = "bridge_crew"
 	item_state = "bridge_crew"

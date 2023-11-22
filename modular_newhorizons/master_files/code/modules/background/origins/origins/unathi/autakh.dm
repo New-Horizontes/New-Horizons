@@ -25,11 +25,20 @@
 	name = "Eridani Underworld Commune"
 	desc = "In the depths of Eridani, under the city, a small commune of Unathi have made some order out of the chaos. The first Aut'akh to come here didn't have the credits or the legal standing to make it on top in the corporate over-world; however, they did have enough muscle to clear out a mining drone factory of drug-addicted dregs. A few years is all it took for a community of Aut'akh to grow, walling off the Factory and setting up a safe spot for them to fit. Over time, the surrounding local dreg community came to accept the Aut'akh as one of their own, yet, the augmented Unathi are still treated as just another gang they have to deal with."
 	possible_citizenships = list(CITIZENSHIP_ERIDANI)
+	origin_traits = list(TRAIT_ORIGIN_TOX_RESISTANCE, TRAIT_ORIGIN_DRUG_RESISTANCE) //dreg moment
+	origin_traits_descriptions = list("have a higher resistance to toxins", "have a higher tolerance to recreative drugs")
 
 /singleton/origin_item/origin/autakh/razortail
 	name = "Razortail Enclave"
 	desc = "Considered a bunch of ruffians by their sister communes, the Razortail Enclave is a commune located in District 7 of Mendell City: Sin City. In order to survive in Biesel, Aut’akh participate in organized crime as hired muscle, allured to the practice by the prospect of stealing from the megacorps and Biesel’s own government to help the slums of the district. Similar to the Factory commune on Eridani, the Razortail Enclave is stuck in the poorer regions of the city, trapped there by a lack of wealth and a conviction to not stray too far from their ideals; however, unlike their sister commune, these sinta do not ignore the gang conflicts of the streets, and often themselves get involved to prevent their rank from kidnappings and having their prosthetics stripped from them — a barbaric practice in the eyes of these fanatics and a costly expense."
 	possible_citizenships = list(CITIZENSHIP_BIESEL)
+
+/singleton/origin_item/origin/autakh/luthien
+	name = "Luthien Pact"
+	desc = "The Aut'akh of the Luthien Pact, in Tau Ceti, have formed a tenuous relationship with the megacorporate presence on the planet - sacrificing some measure of their anti-capitalist politics in order to survive. They work closely with NanoTrasen and Zavodskoi Interstellar, and have formed a unique spiritual perspective on the sentience and spiritual nature of the IPCs they work with - something which has become concerning to their corporate employers. The Aut'akh of the Luthien Pact will often use modified corporate augmentations rather than those crafted by their fellow Aut'akh as a matter of practicality, and can often be found working in hazardous fields where their cybernetics allow them to survive easier than the unaugmented."
+	possible_citizenships = list(CITIZENSHIP_BIESEL)
+	origin_traits = list(TRAIT_ORIGIN_TOX_RESISTANCE) //good at adapting to hostile environments
+	origin_traits_descriptions = list("have a higher resistance to toxins")
 
 /singleton/origin_item/origin/autakh/hidden
 	name = "Lesser Aut'akh Communes"

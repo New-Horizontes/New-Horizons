@@ -189,7 +189,19 @@
 	Coletters are, by Outer and Middle Ring standards, a wealthy people with a high standard of living. Culturally they have a strong connection to service either in the Protectorate Fleet, or in their local colonial military, the Civil Guard of the Republic of San Colette, \
 	and are often viewed as martial and dutiful people by the broader Protectorate. Most value family highly and hold onto cultural traditions from the colonial origin of Iberia. The vast majority of Coletters are concerned for the future, and many have adopted a fatalistic attitude \
 	towards what seems to be a steadily approaching conflict on the frontier of human space."
-	important_information = "Because of the ethnic make-up of San Colette's original settlers and assimilation of immigrants into the native population, most human characters born on San Colette tend to have appearances consistent with the people of the Iberian Peninsula."
+	important_information = "Because of the ethnic make-up of San Colette's original settlers, most human characters born on San Colette tend to have appearances consistent with the people of the Iberian Peninsula."
 	possible_accents = list(ACCENT_SANCOLETTE)
 	possible_citizenships = list(CITIZENSHIP_SOL, CITIZENSHIP_BIESEL)
 	possible_religions = RELIGIONS_SOLARIAN
+
+/singleton/origin_item/origin/ouerea_human
+	name = "Zakkeran Human"
+	desc = "The planet of Zakkeran, in the Bomus system, is unique among the human-populated worlds of the galaxy. The first Human colonists were originally Jesuit missionaries that crashlanded on its surface, long before official first contact was made with the Unathi people,\
+	and from this unexpected accident came forth the teachings of Sassurism, a syncretic religion that was melded by the intepretations of the fervent religious leader of this future religion, Sassur, who saw himself as as God’s final emissary.\
+	The Humans of Zakkeran are the descendants of the original crash-landed missionaries, who have lived amongst the Zakkeran Unathi communities and were thus raised as one of them."
+	important_information = "Despite the fact that Zakkeran is not a Protectorate colony, humans born amongst the Unathi tribes of the planet can apply for Protectorate Citizen if they wished, but just as easily, those that seek to remain on the planet can instead seek Hegemony service."
+	possible_citizenships = list(CITIZENSHIP_IZWESKI, CITIZENSHIP_SOL, CITIZENSHIP_BIESEL, CITIZENSHIP_COALITION)
+	possible_accents = list(ACCENT_BROKEN_PEASANT, ACCENT_ZAZ_HIGH, ACCENT_SOL, ACCENT_BROKEN_NOBLE, ACCENT_CETI)
+	possible_religions = (RELIGIONS_SOLARIAN, RELIGION_SIAKH)
+	origin_traits = list(TRAIT_ORIGIN_HOT_RESISTANCE)
+	origin_traits_descriptions = list("are more acclimatised to the heat")

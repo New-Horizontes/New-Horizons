@@ -1,6 +1,6 @@
 /datum/map_template/ruin/away_site/ee_spy_ship
 	name = "Einstein Engines Research Ship"
-	description = "A research ship belonging to Einstein Engines, the Stellar Corporate Conglomerate's main competitor."
+	description = "A research ship belonging to Einstein Engines, Nanotrasen's main competitor."
 	suffixes = list("ships/einstein/ee_spy_ship.dmm")
 	sectors = list(SECTOR_TAU_CETI, SECTOR_ROMANOVICH, SECTOR_CORP_ZONE, SECTOR_VALLEY_HALE)
 	spawn_weight = 1
@@ -10,7 +10,7 @@
 
 /singleton/submap_archetype/ee_spy_ship
 	map = "Einstein Engines Research Ship"
-	descriptor = "A research ship belonging to Einstein Engines, the Stellar Corporate Conglomerate's main competitor."
+	descriptor = "A research ship belonging to Einstein Engines, Nanotrasen's main competitor."
 
 //areas
 /area/ship/ee_spy_ship
@@ -25,7 +25,7 @@
 /obj/effect/overmap/visitable/ship/ee_spy_ship
 	name = "Einstein Engines Research Ship"
 	class = "EERV"
-	desc = "A research ship belonging to Einstein Engines, the Stellar Corporate Conglomerate's main competitor."
+	desc = "A research ship belonging to Einstein Engines, Nanotrasen's main competitor."
 	icon_state = "light_cruiser"
 	moving_state = "light_cruiser_moving"
 	colors = list("#18e9b5", "#6aa9dd")

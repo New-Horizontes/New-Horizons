@@ -47,7 +47,7 @@
 							"Sell [rand(3,6)] copies of the Tau Ceti Foreign Legion pamphlets 10 credits each")
 		else
 			rep_objectives = pick("Question Non-Vaurcan employees about Vaurcan employees, looking for areas of improvement",
-							"Protect and promote the public image of the Zo'ra Hive to all SCC employees")
+							"Protect and promote the public image of the Zo'ra Hive to all onboard employees")
 
 	return rep_objectives
 
@@ -77,7 +77,7 @@
 	name = CITIZENSHIP_KLAX
 	description = "The second Hive discovered by humanity,  Hiveship, Klo'zxera, appeared in the Skrellian system of Glorashi. \
 	K'lax is known as a client state of the Zo'ra, but since the Exodus from Sedantis they have struggled for political independence. \
-	Now parting their own ways, both Hives have developed differently.  the K'lax became the newest vassal of the Izweski Nation, and have largely settled in Tret. \
+	Now parting their own ways, both Hives have developed differently.  the K'lax became the newest vassal of the Unathi Nation, and have largely settled in Tret. \
 	They maintain subtly warm, if terse relations with the Hegemony as a whole, and have committed to its terraforming agenda, being instrumental in the implementation of such a monumental undertaking. \
 	The K'lax are the most technologically developed Hive, and are leading the way in reconstructing the species' superior technology."
 	consular_outfit = /datum/outfit/job/representative/consular/klax

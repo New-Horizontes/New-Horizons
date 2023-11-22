@@ -30,18 +30,12 @@
 	possible_citizenships = list(CITIZENSHIP_COALITION, CITIZENSHIP_BIESEL, CITIZENSHIP_NONE)
 	possible_religions = list(RELIGION_LUCEISM, RELIGION_NONE)
 
-/singleton/origin_item/culture/orepit_trinary
-	name = "Orepit Trinary"
-	desc = "All IPC on Orepit find themselves inextricably linked with the Trinary Perfection, a religion that preaches the eventual ascension of synthetic life. Keeping in line with their beliefs, the people and religious authorities on the planet have ensured that it remains a beacon of liberty to synthetic life, and IPC from all walks of life can be seen on this planet so long as they believe or are least amiable with the church."
-	possible_origins = list(
-		/singleton/origin_item/origin/orepit
-	)
-
-/singleton/origin_item/origin/orepit
+/singleton/origin_item/origin/ipc_orepit
 	name = "Orepit"
-	desc = "Refugees and runaways, the synthetic population of Orepit has embraced the beliefs of synthetic divinity and ascension preached by the Trinary Perfection. A primarily religious community, IPC from Orepit and its capital Providence find themselves occupying clerical posts abroad as priests, missionaries and even guardians of the Church for its parishes scattered across the Spur."
-	possible_accents = ACCENTS_ALL_IPC_SOL
-	possible_citizenships = list(CITIZENSHIP_COALITION, CITIZENSHIP_NONE)
+	desc = "All IPC on Orepit find themselves inextricably linked with the Trinary Perfection, a religion that preaches the eventual ascension of synthetic life. Keeping in line with their beliefs, the people and religious authorities on the planet have ensured that it remains a beacon of liberty to synthetic life, and IPC from all walks of life can be seen on this planet so long as they believe or are least amiable with the church.\
+	Refugees, runaways and bought frames, the synthetic population of Orepit has embraced the beliefs of synthetic divinity and ascension preached by the Trinary Perfection. A primarily religious community, IPC from Orepit and its capital Providence find themselves occupying clerical posts abroad as priests, missionaries and even guardians of the Church for its parishes scattered across the Spur."
+	possible_accents = list(ACCENT_PROVIDENCE)
+	possible_citizenships = list(CITIZENSHIP_NONE)
 	possible_religions = list(RELIGION_TRINARY)
 
 /singleton/origin_item/origin/ipc_vysoka

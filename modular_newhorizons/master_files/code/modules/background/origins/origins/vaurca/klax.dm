@@ -1,6 +1,6 @@
 /singleton/origin_item/culture/klax
 	name = "K'lax Hive"
-	desc = "Known as 'The Deceivers', it was the second Hive discovered by humanity after their Hiveship, Klo'zxera, appeared in the Unathi system of Uueoa-Esa. K'lax is known as a client state of the Zo'ra, but since the Exodus from Sedantis they have struggled for political independence. Now parting their own ways, both Hives have developed differently. "
+	desc = "Known as 'The Deceivers', it was the second Hive discovered by humanity after their Hiveship, Klo'zxera, appeared in the Unathi Home system of Bomus. K'lax is known as a client state of the Zo'ra, but since the Exodus from Sedantis they have struggled for political independence. Now parting their own ways, both Hives have developed differently. "
 	possible_origins = list(
 		/singleton/origin_item/origin/zkaii,
 		/singleton/origin_item/origin/vetju,
@@ -13,7 +13,7 @@
 
 /singleton/origin_item/origin/zkaii
 	name = "Zkaii Brood"
-	desc = "The new High Queen of the K'lax, the Zkaii Brood is often mocked for their eccentric Mother Dream religion. Many still remain within Tret and other Izweski territories."
+	desc = "The new High Queen of the K'lax, the Zkaii Brood is often mocked for their eccentric Mother Dream religion. Many still remain within Tret and other Hegemony territories."
 	possible_accents = list(ACCENT_KLAX, ACCENT_TTS)
 	possible_citizenships = list(CITIZENSHIP_IZWESKI)
 	possible_religions = list(RELIGION_PILOTDREAM)

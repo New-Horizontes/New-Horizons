@@ -4,8 +4,7 @@
 	Kal'lo on the core planet Nralakk IV, also known as Qerrbalak, within the Nralakk system. While the majority of Skrell live within the Nralakk Federation, a sizable portion live \
 	abroad. The quality of life within Federation is considered to be the best in the galaxy due to their technological advances, allowing Federation Citizens access to a quality of \
 	life almost unmatched anywhere else in the Spur. \
-	A rogue artificial intelligence, Glorsh-Omega, has traumatized this nation for centuries to come. The Federation is very wary of humanity, who has acquired AI technology \
-	after a Federation tech leak provided them with the research required to create their own AI, as well as allowing them to create IPCs."
+	A rogue artificial intelligence, Glorsh-Omega, has traumatized this nation for centuries to come. The Federation is very wary of humanity, who has acquired and developed its own AI technology, but above all, it is wary of a repeat of Glorsh-Omega."
 	consular_outfit = /datum/outfit/job/representative/consular/nralakk
 
 	job_species_blacklist = list(

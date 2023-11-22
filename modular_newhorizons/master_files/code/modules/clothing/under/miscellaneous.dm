@@ -73,7 +73,7 @@
 
 /obj/item/clothing/under/rank/fib
 	name = "\improper DJDA agent uniform"
-	desc = "A formal uniform used by UNIP Department of Justice and Diplomatic Affairs agents."
+	desc = "A formal uniform used by the UNIP Department of Justice and Diplomatic Affairs for its agents."
 	icon_state = "fib_uniform"
 	worn_state = "fib_uniform"
 

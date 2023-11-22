@@ -1,6 +1,6 @@
 /singleton/origin_item/culture/klax_breeder
 	name = "K'lax Hive"
-	desc = "The new High Queen of the K'lax, the Zkaii Brood is often mocked for their eccentric Mother Dream religion. Many still remain within Tret and other Izweski territories."
+	desc = "The new High Queen of the K'lax, the Zkaii Brood is often mocked for their eccentric Mother Dream religion. Many still remain within Tret and other Hegemony territories."
 	possible_origins = list(
 		/singleton/origin_item/origin/zkaii_b,
 		/singleton/origin_item/origin/leto_b,
@@ -10,7 +10,7 @@
 
 /singleton/origin_item/origin/zkaii_b
 	name = "Zkaii Brood"
-	desc = "The new High Queen of the K'lax, the Zkaii Brood is often mocked for their eccentric Mother Dream religion. Many still remain within Tret and other Izweski territories."
+	desc = "The new High Queen of the K'lax, the Zkaii Brood is often mocked for their eccentric Mother Dream religion. Many still remain within Tret and other Hegemony territories."
 	possible_accents = list(ACCENT_KLAX, ACCENT_TTS)
 	possible_citizenships = list(CITIZENSHIP_KLAX, CITIZENSHIP_IZWESKI)
 	possible_religions = list(RELIGION_PILOTDREAM)

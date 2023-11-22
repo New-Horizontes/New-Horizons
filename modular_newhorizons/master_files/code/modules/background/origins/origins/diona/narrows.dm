@@ -1,12 +1,12 @@
 /singleton/origin_item/culture/narrows
 	name = "The Narrows"
-	desc = "H-Z-63, also known as \"The Narrows\", was originally a Hephaestus mining ship that used prisoner labor before later being abandoned following a large prisoner riot that left vital parts of the ship in ruins. Over time the ship would be repaired and expanded upon by its new inhabitants, Dionae. Now part of the Coalition of Colonies, The Narrows has become a large exporter of both resources and manpower for Hephaestus. Many distinctions are made between members of the ship's crew, with the crew being primarily split into three \"blocks\", each based on how long the Dionae has been apart of the crew. Each of these blocks holds a fairly distinct identity as a result of their time with the ship and its crew, as well as their duties and responsibilities for keeping the ship running."
+	desc = "H-Z-63, also known as \"The Narrows\", was originally a Hephaestus mining ship that used prisoner labor before later being abandoned following a large prisoner riot that left vital parts of the ship in ruins. Over time the ship would be repaired and expanded upon by its new inhabitants, Dionae. Now part of the Coalition of Independent Systems, The Narrows has become a large exporter of both resources and manpower for Hephaestus. Many distinctions are made between members of the ship's crew, with the crew being primarily split into three \"blocks\", each based on how long the Dionae has been apart of the crew. Each of these blocks holds a fairly distinct identity as a result of their time with the ship and its crew, as well as their duties and responsibilities for keeping the ship running."
 	possible_origins = list(
 		/singleton/origin_item/origin/a_block,
 		/singleton/origin_item/origin/b_block,
 		/singleton/origin_item/origin/c_block
 	)
-  
+
 /singleton/origin_item/origin/a_block
 	name = "A-block"
 	desc = "The original Dionae of the ship, Dionae in A-Block serves as the third-highest rank in the ship's hierarchy and is considered to be some of the most efficient and experienced workers the ship has to offer. While they tend not to look down upon the other blocks for their lack of experience, they do consider themselves to be better workers. As a result of this A-block has actually begun to see a lack of personnel due to so many signing on to leave the ship and work elsewhere within Hephestatus as a way to show off the efficiency of Dionae from the Narrows."

@@ -3,7 +3,7 @@
 //Tau ceti sectors
 #define SECTOR_ROMANOVICH			"Romanovich Cloud"//The fat cloud of rocks surrounding Tau Ceti and its gravity well
 #define SECTOR_TAU_CETI				"Tau Ceti"//Tau Ceti and its gravity well, Biesel and its subfactions are found here
-#define SECTOR_CORP_ZONE			"Corporate Reconstruction Zone"//The entire corporate reconstruction zone borders
+#define SECTOR_CORP_ZONE			"Colonial Re-Expansion Zone"//The entire corporate reconstruction zone borders //NEW HORIZONS EDIT
 #define ALL_TAU_CETI_SECTORS		list(SECTOR_ROMANOVICH, SECTOR_TAU_CETI, SECTOR_CORP_ZONE)
 
 //Badlands sectors, at least six factions are here so its noteworthy
@@ -16,7 +16,7 @@
 #define SECTOR_SRANDMARR			"S'rand'marr"//S'r'and'marr and its gravity well, Adhomai and Raskara are found here
 #define SECTOR_NRRAHRAHUL			"Nrrahrahul"//Nrrahrahul and its gravity well, Hro'zamal is found here
 #define SECTOR_GAKAL				"Gakal"//Gakal and its gravity well, Gakal'zaal is found here.
-#define SECTOR_UUEOAESA				"Uueoa-Esa"//Uueoa-Esa and its gravity well, Moghes and Ouerea are found here.
+#define SECTOR_UUEOAESA				"Bomus"//Uueoa-Esa and its gravity well, Moghes and Ouerea are found here. //NEW HORIZONS EDIT
 #define ALL_BADLAND_SECTORS		list(SECTOR_VALLEY_HALE, SECTOR_BADLANDS, SECTOR_NEW_ANKARA, SECTOR_AEMAQ, SECTOR_SRANDMARR, SECTOR_NRRAHRAHUL, SECTOR_GAKAL, SECTOR_UUEOAESA)
 
 //Coalition-aligned sectors

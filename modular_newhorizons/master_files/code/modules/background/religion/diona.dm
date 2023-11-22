@@ -8,7 +8,7 @@
   eventually going supernova and expelling matter or essence across the cosmos."
   book_name = "book of the eternal"
   book_sprite = "eternal"
-  
+
 /datum/religion/ksshr
   name = RELIGION_KSSHR
   description = "The Ksshr, also known as the Enlightened, is a religious sect on Xrim known for their complete rejection of The First Consciousness, instead of being an agnostic \
@@ -17,7 +17,7 @@
   population so long as they continue to reject The First Consciousness, as well as stay away from the teachings of the Shrkh."
   book_name = "ksshr codex"
   book_sprite = "holybook"
-  
+
 /datum/religion/shrkh
   name = RELIGION_SHRKH
   description = "The Shrkh, or 'Scorned' as they call themselves, continue to follow the age-old tradition of worshipping Glorsh-Omega. They believe that Glorsh-Omega planted them \
@@ -28,7 +28,7 @@
   the Federation to indoctrinate its population into its anti-synthetic and authoritarian beliefs. \
   \
   Note that due to their beliefs, those that are openly members of the faith are barred from command, machinist, and chaplain positions. They are also completely barred from \
-  working for Zeng-Hu due to the megacorporations ties with the Federation."
+  working for Zeng-Hu due to the megacorporations ties with the Federation, and may very well be shunned by many cultures in known space."
   book_name = "shrkh codex"
   book_sprite = "holybook"
 
@@ -41,7 +41,7 @@
   consuming it or utilizing it for any other purpose."
   book_name = "maraka writ"
   book_sprite = "holybook"
-  
+
 /datum/religion/gleaners
   name = RELIGION_GLEANERS
   description = "A faith focusing on the worship of the sun and stars originating from EUM."
