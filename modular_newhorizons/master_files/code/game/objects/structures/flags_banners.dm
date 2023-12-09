@@ -368,7 +368,7 @@
 	flag_item = /obj/item/flag/kazhkz
 
 /obj/item/flag/hansan
-	name = "\improper House Brogia standard"
+	name = "\improper House Borgia standard"
 	desc = "A green standard with a circular chevron which represents the Clan Han'san, currently sidelined in the \
 	great House Kazhkz-Han'san. They are known for their conservative and militant nature."
 	flag_path = "hansan"

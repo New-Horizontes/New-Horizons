@@ -130,7 +130,7 @@
 
 /datum/accent/himeo
 	name = ACCENT_HIMEO
-	description = "Himean Common is more guttural and harsh-sounding than the typical Sol Common accent, due to Himeo's position in the Coalition of Independent Systems. The Himean accent and its \
+	description = "Himean Common is more guttural and harsh-sounding than the typical Sol Common accent, due to Himeo's position in the Union of Progressive Peoples. The Himean accent and its \
 	distinctive guttural method of speaking are easily distinguishable from other Sol Common speakers, even when speaking Tau Ceti Basic or Freespeak. Himean Common has the unusual \
 	reputation of making its speaker always sound angry, no matter the speaker's mood, due to its more guttural nature."
 	tag_icon = "himeo"

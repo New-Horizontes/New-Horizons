@@ -6,7 +6,7 @@
 	item_state = "dominiazippo"
 
 /obj/item/flame/lighter/zippo/sol
-	name = "\improper Solarian Zippo lighter"
+	name = "\improper Protectorate Zippo lighter"
 	desc = "A zippo lighter with a depiction of the flag of the United Nations."
 	desc_extended = "Zippo lighters with the flag of the Protectorate continue a long-standing tradition of Earth. While originally proclaiming patriotism to the nation, in the face of movements for more colonial self-determination, these lighters now push forward a message of unity."
 	icon_state = "solzippo"
@@ -44,14 +44,11 @@
 	flame_light_power = 1
 
 /obj/item/flame/lighter/zippo/fisanduh
-	name = "\improper Fisanduhian Zippo lighter"
-	desc = "A zippo with a depiction of the flag of the Confederate States of Fisanduh. This is a well crafted model that burns brighter and hotter than \
+	name = "\improper UPP Zippo lighter"
+	desc = "A zippo with a depiction of the flag of the Union of Progressive Peoples. This is a well crafted model of New Xanu make, that burns brighter and hotter than \
 	the usual lighter."
-	desc_extended = "On Moroz it's rather hard to find a Confederate without at least some manner of lighter on their person. Fisanduhians don't \
-	smoke anymore than the rest of Moroz does, instead they prize these lighters for their utility. From burning loose thread to lighting a \
-	molotov and more. A common adage is that the fire of Fisanduh burns brighter than Dominia's, which seems to be true for their lighters at least. \
-	These have found purchase throughout the Spur due to their reliability and impressive capability to light up various things, causing a \
-	competition of sorts to arise with Fisanduhian and Himean producers over the best quality lighter."
+	desc_extended = "These have found purchase throughout the Spur due to their reliability and impressive capability to light up various things, causing a \
+	competition of sorts to arise with New Xanadu and Himean producers over the best quality lighter."
 	icon_state = "fisanduhzippo"
 	item_state = "fisanduhzippo"
 	flame_light_range = 2
