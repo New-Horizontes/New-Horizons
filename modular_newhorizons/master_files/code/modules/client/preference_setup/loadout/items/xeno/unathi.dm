@@ -193,7 +193,7 @@
 
 /datum/gear/augment/autakh_engineering
 	display_name = "engineering grasper"
-	description = "An Akranaugment limb, this one is outfitted with a limited toolkit."
+	description = "An Akran augment limb, this one is outfitted with a limited toolkit."
 	path = /obj/item/organ/external/hand/right/autakh/tool
 	whitelisted = list(SPECIES_UNATHI)
 	sort_category = "Xenowear - Unathi"

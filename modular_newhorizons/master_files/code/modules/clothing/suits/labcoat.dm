@@ -126,7 +126,7 @@
 	icon_state = "labcoat_pmc_alt"
 
 /obj/item/clothing/suit/storage/toggle/labcoat/epmc
-	name = "OSS-C labcoat"
+	name = "EPMC labcoat"
 	icon_state = "labcoat_epmc"
 
 /obj/item/clothing/suit/storage/toggle/longcoat/pmc

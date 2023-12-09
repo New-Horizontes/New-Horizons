@@ -64,7 +64,7 @@
 	hazard["hazard vest, nanotrasen navy blue"] = /obj/item/clothing/suit/storage/hazardvest/nblue
 	hazard["hazard vest, zavodskoi red"] = /obj/item/clothing/suit/storage/hazardvest/red
 	hazard["hazard vest, zeng-hu purple"] = /obj/item/clothing/suit/storage/hazardvest/purple
-	hazard["hazard vest, PMCG blue"] = /obj/item/clothing/suit/storage/hazardvest/blue
+	hazard["hazard vest, OSS blue"] = /obj/item/clothing/suit/storage/hazardvest/blue //NEW HORIZONS EDIT
 	hazard["hazard vest, idris teal"] = /obj/item/clothing/suit/storage/hazardvest/teal
 	hazard["hazard vest, hephaestus green"] = /obj/item/clothing/suit/storage/hazardvest/green
 	gear_tweaks += new /datum/gear_tweak/path(hazard)
@@ -280,16 +280,16 @@
 	var/list/dominiacape = list()
 	dominiacape["dominian cape"] = /obj/item/clothing/accessory/poncho/dominia_cape
 	dominiacape["white dominian cape"] = /obj/item/clothing/accessory/poncho/dominia_cape/white
-	dominiacape["dominian cape, strelitz"] = /obj/item/clothing/accessory/poncho/dominia_cape/strelitz
-	dominiacape["white dominian cape, strelitz"] = /obj/item/clothing/accessory/poncho/dominia_cape/strelitz/white
-	dominiacape["dominian cape, volvalaad"] = /obj/item/clothing/accessory/poncho/dominia_cape/volvalaad
-	dominiacape["white dominian cape, volvalaad"] = /obj/item/clothing/accessory/poncho/dominia_cape/volvalaad/white
-	dominiacape["dominian cape, kazhkz"] = /obj/item/clothing/accessory/poncho/dominia_cape/kazhkz
-	dominiacape["white dominian cape, kazhkz"] = /obj/item/clothing/accessory/poncho/dominia_cape/kazhkz/white
-	dominiacape["dominian cape, caladius"] = /obj/item/clothing/accessory/poncho/dominia_cape/caladius
-	dominiacape["white dominian cape, caladius"] = /obj/item/clothing/accessory/poncho/dominia_cape/caladius/white
-	dominiacape["dominian cape, zhao"] = /obj/item/clothing/accessory/poncho/dominia_cape/zhao
-	dominiacape["white dominian cape, zhao"] = /obj/item/clothing/accessory/poncho/dominia_cape/zhao/white
+	dominiacape["dominian cape, macgregor"] = /obj/item/clothing/accessory/poncho/dominia_cape/strelitz //NEW HORIZONS EDIT
+	dominiacape["white dominian cape, macgregor"] = /obj/item/clothing/accessory/poncho/dominia_cape/strelitz/white //NEW HORIZONS EDIT
+	dominiacape["dominian cape, orlov"] = /obj/item/clothing/accessory/poncho/dominia_cape/volvalaad //NEW HORIZONS EDIT
+	dominiacape["white dominian cape, orlov"] = /obj/item/clothing/accessory/poncho/dominia_cape/volvalaad/white //NEW HORIZONS EDIT
+	dominiacape["dominian cape, rodrigo"] = /obj/item/clothing/accessory/poncho/dominia_cape/kazhkz //NEW HORIZONS EDIT
+	dominiacape["white dominian cape, rodrigo"] = /obj/item/clothing/accessory/poncho/dominia_cape/kazhkz/white //NEW HORIZONS EDIT
+	dominiacape["dominian cape, marchand"] = /obj/item/clothing/accessory/poncho/dominia_cape/caladius //NEW HORIZONS EDIT
+	dominiacape["white dominian cape, marchand"] = /obj/item/clothing/accessory/poncho/dominia_cape/caladius/white //NEW HORIZONS EDIT
+	dominiacape["dominian cape, stahl-wright"] = /obj/item/clothing/accessory/poncho/dominia_cape/zhao //NEW HORIZONS EDIT
+	dominiacape["white dominian cape, stahl-wright"] = /obj/item/clothing/accessory/poncho/dominia_cape/zhao/white //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(dominiacape)
 
 /datum/gear/suit/dominia_medical_cape
@@ -333,8 +333,8 @@
 	gear_tweaks += new /datum/gear_tweak/path(coat)
 
 /datum/gear/suit/fisanduhian_bomber
-	display_name = "fisanduhian bomber jacket selection"
-	description = "A selection of Fisanduhian jackets."
+	display_name = "classic cassian bomber jacket selection" //NEW HORIZONS EDIT
+	description = "A selection of dominian jackets in the Classic Cassian style." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/suit/storage/toggle/dominia/bomber
 	flags = GEAR_HAS_DESC_SELECTION
 	culture_restriction = list(/singleton/origin_item/culture/dominia, /singleton/origin_item/culture/dominian_unathi)
@@ -342,8 +342,8 @@
 /datum/gear/suit/fisanduhian_bomber/New()
 	..()
 	var/list/coat = list()
-	coat["fisanduhian bomber jacket"] = /obj/item/clothing/suit/storage/toggle/dominia/bomber
-	coat["long fisanduhian bomber jacket"] = /obj/item/clothing/suit/storage/toggle/dominia/bomber/long
+	coat["cassian bomber jacket"] = /obj/item/clothing/suit/storage/toggle/dominia/bomber //NEW HORIZONS EDIT
+	coat["long cassian bomber jacket"] = /obj/item/clothing/suit/storage/toggle/dominia/bomber/long //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(coat)
 
 /datum/gear/suit/tcfl

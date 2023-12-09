@@ -256,119 +256,119 @@
 	zavodskoicape["zavodskoi dominia cape, zhao"] = /obj/item/clothing/accessory/poncho/dominia_cape/zhao/zavod
 	gear_tweaks += new /datum/gear_tweak/path(zavodskoicape)
 
-// PMCG
+// PMCG, retooled for The OSS
 /datum/gear/faction/pmc_sunglasses
-	display_name = "PMCG security HUD selection"
-	description = "A selection of PMCG security HUDs."
+	display_name = "OSS security HUD selection" //NEW HORIZONS EDIT
+	description = "A selection of OSS staff and Contractors security HUDs." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/glasses/sunglasses/sechud/pmc
 	slot = slot_glasses
 	allowed_roles = list("Security Officer", "Head of Security", "Warden", "Security Cadet", "Investigator")
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/pmc_sunglasses/New()
 	..()
 	var/list/pmc_sunglasses = list()
-	pmc_sunglasses["HUDsunglasses, PMCG"] = /obj/item/clothing/glasses/sunglasses/sechud/pmc
-	pmc_sunglasses["fat HUDsunglasses, PMCG"] = /obj/item/clothing/glasses/sunglasses/sechud/big/pmc
-	pmc_sunglasses["aviator sunglasses, PMCG"] = /obj/item/clothing/glasses/sunglasses/sechud/aviator/pmc
-	pmc_sunglasses["HUDsunglasses alt, PMCG"] = /obj/item/clothing/glasses/sunglasses/sechud/pmc/alt
-	pmc_sunglasses["fat HUDsunglasses alt, PMCG"] = /obj/item/clothing/glasses/sunglasses/sechud/big/pmc/alt
-	pmc_sunglasses["aviator sunglasses alt, PMCG"] = /obj/item/clothing/glasses/sunglasses/sechud/aviator/pmc/alt
-	pmc_sunglasses["security HUD, PMCG"] = /obj/item/clothing/glasses/hud/security/pmc
+	pmc_sunglasses["HUDsunglasses, OSS"] = /obj/item/clothing/glasses/sunglasses/sechud/pmc //NEW HORIZONS EDIT
+	pmc_sunglasses["fat HUDsunglasses, OSS"] = /obj/item/clothing/glasses/sunglasses/sechud/big/pmc //NEW HORIZONS EDIT
+	pmc_sunglasses["aviator sunglasses, OSS"] = /obj/item/clothing/glasses/sunglasses/sechud/aviator/pmc //NEW HORIZONS EDIT
+	pmc_sunglasses["HUDsunglasses alt, OSS"] = /obj/item/clothing/glasses/sunglasses/sechud/pmc/alt //NEW HORIZONS EDIT
+	pmc_sunglasses["fat HUDsunglasses alt, OSS"] = /obj/item/clothing/glasses/sunglasses/sechud/big/pmc/alt //NEW HORIZONS EDIT
+	pmc_sunglasses["aviator sunglasses alt, OSS"] = /obj/item/clothing/glasses/sunglasses/sechud/aviator/pmc/alt //NEW HORIZONS EDIT
+	pmc_sunglasses["security HUD, OSS"] = /obj/item/clothing/glasses/hud/security/pmc //NEW HORIZONS EDIT
 	pmc_sunglasses["security HUD, EPMC"] = /obj/item/clothing/glasses/hud/security/pmc/alt
 	gear_tweaks += new /datum/gear_tweak/path(pmc_sunglasses)
 
 /datum/gear/faction/pmc_medglasses
-	display_name = "PMCG medical HUD selection"
-	description = "A selection of PMCG medical HUDs."
+	display_name = "OSS medical HUD selection" //NEW HORIZONS EDIT
+	description = "A selection of OSS medical HUDs." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/glasses/hud/health/aviator/pmc
 	slot = slot_glasses
 	allowed_roles = list("Physician", "Surgeon", "Chief Medical Officer", "Pharmacist", "First Responder", "Psychiatrist", "Medical Intern")
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/pmc_medglasses/New()
 	..()
 	var/list/pmc_sunglasses = list()
-	pmc_sunglasses["aviator sunglasses, PMCG"] = /obj/item/clothing/glasses/hud/health/aviator/pmc
-	pmc_sunglasses["medical HUD, PMCG"] = /obj/item/clothing/glasses/hud/health/pmc
+	pmc_sunglasses["aviator sunglasses, OSS"] = /obj/item/clothing/glasses/hud/health/aviator/pmc //NEW HORIZONS EDIT
+	pmc_sunglasses["medical HUD, OSS"] = /obj/item/clothing/glasses/hud/health/pmc //NEW HORIZONS EDIT
 	pmc_sunglasses["aviator sunglasses, EPMC"] = /obj/item/clothing/glasses/hud/health/aviator/pmc/alt
 	pmc_sunglasses["medical HUD, EPMC"] = /obj/item/clothing/glasses/hud/health/pmc/alt
 	gear_tweaks += new /datum/gear_tweak/path(pmc_sunglasses)
 
 /datum/gear/faction/pmc_labcoat
-	display_name = "PMCG/EPMC labcoat selection"
-	description = "A selection of PMCG/EPMC labcoats."
+	display_name = "OSS/OSS-C labcoat selection" //NEW HORIZONS EDIT
+	description = "A selection of labcoats for OSS staff, and Contractors." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/pmc
 	slot = slot_wear_suit
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/pmc_labcoat/New()
 	..()
 	var/list/pmc_labcoats = list()
-	pmc_labcoats["PMCG labcoat"] = /obj/item/clothing/suit/storage/toggle/labcoat/pmc
-	pmc_labcoats["PMCG labcoat, alt"] = /obj/item/clothing/suit/storage/toggle/labcoat/pmc/alt
-	pmc_labcoats["PMCG labcoat, long"] = /obj/item/clothing/suit/storage/toggle/longcoat/pmc
+	pmc_labcoats["OSS labcoat"] = /obj/item/clothing/suit/storage/toggle/labcoat/pmc //NEW HORIZONS EDIT
+	pmc_labcoats["OSS labcoat, alt"] = /obj/item/clothing/suit/storage/toggle/labcoat/pmc/alt //NEW HORIZONS EDIT
+	pmc_labcoats["OSS labcoat, long"] = /obj/item/clothing/suit/storage/toggle/longcoat/pmc //NEW HORIZONS EDIT
 	pmc_labcoats["EPMC labcoat"] = /obj/item/clothing/suit/storage/toggle/labcoat/epmc
-	pmc_labcoats["PMCG corporate jacket"] = /obj/item/clothing/suit/storage/toggle/corp/pmc
+	pmc_labcoats["OSS government jacket"] = /obj/item/clothing/suit/storage/toggle/corp/pmc //NEW HORIZONS EDIT
 	pmc_labcoats["EPMC corporate jacket"] = /obj/item/clothing/suit/storage/toggle/corp/pmc/alt
-	pmc_labcoats["PMCG winter coat"] = /obj/item/clothing/suit/storage/hooded/wintercoat/pmc
+	pmc_labcoats["OSS winter coat"] = /obj/item/clothing/suit/storage/hooded/wintercoat/pmc //NEW HORIZONS EDIT
 	pmc_labcoats["EPMC winter coat"] = /obj/item/clothing/suit/storage/hooded/wintercoat/pmc/alt
 	gear_tweaks += new /datum/gear_tweak/path(pmc_labcoats)
 
 /datum/gear/faction/pmc_sec_coat
-	display_name = "PMCG security coat selection"
-	description = "A selection of PMCG security coats."
+	display_name = "OSS security coat selection" //NEW HORIZONS EDIT
+	description = "A selection of OSS security coats." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/suit/storage/security/officer/pmc
 	slot = slot_wear_suit
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/pmc_sec_coat/New()
 	..()
 	var/list/pmc_sec_coat = list()
-	pmc_sec_coat["PMCG security coat"] = /obj/item/clothing/suit/storage/security/officer/pmc
-	pmc_sec_coat["PMCG security coat, alt"] = /obj/item/clothing/suit/storage/security/officer/pmc/alt
+	pmc_sec_coat["OSS security coat"] = /obj/item/clothing/suit/storage/security/officer/pmc //NEW HORIZONS EDIT
+	pmc_sec_coat["OSS security coat, alt"] = /obj/item/clothing/suit/storage/security/officer/pmc/alt //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(pmc_sec_coat)
 
 /datum/gear/faction/pmcg_headwear
-	display_name = "PMCG and EPMC headwear selection"
-	description = "A selection of PMCG and EPMC headwear."
+	display_name = "OSS and OSS-C headwear selection" //NEW HORIZONS EDIT
+	description = "A selection of OSS and OSS Contractor headwear." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/head/softcap/pmc
 	slot = slot_head
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/pmcg_headwear/New()
 	..()
 	var/list/pmcg_headwear = list()
-	pmcg_headwear["PMCG beret"] = /obj/item/clothing/head/beret/corporate/pmc
-	pmcg_headwear["PMCG softcap"] = /obj/item/clothing/head/softcap/pmc
-	pmcg_headwear["PMCG softcap, alt"] = /obj/item/clothing/head/softcap/pmc/alt
+	pmcg_headwear["OSS beret"] = /obj/item/clothing/head/beret/corporate/pmc //NEW HORIZONS EDIT
+	pmcg_headwear["OSS softcap"] = /obj/item/clothing/head/softcap/pmc //NEW HORIZONS EDIT
+	pmcg_headwear["OSS softcap, alt"] = /obj/item/clothing/head/softcap/pmc/alt //NEW HORIZONS EDIT
 	pmcg_headwear["EPMC beret"] = /obj/item/clothing/head/beret/corporate/pmc/epmc
 	pmcg_headwear["EPMC softcap"] = /obj/item/clothing/head/softcap/pmc/epmc
-	pmcg_headwear["PMCG woolen hat"] = /obj/item/clothing/head/wool/pmc
+	pmcg_headwear["OSS woolen hat"] = /obj/item/clothing/head/wool/pmc //NEW HORIZONS EDIT
 	pmcg_headwear["EPMC woolen hat"] = /obj/item/clothing/head/wool/pmc/alt
-	pmcg_headwear["PMCG garrison cap"] = /obj/item/clothing/head/sidecap/pmcg
+	pmcg_headwear["OSS garrison cap"] = /obj/item/clothing/head/sidecap/pmcg //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(pmcg_headwear)
 
 /datum/gear/faction/pmc_modsuit
-	display_name = "PMCG modsuit"
-	description = "A modular PMCG fatigue jumpsuit."
+	display_name = "OSS modsuit" //NEW HORIZONS EDIT
+	description = "A modular OSS fatigue jumpsuit." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/under/pmc_modsuit
 	slot = slot_w_uniform
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/pmcg_sec_uniforms
-	display_name = "PMCG/EPMC security uniform selection"
-	description = "A selection of PMCG and EPMC security uniforms."
+	display_name = "OSS/OSS-C security uniform selection" //NEW HORIZONS EDIT
+	description = "A selection of OSS and OSS Contractor security uniforms." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/under/rank/security/pmc/epmc
 	slot = slot_w_uniform
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 	allowed_roles = list("Security Cadet", "Security Officer", "Investigator", "Warden")
 
 /datum/gear/faction/pmcg_sec_uniforms/New()
 	..()
 	var/list/pmcg_sec_uniforms = list()
-	pmcg_sec_uniforms["PMCG uniform"] = /obj/item/clothing/under/rank/security/pmc/pmcsec
-	pmcg_sec_uniforms["PMCG uniform, alt"] = /obj/item/clothing/under/rank/security/pmc/pmcsec/alt
+	pmcg_sec_uniforms["OSS uniform"] = /obj/item/clothing/under/rank/security/pmc/pmcsec //NEW HORIZONS EDIT
+	pmcg_sec_uniforms["OSS uniform, alt"] = /obj/item/clothing/under/rank/security/pmc/pmcsec/alt //NEW HORIZONS EDIT
 	pmcg_sec_uniforms["EPMC uniform"] = /obj/item/clothing/under/rank/security/pmc/epmc
 	pmcg_sec_uniforms["EPMC uniform, alt"] = /obj/item/clothing/under/rank/security/pmc/epmc/alt
 	pmcg_sec_uniforms["EPMC detective uniform"] = /obj/item/clothing/under/det/pmc/alt
@@ -384,77 +384,77 @@
 	faction = "Private Military Contracting Group"
 
 /datum/gear/faction/pmc_patch
-	display_name = "PMCG armband"
+	display_name = "OSS armband" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/accessory/armband/pmc
 	slot = slot_tie
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/pmc_patch/New()
 	..()
 	var/list/pmc_patch = list()
-	pmc_patch["PMCG armband"] = /obj/item/clothing/accessory/armband/pmc
-	pmc_patch["PMCG armband, alt"] = /obj/item/clothing/accessory/armband/pmc/alt
+	pmc_patch["OSS armband"] = /obj/item/clothing/accessory/armband/pmc //NEW HORIZONS EDIT
+	pmc_patch["OSS armband, alt"] = /obj/item/clothing/accessory/armband/pmc/alt //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(pmc_patch)
 
 /datum/gear/faction/epmc_uniform_phys_med
-	display_name = "PMCG physician uniform"
+	display_name = "OSS physician uniform" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/under/rank/medical/pmc/alt
 	slot = slot_w_uniform
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 	allowed_roles = list("Physician")
 
 /datum/gear/faction/epmc_uniform_pharm_med
-	display_name = "PMCG pharmacist uniform"
+	display_name = "OSS pharmacist uniform" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/under/rank/medical/pharmacist/pmc/alt
 	slot = slot_w_uniform
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 	allowed_roles = list("Pharmacist")
 
 /datum/gear/faction/epmc_uniform_psych_med
-	display_name = "PMCG psychiatrist uniform"
+	display_name = "OSS psychiatrist uniform" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/under/rank/medical/psych/pmc/alt
 	slot = slot_w_uniform
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 	allowed_roles = list("Psychiatrist")
 
 /datum/gear/faction/epmc_uniform_intern_med
-	display_name = "PMCG medical intern uniform"
+	display_name = "OSS medical intern uniform" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/under/rank/medical/intern/pmc/alt
 	slot = slot_w_uniform
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 	allowed_roles = list("Medical Intern")
 
 /datum/gear/faction/epmc_uniform_fr_med
-	display_name = "PMCG/EPMC first responder uniform"
+	display_name = "OSS/OSS-C first responder uniform" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/under/rank/medical/first_responder/pmc/epmc
 	slot = slot_w_uniform
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 	allowed_roles = list("First Responder")
 
 /datum/gear/faction/epmc_uniform_fr_med/New()
 	..()
 	var/list/epmc_uniform_fr_med = list()
 	epmc_uniform_fr_med["EPMC first responder uniform"] = /obj/item/clothing/under/rank/medical/first_responder/pmc/epmc
-	epmc_uniform_fr_med["PMCG first responder uniform, alt"] = /obj/item/clothing/under/rank/medical/first_responder/pmc/alt
+	epmc_uniform_fr_med["OSS first responder uniform, alt"] = /obj/item/clothing/under/rank/medical/first_responder/pmc/alt //NEW HORIZONS EDIT
 	epmc_uniform_fr_med["Sekhmet Intergalactic first responder uniform"] = /obj/item/clothing/under/rank/medical/first_responder/pmc/sekh
 	epmc_uniform_fr_med["Ve'katak Phalanx first responder uniform"] = /obj/item/clothing/under/rank/medical/first_responder/pmc/vekatak_phalanx
 	gear_tweaks += new /datum/gear_tweak/path(epmc_uniform_fr_med)
 
 /datum/gear/faction/wildlands_flagpatches
-	display_name = "wildlands flagpatch selection"
-	description = "A selection of flagpatches from the now defunct groups of the Human Wildlands."
+	display_name = "additional contractor flagpatch selection" //NEW HORIZONS EDIT
+	description = "A selection of flagpatches from several groups of interest that have been sourced for Contractors, including the UNIP itself" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/accessory/flagpatch/fsf
 	slot = slot_tie
-	faction = "Private Military Contracting Group"
+	faction = "Office of Special Services" //NEW HORIZONS EDIT
 	flags = null
 
 /datum/gear/faction/wildlands_flagpatches/New()
 	..()
 	var/list/wildlands_flag_patches = list()
-	wildlands_flag_patches["flagpatch, free solarian fleets"] = /obj/item/clothing/accessory/flagpatch/fsf
-	wildlands_flag_patches["flagpatch, middle ring shield pact"] = /obj/item/clothing/accessory/flagpatch/pact
-	wildlands_flag_patches["flagpatch, solarian provisional government"] = /obj/item/clothing/accessory/flagpatch/spg
-	wildlands_flag_patches["flagpatch, southern solarian military district"] = /obj/item/clothing/accessory/flagpatch/ssmd
+	wildlands_flag_patches["flagpatch, free fleets mercenary group"] = /obj/item/clothing/accessory/flagpatch/fsf //NEW HORIZONS EDIT
+	wildlands_flag_patches["flagpatch, protectorate department of justice and diplomatic affairs"] = /obj/item/clothing/accessory/flagpatch/pact //NEW HORIZONS EDIT
+	wildlands_flag_patches["flagpatch, frontier freelancer"] = /obj/item/clothing/accessory/flagpatch/spg //NEW HORIZONS EDIT
+	wildlands_flag_patches["flagpatch, united nations security council"] = /obj/item/clothing/accessory/flagpatch/ssmd //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(wildlands_flag_patches)
 
 //Zeng-Hu
@@ -628,44 +628,44 @@
 	nt_sunglasses["medical HUD, NanoTrasen"] = /obj/item/clothing/glasses/hud/health/nt
 	gear_tweaks += new /datum/gear_tweak/path(nt_sunglasses)
 
-//Orion
+//Orion, now Charon.
 /datum/gear/faction/orion_coat
-	display_name = "orion coat selection"
-	description = "A selection of Orion coats"
+	display_name = "charon coat selection" //NEW HORIZONS EDIT
+	description = "A selection of Charon Shipping coats" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/orion
 	slot = slot_wear_suit
-	faction = "Orion Express"
+	faction = "Charon Shipping Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/orion_coat/New()
 	..()
 	var/list/orion_labcoats = list()
-	orion_labcoats["orion labcoat"] = /obj/item/clothing/suit/storage/toggle/labcoat/orion
-	orion_labcoats["orion letterman labcoat"] = /obj/item/clothing/suit/storage/toggle/labcoat/orion/letterman
-	orion_labcoats["orion labcoat, long"] = /obj/item/clothing/suit/storage/toggle/longcoat/orion
-	orion_labcoats["orion corporate jacket"] = /obj/item/clothing/suit/storage/toggle/corp/orion
-	orion_labcoats["orion corporate jacket, alt"] = /obj/item/clothing/suit/storage/toggle/corp/orion/alt
-	orion_labcoats["orion winter coat"] = /obj/item/clothing/suit/storage/hooded/wintercoat/orion
-	orion_labcoats["orion winter coat, alt"] = /obj/item/clothing/suit/storage/hooded/wintercoat/orion/alt
+	orion_labcoats["charon labcoat"] = /obj/item/clothing/suit/storage/toggle/labcoat/orion //NEW HORIZONS EDIT
+	orion_labcoats["charon letterman labcoat"] = /obj/item/clothing/suit/storage/toggle/labcoat/orion/letterman //NEW HORIZONS EDIT
+	orion_labcoats["charon labcoat, long"] = /obj/item/clothing/suit/storage/toggle/longcoat/orion //NEW HORIZONS EDIT
+	orion_labcoats["charon corporate jacket"] = /obj/item/clothing/suit/storage/toggle/corp/orion //NEW HORIZONS EDIT
+	orion_labcoats["charon corporate jacket, alt"] = /obj/item/clothing/suit/storage/toggle/corp/orion/alt //NEW HORIZONS EDIT
+	orion_labcoats["charon winter coat"] = /obj/item/clothing/suit/storage/hooded/wintercoat/orion //NEW HORIZONS EDIT
+	orion_labcoats["charon winter coat, alt"] = /obj/item/clothing/suit/storage/hooded/wintercoat/orion/alt //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(orion_labcoats)
 
 /datum/gear/faction/orion_headwear
-	display_name = "orion headwear selection"
-	description = "A selection of Orion headwear"
+	display_name = "charon headwear selection" //NEW HORIZONS EDIT
+	description = "A selection of Charon Shipping headwear" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/head/beret/corporate/orion
 	slot = slot_head
-	faction = "Orion Express"
+	faction = "Charon Shipping Services" //NEW HORIZONS EDIT
 
 /datum/gear/faction/orion_headwear/New()
 	..()
 	var/list/orion_headwear = list()
-	orion_headwear["beret, orion"] = /obj/item/clothing/head/beret/corporate/orion
-	orion_headwear["orion woolen hat"] = /obj/item/clothing/head/wool/orion
-	orion_headwear["orion woolen hat, alt"] = /obj/item/clothing/head/wool/orion/alt
+	orion_headwear["beret, charon"] = /obj/item/clothing/head/beret/corporate/orion //NEW HORIZONS EDIT
+	orion_headwear["charon woolen hat"] = /obj/item/clothing/head/wool/orion //NEW HORIZONS EDIT
+	orion_headwear["charon woolen hat, alt"] = /obj/item/clothing/head/wool/orion/alt //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(orion_headwear)
 
-//SCC
+//SCC now UNIP
 /datum/gear/faction/scc_armband
-	display_name = "SCC armband"
+	display_name = "UNIP armband" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/accessory/armband/scc
 	slot = slot_tie
 	sort_category = "Factions"
@@ -673,7 +673,7 @@
 	faction = null
 
 /datum/gear/faction/scc_sleevepatch
-	display_name = "SCC sleeve patch"
+	display_name = "UNIP sleeve patch" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/accessory/sleevepatch/scc
 	slot = slot_tie
 	sort_category = "Factions"
@@ -681,8 +681,8 @@
 	faction = null
 
 /datum/gear/faction/scc_jacket
-	display_name = "SCC coat selection"
-	description = "A selection of SCC coats"
+	display_name = "UNIP coat selection" //NEW HORIZONS EDIT
+	description = "A selection of UNIP coats" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/suit/storage/toggle/brown_jacket/scc
 	slot = slot_wear_suit
 	sort_category = "Factions"
@@ -692,16 +692,16 @@
 /datum/gear/faction/scc_jacket/New()
 	..()
 	var/list/scc_jackets = list()
-	scc_jackets["SCC jacket"] = /obj/item/clothing/suit/storage/toggle/brown_jacket/scc
-	scc_jackets["SCC corporate jacket"] = /obj/item/clothing/suit/storage/toggle/corp/scc
-	scc_jackets["SCC corporate jacket, alt"] = /obj/item/clothing/suit/storage/toggle/corp/scc/alt
-	scc_jackets["SCC winter coat"] = /obj/item/clothing/suit/storage/hooded/wintercoat/scc
-	scc_jackets["SCC winter coat, alt"] = /obj/item/clothing/suit/storage/hooded/wintercoat/scc/alt
+	scc_jackets["UNIP jacket"] = /obj/item/clothing/suit/storage/toggle/brown_jacket/scc //NEW HORIZONS EDIT
+	scc_jackets["UNIP government jacket"] = /obj/item/clothing/suit/storage/toggle/corp/scc //NEW HORIZONS EDIT
+	scc_jackets["UNIP government jacket, alt"] = /obj/item/clothing/suit/storage/toggle/corp/scc/alt //NEW HORIZONS EDIT
+	scc_jackets["UNIP winter coat"] = /obj/item/clothing/suit/storage/hooded/wintercoat/scc //NEW HORIZONS EDIT
+	scc_jackets["UNIP winter coat, alt"] = /obj/item/clothing/suit/storage/hooded/wintercoat/scc/alt //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(scc_jackets)
 
 /datum/gear/faction/scc_beret
-	display_name = "SCC headwear selection"
-	description = "A selection of SCC headwear"
+	display_name = "UNIP headwear selection" //NEW HORIZONS EDIT
+	description = "A selection of UNIP headwear" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/head/beret/scc
 	slot = slot_head
 	sort_category = "Factions"
@@ -711,7 +711,7 @@
 /datum/gear/faction/scc_beret/New()
 	..()
 	var/list/scc_headwear = list()
-	scc_headwear["beret, SCC"] = /obj/item/clothing/head/beret/scc
-	scc_headwear["SCC woolen hat"] = /obj/item/clothing/head/wool/scc
-	scc_headwear["SCC woolen hat, alt"] = /obj/item/clothing/head/wool/scc/alt
+	scc_headwear["beret, UNIP"] = /obj/item/clothing/head/beret/scc //NEW HORIZONS EDIT
+	scc_headwear["UNIP woolen hat"] = /obj/item/clothing/head/wool/scc //NEW HORIZONS EDIT
+	scc_headwear["UNIP woolen hat, alt"] = /obj/item/clothing/head/wool/scc/alt //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(scc_headwear)

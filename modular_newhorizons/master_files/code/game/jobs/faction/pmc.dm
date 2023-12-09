@@ -3,9 +3,9 @@
 	description = {"<p>
 The Office of Special Services is the United Nations own intelligence, clandestine operations, and research arm,
 Most of their exact details and operations arent known, aside from what has been redacted and edited for public view, the most famous of which is their Psionic Talent Assessment Program.
-This includes the contractor branch of The Department, acting as an umbrella employer for all independent or foreign contractors not hired by any of the corporations operating on the New Horizon, usually stylized as OSS-C.
+This includes the contractor branch of The Department, acting as an umbrella employer for all UNIP government employees, as well as independent or foreign contractors not hired by any of the corporations operating on the New Horizon, usually stylized as OSS-C.
 	</p>"}
-	departments = {"Medical<br>Security<br>Research<br>Command<br>Command Support"}
+	departments = {"Medical<br>Security<br>Engineering<br>Research<br>Command<br>Command Support"}
 	title_suffix = "OSS"
 
 	allowed_role_types = PMC_ROLES
@@ -37,6 +37,7 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 		"Security Officer" = /datum/outfit/job/officer/pmc,
 		"Warden" = /datum/outfit/job/warden/pmc,
 		"Security Cadet" = /datum/outfit/job/intern_sec/pmc,
+		"Investigator Intern" = /datum/outfit/job/intern_sec/forensics/pmc,
 		"Investigator" =/datum/outfit/job/forensics/pmc,
 		"Physician" = /datum/outfit/job/doctor/pmc,
 		"Surgeon" = /datum/outfit/job/doctor/surgeon/pmc,
@@ -45,7 +46,8 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 		"Psychologist" = /datum/outfit/job/psychiatrist/pmc,
 		"First Responder" = /datum/outfit/job/med_tech/pmc,
 		"Medical Intern" = /datum/outfit/job/intern_med/pmc,
-		"Corporate Liaison" = /datum/outfit/job/representative/pmc
+		"Corporate Liaison" = /datum/outfit/job/representative/pmc,
+		"Off-Duty Crew Member" = /datum/outfit/job/visitor/pmc,
 		"Bridge Crew" = /datum/outfit/job/bridge_crew/pmc
 	)
 

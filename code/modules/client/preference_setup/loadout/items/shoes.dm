@@ -128,7 +128,7 @@
 	gear_tweaks += new /datum/gear_tweak/path(boots)
 
 /datum/gear/shoes/lyodsuit_boots
-	display_name = "lyodsuit boots"
+	display_name = "novasuit boots" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/shoes/lyodsuit
 
 /datum/gear/shoes/konyang_gomusin

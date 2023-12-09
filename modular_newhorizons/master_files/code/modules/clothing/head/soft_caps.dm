@@ -144,8 +144,8 @@
 	item_state = "pmcalt"
 
 /obj/item/clothing/head/softcap/pmc/epmc
-	name = "OSS-C cap"
-	desc = "A grey OSS fatigue cap with the contractor logo of the Office of Special Services on its front. For amoral contractors that prefer style over protection."
+	name = "EPMC cap"
+	desc = "A grey EPMC fatigue cap with the contractor logo of the Eridani Corporate Alliance on its front. For amoral contractors that prefer style over protection."
 	icon_state = "epmc"
 	item_state = "epmc"
 

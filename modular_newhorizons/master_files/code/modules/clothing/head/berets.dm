@@ -151,8 +151,8 @@
 	item_state = "pmc"
 
 /obj/item/clothing/head/beret/corporate/pmc/epmc
-	name = "OSS-C beret"
-	desc = "A beret with the Office of Special Services logo emblazoned on it. This one appears to be the Contractor variant."
+	name = "EPMC beret"
+	desc = "A beret with the Eridani Private Military Contractor logo emblazoned on it. A common sighting for contractors."
 	icon_state = "epmc"
 	item_state = "epmc"
 

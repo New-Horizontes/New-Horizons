@@ -961,8 +961,8 @@
 	overlay_state = "necrosec_patch"
 
 /obj/item/clothing/accessory/sleevepatch/erisec
-	name = "\improper OSS-C sleeve patch"
-	desc = "A digital patch which can be attached to the shoulder sleeve of clothing. This one denotes the wearer as a Contractor employed by the Office of Special Services."
+	name = "\improper EPMC sleeve patch"
+	desc = "A digital patch which can be attached to the shoulder sleeve of clothing. This one denotes the wearer as an Eridani Private Military Contractor."
 	icon_state = "erisec_patch"
 	overlay_state = "erisec_patch"
 

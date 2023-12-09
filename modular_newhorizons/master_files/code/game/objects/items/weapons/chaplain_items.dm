@@ -30,7 +30,7 @@
 	name = "tribunalist purification rod"
 	desc = "A holy Symbol often carried by Tribunalist clergy, the obsidian encased in the wooden handle is intended to ward off malevolent spirits and bless followers of the Goddess. The ornament on top depicts 'The Eye'\
 	Moroz Holy Tribunal."
-	desc_extended = "With origins in House Zhao, Tribunalist purification rods are a common sight throughout the Empire of Dominia. Intended to ward off malevolent entities and bless the \
+	desc_extended = "With origins in House Rodrigo, Tribunalist purification rods are a common sight throughout the Empire of Dominia. Intended to ward off malevolent entities and bless the \
 	faithful a Tribunalist priestess is nothing without her rod, which is typically granted upon promotion to full priestess. This particular example has been built around an obsidian \
 	core in the shaft, and is heavier than it seems."
 	icon_state = "tribunalrod"

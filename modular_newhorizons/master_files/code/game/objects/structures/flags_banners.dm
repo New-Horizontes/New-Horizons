@@ -578,7 +578,7 @@
 	flag_structure = /obj/structure/sign/flag/ouerea
 
 /obj/structure/sign/flag/ouerea
-	name = "\improper Ouerea flag"
+	name = "\improper Zakkeran flag"
 	desc = "The modern day flag of thee Unathi planet of Zakkeran. A tentative proposal within Hegemony society, with the addition of a red stripe to symbolize its own value as an independent entity, and that same sentiment is why this is not the current official flag of the planet."
 	icon_state = "ouerea"
 	flag_path = "ouerea"

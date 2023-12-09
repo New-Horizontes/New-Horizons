@@ -33,8 +33,8 @@
     item_state = "hat_pmc"
 
 /obj/item/clothing/head/wool/pmc/alt
-    name = "oss-c woolen hat"
-    desc = "A warm woolen hat in OSS-C colors. It even comes with a holographic bobble!"
+    name = "epmc woolen hat"
+    desc = "A warm woolen hat in EPMC colors. It even comes with a holographic bobble!"
     icon_state = "hat_epmc"
     item_state = "hat_epmc"
 

@@ -19,7 +19,7 @@
 	zippolighters["dominian zippo"] = /obj/item/flame/lighter/zippo/dominia
 	zippolighters["fisanduhian zippo"] = /obj/item/flame/lighter/zippo/fisanduh
 	zippolighters["coalition zippo"] = /obj/item/flame/lighter/zippo/coalition
-	zippolighters["solarian zippo"] = /obj/item/flame/lighter/zippo/sol
+	zippolighters["protectorate zippo"] = /obj/item/flame/lighter/zippo/sol //NEW HORIZONS EDIT
 	zippolighters["biesellite zippo"] = /obj/item/flame/lighter/zippo/tcfl
 	zippolighters["himeo zippo"] = /obj/item/flame/lighter/zippo/himeo
 	zippolighters["san colettish zippo"] = /obj/item/flame/lighter/zippo/sancolette
