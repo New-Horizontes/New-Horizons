@@ -77,12 +77,6 @@
 	fore_dir = NORTH
 	vessel_size = SHIP_SIZE_TINY
 
-/obj/effect/overmap/visitable/ship/landable/peoples_station_fang/New()
-	if (prob(50))
-		designation = "Hadii"
-	else
-		designation = "[pick("Adhomai's Finest", "Party's Dagger", "Sunray", "Kazarrhaldiye", "Revolutionary Courage", "Hadiist Avenger")]"
-	..()
 /obj/machinery/computer/shuttle_control/explore/peoples_station_fang
 	name = "shuttle control console"
 	shuttle_tag = "Orbital Fleet Fang"

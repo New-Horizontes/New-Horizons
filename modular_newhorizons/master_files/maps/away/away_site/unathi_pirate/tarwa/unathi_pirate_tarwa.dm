@@ -42,10 +42,6 @@
 	)
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/tarwa/New()
-	designation = "[pick("Silent Sentinel", "Symbiosis", "Flying Dead", "Immortal", "Blood for Blood", "Unnatural Compatibility", "Barkscale", "Boneclaw", "Watcher in the Dark")]"
-	..()
-
 /obj/effect/overmap/visitable/ship/tarwa/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "unathi_diona_freighter")
 	skybox_image.pixel_x = rand(0,64)

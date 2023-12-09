@@ -2,11 +2,6 @@
 	reward_low = 4000
 	reward_high = 6000
 
-/datum/bounty/item/slime/New()
-	..()
-	description = "One of our science leads is hunting for a sample of [name]. A bounty has been offered for finding it."
-	reward += rand(0, 4) * 500
-
 /datum/bounty/item/slime/green
 	name = "Green Slime Extract"
 	wanted_types = list(/obj/item/slime_extract/green)

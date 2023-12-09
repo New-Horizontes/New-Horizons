@@ -116,10 +116,6 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/ssmd_corvette/New()
-	designation = "[pick("Asparuh", "Magyar", "Hussar", "Black Army", "Hunyadi", "Piast", "Hussite", "Tepes", "Komondor", "Turul", "Vistula", "Sikorski", "Mihai", "Blue Army", "Strzyga", "Leszy", "Danube", "Sokoly", "Peacekeeper", "Duty", "Loyalty", "Florian Geyer", "Pilsudski", "Chopin", "Levski", "Valkyrie", "Tresckow", "Olbricht", "Dubcek", "Kossuth", "Nagy", "Clausewitz", "Poniatowski", "Orzel", "Turul", "Skanderbeg", "Ordog", "Perun", "Poroniec", "Klobuk", "Cavalryman", "Reinforcements Delayed", "Upior", "Earth's Pride", "Kuvasz", "Fellegvar", "Nowa Bratislawa", "Zbior", "Stadter", "Homesteader", "Premyslid", "Bohemia", "Discipline", "Cavalryman", "Order", "Law", "Tenacity", "Diligence", "Valiant", "Konik", "Victory", "Triumph", "Vanguard", "Jager", "Grenadier", "Honor Guard", "Visegrad", "Nil", "Warsaw", "Budapest", "Prague", "Sofia", "Bucharest", "Home Army", "Kasimir", "Veles", "Blyskawica", "Kubus")]"
-	..()
-
 /obj/effect/overmap/visitable/ship/ssmd_corvette/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "corvette")
 	skybox_image.pixel_x = rand(0,64)

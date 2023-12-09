@@ -42,10 +42,6 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/nka_merchant/New()
-	designation = "[pick("Minharrzka's Daughter", "Her Majesty's Merchant", "Vahzirthaamro", "Azunja's Favorite", "Wealth-Beyond-Measure", "Miran'mir", "Crown Traveller", "Space Monarch")]"
-	..()
-
 /obj/effect/overmap/visitable/ship/nka_merchant/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "nka_freighter")
 	skybox_image.pixel_x = rand(0,64)

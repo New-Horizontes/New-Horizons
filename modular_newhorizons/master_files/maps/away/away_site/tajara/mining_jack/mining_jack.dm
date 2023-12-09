@@ -67,9 +67,6 @@
 	fore_dir = NORTH
 	vessel_size = SHIP_SIZE_TINY
 
-/obj/effect/overmap/visitable/ship/landable/tajara_mining_jack/New()
-	designation = "[pick("Rock Breaker", "Mining Zhan", "Flying Pickaxe", "Asteroid's Worst Nightmare", "Twin Suns Drills", "Minharrzka's Blessing", "Driller", "Stardust", "Dhrarmela's Smelter")]"
-	..()
 
 /obj/machinery/computer/shuttle_control/explore/tajara_mining_jack
 	name = "shuttle control console"

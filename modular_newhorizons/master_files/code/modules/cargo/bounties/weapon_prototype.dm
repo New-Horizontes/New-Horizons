@@ -5,12 +5,6 @@
 	var/stat_name = ""
 	var/stat_comparison = "greater than"
 
-/datum/bounty/weapon_prototype/New()
-	name = "Weapon ([stat_name] [stat_comparison] [stat_value])"
-	description = "[current_map.company_name] is interested in a laser prototype with a [stat_name] stat [stat_comparison] [stat_value]. [current_map.boss_name] will pay handsomely for such a weapon."
-	reward += rand(0, 4) * 500
-	..()
-
 /datum/bounty/weapon_prototype/completion_string()
 	return shipped ? "Shipped" : "Not Shipped"
 

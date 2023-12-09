@@ -52,10 +52,6 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/orion_express_ship/New()
-	designation = "[pick("Messenger", "The Orion Express", "Traveler", "Highspeed", "Punctual", "Unstoppable", "Pony Express", "Courier", "Telegram", "Carrier Pigeon", "Fuel Stop", "Convenience")]"
-	..()
-
 /obj/effect/overmap/visitable/ship/orion_express_ship/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "oe_platform")
 	skybox_image.pixel_x = rand(0,64)

@@ -43,10 +43,6 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/kataphract_ship/New()
-	designation = "[pick("Pious Avenger", "Persistent Conviction", "Solemn Retribution", "Venerable Ironscales", "Blade of Faith", "Glorious Succor", "Sacred Retribution", "Unflinching Soul", "Unrelenting Fervor", "Ascendant Absolution")]"
-	..()
-
 /obj/effect/shuttle_landmark/nav_kataphract_ship
 	base_turf = /turf/space
 	base_area = /area/space

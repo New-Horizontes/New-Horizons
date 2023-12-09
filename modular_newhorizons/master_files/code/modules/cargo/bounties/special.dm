@@ -31,12 +31,6 @@
 	wanted_types = list(/obj/item/stack/material/phoron)
 	high_priority = TRUE
 
-/datum/bounty/item/phoron_sheet/New()
-	..()
-	required_count = round(required_count, 10)
-	//Overwrite the normal price randomization because the random_count is so high. There would be absolutely nuts price fluctuation.
-	reward = round(rand(reward_low, reward_high), 100)
-
 /datum/bounty/item/phoron_sheet/ship(var/obj/item/stack/material/phoron/O)
 	if(!applies_to(O))
 		return

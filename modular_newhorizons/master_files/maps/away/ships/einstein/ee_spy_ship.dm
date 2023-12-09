@@ -45,10 +45,6 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/ee_spy_ship/New()
-	designation = "[pick("Brilliance", "Oppenheimer", "Fermi", "Slingshot", "Shanghai", "Bern", "Hadron", "Positron", "Invention", "Nikola Tesla", "Quark")]"
-	..()
-
 /obj/effect/shuttle_landmark/ee_spy_ship/nav1
 	name = "Einstein Engines Research Ship - Port Side"
 	landmark_tag = "nav_ee_spy_ship_1"

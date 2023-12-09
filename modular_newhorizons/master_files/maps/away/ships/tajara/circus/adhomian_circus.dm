@@ -47,10 +47,6 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/adhomian_circus/New()
-	designation = "[pick("Kalmykova", "Flying Rafama", "Harazhimir Brothers")]"
-	..()
-
 /obj/effect/shuttle_landmark/adhomian_circus/transit
 	name = "In transit"
 	landmark_tag = "nav_transit_adhomian_circus"

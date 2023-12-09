@@ -76,10 +76,6 @@
 	fore_dir = NORTH
 	vessel_size = SHIP_SIZE_TINY
 
-/obj/effect/overmap/visitable/ship/landable/miners_guild/New()
-	designation = "[pick("Stonebreaker", "Son of Kutah", "Asteroid's Bane", "Sinta Pride", "Ancestors' Glory", "Azhal's Blessing", "Fires of Sk'akh", "Pickaxe", "Where's The Phoron", "How Do I Reset The IFF")]"
-	..()
-
 /obj/machinery/computer/shuttle_control/explore/miners_guild
 	name = "shuttle control console"
 	shuttle_tag = "Miners' Guild Shuttle"

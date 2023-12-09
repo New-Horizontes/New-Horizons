@@ -27,10 +27,6 @@
 		"nav_yacht_antag"
 	)
 
-/obj/effect/overmap/visitable/ship/yacht/New()
-	designation = "[pick("Razorshark", "Torch", "Lighting", "Pequod", "Anansi")]"
-	..()
-
 /obj/effect/shuttle_landmark/nav_yacht/nav1
 	name = "Small Yacht Navpoint #1"
 	landmark_tag = "nav_yacht_1"

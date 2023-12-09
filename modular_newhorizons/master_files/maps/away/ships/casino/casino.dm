@@ -40,10 +40,6 @@
 		"Casino Cutter" = list("nav_casino_hangar"),
 	)
 
-/obj/effect/overmap/visitable/ship/casino/New()
-	designation = "[pick("Lady Luck","Gold Rush","Fortune's Favoured","Four Leaves", "Over Easy")]"
-	..()
-
 //Landmarks
 
 /obj/effect/shuttle_landmark/nav_casino

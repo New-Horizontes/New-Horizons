@@ -52,10 +52,6 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/tcfl_peacekeeper_ship/New()
-	designation = "[pick("Castle", "Rook", "Gin Rummy", "Pawn", "Bishop", "Knight", "Blackjack", "Torch", "Liberty", "President Dorn", "Independence", "Civic Duty", "Democracy", "Progress", "Prosperity", "New Gibson", "Biesel", "Justice", "Equality")]"
-	..()
-
 /obj/effect/overmap/visitable/ship/tcfl_peacekeeper_ship/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "tcfl_corvette")
 	skybox_image.pixel_x = rand(0,64)

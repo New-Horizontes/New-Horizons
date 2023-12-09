@@ -10,10 +10,6 @@
 
 	var/deployed = TRUE
 
-/datum/ghostspawner/human/ert/deathsquad/New()
-	..()
-	welcome_message = "The [current_map.station_name] has been compromised. Recover UNIP assets by any means necessary. Crew expendable."
-
 /datum/ghostspawner/human/ert/deathsquad/leader
 	name = "OSS Black Ops Team Leader"
 	short_name = "ntapl"

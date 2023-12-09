@@ -42,14 +42,6 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/database_freighter/New()
-	if (prob(50))
-		designation = "Hadii"
-	else
-		designation = "[pick("Pursuer of Knowledge", "Guiding Light", "Pioneer of the Dawn", "Party's Vanguard", "Hadiist Adventurer", "First Step", "Maker of the Future", "Indomitable Hadiist Spirit")]"
-	..()
-
-
 /obj/effect/overmap/visitable/ship/database_freighter/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "pra_freighter")
 	skybox_image.pixel_x = rand(0,64)

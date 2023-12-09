@@ -78,15 +78,6 @@
 	sort_category = "Xenowear - Diona"
 	culture_restriction = list(/singleton/origin_item/culture/dionae_nralakk, /singleton/origin_item/culture/eum, /singleton/origin_item/culture/xrim)
 
-/datum/gear/accessory/capes/diona/New()
-	..()
-	var/list/capes = list()
-	capes["star cape"] = /obj/item/clothing/accessory/poncho/shouldercape/star
-	capes["nebula cape"] = /obj/item/clothing/accessory/poncho/shouldercape/nebula
-	capes["nova cape"] = /obj/item/clothing/accessory/poncho/shouldercape/nova
-	capes["galaxy cape"] = /obj/item/clothing/accessory/poncho/shouldercape/galaxy
-	gear_tweaks += new /datum/gear_tweak/path(capes)
-
 /datum/gear/accessory/qeblak/diona
 	display_name = "dionae qeblak mantle"
 	path = /obj/item/clothing/accessory/poncho/shouldercape/qeblak
@@ -154,31 +145,6 @@
 	flags = GEAR_HAS_DESC_SELECTION
 	culture_restriction = list(/singleton/origin_item/culture/dionae_nralakk, /singleton/origin_item/culture/eum, /singleton/origin_item/culture/xrim)
 
-/datum/gear/uniform/work/diona/New()
-	..()
-	var/list/outfit = list()
-	outfit["ox research"] = /obj/item/clothing/under/skrell/nralakk
-	outfit["ox security"] = /obj/item/clothing/under/skrell/nralakk/ox
-	outfit["ox engineer"] = /obj/item/clothing/under/skrell/nralakk/ox/engineer
-	outfit["ox service"] = /obj/item/clothing/under/skrell/nralakk/ox/service
-	outfit["ox medical"] = /obj/item/clothing/under/skrell/nralakk/ox/med
-	outfit["ix research"] = /obj/item/clothing/under/skrell/nralakk/ix
-	outfit["ix security"] = /obj/item/clothing/under/skrell/nralakk/ix/security
-	outfit["ix engineer"] = /obj/item/clothing/under/skrell/nralakk/ix/engineer
-	outfit["ix service"] = /obj/item/clothing/under/skrell/nralakk/ix/service
-	outfit["ix medical"] = /obj/item/clothing/under/skrell/nralakk/ix/med
-	outfit["oqi research"] = /obj/item/clothing/under/skrell/nralakk/oqi
-	outfit["oqi security"] = /obj/item/clothing/under/skrell/nralakk/oqi/security
-	outfit["oqi engineer"] = /obj/item/clothing/under/skrell/nralakk/oqi/engineer
-	outfit["oqi service"] = /obj/item/clothing/under/skrell/nralakk/oqi/service
-	outfit["oqi medical"] = /obj/item/clothing/under/skrell/nralakk/oqi/med
-	outfit["iqi research"] = /obj/item/clothing/under/skrell/nralakk/iqi
-	outfit["iqi security"] = /obj/item/clothing/under/skrell/nralakk/iqi/security
-	outfit["iqi engineer"] = /obj/item/clothing/under/skrell/nralakk/iqi/engineer
-	outfit["iqi service"] = /obj/item/clothing/under/skrell/nralakk/iqi/service
-	outfit["iqi medical"] = /obj/item/clothing/under/skrell/nralakk/iqi/med
-	gear_tweaks += new /datum/gear_tweak/path(outfit)
-
 /datum/gear/suit/jacketdiona/
 	display_name = "dionae work jackets"
 	path = /obj/item/clothing/suit/storage/toggle/skrell
@@ -187,30 +153,6 @@
 	flags = GEAR_HAS_DESC_SELECTION
 	culture_restriction = list(/singleton/origin_item/culture/dionae_nralakk, /singleton/origin_item/culture/eum, /singleton/origin_item/culture/xrim)
 
-/datum/gear/suit/jacket/diona/New()
-	..()
-	var/list/jacket = list()
-	jacket["ox research"] = /obj/item/clothing/suit/storage/toggle/skrell
-	jacket["ox bridge/security"] = /obj/item/clothing/suit/storage/toggle/skrell/ox/security
-	jacket["ox engineer"] = /obj/item/clothing/suit/storage/toggle/skrell/ox/engineer
-	jacket["ox cargo/service"] = /obj/item/clothing/suit/storage/toggle/skrell/ox/service
-	jacket["ox medical"] = /obj/item/clothing/suit/storage/toggle/skrell/ox/med
-	jacket["ix research"] = /obj/item/clothing/suit/storage/toggle/skrell/ix
-	jacket["ix bridge/security"] = /obj/item/clothing/suit/storage/toggle/skrell/ix/security
-	jacket["ix engineer"] = /obj/item/clothing/suit/storage/toggle/skrell/ix/engineer
-	jacket["ix cargo/service"] = /obj/item/clothing/suit/storage/toggle/skrell/ix/service
-	jacket["ix medical"] = /obj/item/clothing/suit/storage/toggle/skrell/ix/med
-	jacket["oqi research"] = /obj/item/clothing/suit/storage/toggle/skrell/oqi
-	jacket["oqi bridge/security"] = /obj/item/clothing/suit/storage/toggle/skrell/oqi/security
-	jacket["oqi engineer"] = /obj/item/clothing/suit/storage/toggle/skrell/oqi/engineer
-	jacket["oqi cargo/service"] = /obj/item/clothing/suit/storage/toggle/skrell/oqi/service
-	jacket["oqi medical"] = /obj/item/clothing/suit/storage/toggle/skrell/oqi/med
-	jacket["iqi research"] = /obj/item/clothing/suit/storage/toggle/skrell/iqi
-	jacket["iqi bridge/security"] = /obj/item/clothing/suit/storage/toggle/skrell/iqi/security
-	jacket["iqi engineer"] = /obj/item/clothing/suit/storage/toggle/skrell/iqi/engineer
-	jacket["iqi cargo/service"] = /obj/item/clothing/suit/storage/toggle/skrell/iqi/service
-	jacket["iqi medical"] = /obj/item/clothing/suit/storage/toggle/skrell/iqi/med
-	gear_tweaks += new /datum/gear_tweak/path(jacket)
 
 /datum/gear/accessory/diona/poncho
 	display_name = "dionae skrell poncho"
@@ -220,15 +162,6 @@
 	flags = GEAR_HAS_DESC_SELECTION
 	culture_restriction = list(/singleton/origin_item/culture/dionae_nralakk, /singleton/origin_item/culture/eum, /singleton/origin_item/culture/xrim)
 
-/datum/gear/accessory/diona/poncho/New()
-	..()
-	var/list/poncho = list()
-	poncho["brown"] = /obj/item/clothing/accessory/poncho/skrell/brown
-	poncho["tan"] = /obj/item/clothing/accessory/poncho/skrell/tan
-	poncho["gray"] = /obj/item/clothing/accessory/poncho/skrell/gray
-	poncho["white"] = /obj/item/clothing/accessory/poncho/skrell
-	gear_tweaks += new /datum/gear_tweak/path(poncho)
-
 /datum/gear/accessory/diona/workcloak
 	display_name = "dionae work cloaks"
 	path = /obj/item/clothing/accessory/poncho/shouldercape
@@ -236,15 +169,6 @@
 	sort_category = "Xenowear - Diona"
 	flags = GEAR_HAS_DESC_SELECTION
 	culture_restriction = list(/singleton/origin_item/culture/dionae_nralakk, /singleton/origin_item/culture/eum, /singleton/origin_item/culture/xrim)
-
-/datum/gear/accessory/diona/workcloak/New()
-	..()
-	var/list/workcloak = list()
-	workcloak["ox cloak"] = /obj/item/clothing/accessory/poncho/shouldercape/cloak
-	workcloak["ix cloak"] = /obj/item/clothing/accessory/poncho/shouldercape/cloak/ix
-	workcloak["oqi cloak"] = /obj/item/clothing/accessory/poncho/shouldercape/cloak/oqi
-	workcloak["iqi cloak"] = /obj/item/clothing/accessory/poncho/shouldercape/cloak/iqi
-	gear_tweaks += new /datum/gear_tweak/path(workcloak)
 
 //unathi shared things
 
@@ -276,13 +200,6 @@
 	sort_category = "Xenowear - Diona"
 	flags = GEAR_HAS_COLOR_SELECTION
 	culture_restriction = list(/singleton/origin_item/culture/dionae_moghes, /singleton/origin_item/culture/diona_voidtamer)
-
-/datum/gear/suit/unathi_mantle/diona/New()
-	..()
-	var/list/mantles = list()
-	mantles["hide mantle, desert"] = /obj/item/clothing/accessory/poncho/unathimantle
-	mantles["hide mantle, mountain"] = /obj/item/clothing/accessory/poncho/unathimantle/mountain
-	gear_tweaks += new /datum/gear_tweak/path(mantles)
 
 /datum/gear/suit/unathi_robe/diona
 	display_name = "dionae roughspun robe"

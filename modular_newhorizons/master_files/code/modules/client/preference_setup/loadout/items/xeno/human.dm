@@ -41,14 +41,6 @@
 	whitelisted = list(SPECIES_HUMAN_OFFWORLD)
 	sort_category = "Xenowear - Human"
 
-/datum/gear/accessory/offworlder_armband/New()
-	..()
-	var/list/armbands = list()
-	armbands["science exo-stellar ribbon"] = /obj/item/clothing/accessory/armband/offworlder
-	armbands["engineering exo-stellar ribbon"] = /obj/item/clothing/accessory/armband/offworlder/engineering
-	armbands["medical exo-stellar ribbon"] = /obj/item/clothing/accessory/armband/offworlder/medical
-	gear_tweaks += new /datum/gear_tweak/path(armbands)
-
 /datum/gear/mask/offworlder
 	display_name = "jagmask"
 	path = /obj/item/clothing/mask/breath/offworlder/jagmask

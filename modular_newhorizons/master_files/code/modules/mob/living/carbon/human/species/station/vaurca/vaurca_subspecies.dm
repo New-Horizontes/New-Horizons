@@ -111,12 +111,6 @@
 
 	default_h_style = "Bald"
 
-/datum/species/bug/type_c/New()
-	..()
-	equip_adjust = list(
-		slot_l_hand_str = list("[NORTH]" = list("x" = 6, "y" = 8),  "[EAST]" = list("x" = 15, "y" = 5), "[SOUTH]" = list("x" = 16, "y" = 8), "[WEST]" = list("x" = -9, "y" = 4)),
-		slot_r_hand_str = list("[NORTH]" = list("x" = 11, "y" = 8), "[EAST]" = list("x" = 25, "y" = 4), "[SOUTH]" = list("x" = 2, "y" = 8),  "[WEST]" = list("x" = 1, "y" = 5))
-	)
 
 /datum/species/bug/type_c/handle_post_spawn(var/mob/living/carbon/human/H)
 	..()
@@ -262,20 +256,6 @@ Bulwarks are much larger and have significantly thicker carapaces than most Vaur
 	sprint_speed_factor = 1.4
 	stamina = 50
 
-/datum/species/bug/type_e/New()
-	..()
-	equip_adjust = list(
-		slot_head_str    = list(                                     "[EAST]" = list("x" = 16, "y" = 0),  "[SOUTH]" = list("x" = 9, "y" = 0), "[WEST]" = list("x" = 0, "y" = 0)),
-		slot_glasses_str = list(                                     "[EAST]" = list("x" = 15, "y" = 0),  "[SOUTH]" = list("x" = 9, "y" = 0), "[WEST]" = list("x" = 1, "y" = 0)),
-		slot_l_hand_str  = list("[NORTH]" = list("x" = 6, "y" = 0),  "[EAST]" = list("x" = 9, "y" = 2),  "[SOUTH]" = list("x" = 12, "y" = 0), "[WEST]" = list("x" = 4, "y" = 0)),
-		slot_r_hand_str  = list("[NORTH]" = list("x" = 12, "y" = 0), "[EAST]" = list("x" = 12, "y" = 0), "[SOUTH]" = list("x" = 6, "y" = 0),  "[WEST]" = list("x" = 7, "y" = 2)),
-		slot_l_ear_str   = list(                                     "[EAST]" = list("x" = 0, "y" = 0),  "[SOUTH]" = list("x" = 9, "y" = 0),  "[WEST]" = list("x" = 0, "y" = 0)),
-		slot_r_ear_str   = list(                                     "[EAST]" = list("x" = 16, "y" = 0), "[SOUTH]" = list("x" = 9, "y" = 0),  "[WEST]" = list("x" = 0, "y" = 0)),
-		slot_belt_str    = list("[NORTH]" = list("x" = 9, "y" = 2),  "[EAST]" = list("x" = 10, "y" = 1), "[SOUTH]" = list("x" = 9, "y" = 2),  "[WEST]" = list("x" = 6, "y" = 1)),
-		slot_wear_id_str = list("[NORTH]" = list("x" = 0, "y" = 0),  "[EAST]" = list("x" = 12, "y" = 0), "[SOUTH]" = list("x" = 9, "y" = 0),  "[WEST]" = list("x" = 0, "y" = 0)),
-		slot_wrists_str  = list("[NORTH]" = list("x" = 15, "y" = 0), "[EAST]" = list("x" = 12, "y" = 0), "[SOUTH]" = list("x" = 4, "y" = 0),  "[WEST]" = list("x" = 9, "y" = 0)),
-		slot_shoes_str   = list("[NORTH]" = list("x" = 9, "y" = 0),  "[EAST]" = list("x" = 8, "y" = 0),  "[SOUTH]" = list("x" = 9, "y" = 0),  "[WEST]" = list("x" = 8, "y" = 0))
-	)
 
 /datum/species/bug/type_e/can_double_fireman_carry()
 	return TRUE

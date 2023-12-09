@@ -42,10 +42,6 @@
 		"merchantsguild_nav4"
 	)
 
-/obj/effect/overmap/visitable/ship/merchants_guild/New()
-	designation = "[pick("Fisher's Bounty", "Scales of Silver", "Gharr's Greed", "Pride of Skalamar", "Horns of Diamond", "Memory of Dukhul", "Glory through Profit", "Razi's Pride")]"
-	..()
-
 /obj/effect/overmap/visitable/ship/merchants_guild/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "unathi_freighter2")
 	skybox_image.pixel_x = rand(0,64)

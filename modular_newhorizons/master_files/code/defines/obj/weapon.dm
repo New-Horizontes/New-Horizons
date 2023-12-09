@@ -239,51 +239,6 @@
 		playsound(user.loc, 'sound/effects/shieldbash.ogg', 50, 1)
 		return
 
-/obj/item/cane/concealed
-	var/concealed_blade
-
-/obj/item/cane/concealed/New()
-	..()
-	var/obj/item/canesword/temp_blade = new(src)
-	concealed_blade = temp_blade
-	temp_blade.attack_self()
-
-/obj/item/cane/concealed/attack_self(var/mob/user)
-	if(concealed_blade)
-		user.visible_message("<span class='warning'>[user] has unsheathed \a [concealed_blade] from [user.get_pronoun("his")] [src]!</span>", "You unsheathe \the [concealed_blade] from \the [src].")
-		// Calling drop/put in hands to properly call item drop/pickup procs
-		playsound(user.loc, 'sound/weapons/holster/sheathout.ogg', 50, 1)
-		user.drop_from_inventory(src)
-		user.put_in_hands(concealed_blade)
-		user.put_in_hands(src)
-		user.update_inv_l_hand(0)
-		user.update_inv_r_hand()
-		concealed_blade = null
-		update_icon()
-	else
-		..()
-
-/obj/item/cane/concealed/attackby(var/obj/item/canesword/W, var/mob/user)
-	if(!src.concealed_blade && istype(W))
-		user.visible_message("<span class='warning'>[user] has sheathed \a [W] into [user.get_pronoun("his")] [src]!</span>", "You sheathe \the [W] into \the [src].")
-		playsound(user.loc, 'sound/weapons/holster/sheathin.ogg', 50, 1)
-		user.drop_from_inventory(W)
-		W.forceMove(src)
-		src.concealed_blade = W
-		update_icon()
-		return TRUE
-	else
-		return ..()
-
-/obj/item/cane/concealed/update_icon()
-	if(concealed_blade)
-		name = initial(name)
-		icon_state = initial(icon_state)
-		item_state = initial(item_state)
-	else
-		name = "cane shaft"
-		icon_state = "nullrod"
-		item_state = "foldcane"
 
 /obj/item/cane/crutch
 	name = "crutch"

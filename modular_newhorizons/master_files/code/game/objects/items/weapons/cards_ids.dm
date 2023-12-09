@@ -381,9 +381,6 @@ var/const/NO_EMAG_ACT = -50
 	assignment = "Highlander"
 	icon_state = "centcom"
 
-/obj/item/card/id/highlander/New()
-	access = get_all_station_access() | get_all_centcom_access()
-	..()
 
 /obj/item/card/id/captains_spare
 	name = "captain's spare identification card"
@@ -393,10 +390,6 @@ var/const/NO_EMAG_ACT = -50
 	overlay_state = "gold"
 	registered_name = "Captain"
 	assignment = "Captain"
-
-/obj/item/card/id/captains_spare/New()
-	access = get_all_station_access()
-	..()
 
 /obj/item/card/id/merchant
 	name = "merchant identification card"
@@ -412,9 +405,6 @@ var/const/NO_EMAG_ACT = -50
 	item_state = "tdgreen"
 	assignment = "Equipment"
 
-/obj/item/card/id/synthetic/New()
-	access = get_all_station_access() + access_equipment
-	..()
 
 /obj/item/card/id/synthetic/cyborg
 	name = "\improper UNIP equipment identification card"
@@ -423,20 +413,12 @@ var/const/NO_EMAG_ACT = -50
 	item_state = "tdgreen"
 	assignment = "Equipment"
 
-/obj/item/card/id/synthetic/cyborg/New()
-	..()
-	access = list(access_equipment, access_ai_upload, access_external_airlocks) // barebones cyborg access. Job special added in different place
-
 /obj/item/card/id/minedrone
 	name = "mine drone identification card"
 	desc = "Access module for mine drones."
 	icon_state = "id-robot"
 	item_state = "tdgreen"
 	assignment = "Minedrone"
-
-/obj/item/card/id/minedrone/New()
-	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station, access_external_airlocks)
-	..()
 
 /obj/item/card/id/centcom
 	name = "\improper CentCom identification card"
@@ -445,10 +427,6 @@ var/const/NO_EMAG_ACT = -50
 	overlay_state = "centcom"
 	registered_name = "Central Command"
 	assignment = "General"
-
-/obj/item/card/id/centcom/New()
-	access = get_all_centcom_access()
-	..()
 
 /obj/item/card/id/ccia
 	name = "\improper CentCom. Internal Affairs identification card"
@@ -474,10 +452,6 @@ var/const/NO_EMAG_ACT = -50
 	overlay_state = "centcom"
 	assignment = "Emergency Response Team"
 
-/obj/item/card/id/ert/New()
-	access = get_all_station_access() + get_centcom_access("Emergency Response Team")
-	..()
-
 /obj/item/card/id/ert/scc
 	name = "\improper UNIP Emergency Response Team identification card"
 
@@ -487,18 +461,10 @@ var/const/NO_EMAG_ACT = -50
 	overlay_state = "centcom"
 	assignment = "Asset Protection"
 
-/obj/item/card/id/asset_protection/New()
-	access = get_all_accesses()
-	..()
-
 /obj/item/card/id/distress
 	name = "\improper Freelancer Mercenary identification card"
 	icon_state = "centcom"
 	assignment = "Freelancer Mercenary"
-
-/obj/item/card/id/distress/New()
-	access = list(access_distress, access_maint_tunnels, access_external_airlocks)
-	..()
 
 /obj/item/card/id/distress/fsf
 	name = "\improper Free Fleets identification card"
@@ -515,10 +481,6 @@ var/const/NO_EMAG_ACT = -50
 	assignment = "Tau Ceti Foreign Legion Volunteer"
 	icon_state = "legion"
 
-/obj/item/card/id/distress/legion/New()
-	access = list(access_legion, access_maint_tunnels, access_external_airlocks, access_security, access_engine, access_engine_equip, access_medical, access_research, access_atmospherics, access_medical_equip)
-	..()
-
 /obj/item/card/id/distress/ap_eridani
 	name = "\improper Eridani Private Military Contractor identification card"
 	desc = "A high-tech holobadge, identifying the owner as a contractor from one of the many PMCs from the Eridani Corporate Federation."
@@ -526,18 +488,10 @@ var/const/NO_EMAG_ACT = -50
 	icon_state = "pmc_card"
 	overlay_state = "pmc_card"
 
-/obj/item/card/id/distress/ap_eridani/New()
-	access = get_distress_access()
-	..()
-
 /obj/item/card/id/distress/iac
 	name = "\improper Interstellar Aid Corps identification card"
 	assignment = "Interstellar Aid Corps Responder"
 	icon_state = "centcom"
-
-/obj/item/card/id/distress/iac/New()
-	access = get_distress_access()
-	..()
 
 /obj/item/card/id/all_access
 	name = "\improper Administrator's spare identification card"
@@ -547,10 +501,6 @@ var/const/NO_EMAG_ACT = -50
 	overlay_state = "data"
 	registered_name = "Administrator"
 	assignment = "Administrator"
-
-/obj/item/card/id/all_access/New()
-	access = get_access_ids()
-	..()
 
 // Contractor cards
 

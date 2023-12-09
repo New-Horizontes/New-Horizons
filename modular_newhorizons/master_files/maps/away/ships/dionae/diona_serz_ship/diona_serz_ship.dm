@@ -76,10 +76,6 @@
 		"nav_diona_serz_ship_4"
 	)
 
-/obj/effect/overmap/visitable/ship/diona_serz_ship/New()
-    designation = "[pick("Trawler", "Floating Spear ", "Harpoon")]"
-    ..()
-
 /obj/effect/overmap/visitable/ship/diona_serz_ship/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "diona")
 	skybox_image.pixel_x = rand(0,64)
