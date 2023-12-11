@@ -21,7 +21,7 @@
 				var/datum/sprite_accessory/hair/test = hair_styles_list[hair_string]
 				if(test.length >= 2 && (species.type in test.species_allowed))
 					valid_hairstyles.Add(hair_string)
-			selected_string = input("Select a new hairstyle", "Your hairstyle", hair_style) as null|anything in valid_hairstyles
+			selected_string = tgui_input_list(usr, "Select a new hairstyle.", "Your Hairstyle", valid_hairstyles, hair_style)
 		if(selected_string && h_style != selected_string)
 			h_style = selected_string
 			regenerate_icons()
@@ -46,7 +46,7 @@
 			var/datum/sprite_accessory/hair/test = hair_styles_list[hair_string]
 			if(species.type in test.species_allowed)
 				valid_hairstyles.Add(hair_string)
-		selected_string = input("Select a new headtail style", "Your headtail style", hair_style) as null|anything in valid_hairstyles
+		selected_string = tgui_input_list(usr, "Select a new headtail style", "Your Headtail Style", valid_hairstyles, hair_style)
 		if(selected_string && h_style != selected_string)
 			h_style = selected_string
 			regenerate_icons()
@@ -67,7 +67,7 @@
 			var/datum/sprite_accessory/facial_hair/test = facial_hair_styles_list[screen_string]
 			if(species.type in test.species_allowed)
 				valid_screenstyles.Add(screen_string)
-		selected_string = input("Select a new screen", "Your monitor display", screen_style) as null|anything in valid_screenstyles
+		selected_string = tgui_input_list(usr, "Select a new screen", "Your monitor display", valid_screenstyles, screen_style)
 		if(selected_string && f_style != selected_string)
 			f_style = selected_string
 			regenerate_icons()
@@ -745,7 +745,7 @@
 	var/turf/target = get_step(src, dir)
 
 	for(var/obj/obstacle in get_turf(src))
-		if((obstacle.flags & ON_BORDER) && (src != obstacle))
+		if((obstacle.atom_flags & ATOM_FLAG_CHECKS_BORDER) && (src != obstacle))
 			if(!obstacle.CheckExit(src, target))
 				brokesomething++
 				if (!crash_into(obstacle))
@@ -1247,7 +1247,7 @@
 		to_chat(src, SPAN_WARNING("You don't know any martial arts!"))
 		return
 
-	var/datum/martial_art/selected_martial_art = input(src, "Select a primary martial art to use when fighting barehanded.", "Martial Art Selection") as null|anything in known_martial_arts
+	var/datum/martial_art/selected_martial_art = tgui_input_list(src, "Select a primary martial art to use when fighting barehanded.", "Martial Art Selection", known_martial_arts)
 	if(!selected_martial_art)
 		return
 
@@ -2091,3 +2091,15 @@
 		infest.replaced(H, affected)
 
 		msg_admin_attack("[key_name_admin(src)] infected [key_name_admin(H)] with black k'ois! (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[src.x];Y=[src.y];Z=[src.z]'>JMP</a>)",ckey=key_name(src),ckey_target=key_name(H))
+
+/mob/living/carbon/human/proc/hivenet_manifest()
+	set name = "Hivenet Manifest"
+	set desc = "Get a list of all vaurca currently on the Hivenet."
+	set category = "Hivenet"
+
+	var/list/all_vaurca = list()
+	for(var/mob/living/carbon/human/vaurca in human_mob_list)
+		if(!vaurca.stat && isvaurca(vaurca) && vaurca.internal_organs_by_name[BP_NEURAL_SOCKET])
+			all_vaurca += vaurca
+	var/datum/tgui_module/hivenet_manifest/HM = new /datum/tgui_module/hivenet_manifest(usr, all_vaurca)
+	HM.ui_interact(usr)

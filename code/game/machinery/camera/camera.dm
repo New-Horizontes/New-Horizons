@@ -65,10 +65,15 @@
 	SSmachinery.all_cameras -= src
 	deactivate(null, 0) //kick anyone viewing out
 	if(assembly)
-		qdel(assembly)
-		assembly = null
-	qdel(wires)
-	wires = null
+		QDEL_NULL(assembly)
+
+	cancelCameraAlarm(force = TRUE)
+
+	QDEL_NULL(wires)
+
+	cameranet.remove_source(src)
+	cameranet.cameras -= src
+
 	return ..()
 
 /obj/machinery/camera/set_pixel_offsets()
@@ -87,6 +92,8 @@
 	return
 
 /obj/machinery/camera/emp_act(severity)
+	. = ..()
+
 	if(!isEmpProof() && prob(100/severity))
 		if(!affected_by_emp_until || (world.time < affected_by_emp_until))
 			affected_by_emp_until = max(affected_by_emp_until, world.time + (90 SECONDS / severity))
@@ -310,8 +317,8 @@
 	alarm_on = 1
 	camera_alarm.triggerAlarm(loc, src, duration)
 
-/obj/machinery/camera/proc/cancelCameraAlarm()
-	if(wires.IsIndexCut(CAMERA_WIRE_ALARM))
+/obj/machinery/camera/proc/cancelCameraAlarm(var/force = FALSE)
+	if(wires.IsIndexCut(CAMERA_WIRE_ALARM) && !force)
 		return
 
 	alarm_on = 0
