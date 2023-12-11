@@ -71,7 +71,7 @@
 				/obj/item/clothing/shoes/tajara/footwraps,
 				/obj/item/clothing/shoes/jackboots/tajara,
 				/obj/item/clothing/shoes/workboots/tajara,
-				/obj/item/clothing/shoes/workboots/tajara/adhomian_boots
+				/obj/item/clothing/shoes/tajara/azunali_boots //NEW HORIZONS EDIT CHANGE
 	)
 
 	back = /obj/item/storage/backpack/satchel/leather

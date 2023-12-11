@@ -12,10 +12,10 @@
 #define CITIZENSHIP_NRALAKK "Nralakk Federation"
 #define CITIZENSHIP_EUM "Co-Operative Territories of EUM"
 
-#define CITIZENSHIP_PRA "People's Republic of Adhomai"
-#define CITIZENSHIP_DPRA "Democratic People's Republic of Adhomai"
-#define CITIZENSHIP_NKA "New Kingdom of Adhomai"
-#define CITIZENSHIP_FREE_COUNCIL "Free Tajaran Council"
+#define CITIZENSHIP_PRA "Free Tajara Republic" //New Horizons Edit for this whole block really
+#define CITIZENSHIP_DPRA "Nozhata Khazsanii"
+#define CITIZENSHIP_NKA "Sacred Azunal Kingdom"
+#define CITIZENSHIP_FREE_COUNCIL "Tajara Revolutionary Vanguard"
 
 #define CITIZENSHIP_ZORA "Zo'ra Hive"
 #define CITIZENSHIP_KLAX "K'lax Hive"
@@ -51,8 +51,8 @@
 #define RELIGION_SUURKA "Suur'ka"
 #define RELIGION_KIRGUL "Kir'gul"
 
-#define RELIGION_TWINSUNS "S'rendarr and Messa"
-#define RELIGION_MATAKE "Ma'ta'ke"
+#define RELIGION_TWINSUNS "Suns Church" //New Horizons Edit
+#define RELIGION_MATAKE "Firdrism" //New Horizons Edit
 #define RELIGION_RASKARA "Raskariim"
 
 #define RELIGION_HIVEPANTHEON "Hive Pantheon"
