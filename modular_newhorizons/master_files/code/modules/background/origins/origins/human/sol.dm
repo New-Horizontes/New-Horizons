@@ -11,7 +11,6 @@
 		/singleton/origin_item/origin/jupiter,
 		/singleton/origin_item/origin/pluto,
 		/singleton/origin_item/origin/eridani,
-		/singleton/origin_item/origin/eridani_dreg,
 		/singleton/origin_item/origin/middle_ring,
 		/singleton/origin_item/origin/new_hai_phong,
 		/singleton/origin_item/origin/silversun,
@@ -85,25 +84,13 @@
 	possible_religions = RELIGIONS_SOLARIAN
 
 /singleton/origin_item/origin/eridani
-	name = "Eridani Corporate Federation"
-	desc = "The Eridani Corporate Federation is an autonomous member of the Solarian Alliance that is infamous abroad for its starkly divided society and extreme levels of corporate involvement in daily life. Corporations touch every aspect of Eridani, and its society is divided between corporate \"Suits\" that work for its companies and non-citizen \"Dregs\" that live off the scraps of society. Between the two, \"Reinstated Dregs\" chart an awkward balance: too corporate to be Dregs, but not corporate enough to be Suits."
-	important_information = "<b>Due to Epsilon Eridani being originally settled by colonists of West and Central African descent, human characters born in the Eridani Corporate Federation must have names and appearances consistent with the indigenous peoples of these regions as any human moving to the ECF would assimilate into the dominant cultures and ethnic groups of the federation. Eridani dregs have developed cultures of abstract or unconventional names however and this is tolerated.</b> Only native Eridanians may select the Eridanian accents. This is enforceable by server moderators and admins."
-	possible_accents = list(ACCENT_ERIDANI, ACCENT_ERIDANIREINSTATED)
+	name = "Eridani Corporate Alliance"
+	desc = "The Eridani Corporate Alliance, often referred to as Eridani for short, is a series of relatively independent Solarian systems that enjoy aalmost total economic and relative military freedom, through corporations, from the rest of the alliance of states that forms Sol. It is in a 3 caste system, between \"Corporates\", also referred to as \"Suits\", who are people employed in the corporate ladder of the interests that run the Alliance; the \"Dregs\", who are manual labourers and the unemployed, often considered the underdogs and oppressed of the system; and the \"Reinstated\", dregs who are in some form of position to potentially become Corporates."
+	important_information = "<b>Eridanians with Corporate accents are unable to work in manual labour positions without losing their status at home. Please consider this when designing your character.</b>"
+	possible_accents = list(ACCENT_ERIDANI, ACCENT_ERIDANIREINSTATED, ACCENT_ERIDANIDREG)
 	possible_citizenships = list(CITIZENSHIP_ERIDANI, CITIZENSHIP_COALITION, CITIZENSHIP_BIESEL)
 	possible_religions = RELIGIONS_SOLARIAN
-	//origin_traits = list(TRAIT_ORIGIN_NO_ANIMAL_PROTEIN)
-	//origin_traits_descriptions = list("get sick if they eat animal protein that isn't tofu or seafood")
-//Commented out because it doesn't work in modular
-/singleton/origin_item/origin/eridani_dreg
-	name = "Eridani Corporate Federation Dreg"
-	desc = "The Eridani Corporate Federation is an autonomous member of the Solarian Alliance that is infamous abroad for its starkly divided society and extreme levels of corporate involvement in daily life. Referred to as Dregs by the Spur at large, the term has been co-opted by many as a badge of honor rather than a pejorative. Whether an individual was born outside the great Eridanian skyscrapers or sent there following the loss of their job, Dreg society is the polar opposite of their Suit counterpart. Without corporate control or any form of governance from the Eridanian state itself, the Dregs largely inhabit their own sprawling, slum-like conurbations all across the surface of Eridani's terrestrial worlds."
-	important_information = "<b>Due to Epsilon Eridani being originally settled by colonists of West and Central African descent, human characters born in the Eridani Corporate Federation must have names and appearances consistent with the indigenous peoples of these regions as any human moving to the ECF would assimilate into the dominant cultures and ethnic groups of the federation. Eridani dregs have developed cultures of abstract or unconventional names however and this is tolerated.</b> Only native Eridanians may select the Eridanian accents. This is enforceable by server moderators and admins."
-	possible_accents = list(ACCENT_ERIDANIDREG)
-	possible_citizenships = list(CITIZENSHIP_COALITION, CITIZENSHIP_BIESEL)
-	possible_religions = RELIGIONS_SOLARIAN
-	//origin_traits = list(TRAIT_ORIGIN_NO_ANIMAL_PROTEIN, TRAIT_ORIGIN_TOX_RESISTANCE, TRAIT_ORIGIN_DRUG_RESISTANCE)
-	//origin_traits_descriptions = list("get sick if they eat animal protein that isn't tofu or seafood", "have a higher resistance to toxins", "have a higher tolerance to recreative drugs")
-//Commented out because it doesn't work in modular
+
 /singleton/origin_item/origin/middle_ring
 	name = "Middle Ring"
 	desc = "The Middle Ring of the Solarian Alliance was partially lost in the Solarian Collapse, but the Alliance retains much of its influence in this region."
@@ -158,7 +145,7 @@
 /singleton/origin_item/origin/mictlan
 	name = "Mictlan"
 	desc = "One of the worlds unlucky enough to be annexed into the Republic of Biesel's Corporate Reconstruction Zone following the Solarian Collapse, Mictlan has become the site of growing fighting and unrest directed at the Republic and its forces. Mictlaners now find themselves increasingly caught between Sol and Biesel, and the conflict on their planet shows no signs of deescalating."
-	important_information = "While Mictlan has been a beacon of multiculturalism among humans and aliens in the Orion Spur, many humans that have immigrated to the planet have been assimilated into Mictlan's culture and society. Because of this, <b>human characters born on Mictlan must have names and appearances consistent with the peoples of Mexico, Central America, and South America.</b> Only characters native to Mictlan may take the Mictlan accent. This is enforceable by server moderators and admins."
+	important_information = "While Mictlan has been a beacon of multiculturalism among humans and aliens in the Orion Spur, many humans that have immigrated to the planet have been assimilated into Mictlan's culture and society. Because of this, <b>human characters born on Mictlan must have names and appearances consistent with the peoples of Central and South America.</b> Only characters native to Mictlan may take the Mictlan accent. This is enforceable by server moderators and admins."
 	possible_accents = list(ACCENT_MICTLAN)
 	possible_citizenships = list(CITIZENSHIP_SOL, CITIZENSHIP_BIESEL)
 	possible_religions = RELIGIONS_SOLARIAN
