@@ -59,7 +59,7 @@
 		possible_species = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
 	else if(t == "fib")
 		welcome_message = "You are a stranded Office of Special Services Agent!<br>What was supposed to be a standard investigation turned into a nightmare when the vessel you were supposed to board opened fire! You just managed to reach an escape pod before your own ship was turned into smoldering rubble. You really need some coffee."
-		outfit = /datum/outfit/admin/pod/fib
+		outfit = /datum/outfit/admin/pod/bssb
 		possible_species = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
 
 	else
