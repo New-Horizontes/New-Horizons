@@ -55,3 +55,18 @@
 	sector_welcome_message = 'sound/AI/welcome_weeping.ogg'
 	sector_hud_menu = 'icons/misc/hudmenu/coalition_hud.dmi'
 	sector_hud_arrow = "menu_arrow"
+
+/datum/space_sector/haneunim
+	name = SECTOR_HANEUNIM
+	description = "Located in the northern Orion Spur, the Haneunim system is home to the planet Konyang - known for being one of largest producers of synthetics in the Spur. Einstein Engines, Zeng-Hu Pharmaceuticals and Hephaestus Industries all have a major presence in this sector, and many vessels of desperate synthetics seek to find sanctuary from the wider Spur within the borders of Konyang, hoping to blend in, especially amongst the cult of the Trinary Perfection on the planet. A wealthy and prosperous system closer to the edge of Protectorate space, bordering the Free Frontier."
+	skybox_icon = "haneunim"
+	possible_exoplanets = list(/obj/effect/overmap/visitable/sector/exoplanet/konyang)
+//	cargo_price_coef = TBD
+	starlight_color = "#e2719b"
+	starlight_power = 2//placeholder
+	starlight_range = 4//placeholder
+	sector_lobby_art = list('icons/misc/titlescreens/lore/silicon_nightmares.dmi')
+	sector_lobby_transitions = 0
+	sector_welcome_message = 'sound/AI/welcome_weeping.ogg'//placeholder
+	sector_hud_menu = 'icons/misc/hudmenu/konyang_hud.dmi'
+	sector_hud_arrow = "menu_arrow"

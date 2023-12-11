@@ -2,14 +2,6 @@
 	name = "Serene Republic of Elyra"
 	desc = "A rich and prosperous nation, the Serene Republic of Elyra is one of the few locations in the Orion Spur where phoron can be found. This phoron has made the Republic extremely wealthy and has given them a technological edge over much of the Spur. Highly-controlled customs and harsh immigration requirements have kept much of Elyra isolated from the broader Spur, and have led to the growth of a large population of \"Non-Citizen Persons,\" that reside in the Republic."
 	important_information = "Elyra is far from a homogenous nation, but to many within, this is viewed as a net negative. The process of becoming a citizen is long and arduous, and often involves abandoning whatever culture you once had, even down to replacing your name with a more appropriately Elyran one. You might try to defy this pressure, but don't expect true citizens of the Republic to respond with a even a modicum of respect."
-	possible_origins = list(
-		/singleton/origin_item/origin/persepolis,
-		/singleton/origin_item/origin/damascus,
-		/singleton/origin_item/origin/medina,
-		/singleton/origin_item/origin/aemaq,
-		/singleton/origin_item/origin/new_suez,
-		/singleton/origin_item/origin/other_elyran
-	)
 
 /singleton/origin_item/origin/persepolis
 	name = "Persepolis"

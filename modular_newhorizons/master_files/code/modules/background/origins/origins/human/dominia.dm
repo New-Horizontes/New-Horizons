@@ -2,6 +2,7 @@
 	name = "Empire of Dominia"
 	desc = "The Empire of Dominia (often simply referred to as \"the Empire\") is an autocratic monarchy that is heavily influenced by its conflict-filled history. Imperial society is sharply divided between nobles, which are themselves divided between Great House members and the low houses, and the lowborn citizenry, which make up the majority of the population of its worlds. Militaristic, expansionist and fiercely Anti-AI, Dominians are often stereotyped as militant, religious, and egotistical."
 	possible_origins = list(
+		/singleton/origin_item/origin/dominia_noble,
 		/singleton/origin_item/origin/moroz,
 		/singleton/origin_item/origin/fisanduh,
 		/singleton/origin_item/origin/core_worlds,
@@ -9,6 +10,17 @@
 		/singleton/origin_item/origin/imperial_frontier,
 		/singleton/origin_item/origin/dominian_exile
 	)
+/singleton/origin_item/origin/dominia_noble
+	name = "Dominian Highborn"
+	desc = "The Nobles of the Houses are the noble and liturgical classes of the Dominian Empire's humans, though the noble class of Dominia often sees Secondaries, that is anyone not born a noble, adopted into it. \
+			Due to centuries of eating better than their commoner and lay counterparts, as well as other luxuries during their upbringing such as higher-grade gene therapy, Highborn tend to be physically larger and more imposing than their commoner counterpart. \
+			Secondaries that are elevated to nobility, though still primaries, tend to be slightly shorter than older families."
+	important_information = "Dominian Highborn as an origin is specifically tailored for a noble character, that was born into their station as opposed to elevated, and for the same reason Highborn nobles have unique expectations by their House that, when broken, may result in the Wrath of the Homeworld being brought down upon the character, with consequences such as your character being extradited, executed by the Empire or worse."
+	possible_accents = list(ACCENT_DOMINIA_HIGH)
+	possible_citizenships = list(CITIZENSHIP_DOMINIA)
+	possible_religions = list(RELIGION_MOROZ, RELIGION_CHRISTIANITY)
+	origin_traits = list(TRAIT_ORIGIN_COLD_RESISTANCE)
+	origin_traits_descriptions = list("are more acclimatised to the cold.")
 
 /singleton/origin_item/origin/moroz
 	name = "Cassia"

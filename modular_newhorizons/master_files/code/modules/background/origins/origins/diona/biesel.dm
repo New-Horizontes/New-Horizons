@@ -14,7 +14,6 @@
 	important_information = "While Dionae do still face some discrimination in the Republic, Dionae can expect to live a fairly comfortable life. The Republic itself does not apply any sort of \"debt\" to Dionae they uplift, however, a megacorp may rope them into a contract to work for them if they played any part in growing them."
 	possible_accents = list(ACCENT_ROOTSONG, ACCENT_VOIDSONG, ACCENT_IRONSONG)
 	possible_citizenships = list(CITIZENSHIP_BIESEL, CITIZENSHIP_NRALAKK, CITIZENSHIP_EUM, CITIZENSHIP_COALITION)
-	possible_religions = list(RELIGION_ETERNAL, RELIGION_OTHER, RELIGION_NONE)
 
 /singleton/origin_item/origin/diona_district_11
 	name = "District 11"
@@ -22,7 +21,6 @@
 	important_information = "Dionae originating from the Eternal Temple in D11 are not beholden to following the Eternal faith, however, the church still ensures that all Dionae grown within its walls are educated and made ready for the outside world."
 	possible_accents = list(ACCENT_ROOTSONG, ACCENT_VOIDSONG, ACCENT_IRONSONG)
 	possible_citizenships = list(CITIZENSHIP_BIESEL, CITIZENSHIP_NRALAKK, CITIZENSHIP_EUM, CITIZENSHIP_COALITION)
-	possible_religions = list(RELIGION_ETERNAL, RELIGION_OTHER, RELIGION_NONE)
 
 /singleton/origin_item/origin/titan_prime
 	name = "Pests of Titan Prime" //this might be the most metal origin name
@@ -30,7 +28,6 @@
 	important_information = "These Dionae are likely to have a massive distrust of the Zo'ra Hive or vaurca in general as a result of their time being hunted on the ship for so long."
 	possible_accents = list(ACCENT_ROOTSONG, ACCENT_VOIDSONG, ACCENT_IRONSONG)
 	possible_citizenships = list(CITIZENSHIP_BIESEL)
-	possible_religions = list(RELIGION_ETERNAL, RELIGION_OTHER, RELIGION_NONE)
 
 /singleton/origin_item/origin/biesel_wildborn
 	name = "Wildborn"
@@ -38,4 +35,3 @@
 	important_information = "While Dionae do still face some discrimination in the Republic, Dionae can expect to live a fairly comfortable life. The Republic itself does not apply any sort of \"debt\" to Dionae they uplift, however, a megacorp may rope them into a contract to work for them if they played any part in uplifting them."
 	possible_accents = list(ACCENT_ROOTSONG, ACCENT_VOIDSONG, ACCENT_IRONSONG)
 	possible_citizenships = list(CITIZENSHIP_BIESEL, CITIZENSHIP_NRALAKK, CITIZENSHIP_EUM, CITIZENSHIP_COALITION)
-	possible_religions = list(RELIGION_ETERNAL, RELIGION_OTHER, RELIGION_NONE)

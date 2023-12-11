@@ -53,7 +53,7 @@
 	possible_religions = list(RELIGION_NONE, RELIGION_CHRISTIANITY, RELIGION_ISLAM, RELIGION_BUDDHISM, RELIGION_HINDU, RELIGION_TAOISM, RELIGION_JUDAISM, RELIGION_OTHER, RELIGION_TRINARY, RELIGION_SCARAB)
 
 /singleton/origin_item/origin/gadpathur
-	name = "Gadpathur"
+	name = "United Planetary Defense Council of Gadpathur"
 	desc = "Gadpathur was orbitally bombarded by the rogue AI known as LEGATE during its early years, until the planet was barely able to sustain human life. The planet has clawed its way back into stability over the intervening centuries, and is currently an ultra-militarized regime absolutely dedicated to ensuring that their fate does not befall anyone else in the Coalition, or themselves again."
 	important_information = "Because of Gadpathur's insular nature that is unwelcoming to outsiders and its hyper-militarized society, only native Gadpathurians may take the Gadpathuri accent. Many of the original colonists were from the indian subcontinent, thus many of the planet`s residents have their names or appearance tracing back to the founding roots of the colony."
 	possible_accents = list(ACCENT_GADPATHUR)

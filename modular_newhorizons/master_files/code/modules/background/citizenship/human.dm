@@ -166,14 +166,6 @@
 		)
 	)
 
-/datum/outfit/job/representative/consular/coalition
-	name = "Coalition Consular Representative"
-
-	backpack_contents = list(
-		/obj/item/device/camera = 1,
-		/obj/item/gun/projectile/colt/super = 1
-	)
-
 /datum/citizenship/elyra
 	name = CITIZENSHIP_ELYRA
 	description = "The Republic of Elyra, or its more official name, The Serene Republic of Elyra, was formed during a large scale colonization and emigration effort from south \

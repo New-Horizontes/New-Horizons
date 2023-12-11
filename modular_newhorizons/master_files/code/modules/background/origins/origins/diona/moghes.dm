@@ -11,4 +11,3 @@
 	important_information = "This option is for both Dionae who were originally grown under Unathi care and Wild Dionae who somehow managed to find their way to a Hegemony world."
 	possible_accents = list(ACCENT_ROOTSONG, ACCENT_VOIDSONG, ACCENT_IRONSONG, ACCENT_CRIMSONSONG, ACCENT_SANDSONG, ACCENT_WASTESONG)
 	possible_citizenships = list(CITIZENSHIP_IZWESKI, CITIZENSHIP_BIESEL, CITIZENSHIP_COALITION)
-	possible_religions = list(RELIGION_THAKH, RELIGION_SKAKH, RELIGION_ETERNAL, RELIGION_OTHER)

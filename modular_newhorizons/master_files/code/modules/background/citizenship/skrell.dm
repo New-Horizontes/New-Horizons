@@ -65,20 +65,3 @@
 								"Promote Nralakk tourism among the non-citizen employees of the [current_map.boss_name] in order to build positive opinion.")
 
 	return rep_objectives
-
-/datum/outfit/job/representative/consular/nralakk
-	name = "Nralakk Consular Officer"
-
-	uniform = /obj/item/clothing/under/skrell
-
-/datum/outfit/job/representative/consular/nralakk/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	if(H && !visualsOnly)
-		if(isvaurca(H)) // there should be a system for this but for now this will have to do i guess
-			H.equip_to_slot_or_del(new /obj/item/clothing/under/gearharness(H), slot_w_uniform)
-			H.equip_to_slot_or_del(new /obj/item/clothing/head/vaurca_breeder/nralakk(H), slot_head)
-			H.equip_to_slot_or_del(new /obj/item/clothing/shoes/vaurca/breeder/nralakk(H), slot_shoes)
-			H.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/vaurca/filter(H), slot_wear_mask)
-			H.equip_to_slot_or_del(new /obj/item/clothing/suit/vaurca/breeder/nralakk(H), slot_wear_suit)
-			H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec/cthur(H), slot_back)
-		addtimer(CALLBACK(src, PROC_REF(send_representative_mission), H), 5 MINUTES)
-	return TRUE

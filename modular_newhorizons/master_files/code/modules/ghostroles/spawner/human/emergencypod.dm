@@ -269,49 +269,12 @@
 /datum/outfit/admin/pod/fsf/get_id_rank()
 	return "Free Fleets Crewman"
 
-/datum/outfit/admin/pod/scc
-	name = "RescuePod - SCC"
-
-	uniform = /obj/item/clothing/under/rank/scc
-	back = /obj/item/storage/backpack/satchel/leather
-	shoes = /obj/item/clothing/shoes/laceup
-	glasses = /obj/item/clothing/glasses/sunglasses
-	l_hand =  /obj/item/storage/briefcase
-	accessory = /obj/item/clothing/accessory/holster/hip/
-	backpack_contents = list(
-		/obj/item/device/camera = 1,
-		/obj/item/gun/energy/repeater = 1,
-		/obj/item/device/oxycandle = 1,
-		/obj/item/airbubble = 1
-	)
-
-
 
 /datum/outfit/admin/pod/scc/get_id_assignment()
 	return "United Nations Interstellar Protectorate Functionary"
 
 /datum/outfit/admin/pod/scc/get_id_rank()
 	return "United Nations Interstellar Protectorate Functionary"
-
-/datum/outfit/admin/pod/fib
-	name = "RescuePod - FIB" // Doctor Pavel, I'm FIB.
-
-	uniform = /obj/item/clothing/under/rank/fib
-	shoes = /obj/item/clothing/shoes/laceup
-	gloves = /obj/item/clothing/gloves/black
-	l_pocket = /obj/item/reagent_containers/spray/pepper
-	glasses = /obj/item/clothing/glasses/sunglasses
-	accessory = /obj/item/clothing/accessory/holster/hip
-	accessory_contents = list(/obj/item/gun/projectile/sec/lethal = 1)
-	back = /obj/item/storage/backpack/satchel/leather
-	backpack_contents = list(
-    	/obj/item/device/camera = 1,
-		/obj/item/clothing/suit/storage/toggle/fib = 1,
-		/obj/item/handcuffs = 1,
-		/obj/item/device/oxycandle = 1,
-		/obj/item/airbubble = 1,
-		/obj/item/ammo_magazine/c45m = 1
-	)
 
 
 
