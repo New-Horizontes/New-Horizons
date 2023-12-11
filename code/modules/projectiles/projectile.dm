@@ -284,6 +284,10 @@
 							if(Collide(G.affecting))
 								return //If Collide() returns 0 (keep going) then we continue on to attack M.
 
+				//NEW HORIZONS EDIT CHANGE BEGIN - Hand Holding
+				if(bodyshield(M))
+					return
+				//NEW HORIZONS EDIT CHANGE END
 				passthrough = !attack_mob(M, distance)
 		else
 			passthrough = TRUE

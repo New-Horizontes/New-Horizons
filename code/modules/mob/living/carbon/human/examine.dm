@@ -399,6 +399,10 @@
 		var/obj/item/grab/G = get_active_hand()
 		msg += SPAN_ALERT(FONT_LARGE("\n[get_pronoun("He")] is biting [G.affecting]'[G.affecting.get_pronoun("end")] neck!"))
 
+	//NEW HORIZONS EDIT CHANGE BEGIN - Hand Holding
+	msg += handholding(user)
+	//NEW HORIZONS EDIT CHANGE END
+
 	if (pose)
 		if( findtext(pose,".",length(pose)) == 0 && findtext(pose,"!",length(pose)) == 0 && findtext(pose,"?",length(pose)) == 0 )
 			pose = addtext(pose,".") //Makes sure all emotes end with a period.
