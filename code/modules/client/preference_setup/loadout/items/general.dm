@@ -346,6 +346,6 @@
 	origin_restriction = list(/singleton/origin_item/origin/gadpathur)
 
 ///datum/gear/aurora_miniature //NEW HORIZONS EDIT
-	display_name = "aurora miniature"
-	description = "A commemorative miniature of the NSS Aurora."
-	path = /obj/item/toy/aurora
+//	display_name = "aurora miniature"
+//	description = "A commemorative miniature of the NSS Aurora."
+//	path = /obj/item/toy/aurora
