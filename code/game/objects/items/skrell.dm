@@ -101,7 +101,7 @@
 	working = !working
 
 	if(working)
-		var/choice = input("You change the projector's hologram to display:","Change the projector's hologram.") as null|anything in worlds_selection
+		var/choice = tgui_input_list(user, "You change the projector's hologram to display:","Change the projector's hologram.", worlds_selection)
 		apply_world(choice)
 		START_PROCESSING(SSprocessing, src)
 	else
@@ -269,6 +269,8 @@
 		fried = TRUE
 
 /obj/item/nralakktag/emp_act(severity)
+	. = ..()
+
 	unclamp()
 
 /obj/item/nralakktag/emag_act(var/remaining_charges, var/mob/user)
