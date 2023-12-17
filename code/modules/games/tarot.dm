@@ -38,15 +38,15 @@
 	user.visible_message("\The [user] shuffles [src].")
 
 
-/obj/item/deck/tarot/adhomai
-	name = "adhomian divination cards deck"
-	desc = "An adhomian deck of divination cards, used to read the one's fortune or play games."
+/obj/item/deck/tarot/adhomai //NEW HORIZONS
+	name = "azunali divination cards deck"
+	desc = "An azunali deck of divination cards, used to read the one's fortune or play games."
 	icon_state = "deck_adhomai"
 
 /obj/item/deck/tarot/adhomai/generate_deck()
 	var/datum/playingcard/P
-	for(var/name in list("D'as'ral Massacre","Mystic","Suns' Sister","Queen","King","Father of the Parivara","S'rendal'Matir","Tank","Enforcer","Kraszarrumalkarii","Rredouane's Dice","Great Revolution","Assassin","Assassination","Dymtris Line",
-	"Rrak'narrr","Steeple","Messa","Raskara","S'rendarr","Kazarrhaldiye","Adhomai"))
+	for(var/name in list("First Contact","Mystic","Suns' Sister","Queen","King","Father of the Parivara","Unification","Tank","Enforcer","Kalharnazarii","Kadalir's Dice","Great Revolution","Assassin","Assassination","Borderlands",
+	"Rrak'narrr","Burning Forest","Messa","Raskara","Rensa","Kazarrhaldiye","Azunal"))
 		P = new()
 		P.name = "[name]"
 		P.card_icon = "adhomai_major"

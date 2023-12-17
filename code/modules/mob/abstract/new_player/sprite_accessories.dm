@@ -2845,7 +2845,7 @@ Follow by example and make good judgement based on length which list to include 
 	name = "Tajaran Ears"
 	icon_state = "ears_plain"
 	length = 1
-	species_allowed = list(/datum/species/tajaran,/datum/species/tajaran/zhan_khazan,/datum/species/zombie/tajara)
+	species_allowed = list(/datum/species/tajaran,/datum/species/tajaran/zhan_khazan,/datum/species/zombie/tajara,/datum/species/tajaran/offworlder) //NEW HORIZONS EDIT
 
 /datum/sprite_accessory/hair/taj_ears/taj_ears_bangs
 	name = "Tajara Bangs"

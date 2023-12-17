@@ -197,12 +197,12 @@
 	else
 		icon_state = "c05r-e"
 
-/obj/item/gun/projectile/silenced
+/obj/item/gun/projectile/silenced //NEW HORIZONS EDIT
 	name = "suppressed pistol"
 	desc = "A small, quiet, easily concealable gun."
 	desc_extended = "Created as a disposable and concealable weapon, the Mrrazhakulii suppressed pistol is a firearm with a suppressor integrated as part of its barrel. \
-		Carried by guerrilla forces and spies, those guns are used in assassination and subterfuge operations. Due to using cheap and available materials, such as \
-		recycled iron and tires, countless of those pistols were distributed among cells and ALA soldiers."
+		Carried by the ever resourceful Khazsanii, those guns are used in assassination and subterfuge operations. Due to using cheap and available materials, such as \
+		recycled iron and tires, countless of those pistols were distributed to those directly taking on the colonisers."
 	icon = 'icons/obj/guns/silenced_pistol.dmi'
 	icon_state = "silenced_pistol"
 	item_state = "silenced_pistol"
@@ -249,15 +249,15 @@
 	else
 		icon_state = "[initial(icon_state)]-e"
 
-/obj/item/gun/projectile/deagle/adhomai
-	name = "adhomian heavy pistol"
-	desc = "A bulky handgun used by republican commissars and high-ranking members of the Hadiist Party."
+/obj/item/gun/projectile/deagle/adhomai //NEW HORIZONS EDIT
+	name = "azunali heavy pistol"
+	desc = "A bulky handgun used by republican officers and many government officials."
 	icon = 'icons/obj/guns/adhomian_heavy_pistol.dmi'
 	icon_state = "adhomian_heavy_pistol"
 	item_state = "adhomian_heavy_pistol"
-	desc_extended = "Given to Republican Commissars and high ranking Party members, the Nal'tor Model Pistol is notable for its large caliber. Unlike the Adar'Mazy pistol, only a \
-	single factory in Nal'tor is allowed to fabricate it, with its design being kept as a state secret. Because of its rarity and status, the Adhomai Heavy Pistol was a sought after \
-	war trophy by royalist and rebels forces."
+	desc_extended = "Given to Republican officers and many government officials, the Naltor Model Pistol is notable for its large caliber. Unlike the Ketkir pistol, only a \
+	single factory in Naltor is allowed to fabricate it, with its design being kept as a state secret. Because of its rarity and status, the Azunal Heavy Pistol was a sought after \
+	war trophy by many collectors."
 
 /obj/item/gun/projectile/gyropistol
 	name = "gyrojet pistol"
@@ -416,15 +416,15 @@
 	else
 		icon_state = "m8-empty"
 
-/obj/item/gun/projectile/pistol/adhomai
-	name = "adhomian service pistol"
-	desc = "The Adar'Mazy pistol is an Adhomian firearm commonly issued to People's Republic officers, government officials and low-ranking Party members."
+/obj/item/gun/projectile/pistol/adhomai //NEW HORIZONS EDIT
+	name = "azunali service pistol"
+	desc = "The Ketkir pistol is an Azunali firearm commonly issued to soldiers of the Republic, as well as some government officials."
 	icon = 'icons/obj/guns/adhomian_pistol.dmi'
 	icon_state = "adhomian_pistol"
 	item_state = "adhomian_pistol"
 	can_suppress = FALSE
-	desc_extended = "A mass produced pistol issued to People's Republic officers, government officials and low-ranking Party members. Known for their simple, cheap and reliable \
-	design, this weapon is produced by nearly all weapon factories in the Republic. The Adar'Mazy is also found in the hands of Adhomai Liberation Army soldiers and commanders."
+	desc_extended = "A mass produced pistol issued to soldiers of the Republic, as well as some government officials. Known for their simple, cheap and reliable \
+	design, this weapon is produced by nearly all weapon factories in the Republic. The Ketkir frequently makes into the hands of the Khazsanii and various dissident groups."
 
 /obj/item/gun/projectile/pistol/adhomai/update_icon()
 	..()

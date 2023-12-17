@@ -3696,6 +3696,7 @@
 #include "maps\templates\distress\distress_equipment.dm"
 #include "maps\templates\orbital\orbital_templates.dm"
 #include "modular_newhorizons\master_files\code\game\objects\items\weapons\storage\pill_bottle.dm"
+#include "modular_newhorizons\master_files\code\modules\background\accent\tajara.dm"
 #include "modular_newhorizons\master_files\code\modules\background\origins\origins\tajara\adhomai.dm"
 #include "modular_newhorizons\master_files\code\modules\mob\language\station.dm"
 #include "modular_newhorizons\master_files\code\modules\mob\living\carbon\human\species\station\tajara\tajara.dm"

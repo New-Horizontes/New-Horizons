@@ -35,7 +35,8 @@ var/global/datum/robolimb/basic_robolimb
 		SPECIES_IPC,
 		SPECIES_IPC_SHELL,
 		SPECIES_IPC_BISHOP,
-		SPECIES_HUMAN_OFFWORLD
+		SPECIES_HUMAN_OFFWORLD,
+		SPECIES_TAJARA_OFFWORLD, //NEW HORIZONS EDIT
 	)
 	var/paintable = 0 //tired of istype exceptions. bullshit to find, and by god do i know it after this project.
 	var/linked_frame = SPECIES_IPC_UNBRANDED //which machine species this limb will create
@@ -128,9 +129,9 @@ var/global/datum/robolimb/basic_robolimb
 
 /datum/robolimb/tesla
 	company = PROSTHETIC_TESLA
-	desc = "A limb designed to be used by the People's Republic of Adhomai Tesla Brigade. This civilian version is issued to disabled veterans and civilians."
+	desc = "An entirely Tajara-produced cybernetic limb, albeit with some knowledge passed down from human benefactors, often powered by a Tesla Spine. Sadani at its finest." //NEW HORIZONS EDIT
 	icon = 'icons/mob/human_races/tajara/tesla_limbs.dmi'
-	species_can_use = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	species_can_use = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD) //NEW HORIZONS EDIT
 	internal_organ_suffix = "tesla"
 	allowed_internal_organs = list(BP_HEART, BP_EYES, BP_LUNGS, BP_LIVER, BP_KIDNEYS, BP_STOMACH, BP_APPENDIX)
 

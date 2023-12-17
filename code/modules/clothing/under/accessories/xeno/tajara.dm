@@ -118,7 +118,7 @@
 	item_state = "hb_cloak"
 
 /obj/item/clothing/accessory/tajaran_wrap
-	name = "marriage wrap"
+	name = "unity wrap"
 	desc = "A holy cloth wrap that signifies the ritual often misinterpreted as marriage amongst tajara, it has white and gold markings. This one is meant for the husband."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "wrap_male"
@@ -146,21 +146,19 @@
 	desc_extended = "The relationship norms of Tajara are considered rather alien to human observers, and the ritual that said observers labelled as marriage is nothing like what humanity has. \
 	Rather, it is a ritual between two Tajara to ensure good fortune in creating and raising a child. This is its sole purpose, and as such, is not practiced with same-sex couples or \
 	heterosexual couples wishing to remain childless, for it holds no relevance to either. The marriage ritual is conducted by either a preist within the Church or a priest of Azubarre, \
-	depending on the faith of the couple. At the end of the ritual, the bride and groom receive two wrist wraps that must be tied to the other person's until the celebration ends and the suns \
-	set. Afterwards, the wraps are untied and remain on their wrist until the couple's child is old enough to begin being raised communally. Most will remove the wrap at this point, and often \
-	go their own separate ways, diving back into the fluid state of Tajara relationships."
+	depending on the faith of the couple. At the end of the ritual, Firdrists receive a pelt that must be worn at all times during the waking hours until the couple's child is old enough to begin being raised communally. \
+	Most will remove the pelt at this point, and often go their own separate ways, diving back into the fluid state of Tajara relationships."
 
 /obj/item/clothing/accessory/badge/hadii_card
-	name = "honorary party member card"
-	desc = "A card denoting a honorary member of the Hadiist party."
+	name = "republic party member card"
+	desc = "A card held by every active member of a political party in the Free Tajara Republic."
 	icon_state = "hadii-id"
 	overlay_state = "hadii-id"
 	slot_flags = SLOT_TIE
-	badge_string = "Honorary Member of Party of the Free Tajara under the Leadership of Hadii"
-	desc_extended = "The Party of the Free Tajara under the Leadership of Hadii is the only and ruling party in the PRA, with its leader always being the elected president. \
-	They follow Hadiism as their main ideology, with the objective of securing the tajaran freedom and place in the galactic community. Membership of the Hadiist Party is not open. \
-	For anyone to become a member, they must be approved by a committee that will consider their qualifications and past. Goverment officials can grant honorary memberships, this is \
-	seen as nothing but a honor and does not grant any status or position that a regular Party member would have."
+	badge_string = "Member of an Officially Recognised Party within the Free Tajara Republic"
+	desc_extended = "To say that politics within the Free Tajara Republic, and especially within the legislative body known as the Ahkazu, is a free-for-all would be an understatement. \
+	At any given moment, there are 3100 political parties vying for the Ahkazu's 1000 seats, and those 3100 are just the ones recognised by the government. To show which parties are legitimate, \
+	as well as to ensure the average Tajara knows who they are talking to, all staff and politicians within a party must have a badge denoting their position displayed at all times, on or off the job."
 	w_class = ITEMSIZE_TINY
 	flippable = TRUE
 	v_flippable = FALSE
@@ -186,12 +184,13 @@
 
 /obj/item/clothing/accessory/nka_badge
 	name = "royalist badge"
-	desc = "A badge worn by the supporters of the New Kingdom of Adhomai and its royalist ideals."
+	desc = "A badge worn by the supporters of the Sacred Azunal Kingdom and its royalist ideals."
 	icon_state = "nka-badge"
 	overlay_state = "nka-badge"
-	desc_extended = "The New Kingdom of Adhomai culture is characterized as traditional; instead of trying to change the Tajaran caste system, those divisions are seen as a natural \
-	part of the Adhomian way of life. While the government makes no effort in enforcing this separation, there is a great societal expectation that each Tajara will attempt to stay in \
-	their customary roles related to their ethnicity."
+	desc_extended = "The Sacred Azunal Kingdom, often abbreviated to the SAK, is an elective theocratic monarchy that spans the vast majority of the main continent of Azunal. \
+	It is the oldest major power of the tripolar political system that inhabits the planet. The current monarch is the 2490 born Valeska Kalem, whose regressive technological policies \
+	and continuation of the policy of tribal assimilation are credited as the major reasons for the revolution by the Free Tajara Republic. The kingdom at the lower levels is entirely \
+	feudal, with noble families and influential clergy acting as district governors, and the average Tajaran is most likely to be a peasant serf or city labourer."
 	slot_flags = SLOT_TIE
 	w_class = ITEMSIZE_TINY
 	flippable = TRUE
@@ -200,30 +199,28 @@
 	pickup_sound = 'sound/items/pickup/ring.ogg'
 
 /obj/item/clothing/accessory/hadii_pin
-	name = "hadiist party pin"
-	desc = "A small, red flag pin worn by members of the Hadiist party."
+	name = "republican consular pin"
+	desc = "A small pin worn by official consulars of the Free Tajara Republic."
 	icon_state = "hadii-pin"
 	item_state = "hadii-pin"
 	overlay_state = "hadii-pin"
-	desc_extended = "The Party of the Free Tajara under the Leadership of Hadii is the only and ruling party in the PRA, with its leader always being the elected president. \
-	They follow Hadiism as their main ideology, with the objective of securing the Tajaran freedom and place in the galactic community. Membership of the Hadiist Party is not open. \
-	For anyone to become a member, they must be approved by a committee that will consider their qualifications and past. Goverment officials can grant honorary memberships, this is \
-	seen as nothing but a honor and does not grant any status or position that a regular Party member would have."
+	desc_extended = "As the Free Tajara Republic struggles to assert itself on the galactic stage, the need for representatives of their nation has skyrocketed. The most loyal\
+	of its citizens are selected and sent abroad to represent the Republic, be it on planets, stations, or even some select ships. This pin is used to identify them and must \
+	be worn at all times while working."
 	flippable = TRUE
 
 	drop_sound = 'sound/items/drop/ring.ogg'
 	pickup_sound = 'sound/items/pickup/ring.ogg'
 
 /obj/item/clothing/accessory/dpra_pin
-	name = "almariist representative pin"
-	desc = "A small, black flag pin worn by government officials of the Democratic People's Republic of Adhomai."
+	name = "khazsanii representative pin"
+	desc = "A small, black flag pin worn by those chosen to represent the Nozhata Khazsanii."
 	icon_state = "pin-ala"
 	item_state = "pin-ala"
 	overlay_state = "pin-ala"
-	desc_extended = "The government of the DPRA seeks to dismantle the ethnic caste system present in Tajaran society. Instead of creating policies and using the force of the state \
-	to do so, they believe that this goal can be reached by giving the necessary opportunities and freedom from external influences to the Tajara species. Local autonomy and regional \
-	cultures are protected by the authorities. Traditional Zhan communities, rock nomads and Amohdan lodges are allowed to thrive in the territories of the Democratic People's Republic. \
-	This ideology is known as Al'mariism, as it seeks to preserve the initial ideals of the first revolution."
+	desc_extended = "Among the Nozhata Khazsanii, there is little in the way of unified institutions due to the nature of their society. The two exceptions, however, are the \
+	organisation of armed forces, and the creation of representatives. The standards for the latter are permissive, allowing any Khazsanii with an interest in representing all the tribes \
+	as a whole the chance to travel abroad and raise awareness and support of their conflict."
 	flippable = TRUE
 
 	drop_sound = 'sound/items/drop/ring.ogg'
@@ -231,21 +228,20 @@
 
 /obj/item/clothing/accessory/nka_pin
 	name = "diplomatic service order"
-	desc = "A medal issued to the diplomats and consular officers under the service of the New Kingdom of Adhomai."
+	desc = "A medal issued to the diplomats and consular officers under the service of the Sacred Azunal Kingdom."
 	icon_state = "pin-nka"
 	item_state = "pin-nka"
 	overlay_state = "pin-nka"
-	desc_extended = "The New Kingdom of Adhomai culture is characterized as traditional; instead of trying to change the Tajaran caste system, those divisions are seen as a natural \
-	part of the Adhomian way of life. While the government makes no effort in enforcing this separation, there is a great societal expectation that each Tajara will attempt to stay in \
-	their customary roles related to their ethnicity."
+	desc_extended = "Though not the favoured government of Azunal by the megacorporations, the Kingdom still makes an effort to sway others to their side. \
+	These efforts are rarely meaningfully successful, but consulars are continuously sent out anyway. Perhap's today's the day they find some success."
 
 	flippable = TRUE
 	drop_sound = 'sound/items/drop/ring.ogg'
 	pickup_sound = 'sound/items/pickup/ring.ogg'
 
 /obj/item/clothing/accessory/badge/pra_passport
-	name = "people's republic of adhomai passport"
-	desc = "A passport issued to the citizens of the People's Republic of Adhomai."
+	name = "free tajara republic passport"
+	desc = "A passport issued to the citizens of the Free Tajara Republic."
 	icon_state = "pra-passport"
 	overlay_state = "pra-passport"
 	slot_flags = null
@@ -253,14 +249,14 @@
 	flippable = FALSE
 	v_flippable = FALSE
 
-	badge_string = "People's Republic of Adhomai Citizen"
+	badge_string = "Free Tajara Republic Citizen"
 
 	drop_sound = 'sound/items/drop/paper.ogg'
 	pickup_sound = 'sound/items/pickup/paper.ogg'
 
 /obj/item/clothing/accessory/badge/dpra_passport
-	name = "democratic people's republic of adhomai passport"
-	desc = "A passport issued to the citizens of the Democratic People's Republic of Adhomai."
+	name = "nozhata khazsanii passport"
+	desc = "A passport issued to the members of a Khazsanii tribe travelling independently for any reason."
 	icon_state = "dpra-passport"
 	overlay_state = "dpra-passport"
 	slot_flags = null
@@ -268,14 +264,14 @@
 	flippable = FALSE
 	v_flippable = FALSE
 
-	badge_string = "Democratic People's Republic of Adhomai Citizen"
+	badge_string = "Independently Travelling Khazsanii"
 
 	drop_sound = 'sound/items/drop/paper.ogg'
 	pickup_sound = 'sound/items/pickup/paper.ogg'
 
 /obj/item/clothing/accessory/badge/nka_passport
-	name = "new kingdom of adhomai passport"
-	desc = "A passport issued to the citizens of the New Kingdom of Adhomai."
+	name = "sacred azunal kingdom passport"
+	desc = "A passport issued to the citizens of the Sacred Azunal Kingdom."
 	icon_state = "nka-passport"
 	overlay_state = "nka-passport"
 	slot_flags = null
@@ -283,14 +279,14 @@
 	flippable = FALSE
 	v_flippable = FALSE
 
-	badge_string = "New Kingdom of Adhomai Citizen"
+	badge_string = "Sacred Azunal Kingdom Citizen"
 
 	drop_sound = 'sound/items/drop/paper.ogg'
 	pickup_sound = 'sound/items/pickup/paper.ogg'
 
 /obj/item/clothing/accessory/badge/ftc_passport
-	name = "free tajaran council passport"
-	desc = "A temporary passport issued to the citizens of the Free Tajaran Council."
+	name = "tajara revolutionary vanguard passport"
+	desc = "A temporary passport issued to the citizens of the Tajara Revolutionary Vanguard."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "ftc-passport"
 	overlay_state = "ftc-passport"
@@ -299,7 +295,7 @@
 	flippable = FALSE
 	v_flippable = FALSE
 
-	badge_string = "Free Tajaran Council Member"
+	badge_string = "Tajara Revolutionary Vanguard Member"
 
 	drop_sound = 'sound/items/drop/paper.ogg'
 	pickup_sound = 'sound/items/pickup/paper.ogg'
@@ -475,7 +471,7 @@
 	overlay_state = "ftpparty_pin"
 	desc_extended = "The Tajara Advancement bloc represents an unlikely alliance of parties consisting of the Republic's most ardent warhawks, as well as those most dedicated to the Tajara value of Sadani. \
 	These disparate views result in a bloc that seems to value exacerbating current issues in society in order to encourage an 'acceleration' of their own desired social transformations, at any cost. \
-	Once relegated to the sidelines, this party has seen unprecedented growth as the Revolution becomes more distant. Some parties in this bloc are suspected of holding Raskarist sentiments, \
+	Once relegated to the sidelines, these parties has seen unprecedented growth as the Revolution becomes more distant. Some parties in this bloc are suspected of holding Raskarist sentiments, \
 	a suspicion most opponents can't resist latching onto."
 	flippable = TRUE
 

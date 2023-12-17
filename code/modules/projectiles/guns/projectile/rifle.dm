@@ -21,8 +21,8 @@
 	can_sawoff = TRUE
 	sawnoff_workmsg = "shorten the barrel and stock"
 
-/obj/item/gun/projectile/shotgun/pump/rifle/blank
-	desc = "A replica of a traditional Adhomian bolt action rifle. It has the seal of the Grand Romanovich Casino on its stock."
+/obj/item/gun/projectile/shotgun/pump/rifle/blank //NEW HORIZONS EDIT
+	desc = "A replica of a traditional Azunali bolt action rifle. But you knew that before trying to shoot it, right?"
 	ammo_type = /obj/item/ammo_casing/a762/blank
 
 /obj/item/gun/projectile/shotgun/pump/rifle/scope

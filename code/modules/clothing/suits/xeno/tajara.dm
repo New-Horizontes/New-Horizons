@@ -27,11 +27,11 @@
 
 /obj/item/clothing/suit/storage/toggle/tajaran/raakti_shariim
 	name = "\improper Raakti Shariim coat"
-	desc = "A blue adhomian wool coat with lilac purple accents and pale-gold insignia, signifying a Constable of the NKA's Raakti Shariim."
+	desc = "A blue azunali wool coat with lilac purple accents and pale-gold insignia, signifying a Constable of the SAK's Raakti Shariim."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "raakti_shariim_coat"
 	item_state = "raakti_shariim_coat"
-	desc_extended = "The Raakti Shariim (Royal Peacekeepers in Ceti Basic) are the New Kingdom of Adhomai's policing and \
+	desc_extended = "The Raakti Shariim (Royal Peacekeepers in Basic) are the Sacred Azunal Kingdom's policing and \
 		peacekeeping force, working closely with both the Royal Constabulary and the Royal Ministry of Intelligence to \
 		seek out internal threats to the Kingdom such as spies, terrorists, and other domestic enemies to the crown. \
 		The Raakti Shariim's uniforms incorporate a dark, navy blue paired with a lilac accent and pale-gold twin-sun \

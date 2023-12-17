@@ -9,7 +9,7 @@
 	contained_sprite = TRUE
 	desc_extended = "Having direct and friendly contact with humanity, the Free Tajara Republic has been the most influenced by the spacer fashion, the most known \
 	being the \"assistant jumpsuits\" which directly inspired the design of factory overalls. The average working Tajara in the Heartlands and Periphery alike wouldn't \
-	be caught dead going to work without them."
+	be caught dead going to work without them, and have even found their way into the Kingdom's realm."
 	no_overheat = TRUE
 
 /obj/item/clothing/under/tajaran/fancy
@@ -17,11 +17,11 @@
 	desc = "Worn by princes, barons and lords of Azunal, now in stores near you!"
 	icon_state = "male_taj_fancy"
 	item_state = "male_taj_fancy"
-	desc_extended = "While their wealth has been eclipsed by the Republic's, the Kingdom is symbolized by one thing, hope. While the often attacked, poor and shaggy nation is compared to \
-	the others in quite a poor state, it holds a \"stiff upper muzzle\" attitude, not letting their enemies get under their skin. Unlike the PRA if someone can afford it, they flaunt it, \
-	nobles and peasants live in the same streets, drink the same water and eat the same food and thus even wear the same clothes. On the streets they look very similar to PRA Tajara, \
+	desc_extended = "While their wealth has been eclipsed by the Republic's, the Kingdom is symbolized by one thing: tradition. Their continued insistence that the Republic has made a  \
+	mockery of Sadani ideals provides much reassurance of the Kingdom's supremacy in the face of alien technology and wealth. As a result, there is an increased focus on a uniquely Tajaran \
+	opulence, where even the commoners will try to get their hands on fancier clothing if they can afford it. On the streets they look very similar to Republican Tajara, \
 	overcoats, white shirts, pants although often in poorer state. However jewelry, tail adornments and veils are in rich abundance, often showing off small and intricate details of \
-	individual personalities. But where the NKA really shines are their parties and special events."
+	individual personalities."
 
 /obj/item/clothing/under/tajaran/fancy/alt1
 	icon_state = "male_taj_fancy_alt1"
@@ -63,18 +63,18 @@
 		bullet = ARMOR_BALLISTIC_MINOR)
 
 /obj/item/clothing/under/tajaran/cosmonaut/commissar
-	name = "kosmostrelki commissar uniform"
-	desc = "A military uniform used by Party Commissars attached to kosmostrelki units."
+	name = "kosmostrelki officer uniform"
+	desc = "A military uniform used by the ranking officers of kosmostrelki units."
 	icon_state = "space_commissar"
 	item_state = "space_commissar"
-	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached to army units, who ensures that soldiers and \
-	their commanders follow the principles of Hadiism. Their duties are not only limited to enforcing the republican ideals among the troops and reporting possible subversive elements, \
-	they are expected to display bravery in combat and lead by example."
+	desc_extended = "Officers as the Grand Republic Military use them are a fairly recent concept, and one that was introduced through interactions with humans. Their duties are not only \
+	limited to enforcing the republican ideals among the troops and reporting possible subversive elements, they are expected to display bravery in combat and lead by example. Oftentimes, they \
+	do the exact opposite."
 	starting_accessories = (/obj/item/clothing/accessory/holster/hip)
 
 /obj/item/clothing/under/tajaran/cosmonaut/captain
 	name = "orbital fleet captain uniform"
-	desc = "A military uniform used by a captain of the People's Republic of Adhomai orbital fleet."
+	desc = "A military uniform used by a captain of the Free Tajara Republic orbital fleet."
 	icon_state = "orbital_captain"
 	item_state = "orbital_captain"
 
@@ -92,7 +92,7 @@
 
 /obj/item/clothing/under/tajaran/summer
 	name = "azunali summerwear"
-	desc = "A simple piece of adhomian summerwear made with linen."
+	desc = "A simple piece of azunali summerwear made with linen."
 	icon_state = "summerwear"
 	item_state = "summerwear"
 
@@ -103,15 +103,15 @@
 	item_state = "mechanic"
 	desc_extended = "The quality of life for an urban dweller in Naltor, or any other major city, can vary considerably according to the Tajara's occupation, education and connections. \
 	The average worker that labours in the industrial suburbs, can expect an honest living to be made, and a modest lifestyle to be led. The majority of the city labourers \
-	work in privately owned factories and spaceports, with stable but strict work hours and schedule that are at least marginally better than life as a peasant in the Kingom."
+	work in privately owned factories and spaceports, with stable but strict work hours and schedule that are at least marginally better than life as a peasant in the Kingdom."
 
 /obj/item/clothing/under/tajaran/raakti_shariim
 	name = "\improper Raakti Shariim uniform"
-	desc = "A blue and lilac adhomian uniform with pale-gold insignia, worn by members of the NKA's Raakti Shariim."
+	desc = "A blue and lilac azunali uniform with pale-gold insignia, worn by members of the SAK's Raakti Shariim."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "raakti_shariim_uniform"
 	item_state = "raakti_shariim_uniform"
-	desc_extended = "The Raakti Shariim (Royal Peacekeepers in Ceti Basic) are the New Kingdom of Adhomai's policing and \
+	desc_extended = "The Raakti Shariim (Royal Peacekeepers in Basic) are the Sacred Azunal Kingdom's policing and \
 		peacekeeping force, working closely with both the Royal Constabulary and the Royal Ministry of Intelligence to \
 		seek out internal threats to the Kingdom such as spies, terrorists, and other domestic enemies to the crown. \
 		The Raakti Shariim's uniforms incorporate a dark, navy blue paired with a lilac accent and pale-gold twin-sun \
@@ -211,9 +211,9 @@
 	item_state = "summer-pants"
 	contained_sprite = TRUE
 	starting_accessories = list(/obj/item/clothing/accessory/tajaran/summershirt)
-	desc_extended = "Having direct and friendly contact with humanity, The People's Republic of Adhomai has been the most influenced by the spacer fashion. The most known \
-	being the \"assistant jumpsuits\" which directly inspired the design of factory overalls, the plight and low pay of the assistants being close to the hearts of Tajara Hadiist \
-	workers and their Republic."
+	desc_extended = "Having direct and friendly contact with humanity, the Free Tajara Republic has been the most influenced by the spacer fashion, the most known \
+	being the \"assistant jumpsuits\" which directly inspired the design of factory overalls. The average working Tajara in the Heartlands and Periphery alike wouldn't \
+	be caught dead going to work without them."
 
 /obj/item/clothing/under/tajaran/pra_uniform
 	name = "republican army uniform"
@@ -258,8 +258,8 @@
 	item_state = "pra_con_f"
 
 /obj/item/clothing/under/tajaran/consular/dpra
-	name = "democratic people's republic consular uniform"
-	desc = "A grey uniform used by the diplomatic service of the Democratic People's Republic of Adhomai."
+	name = "nozhata khazsanii consular uniform"
+	desc = "A grey uniform used by the rare few diplomats the Nozhata Khazsanii send abroad."
 	icon_state = "dpra_consular"
 	item_state = "dpra_consular"
 
@@ -274,8 +274,8 @@
 	item_state = "nka_consular"
 
 /obj/item/clothing/under/tajaran/dpra
-	name = "al'mariist laborer clothes"
-	desc = "Clothes commonly used by Das'nrra's workers. Due to their ubiquitousness, they became a symbol of the common Al'mariist people."
+	name = "merothan colonist clothes"
+	desc = "Clothes commonly used by Sacred Azunal Kingdom's colonists. Due to their ubiquitousness, they have become a symbol of both the settler image as well as Crevan excess."
 	icon_state = "dpra_worker"
 	item_state = "dpra_worker"
 
@@ -319,7 +319,7 @@
 	icon_state = "nka_merchant_captain"
 	item_state = "nka_merchant_captain"
 
-/obj/item/clothing/under/tajaran/pvsm
+/obj/item/clothing/under/tajaran/pvsm //NEW HORIZON NOTE: unchanged, not in the loadout, save for later ig
 	name = "people's volunteer spacer militia uniform"
 	desc = "A military uniform used by the forces of the People's Volunteer Spacer Militia."
 	icon_state = "pvsm_crewman"
@@ -339,7 +339,7 @@
 	icon_state = "pvsm_captain"
 	item_state = "pvsm_captain"
 
-/obj/item/clothing/under/tajaran/ala
+/obj/item/clothing/under/tajaran/ala //NEW HORIZON NOTE: unchanged, not in the loadout, save for later ig
 	name = "adhomai liberation army uniform"
 	desc = "A military uniform issued to soldiers of the adhomai liberation army."
 	icon_state = "ala-soldier-civ"
@@ -379,28 +379,28 @@
 
 /obj/item/clothing/under/tajaran/archeologist
 	name = "archaeologist uniform"
-	desc = "A rugged uniform used by Adhomian archaeologists. It is already covered in dirt and ancient dust."
+	desc = "A rugged uniform used by Azunali archaeologists. It is already covered in dirt and ancient dust."
 	icon_state = "explorer_uniform"
 	item_state = "explorer_uniform"
 
 /obj/item/clothing/under/tajaran/army_commissar
 	name = "army commissar uniform"
-	desc = "A military uniform used by Party Commissars attached to military units."
-	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached to army units, who ensures that soldiers and \
-	their commanders follow the principles of Hadiism. Their duties are not only limited to enforcing the republican ideals among the troops and reporting possible subversive elements, \
-	they are expected to display bravery in combat and lead by example."
+	desc = "A military uniform used by officers in the Free Tajara Republic's armed forces."
+	desc_extended = "Officers as the Grand Republic Military use them are a fairly recent concept, and one that was introduced through interactions with humans. Their duties are not only \
+	limited to enforcing the republican ideals among the troops and reporting possible subversive elements, they are expected to display bravery in combat and lead by example. Oftentimes, they \
+	do the exact opposite."
 	icon_state = "pracommisar"
 	item_state = "pracommisar"
 	starting_accessories = (/obj/item/clothing/accessory/holster/hip)
 
 /obj/item/clothing/under/tajaran/psis
-	name = "people's strategic intelligence service uniform"
-	desc = "An uniform used by the agents of the People's Strategic Intelligence Service. The sight of this uniform is feared by most Tajara."
-	desc_extended = "The People's Strategic Intelligence service is the main intelligence agency of the People's Republic. In the wake of the revolution that had won the species their independence, \
-	the budding government recognized the need for covert operations. Several agents and informants are employed by the PSIS, both in domestic and foreign theaters. The agency makes use of \
-	espionage, sabotage, assassination, interrogation, blackmail, and all other short of subterfuge, during their operations. Subversive elements within the People's Republican are dealt with \
-	quickly, usually through night raids and abductions conducted with aid of black unmarked cars. Tajara residing in other systems are not truly safe from the Intelligence Service, as they are \
-	known to deploy their agents against off-world targets. Republican spies, enforces and collaborators are present in Mendell City's district six, carrying out orders or watching their fellow Tajara."
+	name = "suns incarnate uniform"
+	desc = "An uniform used by the investigators of the Suns Incarnate. The sight of this uniform is feared by all the Kingdom and the Church declare heretics."
+	desc_extended = "The Suns Incarnate serve as investigators for the Suns Church, though those with a less favourable opinion of the group consider them inquisitors. Founded in the wake of the \
+	War of Apostasy half a millennium ago, this organisation has been on the lookout for cultists and other undesirables ever since. Espionage, sabotage, assassination, interrogation, blackmail, \
+	and all other sorts of subterfuge can be found in their toolset wherever they may operate, and the average Tajara has learned to stay far away from those wearing the distinctive uniform and trenchcoat. \
+	They are even able to operate within the Republic in exchange for the Church's neutrality in the conflict. Curiously, the vast majority of this group consists of Tajara who fall outside the gender binary, \
+	due to the Church's view that such individuals are born from both of the Suns and are best suited to physically enforce their will, while it's up to the rest of the Church to interpret it."
 	icon_state = "psis"
 	item_state = "psis"
 	starting_accessories = (/obj/item/clothing/accessory/holster/hip)
@@ -409,7 +409,7 @@
 /obj/item/clothing/under/dress/tajaran/polka_dot
 	name = "red polka dot dress"
 	desc = "A newer fashion style, this dress sports a jaunty, summery print with a scandalous shape by tajara standards. This one is red."
-	desc_extended = "Fundamentally at odds with the more traditional \"Flapper\" variety of clothing popular in the 2440s and 2450s, newer, more revealing and less restrictive dresses have found themselves surging amongst the teenage and young adult demographic on Adhomai, and in the People's Republic of Adhomai specifically. Many parents do not approve of these new styles, but shops sell them all the same, and celebrities flaunt them at red carpet events. Like it or not, times have begun to change."
+	desc_extended = "Fundamentally at odds with the more traditional \"Flapper\" variety of clothing popular in last two decades, newer, more revealing and less restrictive dresses have found themselves surging amongst the teenage and young adult demographic on Azunal, and in the Free Tajara Republic specifically. Many parents do not approve of these new styles, but shops sell them all the same, and celebrities flaunt them at red carpet events. Like it or not, times have begun to change."
 	icon = 'icons/obj/item/clothing/under/dress/tajaran/polka_dot_dresses.dmi'
 	icon_state = "polka_red"
 	item_state = "polka_red"
@@ -443,7 +443,7 @@
 	desc = "A modest mauve dress with a white collar, done in the latest tajaran styles."
 	icon_state = "housewife_mauve"
 	item_state = "housewife_mauve"
-	desc_extended = "Born of changing styles in the People's Republic and elsewhere, this dress blends the newer, more flattering shapes and traditional modestness so that the modern tajara woman may avail herself of the latest fashion trends. It blends this earnestness and fashionability together in a beautiful compromise, so it should come as no surprise that housewives and middle-aged women are oft found in dresses just like this."
+	desc_extended = "Born of changing styles in the Republic and elsewhere, this dress blends the newer, more flattering shapes and traditional modestness so that the modern tajara woman may avail herself of the latest fashion trends. It blends this earnestness and fashionability together in a beautiful compromise, so it should come as no surprise that housewives and middle-aged women are oft found in dresses just like this."
 
 // Yellow Housewife Dress
 /obj/item/clothing/under/dress/tajaran/housewife/yellow
@@ -454,7 +454,7 @@
 
 // Adhomian Evening Suit
 /obj/item/clothing/under/tajaran/fancy/evening_suit
-	name = "adhomian evening suit"
+	name = "azunali evening suit"
 	desc = "A rich purple evening suit meant for lounging or other luxury."
 	icon = 'icons/obj/item/clothing/under/tajaran/fancy/evening_suit.dmi'
 	icon_state = "evening_suit"
@@ -464,7 +464,7 @@
 /obj/item/clothing/under/tajaran/high_waisted
 	name = "high-waisted men's wear"
 	desc = "Dark, black, and high-waisted trousers with accompanying vibrant yellow shirt, for the modern and fashionable men."
-	desc_extended = "Fashion for men, much like for women, is slowly moving away from many-layered outfits and extravagant and flashy suits and dresses; one would be hard-pressed to find young men sporting three-piece suits any longer. Teenage boys and young adults are drawn more and more to relaxing styles and more comfortable fits that would never have found root on Adhomai before. Now, though, up-and-coming businessmen and well-to-do middle-class boys would rather wear trousers and a dress shirt than waste time with vests and oxfords."
+	desc_extended = "Fashion for men, much like for women, is slowly moving away from many-layered outfits and extravagant and flashy suits and dresses; one would be hard-pressed to find young men sporting three-piece suits any longer. Teenage boys and young adults are drawn more and more to relaxing styles and more comfortable fits that would never have found root on Azunal before. Now, though, up-and-coming businessmen and well-to-do middle-class boys would rather wear trousers and a dress shirt than waste time with vests and oxfords."
 	icon = 'icons/obj/item/clothing/under/tajaran/high_waisted_wear.dmi'
 	icon_state = "high_waisted"
 	item_state = "high_waisted"
@@ -480,7 +480,7 @@
 /obj/item/clothing/under/tajaran/relaxed
 	name = "relaxed men's wear"
 	desc = "Plaid pants and an unbuttoned silk shirt mean comfort and style."
-	desc_extended = "Fashion for men, much like for women, is slowly moving away from many-layered outfits and extravagant and flashy suits and dresses; one would be hard-pressed to find young men sporting three-piece suits any longer. Teenage boys and young adults are drawn more and more to relaxing styles and more comfortable fits that would never have found root on Adhomai before. Now, though, up-and-coming businessmen and well-to-do middle-class boys would rather wear trousers and a dress shirt than waste time with vests and oxfords."
+	desc_extended = "Fashion for men, much like for women, is slowly moving away from many-layered outfits and extravagant and flashy suits and dresses; one would be hard-pressed to find young men sporting three-piece suits any longer. Teenage boys and young adults are drawn more and more to relaxing styles and more comfortable fits that would never have found root on Azunal before. Now, though, up-and-coming businessmen and well-to-do middle-class boys would rather wear trousers and a dress shirt than waste time with vests and oxfords."
 	icon = 'icons/obj/item/clothing/under/tajaran/relaxed_wear.dmi'
 	icon_state = "relaxed_wear"
 	item_state = "relaxed_wear"
@@ -496,7 +496,7 @@
 /obj/item/clothing/under/tajaran/smart
 	name = "smart study outfit"
 	desc = "A brown, interwoven argyle sweater with accompanying trousers - for the modern academian in all of us."
-	desc_extended = "Fashion for men, much like for women, is slowly moving away from many-layered outfits and extravagant and flashy suits and dresses; one would be hard-pressed to find young men sporting three-piece suits any longer. Teenage boys and young adults are drawn more and more to relaxing styles and more comfortable fits that would never have found root on Adhomai before. Now, though, up-and-coming businessmen and well-to-do middle-class boys would rather wear trousers and a dress shirt than waste time with vests and oxfords."
+	desc_extended = "Fashion for men, much like for women, is slowly moving away from many-layered outfits and extravagant and flashy suits and dresses; one would be hard-pressed to find young men sporting three-piece suits any longer. Teenage boys and young adults are drawn more and more to relaxing styles and more comfortable fits that would never have found root on Azunal before. Now, though, up-and-coming businessmen and well-to-do middle-class boys would rather wear trousers and a dress shirt than waste time with vests and oxfords."
 	icon = 'icons/obj/item/clothing/under/tajaran/smart_study_outfit.dmi'
 	icon_state = "study_outfit"
 	item_state = "study_outfit"
