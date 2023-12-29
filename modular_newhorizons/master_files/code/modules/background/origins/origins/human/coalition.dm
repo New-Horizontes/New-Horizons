@@ -78,9 +78,9 @@
   H.AddComponent(/datum/component/armor, list(rad = ARMOR_RAD_MINOR))
 
 /singleton/origin_item/origin/assunzione
-	name = "Republic of Assunzione"
-	desc = "One of the most remote planets colonized by humanity, the Republic of Assunzione is widely known for its lack of a functional sun - which burnt out mysteriously shortly after the planet was colonized - and its unusual native faith, Luceism. Luceism itself is an offshoot of traditional Abrahamic faiths and is centered around the worship of Ennoia, an abstract representation of light. Assunzionii society is quite insular and is centered around the planet's faith, with an overwhelming majority of the planet's residents adhering to Luceism."
-	important_information = "Assunzione's remote location and urban planning which places a premium on available housing and space has made it unattractive to outsiders as a destination for immigration. Because of this, <b>characters native to Assunzione and its original colonists will have names and appearances consistent with the peoples living on or around the Mediterranean Sea, much like the planet's original colonists.</b> Only native Assunzioniis may take the Assunzionii accent."
+	name = "Illuminated Cities of Assunzione"
+	desc = "One of the most remote planets colonised by humanity, the Illuminated Cities of Assunzione are widely known for their lack of a functional sun - which burnt out mysteriously shortly after the planet was settled- and its unusual native faith, Luceism. Luceism itself is a melding of the faiths of its colonists with the prophecies of a small group of individuals, and is centered around the worship of Ennoia, an abstract representation of light. Assunzionii society is quite insular and is centered around the planet's faith, with an overwhelming majority of the planet's residents adhering to Luceism."
+	//important_information = "Assunzione's remote location and urban planning which places a premium on available housing and space has made it unattractive to outsiders as a destination for immigration. Because of this, <b>characters native to Assunzione and its original colonists will have names and appearances consistent with the peoples living on or around the Mediterranean Sea, much like the planet's original colonists.</b> Only native Assunzioniis may take the Assunzionii accent."
 	possible_accents = list(ACCENT_ASSUNZIONE)
 	possible_citizenships = CITIZENSHIPS_COALITION
 	possible_religions = list(RELIGION_LUCEISM)

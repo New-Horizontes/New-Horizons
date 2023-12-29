@@ -12,9 +12,9 @@
 	)
 /singleton/origin_item/origin/dominia_noble
 	name = "Dominian Highborn"
-	desc = "The Nobles of the Houses are the noble and liturgical classes of the Dominian Empire's humans, though the noble class of Dominia often sees Secondaries, that is anyone not born a noble, adopted into it. \
+	desc = "The Nobles of the Houses are the noble and liturgical classes of the Dominian Empire's humans, though the noble class of Dominia often sees Commoners, that is anyone not born a noble, adopted into it. \
 			Due to centuries of eating better than their commoner and lay counterparts, as well as other luxuries during their upbringing such as higher-grade gene therapy, Highborn tend to be physically larger and more imposing than their commoner counterpart. \
-			Secondaries that are elevated to nobility, though still primaries, tend to be slightly shorter than older families."
+			Citizens that are elevated to nobility, though still nobility, tend to be slightly shorter than older families."
 	important_information = "Dominian Highborn as an origin is specifically tailored for a noble character, that was born into their station as opposed to elevated, and for the same reason Highborn nobles have unique expectations by their House that, when broken, may result in the Wrath of the Homeworld being brought down upon the character, with consequences such as your character being extradited, executed by the Empire or worse."
 	possible_accents = list(ACCENT_DOMINIA_HIGH)
 	possible_citizenships = list(CITIZENSHIP_DOMINIA)
@@ -49,7 +49,7 @@
 
 /singleton/origin_item/origin/novi_jadran
 	name = "Novi Jadran"
-	desc = "A tundra planet peacefully annexed by the Empire of Dominia many years ago, where the influence of the local nobles is much stronger than anywhere else. Novi Jadran is commonly viewed as a very loyal colony, with its inhabitants adhering to a mostly rural lifestyle. The planet itself is behind in many technological aspects such as electricity and urbanization, with most of the population living outside of its few large urban population centers: this is due to neglect on the local nobles' part, who prefer to host lavish parties instead."
+	desc = "A tundra planet peacefully assimilated by the Empire of Dominia many years ago, where the influence of the local nobles is much stronger than anywhere else. Novi Jadran is commonly viewed as a very loyal colony, with its inhabitants adhering to a mostly rural lifestyle. The planet itself is behind in many technological aspects such as electricity and urbanization, with most of the population living outside of its few large urban population centers: this is due to neglect on the local nobles' part, who prefer to host lavish parties instead."
 	possible_accents = list(ACCENT_DOMINIA_NOVIJADRAN)
 	possible_citizenships = CITIZENSHIPS_DOMINIA
 	possible_religions = list(RELIGION_MOROZ, RELIGION_CHRISTIANITY)
@@ -58,7 +58,7 @@
 
 /singleton/origin_item/origin/imperial_frontier
 	name = "Imperial Frontier"
-	desc = "The Imperial Frontier consists of worlds conquered or annexed by the Empire of Dominia. Military governments are common here, as are the often-hated viceroyalties that the Empire has become infamous for abroad. The planets of the Imperial Frontier stand at varying levels of development, but most of their resources are sent back to the region that truly matters to the Empire: the Imperial Core."
+	desc = "The Imperial Frontier consists of worlds conquered, assimilated or annexed by the Empire of Dominia. Military governments are common here, as are the often-hated viceroyalties that the Empire has become infamous for abroad. The planets of the Imperial Frontier stand at varying levels of development, but most of their resources are sent back to the region that truly matters to the Empire: the Imperial Core."
 	possible_accents = list(ACCENT_DOMINIA_FRONTIER, ACCENT_DOMINIA_SUNREACH, ACCENT_COC)
 	possible_citizenships = CITIZENSHIPS_DOMINIA
 	possible_religions = list(RELIGION_NONE, RELIGION_MOROZ, RELIGION_CHRISTIANITY, RELIGION_ISLAM, RELIGION_BUDDHISM, RELIGION_HINDU, RELIGION_TAOISM, RELIGION_JUDAISM, RELIGION_OTHER)

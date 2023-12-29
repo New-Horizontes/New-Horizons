@@ -22,7 +22,7 @@
 // 'basic' language; spoken by default.
 /datum/language/common
 	name = LANGUAGE_TCB
-	desc = "A spiritual successor of Esperanto, pioneered in Tau Ceti with both Nanotrasen and The Protectorate. Its unique, fully customized alphabet and structure allow it to be spoken even by most alien species. It's the official language of Tau Ceti´s colonies and has growing traction in diplomatic circles and Universalists across human space."
+	desc = "A spiritual successor of Esperanto, pioneered in Tau Ceti with both Nanotrasen and Protectorate backing. Its unique, fully customized alphabet and structure allow it to be spoken even by most alien species. It's the official language of Tau Ceti´s colonies and has growing traction in diplomatic circles and Universalists across human space."
 	speech_verb = list("says")
 	key = "0"
 	flags = RESTRICTED|TCOMSSIM
