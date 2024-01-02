@@ -1,11 +1,11 @@
 /datum/faction/pmc
 	name = "Office of Special Services"
 	description = {"<p>
-The Office of Special Services is the United Nations own intelligence, clandestine operations, and research arm,
+The Office of Special Services is the United Nations own intelligence, clandestine operations, and research arm.
 Most of their exact details and operations arent known, aside from what has been redacted and edited for public view, the most famous of which is their Psionic Talent Assessment Program.
 This includes the contractor branch of The Department, acting as an umbrella employer for all UNIP government employees, as well as independent or foreign contractors not hired by any of the corporations operating on the New Horizon, usually stylized as OSS-C.
 	</p>"}
-	departments = {"Medical<br>Security<br>Engineering<br>Research<br>Command<br>Command Support"}
+	departments = {"Medical<br>Security<br>Engineering<br>Research<br>Command Support"}
 	title_suffix = "OSS"
 
 	allowed_role_types = PMC_ROLES
@@ -48,6 +48,19 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 		"Medical Intern" = /datum/outfit/job/intern_med/pmc,
 		"Corporate Liaison" = /datum/outfit/job/representative/pmc,
 		"Off-Duty Crew Member" = /datum/outfit/job/visitor/pmc,
+		"Hangar Technician" = /datum/outfit/job/hangar_tech/pmc,
+		"Shaft Miner" = /datum/outfit/job/mining/pmc,
+		"Machinist" = /datum/outfit/job/machinist/pmc,
+		"Bartender" = /datum/outfit/job/bartender/pmc,
+		"Chef" = /datum/outfit/job/chef/pmc,
+		"Gardener" = /datum/outfit/job/hydro/pmc,
+		"Hydroponicist" = /datum/outfit/job/hydro/pmc,
+		"Janitor" = /datum/outfit/job/janitor/pmc,
+		"Librarian" = /datum/outfit/job/librarian/pmc,
+		"Curator" = /datum/outfit/job/librarian/pmc/curator,
+		"Tech Support" = /datum/outfit/job/librarian/pmc/tech_support,
+		"Corporate Reporter" = /datum/outfit/job/journalist/pmc,
+		"Chaplain" = /datum/outfit/job/chaplain/pmc,
 		"Bridge Crew" = /datum/outfit/job/bridge_crew/pmc
 	)
 
@@ -202,3 +215,135 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 	double_headset = /obj/item/device/radio/headset/alt/double/command
 	wrist_radio = /obj/item/device/radio/headset/wrist/command
 	messengerbag = /obj/item/storage/backpack/messenger/com
+
+/datum/outfit/job/hangar_tech/orion
+	name = "Hangar Technician - OSS"
+
+	uniform = /obj/item/clothing/under/rank/hangar_technician/orion
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/machinist/orion
+	name = "Machinist - OSS"
+
+	uniform = /obj/item/clothing/under/rank/machinist/orion
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/mining/orion
+	name = "Shaft Miner - OSS"
+
+	uniform = /obj/item/clothing/under/rank/miner/orion
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/bartender/orion
+	name = "Bartender - OSS"
+
+	uniform = /obj/item/clothing/under/rank/bartender/orion
+	head = /obj/item/clothing/head/flatcap/bartender/orion
+	id = /obj/item/card/id/pmc
+	suit = /obj/item/clothing/suit/storage/bartender/orion
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/chef/orion
+	name = "Chef - OSS"
+
+	uniform = /obj/item/clothing/under/rank/chef/orion
+	suit = /obj/item/clothing/suit/chef_jacket/orion
+	head = /obj/item/clothing/head/chefhat/orion
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/hydro/orion
+	name = "Gardener - OSS"
+
+	uniform = /obj/item/clothing/under/rank/hydroponics/orion
+	head = /obj/item/clothing/head/bandana/hydro/orion
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/janitor/orion
+	name = "Janitor - OSS"
+
+	uniform = /obj/item/clothing/under/rank/janitor/orion
+	head = /obj/item/clothing/head/softcap/orion_custodian
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/librarian/orion
+	name = "Librarian - OSS"
+
+	uniform = /obj/item/clothing/under/librarian/orion
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/librarian/orion/curator
+	name = "Curator - OSS"
+	jobtype = /datum/job/librarian
+
+	r_pocket = /obj/item/device/price_scanner
+	l_hand = null
+
+/datum/outfit/job/librarian/orion/tech_support
+	name = "Tech Support - OSS"
+	jobtype = /datum/job/librarian
+
+	l_pocket = /obj/item/modular_computer/handheld/preset
+	r_pocket = /obj/item/card/tech_support
+	r_hand = /obj/item/storage/bag/circuits/basic
+	l_hand = /obj/item/modular_computer/laptop/preset
+	gloves = /obj/item/modular_computer/handheld/wristbound/preset/advanced/civilian
+
+/datum/outfit/job/journalist/orion
+	name = "Contractor Reporter - OSS"
+
+	uniform = /obj/item/clothing/under/librarian/orion
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/chaplain/orion
+	name = "Chaplain - OSS"
+
+	id = /obj/item/card/id/pmc
+
+	backpack_faction = /obj/item/storage/backpack/pmcg
+	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
+	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
+	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg

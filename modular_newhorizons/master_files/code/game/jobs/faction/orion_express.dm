@@ -5,7 +5,7 @@
 	It consists of its main branch, dedicated to cargo services and transport, but also features a fledgling robotics division, mainly focused
 	on industrial synthetics to aid in its logistics missions. Charon Shipping is considered integral part of modern economics, through delivering supplies and merchandise throughout the known galaxy.
 	</p>"}
-	departments = {"Operations<br>Command Support<br>Service"}
+	departments = {"Operations<br>Command Support"}
 	title_suffix = "Charon"
 
 /datum/outfit/job/hangar_tech/orion
