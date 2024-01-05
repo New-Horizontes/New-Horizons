@@ -219,7 +219,7 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 /datum/outfit/job/hangar_tech/orion
 	name = "Hangar Technician - OSS"
 
-	uniform = /obj/item/clothing/under/rank/hangar_technician/orion
+	uniform = /obj/item/clothing/under/rank/hangar_technician
 	id = /obj/item/card/id/pmc
 
 	backpack_faction = /obj/item/storage/backpack/pmcg
@@ -230,7 +230,7 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 /datum/outfit/job/machinist/orion
 	name = "Machinist - OSS"
 
-	uniform = /obj/item/clothing/under/rank/machinist/orion
+	uniform = /obj/item/clothing/under/rank/machinist
 	id = /obj/item/card/id/pmc
 
 	backpack_faction = /obj/item/storage/backpack/pmcg
@@ -241,7 +241,7 @@ This includes the contractor branch of The Department, acting as an umbrella emp
 /datum/outfit/job/mining/orion
 	name = "Shaft Miner - OSS"
 
-	uniform = /obj/item/clothing/under/rank/miner/orion
+	uniform = /obj/item/clothing/under/rank/miner
 	id = /obj/item/card/id/pmc
 
 	backpack_faction = /obj/item/storage/backpack/pmcg
