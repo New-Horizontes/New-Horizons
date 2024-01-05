@@ -1,13 +1,13 @@
 //citizenship defines
 #define CITIZENSHIP_BIESEL "Republic of Biesel"
-#define CITIZENSHIP_SOL "Sol Alliance"
-#define CITIZENSHIP_COALITION "Coalition of Colonies"
+#define CITIZENSHIP_SOL "United Nations Interstellar Protectorate" //New Horizons Edit
+#define CITIZENSHIP_COALITION "Coalition of Independent Systems" //New Horizons Edit
 #define CITIZENSHIP_ELYRA "Republic of Elyra"
 #define CITIZENSHIP_ELYRA_NCP "Elyran Non-Citizen Person"
 #define CITIZENSHIP_ERIDANI "Eridani Federation"
 #define CITIZENSHIP_DOMINIA "Empire of Dominia"
 
-#define CITIZENSHIP_IZWESKI "Izweski Hegemony"
+#define CITIZENSHIP_IZWESKI "Unathi Hegemony" //New Horizons Edit
 
 #define CITIZENSHIP_NRALAKK "Nralakk Federation"
 #define CITIZENSHIP_EUM "Co-Operative Territories of EUM"
@@ -33,18 +33,18 @@
 #define RELIGION_HINDU "Hinduism"
 #define RELIGION_BUDDHISM "Buddhism"
 #define RELIGION_SHINTO "Shinto"
-#define RELIGION_MOROZ "Moroz Holy Tribunal"
+#define RELIGION_MOROZ "Cassian Holy Tribunal" //New Horizons Edit
 #define RELIGION_TRINARY "Trinary Perfection"
-#define RELIGION_SCARAB "Scarab Folk Beliefs"
+#define RELIGION_SCARAB "Migrant Fleet Folk Beliefs" //New Horizons Edit
 #define RELIGION_TAOISM "Taoism"
 #define RELIGION_LUCEISM "Luceism"
 #define RELIGION_SIKHISM "Sikhism"
 #define RELIGION_STOLITISM "Vysokan Stolitism"
 
-#define RELIGION_THAKH "Th'akh"
-#define RELIGION_SKAKH "Sk'akh"
+#define RELIGION_THAKH "Hartism" //New Horizons Edit
+#define RELIGION_SKAKH "Ensi Worship" //New Horizons Edit
 #define RELIGION_AUTAKH "Aut'akh"
-#define RELIGION_SIAKH "Si'akh"
+#define RELIGION_SIAKH "Sassurism" //New Horizons Edit
 
 #define RELIGION_QEBLAK "Qeblak"
 #define RELIGION_WEISHII "Weishii"
@@ -74,7 +74,7 @@
 #define ACCENT_ERIDANIREINSTATED "Reinstated Dreg"
 #define ACCENT_ERIDANIDREG "Eridanian Dreg"
 #define ACCENT_SOL "Solarian"
-#define ACCENT_SCARAB "Scarab Fleets"
+#define ACCENT_SCARAB "Migrant Fleet" //New Horizons Edit
 #define ACCENT_SILVERSUN_ORIGINAL "Silversun Original"
 #define ACCENT_SILVERSUN_EXPATRIATE "Silversun Expatriate"
 #define ACCENT_PHONG "New Hai Phongese"
@@ -87,18 +87,18 @@
 #define ACCENT_VYSOKA "Vysokan"
 #define ACCENT_VENUS "Venusian Cytherean"
 #define ACCENT_VENUSJIN "Venusian Jintarian"
-#define ACCENT_DOMINIA_HIGH "High Morozi"
-#define ACCENT_DOMINIA_VULGAR "Vulgar Morozi"
+#define ACCENT_DOMINIA_HIGH "High Cassian" //New Horizons Edit
+#define ACCENT_DOMINIA_VULGAR "Low Cassian" //New Horizons Edit
 #define ACCENT_DOMINIA_FRONTIER "Imperial Frontier"
 #define ACCENT_DOMINIA_NOVIJADRAN "Novi Jadranic"
-#define ACCENT_DOMINIA_LYODII "Lyodii"
+#define ACCENT_DOMINIA_LYODII "Porter Cassian" //New Horizons Edit
 #define ACCENT_DOMINIA_SUNREACH "Sun Reach"
 #define ACCENT_JUPITER "Jovian"
 #define ACCENT_CALLISTO "Callistean"
 #define ACCENT_EUROPA "Europan"
 #define ACCENT_EARTH "Earther"
 #define ACCENT_NCF "Non-Coalition Frontier"
-#define ACCENT_FISANDUH "Fisanduhian"
+#define ACCENT_FISANDUH "Union Standard" //New Horizons Edit
 #define ACCENT_GADPATHUR "Gadpathurian"
 #define ACCENT_PLUTO "Plutonian"
 #define ACCENT_ASSUNZIONE "Assunzionii"
@@ -112,7 +112,7 @@
 #define ACCENT_DAMASCUS "Damascus II"
 #define ACCENT_BURSA "Bursa"
 #define ACCENT_ANTILLIA "Port Antillia"
-#define ACCENT_XANU "Xanu"
+#define ACCENT_XANU "New Xanu" //New Horizons Edit
 #define ACCENT_SANCOLETTE "San Colette"
 #define ACCENT_OREPIT "Native Orepitter"
 #define ACCENT_PROVIDENCE "Providence Trinarist"
@@ -138,25 +138,25 @@
 #define ACCENT_HARRNRRI "Harr'nrri Siik'mas"
 #define ACCENT_ZARRJIRI "Zarr'jiri Siik'mas"
 
-#define ACCENT_HEARTLAND_NOBLE "Izweski Heartland Noble"
-#define ACCENT_HEARTLAND_PEASANT "Izweski Heartland Peasant"
-#define ACCENT_TRAD_NOBLE "Noble Traditional"
-#define ACCENT_TRAD_PEASANT "Peasant Traditional"
-#define ACCENT_WASTELAND "Deep Wastelander"
-#define ACCENT_AUTAKH "Aut'akh Dialect"
-#define ACCENT_QUEENDOM "Queendom Dialect"
-#define ACCENT_TZA_PEASANT "Tza Prairie Peasant"
-#define ACCENT_TZA_NOBLE "Tza Prairie Noble"
-#define ACCENT_SOUTHLANDS_PEASANT "Southlands Peasant"
-#define ACCENT_SOUTHLANDS_NOBLE "Southlands Noble"
-#define ACCENT_BROKEN_PEASANT "Broken Coalition Peasant"
-#define ACCENT_BROKEN_NOBLE "Broken Coalition Noble"
+#define ACCENT_HEARTLAND_NOBLE "Izweski Heartland Noble" //NOT IN USE
+#define ACCENT_HEARTLAND_PEASANT "Izweski Heartland Peasant" //NOT IN USE
+#define ACCENT_TRAD_NOBLE "Noble Traditional" //NOT IN USE
+#define ACCENT_TRAD_PEASANT "Peasant Traditional" //NOT IN USE
+#define ACCENT_WASTELAND "Deep Wastelander" //NOT IN USE
+#define ACCENT_AUTAKH "Yzali Akran Dialect" //New Horizons Edit
+#define ACCENT_QUEENDOM "Moghes Hal-Aman Commoner Dialect"
+#define ACCENT_TZA_PEASANT "Commoner Yzali" //New Horizons Edit
+#define ACCENT_TZA_NOBLE "High Yzali" //New Horizons Edit
+#define ACCENT_SOUTHLANDS_PEASANT "Yzali Southlands Common" //New Horizons Edit
+#define ACCENT_SOUTHLANDS_NOBLE "Yzali Southlands Noble" //New Horizons Edit
+#define ACCENT_BROKEN_PEASANT "Zakkeran Nomad Pacifist Dialect" //New Horizons Edit
+#define ACCENT_BROKEN_NOBLE "Zakkeran Nomad Militarist Dialect" //New Horizons Edit
 #define ACCENT_UNATHI_SPACER "Spacer"
 #define ACCENT_HAZANA "Hazana"
-#define ACCENT_TORN "Torn Cities"
-#define ACCENT_ZAZ_LOW "Zazalai Mountains Peasant"
-#define ACCENT_ZAZ_HIGH "Zazalai Mountains Noble"
-#define ACCENT_OUEREA "Ouerea"
+#define ACCENT_TORN "Moghes Hal-Aman Noble Dialect" //New Horizons Edit
+#define ACCENT_ZAZ_LOW "Moghes Niksum-Warrior Cant" //New Horizons Edit
+#define ACCENT_ZAZ_HIGH "Sassuran" //New Horizons Edit
+#define ACCENT_OUEREA "Zakkeran Dialect" //New Horizons Edit
 
 #define ACCENT_SKRELL "Standard Nral'Malic"
 #define ACCENT_HOMEWORLD "Qerrbalak"

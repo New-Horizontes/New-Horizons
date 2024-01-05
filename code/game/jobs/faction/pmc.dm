@@ -51,7 +51,8 @@
 		"First Responder" = /datum/outfit/job/med_tech/pmc,
 		"Medical Intern" = /datum/outfit/job/intern_med/pmc,
 		"Corporate Liaison" = /datum/outfit/job/representative/pmc,
-		"Off-Duty Crew Member" = /datum/outfit/job/visitor/pmc
+		"Off-Duty Crew Member" = /datum/outfit/job/visitor/pmc,
+		"Bridge Crew" = /datum/outfit/job/bridge_crew/pmc //NEW HORIZONS EDIT
 	)
 
 /datum/outfit/job/officer/pmc
@@ -217,3 +218,17 @@
 	satchel_faction = /obj/item/storage/backpack/satchel/pmcg
 	dufflebag_faction = /obj/item/storage/backpack/duffel/pmcg
 	messengerbag_faction = /obj/item/storage/backpack/messenger/pmcg
+
+/datum/outfit/job/bridge_crew/pmc //NEW HORIZONS EDIT
+	name = "Bridge Crew - OSS"
+
+	head = /obj/item/clothing/head/caphat/bridge_crew
+	uniform = /obj/item/clothing/under/rank/bridge_crew
+	shoes = /obj/item/clothing/shoes/laceup
+	id = /obj/item/card/id/pmc
+
+	headset = /obj/item/device/radio/headset/headset_com
+	bowman = /obj/item/device/radio/headset/headset_com/alt
+	double_headset = /obj/item/device/radio/headset/alt/double/command
+	wrist_radio = /obj/item/device/radio/headset/wrist/command
+	messengerbag = /obj/item/storage/backpack/messenger/com

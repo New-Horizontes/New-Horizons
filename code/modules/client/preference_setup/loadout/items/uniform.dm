@@ -106,8 +106,8 @@
 	var/list/scrubs = list()
 	scrubs["scrubs, nanotrasen navy blue"] = /obj/item/clothing/under/rank/medical/surgeon
 	scrubs["scrubs, zeng-hu purple"] = /obj/item/clothing/under/rank/medical/surgeon/zeng
-	scrubs["scrubs, PMCG blue"] = /obj/item/clothing/under/rank/medical/surgeon/pmc
-	scrubs["scrubs, PMCG grey"] = /obj/item/clothing/under/rank/medical/surgeon/pmc/alt
+	scrubs["scrubs, OSS blue"] = /obj/item/clothing/under/rank/medical/surgeon/pmc //NEW HORIZONS EDIT
+	scrubs["scrubs, OSS grey"] = /obj/item/clothing/under/rank/medical/surgeon/pmc/alt //NEW HORIZONS EDIT
 	scrubs["scrubs, zavodskoi black"] = /obj/item/clothing/under/rank/medical/surgeon/zavod
 	scrubs["scrubs, idris green"] = /obj/item/clothing/under/rank/medical/surgeon/idris
 
@@ -188,6 +188,13 @@
 	pants["ripped jeans"] = /obj/item/clothing/under/pants/ripped
 	pants["black ripped jeans"] = /obj/item/clothing/under/pants/blackripped
 
+	// Athletic Shorts
+	pants["black athletic shorts"] = /obj/item/clothing/under/shorts/athletic/black
+	pants["red athletic shorts"] = /obj/item/clothing/under/shorts/athletic/red
+	pants["green athletic shorts"] = /obj/item/clothing/under/shorts/athletic/green
+	pants["grey athletic shorts"] = /obj/item/clothing/under/shorts/athletic/grey
+	pants["UNIP-branded athletic shorts"] = /obj/item/clothing/under/shorts/athletic/scc //NEW HORIZONS EDIT
+
 	// Shorts
 	pants["black shorts"] = /obj/item/clothing/under/shorts/black
 	pants["black short shorts"] = /obj/item/clothing/under/shorts/black/short
@@ -256,13 +263,13 @@
 	var/list/suit = list()
 	suit["dominian suit, red"] = /obj/item/clothing/under/dominia/imperial_suit
 	suit["dominian suit, black"] = /obj/item/clothing/under/dominia/imperial_suit/black
-	suit["strelitz dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/strelitz
-	suit["volvalaad dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/volvalaad
-	suit["kazhkz dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/kazhkz
-	suit["caladius dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/caladius
-	suit["zhao dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/zhao
-	suit["lyodsuit"] = /obj/item/clothing/under/dominia/lyodsuit
-	suit["hoodied lyodsuit"] = /obj/item/clothing/under/dominia/lyodsuit/hoodie
+	suit["macgregor dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/strelitz //NEW HORIZONS EDIT
+	suit["orlov dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/volvalaad //NEW HORIZONS EDIT
+	suit["rodrigo dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/kazhkz //NEW HORIZONS EDIT
+	suit["marchand dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/caladius //NEW HORIZONS EDIT
+	suit["stahl-wright dominian suit"] = /obj/item/clothing/under/dominia/imperial_suit/zhao //NEW HORIZONS EDIT
+	suit["novasuit"] = /obj/item/clothing/under/dominia/lyodsuit //NEW HORIZONS EDIT
+	suit["hoodied novasuit"] = /obj/item/clothing/under/dominia/lyodsuit/hoodie //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(suit)
 
 /datum/gear/uniform/dominia_dress
@@ -298,7 +305,7 @@
 	gear_tweaks += new /datum/gear_tweak/path(consular)
 
 /datum/gear/uniform/fisanduhian_sweater
-	display_name = "fisanduhian sweater"
+	display_name = "classic cassian sweater" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/under/dominia/sweater
 	flags = GEAR_HAS_DESC_SELECTION
 	culture_restriction = list(/singleton/origin_item/culture/dominia, /singleton/origin_item/culture/dominian_unathi)

@@ -17,7 +17,7 @@
 
 #define SPECIES_VAURCA_WORKER		"Vaurca Worker"
 #define SPECIES_VAURCA_WARRIOR		"Vaurca Warrior"
-#define SPECIES_VAURCA_BREEDER		"Vaurca Breeder"
+#define SPECIES_VAURCA_BREEDER		"Vaurca Gyne" //NEW HORIZONS EDIT
 #define SPECIES_VAURCA_WARFORM		"Vaurca Warform"
 #define SPECIES_VAURCA_BULWARK		"Vaurca Bulwark"
 
@@ -88,7 +88,7 @@
 #define BODYTYPE_TESLA_BODY			"Tesla Rejuvenation Suit"
 
 #define BODYTYPE_VAURCA				"Vaurca"
-#define BODYTYPE_VAURCA_BREEDER		"Vaurca Breeder"
+#define BODYTYPE_VAURCA_BREEDER		"Vaurca Gyne" //NEW HORIZONS EDIT
 #define BODYTYPE_VAURCA_BULWARK		"Vaurca Bulwark"
 #define BODYTYPE_VAURCA_WARFORM		"Vaurca Warform"
 
