@@ -384,6 +384,8 @@ This function restores all organs.
 
 
 /mob/living/carbon/human/proc/get_organ(var/zone, var/allow_no_result = FALSE)
+	SHOULD_NOT_SLEEP(TRUE)
+	RETURN_TYPE(/obj/item/organ)
 	if(!zone)
 		if(allow_no_result)
 			return
@@ -419,8 +421,10 @@ This function restores all organs.
 	//Handle other types of damage
 	if(!(damagetype in list(DAMAGE_BRUTE, DAMAGE_BURN, DAMAGE_PAIN, DAMAGE_CLONE)))
 		if(!stat && damagetype == DAMAGE_PAIN)
-			if((damage > 25 && prob(20)) || (damage > 50 && prob(60)))
-				emote("scream")
+			if((damage > 25) || (damage > 50))
+				force_say()
+				if((damage > 25 && prob(20) || (damage > 50 && prob(60))))
+					emote("scream")
 		return ..()
 
 	if(!organ)
@@ -435,9 +439,11 @@ This function restores all organs.
 	if(!damage)
 		return FALSE
 
-	if(damage > 15 && prob(damage*4) && ORGAN_CAN_FEEL_PAIN(organ))
-		if(REAGENT_VOLUME(reagents, /singleton/reagent/adrenaline) < 15)
-			make_adrenaline(round(damage/10))
+	if(damage > 15 && ORGAN_CAN_FEEL_PAIN(organ))
+		force_say()
+		if(prob(damage*4))
+			if(REAGENT_VOLUME(reagents, /singleton/reagent/adrenaline) < 15)
+				make_adrenaline(round(damage/10))
 
 	switch(damagetype)
 		if(DAMAGE_BRUTE)

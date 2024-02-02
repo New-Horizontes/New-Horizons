@@ -332,7 +332,7 @@
 	desc_extended = "Talismans and charms are common among the majority of tajara, with many believing them to be able to bring good fortune or ward off Raskara and other evils. \
 	Many are thought to have some extra supernatural significance depending on their origin, a story that nearly anyone who carries one of these can easily spend all evening telling."
 	w_class = ITEMSIZE_TINY
-	flags = NOBLUDGEON
+	item_flags = ITEM_FLAG_NO_BLUDGEON
 	slot_flags = SLOT_MASK | SLOT_WRISTS | SLOT_EARS | SLOT_TIE
 
 /obj/item/clothing/accessory/tajaran/charm/get_mask_examine_text(mob/user)
@@ -367,7 +367,8 @@
 	desc = "A warding metallic of tajara origin."
 	icon_state = "steel_talisman"
 	item_state = "steel_talisman"
-	flags = CONDUCT | NOBLUDGEON
+	obj_flags = OBJ_FLAG_CONDUCTABLE
+	item_flags = ITEM_FLAG_NO_BLUDGEON
 
 /obj/item/clothing/accessory/tajaran/charm/steel/silver
 	name = "silver charm"

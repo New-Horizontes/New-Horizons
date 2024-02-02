@@ -35,7 +35,7 @@
 	desc_extended = "Imported from the Sacred Azunal Kingdom."
 	icon_state = "nkapacket"
 	item_state = "Fpacket"
-	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/adhomai
+	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/adhomai/menthol
 
 /obj/item/tajcard //will come later
 	name = "collectable tajaran card"

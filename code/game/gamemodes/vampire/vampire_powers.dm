@@ -47,7 +47,7 @@
 		//IPCs leak oil
 		to_chat(src, SPAN_WARNING("[T] is not a creature you can drain useful blood from."))
 		return
-	if(T.head && (T.head.item_flags & AIRTIGHT))
+	if(T.head && (T.head.item_flags & ITEM_FLAG_AIRTIGHT))
 		to_chat(src, SPAN_WARNING("[T]'s headgear is blocking the way to the neck."))
 		return
 	var/obj/item/blocked = check_mouth_coverage()
@@ -219,7 +219,7 @@
 		to_chat(src, SPAN_WARNING("No suitable targets."))
 		return
 
-	var/mob/living/carbon/human/T = input(src, "Select Victim") as null|mob in victims
+	var/mob/living/carbon/human/T = tgui_input_list(src, "Select Victim", "Hypnotise", victims)
 	if(!vampire_can_affect_target(T))
 		return
 	if(vampire.status & VAMP_HYPNOTIZING)
