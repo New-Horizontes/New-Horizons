@@ -196,6 +196,10 @@
 		if(C.job_species_blacklist[job.title] && (pref.species in C.job_species_blacklist[job.title]))
 			dat += "<del>[dispRank]</del></td><td><b> \[SPECIES RESTRICTED]</b></td></tr>"
 			continue
+		if(job.blacklisted_citizenship)
+			if(C.name in job.blacklisted_citizenship)
+				dat += "<del>[dispRank]</del></td><td><b> \[BACKGROUND RESTRICTED]</b></td></tr>"
+				continue
 		if(job.alt_titles && (LAZYLEN(pref.GetValidTitles(job)) > 1))
 			dispRank = "<span width='60%' align='center'>&nbsp<a href='?src=\ref[src];select_alt_title=\ref[job]'>\[[pref.GetPlayerAltTitle(job)]\]</a></span>"
 		if((pref.job_civilian_low & ASSISTANT) && (rank != "Assistant"))
@@ -421,9 +425,9 @@
 			continue
 
 		if (faction.name == selected_faction)
-			factions += "[faction.name]"
+			factions += "[faction.name]<br>" //NEW HORIZONS EDIT
 		else
-			factions += "<a href='?src=\ref[src];faction_preview=[html_encode(faction.name)]'>[faction.name]</a>"
+			factions += "<a href='?src=\ref[src];faction_preview=[html_encode(faction.name)]'>[faction.name]</a><br>" //NEW HORIZONS EDIT
 
 	dat += factions.Join(" ")
 
@@ -457,7 +461,7 @@
 		dat += "<br><span class='warning'>[faction.get_selection_error(pref, user)]</span>"
 	dat += "</center>"
 
-	user << browse(dat.Join(), "window=factionpreview;size=750x450")
+	user << browse(dat.Join(), "window=factionpreview;size=750x800") //NEW HORIZONS EDIT
 
 /datum/category_item/player_setup_item/occupation/proc/validate_and_set_faction(selected_faction)
 	var/datum/faction/faction = SSjobs.name_factions[selected_faction]

@@ -172,15 +172,33 @@ default behaviour is:
 
 				now_pushing = FALSE
 
+/**
+ * Checks if two mobs can swap with each other based on the density
+ *
+ * Returns `TRUE` if the density allows them to swap, `FALSE` otherwise
+ *
+ * swapper - A `/mob`, the one trying to perform the swap
+ * swapee - A `/mob`, the one the `swapper` is trying to swap with
+ */
 /proc/swap_density_check(var/mob/swapper, var/mob/swapee)
+	SHOULD_NOT_SLEEP(TRUE)
+	SHOULD_BE_PURE(TRUE)
+
 	var/turf/T = get_turf(swapper)
+
+	if(!T)
+		return FALSE
+
 	if(T.density)
-		return 1
+		return TRUE
+
 	for(var/atom/movable/A in T)
+
 		if(A == swapper)
 			continue
+
 		if(!A.CanPass(swapee, T, 1))
-			return 1
+			return TRUE
 
 /mob/living/proc/can_swap_with(var/mob/living/tmob)
 	if(tmob.buckled_to || buckled_to)
@@ -1019,4 +1037,4 @@ default behaviour is:
 	return FALSE
 
 /mob/living/get_speech_bubble_state_modifier()
-	return isSynthetic() ? "synth" : ..()
+	return isSynthetic() ? "robot" : ..()

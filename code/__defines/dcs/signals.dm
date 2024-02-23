@@ -26,7 +26,7 @@
 /// fires on the target datum when an element is attached to it (/datum/element)
 #define COMSIG_ELEMENT_ATTACH "element_attach"
 /// fires on the target datum when an element is attached to it  (/datum/element)
-#define COMSIG_ELEMENT_DETACH "element_detach"
+#define COMSIG_ELEMENT_DETACH_ON_HOST_DESTROY "ELEMENT_DETACH_ON_HOST_DESTROY"
 
 // /atom signals
 
@@ -62,6 +62,8 @@
 #define COMSIG_MOB_LOGOUT "mob_logout"
 /// from mob/get_status_tab_items(): (list/items)
 #define COMSIG_MOB_GET_STATUS_TAB_ITEMS "mob_get_status_tab_items"
+///from /mob/living/carbon/human/proc/force_say(): ()
+#define COMSIG_HUMAN_FORCESAY "human_forcesay"
 
 /// Sent from /proc/do_after if someone starts a do_after action bar.
 #define COMSIG_DO_AFTER_BEGAN "mob_do_after_began"
