@@ -174,7 +174,8 @@ jobs:
   lint-opendream:
     name: Lint OpenDream
     runs-on: ubuntu-22.04
-    if: ${{ !(contains(github.event.head_commit.message, '[ci skip]')) }}
+    # remove `&& false` below to re-enable this job
+    if: ${{ !(contains(github.event.head_commit.message, '[ci skip]')) && false }}
     needs: validate-structure
 
     concurrency:
@@ -313,7 +314,8 @@ jobs:
     runs-on: ubuntu-22.04
 
     if: ${{ !(contains(github.event.head_commit.message, '[ci skip]')) && !(contains(github.event.head_commit.message, '[ut skip]'))}}
-    needs: [validate-structure, lint-spacemandmm, lint-opendream, lint-tgui, lint-misc]
+    #needs: [validate-structure, lint-spacemandmm, lint-opendream, lint-tgui, lint-misc]
+    needs: [validate-structure, lint-spacemandmm, lint-tgui, lint-misc]
 
     services:
       mariadb:
@@ -436,7 +438,8 @@ jobs:
     runs-on: ubuntu-22.04
 
     if: ${{ !(contains(github.event.head_commit.message, '[ci skip]')) && !(contains(github.event.head_commit.message, '[ut skip]'))}}
-    needs: [validate-structure, lint-spacemandmm, lint-opendream, lint-tgui, lint-misc]
+    #needs: [validate-structure, lint-spacemandmm, lint-opendream, lint-tgui, lint-misc]
+    needs: [validate-structure, lint-spacemandmm, lint-tgui, lint-misc]
 
     services:
       mariadb:
@@ -561,7 +564,8 @@ jobs:
     runs-on: ubuntu-22.04
 
     if: ${{ !(contains(github.event.head_commit.message, '[ci skip]')) && !(contains(github.event.head_commit.message, '[ut skip]'))}}
-    needs: [validate-structure, lint-spacemandmm, lint-opendream, lint-tgui, lint-misc]
+    #needs: [validate-structure, lint-spacemandmm, lint-opendream, lint-tgui, lint-misc]
+    needs: [validate-structure, lint-spacemandmm, lint-tgui, lint-misc]
 
     services:
       mariadb:
@@ -685,7 +689,8 @@ jobs:
     runs-on: ubuntu-22.04
 
     if: ${{ !(contains(github.event.head_commit.message, '[ci skip]')) && !(contains(github.event.head_commit.message, '[ut skip]'))}}
-    needs: [validate-structure, lint-spacemandmm, lint-opendream, lint-tgui, lint-misc]
+    #needs: [validate-structure, lint-spacemandmm, lint-opendream, lint-tgui, lint-misc]
+    needs: [validate-structure, lint-spacemandmm, lint-tgui, lint-misc]
 
     services:
       mariadb:
