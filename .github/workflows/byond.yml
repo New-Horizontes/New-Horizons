@@ -191,6 +191,13 @@ jobs:
       - name: Set ENV variables
         run: bash dependencies.sh
 
+      - name: Setup .NET SDK 8.x.x
+        uses: actions/setup-dotnet@v4
+        id: stepid
+        with:
+          dotnet-version: 8
+      - run: echo '.NET SDK ${{ steps.stepid.outputs.dotnet-version }} installed.'
+
       #Restores SpacemanDMM from the cache repository
       - name: Restore OpenDream cache
         uses: actions/cache@v3
