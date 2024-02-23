@@ -174,8 +174,8 @@ jobs:
   lint-opendream:
     name: Lint OpenDream
     runs-on: ubuntu-22.04
-    # remove `|| false` below to re-enable this job
-    if: ${{ !(contains(github.event.head_commit.message, '[ci skip]')) || false }}
+    # remove `&& false` below to re-enable this job
+    if: ${{ !(contains(github.event.head_commit.message, '[ci skip]')) && false }}
     needs: validate-structure
 
     concurrency:
