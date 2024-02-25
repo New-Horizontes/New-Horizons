@@ -135,7 +135,7 @@ By design, d1 is the smallest direction and d2 is the highest
 			if(user.a_intent != I_HELP)
 				return
 
-			if(W.flags & CONDUCT)
+			if(W.obj_flags & OBJ_FLAG_CONDUCTABLE)
 				shock(user, 50, 0.7)
 
 		if(d1 == 12 || d2 == 12)
@@ -482,12 +482,14 @@ By design, d1 is the smallest direction and d2 is the highest
 	throw_range = 5
 	matter = list(DEFAULT_WALL_MATERIAL = 50, MATERIAL_GLASS = 20)
 	recyclable = TRUE
-	flags = HELDMAPTEXT|CONDUCT
+	obj_flags = OBJ_FLAG_CONDUCTABLE
+	item_flags = ITEM_FLAG_HELD_MAP_TEXT
 	slot_flags = SLOT_BELT
 	attack_verb = list("whipped", "lashed", "disciplined", "flogged")
 	stacktype = /obj/item/stack/cable_coil
 	drop_sound = 'sound/items/drop/accessory.ogg'
 	pickup_sound = 'sound/items/pickup/accessory.ogg'
+	surgerysound = 'sound/items/surgery/fixovein.ogg'
 	var/static/list/possible_cable_coil_colours = list(
 		"Yellow" = COLOR_YELLOW,
 		"Green" = COLOR_LIME,
@@ -633,7 +635,7 @@ By design, d1 is the smallest direction and d2 is the highest
 	return ..()
 
 /obj/item/stack/cable_coil/proc/choose_cable_color(var/user)
-	var/selected_type = input("Pick a new colour.", "Cable Colour", null, null) as null|anything in possible_cable_coil_colours
+	var/selected_type = tgui_input_list(user, "Pick a new colour.", "Cable Colour", possible_cable_coil_colours)
 	set_cable_color(selected_type, user)
 
 /obj/item/stack/cable_coil/proc/set_cable_color(selected_color, var/user)

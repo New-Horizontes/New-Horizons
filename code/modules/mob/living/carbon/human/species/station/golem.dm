@@ -69,9 +69,9 @@ var/global/list/golem_types = list(
 		)
 
 	has_limbs = list(
-		BP_HEAD =   list("path" = /obj/item/organ/external/head/unbreakable),
 		BP_CHEST =  list("path" = /obj/item/organ/external/chest/unbreakable),
 		BP_GROIN =  list("path" = /obj/item/organ/external/groin/unbreakable),
+		BP_HEAD =   list("path" = /obj/item/organ/external/head/unbreakable),
 		BP_L_ARM =  list("path" = /obj/item/organ/external/arm/unbreakable),
 		BP_R_ARM =  list("path" = /obj/item/organ/external/arm/right/unbreakable),
 		BP_L_LEG =  list("path" = /obj/item/organ/external/leg/unbreakable),
@@ -825,7 +825,9 @@ var/global/list/golem_types = list(
 
 /datum/species/golem/homunculus/handle_death(var/mob/living/carbon/human/H)
 	if(turn_into_materials)
-		H.gib()
+		//This is because otherwise the removal of vital organs in the gibbing will call death again, which calls this again, creating a neverending
+		//server death loop
+		addtimer(CALLBACK(H, TYPE_PROC_REF(/mob/living/carbon/human, gib)), 1 SECONDS)
 
 /datum/species/golem/homunculus/handle_environment_special(var/mob/living/carbon/human/H)
 	if(prob(25))
