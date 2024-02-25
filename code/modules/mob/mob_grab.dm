@@ -27,6 +27,10 @@
 	var/dancing //determines if assailant and affecting keep looking at each other. Basically a wrestling position
 	var/has_choked = FALSE //Used as a counter for choking people.
 
+	//NEW HORIZONS EDIT CHANGE BEGIN - Hand Holding
+	var/bodyshield = FALSE
+	//NEW HORIZONS EDIT CHANGE END
+
 	var/obj/item/grab/linked_grab
 	var/wielded = FALSE
 
@@ -214,26 +218,36 @@
 	var/shift = 0
 	var/adir = get_dir(assailant, affecting)
 	affecting.layer = 4
-	switch(state)
-		if(GRAB_PASSIVE)
-			shift = 8
-			if(dancing) //look at partner
-				shift = 10
-				assailant.set_dir(get_dir(assailant, affecting))
-		if(GRAB_AGGRESSIVE)
-			shift = 12
-		if(GRAB_NECK, GRAB_UPGRADING)
-			shift = -10
-			adir = assailant.dir
-			affecting.update_canmove()
-			affecting.set_dir(assailant.dir)
-			affecting.forceMove(assailant.loc)
-		if(GRAB_KILL)
-			shift = 0
-			adir = 1
-			affecting.update_canmove()
-			affecting.set_dir(SOUTH) //face up
-			affecting.forceMove(assailant.loc)
+	//NEW HORIZONS EDIT CHANGE BEGIN - Hand Holding
+	var/bshift = 0
+	if(bodyshield)
+		shift = 10
+		bshift = -10
+		assailant.set_dir(get_dir(affecting, assailant))
+		adir = assailant.dir
+		assailant.forceMove(affecting.loc)
+	else
+		switch(state)
+			if(GRAB_PASSIVE)
+				shift = 8
+				if(dancing) //look at partner
+					shift = 10
+					assailant.set_dir(get_dir(assailant, affecting))
+			if(GRAB_AGGRESSIVE)
+				shift = 12
+			if(GRAB_NECK, GRAB_UPGRADING)
+				shift = -10
+				adir = assailant.dir
+				affecting.update_canmove()
+				affecting.set_dir(assailant.dir)
+				affecting.forceMove(assailant.loc)
+			if(GRAB_KILL)
+				shift = 0
+				adir = 1
+				affecting.update_canmove()
+				affecting.set_dir(SOUTH) //face up
+				affecting.forceMove(assailant.loc)
+	//NEW HORIZONS EDIT CHANGE END
 
 	switch(adir)
 		if(NORTH)
@@ -245,6 +259,20 @@
 			animate(affecting, pixel_x = shift, pixel_y = affecting.get_standard_pixel_y(), 5, 1, LINEAR_EASING)
 		if(EAST)
 			animate(affecting, pixel_x =-shift, pixel_y = affecting.get_standard_pixel_y(), 5, 1, LINEAR_EASING)
+	//NEW HORIZONS EDIT CHANGE BEGIN - Hand Holding
+	if(bodyshield)
+		switch(adir)
+			if(NORTH)
+				animate(assailant, pixel_x = assailant.get_standard_pixel_x(), pixel_y =-bshift, 5, 1, LINEAR_EASING)
+				assailant.layer = 3.9
+			if(SOUTH)
+				animate(assailant, pixel_x = assailant.get_standard_pixel_x(), pixel_y = bshift, 5, 1, LINEAR_EASING)
+				affecting.layer = 3.9
+			if(WEST)
+				animate(assailant, pixel_x = bshift, pixel_y = assailant.get_standard_pixel_y(), 5, 1, LINEAR_EASING)
+			if(EAST)
+				animate(assailant, pixel_x =-bshift, pixel_y = assailant.get_standard_pixel_y(), 5, 1, LINEAR_EASING)
+	//NEW HORIZONS EDIT CHANGE END
 
 /obj/item/grab/proc/s_click(obj/screen/S)
 	if(!affecting)
@@ -365,7 +393,12 @@
 					inspect_organ(affecting, assailant, hit_zone)
 
 				if(I_GRAB)
-					jointlock(affecting, assailant, hit_zone)
+					//NEW HORIZONS EDIT CHANGE BEGIN - Hand Holding
+					if(state == GRAB_PASSIVE && (hit_zone == BP_L_HAND || hit_zone == BP_R_HAND))
+						hold_hand(affecting, assailant, hit_zone)
+					else
+						//NEW HORIZONS EDIT CHANGE END
+						jointlock(affecting, assailant, hit_zone)
 
 				if(I_HURT)
 					if(hit_zone == BP_EYES)
@@ -413,6 +446,10 @@
 			affecting.anchored = FALSE
 		moved_event.unregister(assailant, src, PROC_REF(move_affecting))
 
+	//NEW HORIZONS EDIT CHANGE BEGIN - Hand Holding
+	animate(assailant, pixel_x = assailant.get_standard_pixel_x(), pixel_y = assailant.get_standard_pixel_y(), 4, 1, LINEAR_EASING)
+	assailant.layer = initial(affecting.layer)
+	//NEW HORIZONS EDIT CHANGE END
 	animate(affecting, pixel_x = affecting.get_standard_pixel_x(), pixel_y = affecting.get_standard_pixel_y(), 4, 1, LINEAR_EASING)
 	affecting.layer = initial(affecting.layer)
 	if(affecting)

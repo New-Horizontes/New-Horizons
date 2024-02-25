@@ -1,0 +1,7 @@
+author: TGW
+
+delete-after: True
+
+changes:
+  - add: "Added handholding by having two people grab eachother with passive grabs, be on help intent and targetting the hands."
+  - add: "Added the ability to shield someone from bullets as a reverse bodyshield by grabbing them with a passive grab and clicking on them on grab intent while aiming at the hands."
