@@ -100,7 +100,7 @@ try
 	{
 		var trimmedLine = dependenciesShLine.Trim();
 		var lineSplit = trimmedLine.Split('=', StringSplitOptions.RemoveEmptyEntries);
-		if (lineSplit.Length != 2 || lineSplit.StartsWith("echo")) // NEW HORIZONS EDIT
+		if (lineSplit.Length != 2 || lineSplit[0].StartsWith("echo")) // NEW HORIZONS EDIT
 			continue;
 
 		if (lineSplit[0].EndsWith("BYOND_MAJOR"))
