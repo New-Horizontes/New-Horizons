@@ -19,15 +19,30 @@
 
 	switch(mission_level)
 		if(REPRESENTATIVE_MISSION_HIGH)
-			rep_objectives = pick("Compile and report and audit [rand(1,3)] suspicious indivduals who might be spies or otherwise act hostile against the Republic.",
-							"Have [rand(2,6)] crewmembers sign a pledge of loyalty to the Republic.")
+			if(isvaurca(H))
+				rep_objectives = pick("Compile and report and audit [rand(1,3)] suspicious indivduals who might be spies or otherwise act hostile against the Republic.",
+								"Collect evidence of the [current_map.boss_name] being unfair or bigoted to Vaurca employees, to be used as leverage in future hive labor negotiations.",
+								"Convince the command of the [current_map.station_name] of the utility of Bound labor over similar alternatives such as cyborgs or owned synthetics.")
+			else
+				rep_objectives = pick("Compile and report and audit [rand(1,3)] suspicious indivduals who might be spies or otherwise act hostile against the Republic.",
+								"Have [rand(2,6)] crewmembers sign a pledge of loyalty to the Republic.")
 
 		if(REPRESENTATIVE_MISSION_MEDIUM)
-			rep_objectives = pick("Convince [rand(2,4)] Tau Ceti crewmembers who are not a part of Command or Security to join the Tau Ceti Foreign Legion.",
-							"Convince [rand(3,6)] crewmembers of Tau Ceti superiority over the Sol Alliance.")
+			if(isvaurca(H))
+				rep_objectives = pick("Promote the superiority of the Republic of Biesel over the Sol Alliance.",
+								"Encourage non-citizens to seek citizenship in the Republic via enlistment in the Tau Ceti Foreign Legion.",
+								"Promote Zo'rane products such as Zo'ra Soda to the crew.")
+			else
+				rep_objectives = pick("Convince [rand(2,4)] Tau Ceti crewmembers who are not a part of Command or Security to join the Tau Ceti Foreign Legion.",
+								"Convince [rand(3,6)] crewmembers of Tau Ceti superiority over the Sol Alliance.")
 		else
-			rep_objectives = pick("Run a questionnaire on Tau Ceti citizens' views on synthetic citizenship.",
-							"Run a questionnaire on Tau Ceti citizens' views on vaurca citizenship.")
+			if(isvaurca(H))
+				rep_objectives = pick("Run a questionanaire on Tau Ceti citizens' views on Vaurca citizenship.",
+								"Question non-Vaurca employees about their Vaurca coworkers, looking for areas of improvement.",
+								"Protect and promote the public image of the Zo'ra Hive to all [current_map.boss_name] employees.")
+			else
+				rep_objectives = pick("Run a questionnaire on Tau Ceti citizens' views on synthetic citizenship.",
+								"Run a questionnaire on Tau Ceti citizens' views on vaurca citizenship.")
 
 
 	return rep_objectives
@@ -45,7 +60,7 @@
 	)
 
 /datum/outfit/job/representative/consular/ceti/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	if(H && !visualsOnly)
+	if(H)
 		if(isvaurca(H))
 			H.equip_to_slot_or_del(new /obj/item/clothing/under/gearharness(H), slot_w_uniform)
 			H.equip_to_slot_or_del(new /obj/item/clothing/head/vaurca_breeder/biesel(H), slot_head)
@@ -55,15 +70,16 @@
 			H.equip_to_slot_or_del(new /obj/item/storage/backpack/typec(H), slot_back)
 			H.equip_to_slot_or_del(new /obj/item/gun/energy/vaurca/blaster(H), slot_belt)
 		else
-			addtimer(CALLBACK(src, .proc/send_representative_mission, H), 5 MINUTES)
 			H.equip_to_slot_or_del(new /obj/item/gun/energy/blaster/revolver(H), slot_belt)
+		if(!visualsOnly)
+			addtimer(CALLBACK(src, .proc/send_representative_mission, H), 5 MINUTES)
 	return TRUE
 
 /datum/citizenship/sol_alliance
 	name = CITIZENSHIP_SOL
 	description = "Once considered a juggernaut in terms of cultural and political influence, the Alliance of Sovereign Solarian Nations (ASSN), commonly referred to as the Sol Alliance, has greatly declined in the wake of the phoron crisis and the Solarian collapse of 2462. \
 	Once the spur's largest interstellar power, in recent times the Sol Alliance has retreated to its wealthy so-called Jewel Worlds and inner colonies, with its reach barely extending to a few select middle colonies. \
-    However, it still controls the largest human military in the entire spur, and their cooperation with Einstein Engines and the Nralakk Federation has contributed to it gradually regaining some of its pre-collapse influence and power. \
+	However, it still controls the largest human military in the entire spur, and their cooperation with Einstein Engines and the Nralakk Federation has contributed to it gradually regaining some of its pre-collapse influence and power. \
 	Presently ruled by a military junta that is gradually giving way to civilian control, the Alliance is also generally xenophobic, and most non-humans find themselves discriminated against in Solarian territory. \
 	Though much of its former possessions are now occupied by warlord statelets and other interstellar powers, the Alliance still maintains a revanchist outlook, refusing to relinquish its claims to its lost territories."
 	consular_outfit = /datum/outfit/job/representative/consular/sol
@@ -160,7 +176,7 @@
 
 	backpack_contents = list(
 		/obj/item/device/camera = 1,
-		/obj/item/gun/projectile/colt/super = 1
+		/obj/item/gun/projectile/xanupistol = 1
 	)
 
 /datum/citizenship/elyra

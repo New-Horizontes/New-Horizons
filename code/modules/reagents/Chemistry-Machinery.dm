@@ -1,6 +1,10 @@
 // Update asset_cache.dm if you change these.
-#define BOTTLE_SPRITES list("bottle-1", "bottle-2", "bottle-3", "bottle-4", "bottle-5", "bottle-6") //list of available bottle sprites
+#define BOTTLE_SPRITES list("bottle-1", "bottle-2", "bottle-3", "bottle-4") //list of available bottle sprites
 
+#define CHEMMASTER_BOTTLE_SOUND playsound(src, 'sound/items/pickup/bottle.ogg', 75, 1)
+#define CHEMMASTER_DISPENSE_SOUND playsound(src, 'sound/machines/reagent_dispense.ogg', 75, 1)
+#define CHEMMASTER_CHANGESETTINGS_SOUND playsound(src, 'sound/machines/slide_change.ogg', 75, 1)
+#define CHEMMASTER_SWITCH_SOUND playsound(src, 'sound/machines/switch1.ogg', 75, 1)
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -25,7 +29,7 @@
 	var/bottlesprite = "bottle-1" //yes, strings
 	var/pillsprite = "pill1"
 	var/max_pill_count = 20
-	flags = OPENCONTAINER
+	atom_flags = ATOM_FLAG_OPEN_CONTAINER
 	var/datum/asset/spritesheet/chem_master/chem_asset
 	var/list/forbidden_containers = list(/obj/item/reagent_containers/glass/bucket) //For containers we don't want people to shove into the chem machine. Like big-ass buckets.
 	var/datum/tgui/ui = null
@@ -45,6 +49,21 @@
 				qdel(src)
 				return
 
+/obj/machinery/chem_master/proc/eject()
+	if(beaker && usr)
+		if(!use_check_and_message(usr))
+			usr.put_in_hands(beaker, TRUE)
+		else
+			beaker.loc = get_turf(src)
+		beaker = null
+		reagents.clear_reagents()
+		icon_state = "mixer0"
+		return TRUE
+
+/obj/machinery/chem_master/AltClick()
+	if(!use_check_and_message(usr))
+		eject()
+
 /obj/machinery/chem_master/attackby(var/obj/item/B, mob/user)
 
 	if(istype(B, /obj/item/reagent_containers/glass))
@@ -60,6 +79,7 @@
 		to_chat(user, "You add the beaker to the machine!")
 		src.updateUsrDialog()
 		icon_state = "mixer1"
+		CHEMMASTER_BOTTLE_SOUND
 
 	else if(istype(B, /obj/item/storage/pill_bottle))
 		if(condi)
@@ -153,11 +173,14 @@
 
 	return data
 
+
 /obj/machinery/chem_master/ui_act(action, params)
 	. = ..()
 
 	if(.)
 		return
+
+	playsound(src, 'sound/machines/button3.ogg', 75, 1) //Buttons clicky
 
 	if(action == "ejectp")
 		if(loaded_pill_bottle)
@@ -185,8 +208,9 @@
 					analysis["DNA"] = Gdata["blood_DNA"]
 				else if(params["name"] == "Close")
 					analysis = list()
-
+			CHEMMASTER_SWITCH_SOUND
 			return TRUE
+
 		else if(action == "add")
 			if(params["amount"])
 				var/rtype = text2path(params["add"])
@@ -205,18 +229,12 @@
 			return TRUE
 
 		else if (action == "eject")
-			if(beaker)
-				if(Adjacent(usr))
-					usr.put_in_hands(beaker)
-				else
-					beaker:loc = get_turf(src)
-				beaker = null
-				reagents.clear_reagents()
-				icon_state = "mixer0"
-			return TRUE
+			if(eject())
+				return TRUE
 
 	if (action == "toggle")
 		mode = !mode
+		CHEMMASTER_CHANGESETTINGS_SOUND
 		return TRUE
 
 	else if(action == "createbottle")
@@ -233,6 +251,7 @@
 		else
 			var/obj/item/reagent_containers/food/condiment/P = new/obj/item/reagent_containers/food/condiment(get_turf(src))
 			reagents.trans_to_obj(P,50)
+		CHEMMASTER_BOTTLE_SOUND
 		return TRUE
 
 	else if (action == "createpill" || action == "createpill_multiple")
@@ -242,7 +261,7 @@
 			return TRUE
 
 		if (action == "createpill_multiple")
-			count = input("Select the number of pills to make.", "Max [max_pill_count]", pillamount) as num
+			count = tgui_input_number(usr, "Select the number of pills to make.", src.name, pillamount, max_pill_count, 1)
 			count = Clamp(count, 1, max_pill_count)
 
 		if(reagents.total_volume/count < 1) //Sanity checking.
@@ -251,7 +270,7 @@
 		var/amount_per_pill = reagents.total_volume/count
 		if (amount_per_pill > 60) amount_per_pill = 60
 
-		var/name = sanitizeSafe(input(usr,"Name:","Name your pill!","[reagents.get_primary_reagent_name()] ([amount_per_pill] units)"), MAX_NAME_LEN)
+		var/name = tgui_input_text(usr, "Name your pill.", src.name, "[reagents.get_primary_reagent_name()] ([amount_per_pill] units)", MAX_NAME_LEN)
 
 		if(reagents.total_volume/count < 1) //Sanity checking.
 			return TRUE
@@ -265,16 +284,20 @@
 			reagents.trans_to_obj(P,amount_per_pill)
 			if(src.loaded_pill_bottle)
 				loaded_pill_bottle.insert_into_storage(P)
+		CHEMMASTER_DISPENSE_SOUND
 		return TRUE
 
 	else if(action == "pill_sprite")
 		pillsprite = sanitizeSafe(params["pill_sprite"])
+		CHEMMASTER_CHANGESETTINGS_SOUND
 		return TRUE
 
 	else if(action == "bottle_sprite")
 		bottlesprite = sanitizeSafe(params["bottle_sprite"])
+		CHEMMASTER_CHANGESETTINGS_SOUND
 		return TRUE
 	return TRUE
+
 
 
 /obj/machinery/chem_master/Topic(href, href_list)
@@ -302,7 +325,7 @@
 /obj/machinery/reagentgrinder
 
 	name = "All-In-One Grinder"
-	icon = 'icons/obj/kitchen.dmi'
+	icon = 'icons/obj/machinery/cooking_machines.dmi'
 	icon_state = "juicer1"
 	layer = 2.99
 	density = 0
@@ -601,3 +624,8 @@
 
 	eject()
 	detach()
+
+#undef CHEMMASTER_DISPENSE_SOUND
+#undef CHEMMASTER_CHANGESETTINGS_SOUND
+#undef CHEMMASTER_SWITCH_SOUND
+#undef CHEMMASTER_BOTTLE_SOUND

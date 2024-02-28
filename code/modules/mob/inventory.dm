@@ -24,7 +24,7 @@
 /mob/proc/equip_to_slot_if_possible(obj/item/W as obj, slot, del_on_fail = FALSE, disable_warning = FALSE, redraw_mob = TRUE, ignore_blocked = FALSE, assisted_equip = FALSE)
 	if(!istype(W))
 		return FALSE
-	if(W.item_flags & NOMOVE) //Cannot move NOMOVE items from one inventory slot to another. Cannot do canremove here because then BSTs spawn naked.
+	if(W.item_flags & ITEM_FLAG_NO_MOVE) //Cannot move ITEM_FLAG_NO_MOVE items from one inventory slot to another. Cannot do canremove here because then BSTs spawn naked.
 		return FALSE
 
 	if(!W.mob_can_equip(src, slot, disable_warning, ignore_blocked))
@@ -51,7 +51,7 @@
 // Used in job equipping so shit doesn't pile up at the start loc.
 /mob/living/carbon/human/proc/equip_or_collect(var/obj/item/W, var/slot)
 	if(!istype(W))
-		log_debug("MobEquip: Error when equipping [W] for [src] in [slot]")
+		LOG_DEBUG("MobEquip: Error when equipping [W] for [src] in [slot]")
 		return
 	if(W.mob_can_equip(src, slot, TRUE, TRUE))
 		//Mob can equip.  Equip it.
@@ -413,8 +413,9 @@ var/list/slot_equipment_priority = list( \
 				return TRUE //Something is stopping us. Takes off throw mode.
 
 		if(unEquip(I))
-			make_item_drop_sound(I)
-			I.forceMove(T)
+			if(!QDELETED(I))
+				make_item_drop_sound(I)
+				I.forceMove(T)
 			return TRUE
 
 	if(!unEquip(item) && !ismob(item)) //ismob override is here for grab throwing mobs

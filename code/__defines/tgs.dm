@@ -1,6 +1,6 @@
 // tgstation-server DMAPI
 
-#define TGS_DMAPI_VERSION "6.5.2"
+#define TGS_DMAPI_VERSION "6.6.2"
 
 // All functions and datums outside this document are subject to change with any version and should not be relied on.
 
@@ -19,13 +19,13 @@
 // Required interfaces (fill in with your codebase equivalent):
 
 /// Create a global variable named `Name` and set it to `Value`.
-#define TGS_DEFINE_AND_SET_GLOBAL(Name, Value)
+#define TGS_DEFINE_AND_SET_GLOBAL(Name, Value) var/global/##Name = ##Value
 
 /// Read the value in the global variable `Name`.
-#define TGS_READ_GLOBAL(Name)
+#define TGS_READ_GLOBAL(Name) global.##Name
 
 /// Set the value in the global variable `Name` to `Value`.
-#define TGS_WRITE_GLOBAL(Name, Value)
+#define TGS_WRITE_GLOBAL(Name, Value) global.##Name = ##Value
 
 /// Disallow ANYONE from reflecting a given `path`, security measure to prevent in-game use of DD -> TGS capabilities.
 #define TGS_PROTECT_DATUM(Path)
@@ -129,6 +129,13 @@
 /// DreamDaemon Ultrasafe security level.
 #define TGS_SECURITY_ULTRASAFE 2
 
+/// DreamDaemon public visibility level.
+#define TGS_VISIBILITY_PUBLIC 0
+/// DreamDaemon private visibility level.
+#define TGS_VISIBILITY_PRIVATE 1
+/// DreamDaemon invisible visibility level.
+#define TGS_VISIBILITY_INVISIBLE 2
+
 //REQUIRED HOOKS
 
 /**
@@ -154,7 +161,7 @@
 #define TGS_TOPIC var/tgs_topic_return = TgsTopic(args[1]); if(tgs_topic_return) return tgs_topic_return
 
 /**
- * Call this as late as possible in [world/proc/Reboot].
+ * Call this as late as possible in [world/proc/Reboot] (BEFORE ..()).
  */
 /world/proc/TgsReboot()
 	return
@@ -456,6 +463,10 @@
 
 /// Returns the current BYOND security level as a TGS_SECURITY_ define if TGS is present, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!
 /world/proc/TgsSecurityLevel()
+	return
+
+/// Returns the current BYOND visibility level as a TGS_VISIBILITY_ define if TGS is present, null otherwise. Requires TGS to be using interop API version 5 or higher otherwise the string "___unimplemented" wil be returned. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!
+/world/proc/TgsVisibility()
 	return
 
 /// Returns a list of active [/datum/tgs_revision_information/test_merge]s if TGS is present, null otherwise. This function may sleep if the call to [/world/proc/TgsNew] is sleeping!

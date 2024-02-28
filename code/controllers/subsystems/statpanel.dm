@@ -1,6 +1,4 @@
-var/datum/controller/subsystem/statpanels/SSstatpanels
-
-/datum/controller/subsystem/statpanels
+SUBSYSTEM_DEF(statpanels)
 	name = "Stat Panels"
 	wait = 4
 	init_order = SS_INIT_MISC_FIRST
@@ -20,9 +18,6 @@ var/datum/controller/subsystem/statpanels/SSstatpanels
 	var/mc_wait = 5
 	///how many full runs this subsystem has completed. used for variable rate refreshes.
 	var/num_fires = 0
-
-/datum/controller/subsystem/statpanels/New()
-	NEW_SS_GLOBAL(SSstatpanels)
 
 /datum/controller/subsystem/statpanels/fire(resumed = FALSE)
 	if (!resumed)
@@ -121,6 +116,9 @@ var/datum/controller/subsystem/statpanels/SSstatpanels
 
 /// Set up the various action tabs.
 /datum/controller/subsystem/statpanels/proc/set_action_tabs(client/target, mob/target_mob)
+	if(!target)
+		return
+
 	var/list/actions = target_mob.get_actions_for_statpanel()
 	target.spell_tabs.Cut()
 
