@@ -3,7 +3,6 @@ on:
   push:
     branches:
     - master
-    - 'project/**'
     - 'gh-readonly-queue/master/**'
     - 'gh-readonly-queue/project/**'
     paths:
@@ -19,7 +18,6 @@ on:
   pull_request:
     branches:
     - master
-    - 'project/**'
     paths:
     - '.tgs.yml'
     - '.github/workflows/tgs_test.yml'
