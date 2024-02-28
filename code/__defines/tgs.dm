@@ -31,22 +31,22 @@
 #define TGS_PROTECT_DATUM(Path)
 
 /// Display an announcement `message` from the server to all players.
-#define TGS_WORLD_ANNOUNCE(message) world << "<b>TGS Notification</b>: [html_encode(##message)]"
+#define TGS_WORLD_ANNOUNCE(message)
 
 /// Notify current in-game administrators of a string `event`.
-#define TGS_NOTIFY_ADMINS(event) message_admins(##event)
+#define TGS_NOTIFY_ADMINS(event)
 
 /// Write an info `message` to a server log.
-#define TGS_INFO_LOG(message) log_tgs("[##message]")
+#define TGS_INFO_LOG(message)
 
 /// Write an warning `message` to a server log.
-#define TGS_WARNING_LOG(message) log_tgs("[##message]", SEVERITY_WARNING)
+#define TGS_WARNING_LOG(message)
 
 /// Write an error `message` to a server log.
-#define TGS_ERROR_LOG(message) log_tgs("[##message]", SEVERITY_ERROR)
+#define TGS_ERROR_LOG(message)
 
 /// Get the number of connected /clients.
-#define TGS_CLIENT_COUNT clients.len
+#define TGS_CLIENT_COUNT
 
 #endif
 
