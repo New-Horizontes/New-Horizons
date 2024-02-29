@@ -252,9 +252,9 @@
 		else
 			if (prob(5))
 				visible_emote(pick("nuzzles [friend].",
-								   "brushes against [friend].",
-								   "rubs against [friend].",
-								   "purrs."),0)
+									"brushes against [friend].",
+									"rubs against [friend].",
+									"purrs."),0)
 	else if (friend.health <= 50)
 		if (prob(10))
 			var/verb = pick("meows", "mews", "mrowls")
