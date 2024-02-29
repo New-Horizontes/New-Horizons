@@ -868,7 +868,7 @@
 
 /obj/item/storage/backpack/typec
 	icon = 'icons/mob/species/breeder/inventory.dmi'
-	name = "breeder zo'ra wings"
+	name = "gyne zo'ra wings"//NEW HORIZONS EDIT
 	desc = "The wings of a CB Caste Vaurca. They are far too small at this stage to permit sustained periods of flight in most situations."
 	icon_state = "wings"
 	item_state = "wings"
@@ -903,14 +903,14 @@
 
 /obj/item/storage/backpack/typec/klax
 	icon = 'icons/mob/species/breeder/inventory.dmi'
-	name = "breeder k'lax wings"
+	name = "gyne k'lax wings" //NEW HORIZONS EDIT
 	desc = "The wings of a CB Caste Vaurca. They are far too small at this stage to permit sustained periods of flight in most situations."
 	icon_state = "wings_klax"
 	item_state = "wings_klax"
 
 /obj/item/storage/backpack/typec/cthur
 	icon = 'icons/mob/species/breeder/inventory.dmi'
-	name = "breeder c'thur wings"
+	name = "gyne c'thur wings" //NEW HORIZONS EDIT
 	desc = "The wings of a CB Caste Vaurca. They are far too small at this stage to permit sustained periods of flight in most situations."
 	icon_state = "wings_cthur"
 	item_state = "wings_cthur"

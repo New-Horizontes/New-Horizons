@@ -164,7 +164,7 @@
 	culture_restriction = list(/singleton/origin_item/culture/dominia, /singleton/origin_item/culture/dominian_unathi)
 
 /datum/gear/religion/dominia/accessory/lyodii
-	display_name = "lyodic tribunal necklace"
+	display_name = "porter tribunal necklace" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/accessory/dominia/lyodii
 
 /datum/gear/religion/dominia/accessory/tic
@@ -176,7 +176,7 @@
 	..()
 	var/list/tic_cards = list()
 	tic_cards["retired tribunal investigator card"] = /obj/item/clothing/accessory/dominia/tic/retired
-	tic_cards["retired caladius tribunal investigator card"] = /obj/item/clothing/accessory/dominia/tic/retired/caladius
+	tic_cards["retired rodrigo tribunal investigator card"] = /obj/item/clothing/accessory/dominia/tic/retired/caladius //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(tic_cards)
 
 /datum/gear/religion/dominia/medical

@@ -481,13 +481,13 @@
 	..()
 	var/list/passcard = list()
 	passcard["passcard, tau ceti"] = /obj/item/clothing/accessory/badge/passcard
-	passcard["passcard, sol"] = /obj/item/clothing/accessory/badge/passcard/sol
+	passcard["passcard, protectorate"] = /obj/item/clothing/accessory/badge/passcard/sol //NEW HORIZONS EDIT
 	passcard["passcard, pluto"] = /obj/item/clothing/accessory/badge/passcard/sol/pluto
 	passcard["passcard, jovian"] = /obj/item/clothing/accessory/badge/passcard/sol/jupiter
 	passcard["passcard, luna"] = /obj/item/clothing/accessory/badge/passcard/sol/luna
 	passcard["passcard, europa"] = /obj/item/clothing/accessory/badge/passcard/sol/europa
-	passcard["passcard, cytherean"] = /obj/item/clothing/accessory/badge/passcard/sol/cytherean
-	passcard["passcard, jintarian"] = /obj/item/clothing/accessory/badge/passcard/sol/jintarian
+	passcard["passcard, venus cytherean"] = /obj/item/clothing/accessory/badge/passcard/sol/cytherean //NEW HORIZONS EDIT
+	passcard["passcard, venus jintarian"] = /obj/item/clothing/accessory/badge/passcard/sol/jintarian //NEW HORIZONS EDIT
 	passcard["passcard, eridani"] = /obj/item/clothing/accessory/badge/passcard/eridani
 	passcard["passcard, elyra"] = /obj/item/clothing/accessory/badge/passcard/elyra
 	passcard["passcard, dominia"] = /obj/item/clothing/accessory/badge/passcard/dominia
@@ -501,8 +501,8 @@
 	gear_tweaks += new /datum/gear_tweak/path(passcard)
 
 /datum/gear/accessory/workvisa
-	display_name = "republic of biesel work visa"
-	description = "A work visa issued to those who work in the Republic of Biesel, but who do not have a Biesellite citizenship."
+	display_name = "Protectorate work visa" //NEW HORIZONS EDIT
+	description = "A work visa issued to those who work in Interstellar Protectorate space, but who do not have a valid citizenship." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/accessory/badge/passcard/workvisa
 	cost = 1
 
@@ -515,7 +515,7 @@
 	..()
 	var/list/passport = list()
 	passport["passport, biesel"] = /obj/item/clothing/accessory/badge/passport
-	passport["passport, sol"] = /obj/item/clothing/accessory/badge/passport/sol
+	passport["passport, protectorate"] = /obj/item/clothing/accessory/badge/passport/sol //NEW HORIZONS EDIT
 	passport["passport, elyra"] = /obj/item/clothing/accessory/badge/passport/elyra
 	passport["passport, dominia"] = /obj/item/clothing/accessory/badge/passport/dominia
 	passport["passport, coalition"] = /obj/item/clothing/accessory/badge/passport/coc
@@ -523,7 +523,7 @@
 
 /datum/gear/accessory/TCFLcard
 	display_name = "TCFL service cards"
-	description = "Identification cards given to reservists and former members of the Tau Ceti Foreign Legion."
+	description = "Identification cards given to reservists and former members of the Tau Ceti Foreign Legion, the System Defense Force of the Republic of Biesel." //NEW HORIZONS EDIT
 	path = /obj/item/clothing/accessory/badge/tcfl_papers
 
 /datum/gear/accessory/TCFLcard/New()
@@ -595,9 +595,9 @@
 	flagpatch_national["flagpatch, mictlan"] = /obj/item/clothing/accessory/flagpatch/mictlan
 	flagpatch_national["flagpatch, new gibson"] = /obj/item/clothing/accessory/flagpatch/newgibson
 	flagpatch_national["flagpatch, valkyrie"] = /obj/item/clothing/accessory/flagpatch/valkyrie
-	flagpatch_national["flagpatch, sol"] = /obj/item/clothing/accessory/flagpatch/sol
+	flagpatch_national["flagpatch, protectorate"] = /obj/item/clothing/accessory/flagpatch/sol //NEW HORIZONS EDIT
 	flagpatch_national["flagpatch, mars"] = /obj/item/clothing/accessory/flagpatch/mars
-	flagpatch_national["flagpatch, gus"] = /obj/item/clothing/accessory/flagpatch/gus
+	//flagpatch_national["flagpatch, gus"] = /obj/item/clothing/accessory/flagpatch/gus //NEW HORIZONS EDIT
 	flagpatch_national["flagpatch, eridani"] = /obj/item/clothing/accessory/flagpatch/eridani
 	flagpatch_national["flagpatch, europa"] = /obj/item/clothing/accessory/flagpatch/europa
 	flagpatch_national["flagpatch, new hai phong"] = /obj/item/clothing/accessory/flagpatch/newhaiphong
@@ -615,7 +615,7 @@
 	flagpatch_national["flagpatch, gadpathur"] = /obj/item/clothing/accessory/flagpatch/gadpathur
 	flagpatch_national["flagpatch, assunzione"] = /obj/item/clothing/accessory/flagpatch/assunzione
 	flagpatch_national["flagpatch, dominia"] = /obj/item/clothing/accessory/flagpatch/dominia
-	flagpatch_national["flagpatch, fisanduh"] = /obj/item/clothing/accessory/flagpatch/fisanduh
+	flagpatch_national["flagpatch, upp"] = /obj/item/clothing/accessory/flagpatch/fisanduh //NEW HORIZONS EDIT
 	flagpatch_national["flagpatch, pra"] = /obj/item/clothing/accessory/flagpatch/pra
 	flagpatch_national["flagpatch, dpra"] = /obj/item/clothing/accessory/flagpatch/dpra
 	flagpatch_national["flagpatch, nka"] = /obj/item/clothing/accessory/flagpatch/nka

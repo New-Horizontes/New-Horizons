@@ -51,7 +51,7 @@ var/global/list/tips_by_category = list()
 		"No wall or window is 100% impervious to heat.",
 		"Never try to fight the hostile maintenance drones on your own.",
 		"There is no cloning, but you can respawn... as a different person, obviously.",
-		"The Newscasters are actively updated with Aurora lore... please read them.",
+		"The Newscasters are sometimes updated with new lore.", //NEW HORIZONS EDIT
 		"Your PDA messages can't be erased, so use them wisely.",
 		"The rules are there to help, read them today!",
 		"Role-playing isn't easy, the wiki contains resources to help.",
@@ -112,7 +112,7 @@ var/global/list/tips_by_category = list()
 	category = CATEGORY_COMMAND
 	messages = list(
 		"As the Captain, you are one of the highest priority targets on the ship. Everything from revolutions, to mercenaries, to traitors that need to rob you of your antique laser gun or your life are things to worry about.",
-		"As the Captain, you have absolute access and control over the ship, but this does not mean that being a horrible person won't result in mutiny and a ban.",
+		"As the Captain, you have absolute access and control over the ship, but this does not mean that being a horrible person won't result in mutiny.", //NEW HORIZONS EDIT
 		"As the Executive Officer, you are just as large a target as the Captain because of the potential power your ID and computer can hand out."
 	)
 
@@ -302,7 +302,7 @@ var/global/list/tips_by_category = list()
 		"As a Tajara, you move pretty fast. Zoom zoom, kitty.",
 		"As a Tajara, your resistance to cold probably doesn't actually help you in space. Feel free to try, though.",
 		"As a Skrell, you can look pretty and...uhh...not slip?",
-		"As a Skrell, you have free reign to validhunt synthetics. (Not really, please don't do this oh God what have I done).",
+		"As a Skrell, you have free reign to validhunt synthetics. (Not really, please don't do this oh God what have I done.  Dont try to compete with Dominia and Gadpathur characters for a high score).", //NEW HORIZONS EDIT
 		"As a Human, you are the best. Why do you care about your mechanics?",
 		"As a Human, you are really very great.",
 		"Due to IPCs' synthetic nature, they're immune to most chemicals and gasses.",
@@ -336,8 +336,7 @@ var/global/list/tips_by_category = list()
 /datum/tip/irl
 	category = CATEGORY_IRL
 	messages = list(
-		"Stand up and move around at least once every hour... in real life.",
-		"Don't forget to drink some water... in real life."
+		"Stand up and move around at least once every hour... in real life. Maybe also touch grass." //NEW HORIZONS EDIT
 	)
 
 

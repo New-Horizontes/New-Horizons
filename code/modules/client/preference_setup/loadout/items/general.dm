@@ -74,7 +74,7 @@
 	..()
 	var/list/coffeecups = list()
 	coffeecups["plain coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup
-	coffeecups["sol coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/sol
+	coffeecups["UNIP coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/sol //NEW HORIZONS EDIT
 	coffeecups["San Colette coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/sancolette
 	coffeecups["Europa coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/europa
 	coffeecups["dominian coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/dom
@@ -82,7 +82,7 @@
 	coffeecups["PRA coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/pra
 	coffeecups["DPRA coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal/dpra
 	coffeecups["Sedantis coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal/sedantis
-	coffeecups["CoC coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal/coc
+	coffeecups["Coalition coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal/coc //NEW HORIZONS EDIT
 	coffeecups["Eridani coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/eridani
 	coffeecups["Elyra coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/elyra
 	coffeecups["Hegemony coffee cup"] = /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/hegemony
@@ -133,13 +133,13 @@
 /datum/gear/banner/New()
 	..()
 	var/list/banners = list()
-	banners["banner, Stellar Corporate Conglomerate"] = /obj/item/flag/scc
-	banners["banner, Sol Alliance"] = /obj/item/flag/sol
+	banners["banner, Stellar Corporate Conglomerate"] = /obj/item/flag/scc //NEW HORIZONS EDIT
+	banners["banner, United Nations Interstellar Protectorate"] = /obj/item/flag/sol //NEW HORIZONS EDIT
 	banners["banner, Dominia"] = /obj/item/flag/dominia
 	banners["banner, Elyra"] = /obj/item/flag/elyra
 	banners["banner, Hegemony"] = /obj/item/flag/hegemony
-	banners["banner, Ouerea"] = /obj/item/flag/ouerea
-	banners["banner, Old Ouerea"] = /obj/item/flag/ouerea/old
+	banners["banner, Zakkeran"] = /obj/item/flag/ouerea //NEW HORIZONS EDIT
+	banners["banner, Old Zakkeran"] = /obj/item/flag/ouerea/old //NEW HORIZONS EDIT
 	banners["banner, Nralakk"] = /obj/item/flag/nralakk
 	banners["banner, Traverse"] = /obj/item/flag/traverse
 	banners["banner, NanoTrasen"] = /obj/item/flag/nanotrasen
@@ -150,28 +150,27 @@
 	banners["banner, New Kingdom of Adhomai"] = /obj/item/flag/nka
 	banners["banner, Free Tajaran Council"] = /obj/item/flag/ftc
 	banners["banner, Republic of Biesel"] = /obj/item/flag/biesel
-	banners["banner, Solarian Colonial Mandate of Tau Ceti"] = /obj/item/flag/biesel/antique
+	//banners["banner, Solarian Colonial Mandate of Tau Ceti"] = /obj/item/flag/biesel/antique //NEW HORIZONS EDIT
 	banners["banner, CT-EUM"] = /obj/item/flag/cteum
 	banners["banner, Trinary Perfection"] = /obj/item/flag/trinaryperfection
 	banners["banner, Hephaestus Industries"] = /obj/item/flag/heph
 	banners["banner, Idris Incorporated"] = /obj/item/flag/idris
 	banners["banner, Zenghu Pharmaceuticals"] = /obj/item/flag/zenghu
 	banners["banner, Zavodskoi Interstellar"] = /obj/item/flag/zavodskoi
-	banners["banner, Coalition of Colonies"] = /obj/item/flag/coalition
-	banners["banner, All-Xanu Republic"] = /obj/item/flag/xanu
-	banners["banner, Confederate States of Fisanduh"] = /obj/item/flag/fisanduh
+	banners["banner, Coalition of Independent Systems"] = /obj/item/flag/coalition //NEW HORIZONS EDIT
+	banners["banner, Union of Progressive Peoples"] = /obj/item/flag/fisanduh //NEW HORIZONS EDIT
 	banners["banner, Gadpathur"] = /obj/item/flag/gadpathur
 	banners["banner, Vysoka"] = /obj/item/flag/vysoka
 	banners["banner, Konyang"] = /obj/item/flag/konyang
-	banners["banner, Red Coalition"] = /obj/item/flag/red_coalition
-	banners["banner, Private Military Contracting Group"] = /obj/item/flag/pmcg
+	//banners["banner, Red Coalition"] = /obj/item/flag/red_coalition //NEW HORIZONS EDIT
+	banners["banner, Office of Special Services"] = /obj/item/flag/pmcg //NEW HORIZONS EDIT
 	banners["banner, United Syndicates of Himeo"] = /obj/item/flag/himeo
 	banners["banner, Republic of Assunzione"] = /obj/item/flag/assunzione
 	banners["banner, New Gibson"] = /obj/item/flag/newgibson
 	banners["banner, Visegrad"] = /obj/item/flag/visegrad
 	banners["banner, Union of Port Antillia"] = /obj/item/flag/portantillia
-	banners["banner, Sovereign Solarian Republic of San Colette"] = /obj/item/flag/sancolette
-	banners["banner, Old Sovereign Solarian Republic of San Colette"] = /obj/item/flag/sancolette/old
+	banners["banner, Republic of San Colette"] = /obj/item/flag/sancolette //NEW HORIZONS EDIT
+	banners["banner, Old Republic of San Colette"] = /obj/item/flag/sancolette/old //NEW HORIZONS EDIT
 	banners["banner, Mictlan"] = /obj/item/flag/mictlan
 	banners["banner, New Hai Phong"] = /obj/item/flag/nhp
 	banners["banner, Silversun"] = /obj/item/flag/silversun
@@ -184,7 +183,7 @@
 	banners["banner, Hive Zo'ra"] = /obj/item/flag/zora
 	banners["banner, Hive K'lax"] = /obj/item/flag/klax
 	banners["banner, Hive C'thur"] = /obj/item/flag/cthur
-	banners["banner, Orion Express"] = /obj/item/flag/orion_express
+	banners["banner, Charon Shipping"] = /obj/item/flag/orion_express //NEW HORIZONS EDIT
 	banners["banner, Imperial Frontier"] = /obj/item/flag/imperial_frontier
 	banners["banner, Federal Technocracy of Galatea"] = /obj/item/flag/galatea_government
 	banners["banner, Galatea"] = /obj/item/flag/galatea
@@ -201,12 +200,12 @@
 /datum/gear/standard/New()
 	..()
 	var/list/standards = list()
-	standards["standard, Strelitz"] = /obj/item/flag/strelitz
-	standards["standard, Volvalaad"] = /obj/item/flag/volvalaad
-	standards["standard, Kazhkz"] = /obj/item/flag/kazhkz
-	standards["standard, Han'san"] = /obj/item/flag/hansan
-	standards["standard, Caladius"] = /obj/item/flag/caladius
-	standards["standard, Zhao"] = /obj/item/flag/zhao
+	standards["standard, MacGregor"] = /obj/item/flag/strelitz //NEW HORIZONS EDIT
+	standards["standard, Orlov"] = /obj/item/flag/volvalaad //NEW HORIZONS EDIT
+	standards["standard, Rodrigo"] = /obj/item/flag/kazhkz //NEW HORIZONS EDIT
+	standards["standard, Borgia"] = /obj/item/flag/hansan //NEW HORIZONS EDIT
+	standards["standard, Marchand"] = /obj/item/flag/caladius //NEW HORIZONS EDIT
+	standards["standard, Stahl-Wright"] = /obj/item/flag/zhao //NEW HORIZONS EDIT
 	gear_tweaks += new /datum/gear_tweak/path(standards)
 
 /datum/gear/flag
@@ -218,13 +217,13 @@
 /datum/gear/flag/New()
 	..()
 	var/list/flags = list()
-	flags["flag, Stellar Corporate Conglomerate"] = /obj/item/flag/scc/l
-	flags["flag, Sol Alliance"] = /obj/item/flag/sol/l
+	flags["flag, Stellar Corporate Conglomerate"] = /obj/item/flag/scc/l //NEW HORIZONS EDIT
+	flags["flag, United Nations Interstellar Protectorate"] = /obj/item/flag/sol/l //NEW HORIZONS EDIT
 	flags["flag, Dominia"] = /obj/item/flag/dominia/l
 	flags["flag, Elyra"] = /obj/item/flag/elyra/l
 	flags["flag, Hegemony"] = /obj/item/flag/hegemony/l
-	flags["flag, Ouerea"] = /obj/item/flag/ouerea/l
-	flags["flag, Old Ouerea"] = /obj/item/flag/ouerea/old/l
+	flags["flag, Zakkeran"] = /obj/item/flag/ouerea/l //NEW HORIZONS EDIT
+	flags["flag, Old Zakkeran"] = /obj/item/flag/ouerea/old/l //NEW HORIZONS EDIT
 	flags["flag, Nralakk"] = /obj/item/flag/nralakk/l
 	flags["flag, Traverse"] = /obj/item/flag/traverse/l
 	flags["flag, NanoTrasen"] = /obj/item/flag/nanotrasen/l
@@ -235,25 +234,24 @@
 	flags["flag, New Kingdom of Adhomai"] = /obj/item/flag/nka/l
 	flags["flag, Free Tajaran Council"] = /obj/item/flag/ftc/l
 	flags["flag, Republic of Biesel"] = /obj/item/flag/biesel/l
-	flags["flag, Solarian Colonial Mandate of Tau Ceti"] = /obj/item/flag/biesel/antique/l
+	//flags["flag, Solarian Colonial Mandate of Tau Ceti"] = /obj/item/flag/biesel/antique/l //NEW HORIZONS EDIT
 	flags["flag, Trinary Perfection"] = /obj/item/flag/trinaryperfection/l
 	flags["flag, Hephaestus Industries"] = /obj/item/flag/heph/l
 	flags["flag, Idris Incorporated"] = /obj/item/flag/idris/l
 	flags["flag, Zeng-Hu Pharmaceuticals"] = /obj/item/flag/zenghu/l
 	flags["flag, Zavodskoi Interstellar"] = /obj/item/flag/zavodskoi/l
-	flags["flag, Coalition of Colonies"] = /obj/item/flag/coalition/l
-	flags["flag, All-Xanu Republic"] = /obj/item/flag/xanu/l
-	flags["flag, Confederate States of Fisanduh"] = /obj/item/flag/fisanduh/l
+	flags["flag, Coalition of Independent Systems"] = /obj/item/flag/coalition/l //NEW HORIZONS EDIT
+	flags["flag, Union of Progressive Peoples"] = /obj/item/flag/fisanduh/l //NEW HORIZONS EDIT
 	flags["flag, Gadpathur"] = /obj/item/flag/gadpathur/l
 	flags["flag, Vysoka"] = /obj/item/flag/vysoka/l
 	flags["flag, Konyang"] = /obj/item/flag/konyang/l
-	flags["flag, Red Coalition"] = /obj/item/flag/red_coalition/l
-	flags["flag, Private Military Contracting Group"] = /obj/item/flag/pmcg/l
+	//flags["flag, Red Coalition"] = /obj/item/flag/red_coalition/l //NEW HORIZONS EDIT
+	flags["flag, Office of Special Services"] = /obj/item/flag/pmcg/l //NEW HORIZONS EDIT
 	flags["flag, United Syndicates of Himeo"] = /obj/item/flag/himeo/l
 	flags["flag, Republic of Assunzione"] = /obj/item/flag/assunzione/l
 	flags["flag, Union of Port Antillia"] = /obj/item/flag/portantillia/l
-	flags["flag, Sovereign Solarian Republic of San Colette"] = /obj/item/flag/sancolette/l
-	flags["flag, Old Sovereign Solarian Republic of San Colette"] = /obj/item/flag/sancolette/old/l
+	flags["flag, Sovereign Republic of San Colette"] = /obj/item/flag/sancolette/l //NEW HORIZONS EDIT
+	flags["flag, Old Sovereign Republic of San Colette"] = /obj/item/flag/sancolette/old/l //NEW HORIZONS EDIT
 	flags["flag, Mictlan"] = /obj/item/flag/mictlan/l
 	flags["flag, New Hai Phong"] = /obj/item/flag/nhp/l
 	flags["flag, Silversun"] = /obj/item/flag/silversun/l
@@ -266,7 +264,7 @@
 	flags["flag, Hive Zo'ra"] = /obj/item/flag/zora/l
 	flags["flag, Hive K'lax"] = /obj/item/flag/klax/l
 	flags["flag, Hive C'thur"] = /obj/item/flag/cthur/l
-	flags["flag, Orion Express"] = /obj/item/flag/orion_express/l
+	flags["flag, Charon Shipping"] = /obj/item/flag/orion_express/l //NEW HORIZONS EDIT
 	flags["flag, Imperial Frontier"] = /obj/item/flag/imperial_frontier/l
 	flags["flag, Federal Technocracy of Galatea"] = /obj/item/flag/galatea_government/l
 	flags["flag, Galatea"] = /obj/item/flag/galatea/l
@@ -347,7 +345,7 @@
 	path = /obj/item/device/versebook/gadpathur
 	origin_restriction = list(/singleton/origin_item/origin/gadpathur)
 
-/datum/gear/aurora_miniature
-	display_name = "aurora miniature"
-	description = "A commemorative miniature of the NSS Aurora."
-	path = /obj/item/toy/aurora
+///datum/gear/aurora_miniature //NEW HORIZONS EDIT
+//	display_name = "aurora miniature"
+//	description = "A commemorative miniature of the NSS Aurora."
+//	path = /obj/item/toy/aurora

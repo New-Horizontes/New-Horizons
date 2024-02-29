@@ -143,7 +143,7 @@
 	allowed_roles = security_positions
 	var/list/goggles = list()
 	goggles["goggles, tactical"] = list(/obj/item/clothing/glasses/safety/goggles/goon, null)
-	goggles["goggles, tactical (PMCG)"] = list(/obj/item/clothing/glasses/safety/goggles/goon/pmc, "Private Military Contracting Group")
+	goggles["goggles, tactical (OSS)"] = list(/obj/item/clothing/glasses/safety/goggles/goon/pmc, "Office of Special Services") //NEW HORIZONS EDIT
 	goggles["goggles, tactical (Zavodskoi)"] = list(/obj/item/clothing/glasses/safety/goggles/goon/zavod, "Zavodskoi Interstellar")
 	goggles["goggles, tactical (Idris)"] = list(/obj/item/clothing/glasses/safety/goggles/goon/idris, "Idris Incorporated")
 	gear_tweaks += new /datum/gear_tweak/path/faction(goggles)
@@ -158,7 +158,7 @@
 	..()
 	var/list/goggles = list()
 	goggles["goggles, medical"] = list(/obj/item/clothing/glasses/safety/goggles/medical, null)
-	goggles["goggles, medical (PMCG)"] = list(/obj/item/clothing/glasses/safety/goggles/medical/pmc, "Private Military Contracting Group")
+	goggles["goggles, medical (OSS)"] = list(/obj/item/clothing/glasses/safety/goggles/medical/pmc, "Office of Special Services") //NEW HORIZONS EDIT
 	goggles["goggles, medical (Zeng-Hu)"] = list(/obj/item/clothing/glasses/safety/goggles/medical/zeng, "Zeng-Hu Pharmaceuticals")
 	gear_tweaks += new /datum/gear_tweak/path/faction(goggles)
 

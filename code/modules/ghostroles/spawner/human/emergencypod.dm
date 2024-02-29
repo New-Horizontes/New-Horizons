@@ -19,7 +19,7 @@
 
 	mob_name = null
 
-/datum/ghostspawner/human/rescuepodsurv/New()
+/datum/ghostspawner/human/rescuepodsurv/New()   //NEW HORIZONS EDIT
 	. = ..()
 	var/t = pick(list("star", "priest", "rep", "smuggler", "hunter", "occultist", "pmc", "tcfl", "fsf", "scc", "fib"))
 	if(t == "star")
@@ -50,15 +50,15 @@
 		outfit = /datum/outfit/admin/pod/tcfl
 		possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_TAJARA, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN, SPECIES_SKRELL, SPECIES_SKRELL_AXIORI, SPECIES_UNATHI, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_WORKER, SPECIES_IPC, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL, SPECIES_DIONA) // TCFL accepts everyone. G1 and G2 have been excluded because they can't wear the hardsuit, which has the suit cooler.
 	else if(t == "fsf")
-		welcome_message = "You are a stranded Petty Officer of the Free Solarian Fleets!<br>Your skiff out of the FSFV Sforza was on a routine patrol when an accident or an attack forced you to abandon ship. Thankfully, you seem to be in friendly territory..."
+		welcome_message = "You are a stranded Petty Officer of the Free Fleets Mercenary Group!<br>Your skiff out of the FFV Sforza was on a routine patrol when an accident or an attack forced you to abandon ship. Thankfully, you seem to be in friendly territory..."
 		outfit = /datum/outfit/admin/pod/fsf
 		possible_species = list(SPECIES_HUMAN)
 	else if(t == "scc")
-		welcome_message = "You are a stranded Stellar Corporate Conglomerate low-level functionary!<br>A routine inspection of SCC assets in the Romanovich cloud turned into disaster when your shuttle's reactor suddenly and mysteriously failed. You narrowly escaped with your life. Worst of all? You lost your paperwork."
+		welcome_message = "You are a stranded United Nations Interstellar Protectorate low-level functionary!<br>A routine inspection of UNIP assets in the Romanovich cloud turned into disaster when your shuttle's reactor suddenly and mysteriously failed. You narrowly escaped with your life. Worst of all? You lost your paperwork."
 		outfit = /datum/outfit/admin/pod/scc
 		possible_species = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
 	else if(t == "fib")
-		welcome_message = "You are a stranded Federal Investigation Bureau Agent!<br>What was supposed to be a standard investigation turned into a nightmare when the vessel you were supposed to board opened fire! You just managed to reach an escape pod before your own ship was turned into smoldering rubble. You really need some coffee."
+		welcome_message = "You are a stranded Office of Special Services Agent!<br>What was supposed to be a standard investigation turned into a nightmare when the vessel you were supposed to board opened fire! You just managed to reach an escape pod before your own ship was turned into smoldering rubble. You really need some coffee."
 		outfit = /datum/outfit/admin/pod/bssb
 		possible_species = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
 

@@ -155,11 +155,11 @@
 
 /datum/gear/augment/emotional_manipulator
 	display_name = "emotional manipulator"
-	description = "A Zeng Hu brain implant to manipulate the brain's chemicals to induce a calming or happy feeling."
+	description = "A Zeng Hu-designed commercial brain implant to manipulate the brain's chemicals to induce a calming or happy feeling, commonly bought to deal with migraines." //NEW HORIZONS EDIT
 	path = /obj/item/organ/internal/augment/emotional_manipulator
 	whitelisted = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_BULWARK, SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
-	faction = "Zeng-Hu Pharmaceuticals"
-	allowed_roles = list("Physician", "Surgeon", "Chief Medical Officer", "Pharmacist", "First Responder", "Psychiatrist", "Medical Intern", "Corporate Liaison", "Research Director","Scientist", "Xenobiologist", "Xenobotanist", "Xenoarchaeologist", "Lab Assistant", "Assistant", "Off-Duty Crew Member", "Captain", "Bridge Crew")
+	//faction = "Zeng-Hu Pharmaceuticals"//NEW HORIZONS EDIT
+	//allowed_roles = list("Physician", "Surgeon", "Chief Medical Officer", "Pharmacist", "First Responder", "Psychiatrist", "Medical Intern", "Corporate Liaison", "Research Director","Scientist", "Xenobiologist", "Xenobotanist", "Xenoarchaeologist", "Lab Assistant", "Assistant", "Off-Duty Crew Member", "Captain", "Bridge Crew") //NEW HORIZONS EDIT
 
 /datum/gear/augment/enhanced_vision
 	display_name = "vision enhanced retinas"

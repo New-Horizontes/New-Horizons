@@ -21,7 +21,7 @@
 	path = /obj/item/clothing/accessory/poncho/unathimantle/forest
 	cost = 1
 	whitelisted = list(SPECIES_UNATHI)
-	origin_restriction = list(/singleton/origin_item/origin/heartland_upper, /singleton/origin_item/origin/trad_nobles, /singleton/origin_item/origin/tza_upper, /singleton/origin_item/origin/southlands_upper, /singleton/origin_item/origin/zazalai_upper, /singleton/origin_item/origin/broken_nobles)
+	//origin_restriction = list(/singleton/origin_item/origin/heartland_upper, /singleton/origin_item/origin/trad_nobles, /singleton/origin_item/origin/tza_upper, /singleton/origin_item/origin/southlands_upper, /singleton/origin_item/origin/zazalai_upper, /singleton/origin_item/origin/broken_nobles) //New Horizons Edit
 	sort_category = "Xenowear - Unathi"
 	flags = GEAR_HAS_COLOR_SELECTION
 
@@ -67,7 +67,7 @@
 
 /datum/gear/suit/unathi_robe/kilt
 	display_name = "wasteland kilt"
-	origin_restriction = list(/singleton/origin_item/origin/wastelander)
+	//origin_restriction = list(/singleton/origin_item/origin/wastelander) //New Horizons Edit
 	path = /obj/item/clothing/suit/unathi/robe/kilt
 
 /datum/gear/suit/robe_coat
@@ -80,10 +80,10 @@
 /datum/gear/suit/robe_coat/New()
 	..()
 	var/list/robe_coat = list()
-	robe_coat["tzirzi robe, green"] = /obj/item/clothing/suit/unathi/robe/robe_coat
-	robe_coat["tzirzi robe, orange"] = /obj/item/clothing/suit/unathi/robe/robe_coat/orange
-	robe_coat["tzirzi robe, blue"] = /obj/item/clothing/suit/unathi/robe/robe_coat/blue
-	robe_coat["tzirzi robe, red"] = /obj/item/clothing/suit/unathi/robe/robe_coat/red
+	robe_coat["moghean robe, green"] = /obj/item/clothing/suit/unathi/robe/robe_coat //New Horizons Edit
+	robe_coat["moghean robe, orange"] = /obj/item/clothing/suit/unathi/robe/robe_coat/orange //New Horizons Edit
+	robe_coat["moghean robe, blue"] = /obj/item/clothing/suit/unathi/robe/robe_coat/blue //New Horizons Edit
+	robe_coat["moghean robe, red"] = /obj/item/clothing/suit/unathi/robe/robe_coat/red //New Horizons Edit
 	gear_tweaks += new /datum/gear_tweak/path(robe_coat)
 
 /datum/gear/gloves/unathi
@@ -145,10 +145,10 @@
 /datum/gear/religion/unathi_book/New()
 	..()
 	var/list/unathi_book = list()
-	unathi_book["Sk'akh Legends"] = /obj/item/device/versebook/skakh
-	unathi_book["assorted Th'akh fables"] = /obj/item/device/versebook/thakh
-	unathi_book["Reflections on the Aut'akh Faith"] = /obj/item/device/versebook/autakh
-	unathi_book["Writings of Judizah Si'akh"] = /obj/item/device/versebook/siakh
+	unathi_book["Ensi Legends"] = /obj/item/device/versebook/skakh //New Horizons Edit
+	unathi_book["assorted Hartism fables"] = /obj/item/device/versebook/thakh //New Horizons Edit
+	unathi_book["Reflections on the Aut'akh Faith"] = /obj/item/device/versebook/autakh //New Horizons Edit
+	unathi_book["Writings of Sassurism"] = /obj/item/device/versebook/siakh //New Horizons Edit
 	gear_tweaks += new /datum/gear_tweak/path(unathi_book)
 
 /datum/gear/uniform/unathi
@@ -276,10 +276,10 @@
 /datum/gear/uniform/unathi/mogazali/New()
 	..()
 	var/list/mogazali = list()
-	mogazali["mogazali attire, red"] = /obj/item/clothing/under/unathi/mogazali
-	mogazali["mogazali attire, blue"] = /obj/item/clothing/under/unathi/mogazali/blue
-	mogazali["mogazali attire, green"] = /obj/item/clothing/under/unathi/mogazali/green
-	mogazali["mogazali attire, orange"] = /obj/item/clothing/under/unathi/mogazali/orange
+	mogazali["yzali attire, red"] = /obj/item/clothing/under/unathi/mogazali //New Horizons Edit
+	mogazali["yzali attire, blue"] = /obj/item/clothing/under/unathi/mogazali/blue //New Horizons Edit
+	mogazali["yzali attire, green"] = /obj/item/clothing/under/unathi/mogazali/green //New Horizons Edit
+	mogazali["yzali attire, orange"] = /obj/item/clothing/under/unathi/mogazali/orange //New Horizons Edit
 	gear_tweaks += new /datum/gear_tweak/path(mogazali)
 
 /datum/gear/uniform/unathi/zazali

@@ -119,7 +119,7 @@
 	wardenhead["warden hat, zavod"] = /obj/item/clothing/head/warden/zavod
 	wardenhead["warden hat, zavod alt"] = /obj/item/clothing/head/warden/zavod/alt
 	wardenhead["warden hat, idris"] = /obj/item/clothing/head/warden/idris
-	wardenhead["warden hat, pmc"] = /obj/item/clothing/head/warden/pmc
+	wardenhead["warden hat, oss"] = /obj/item/clothing/head/warden/pmc //NEW HORIZONS EDIT
 	wardenhead["warden beret"] = /obj/item/clothing/head/beret/security/warden
 	gear_tweaks += new /datum/gear_tweak/path(wardenhead)
 
@@ -299,8 +299,8 @@
 	var/list/surgical = list()
 	surgical["surgical cap, nanotrasen navy blue"] = /obj/item/clothing/head/surgery
 	surgical["surgical cap, zeng-hu purple"] = /obj/item/clothing/head/surgery/zeng
-	surgical["surgical cap, PMCG blue"] = /obj/item/clothing/head/surgery/pmc
-	surgical["surgical cap, PMCG grey"] = /obj/item/clothing/head/surgery/pmc/alt
+	surgical["surgical cap, OSS blue"] = /obj/item/clothing/head/surgery/pmc //NEW HORIZONS EDIT
+	surgical["surgical cap, OSS grey"] = /obj/item/clothing/head/surgery/pmc/alt //NEW HORIZONS EDIT
 	surgical["surgical cap, zavodskoi black"] = /obj/item/clothing/head/surgery/zavod
 	surgical["surgical cap, idris green"] = /obj/item/clothing/head/surgery/idris
 	gear_tweaks += new /datum/gear_tweak/path(surgical)
@@ -443,7 +443,7 @@
 	gear_tweaks += new /datum/gear_tweak/path(gadpathur)
 
 /datum/gear/head/dominia
-	display_name = "fisanduhian ushanka"
+	display_name = "upp ushanka" //NEW HORIZONS EDIT
 	path = /obj/item/clothing/head/ushanka/dominia
 	flags = GEAR_HAS_DESC_SELECTION
 
