@@ -1,0 +1,4 @@
+author: herma
+delete-after: true
+changes:
+  - server: Fixes changelog generation workflow. Now this is meta!
