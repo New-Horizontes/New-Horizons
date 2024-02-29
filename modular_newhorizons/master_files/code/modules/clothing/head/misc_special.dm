@@ -142,7 +142,7 @@
 	icon = 'icons/obj/item/clothing/head/nyakas.dmi'
 	icon_state = "nyakas"
 	item_state = "nyakas"
-	
+
 /obj/item/clothing/head/ushanka/attack_self(mob/user as mob)
 	src.earsup = !src.earsup
 	if(src.earsup)
