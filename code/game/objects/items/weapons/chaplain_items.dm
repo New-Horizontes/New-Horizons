@@ -19,7 +19,7 @@
 	var/can_change_form = TRUE // For holodeck check.
 	var/cooldown = 0 // Floor tap cooldown.
 	var/static/list/nullchoices = list("Null Rod" = /obj/item/nullrod, "Null Staff" = /obj/item/nullrod/staff, "Null Orb" = /obj/item/nullrod/orb, "Null Athame" = /obj/item/nullrod/athame, "Tribunal Rod" = /obj/item/nullrod/dominia, "Tajaran charm" = /obj/item/nullrod/charm,
-									"Mata'ke Sword" = /obj/item/nullrod/matake, "Rredouane Sword" = /obj/item/nullrod/rredouane, "Shumaila Hammer" = /obj/item/nullrod/shumaila, "Zhukamir Ladle" = /obj/item/nullrod/zhukamir, "Azubarre Torch" = /obj/item/nullrod/azubarre)
+									"Rinkresh Spear" = /obj/item/nullrod/matake, "Kadalir Sword" = /obj/item/nullrod/rredouane, "Shumaila Hammer" = /obj/item/nullrod/shumaila, "Zhukamir Ladle" = /obj/item/nullrod/zhukamir, "Azubarre Torch" = /obj/item/nullrod/azubarre) //NEW HORIZONS EDIT
 
 /obj/item/nullrod/obsidianshards
 	name = "obsidian shards"
@@ -78,10 +78,10 @@
 
 /obj/item/nullrod/charm/get_mask_examine_text(mob/user)
 	return "around [user.get_pronoun("his")] neck"
-
+//NEW HORIZONS EDIT START
 /obj/item/nullrod/matake
-	name = "\improper Mata'ke spear"
-	desc = "A ceremonial spear crafted after the image of Mata'ke's holy weapon."
+	name = "\improper Rinkresh spear"
+	desc = "A ceremonial spear crafted after the image of Rinkresh's holy weapon."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "matake_spear"
 	item_state = "matake_spear"
@@ -90,8 +90,8 @@
 	w_class = ITEMSIZE_LARGE
 
 /obj/item/nullrod/rredouane
-	name = "\improper Rredouane sword"
-	desc = "A ceremonial sword crafted after the image of Rredouane's holy sword."
+	name = "\improper Kadalir sword"
+	desc = "A ceremonial sword crafted after the image of Kadalir's holy sword."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "rredouane_sword"
 	item_state = "rredouane_sword"
@@ -359,10 +359,10 @@
 	if(ishuman(user))
 		forceMove(get_turf(usr))
 		usr.put_in_hands(src)
-
+//NEW HORIZONS EDIT START
 /obj/item/storage/altar/kraszar
-	name = "\improper Kraszar altar"
-	desc = "An altar with a book honoring Kraszar, the Ma'ta'ke deity of joy, stories, and language."
+	name = "\improper Kalharna altar"
+	desc = "An altar with a book honoring Kalharna, the Firdrist deity of joy, stories, and language."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "kraszar_bookstand"
 	can_hold = list(/obj/item/storage/bible)
@@ -370,8 +370,8 @@
 	pickup_sound = 'sound/items/pickup/wooden.ogg'
 
 /obj/item/storage/altar/rredouane
-	name = "\improper Rredouane altar"
-	desc = "An altar honoring Rredouane, the Ma'ta'ke deity of valor, triumph, and victory. It has a slot for a ceremonial sword."
+	name = "\improper Kadalir altar"
+	desc = "An altar honoring Kadalir, the Firdrist deity of valour, gambling, and the hunt. It has a slot for a ceremonial sword."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "rredouane_altar_e"
 	can_hold = list(/obj/item/nullrod/rredouane)
@@ -397,6 +397,6 @@
 
 /obj/item/storage/altar/marryam
 	name = "\improper Marryam altar"
-	desc = "A poppyvase used as an altar to honor Marryam, the Ma'ta'ke deity of settlements, sleep, and parenthood."
+	desc = "A poppyvase used as an altar to honor Marryam, the Firdrist deity of settlements, medicine, sleep, and parenthood."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "marryam_poppyvase"

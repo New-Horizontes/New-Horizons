@@ -2671,17 +2671,18 @@
 
 
 //tajaran gods
+//NEW HORIZONS EDIT START
 
 /obj/item/flag/srendarr
-	name = "\improper S'rendarr Banner"
-	desc = "A banner with the symbol of S'rendarr, the Adhomian god of life, fertility, sunlight, youthful energy, and everything associated with the time of summer and daylight."
+	name = "\improper Rensa Banner"
+	desc = "A banner with the symbol of Rensa, the Azunali god of life, fertility, sunlight, youthful energy, and everything associated with the time of summer and daylight."
 	flag_path = "srendarr"
 	flag_structure = /obj/structure/sign/flag/srendarr
 	stand_icon = "wood_stand"
 
 /obj/structure/sign/flag/srendarr
-	name = "\improper S'rendarr Banner"
-	desc = "A banner with the symbol of S'rendarr, the Adhomian god of life, fertility, sunlight, youthful energy, and everything associated with the time of summer and daylight."
+	name = "\improper Rensa Banner"
+	desc = "A banner with the symbol of Rensa, the Azunali god of life, fertility, sunlight, youthful energy, and everything associated with the time of summer and daylight."
 	icon_state = "srendarr"
 	flag_path = "srendarr"
 	flag_item = /obj/item/flag/srendarr
@@ -2689,29 +2690,29 @@
 
 /obj/item/flag/messa
 	name = "\improper Messa Banner"
-	desc = "A banner with the symbol of Messa, the Adhomian god of life, fertility, sunlight, youthful energy, and everything associated with the time of summer and daylight."
+	desc = "A banner with the symbol of Messa, the Azunali goddess of inevitability, old age, and winter, but also of guidance, wisdom, protection, and patience."
 	flag_path = "messa"
 	flag_structure = /obj/structure/sign/flag/messa
 	stand_icon = "wood_stand"
 
 /obj/structure/sign/flag/messa
 	name = "\improper Messa Banner"
-	desc = "A banner with the symbol of Messa, the Adhomian goddess of inevitability, old age, and winter, but also of guidance, wisdom, protection, and patience."
+	desc = "A banner with the symbol of Messa, the Azunali goddess of inevitability, old age, and winter, but also of guidance, wisdom, protection, and patience."
 	icon_state = "messa"
 	flag_path = "messa"
 	flag_item = /obj/item/flag/messa
 	stand_icon = "wood_stand"
 
 /obj/item/flag/matake
-	name = "\improper Mata'ke Banner"
-	desc = "A banner with the symbol of Mata'ke, the spearhead. Mata'ke is the Ma'ta'ke deity of snow, judgment, practicality, order, and strength."
+	name = "\improper Rinkresh Banner"
+	desc = "A banner with the symbol of Rinkresh, the spearhead. Rinkresh is the Firdrist deity of snow, judgment, practicality, order, and strength."
 	flag_path = "matake"
 	flag_structure = /obj/structure/sign/flag/matake
 	stand_icon = "wood_stand"
 
 /obj/structure/sign/flag/matake
-	name = "\improper Mata'ke Banner"
-	desc = "A banner with the symbol of Mata'ke, the spearhead. Mata'ke is the Ma'ta'ke deity of snow, judgment, practicality, order, and strength."
+	name = "\improper Rinkresh Banner"
+	desc = "A banner with the symbol of Rinkresh, the spearhead. Rinkresh is the Firdrist deity of snow, judgment, practicality, order, and strength."
 	icon_state = "matake"
 	flag_path = "matake"
 	flag_item = /obj/item/flag/matake
@@ -2719,29 +2720,29 @@
 
 /obj/item/flag/marryam
 	name = "\improper Marryam Banner"
-	desc = "A banner with the symbol of Marryam, the poppy. Marryam is the Ma'ta'ke deity of settlements, sleep, and parenthood."
+	desc = "A banner with the symbol of Marryam, the poppy. Marryam is the Firdrist deity of settlements, medicine, sleep, and parenthood."
 	flag_path = "marryam"
 	flag_structure = /obj/structure/sign/flag/marryam
 	stand_icon = "wood_stand"
 
 /obj/structure/sign/flag/marryam
 	name = "\improper Marryam Banner"
-	desc = "A banner with the symbol of Marryam, the poppy. Marryam is the Ma'ta'ke deity of settlements, sleep, and parenthood."
+	desc = "A banner with the symbol of Marryam, the poppy. Marryam is the Firdrist deity of settlements, medicine, sleep, and parenthood."
 	icon_state = "marryam"
 	flag_path = "marryam"
 	flag_item = /obj/item/flag/marryam
 	stand_icon = "wood_stand"
 
 /obj/item/flag/rredouane
-	name = "\improper Rredouane Banner"
-	desc = "A banner with the symbol of Rredouane, the dice and blade. Rredouane is the Ma'ta'ke deity of valor, triumph, and victory."
+	name = "\improper Kadalir Banner"
+	desc = "A banner with the symbol of Kadalir, the dice and blade. Kadalir is the Firdrist deity of valour, gambling, and the hunt."
 	flag_path = "rredouane"
 	flag_structure = /obj/structure/sign/flag/rredouane
 	stand_icon = "wood_stand"
 
 /obj/structure/sign/flag/rredouane
-	name = "\improper Rredouane Banner"
-	desc = "A banner with the symbol of Rredouane, the dice and blade. Rredouane is the Ma'ta'ke deity of valor, triumph, and victory."
+	name = "\improper Kadalir Banner"
+	desc = "A banner with the symbol of Kadalir, the dice and blade. Kadalir is the Firdrist deity of valour, gambling, and the hunt."
 	icon_state = "rredouane"
 	flag_path = "rredouane"
 	flag_item = /obj/item/flag/rredouane
@@ -2749,29 +2750,29 @@
 
 /obj/item/flag/shumaila
 	name = "\improper Shumaila Banner"
-	desc = "A banner with the symbol of Shumaila, the bulwark. Shumaila is the Ma'ta'ke deity of fortification, chastity, and architecture."
+	desc = "A banner with the symbol of Shumaila, the bulwark. Shumaila is the Firdrist deity of forges, craftsmanship, and architecture."
 	flag_path = "shumaila"
 	flag_structure = /obj/structure/sign/flag/shumaila
 	stand_icon = "wood_stand"
 
 /obj/structure/sign/flag/shumaila
 	name = "\improper Shumaila Banner"
-	desc = "A banner with the symbol of Shumaila, the bulwark. Shumaila is the Ma'ta'ke deity of fortification, chastity, and architecture."
+	desc = "A banner with the symbol of Shumaila, the bulwark. Shumaila is the Firdrist deity of forges, craftsmanship, and architecture."
 	icon_state = "shumaila"
 	flag_path = "shumaila"
 	flag_item = /obj/item/flag/shumaila
 	stand_icon = "wood_stand"
 
 /obj/item/flag/kraszar
-	name = "\improper Kraszar Banner"
-	desc = "A banner with the symbol of Hraszar, the scroll of ages. Kraszar is the Ma'ta'ke deity of joy, stories, and language."
+	name = "\improper Kalharna Banner"
+	desc = "A banner with the symbol of Kalharna, the scroll of ages. Kalharna is the Firdrist deity of joy, stories, and language."
 	flag_path = "kraszar"
 	flag_structure = /obj/structure/sign/flag/kraszar
 	stand_icon = "wood_stand"
 
 /obj/structure/sign/flag/kraszar
-	name = "\improper Kraszar Banner"
-	desc = "A banner with the symbol of Hraszar, the scroll of ages. Kraszar is the Ma'ta'ke deity of joy, stories, and language."
+	name = "\improper Kalharna Banner"
+	desc = "A banner with the symbol of Kalharna, the scroll of ages. Kalharna is the Firdrist deity of joy, stories, and language."
 	icon_state = "kraszar"
 	flag_path = "kraszar"
 	flag_item = /obj/item/flag/kraszar
@@ -2794,14 +2795,14 @@
 
 /obj/item/flag/azubarre
 	name = "\improper Azubarre Banner"
-	desc = "A banner with the symbol of Azubarre, the torch of passion. Kraszar is the Ma'ta'ke deity of love, fertility, and marriage."
+	desc = "A banner with the symbol of Azubarre, the torch of passion. Azubarre is the Firdrist deity of love, fertility, and marriage."
 	flag_path = "azubarre"
 	flag_structure = /obj/structure/sign/flag/azubarre
 	stand_icon = "wood_stand"
 
 /obj/structure/sign/flag/azubarre
 	name = "\improper Azubarre Banner"
-	desc = "A banner with the symbol of Azubarre, the torch of passion. Kraszar is the Ma'ta'ke deity of love, fertility, and marriage."
+	desc = "A banner with the symbol of Azubarre, the torch of passion. Azubarre is the Firdrist deity of love, fertility, and marriage."
 	icon_state = "azubarre"
 	flag_path = "azubarre"
 	flag_item = /obj/item/flag/azubarre

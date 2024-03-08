@@ -252,9 +252,9 @@
 	else
 		to_chat(user, "\The [src] has a secondary barrel that is empty.")
 
-/obj/item/gun/projectile/revolver/adhomian
-	name = "adhomian service revolver"
-	desc = "The Royal Firearms Service Revolver is a simple and reliable design, favored by the nobility of the New Kingdom of Adhomai."
+/obj/item/gun/projectile/revolver/adhomian //NEW HORIZONS EDIT
+	name = "azunali service revolver"
+	desc = "The Royal Firearms Service Revolver is a simple and reliable design, seen throughout Sacred Azunal Kingdom. A member of the Suns Incarnate would never be seen without one."
 	icon = 'icons/obj/guns/adhomian_revolver.dmi'
 	icon_state = "adhomian_revolver"
 	item_state = "adhomian_revolver"
@@ -266,13 +266,13 @@
 	magazine_type = null
 	fire_delay = ROF_PISTOL
 
-	desc_extended = "A simple and reliable double action revolver, favored by the nobility, officers and law enforcement. The design is known for having an outdated reloading \
+	desc_extended = "A simple and reliable double action revolver, favored by the nobility, officers and law enforcement, secular and otherwise. The design is known for having an outdated reloading \
 	mechanism, with the need to manually eject each of the used cartridges, and reload one cartridge at a time through a loading gate. However, their cheap manufacturing cost has \
 	allowed countless copies to flood the Kingdom's markets."
 
-/obj/item/gun/projectile/revolver/knife
+/obj/item/gun/projectile/revolver/knife //NEW HORIZONS EDIT
 	name = "knife-revolver"
-	desc = "An Adhomian revolver with a blade attached to its barrel."
+	desc = "An Azunali revolver with a blade attached to its barrel."
 	icon = 'icons/obj/guns/knifegun.dmi'
 	icon_state = "knifegun"
 	item_state = "knifegun"

@@ -1,9 +1,9 @@
-/obj/item/gun/projectile/musket
-	name = "adhomian musket"
-	desc = "A rustic firearm, used by Tajaran soldiers during the adhomian gunpowder age"
+/obj/item/gun/projectile/musket //NEW HORIZONS EDIT
+	name = "azunali musket"
+	desc = "A rustic firearm, used by Tajaran soldiers during the Azunali gunpowder age"
 
-	desc_extended = "The Gunpowder Age was marked by the slow replacement of traditional Adhomian battle tactics and weapons, that included melee weapons and crossbows, in favor of \
-	cannons and primitive firing lines. The Kingdoms of Amohda, Nal'tor and Das'nrra were the first countries to make use of this new technology."
+	desc_extended = "The Gunpowder Age was marked by the slow replacement of traditional Azunali battle tactics and weapons, that included melee weapons and crossbows, in favor of \
+	cannons and primitive firing lines. The Khazsanii of present-day Crevus were a notable victim of this new weapon."
 
 	icon = 'icons/obj/guns/musket.dmi'
 	icon_state = "musket"

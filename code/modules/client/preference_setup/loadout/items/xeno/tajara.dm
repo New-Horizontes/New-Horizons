@@ -1,8 +1,10 @@
+// NEW HORIZONS EDIT CHANGE START: Literally everything here was edited for newlore, if it's got a lore-related name or description, assume it's been edited.
+
 /datum/gear/shoes/tajara/boots
 	display_name = "tajaran boots selection"
 	description = "A selection of boots fitted for Tajara."
 	path = /obj/item/clothing/shoes/tajara
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/shoes/tajara/boots/New()
@@ -15,14 +17,14 @@
 	boots["brown workboots"] = /obj/item/clothing/shoes/workboots/tajara/brown
 	boots["grey workboots"] = /obj/item/clothing/shoes/workboots/tajara/grey
 	boots["dark workboots"] = /obj/item/clothing/shoes/workboots/tajara/dark
-	boots["adhomian boots"] = /obj/item/clothing/shoes/workboots/tajara/adhomian_boots
+	boots["azunali boots"] = /obj/item/clothing/shoes/tajara/azunali_boots
 	gear_tweaks += new /datum/gear_tweak/path(boots)
 
 /datum/gear/gloves/tajara
 	display_name = "tajara gloves selection"
 	description = "A selection of tajaran gloves."
 	path = /obj/item/clothing/gloves/black/tajara
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/gloves/tajara/New()
@@ -47,17 +49,17 @@
 	display_name = "tajara coat and jacket selection"
 	description = "A selection of tajaran native coats and jackets."
 	path = /obj/item/clothing/suit/storage/toggle/tajaran/wool
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/suit/tajara_coat/New()
 	..()
 	var/list/coat = list()
-	coat["tajaran naval coat"] = /obj/item/clothing/suit/storage/toggle/tajaran
-	coat["adhomian wool coat"] = /obj/item/clothing/suit/storage/toggle/tajaran/wool
-	coat["raakti shariim coat"] = /obj/item/clothing/suit/storage/toggle/tajaran/raakti_shariim
-	coat["hadiist surplus jacket"] = /obj/item/clothing/suit/storage/tajaran/pra_jacket
-	coat["al'mariist jacket"] = /obj/item/clothing/suit/storage/tajaran/dpra_jacket
+	coat["tajaran coat"] = /obj/item/clothing/suit/storage/toggle/tajaran
+	coat["khazsanii wool coat"] = /obj/item/clothing/suit/storage/toggle/tajaran/wool
+	coat["raakti shariim coat"] = /obj/item/clothing/suit/storage/toggle/tajaran/raakti_shariim //i'm not happy with the lore for these guys, but I can't be bothered to think of anything rn
+	coat["republican surplus jacket"] = /obj/item/clothing/suit/storage/tajaran/pra_jacket
+	coat["highlands jacket"] = /obj/item/clothing/suit/storage/tajaran/dpra_jacket
 	coat["fancy black ladies coat"] = /obj/item/clothing/suit/storage/tajaran/fancycoat
 	coat["fancy red ladies coat"] = /obj/item/clothing/suit/storage/tajaran/fancycoat/red
 	coat["fine brown coat"] = /obj/item/clothing/suit/storage/tajaran/finecoat
@@ -69,7 +71,7 @@
 	display_name = "tajara cloak selection"
 	description = "A selection of tajaran native cloaks."
 	path = /obj/item/clothing/accessory/poncho/tajarancloak
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	cost = 1
 
@@ -81,21 +83,21 @@
 	tajarancloak["gruff cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran
 	tajarancloak["amohdan cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/amohda
 	tajarancloak["amohdan cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/amohda
-	tajarancloak["adhomian winter cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/winter
-	tajarancloak["adhomian winter cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/winter
-	tajarancloak["adhomian royalist cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/royalist
-	tajarancloak["adhomian royalist cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/royalist
-	tajarancloak["adhomian maroon cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/maroon
-	tajarancloak["adhomian maroon cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/maroon
-	tajarancloak["black fancy adhomian cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/fancy
-	tajarancloak["black fancy adhomian cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/fancyblack
+	tajarancloak["azunali winter cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/winter
+	tajarancloak["azunali winter cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/winter
+	tajarancloak["azunali royalist cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/royalist
+	tajarancloak["azunali royalist cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/royalist
+	tajarancloak["azunali maroon cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/maroon
+	tajarancloak["azunali maroon cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/maroon
+	tajarancloak["black fancy azunali cloak"] = /obj/item/clothing/suit/storage/hooded/tajaran/fancy
+	tajarancloak["black fancy azunali cloak, hoodless"] = /obj/item/clothing/accessory/poncho/tajarancloak/fancyblack
 	gear_tweaks += new /datum/gear_tweak/path(tajarancloak)
 
 /datum/gear/suit/tajara_priest
 	display_name = "tajaran religious suits selection"
 	description = "A selection of tajaran religious robes."
 	path = /obj/item/clothing/suit/storage/hooded/tajaran/priest
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION
 
@@ -104,22 +106,22 @@
 	var/list/robes = list()
 	robes["sun priest robe"] = /obj/item/clothing/suit/storage/hooded/tajaran/priest
 	robes["sun sister robe"] = /obj/item/clothing/suit/storage/tajaran/messa
-	robes["matake priest mantle"] = /obj/item/clothing/suit/storage/tajaran/matake
+	robes["rinkresh priest mantle"] = /obj/item/clothing/suit/storage/tajaran/matake
 	robes["azubarre priest robes"] = /obj/item/clothing/suit/storage/tajaran/azubarre
-	robes["dharmela apron"] = /obj/item/clothing/accessory/apron/dharmela
+	robes["shumaila apron"] = /obj/item/clothing/accessory/apron/dharmela
 	gear_tweaks += new /datum/gear_tweak/path(robes)
 
 /datum/gear/suit/tajaran_labcoat
-	display_name = "PRA medical coat"
+	display_name = "traditional tajara medical coat"
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/tajaran
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	allowed_roles = list("Chief Medical Officer", "Physician", "Surgeon", "Chemist", "First Responder", "Medical Intern")
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/suit/tajaran_surgeon
-	display_name = "adhomian surgeon garb"
+	display_name = "azunali surgeon garb"
 	path = /obj/item/clothing/suit/storage/hooded/tajaran/surgery
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	allowed_roles = list("Chief Medical Officer", "Physician", "Surgeon", "Xenobiologist", "Roboticist", "Medical Intern")
 	sort_category = "Xenowear - Tajara"
 
@@ -127,7 +129,7 @@
 	display_name = "tajaran uniform selection"
 	description = "A selection of tajaran native uniforms."
 	path = /obj/item/clothing/under/tajaran
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/uniform/tajara/New()
@@ -139,13 +141,13 @@
 	uniform["fancy uniform, alt 2"] = /obj/item/clothing/under/tajaran/fancy/alt2
 	uniform["nanotrasen overalls"] = /obj/item/clothing/under/tajaran/nt
 	uniform["matake priest garments"] = /obj/item/clothing/under/tajaran/matake
-	uniform["adhomian summerwear"] = /obj/item/clothing/under/tajaran/summer
-	uniform["adhomian summer pants"] = /obj/item/clothing/under/pants/tajaran
+	uniform["azunali summerwear"] = /obj/item/clothing/under/tajaran/summer
+	uniform["azunali summer pants"] = /obj/item/clothing/under/pants/tajaran
 	uniform["machinist uniform"] = /obj/item/clothing/under/tajaran/mechanic
 	uniform["raakti shariim uniform"] = /obj/item/clothing/under/tajaran/raakti_shariim
-	uniform["a'lmariist laborer clothes"] = /obj/item/clothing/under/tajaran/dpra
-	uniform["a'lmariist laborer clothes, alternate"] = /obj/item/clothing/under/tajaran/dpra/alt
-	uniform["adhomian evening suit"] = /obj/item/clothing/under/tajaran/fancy/evening_suit
+	uniform["merothan colonist clothes"] = /obj/item/clothing/under/tajaran/dpra
+	uniform["merothan colonist clothes, alternate"] = /obj/item/clothing/under/tajaran/dpra/alt
+	uniform["azunali evening suit"] = /obj/item/clothing/under/tajaran/fancy/evening_suit
 	uniform["high-waisted men's wear"] = /obj/item/clothing/under/tajaran/high_waisted
 	uniform["high-waisted men's business wear"] = /obj/item/clothing/under/tajaran/high_waisted/business
 	uniform["relaxed men's wear"] = /obj/item/clothing/under/tajaran/relaxed
@@ -154,46 +156,46 @@
 	gear_tweaks += new /datum/gear_tweak/path(uniform)
 
 /datum/gear/uniform/nka_colorable_uniform
-	display_name = "new kingdom noble clothes"
-	description = "A colorable set of clothes used by the New Kingdom's Tajara."
+	display_name = "kingdom noble clothes"
+	description = "A colorable set of clothes used by the Sacred Azunal Kingdom's Tajara."
 	path = /obj/item/clothing/under/tajaran/nka_noble
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_NAME_SELECTION | GEAR_HAS_DESC_SELECTION | GEAR_HAS_COLOR_SELECTION
 
 /datum/gear/accessory/nka_colorable_accessory
-	display_name = "new kingdom noble accessories clothes"
-	description = "A colorable set of accessories used by the New Kingdom's Tajara."
+	display_name = "kingdom noble accessories clothes"
+	description = "A colorable set of accessories used by the Sacred Azunal Kingdom's Tajara."
 	path = /obj/item/clothing/accessory/tajaran/nka_waistcoat
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_NAME_SELECTION | GEAR_HAS_DESC_SELECTION | GEAR_HAS_COLOR_SELECTION
 
 /datum/gear/accessory/nka_colorable_accessory/New()
 	..()
 	var/list/accessory = list()
-	accessory["noble adhomian waistcoat"] = /obj/item/clothing/accessory/tajaran/nka_waistcoat
-	accessory["noble adhomian vest"] = /obj/item/clothing/accessory/tajaran/nka_vest
+	accessory["noble azunali waistcoat"] = /obj/item/clothing/accessory/tajaran/nka_waistcoat
+	accessory["noble azunali vest"] = /obj/item/clothing/accessory/tajaran/nka_vest
 	gear_tweaks += new /datum/gear_tweak/path(accessory)
 
 /datum/gear/uniform/tajara_dress
 	display_name = "tajaran dress selection"
 	description = "A selection of tajaran native dresses."
 	path = /obj/item/clothing/under/dress/tajaran
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/uniform/tajara_dress/New()
 	..()
 	var/list/dress = list()
-	dress["white fancy adhomian dress"] = /obj/item/clothing/under/dress/tajaran
-	dress["blue fancy adhomian dress"] = /obj/item/clothing/under/dress/tajaran/blue
-	dress["green fancy adhomian dress"] = /obj/item/clothing/under/dress/tajaran/green
-	dress["red fancy adhomian dress"] = /obj/item/clothing/under/dress/tajaran/red
-	dress["red noble adhomian dress"] = /obj/item/clothing/under/dress/tajaran/fancy
-	dress["black noble adhomian dress"] = /obj/item/clothing/under/dress/tajaran/fancy/black
-	dress["black noble adhomian dress"] = /obj/item/clothing/under/dress/tajaran/fancy/black
-	dress["adhomian summer dress"] = /obj/item/clothing/under/dress/tajaran/summer
+	dress["white fancy azunali dress"] = /obj/item/clothing/under/dress/tajaran
+	dress["blue fancy azunali dress"] = /obj/item/clothing/under/dress/tajaran/blue
+	dress["green fancy azunali dress"] = /obj/item/clothing/under/dress/tajaran/green
+	dress["red fancy azunali dress"] = /obj/item/clothing/under/dress/tajaran/red
+	dress["red noble azunali dress"] = /obj/item/clothing/under/dress/tajaran/fancy
+	dress["black noble azunali dress"] = /obj/item/clothing/under/dress/tajaran/fancy/black
+	dress["black noble azunali dress"] = /obj/item/clothing/under/dress/tajaran/fancy/black
+	dress["azunali summer dress"] = /obj/item/clothing/under/dress/tajaran/summer
 	dress["fancy uniform with skirt"] = /obj/item/clothing/under/dress/tajaran/formal
 	dress["fancy uniform with skirt, alt 1"] = /obj/item/clothing/under/dress/tajaran/formal/alt1
 	dress["fancy uniform with skirt, alt 2"] = /obj/item/clothing/under/dress/tajaran/formal/alt2
@@ -208,7 +210,7 @@
 /datum/gear/uniform/tajara_long_dress
 	display_name = "tajaran long dress (recolorable)"
 	path = /obj/item/clothing/under/dress/tajaran/long
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_NAME_SELECTION | GEAR_HAS_DESC_SELECTION | GEAR_HAS_COLOR_SELECTION
 
@@ -217,7 +219,7 @@
 	display_name = "tajaran dress flats selection"
 	description = "Dress flats, in a selection of colours. Fitted for Tajara."
 	path = /obj/item/clothing/shoes/tajara
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/shoes/tajara/flats/New()
@@ -238,7 +240,7 @@
 	display_name = "fur scarf"
 	description = "A selection of tajaran colored fur scarfs."
 	path = /obj/item/clothing/accessory/tajaran
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/accessory/tajara/New()
@@ -256,10 +258,10 @@
 	gear_tweaks += new /datum/gear_tweak/path(scarf)
 
 /datum/gear/head/tajara
-	display_name = "adhomian headgear selection"
+	display_name = "azunali headgear selection"
 	description = "A selection of tajaran native headgear."
 	path = /obj/item/clothing/head/tajaran/circlet
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/head/tajara/New()
@@ -268,20 +270,20 @@
 	circlet["golden dress circlet"] = /obj/item/clothing/head/tajaran/circlet
 	circlet["silver dress circlet"] = /obj/item/clothing/head/tajaran/circlet/silver
 	circlet["fur hat"] = /obj/item/clothing/head/tajaran/fur
-	circlet["matake priest hat"] = /obj/item/clothing/head/tajaran/matake
+	circlet["rinkresh priest hat"] = /obj/item/clothing/head/tajaran/matake
 	circlet["raakti shariim beret"] = /obj/item/clothing/head/beret/tajaran/raakti_shariim
-	circlet["hadiist army beret"] = /obj/item/clothing/head/beret/tajaran/pra
-	circlet["liberation army beret"] = /obj/item/clothing/head/beret/tajaran/dpra
-	circlet["liberation army beret, alternative"] = /obj/item/clothing/head/beret/tajaran/dpra/alt
-	circlet["new kingdom naval beret"] = /obj/item/clothing/head/beret/tajaran/nka
-	circlet["new kingdom naval officer beret"] = /obj/item/clothing/head/beret/tajaran/nka/officer
+	circlet["republican army beret"] = /obj/item/clothing/head/beret/tajaran/pra
+	circlet["revolutionary vanguard beret"] = /obj/item/clothing/head/beret/tajaran/dpra
+	circlet["revolutionary vanguard beret, alternative"] = /obj/item/clothing/head/beret/tajaran/dpra/alt
+	circlet["sacred azunal kingdom naval beret"] = /obj/item/clothing/head/beret/tajaran/nka
+	circlet["sacred azunal kingdom naval officer beret"] = /obj/item/clothing/head/beret/tajaran/nka/officer
 	gear_tweaks += new /datum/gear_tweak/path(circlet)
 
 /datum/gear/accessory/tajara_wrap
-	display_name = "marriage wrap"
-	description = "A holy cloth wrap that signifies marriage amongst tajara."
+	display_name = "unity wrap"
+	description = "A holy cloth wrap that signifies a temporary bond amongst tajara, one that regularly gets misinterpreted as marriage."
 	path = /obj/item/clothing/accessory/tajaran_wrap
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION
 
@@ -295,7 +297,7 @@
 /datum/gear/accessory/tajara_pelt
 	display_name = "ceremonial pelt"
 	path = /obj/item/clothing/accessory/tajaran_pelt
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION
 
@@ -303,7 +305,7 @@
 	display_name = "sun sister veil"
 	path = /obj/item/clothing/mask/tajara
 	cost = 1
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION
 
@@ -311,13 +313,13 @@
 	display_name = "tajaran footwear"
 	path = /obj/item/clothing/shoes/tajara/footwraps
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 
 /datum/gear/shoes/tajara/shoes/New()
 	..()
 	var/list/shoes = list()
 	shoes["native tajaran footwear"] = /obj/item/clothing/shoes/tajara/footwraps
-	shoes["fancy adhomian shoes"] = /obj/item/clothing/shoes/tajara/fancy
+	shoes["fancy azunali shoes"] = /obj/item/clothing/shoes/tajara/fancy
 	shoes["saddle shoes, black"] = /obj/item/clothing/shoes/sneakers/black/tajara
 	gear_tweaks += new /datum/gear_tweak/path(shoes)
 
@@ -325,16 +327,16 @@
 	display_name = "hammer buckle belt"
 	description = "A leather belt adorned by a hammer shaped buckle, worn by priesthood and worshippers of Shumaila."
 	path = /obj/item/storage/belt/shumaila_buckle
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/augment/tesla_spine
 	display_name = "tesla spine"
-	description = "A People's Republic of Adhomai made tesla spine issued to disabled veterans and civilians."
+	description = "A Republic-made tesla spine issued to disabled veterans and civilians."
 	path = /obj/item/organ/internal/augment/tesla
 	cost = 2
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/accessory/tajaran_card
@@ -342,24 +344,24 @@
 	description = "A selection of Tajaran related cards, badges and pins."
 	path = /obj/item/clothing/accessory/badge/hadii_card
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
-/datum/gear/accessory/tajaran_card/New()
+/datum/gear/accessory/tajaran_card/New()  // SAVE FOR LATER AAAAAAAAAAAAAAAAAAAAAA
 	..()
 	var/list/card = list()
-	card["honorary party member card"] = /obj/item/clothing/accessory/badge/hadii_card
-	card["a'lmariist pin"] = /obj/item/clothing/accessory/dpra_badge
+	card["republic party member card"] = /obj/item/clothing/accessory/badge/hadii_card
+	// card["a'lmariist pin"] = /obj/item/clothing/accessory/dpra_badge not really anywhere to stick this
 	card["royalist badge"] = /obj/item/clothing/accessory/nka_badge
-	card["free tajaran council badge"] = /obj/item/clothing/accessory/tajaran/council_badge
+	card["tajara revolutionary vanguard badge"] = /obj/item/clothing/accessory/tajaran/council_badge
 	gear_tweaks += new /datum/gear_tweak/path(card)
-
+/* Absolutely not
 /datum/gear/accessory/tajaranbooks
 	display_name = "tajaran political books"
 	description = "Tajaran books on the Adhomian ideologies."
 	path = /obj/item/book/manual/pra_manifesto
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/accessory/tajaranbooks/New()
@@ -369,77 +371,77 @@
 	card["in defense of al'mari's legacy"] = /obj/item/book/manual/dpra_manifesto
 	card["the new kingdom"] = /obj/item/book/manual/nka_manifesto
 	gear_tweaks += new /datum/gear_tweak/path(card)
-
+*/
 /datum/gear/tajaran_passports
-	display_name = "adhomian passports selection"
-	description = "A selection of Adhomian passports."
+	display_name = "azunali passports selection"
+	description = "A selection of Azunali passports."
 	path = /obj/item/clothing/accessory/badge/pra_passport
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 	cost = 1
 
 /datum/gear/tajaran_passports/New()
 	..()
 	var/list/passports = list()
-	passports["people's republic of adhomai passport"] = /obj/item/clothing/accessory/badge/pra_passport
-	passports["democratic people's republic of adhomai passport"] = /obj/item/clothing/accessory/badge/dpra_passport
-	passports["new kingdom of adhomai passport"] = /obj/item/clothing/accessory/badge/nka_passport
-	passports["free tajaran council passport"] =/obj/item/clothing/accessory/badge/ftc_passport
+	passports["free tajara republic passport"] = /obj/item/clothing/accessory/badge/pra_passport
+	passports["nozhata khazsanii passport"] = /obj/item/clothing/accessory/badge/dpra_passport
+	passports["sacred azunal kingdom passport"] = /obj/item/clothing/accessory/badge/nka_passport
+	passports["tajara revolutionary vanguard passport"] =/obj/item/clothing/accessory/badge/ftc_passport
 	gear_tweaks += new /datum/gear_tweak/path(passports)
 
 /datum/gear/adhomai_zippo
-	display_name = "adhomian lighter"
+	display_name = "azunali lighter"
 	path = /obj/item/flame/lighter/adhomai
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/adhomai_watch
-	display_name = "adhomian watch selection"
-	description = "A selection of Adhomian watches."
+	display_name = "azunali watch selection"
+	description = "A selection of Azunali watches."
 	path = /obj/item/pocketwatch/adhomai
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/adhomai_watch/New()
 	..()
 	var/list/watch = list()
-	watch["adhomian pocket watch"] = /obj/item/pocketwatch/adhomai
-	watch["male adhomian wrist watch"] = /obj/item/clothing/wrists/watch/tajara
-	watch["female adhomian wrist watch"] = /obj/item/clothing/wrists/watch/tajara/female
+	watch["azunali pocket watch"] = /obj/item/pocketwatch/adhomai
+	watch["azunali wrist watch, brown"] = /obj/item/clothing/wrists/watch/tajara
+	watch["azunali wrist watch, purple"] = /obj/item/clothing/wrists/watch/tajara/female
 	gear_tweaks += new /datum/gear_tweak/path(watch)
 
 /datum/gear/tajaran_dice
-	display_name = "bag of adhomian dice"
+	display_name = "bag of azunali dice"
 	path = /obj/item/storage/pill_bottle/dice/tajara
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/utility/himeo_kit/tajara
 	display_name = "tajaran himean voidsuit kit"
 	description = "A simple cardboard box containing the requisition forms, permits, and decal kits for a Himean voidsuit fitted for Tajara. Only \
-	Tajara connected to Himeo and the Free Tajaran Council would have this."
+	Tajara connected to Himeo and the Tajara Revolutionary Vanguard would have this."
 	path = /obj/item/voidsuit_modkit/himeo/tajara
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	allowed_roles = list("Shaft Miner", "Operations Manager", "Engineer", "Atmospheric Technician", "Chief Engineer", "Engineering Apprentice")
 	origin_restriction = list(/singleton/origin_item/origin/free_council)
 
 /datum/gear/tajaran_tarot
-	display_name = "adhomian divination cards deck"
+	display_name = "azunali divination cards deck"
 	path = /obj/item/deck/tarot/adhomai
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/accessory/tajara_charm
 	display_name = "charms and talismans"
 	description = "Charms and talismans often thought of to bring good luck, or of religious significance."
 	path = /obj/item/clothing/accessory/tajaran/charm
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION | GEAR_HAS_NAME_SELECTION
 
@@ -451,8 +453,8 @@
 	charm["steel charm"] = /obj/item/clothing/accessory/tajaran/charm/steel
 	charm["silver charm"] = /obj/item/clothing/accessory/tajaran/charm/steel/silver
 	charm["bone charm"] = /obj/item/clothing/accessory/tajaran/charm/bone
-	charm["silver seashell charm"] = /obj/item/clothing/accessory/tajaran/charm/steel/silver/seashell
-	charm["tajani charm"] = /obj/item/clothing/accessory/tajaran/charm/tajani
+	// charm["silver seashell charm"] = /obj/item/clothing/accessory/tajaran/charm/steel/silver/seashell NOTE: the god associated with this doesn't exist in our lore and I can't think of a decent way to refluff this
+	// charm["tajani charm"] = /obj/item/clothing/accessory/tajaran/charm/tajani NOTE: no
 	charm["holy sun rosette"] = /obj/item/clothing/accessory/tajaran/srendarr
 	gear_tweaks += new /datum/gear_tweak/path(charm)
 
@@ -463,29 +465,30 @@
 	flags = GEAR_HAS_NAME_SELECTION | GEAR_HAS_DESC_SELECTION | GEAR_HAS_COLOR_SELECTION
 
 /datum/gear/accessory/dpra_party_pin
-	display_name = "democratic peoples republic party pins selection"
-	description = "A selection of DPRA party pins."
+	display_name = "free tajara republic political pins selection"
+	description = "A selection of FTR party pins. Though listing all 3100 parties in the Republic would drive one to drink, parties with broadly similar ideologies often use the same iconography."
 	path = /obj/item/clothing/accessory/tajaran/nawparty_pin
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/accessory/dpra_party_pin/New()
 	..()
 	var/list/card = list()
-	card["national adhomai workers party pin"] = /obj/item/clothing/accessory/tajaran/nawparty_pin
-	card["free tajaran people party pin"] = /obj/item/clothing/accessory/tajaran/ftpparty_pin
-	card["followers of Nated party pin"] = /obj/item/clothing/accessory/tajaran/fonparty_pin
-	card["adhomian blue party pin"] = /obj/item/clothing/accessory/tajaran/abparty_pin
-	card["amohdan free lodge party pin"] = /obj/item/clothing/accessory/tajaran/aflparty_pin
+	card["azunali workers bloc pin"] = /obj/item/clothing/accessory/tajaran/nawparty_pin
+	card["tajara advancement bloc pin"] = /obj/item/clothing/accessory/tajaran/ftpparty_pin
+	card["citizens of firdra bloc pin"] = /obj/item/clothing/accessory/tajaran/fonparty_pin
+	card["azunali blue bloc pin"] = /obj/item/clothing/accessory/tajaran/abparty_pin
+	card["cultural values bloc pin"] = /obj/item/clothing/accessory/tajaran/aflparty_pin
 	gear_tweaks += new /datum/gear_tweak/path(card)
 
+/* FUCK
 /datum/gear/accessory/tajaran_gen_accessorry
 	display_name = "tajaran accessories selection"
 	description = "A selection of tajaran related accessories."
 	path = /obj/item/clothing/accessory/tajaran/zbrojny_badge
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/accessory/tajaran_gen_accessorry/New()
@@ -501,13 +504,14 @@
 	card["golden president hadii badge"] = /obj/item/clothing/accessory/tajaran/hadii_badge/gold
 	card["adhomian pearl necklace"] = /obj/item/clothing/accessory/necklace/adhomian
 	gear_tweaks += new /datum/gear_tweak/path(card)
-
+*/
+/* FUCK THIS TOO
 /datum/gear/accessory/tajaran_portraits
 	display_name = "tajaran leader portrait selection"
 	description = "A selection of tajaran leaders portraits."
 	path = /obj/item/sign/painting_frame/hadii
 	sort_category = "Xenowear - Tajara"
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/accessory/tajaran_portraits/New()
@@ -520,12 +524,13 @@
 	portrait["king vahzirthaamro portrait"] = /obj/item/sign/painting_frame/vahzirthaamro
 	portrait["queen shumaila portrait"] = /obj/item/sign/painting_frame/shumaila
 	gear_tweaks += new /datum/gear_tweak/path(portrait)
-
+*/
+/* OH YEAH AND THIS AS WELL
 /datum/gear/accessory/tajara_medal
 	display_name = "tajaran medals"
 	description = "Because of the cultural impact of the civil wars in the Tajara species, medals are treated with the utmost respect by society. Veterans commonly wear their decorations to formal occasions."
 	path = /obj/item/clothing/accessory/medal/dasnrra_evac
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION
 
@@ -539,56 +544,56 @@
 	accessory["NKA medal for the defense of the kingdom"] = /obj/item/clothing/accessory/medal/kingdom_defense
 	accessory["NKA medal for the harr'masir offensive"] = /obj/item/clothing/accessory/medal/harrmasir_offensive
 	gear_tweaks += new /datum/gear_tweak/path(accessory)
-
+*/
 /datum/gear/uniform/tajara_consular
 	display_name = "tajaran alternative consular uniform selection"
 	description = "A selection of tajaran alternative consular uniforms."
 	path = /obj/item/clothing/under/tajaran/consular/female
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	allowed_roles = list("Consular Officer")
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/uniform/tajara_consular/New()
 	..()
 	var/list/uniform = list()
-	uniform["PRA consular uniform, female"] = /obj/item/clothing/under/tajaran/consular/female
-	uniform["DPRA consular uniform, female"] = /obj/item/clothing/under/tajaran/consular/dpra/female
+	uniform["FTR consular uniform, female"] = /obj/item/clothing/under/tajaran/consular/female
+	uniform["khazsanii consular uniform, female"] = /obj/item/clothing/under/tajaran/consular/dpra/female
 	gear_tweaks += new /datum/gear_tweak/path(uniform)
 
 /datum/gear/head/tajara_consular
 	display_name = "tajaran alternative consular hat selection"
 	description = "A selection of tajaran alternative consular hats."
 	path = /obj/item/clothing/head/tajaran/consular/side_cap
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	allowed_roles = list("Consular Officer")
 
 /datum/gear/head/tajara_consular/New()
 	..()
 	var/list/hats = list()
-	hats["PRA consular service side cap"] = /obj/item/clothing/head/tajaran/consular/side_cap
-	hats["DPRA consular service side cap"] = /obj/item/clothing/head/tajaran/consular/dpra/side_cap
+	hats["FTR consular service side cap"] = /obj/item/clothing/head/tajaran/consular/side_cap
+	hats["khazsanii consular service side cap"] = /obj/item/clothing/head/tajaran/consular/dpra/side_cap
 	gear_tweaks += new /datum/gear_tweak/path(hats)
 
 /datum/gear/shoes/tajara/heels
-	display_name = "high-heeled adhomian shoes selection"
+	display_name = "high-heeled azunali shoes selection"
 	description = "High-heeled shoes, in a selection of colours. Fitted for Tajara."
 	path = /obj/item/clothing/shoes/tajara
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/shoes/tajara/heels/New()
 	..()
 	var/list/heels = list()
-	heels["high-heeled adhomian shoes, black"] = /obj/item/clothing/shoes/heels/tajara
-	heels["high-heeled adhomian shoes, red"] = /obj/item/clothing/shoes/heels/tajara/red
+	heels["high-heeled azunali shoes, black"] = /obj/item/clothing/shoes/heels/tajara
+	heels["high-heeled azunali shoes, red"] = /obj/item/clothing/shoes/heels/tajara/red
 	gear_tweaks += new /datum/gear_tweak/path(heels)
 
 /datum/gear/shoes/tajara/oxford
-	display_name = "adhomian oxford shoes selection"
+	display_name = "azunali oxford shoes selection"
 	description = "Oxfords, in a selection of colours. Fitted for Tajara."
 	path = /obj/item/clothing/shoes/laceup/tajara
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/shoes/tajara/oxford/New()
@@ -601,31 +606,31 @@
 
 /datum/gear/accessory/tajara_god_banners
 	display_name = "tajaran deity banners"
-	description = "A selection of banners used to represent the Adhomian gods."
+	description = "A selection of banners used to represent the Azunali gods."
 	path = /obj/item/flag/srendarr
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION
 
 /datum/gear/accessory/tajara_god_banners/New()
 	..()
 	var/list/banner = list()
-	banner["S'rendarr Banner"] = /obj/item/flag/srendarr
+	banner["Rensa Banner"] = /obj/item/flag/srendarr
 	banner["Messa Banner"] = /obj/item/flag/messa
-	banner["Mata'ke Banner"] = /obj/item/flag/matake
+	banner["Rinkresh Banner"] = /obj/item/flag/matake
 	banner["Marryam Banner"] = /obj/item/flag/marryam
-	banner["Rredouane Banner"] = /obj/item/flag/rredouane
+	banner["Kadalir Banner"] = /obj/item/flag/rredouane
 	banner["Shumaila Banner"] = /obj/item/flag/shumaila
-	banner["Kraszar Banner"] = /obj/item/flag/kraszar
-	banner["Dhrarmela Banner"] = /obj/item/flag/dhrarmela
+	banner["Kalharna Banner"] = /obj/item/flag/kraszar
+	// banner["Dhrarmela Banner"] = /obj/item/flag/dhrarmela noncanon, will likely be replaced by Nozha once I can sprite for shit
 	banner["Azubarre Banner"] = /obj/item/flag/azubarre
 	gear_tweaks += new /datum/gear_tweak/path(banner)
 
 /datum/gear/tajara_god_altars
-	display_name = "matakae deity altars"
-	description = "A selection of small altars used to worship the matake gods."
+	display_name = "firdrist deity altars"
+	description = "A selection of small altars used to worship the firdrist gods."
 	path = /obj/item/storage/altar/kraszar
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 	flags = GEAR_HAS_DESC_SELECTION
 
@@ -634,16 +639,16 @@
 	var/list/altar = list()
 	altar["Kraszar altar"] = /obj/item/storage/altar/kraszar
 	altar["Rredouane altar"] = /obj/item/storage/altar/rredouane
-	altar["Dharmela altar"] = /obj/item/storage/altar/dharmela
-	altar["Minharzzka altar"] = /obj/item/storage/altar/minharzzka
+	// altar["Dharmela altar"] = /obj/item/storage/altar/dharmela
+	// altar["Minharzzka altar"] = /obj/item/storage/altar/minharzzka
 	altar["Marryam altar"] = /obj/item/storage/altar/marryam
-	altar["Zhukamir altar"] = /obj/item/reagent_containers/bowl/zhukamir
+	// altar["Zhukamir altar"] = /obj/item/reagent_containers/bowl/zhukamir
 	gear_tweaks += new /datum/gear_tweak/path(altar)
 
 /datum/gear/gloves/tajara_ring
-	display_name = "adhomian costume ring"
+	display_name = "azunali costume ring"
 	path = /obj/item/clothing/ring/tajara
-	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI)
+	whitelisted = list(SPECIES_TAJARA, SPECIES_TAJARA_ZHAN, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_OFFWORLD)
 	sort_category = "Xenowear - Tajara"
 
 /datum/gear/ears/tajara
@@ -655,6 +660,6 @@
 /datum/gear/ears/tajara/New()
 	..()
 	var/list/earrings = list()
-	earrings["adhomian pearls earrings"] = /obj/item/clothing/ears/earring/tajara
-	earrings["adhomian golden earrings"] = /obj/item/clothing/ears/earring/tajara/gold
+	earrings["azunali pearls earrings"] = /obj/item/clothing/ears/earring/tajara
+	earrings["azunali golden earrings"] = /obj/item/clothing/ears/earring/tajara/gold
 	gear_tweaks += new /datum/gear_tweak/path(earrings)

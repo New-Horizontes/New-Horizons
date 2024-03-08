@@ -341,7 +341,6 @@
 	outfit = /datum/outfit/job/chaplain
 
 	blacklisted_species = list(SPECIES_VAURCA_BREEDER)
-
 /datum/outfit/job/chaplain
 	name = "Chaplain"
 	jobtype = /datum/job/chaplain
@@ -379,6 +378,10 @@
 		if(religion.name == "None" || religion.name == "Other")
 			B.verbs += /obj/item/storage/bible/verb/Set_Religion
 			return 1
+		if(religion.name == "Raskariim") //NEW HORIZONS EDIT
+			to_chat(H, "<b>You are a follower of Raskara, the Dynamic One.</b> Most human corporations forbid the hiring of Raskarists, but an ally on the inside \
+			has ensured that your employers think you're a Firdrist. Swallow your disgust at being associated with such a static faith, and stick to the plan. Act innocent, reconnect with other Raskarists, and covertly acquire new converts. \
+			<span class='warning'>Tread carefully. If the authorities find out your true nature, you will likely be <b>permanently</b> removed from the ship.</span>")
 
 		B.icon_state = religion.book_sprite
 		B.name = religion.book_name

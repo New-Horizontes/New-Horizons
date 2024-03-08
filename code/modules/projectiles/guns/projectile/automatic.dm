@@ -507,15 +507,15 @@
 		return
 	..()
 
-/obj/item/gun/projectile/automatic/rifle/adhomian
-	name = "adhomian automatic rifle"
-	desc = "The Tsarrayut'yan rifle is a select-fire automatic rifle producted by the People's Republic of Adhomai."
+/obj/item/gun/projectile/automatic/rifle/adhomian //NEW HORIZONS EDIT
+	name = "azunali automatic rifle"
+	desc = "The Tsarrayut rifle is a select-fire automatic rifle producted by the Free Tajara Republic."
 	icon = 'icons/obj/guns/tsarrayut.dmi'
 	icon_state = "tsarrayut"
 	item_state = "tsarrayut"
 	contained_sprite = TRUE
 
-	desc_extended = "Unlike the other Adhomian factions, the Hadiist military has fully adopted automatic weapons. Their service rifle is the Tsarrayut'yan rifle, a select-fire, \
+	desc_extended = "Unlike the other Azunali factions, the Republican military has fully adopted automatic weapons. Their service rifle is the Tsarrayut rifle, a select-fire, \
 	automatic rifle. Laser weapons are usually used by high-ranking soldiers or special operatives. Regardless of advances in the small arms field, artillery is the Republican army’s \
 	main weapon and pride."
 
@@ -535,10 +535,10 @@
 	knife_x_offset = 23
 	knife_y_offset = 14
 
-/obj/item/gun/projectile/automatic/rifle/dpra
-	name = "adhomian assault rifle"
-	desc = "The Mrrazhak Model-1 is the newest Al'mariist automatic rifle. The Mrrazhak is notorious for its simple and reliable design; it can be fabricated and assembled without the \
-	need of a specialized industry or a highly trained workforce."
+/obj/item/gun/projectile/automatic/rifle/dpra //NEW HORIZONS EDIT
+	name = "azunali assault rifle"
+	desc = "The Mrrazhak Model-1 is the newest Royalist automatic rifle. The Mrrazhak is notorious for its simple and reliable design; it can be fabricated and assembled without the \
+	need of a specialized industry or a highly trained workforce, both things the Kingdom sorely lacks."
 	icon = 'icons/obj/guns/mrrazhak.dmi'
 	icon_state = "mrrazhak"
 	item_state = "mrrazhak"
@@ -567,15 +567,15 @@
 		item_state = "mrrazhak_nomag"
 	..()
 
-/obj/item/gun/projectile/automatic/rifle/dpra/gold
-	name = "gold plated adhomian assault rifle"
-	desc = "The Mrrazhak Model-1 is the newest Al'mariist automatic rifle. The Mrrazhak is notorious for its simple and reliable design; it can be fabricated and assembled without the \
-	need of a specialized industry or a highly trained workforce. This one is golden plated."
+/obj/item/gun/projectile/automatic/rifle/dpra/gold //NEW HORIZONS EDIT
+	name = "gold plated azunali assault rifle"
+	desc = "The Mrrazhak Model-1 is the newest Royalist automatic rifle. The Mrrazhak is notorious for its simple and reliable design; it can be fabricated and assembled without the \
+	need of a specialized industry or a highly trained workforce, both things the Kingdom sorely lacks. This one is gold plated and likely some noble's toy."
 	icon = 'icons/obj/guns/golden_mrrazhak.dmi'
 
-/obj/item/gun/projectile/automatic/tommygun
+/obj/item/gun/projectile/automatic/tommygun //NEW HORIZONS EDIT
 	name = "submachine gun"
-	desc = "An Adhomian-made submachine gun."
+	desc = "An Azunali-made submachine gun."
 	icon = 'icons/obj/guns/tommygun.dmi'
 	icon_state = "tommygun"
 	item_state = "tommygun"

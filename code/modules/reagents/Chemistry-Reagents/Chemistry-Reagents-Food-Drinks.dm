@@ -980,7 +980,7 @@
 	digest(M, alien, removed, holder = holder)
 
 /singleton/reagent/drink/proc/digest(var/mob/living/carbon/M, var/alien, var/removed, var/add_nutrition = TRUE, var/datum/reagents/holder)
-	if(alien != IS_DIONA)
+	if(alien != IS_DIONA || IS_TAJARA) //NEW HORIZON EDIT CHANGE
 		if (caffeine)
 			M.add_up_to_chemical_effect(CE_SPEEDBOOST, caffeine)
 		M.dizziness = max(0, M.dizziness + adj_dizzy)
@@ -1794,6 +1794,7 @@
 	caffeine = 0.3
 	taste_description = "coffee"
 	taste_mult = 1.3
+	var/strength = 15 //NEW HORIZON EDIT CHANGE - just for Taj purposes, scream at me if there's a better way.
 
 	glass_icon_state = "hot_coffee"
 	glass_name = "cup of coffee"
@@ -1807,14 +1808,18 @@
 	if(M.bodytemperature > 310)
 		M.bodytemperature = max(310, M.bodytemperature - (5 * TEMPERATURE_DAMAGE_COEFFICIENT))
 
-	if(alien != IS_DIONA)
+	if(alien != IS_DIONA || IS_TAJARA) //NEW HORIZON EDIT CHANGE
 		M.dizziness = max(0, M.dizziness - 5)
 		M.drowsiness = max(0, M.drowsiness - 3)
 		M.sleeping = max(0, M.sleeping - 2)
 		M.intoxication = max(0, (M.intoxication - (removed*0.25)))
+	//NEW HORIZON EDIT CHANGE BEGIN
+	if(alien == IS_TAJARA)
+		M.intoxication += (strength / 100) * removed * 3.5
+	//NEW HORIZON EDIT CHANGE END
 
 /singleton/reagent/drink/coffee/overdose(var/mob/living/carbon/M, var/alien, var/datum/reagents/holder)
-	if(alien != IS_DIONA)
+	if(alien != IS_DIONA || IS_TAJARA) //NEW HORIZON EDIT CHANGE
 		M.make_jittery(5)
 
 /singleton/reagent/drink/coffee/icecoffee

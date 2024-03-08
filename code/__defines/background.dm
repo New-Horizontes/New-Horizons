@@ -12,10 +12,10 @@
 #define CITIZENSHIP_NRALAKK "Nralakk Federation"
 #define CITIZENSHIP_EUM "Co-Operative Territories of EUM"
 
-#define CITIZENSHIP_PRA "People's Republic of Adhomai"
-#define CITIZENSHIP_DPRA "Democratic People's Republic of Adhomai"
-#define CITIZENSHIP_NKA "New Kingdom of Adhomai"
-#define CITIZENSHIP_FREE_COUNCIL "Free Tajaran Council"
+#define CITIZENSHIP_PRA "Free Tajara Republic" //New Horizons Edit for this whole block really
+#define CITIZENSHIP_DPRA "Nozhata Khazsanii"
+#define CITIZENSHIP_NKA "Sacred Azunal Kingdom"
+#define CITIZENSHIP_FREE_COUNCIL "Tajara Revolutionary Vanguard"
 
 #define CITIZENSHIP_ZORA "Zo'ra Hive"
 #define CITIZENSHIP_KLAX "K'lax Hive"
@@ -51,8 +51,8 @@
 #define RELIGION_SUURKA "Suur'ka"
 #define RELIGION_KIRGUL "Kir'gul"
 
-#define RELIGION_TWINSUNS "S'rendarr and Messa"
-#define RELIGION_MATAKE "Ma'ta'ke"
+#define RELIGION_TWINSUNS "Suns Church" //New Horizons Edit
+#define RELIGION_MATAKE "Firdrism" //New Horizons Edit
 #define RELIGION_RASKARA "Raskariim"
 
 #define RELIGION_HIVEPANTHEON "Hive Pantheon"
@@ -121,22 +121,22 @@
 #define ACCENT_TSUKUYOMI "Tsukuyomian"
 #define ACCENT_EMPYREAN "Empyrean"
 #define ACCENT_SVAROG "Svarogite"
-
-#define ACCENT_REPUBICLANSIIK "Republican Siik'maas"
-#define ACCENT_NAZIRASIIK "Nazira Siik'maas"
+//NEW HORIZONS EDIT: this entire block
+#define ACCENT_REPUBICLANSIIK "Republican Yapudi"
+#define ACCENT_NAZIRASIIK "Nizara Yapudi"
 #define ACCENT_CREVAN "Crevan Creole"
-#define ACCENT_DASNRRASIIK "Das'nrra Siik'maas"
-#define ACCENT_HIGHHARRSIIK "High-Harr'masir Siik'maas"
-#define ACCENT_LOWHARRSIIK "Lower-Harr'masir Siik'maas"
-#define ACCENT_AMOHDASIIK "Amohdan Siik'maas"
-#define ACCENT_RURALDELVAHHI "Rural Delvahhi"
-#define ACCENT_NOMADDELVAHHI "Nomadic Delvahhi"
-#define ACCENT_OLDYASSA "Old Ya'ssa"
-#define ACCENT_NEWYASSA "New Ya'ssa"
-#define ACCENT_NORTHRASNRR "Northern Ras'nrr Siik'maas"
-#define ACCENT_DINAKK "Din'akk Mountains Siik'maas"
-#define ACCENT_HARRNRRI "Harr'nrri Siik'mas"
-#define ACCENT_ZARRJIRI "Zarr'jiri Siik'mas"
+#define ACCENT_DASNRRASIIK "Khazsanii Ornadi"
+#define ACCENT_HIGHHARRSIIK "Harakh Yapudi"
+#define ACCENT_LOWHARRSIIK "Borderlands Yapudi"
+#define ACCENT_AMOHDASIIK "Amohdan Yapudi"
+#define ACCENT_RURALDELVAHHI "Merothan Khazsanii"
+#define ACCENT_NOMADDELVAHHI "Naljiri Yapudi"
+#define ACCENT_OLDYASSA "Chaniska Nobility"
+#define ACCENT_NEWYASSA "Chaniska Commoner"
+#define ACCENT_NORTHRASNRR "Rasmir Yapudi"
+#define ACCENT_DINAKK "Dinakk Yapudi"
+#define ACCENT_HARRNRRI "Harr'nrri Siik'mas" //not using this sry
+#define ACCENT_ZARRJIRI "Yasiri Yapudi"
 
 #define ACCENT_HEARTLAND_NOBLE "Izweski Heartland Noble"
 #define ACCENT_HEARTLAND_PEASANT "Izweski Heartland Peasant"
@@ -216,5 +216,10 @@
 
 #define RELIGIONS_ADHOMAI list(RELIGION_TWINSUNS, RELIGION_MATAKE, RELIGION_RASKARA, RELIGION_NONE, RELIGION_OTHER)
 #define CITIZENSHIPS_ADHOMAI list(CITIZENSHIP_PRA, CITIZENSHIP_DPRA, CITIZENSHIP_NKA)
+//NEW HORIZONS EDIT
+#define CITIZENSHIPS_FTR list(CITIZENSHIP_PRA) //"It just works" -ImmortalRedshirt, 2023
+#define CITIZENSHIPS_SAK list(CITIZENSHIP_NKA)
+#define CITIZENSHIPS_KHAZSANII list(CITIZENSHIP_DPRA)
+#define ACCENTS_AZUNAL list(ACCENT_REPUBICLANSIIK, ACCENT_NAZIRASIIK, ACCENT_CREVAN, ACCENT_DASNRRASIIK, ACCENT_HIGHHARRSIIK, ACCENT_LOWHARRSIIK, ACCENT_AMOHDASIIK, ACCENT_NORTHRASNRR, ACCENT_DINAKK, ACCENT_RURALDELVAHHI, ACCENT_NOMADDELVAHHI, ACCENT_OLDYASSA, ACCENT_NEWYASSA, ACCENT_ZARRJIRI)
 
 #define CITIZENSHIPS_DOMINIA list(CITIZENSHIP_DOMINIA, CITIZENSHIP_COALITION, CITIZENSHIP_BIESEL)

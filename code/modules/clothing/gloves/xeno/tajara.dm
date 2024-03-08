@@ -1,3 +1,5 @@
+// NEW HORIZONS EDIT CHANGE START: Literally everything here was edited for newlore, if it's got a lore-related name or description, assume it's been edited.
+
 /obj/item/clothing/gloves/yellow/specialt
 	name = "tajaran electrical gloves"
 	desc = "These gloves will protect the wearer from electric shock. Made specially for use by Tajara."
@@ -53,17 +55,17 @@
 
 /obj/item/clothing/gloves/black/tajara/smithgloves
 	name = "machinist gloves"
-	desc = "Protective leather gloves worn by Adhomian urban workers."
+	desc = "Protective leather gloves worn by Azunali urban workers."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "smithgloves"
 	item_state = "smithgloves"
 	contained_sprite = TRUE
-	desc_extended = "The quality of life for an urban dweller in Nal'tor, or any other major city, can vary considerably according to the Tajara's occupation, education and standing \
-	with the Party. The average worker that labours in the industrial suburbs, can expect an honest living to be made, and a modest lifestyle to be led. The majority of the city labourers \
-	work in government run factories and spaceports, with stable but strict work hours and schedule the Hadii regime boasts of its fairness to the worker."
+	desc_extended = "The quality of life for an urban dweller in Naltor, or any other major city, can vary considerably according to the Tajara's occupation, education and connections. \
+	The average worker that labours in the industrial suburbs, can expect an honest living to be made, and a modest lifestyle to be led. The majority of the city labourers \
+	work in privately owned factories and spaceports, with stable but strict work hours and schedule that are at least marginally better than life as a peasant in the Kingom."
 
 /obj/item/clothing/gloves/tajaran_gauntlets
-	name = "adhomian gauntlets"
+	name = "azunali gauntlets"
 	desc = "A pair of armored gauntlets made for Tajaran use."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "armored_arms"

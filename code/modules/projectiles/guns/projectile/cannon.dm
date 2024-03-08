@@ -1,4 +1,4 @@
-/obj/item/gun/projectile/cannon
+/obj/item/gun/projectile/cannon //NEW HORIZONS EDIT
 	name = "hand cannon"
 	desc = "An amalgamation of ancient and modern tajaran technology. This old naval cannon was turned into a portable firearm."
 	icon = 'icons/obj/guns/cannon.dmi'
@@ -18,7 +18,7 @@
 
 	is_wieldable = TRUE
 
-	desc_extended = "The adhomian hand cannon was created due the shortage of weapons that happened in the New Kingdom of Adhomai during the second civil war. Old naval culverins \
+	desc_extended = "The azunali hand cannon was created due the shortage of weapons that happened in the Sacred Azunal Kingdom during the Revolution. Old naval culverins \
 	found in museums and forgotten warehouses were adapted into portable weapons, combining modern and ancient tajaran technology. This weapon is usually found in the hands of the \
 	sailors and marines of the Royal Navy."
 
@@ -28,7 +28,7 @@
 		return 0
 	return ..()
 
-/obj/item/gun/projectile/nuke
+/obj/item/gun/projectile/nuke //NEW HORIZONS EDIT
 	name = "nuclear launcher"
 	desc = "A launcher weapon designated to fire miniaturized nuclear warheads."
 	icon = 'icons/obj/guns/blockbuster.dmi' // hoh
@@ -50,8 +50,8 @@
 
 	is_wieldable = TRUE
 
-	desc_extended = "The People's Republic of Adhomai is the first Adhomian faction able to master the nuclear fission. Atomic weapons were used before in the tajaran civil war, \
-	causing the annihilation of the military base of Quizosa. The nuclear launcher was created by republican scientists as way to deploy this destructive force while on the field."
+	desc_extended = "The Free Tajara Republic is the first Azunali faction able to master the nuclear fission, albeit not without outside help. Originally taught to them as a way to generate power, \
+	Republic scientists quickly figured out how to weaponise it on their own. The nuclear launcher was as a way to deploy this destructive force while on the field, though the war was forcibly and mercifully halted before it could be used in combat."
 
 /obj/item/gun/projectile/nuke/update_icon()
 	..()
@@ -66,8 +66,8 @@
 		return 0
 	return ..()
 
-/obj/item/gun/projectile/recoilless_rifle
-	name = "adhomian recoilless rifle"
+/obj/item/gun/projectile/recoilless_rifle //NEW HORIZONS EDIT
+	name = "azunali recoilless rifle"
 	desc = "An inexpensive, one use anti-tank weapon used extensively by the Tajaran armed forces."
 	icon = 'icons/obj/guns/recoilless_rifle.dmi'
 	icon_state = "recoilless_rifle"

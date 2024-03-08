@@ -13,10 +13,12 @@
 #define SECTOR_NEW_ANKARA			"New Ankara"	//New Ankara and its gravity well, Persepolis and New Suez are found here
 #define SECTOR_AEMAQ				"Al-Wakwak"		//al-Wakwak and its gravity well, Aemaqq is found here
 //Tajaran and Unathi sectors
-#define SECTOR_SRANDMARR			"S'rand'marr"	//S'r'and'marr and its gravity well, Adhomai and Raskara are found here
-#define SECTOR_NRRAHRAHUL			"Nrrahrahul"	//Nrrahrahul and its gravity well, Hro'zamal is found here
-#define SECTOR_GAKAL				"Gakal"			//Gakal and its gravity well, Gakal'zaal is found here.
-#define SECTOR_UUEOAESA				"Uueoa-Esa"		//Uueoa-Esa and its gravity well, Moghes and Ouerea are found here.
+
+#define SECTOR_SRANDMARR			"Kra Sana"//Rensa and and its gravity well, Azunal and Raskara are found here (New Horizons Edit)
+#define SECTOR_NRRAHRAHUL			"Nrrahrahul"//Nrrahrahul and its gravity well, Hro'zamal is found here
+#define SECTOR_GAKAL				"Gakal"//Gakal and its gravity well, Gakal'zaal is found here.
+#define SECTOR_UUEOAESA				"Uueoa-Esa"//Uueoa-Esa and its gravity well, Moghes and Ouerea are found here.
+
 #define ALL_BADLAND_SECTORS		list(SECTOR_VALLEY_HALE, SECTOR_BADLANDS, SECTOR_NEW_ANKARA, SECTOR_AEMAQ, SECTOR_SRANDMARR, SECTOR_NRRAHRAHUL, SECTOR_GAKAL, SECTOR_UUEOAESA)
 
 //Coalition-aligned sectors

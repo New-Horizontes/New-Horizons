@@ -1,7 +1,10 @@
+// NEW HORIZONS EDIT CHANGE START: Literally everything here was edited for newlore, if it's got a lore-related name or description, assume it's been edited.
+
+
 /obj/item/storage/box/fancy/cigarettes/pra
 	name = "\improper Labourer's Choice cigarette packet"
-	desc = "Jokingly referred to an essential part of a working class citizen's breakfast, beside state-provided provisions."
-	desc_extended = "Imported from the People's Republic of Adhomai."
+	desc = "Jokingly referred to as an essential part of a working class citizen's breakfast."
+	desc_extended = "One of Makyana's best exports."
 	icon_state = "prapacket"
 	item_state = "Dpacket"
 	storage_slots = 7
@@ -19,24 +22,24 @@
 	new /obj/item/tajcard(src)
 
 /obj/item/storage/box/fancy/cigarettes/dpra
-	name = "\improper Shastar List'ya cigarette packet"
-	desc = "Rumored to be a de-facto currency for Adhominian knuckles off-planet."
-	desc_extended = "Imported from the Democratic People's Republic of Adhomai."
+	name = "\improper Nalmir's Finest cigarette packet"
+	desc = "For staying up through those long journeys, whether across a continent or through the void."
+	desc_extended = "Produced using Khazsanii techniques, lovingly copied by the nations taking their land."
 	icon_state = "dprapacket"
 	item_state = "Bpacket"
 	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/adhomai
 
 /obj/item/storage/box/fancy/cigarettes/nka
 	name = "\improper Gato Royales cigarette packet"
-	desc = "Popular with the aristocrats of the New Kingdom of Adhomai for its mild menthol flavor."
-	desc_extended = "Imported from the New Kingdom of Adhomai."
+	desc = "Popular with the aristocrats of the Sacred Azunal Kingdom for its mild menthol flavor."
+	desc_extended = "Imported from the Sacred Azunal Kingdom."
 	icon_state = "nkapacket"
 	item_state = "Fpacket"
 	cigarette_to_spawn = /obj/item/clothing/mask/smokable/cigarette/adhomai/menthol
 
-/obj/item/tajcard
+/obj/item/tajcard //will come later
 	name = "collectable tajaran card"
-	desc = "A collectable card with an illustration of a famous Tajaran figure, usually found inside cigarette packets."
+	desc = "A collectable card with an illustration of a famous Tajaran figure, usually found inside cigarette packets. As far as you can tell, these cards are not rooted in reality in any way, shape, or form, and paint a picture of a much more disturbing Azunal."
 	icon = 'icons/obj/playing_cards.dmi'
 	icon_state = "tajcig"
 	drop_sound = 'sound/items/drop/paper.ogg'
@@ -128,11 +131,9 @@
 			They are well-known for their iconic thick light-colored cloaks which they wear while traversing the vast countrysides for warmth, as well as camouflage."
 
 /obj/item/pocketwatch/adhomai
-	name = "adhomian watch"
-	desc = "A watch made in the traditional adhomian style. It can be stored in a pocket or worn around the neck."
-	desc_extended = "Baltoris a fortress founded during the Gunpowder Age; it was the landing site of the royal armies during the Suns'wars. Baltor plays a strategic role in controlling the \
-	Ras'val sea during the war. A town emerged around the fort over time, attracted by the safety provided by the military presence. The city is known for its skilled watchmaker artisans, \
-	a trade that has been passed down through generations. The Mez'gin clock tower, located at the town square, is one of its points of interest."
+	name = "azunali watch"
+	desc = "A watch made in the traditional azunal style. It can be stored in a pocket or worn around the neck."
+	desc_extended = "Contrary to its design, reading time on the watch is surprisingly straightforward."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "adhomai_clock"
 	item_state = "adhomai_clock"
@@ -173,8 +174,8 @@
 
 
 /obj/item/flame/lighter/adhomai
-	name = "adhomian lighter"
-	desc = "An adhomian lighter, designed to protect the flame from the strong winds of the Tajaran homeworld."
+	name = "azunali lighter"
+	desc = "An azunali lighter, designed to protect the flame from the strong winds of the Tajaran homeworld."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "trenchlighter"
 	item_state = "trenchlighter"
@@ -239,8 +240,8 @@
 		update_icon()
 
 /obj/item/stack/dice/tajara
-	name = "adhomian dice"
-	desc = "An adhomian dice made out of wood. Commonly used to play Suns and Moon."
+	name = "azunali dice"
+	desc = "An azunali dice made out of wood. Commonly used to play Suns and Moon."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "brother1"
 	base_icon = "brother"
@@ -250,11 +251,11 @@
 	base_icon = "sister"
 
 /obj/item/storage/pill_bottle/dice/tajara
-	name = "bag of adhomian dice"
+	name = "bag of azunali dice"
 	desc = "A bag containing enough dice to play Suns and Moon."
 	icon = 'icons/obj/tajara_items.dmi'
 	desc_extended = "Suns and Moon is a very common dice game. It is played by all, though the lower classes have the tendency to gamble whereas upper classes play it just for fun. The ease and universality \
-	of the rules has garnered it quite the reputation. Die will usually have an image of Rredouane fixed upon them. Parks will commonly have designated spots for people to play Suns and Moon. Disputes are \
+	of the rules has garnered it quite the reputation. Die will usually have an image of Kadalir fixed upon them. Parks will commonly have designated spots for people to play Suns and Moon. Disputes are \
 	also solved through this game."
 	starts_with = list(
 		/obj/item/stack/dice/tajara = 3,

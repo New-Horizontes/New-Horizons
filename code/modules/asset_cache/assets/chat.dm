@@ -5,4 +5,4 @@
 	name = "chat"
 
 /datum/asset/spritesheet/chat/create_spritesheets()
-	InsertAll("accent", 'icons/accent_tags.dmi')
+	InsertAll("accent", 'modular_newhorizons/master_files/icons/accent_tags.dmi') //NEW HORIZONS EDIT
